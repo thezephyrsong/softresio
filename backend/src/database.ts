@@ -3,9 +3,14 @@ import { getEnv } from "./utils.ts"
 
 const DATABASE_USER = getEnv("DATABASE_USER")
 const DATABASE_PASSWORD = getEnv("DATABASE_PASSWORD")
+const DATABASE_HOST = Deno.env.get("DATABASE_HOST") || Deno.env.get("DATABASE_HOSTNAME") || "database"
+const DATABASE_NAME = Deno.env.get("DATABASE_NAME")
+const DATABASE_PORT = Number(Deno.env.get("DATABASE_PORT") || 5432)
 
 export const sql = postgres({
-  host: "database",
+  host: DATABASE_HOST,
+  port: DATABASE_PORT,
+  database: DATABASE_NAME,
   user: DATABASE_USER,
   password: DATABASE_PASSWORD,
 })
