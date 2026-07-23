@@ -1,0 +1,911 @@
+{
+  "id": 118,
+  "shortname": "os10",
+  "raid": true,
+  "name": "The Obsidian Sanctuary (10 Player)",
+  "items": [
+    {
+      "id": 40428,
+      "name": "Titan's Outlook",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Titan's Outlook",
+        "Binds when picked up",
+        "Head    Plate",
+        "774 Armor",
+        "+36 Strength",
+        "+24 Stamina",
+        "Requires Level 60",
+        "Equip: Improves critical strike rating by 15.",
+        "Equip: Increases your armor penetration rating by 14."
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 18.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Head"
+      ],
+      "types": [
+        "Plate"
+      ]
+    },
+    {
+      "id": 40427,
+      "name": "Circle of Arcane Streams",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Circle of Arcane Streams",
+        "Binds when picked up",
+        "Neck",
+        "+14 Stamina",
+        "+13 Intellect",
+        "Requires Level 60",
+        "Equip: Improves hit rating by 14.",
+        "Equip: Improves critical strike rating by 13.",
+        "Equip: Increases spell power by 33."
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 18.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Neck"
+      ],
+      "types": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "id": 40426,
+      "name": "Signet of the Accord",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Signet of the Accord",
+        "Binds when equipped",
+        "Unique-Equipped",
+        "Finger",
+        "+13 Strength",
+        "+26 Stamina",
+        "Requires Level 60",
+        "Equip: Increases your expertise rating by 10.",
+        "Equip: Increases defense rating by 11.",
+        "Equip: Increases your parry rating by 13."
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 19.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Finger"
+      ],
+      "types": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "id": 40433,
+      "name": "Wyrmrest Band",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Wyrmrest Band",
+        "Binds when picked up",
+        "Unique-Equipped",
+        "Finger",
+        "+15 Stamina",
+        "+14 Intellect",
+        "Requires Level 60",
+        "Equip: Improves haste rating by 11.",
+        "Equip: Increases spell power by 26.",
+        "Equip: Restores 11 mana per 5 sec."
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 7.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Finger"
+      ],
+      "types": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "id": 40430,
+      "name": "Item #40430",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Item #40430"
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 18.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 40429,
+      "name": "Crimson Steel",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Crimson Steel",
+        "Binds when picked up",
+        "Main Hand    Fist Weapon",
+        "134 - 239 Damage    Speed 2.60",
+        "(71.7 damage per second)",
+        "+14 Agility",
+        "Requires Level 60",
+        "Equip: Improves hit rating by 15.",
+        "Equip: Improves critical strike rating by 8.",
+        "Equip: Increases attack power by 39."
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 18.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Main Hand"
+      ],
+      "types": [
+        "Fist Weapons"
+      ]
+    },
+    {
+      "id": 43345,
+      "name": "Item #43345",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Item #43345"
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 100.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 43347,
+      "name": "Item #43347",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Item #43347"
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 100.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 43988,
+      "name": "Item #43988",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Item #43988"
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 1.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 43990,
+      "name": "Blade-Scarred Tunic",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Blade-Scarred Tunic",
+        "Binds when picked up",
+        "Chest    Leather",
+        "248 Armor",
+        "+14 Agility",
+        "+20 Stamina",
+        "Yellow Socket",
+        "Socket Bonus: +3 Agility",
+        "Requires Level 60",
+        "Equip: Increases attack power by 42.",
+        "Equip: Improves hit rating by 20.",
+        "Equip: Improves haste rating by 11."
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 2.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Chest"
+      ],
+      "types": [
+        "Leather"
+      ]
+    },
+    {
+      "id": 43991,
+      "name": "Legguards of Composure",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Legguards of Composure",
+        "Binds when picked up",
+        "Legs    Leather",
+        "214 Armor",
+        "+12 Stamina",
+        "+16 Intellect",
+        "+11 Spirit",
+        "Blue Socket",
+        "Socket Bonus: +2 Spell Power",
+        "Requires Level 60",
+        "Equip: Improves critical strike rating by 14.",
+        "Equip: Increases spell power by 34."
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 1.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Legs"
+      ],
+      "types": [
+        "Leather"
+      ]
+    },
+    {
+      "id": 43989,
+      "name": "Remembrance Girdle",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Remembrance Girdle",
+        "Binds when picked up",
+        "Waist    Plate",
+        "476 Armor",
+        "+16 Stamina",
+        "+15 Intellect",
+        "Red Socket",
+        "Socket Bonus: +2 mana per 5 sec.",
+        "Requires Level 60",
+        "Equip: Improves haste rating by 16.",
+        "Equip: Increases spell power by 30.",
+        "Equip: Restores 8 mana per 5 sec."
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 2.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Waist"
+      ],
+      "types": [
+        "Plate"
+      ]
+    },
+    {
+      "id": 43992,
+      "name": "Volitant Amulet",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Volitant Amulet",
+        "Binds when picked up",
+        "Neck",
+        "+13 Stamina",
+        "+14 Intellect",
+        "Yellow Socket",
+        "Socket Bonus: +2 Spell Power",
+        "Requires Level 60",
+        "Equip: Improves critical strike rating by 9.",
+        "Equip: Increases spell power by 29.",
+        "Equip: Restores 11 mana per 5 sec."
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 2.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Neck"
+      ],
+      "types": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "id": 40613,
+      "name": "Item #40613",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Item #40613"
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 28.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 40614,
+      "name": "Item #40614",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Item #40614"
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 29.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 40615,
+      "name": "Item #40615",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Item #40615"
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 37.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 43995,
+      "name": "Enamored Cowl",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Enamored Cowl",
+        "Binds when picked up",
+        "Head    Cloth",
+        "101 Armor",
+        "+17 Stamina",
+        "+22 Intellect",
+        "+23 Spirit",
+        "Meta Socket",
+        "Yellow Socket",
+        "Socket Bonus: +5 Spell Power",
+        "Requires Level 60",
+        "Equip: Improves critical strike rating by 12.",
+        "Equip: Increases spell power by 31."
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Head"
+      ],
+      "types": [
+        "Cloth"
+      ]
+    },
+    {
+      "id": 43998,
+      "name": "Chestguard of Flagrant Prowess",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Chestguard of Flagrant Prowess",
+        "Binds when picked up",
+        "Chest    Mail",
+        "534 Armor",
+        "+21 Agility",
+        "+26 Stamina",
+        "+19 Intellect",
+        "Red Socket",
+        "Socket Bonus: +4 Agility",
+        "Requires Level 60",
+        "Equip: Increases attack power by 48.",
+        "Equip: Improves critical strike rating by 26.",
+        "Equip: Improves hit rating by 16."
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Chest"
+      ],
+      "types": [
+        "Mail"
+      ]
+    },
+    {
+      "id": 43996,
+      "name": "Sabatons of Firmament",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Sabatons of Firmament",
+        "Binds when picked up",
+        "Feet    Mail",
+        "330 Armor",
+        "+23 Stamina",
+        "+20 Intellect",
+        "Yellow Socket",
+        "Socket Bonus: +3 Spell Power",
+        "Requires Level 60",
+        "Equip: Improves critical strike rating by 18.",
+        "Equip: Restores 7 mana per 5 sec.",
+        "Equip: Increases spell power by 32."
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Feet"
+      ],
+      "types": [
+        "Mail"
+      ]
+    },
+    {
+      "id": 43994,
+      "name": "Belabored Legplates",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Belabored Legplates",
+        "Binds when picked up",
+        "Legs    Plate",
+        "832 Armor",
+        "+30 Strength",
+        "+22 Stamina",
+        "Red Socket",
+        "Socket Bonus: +2 Strength",
+        "Requires Level 60",
+        "Equip: Improves critical strike rating by 12.",
+        "Equip: Improves hit rating by 18."
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Legs"
+      ],
+      "types": [
+        "Plate"
+      ]
+    },
+    {
+      "id": 43993,
+      "name": "Greatring of Collision",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Greatring of Collision",
+        "Binds when picked up",
+        "Unique-Equipped",
+        "Finger",
+        "+14 Agility",
+        "+23 Stamina",
+        "Blue Socket",
+        "Socket Bonus: +4 Attack Power",
+        "Requires Level 60",
+        "Equip: Increases attack power by 27.",
+        "Equip: Improves critical strike rating by 15.",
+        "Equip: Increases your armor penetration rating by 11."
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Finger"
+      ],
+      "types": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "id": 43986,
+      "name": "Item #43986",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Item #43986"
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 100.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    }
+  ],
+  "bosses": [
+    {
+      "id": 0,
+      "name": "Sartharion"
+    }
+  ],
+  "npcs": [
+    {
+      "id": 0,
+      "name": "Sartharion",
+      "bossId": 0
+    }
+  ]
+}

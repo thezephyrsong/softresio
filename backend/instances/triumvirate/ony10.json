@@ -1,0 +1,1722 @@
+{
+  "id": 126,
+  "shortname": "ony10",
+  "raid": true,
+  "name": "Onyxia's Lair (10 Player)",
+  "items": [
+    {
+      "id": 49307,
+      "name": "Item #49307",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Item #49307"
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 49316,
+      "name": "Circlet of Transcendence",
+      "classes": [
+        "Priest"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Circlet of Transcendence",
+        "Binds when picked up",
+        "Head    Cloth",
+        "101 Armor",
+        "+21 Stamina",
+        "+25 Intellect",
+        "+28 Spirit",
+        "+10 Fire Resistance",
+        "+10 Frost Resistance",
+        "Meta Socket",
+        "Red Socket",
+        "Socket Bonus: +2 Spell Power",
+        "Classes: Priest",
+        "Requires Level 60",
+        "Equip: Improves critical strike rating by 18.",
+        "Equip: Increases spell power by 30."
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Head"
+      ],
+      "types": [
+        "Cloth"
+      ]
+    },
+    {
+      "id": 49317,
+      "name": "Coronet of Transcendence",
+      "classes": [
+        "Priest"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Coronet of Transcendence",
+        "Binds when picked up",
+        "Head    Cloth",
+        "101 Armor",
+        "+32 Stamina",
+        "+23 Intellect",
+        "+10 Fire Resistance",
+        "+10 Frost Resistance",
+        "Meta Socket",
+        "Blue Socket",
+        "Socket Bonus: +6 Spell Power",
+        "Classes: Priest",
+        "Requires Level 60",
+        "Equip: Improves critical strike rating by 16.",
+        "Equip: Improves haste rating by 16.",
+        "Equip: Increases spell power by 35."
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Head"
+      ],
+      "types": [
+        "Cloth"
+      ]
+    },
+    {
+      "id": 49315,
+      "name": "Nemesis Skullcover",
+      "classes": [
+        "Warlock"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Nemesis Skullcover",
+        "Binds when picked up",
+        "Head    Cloth",
+        "101 Armor",
+        "+22 Stamina",
+        "+24 Intellect",
+        "+24 Spirit",
+        "+10 Frost Resistance",
+        "+10 Shadow Resistance",
+        "Meta Socket",
+        "Red Socket",
+        "Socket Bonus: +2 Spell Power",
+        "Classes: Warlock",
+        "Requires Level 60",
+        "Equip: Improves critical strike rating by 17.",
+        "Equip: Increases spell power by 30."
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Head"
+      ],
+      "types": [
+        "Cloth"
+      ]
+    },
+    {
+      "id": 49318,
+      "name": "Netherwind Hood",
+      "classes": [
+        "Mage"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Netherwind Hood",
+        "Binds when picked up",
+        "Head    Cloth",
+        "101 Armor",
+        "+20 Stamina",
+        "+24 Intellect",
+        "+10 Frost Resistance",
+        "+10 Shadow Resistance",
+        "Meta Socket",
+        "Yellow Socket",
+        "Socket Bonus: +2 Spell Power",
+        "Classes: Mage",
+        "Requires Level 60",
+        "Equip: Improves hit rating by 17.",
+        "Equip: Improves critical strike rating by 17.",
+        "Equip: Increases spell power by 30."
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Head"
+      ],
+      "types": [
+        "Cloth"
+      ]
+    },
+    {
+      "id": 49322,
+      "name": "Bloodfang Mask",
+      "classes": [
+        "Rogue"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Bloodfang Mask",
+        "Binds when picked up",
+        "Head    Leather",
+        "200 Armor",
+        "+25 Agility",
+        "+26 Stamina",
+        "+10 Frost Resistance",
+        "+10 Shadow Resistance",
+        "Meta Socket",
+        "Red Socket",
+        "Socket Bonus: +2 Agility",
+        "Classes: Rogue",
+        "Requires Level 60",
+        "Equip: Increases attack power by 40.",
+        "Equip: Improves critical strike rating by 11.",
+        "Equip: Increases your armor penetration rating by 14."
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Head"
+      ],
+      "types": [
+        "Leather"
+      ]
+    },
+    {
+      "id": 49327,
+      "name": "Stormrage Antlers",
+      "classes": [
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Stormrage Antlers",
+        "Binds when picked up",
+        "Head    Leather",
+        "200 Armor",
+        "+20 Stamina",
+        "+21 Intellect",
+        "+10 Frost Resistance",
+        "+10 Shadow Resistance",
+        "Meta Socket",
+        "Yellow Socket",
+        "Socket Bonus: +2 Spell Power",
+        "Classes: Druid",
+        "Requires Level 60",
+        "Equip: Improves critical strike rating by 19.",
+        "Equip: Improves haste rating by 18.",
+        "Equip: Increases spell power by 30."
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Head"
+      ],
+      "types": [
+        "Leather"
+      ]
+    },
+    {
+      "id": 49328,
+      "name": "Stormrage Helm",
+      "classes": [
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Stormrage Helm",
+        "Binds when picked up",
+        "Head    Leather",
+        "200 Armor",
+        "+22 Agility",
+        "+20 Stamina",
+        "+10 Frost Resistance",
+        "+10 Shadow Resistance",
+        "Meta Socket",
+        "Blue Socket",
+        "Socket Bonus: +2 Agility",
+        "Classes: Druid",
+        "Requires Level 60",
+        "Equip: Increases attack power by 33.",
+        "Equip: Improves hit rating by 17.",
+        "Equip: Increases your expertise rating by 12."
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Head"
+      ],
+      "types": [
+        "Leather"
+      ]
+    },
+    {
+      "id": 49326,
+      "name": "Stormrage Hood",
+      "classes": [
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Stormrage Hood",
+        "Binds when picked up",
+        "Head    Leather",
+        "200 Armor",
+        "+22 Stamina",
+        "+17 Intellect",
+        "+21 Spirit",
+        "+10 Frost Resistance",
+        "+10 Shadow Resistance",
+        "Meta Socket",
+        "Blue Socket",
+        "Socket Bonus: +2 Spell Power",
+        "Classes: Druid",
+        "Requires Level 60",
+        "Equip: Improves critical strike rating by 18.",
+        "Equip: Increases spell power by 30."
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Head"
+      ],
+      "types": [
+        "Leather"
+      ]
+    },
+    {
+      "id": 49331,
+      "name": "Coif of Ten Storms",
+      "classes": [
+        "Shaman"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Coif of Ten Storms",
+        "Binds when picked up",
+        "Head    Mail",
+        "433 Armor",
+        "+22 Stamina",
+        "+19 Intellect",
+        "+10 Frost Resistance",
+        "+10 Shadow Resistance",
+        "Meta Socket",
+        "Yellow Socket",
+        "Socket Bonus: +2 Spell Power",
+        "Classes: Shaman",
+        "Requires Level 60",
+        "Equip: Increases spell power by 30.",
+        "Equip: Improves critical strike rating by 18.",
+        "Equip: Improves hit rating by 12."
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Head"
+      ],
+      "types": [
+        "Mail"
+      ]
+    },
+    {
+      "id": 49330,
+      "name": "Cowl of Ten Storms",
+      "classes": [
+        "Shaman"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Cowl of Ten Storms",
+        "Binds when picked up",
+        "Head    Mail",
+        "433 Armor",
+        "+25 Agility",
+        "+21 Stamina",
+        "+13 Intellect",
+        "+10 Frost Resistance",
+        "+10 Shadow Resistance",
+        "Meta Socket",
+        "Red Socket",
+        "Socket Bonus: +2 Agility",
+        "Classes: Shaman",
+        "Requires Level 60",
+        "Equip: Increases attack power by 40.",
+        "Equip: Improves critical strike rating by 21.",
+        "Equip: Improves haste rating by 12."
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Head"
+      ],
+      "types": [
+        "Mail"
+      ]
+    },
+    {
+      "id": 49329,
+      "name": "Gaze of Ten Storms",
+      "classes": [
+        "Shaman"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Gaze of Ten Storms",
+        "Binds when picked up",
+        "Head    Mail",
+        "439 Armor",
+        "+26 Stamina",
+        "+22 Intellect",
+        "+10 Frost Resistance",
+        "+10 Shadow Resistance",
+        "Meta Socket",
+        "Blue Socket",
+        "Socket Bonus: +4 mana every 5 sec.",
+        "Classes: Shaman",
+        "Requires Level 60",
+        "Equip: Improves critical strike rating by 16.",
+        "Equip: Restores 11 mana per 5 sec.",
+        "Equip: Increases spell power by 33."
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Head"
+      ],
+      "types": [
+        "Mail"
+      ]
+    },
+    {
+      "id": 49319,
+      "name": "Dragonstalker's Helmet",
+      "classes": [
+        "Hunter"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Dragonstalker's Helmet",
+        "Binds when picked up",
+        "Head    Mail",
+        "433 Armor",
+        "+25 Agility",
+        "+21 Stamina",
+        "+14 Intellect",
+        "+10 Frost Resistance",
+        "+10 Shadow Resistance",
+        "Meta Socket",
+        "Red Socket",
+        "Socket Bonus: +6 Armor Penetration Rating",
+        "Classes: Hunter",
+        "Requires Level 60",
+        "Equip: Improves critical strike rating by 13.",
+        "Equip: Increases your armor penetration rating by 12.",
+        "Equip: Increases attack power by 40."
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Head"
+      ],
+      "types": [
+        "Mail"
+      ]
+    },
+    {
+      "id": 49320,
+      "name": "Faceguard of Wrath",
+      "classes": [
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Faceguard of Wrath",
+        "Binds when picked up",
+        "Head    Plate",
+        "774 Armor",
+        "+24 Strength",
+        "+37 Stamina",
+        "+10 Frost Resistance",
+        "+10 Shadow Resistance",
+        "Meta Socket",
+        "Yellow Socket",
+        "Socket Bonus: +5 Stamina",
+        "Classes: Warrior",
+        "Requires Level 60",
+        "Equip: Increases defense rating by 17.",
+        "Equip: Increases your dodge rating by 12.",
+        "Equip: Increases your parry rating by 16."
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Head"
+      ],
+      "types": [
+        "Plate"
+      ]
+    },
+    {
+      "id": 49321,
+      "name": "Greathelm of Wrath",
+      "classes": [
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Greathelm of Wrath",
+        "Binds when picked up",
+        "Head    Plate",
+        "774 Armor",
+        "+33 Strength",
+        "+24 Stamina",
+        "+10 Frost Resistance",
+        "+10 Shadow Resistance",
+        "Meta Socket",
+        "Red Socket",
+        "Socket Bonus: +5 Strength",
+        "Classes: Warrior",
+        "Requires Level 60",
+        "Equip: Improves critical strike rating by 12.",
+        "Equip: Increases your armor penetration rating by 15."
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Head"
+      ],
+      "types": [
+        "Plate"
+      ]
+    },
+    {
+      "id": 49333,
+      "name": "Frostforged Helmet",
+      "classes": [
+        "Death Knight"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Frostforged Helmet",
+        "Binds when picked up",
+        "Head    Plate",
+        "774 Armor",
+        "+33 Strength",
+        "+24 Stamina",
+        "+10 Frost Resistance",
+        "+10 Shadow Resistance",
+        "Meta Socket",
+        "Blue Socket",
+        "Socket Bonus: +5 Strength",
+        "Classes: Death Knight",
+        "Requires Level 60",
+        "Equip: Improves hit rating by 15.",
+        "Equip: Increases your armor penetration rating by 15."
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Head"
+      ],
+      "types": [
+        "Plate"
+      ]
+    },
+    {
+      "id": 49332,
+      "name": "Frostforged Ringhelm",
+      "classes": [
+        "Death Knight"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Frostforged Ringhelm",
+        "Binds when picked up",
+        "Head    Plate",
+        "774 Armor",
+        "+26 Strength",
+        "+37 Stamina",
+        "+10 Frost Resistance",
+        "+10 Shadow Resistance",
+        "Meta Socket",
+        "Blue Socket",
+        "Socket Bonus: +5 Stamina",
+        "Classes: Death Knight",
+        "Requires Level 60",
+        "Equip: Increases defense rating by 13.",
+        "Equip: Increases your parry rating by 16.",
+        "Equip: Improves hit rating by 15."
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Head"
+      ],
+      "types": [
+        "Plate"
+      ]
+    },
+    {
+      "id": 49323,
+      "name": "Judgement Cover",
+      "classes": [
+        "Paladin"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Judgement Cover",
+        "Binds when picked up",
+        "Head    Plate",
+        "774 Armor",
+        "+26 Stamina",
+        "+28 Intellect",
+        "+10 Frost Resistance",
+        "+10 Shadow Resistance",
+        "Meta Socket",
+        "Red Socket",
+        "Socket Bonus: +5 Intellect",
+        "Classes: Paladin",
+        "Requires Level 60",
+        "Equip: Improves haste rating by 12.",
+        "Equip: Improves critical strike rating by 10.",
+        "Equip: Increases spell power by 30."
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Head"
+      ],
+      "types": [
+        "Plate"
+      ]
+    },
+    {
+      "id": 49325,
+      "name": "Judgement Helm",
+      "classes": [
+        "Paladin"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Judgement Helm",
+        "Binds when picked up",
+        "Head    Plate",
+        "774 Armor",
+        "+33 Strength",
+        "+24 Stamina",
+        "+10 Frost Resistance",
+        "+10 Shadow Resistance",
+        "Meta Socket",
+        "Yellow Socket",
+        "Socket Bonus: +5 Strength",
+        "Classes: Paladin",
+        "Requires Level 60",
+        "Equip: Improves critical strike rating by 12.",
+        "Equip: Improves haste rating by 15."
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Head"
+      ],
+      "types": [
+        "Plate"
+      ]
+    },
+    {
+      "id": 49324,
+      "name": "Judgement Helmet",
+      "classes": [
+        "Paladin"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Judgement Helmet",
+        "Binds when picked up",
+        "Head    Plate",
+        "774 Armor",
+        "+24 Strength",
+        "+37 Stamina",
+        "+10 Frost Resistance",
+        "+10 Shadow Resistance",
+        "Meta Socket",
+        "Red Socket",
+        "Socket Bonus: +5 Stamina",
+        "Classes: Paladin",
+        "Requires Level 60",
+        "Equip: Increases defense rating by 16.",
+        "Equip: Increases your dodge rating by 16.",
+        "Equip: Improves hit rating by 15."
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Head"
+      ],
+      "types": [
+        "Plate"
+      ]
+    },
+    {
+      "id": 49306,
+      "name": "Eskhandar's Choker",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Eskhandar's Choker",
+        "Binds when picked up",
+        "Unique",
+        "Neck",
+        "+18 Strength",
+        "+28 Stamina",
+        "Requires Level 60",
+        "Equip: Increases your dodge rating by 11.",
+        "Equip: Increases your expertise rating by 10.",
+        "Equip: Increases defense rating by 12."
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Neck"
+      ],
+      "types": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "id": 49309,
+      "name": "Runed Ring of Binding",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Runed Ring of Binding",
+        "Binds when picked up",
+        "Unique-Equipped",
+        "Finger",
+        "185 Armor",
+        "+30 Stamina",
+        "+25 Fire Resistance",
+        "+25 Nature Resistance",
+        "+25 Frost Resistance",
+        "+25 Shadow Resistance",
+        "+25 Arcane Resistance",
+        "Requires Level 60",
+        "Equip: Increases defense rating by 18."
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Finger"
+      ],
+      "types": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "id": 49463,
+      "name": "Purified Shard of the Flame",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Purified Shard of the Flame",
+        "Binds when picked up",
+        "Unique-Equipped",
+        "Trinket",
+        "Requires Level 60",
+        "Equip: Restores 91 health per 5 sec.",
+        " ",
+        "Purified Shard of the Gods (0/2)",
+        "  Purified Shard of the Scale",
+        "  Purified Shard of the Flame",
+        " ",
+        "(2) Set: Increases spell power by 43.",
+        "(2) Set: Your direct heals have a chance to cause Cauterizing Heal. Your direct damage spells have a chance to cause Searing Flame."
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Trinket"
+      ],
+      "types": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "id": 49310,
+      "name": "Purified Shard of the Scale",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Purified Shard of the Scale",
+        "Binds when picked up",
+        "Unique-Equipped",
+        "Trinket",
+        "Requires Level 60",
+        "Equip: Restores 20 mana per 5 sec.",
+        " ",
+        "Purified Shard of the Gods (0/2)",
+        "  Purified Shard of the Scale",
+        "  Purified Shard of the Flame",
+        " ",
+        "(2) Set: Increases spell power by 43.",
+        "(2) Set: Your direct heals have a chance to cause Cauterizing Heal. Your direct damage spells have a chance to cause Searing Flame."
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Trinket"
+      ],
+      "types": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "id": 49308,
+      "name": "Antique Cornerstone Grimoire",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Antique Cornerstone Grimoire",
+        "Binds when picked up",
+        "Held In Off-hand",
+        "+16 Stamina",
+        "+15 Intellect",
+        "+14 Spirit",
+        "Requires Level 60",
+        "Equip: Increases spell power by 23.",
+        "Use: Summons a Skeleton that will protect you for 1 min. (15 Min Cooldown)"
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Off Hand"
+      ],
+      "types": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "id": 49304,
+      "name": "Sharpened Fang of the Mystics",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Sharpened Fang of the Mystics",
+        "Binds when picked up",
+        "Main Hand    Dagger",
+        "52 - 99 Damage    Speed 1.50",
+        "(50.3 damage per second)",
+        "+13 Stamina",
+        "+19 Intellect",
+        "Requires Level 60",
+        "Equip: Improves critical strike rating by 14.",
+        "Equip: Increases spell power by 126.",
+        "Equip: Restores 9 mana per 5 sec."
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Main Hand"
+      ],
+      "types": [
+        "Daggers"
+      ]
+    },
+    {
+      "id": 49437,
+      "name": "Rusted Gutgore Ripper",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Rusted Gutgore Ripper",
+        "Binds when picked up",
+        "One-Hand    Dagger",
+        "102 - 157 Damage    Speed 1.80",
+        "(71.9 damage per second)",
+        "Requires Level 60",
+        "Chance on hit: Sends a shadowy bolt at the enemy causing 180 Shadow damage and lowering all stats by 60 for 30 sec."
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Main Hand"
+      ],
+      "types": [
+        "Daggers"
+      ]
+    },
+    {
+      "id": 49298,
+      "name": "Glinting Azuresong Mageblade",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Glinting Azuresong Mageblade",
+        "Binds when picked up",
+        "Main Hand    Sword",
+        "84 - 158 Damage    Speed 2.40",
+        "(50.4 damage per second)",
+        "+14 Stamina",
+        "+20 Intellect",
+        "Requires Level 60",
+        "Equip: Improves critical strike rating by 16.",
+        "Equip: Increases spell power by 126.",
+        "Equip: Improves hit rating by 17."
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Main Hand"
+      ],
+      "types": [
+        "One-Handed Swords"
+      ]
+    },
+    {
+      "id": 49303,
+      "name": "Gleaming Quel'Serrar",
+      "classes": [
+        "Death Knight",
+        "Paladin",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Gleaming Quel'Serrar",
+        "Binds when picked up",
+        "Unique",
+        "One-Hand    Sword",
+        "116 - 171 Damage    Speed 2.00",
+        "(71.7 damage per second)",
+        "+23 Stamina",
+        "Classes: Warrior, Paladin, Death Knight",
+        "Requires Level 60",
+        "Chance on hit: Grants the wielder 13 defense rating and 300 armor for 10 sec."
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Main Hand"
+      ],
+      "types": [
+        "One-Handed Swords"
+      ]
+    },
+    {
+      "id": 49296,
+      "name": "Singed Vis'kag the Bloodletter",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Singed Vis'kag the Bloodletter",
+        "Binds when picked up",
+        "Unique-Equipped",
+        "One-Hand    Sword",
+        "134 - 239 Damage    Speed 2.60",
+        "(71.7 damage per second)",
+        "Requires Level 60",
+        "Chance on hit: Delivers a fatal wound for 2000 damage."
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Main Hand"
+      ],
+      "types": [
+        "One-Handed Swords"
+      ]
+    },
+    {
+      "id": 49299,
+      "name": "Keen Obsidian Edged Blade",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Keen Obsidian Edged Blade",
+        "Binds when picked up",
+        "Two-Hand    Sword",
+        "251 - 402 Damage    Speed 3.50",
+        "(93.3 damage per second)",
+        "+30 Strength",
+        "+25 Stamina",
+        "Requires Level 60",
+        "Equip: Increases your expertise rating by 17.",
+        "Equip: Improves critical strike rating by 15."
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Main Hand"
+      ],
+      "types": [
+        "Two-Handed Swords"
+      ]
+    },
+    {
+      "id": 49297,
+      "name": "Empowered Deathbringer",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Empowered Deathbringer",
+        "Binds when picked up",
+        "One-Hand    Axe",
+        "137 - 250 Damage    Speed 2.70",
+        "(71.7 damage per second)",
+        "Requires Level 60",
+        "Chance on hit: Sends a shadowy bolt at the enemy causing 1313 to 1687 Shadow damage."
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Main Hand"
+      ],
+      "types": [
+        "One-Handed Axes"
+      ]
+    },
+    {
+      "id": 49302,
+      "name": "Reclaimed Shadowstrike",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Reclaimed Shadowstrike",
+        "Binds when picked up",
+        "Two-Hand    Polearm",
+        "224 - 354 Damage    Speed 3.10",
+        "(93.2 damage per second)",
+        "+30 Agility",
+        "+21 Stamina",
+        "Requires Level 60",
+        "Equip: Increases attack power by 48.",
+        "Equip: Improves critical strike rating by 14.",
+        "Equip: Increases your armor penetration rating by 15.",
+        "Chance on hit: Steals 200 to 320 life from target enemy.",
+        "Use: Summons a new Reclaimed Thunderstrike."
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Main Hand"
+      ],
+      "types": [
+        "Polearms"
+      ]
+    },
+    {
+      "id": 49301,
+      "name": "Reclaimed Thunderstrike",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Reclaimed Thunderstrike",
+        "Binds when picked up",
+        "Two-Hand    Polearm",
+        "224 - 354 Damage    Speed 3.10",
+        "(93.2 damage per second)",
+        "+30 Agility",
+        "+21 Stamina",
+        "Requires Level 60",
+        "Equip: Increases your expertise rating by 14.",
+        "Equip: Increases attack power by 48.",
+        "Equip: Improves haste rating by 15.",
+        "Chance on hit: Blasts up to 3 targets for 250 to 398 Nature damage. Each target after the first takes less damage."
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Main Hand"
+      ],
+      "types": [
+        "Polearms"
+      ]
+    },
+    {
+      "id": 49305,
+      "name": "Snub-Nose Blastershot Launcher",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Snub-Nose Blastershot Launcher",
+        "Binds when picked up",
+        "Ranged    Gun",
+        "211 - 331 Damage    Speed 2.90",
+        "(93.4 damage per second)",
+        "+14 Agility",
+        "+13 Stamina",
+        "Requires Level 60",
+        "Equip: Improves critical strike rating by 14.",
+        "Equip: Increases attack power by 19."
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Ranged"
+      ],
+      "types": [
+        "Guns"
+      ]
+    },
+    {
+      "id": 49644,
+      "name": "Item #49644",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Item #49644"
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 49485,
+      "name": "Sparkling Onyxia Tooth Pendant",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Sparkling Onyxia Tooth Pendant",
+        "Binds when picked up",
+        "Neck",
+        "+22 Agility",
+        "+20 Stamina",
+        "+10 Fire Resistance",
+        "Requires Level 60",
+        "Equip: Improves hit rating by 14.",
+        "Equip: Improves critical strike rating by 12.",
+        "Equip: Increases attack power by 36."
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Neck"
+      ],
+      "types": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "id": 49486,
+      "name": "Polished Dragonslayer's Signet",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Polished Dragonslayer's Signet",
+        "Binds when picked up",
+        "Finger",
+        "+22 Stamina",
+        "+20 Intellect",
+        "+12 Spirit",
+        "+10 Fire Resistance",
+        "Requires Level 60",
+        "Equip: Improves critical strike rating by 19.",
+        "Equip: Increases spell power by 33."
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Finger"
+      ],
+      "types": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "id": 49487,
+      "name": "Purified Onyxia Blood Talisman",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Purified Onyxia Blood Talisman",
+        "Binds when picked up",
+        "Trinket",
+        "+15 Fire Resistance",
+        "Requires Level 60",
+        "Equip: Increases your parry rating by 40.",
+        "Equip: Increases defense rating by 25.",
+        "Equip: Restores 37 health per 5 sec."
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Trinket"
+      ],
+      "types": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "id": 49295,
+      "name": "Item #49295",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Item #49295"
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 49294,
+      "name": "Item #49294",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Item #49294"
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 49636,
+      "name": "Item #49636",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Item #49636"
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    }
+  ],
+  "bosses": [
+    {
+      "id": 0,
+      "name": "Onyxia"
+    }
+  ],
+  "npcs": [
+    {
+      "id": 0,
+      "name": "Onyxia",
+      "bossId": 0
+    }
+  ]
+}

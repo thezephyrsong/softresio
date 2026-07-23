@@ -1,0 +1,1039 @@
+{
+  "id": 119,
+  "shortname": "os25",
+  "raid": true,
+  "name": "The Obsidian Sanctuary (25 Player)",
+  "items": [
+    {
+      "id": 40437,
+      "name": "Concealment Shoulderpads",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Concealment Shoulderpads",
+        "Binds when picked up",
+        "Shoulder    Leather",
+        "189 Armor",
+        "+19 Agility",
+        "+28 Stamina",
+        "Requires Level 60",
+        "Equip: Increases your expertise rating by 14.",
+        "Equip: Increases attack power by 36.",
+        "Equip: Increases your armor penetration rating by 15."
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 16.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Shoulders"
+      ],
+      "types": [
+        "Leather"
+      ]
+    },
+    {
+      "id": 40439,
+      "name": "Mantle of the Eternal Sentinel",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Mantle of the Eternal Sentinel",
+        "Binds when equipped",
+        "Shoulder    Leather",
+        "189 Armor",
+        "+16 Stamina",
+        "+20 Intellect",
+        "Requires Level 60",
+        "Equip: Improves critical strike rating by 17.",
+        "Equip: Improves haste rating by 11.",
+        "Equip: Increases spell power by 29."
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 19.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Shoulders"
+      ],
+      "types": [
+        "Leather"
+      ]
+    },
+    {
+      "id": 40451,
+      "name": "Hyaline Helm of the Sniper",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Hyaline Helm of the Sniper",
+        "Binds when picked up",
+        "Head    Mail",
+        "439 Armor",
+        "+28 Agility",
+        "+29 Stamina",
+        "+19 Intellect",
+        "Meta Socket",
+        "Blue Socket",
+        "Socket Bonus: +5 Agility",
+        "Requires Level 60",
+        "Equip: Improves haste rating by 15.",
+        "Equip: Improves hit rating by 14.",
+        "Equip: Increases attack power by 38."
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 16.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Head"
+      ],
+      "types": [
+        "Mail"
+      ]
+    },
+    {
+      "id": 40438,
+      "name": "Council Chamber Epaulets",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Council Chamber Epaulets",
+        "Binds when picked up",
+        "Shoulder    Mail",
+        "413 Armor",
+        "+23 Stamina",
+        "+18 Intellect",
+        "Requires Level 60",
+        "Equip: Improves haste rating by 13.",
+        "Equip: Increases spell power by 32."
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 19.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Shoulders"
+      ],
+      "types": [
+        "Mail"
+      ]
+    },
+    {
+      "id": 40453,
+      "name": "Chestplate of the Great Aspects",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Chestplate of the Great Aspects",
+        "Binds when picked up",
+        "Chest    Plate",
+        "917 Armor",
+        "+25 Stamina",
+        "+26 Intellect",
+        "Yellow Socket",
+        "Socket Bonus: +2 Intellect",
+        "Requires Level 60",
+        "Equip: Improves critical strike rating by 13.",
+        "Equip: Increases spell power by 36.",
+        "Equip: Improves haste rating by 11."
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 17.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Chest"
+      ],
+      "types": [
+        "Plate"
+      ]
+    },
+    {
+      "id": 40446,
+      "name": "Dragon Brood Legguards",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Dragon Brood Legguards",
+        "Binds when picked up",
+        "Legs    Plate",
+        "844 Armor",
+        "+22 Strength",
+        "+34 Stamina",
+        "Requires Level 60",
+        "Equip: Increases defense rating by 16.",
+        "Equip: Improves hit rating by 15.",
+        "Equip: Increases your dodge rating by 19."
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 17.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Legs"
+      ],
+      "types": [
+        "Plate"
+      ]
+    },
+    {
+      "id": 40433,
+      "name": "Wyrmrest Band",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Wyrmrest Band",
+        "Binds when picked up",
+        "Unique-Equipped",
+        "Finger",
+        "+15 Stamina",
+        "+14 Intellect",
+        "Requires Level 60",
+        "Equip: Improves haste rating by 11.",
+        "Equip: Increases spell power by 26.",
+        "Equip: Restores 11 mana per 5 sec."
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 7.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Finger"
+      ],
+      "types": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "id": 40431,
+      "name": "Item #40431",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Item #40431"
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 17.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 40432,
+      "name": "Item #40432",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Item #40432"
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 19.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 40455,
+      "name": "Staff of Restraint",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Staff of Restraint",
+        "Binds when picked up",
+        "Two-Hand    Staff",
+        "164 - 260 Damage    Speed 3.20",
+        "(66.2 damage per second)",
+        "+21 Stamina",
+        "+29 Intellect",
+        "+22 Spirit",
+        "Requires Level 60",
+        "Equip: Improves critical strike rating by 17.",
+        "Equip: Increases spell power by 140."
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 19.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Main Hand"
+      ],
+      "types": [
+        "Staves"
+      ]
+    },
+    {
+      "id": 43345,
+      "name": "Item #43345",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Item #43345"
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 100.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 43346,
+      "name": "Item #43346",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Item #43346"
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 100.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 40628,
+      "name": "Item #40628",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Item #40628"
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 51.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 40629,
+      "name": "Item #40629",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Item #40629"
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 53.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 40630,
+      "name": "Item #40630",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Item #40630"
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 67.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 44002,
+      "name": "The Sanctum's Flowing Vestments",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "The Sanctum's Flowing Vestments",
+        "Binds when picked up",
+        "Chest    Cloth",
+        "127 Armor",
+        "+27 Stamina",
+        "+28 Intellect",
+        "+18 Spirit",
+        "Red Socket",
+        "Socket Bonus: +2 Intellect",
+        "Requires Level 60",
+        "Equip: Increases spell power by 35.",
+        "Equip: Improves haste rating by 15."
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 7.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Chest"
+      ],
+      "types": [
+        "Cloth"
+      ]
+    },
+    {
+      "id": 44003,
+      "name": "Upstanding Spaulders",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Upstanding Spaulders",
+        "Binds when picked up",
+        "Shoulder    Mail",
+        "406 Armor",
+        "+18 Agility",
+        "+22 Stamina",
+        "+12 Intellect",
+        "Blue Socket",
+        "Socket Bonus: +2 Attack Power",
+        "Requires Level 60",
+        "Equip: Increases attack power by 29.",
+        "Equip: Improves critical strike rating by 12.",
+        "Equip: Improves haste rating by 11."
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 7.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Shoulders"
+      ],
+      "types": [
+        "Mail"
+      ]
+    },
+    {
+      "id": 44004,
+      "name": "Bountiful Gauntlets",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Bountiful Gauntlets",
+        "Binds when picked up",
+        "Hands    Mail",
+        "337 Armor",
+        "+23 Stamina",
+        "+19 Intellect",
+        "Yellow Socket",
+        "Socket Bonus: +2 Intellect",
+        "Requires Level 60",
+        "Equip: Increases spell power by 28.",
+        "Equip: Improves critical strike rating by 11.",
+        "Equip: Restores 9 mana per 5 sec."
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 6.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Hands"
+      ],
+      "types": [
+        "Mail"
+      ]
+    },
+    {
+      "id": 44000,
+      "name": "Dragonstorm Breastplate",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Dragonstorm Breastplate",
+        "Binds when picked up",
+        "Chest    Plate",
+        "978 Armor",
+        "+33 Strength",
+        "+44 Stamina",
+        "Red Socket",
+        "Socket Bonus: +3 Stamina",
+        "Requires Level 60",
+        "Equip: Increases defense rating by 16.",
+        "Equip: Increases your parry rating by 21.",
+        "Equip: Increases your dodge rating by 13."
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 6.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Chest"
+      ],
+      "types": [
+        "Plate"
+      ]
+    },
+    {
+      "id": 44005,
+      "name": "Item #44005",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Item #44005"
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 3.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 44008,
+      "name": "Unsullied Cuffs",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Unsullied Cuffs",
+        "Binds when picked up",
+        "Wrist    Cloth",
+        "48 Armor",
+        "+19 Stamina",
+        "+16 Intellect",
+        "+15 Spirit",
+        "Red Socket",
+        "Socket Bonus: +2 Spell Power",
+        "Requires Level 60",
+        "Equip: Increases spell power by 23.",
+        "Equip: Improves haste rating by 12."
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 3.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Wrists"
+      ],
+      "types": [
+        "Cloth"
+      ]
+    },
+    {
+      "id": 44007,
+      "name": "Headpiece of Reconciliation",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Headpiece of Reconciliation",
+        "Binds when picked up",
+        "Head    Leather",
+        "203 Armor",
+        "+21 Stamina",
+        "+24 Intellect",
+        "+21 Spirit",
+        "Meta Socket",
+        "Yellow Socket",
+        "Socket Bonus: +2 Spell Power",
+        "Requires Level 60",
+        "Equip: Improves haste rating by 11.",
+        "Equip: Increases spell power by 32."
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 3.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Head"
+      ],
+      "types": [
+        "Leather"
+      ]
+    },
+    {
+      "id": 44011,
+      "name": "Leggings of the Honored",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Leggings of the Honored",
+        "Binds when picked up",
+        "Legs    Leather",
+        "218 Armor",
+        "+27 Agility",
+        "+28 Stamina",
+        "Red Socket",
+        "Socket Bonus: +2 Agility",
+        "Requires Level 60",
+        "Equip: Increases attack power by 42.",
+        "Equip: Improves hit rating by 18.",
+        "Equip: Improves haste rating by 14."
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 3.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Legs"
+      ],
+      "types": [
+        "Leather"
+      ]
+    },
+    {
+      "id": 44006,
+      "name": "Obsidian Greathelm",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Obsidian Greathelm",
+        "Binds when picked up",
+        "Head    Plate",
+        "786 Armor",
+        "+33 Strength",
+        "+27 Stamina",
+        "Meta Socket",
+        "Red Socket",
+        "Socket Bonus: +3 Strength",
+        "Requires Level 60",
+        "Equip: Improves critical strike rating by 20.",
+        "Equip: Increases your expertise rating by 16."
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 3.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Head"
+      ],
+      "types": [
+        "Plate"
+      ]
+    },
+    {
+      "id": 43954,
+      "name": "Item #43954",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Item #43954"
+      ],
+      "icon": "inv_misc_questionmark.png",
+      "dropsFrom": [
+        {
+          "chance": 100.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    }
+  ],
+  "bosses": [
+    {
+      "id": 0,
+      "name": "Sartharion"
+    }
+  ],
+  "npcs": [
+    {
+      "id": 0,
+      "name": "Sartharion",
+      "bossId": 0
+    }
+  ]
+}

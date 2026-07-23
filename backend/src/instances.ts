@@ -3,7 +3,7 @@ import type { GameServer, Instance } from "../shared/types.ts"
 
 export const instances: Instance[] = []
 
-const serverFolders: GameServer[] = ["triumvirate", "turtlewow", "epoch"]
+const serverFolders: GameServer[] = ["triumvirate"] // "turtlewow", "epoch" temporarily disabled, no instance data
 
 for (const server of serverFolders) {
   fs.glob(`./instances/${server}/*.json`, async (err, matches) => {

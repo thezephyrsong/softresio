@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": 100,
     "name": "Molten Core",
     "shortname": "mc",
     "raid": true,
@@ -99,7 +99,7 @@
     ]
   },
   {
-    "id": 2,
+    "id": 101,
     "name": "Blackwing Lair",
     "shortname": "bwl",
     "raid": true,
@@ -180,7 +180,7 @@
     ]
   },
   {
-    "id": 3,
+    "id": 102,
     "name": "Zul'Gurub",
     "shortname": "zg",
     "raid": true,
@@ -270,7 +270,7 @@
     ]
   },
   {
-    "id": 4,
+    "id": 103,
     "name": "Ruins of Ahn'Qiraj",
     "shortname": "aq20",
     "raid": true,
@@ -333,7 +333,7 @@
     ]
   },
   {
-    "id": 5,
+    "id": 104,
     "name": "Temple of Ahn'Qiraj",
     "shortname": "aq40",
     "raid": true,
@@ -435,7 +435,7 @@
     ]
   },
   {
-    "id": 6,
+    "id": 105,
     "name": "Karazhan",
     "shortname": "kara",
     "raid": true,
@@ -534,7 +534,7 @@
     ]
   },
   {
-    "id": 7,
+    "id": 106,
     "name": "Gruul's Lair",
     "shortname": "gruul",
     "raid": true,
@@ -561,7 +561,7 @@
     ]
   },
   {
-    "id": 8,
+    "id": 107,
     "name": "Magtheridon's Lair",
     "shortname": "mag",
     "raid": true,
@@ -579,7 +579,7 @@
     ]
   },
   {
-    "id": 9,
+    "id": 108,
     "name": "Serpentshrine Cavern",
     "shortname": "ssc",
     "raid": true,
@@ -642,7 +642,7 @@
     ]
   },
   {
-    "id": 10,
+    "id": 109,
     "name": "Tempest Keep: The Eye",
     "shortname": "tk",
     "raid": true,
@@ -687,7 +687,7 @@
     ]
   },
   {
-    "id": 11,
+    "id": 110,
     "name": "Battle for Mount Hyjal",
     "shortname": "hyjal",
     "raid": true,
@@ -741,7 +741,7 @@
     ]
   },
   {
-    "id": 12,
+    "id": 111,
     "name": "Black Temple",
     "shortname": "bt",
     "raid": true,
@@ -843,7 +843,7 @@
     ]
   },
   {
-    "id": 13,
+    "id": 112,
     "name": "Zul'Aman",
     "shortname": "za",
     "raid": true,
@@ -906,7 +906,7 @@
     ]
   },
   {
-    "id": 14,
+    "id": 113,
     "name": "Sunwell Plateau",
     "shortname": "swp",
     "raid": true,
@@ -973,7 +973,7 @@
     ]
   },
   {
-    "id": 15,
+    "id": 114,
     "name": "Vault of Archavon (10 Player)",
     "shortname": "voa10",
     "raid": true,
@@ -1018,7 +1018,7 @@
     ]
   },
   {
-    "id": 16,
+    "id": 115,
     "name": "Vault of Archavon (25 Player)",
     "shortname": "voa25",
     "raid": true,
@@ -1063,7 +1063,7 @@
     ]
   },
   {
-    "id": 17,
+    "id": 116,
     "name": "Naxxramas (10 Player)",
     "shortname": "naxx10",
     "raid": true,
@@ -1207,7 +1207,7 @@
     ]
   },
   {
-    "id": 18,
+    "id": 117,
     "name": "Naxxramas (25 Player)",
     "shortname": "naxx25",
     "raid": true,
@@ -1351,9 +1351,9 @@
     ]
   },
   {
-    "id": 19,
-    "name": "The Obsidian Sanctuary",
-    "shortname": "os",
+    "id": 118,
+    "name": "The Obsidian Sanctuary (10 Player)",
+    "shortname": "os10",
     "raid": true,
     "enabled": true,
     "bosses": [
@@ -1369,9 +1369,27 @@
     ]
   },
   {
-    "id": 20,
-    "name": "The Eye of Eternity",
-    "shortname": "eoe",
+    "id": 119,
+    "name": "The Obsidian Sanctuary (25 Player)",
+    "shortname": "os25",
+    "raid": true,
+    "enabled": true,
+    "bosses": [
+      {
+        "name": "Sartharion",
+        "npcs": [
+          {
+            "name": "Sartharion",
+            "link": "https://wotlkdb.com/?npc=28860"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "name": "The Eye of Eternity (10 Player)",
+    "shortname": "eoe10",
     "raid": true,
     "enabled": false,
     "bosses": [
@@ -1387,7 +1405,25 @@
     ]
   },
   {
-    "id": 21,
+    "id": 121,
+    "name": "The Eye of Eternity (25 Player)",
+    "shortname": "eoe25",
+    "raid": true,
+    "enabled": false,
+    "bosses": [
+      {
+        "name": "Malygos",
+        "npcs": [
+          {
+            "name": "Malygos",
+            "link": "https://wotlkdb.com/?npc=28859"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 122,
     "name": "Ulduar (10 Player)",
     "shortname": "uld10",
     "raid": true,
@@ -1521,7 +1557,7 @@
     ]
   },
   {
-    "id": 22,
+    "id": 123,
     "name": "Ulduar (25 Player)",
     "shortname": "uld25",
     "raid": true,
@@ -1655,7 +1691,7 @@
     ]
   },
   {
-    "id": 23,
+    "id": 124,
     "name": "Trial of the Crusader (10 Player)",
     "shortname": "toc10",
     "raid": true,
@@ -1725,7 +1761,7 @@
     ]
   },
   {
-    "id": 24,
+    "id": 125,
     "name": "Trial of the Crusader (25 Player)",
     "shortname": "toc25",
     "raid": true,
@@ -1795,9 +1831,9 @@
     ]
   },
   {
-    "id": 25,
-    "name": "Onyxia's Lair",
-    "shortname": "ony",
+    "id": 126,
+    "name": "Onyxia's Lair (10 Player)",
+    "shortname": "ony10",
     "raid": true,
     "enabled": true,
     "bosses": [
@@ -1813,7 +1849,25 @@
     ]
   },
   {
-    "id": 26,
+    "id": 127,
+    "name": "Onyxia's Lair (25 Player)",
+    "shortname": "ony25",
+    "raid": true,
+    "enabled": true,
+    "bosses": [
+      {
+        "name": "Onyxia",
+        "npcs": [
+          {
+            "name": "Onyxia",
+            "link": "https://wotlkdb.com/?npc=10184"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 128,
     "name": "Icecrown Citadel (10 Player)",
     "shortname": "icc10",
     "raid": true,
@@ -1938,7 +1992,7 @@
     ]
   },
   {
-    "id": 27,
+    "id": 129,
     "name": "Icecrown Citadel (25 Player)",
     "shortname": "icc25",
     "raid": true,
@@ -2063,7 +2117,7 @@
     ]
   },
   {
-    "id": 28,
+    "id": 130,
     "name": "The Ruby Sanctum (10 Player)",
     "shortname": "rs10",
     "raid": true,
@@ -2081,7 +2135,7 @@
     ]
   },
   {
-    "id": 29,
+    "id": 131,
     "name": "The Ruby Sanctum (25 Player)",
     "shortname": "rs25",
     "raid": true,

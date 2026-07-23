@@ -48,7 +48,9 @@ export const CreateRaid = (
   const [selectedServer, setSelectedServer] = useState<GameServer | null>(
     () => {
       const saved = localStorage.getItem("selectedServer")
-      return (saved === "triumvirate" || saved === "turtlewow" || saved === "epoch") ? saved : null
+      // Only one server (triumvirate) right now, so default straight to it
+      // instead of making the user pick it manually.
+      return saved === "triumvirate" ? saved : "triumvirate"
     },
   )
 

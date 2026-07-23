@@ -3,9 +3,9 @@ import { Title } from "@mantine/core"
 import type { GameServer, Instance } from "../shared/types.ts"
 
 export const SERVER_LABELS: Record<GameServer, string> = {
-  turtlewow: "Turtle WoW",
-  epoch: "Project Epoch",
   triumvirate: "Triumvirate",
+  // turtlewow: "Turtle WoW", // temporarily disabled, no instance data
+  // epoch: "Project Epoch", // temporarily disabled, no instance data
 }
 
 export const instanceOrder = [
