@@ -180,7 +180,7 @@ export interface Boss {
   name: string
 }
 
-export type GameServer = "turtlewow" | "epoch"
+export type GameServer = "triumvirate" | "turtlewow" | "epoch"
 
 export interface Instance {
   id: number

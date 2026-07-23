@@ -5,21 +5,48 @@ import type { GameServer, Instance } from "../shared/types.ts"
 export const SERVER_LABELS: Record<GameServer, string> = {
   turtlewow: "Turtle WoW",
   epoch: "Project Epoch",
+  triumvirate: "Triumvirate",
 }
 
 export const instanceOrder = [
+  -- Vanilla & Classic --
+  "Molten Core",
+  "Blackwing Lair",
   "Zul'Gurub",
   "Ruins of Ahn'Qiraj",
-  "Molten Core",
-  "Onyxia's Lair",
-  "Lower Karazhan Halls",
-  "Blackwing Lair",
-  "Emerald Sanctum",
   "Temple of Ahn'Qiraj",
-  "Naxxramas",
+  "Onyxia's Lair",
+  
+  -- The Burning Crusade --
+  "Lower Karazhan Halls",
   "Tower of Karazhan",
-]
+  "Emerald Sanctum",
+  "Karazhan",
+  "Gruul's Lair",
+  "Magtheridon's Lair",
+  "Serpentshrine Cavern",
+  "Tempest Keep: The Eye",
+  "Battle for Mount Hyjal",
+  "Black Temple",
+  "Zul'Aman",
+  "Sunwell Plateau",
 
+  -- Wrath of the Lich King --
+  "Vault of Archavon (10 Player)",
+  "Vault of Archavon (25 Player)",
+  "Naxxramas (10 Player)",
+  "Naxxramas (25 Player)",
+  "The Obsidian Sanctuary",
+  "The Eye of Eternity",
+  "Ulduar (10 Player)",
+  "Ulduar (25 Player)",
+  "Trial of the Crusader (10 Player)",
+  "Trial of the Crusader (25 Player)",
+  "Icecrown Citadel (10 Player)",
+  "Icecrown Citadel (25 Player)",
+  "The Ruby Sanctum (10 Player)",
+  "The Ruby Sanctum (25 Player)",
+]
 export const renderInstance: (
   instances: Instance[],
 ) => SelectProps["renderOption"] = (instances) =>
