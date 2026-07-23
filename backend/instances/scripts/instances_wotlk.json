@@ -4,17 +4,98 @@
     "name": "Molten Core",
     "shortname": "mc",
     "raid": true,
+    "enabled": true,
     "bosses": [
-      { "name": "Lucifron", "npcs": [{ "name": "Lucifron", "link": "https://wotlkdb.com/?npc=12118" }] },
-      { "name": "Magmadar", "npcs": [{ "name": "Magmadar", "link": "https://wotlkdb.com/?npc=11982" }] },
-      { "name": "Gehennas", "npcs": [{ "name": "Gehennas", "link": "https://wotlkdb.com/?npc=12259" }] },
-      { "name": "Garr", "npcs": [{ "name": "Garr", "link": "https://wotlkdb.com/?npc=12057" }] },
-      { "name": "Baron Geddon", "npcs": [{ "name": "Baron Geddon", "link": "https://wotlkdb.com/?npc=12056" }] },
-      { "name": "Shazzrah", "npcs": [{ "name": "Shazzrah", "link": "https://wotlkdb.com/?npc=12264" }] },
-      { "name": "Sulfuron Harbinger", "npcs": [{ "name": "Sulfuron Harbinger", "link": "https://wotlkdb.com/?npc=12098" }] },
-      { "name": "Golemagg the Incinerator", "npcs": [{ "name": "Golemagg the Incinerator", "link": "https://wotlkdb.com/?npc=11988" }] },
-      { "name": "Majordomo Executus", "npcs": [{ "name": "Cache of the Firelord", "link": "https://wotlkdb.com/?object=179703" }] },
-      { "name": "Ragnaros", "npcs": [{ "name": "Ragnaros", "link": "https://wotlkdb.com/?npc=11502" }] }
+      {
+        "name": "Lucifron",
+        "npcs": [
+          {
+            "name": "Lucifron",
+            "link": "https://wotlkdb.com/?npc=12118"
+          }
+        ]
+      },
+      {
+        "name": "Magmadar",
+        "npcs": [
+          {
+            "name": "Magmadar",
+            "link": "https://wotlkdb.com/?npc=11982"
+          }
+        ]
+      },
+      {
+        "name": "Gehennas",
+        "npcs": [
+          {
+            "name": "Gehennas",
+            "link": "https://wotlkdb.com/?npc=12259"
+          }
+        ]
+      },
+      {
+        "name": "Garr",
+        "npcs": [
+          {
+            "name": "Garr",
+            "link": "https://wotlkdb.com/?npc=12057"
+          }
+        ]
+      },
+      {
+        "name": "Baron Geddon",
+        "npcs": [
+          {
+            "name": "Baron Geddon",
+            "link": "https://wotlkdb.com/?npc=12056"
+          }
+        ]
+      },
+      {
+        "name": "Shazzrah",
+        "npcs": [
+          {
+            "name": "Shazzrah",
+            "link": "https://wotlkdb.com/?npc=12264"
+          }
+        ]
+      },
+      {
+        "name": "Sulfuron Harbinger",
+        "npcs": [
+          {
+            "name": "Sulfuron Harbinger",
+            "link": "https://wotlkdb.com/?npc=12098"
+          }
+        ]
+      },
+      {
+        "name": "Golemagg the Incinerator",
+        "npcs": [
+          {
+            "name": "Golemagg the Incinerator",
+            "link": "https://wotlkdb.com/?npc=11988"
+          }
+        ]
+      },
+      {
+        "name": "Majordomo Executus",
+        "npcs": [
+          {
+            "name": "Cache of the Firelord",
+            "link": "https://wotlkdb.com/?object=179703"
+          }
+        ]
+      },
+      {
+        "name": "Ragnaros",
+        "npcs": [
+          {
+            "name": "Ragnaros",
+            "link": "https://wotlkdb.com/?npc=11502"
+          }
+        ]
+      }
     ]
   },
   {
@@ -22,15 +103,80 @@
     "name": "Blackwing Lair",
     "shortname": "bwl",
     "raid": true,
+    "enabled": false,
     "bosses": [
-      { "name": "Razorgore the Untamed", "npcs": [{ "name": "Razorgore the Untamed", "link": "https://wotlkdb.com/?npc=12435" }] },
-      { "name": "Vaelastrasz the Corrupt", "npcs": [{ "name": "Vaelastrasz the Corrupt", "link": "https://wotlkdb.com/?npc=13020" }] },
-      { "name": "Broodlord Lashlayer", "npcs": [{ "name": "Broodlord Lashlayer", "link": "https://wotlkdb.com/?npc=12017" }] },
-      { "name": "Firemaw", "npcs": [{ "name": "Firemaw", "link": "https://wotlkdb.com/?npc=11983" }] },
-      { "name": "Ebonroc", "npcs": [{ "name": "Ebonroc", "link": "https://wotlkdb.com/?npc=14601" }] },
-      { "name": "Flamegor", "npcs": [{ "name": "Flamegor", "link": "https://wotlkdb.com/?npc=11981" }] },
-      { "name": "Chromaggus", "npcs": [{ "name": "Chromaggus", "link": "https://wotlkdb.com/?npc=14020" }] },
-      { "name": "Nefarian", "npcs": [{ "name": "Nefarian", "link": "https://wotlkdb.com/?npc=11583" }] }
+      {
+        "name": "Razorgore the Untamed",
+        "npcs": [
+          {
+            "name": "Razorgore the Untamed",
+            "link": "https://wotlkdb.com/?npc=12435"
+          }
+        ]
+      },
+      {
+        "name": "Vaelastrasz the Corrupt",
+        "npcs": [
+          {
+            "name": "Vaelastrasz the Corrupt",
+            "link": "https://wotlkdb.com/?npc=13020"
+          }
+        ]
+      },
+      {
+        "name": "Broodlord Lashlayer",
+        "npcs": [
+          {
+            "name": "Broodlord Lashlayer",
+            "link": "https://wotlkdb.com/?npc=12017"
+          }
+        ]
+      },
+      {
+        "name": "Firemaw",
+        "npcs": [
+          {
+            "name": "Firemaw",
+            "link": "https://wotlkdb.com/?npc=11983"
+          }
+        ]
+      },
+      {
+        "name": "Ebonroc",
+        "npcs": [
+          {
+            "name": "Ebonroc",
+            "link": "https://wotlkdb.com/?npc=14601"
+          }
+        ]
+      },
+      {
+        "name": "Flamegor",
+        "npcs": [
+          {
+            "name": "Flamegor",
+            "link": "https://wotlkdb.com/?npc=11981"
+          }
+        ]
+      },
+      {
+        "name": "Chromaggus",
+        "npcs": [
+          {
+            "name": "Chromaggus",
+            "link": "https://wotlkdb.com/?npc=14020"
+          }
+        ]
+      },
+      {
+        "name": "Nefarian",
+        "npcs": [
+          {
+            "name": "Nefarian",
+            "link": "https://wotlkdb.com/?npc=11583"
+          }
+        ]
+      }
     ]
   },
   {
@@ -38,16 +184,89 @@
     "name": "Zul'Gurub",
     "shortname": "zg",
     "raid": true,
+    "enabled": false,
     "bosses": [
-      { "name": "High Priestess Jeklik", "npcs": [{ "name": "High Priestess Jeklik", "link": "https://wotlkdb.com/?npc=14517" }] },
-      { "name": "High Priest Venoxis", "npcs": [{ "name": "High Priest Venoxis", "link": "https://wotlkdb.com/?npc=14507" }] },
-      { "name": "High Priestess Mar'li", "npcs": [{ "name": "High Priestess Mar'li", "link": "https://wotlkdb.com/?npc=14510" }] },
-      { "name": "Bloodlord Mandokir", "npcs": [{ "name": "Bloodlord Mandokir", "link": "https://wotlkdb.com/?npc=11382" }] },
-      { "name": "High Priest Thekal", "npcs": [{ "name": "High Priest Thekal", "link": "https://wotlkdb.com/?npc=14509" }] },
-      { "name": "Gahz'ranka", "npcs": [{ "name": "Gahz'ranka", "link": "https://wotlkdb.com/?npc=15114" }] },
-      { "name": "High Priestess Arlokk", "npcs": [{ "name": "High Priestess Arlokk", "link": "https://wotlkdb.com/?npc=14515" }] },
-      { "name": "Jin'do the Hexxer", "npcs": [{ "name": "Jin'do the Hexxer", "link": "https://wotlkdb.com/?npc=11380" }] },
-      { "name": "Hakkar", "npcs": [{ "name": "Hakkar", "link": "https://wotlkdb.com/?npc=14834" }] }
+      {
+        "name": "High Priestess Jeklik",
+        "npcs": [
+          {
+            "name": "High Priestess Jeklik",
+            "link": "https://wotlkdb.com/?npc=14517"
+          }
+        ]
+      },
+      {
+        "name": "High Priest Venoxis",
+        "npcs": [
+          {
+            "name": "High Priest Venoxis",
+            "link": "https://wotlkdb.com/?npc=14507"
+          }
+        ]
+      },
+      {
+        "name": "High Priestess Mar'li",
+        "npcs": [
+          {
+            "name": "High Priestess Mar'li",
+            "link": "https://wotlkdb.com/?npc=14510"
+          }
+        ]
+      },
+      {
+        "name": "Bloodlord Mandokir",
+        "npcs": [
+          {
+            "name": "Bloodlord Mandokir",
+            "link": "https://wotlkdb.com/?npc=11382"
+          }
+        ]
+      },
+      {
+        "name": "High Priest Thekal",
+        "npcs": [
+          {
+            "name": "High Priest Thekal",
+            "link": "https://wotlkdb.com/?npc=14509"
+          }
+        ]
+      },
+      {
+        "name": "Gahz'ranka",
+        "npcs": [
+          {
+            "name": "Gahz'ranka",
+            "link": "https://wotlkdb.com/?npc=15114"
+          }
+        ]
+      },
+      {
+        "name": "High Priestess Arlokk",
+        "npcs": [
+          {
+            "name": "High Priestess Arlokk",
+            "link": "https://wotlkdb.com/?npc=14515"
+          }
+        ]
+      },
+      {
+        "name": "Jin'do the Hexxer",
+        "npcs": [
+          {
+            "name": "Jin'do the Hexxer",
+            "link": "https://wotlkdb.com/?npc=11380"
+          }
+        ]
+      },
+      {
+        "name": "Hakkar",
+        "npcs": [
+          {
+            "name": "Hakkar",
+            "link": "https://wotlkdb.com/?npc=14834"
+          }
+        ]
+      }
     ]
   },
   {
@@ -55,13 +274,62 @@
     "name": "Ruins of Ahn'Qiraj",
     "shortname": "aq20",
     "raid": true,
+    "enabled": true,
     "bosses": [
-      { "name": "Kurinnaxx", "npcs": [{ "name": "Kurinnaxx", "link": "https://wotlkdb.com/?npc=15348" }] },
-      { "name": "General Rajaxx", "npcs": [{ "name": "General Rajaxx", "link": "https://wotlkdb.com/?npc=15341" }] },
-      { "name": "Moam", "npcs": [{ "name": "Moam", "link": "https://wotlkdb.com/?npc=15340" }] },
-      { "name": "Buru the Gorger", "npcs": [{ "name": "Buru the Gorger", "link": "https://wotlkdb.com/?npc=15370" }] },
-      { "name": "Ayamiss the Hunter", "npcs": [{ "name": "Ayamiss the Hunter", "link": "https://wotlkdb.com/?npc=15369" }] },
-      { "name": "Ossirian the Unscarred", "npcs": [{ "name": "Ossirian the Unscarred", "link": "https://wotlkdb.com/?npc=15339" }] }
+      {
+        "name": "Kurinnaxx",
+        "npcs": [
+          {
+            "name": "Kurinnaxx",
+            "link": "https://wotlkdb.com/?npc=15348"
+          }
+        ]
+      },
+      {
+        "name": "General Rajaxx",
+        "npcs": [
+          {
+            "name": "General Rajaxx",
+            "link": "https://wotlkdb.com/?npc=15341"
+          }
+        ]
+      },
+      {
+        "name": "Moam",
+        "npcs": [
+          {
+            "name": "Moam",
+            "link": "https://wotlkdb.com/?npc=15340"
+          }
+        ]
+      },
+      {
+        "name": "Buru the Gorger",
+        "npcs": [
+          {
+            "name": "Buru the Gorger",
+            "link": "https://wotlkdb.com/?npc=15370"
+          }
+        ]
+      },
+      {
+        "name": "Ayamiss the Hunter",
+        "npcs": [
+          {
+            "name": "Ayamiss the Hunter",
+            "link": "https://wotlkdb.com/?npc=15369"
+          }
+        ]
+      },
+      {
+        "name": "Ossirian the Unscarred",
+        "npcs": [
+          {
+            "name": "Ossirian the Unscarred",
+            "link": "https://wotlkdb.com/?npc=15339"
+          }
+        ]
+      }
     ]
   },
   {
@@ -69,16 +337,101 @@
     "name": "Temple of Ahn'Qiraj",
     "shortname": "aq40",
     "raid": true,
+    "enabled": false,
     "bosses": [
-      { "name": "The Prophet Skeram", "npcs": [{ "name": "The Prophet Skeram", "link": "https://wotlkdb.com/?npc=15263" }] },
-      { "name": "Silithid Royalty", "npcs": [{ "name": "Vem", "link": "https://wotlkdb.com/?npc=15544" }, { "name": "Princess Yauj", "link": "https://wotlkdb.com/?npc=15543" }, { "name": "Lord Kri", "link": "https://wotlkdb.com/?npc=15511" }] },
-      { "name": "Battleguard Sartura", "npcs": [{ "name": "Battleguard Sartura", "link": "https://wotlkdb.com/?npc=15516" }] },
-      { "name": "Fankriss the Unyielding", "npcs": [{ "name": "Fankriss the Unyielding", "link": "https://wotlkdb.com/?npc=15510" }] },
-      { "name": "Viscidus", "npcs": [{ "name": "Viscidus", "link": "https://wotlkdb.com/?npc=15299" }] },
-      { "name": "Princess Huhuran", "npcs": [{ "name": "Princess Huhuran", "link": "https://wotlkdb.com/?npc=15509" }] },
-      { "name": "Twin Emperors", "npcs": [{ "name": "Emperor Vek'lor", "link": "https://wotlkdb.com/?npc=15276" }, { "name": "Emperor Vek'nilash", "link": "https://wotlkdb.com/?npc=15275" }] },
-      { "name": "Ouro", "npcs": [{ "name": "Ouro", "link": "https://wotlkdb.com/?npc=15517" }] },
-      { "name": "C'Thun", "npcs": [{ "name": "C'Thun", "link": "https://wotlkdb.com/?npc=15727" }] }
+      {
+        "name": "The Prophet Skeram",
+        "npcs": [
+          {
+            "name": "The Prophet Skeram",
+            "link": "https://wotlkdb.com/?npc=15263"
+          }
+        ]
+      },
+      {
+        "name": "Silithid Royalty",
+        "npcs": [
+          {
+            "name": "Vem",
+            "link": "https://wotlkdb.com/?npc=15544"
+          },
+          {
+            "name": "Princess Yauj",
+            "link": "https://wotlkdb.com/?npc=15543"
+          },
+          {
+            "name": "Lord Kri",
+            "link": "https://wotlkdb.com/?npc=15511"
+          }
+        ]
+      },
+      {
+        "name": "Battleguard Sartura",
+        "npcs": [
+          {
+            "name": "Battleguard Sartura",
+            "link": "https://wotlkdb.com/?npc=15516"
+          }
+        ]
+      },
+      {
+        "name": "Fankriss the Unyielding",
+        "npcs": [
+          {
+            "name": "Fankriss the Unyielding",
+            "link": "https://wotlkdb.com/?npc=15510"
+          }
+        ]
+      },
+      {
+        "name": "Viscidus",
+        "npcs": [
+          {
+            "name": "Viscidus",
+            "link": "https://wotlkdb.com/?npc=15299"
+          }
+        ]
+      },
+      {
+        "name": "Princess Huhuran",
+        "npcs": [
+          {
+            "name": "Princess Huhuran",
+            "link": "https://wotlkdb.com/?npc=15509"
+          }
+        ]
+      },
+      {
+        "name": "Twin Emperors",
+        "npcs": [
+          {
+            "name": "Emperor Vek'lor",
+            "link": "https://wotlkdb.com/?npc=15276"
+          },
+          {
+            "name": "Emperor Vek'nilash",
+            "link": "https://wotlkdb.com/?npc=15275"
+          }
+        ]
+      },
+      {
+        "name": "Ouro",
+        "npcs": [
+          {
+            "name": "Ouro",
+            "link": "https://wotlkdb.com/?npc=15517"
+          }
+        ]
+      },
+      {
+        "name": "C'Thun",
+        "npcs": [
+          {
+            "name": "C'Thun",
+            "link": "https://wotlkdb.com/?npc=15727"
+          }
+        ]
+      }
     ]
   },
   {
@@ -86,17 +439,98 @@
     "name": "Karazhan",
     "shortname": "kara",
     "raid": true,
+    "enabled": true,
     "bosses": [
-      { "name": "Attumen the Huntsman", "npcs": [{ "name": "Attumen the Huntsman", "link": "https://wotlkdb.com/?npc=16151" }] },
-      { "name": "Moroes", "npcs": [{ "name": "Moroes", "link": "https://wotlkdb.com/?npc=15687" }] },
-      { "name": "Maiden of Virtue", "npcs": [{ "name": "Maiden of Virtue", "link": "https://wotlkdb.com/?npc=16457" }] },
-      { "name": "The Curator", "npcs": [{ "name": "The Curator", "link": "https://wotlkdb.com/?npc=15691" }] },
-      { "name": "Terestian Illhoof", "npcs": [{ "name": "Terestian Illhoof", "link": "https://wotlkdb.com/?npc=15688" }] },
-      { "name": "Shade of Aran", "npcs": [{ "name": "Shade of Aran", "link": "https://wotlkdb.com/?npc=16524" }] },
-      { "name": "Netherspite", "npcs": [{ "name": "Netherspite", "link": "https://wotlkdb.com/?npc=15689" }] },
-      { "name": "Chess Event", "npcs": [{ "name": "Dust-Covered Chest", "link": "https://wotlkdb.com/?object=185119" }] },
-      { "name": "Prince Malchezaar", "npcs": [{ "name": "Prince Malchezaar", "link": "https://wotlkdb.com/?npc=15690" }] },
-      { "name": "Nightbane", "npcs": [{ "name": "Nightbane", "link": "https://wotlkdb.com/?npc=17225" }] }
+      {
+        "name": "Attumen the Huntsman",
+        "npcs": [
+          {
+            "name": "Attumen the Huntsman",
+            "link": "https://wotlkdb.com/?npc=16151"
+          }
+        ]
+      },
+      {
+        "name": "Moroes",
+        "npcs": [
+          {
+            "name": "Moroes",
+            "link": "https://wotlkdb.com/?npc=15687"
+          }
+        ]
+      },
+      {
+        "name": "Maiden of Virtue",
+        "npcs": [
+          {
+            "name": "Maiden of Virtue",
+            "link": "https://wotlkdb.com/?npc=16457"
+          }
+        ]
+      },
+      {
+        "name": "The Curator",
+        "npcs": [
+          {
+            "name": "The Curator",
+            "link": "https://wotlkdb.com/?npc=15691"
+          }
+        ]
+      },
+      {
+        "name": "Terestian Illhoof",
+        "npcs": [
+          {
+            "name": "Terestian Illhoof",
+            "link": "https://wotlkdb.com/?npc=15688"
+          }
+        ]
+      },
+      {
+        "name": "Shade of Aran",
+        "npcs": [
+          {
+            "name": "Shade of Aran",
+            "link": "https://wotlkdb.com/?npc=16524"
+          }
+        ]
+      },
+      {
+        "name": "Netherspite",
+        "npcs": [
+          {
+            "name": "Netherspite",
+            "link": "https://wotlkdb.com/?npc=15689"
+          }
+        ]
+      },
+      {
+        "name": "Chess Event",
+        "npcs": [
+          {
+            "name": "Dust-Covered Chest",
+            "link": "https://wotlkdb.com/?object=185119"
+          }
+        ]
+      },
+      {
+        "name": "Prince Malchezaar",
+        "npcs": [
+          {
+            "name": "Prince Malchezaar",
+            "link": "https://wotlkdb.com/?npc=15690"
+          }
+        ]
+      },
+      {
+        "name": "Nightbane",
+        "npcs": [
+          {
+            "name": "Nightbane",
+            "link": "https://wotlkdb.com/?npc=17225"
+          }
+        ]
+      }
     ]
   },
   {
@@ -104,9 +538,26 @@
     "name": "Gruul's Lair",
     "shortname": "gruul",
     "raid": true,
+    "enabled": false,
     "bosses": [
-      { "name": "High King Maulgar", "npcs": [{ "name": "High King Maulgar", "link": "https://wotlkdb.com/?npc=18831" }] },
-      { "name": "Gruul the Dragonkiller", "npcs": [{ "name": "Gruul the Dragonkiller", "link": "https://wotlkdb.com/?npc=19044" }] }
+      {
+        "name": "High King Maulgar",
+        "npcs": [
+          {
+            "name": "High King Maulgar",
+            "link": "https://wotlkdb.com/?npc=18831"
+          }
+        ]
+      },
+      {
+        "name": "Gruul the Dragonkiller",
+        "npcs": [
+          {
+            "name": "Gruul the Dragonkiller",
+            "link": "https://wotlkdb.com/?npc=19044"
+          }
+        ]
+      }
     ]
   },
   {
@@ -114,8 +565,17 @@
     "name": "Magtheridon's Lair",
     "shortname": "mag",
     "raid": true,
+    "enabled": false,
     "bosses": [
-      { "name": "Magtheridon", "npcs": [{ "name": "Magtheridon", "link": "https://wotlkdb.com/?npc=17257" }] }
+      {
+        "name": "Magtheridon",
+        "npcs": [
+          {
+            "name": "Magtheridon",
+            "link": "https://wotlkdb.com/?npc=17257"
+          }
+        ]
+      }
     ]
   },
   {
@@ -123,13 +583,62 @@
     "name": "Serpentshrine Cavern",
     "shortname": "ssc",
     "raid": true,
+    "enabled": false,
     "bosses": [
-      { "name": "Hydross the Unstable", "npcs": [{ "name": "Hydross the Unstable", "link": "https://wotlkdb.com/?npc=21216" }] },
-      { "name": "The Lurker Below", "npcs": [{ "name": "The Lurker Below", "link": "https://wotlkdb.com/?npc=21217" }] },
-      { "name": "Leotheras the Blind", "npcs": [{ "name": "Leotheras the Blind", "link": "https://wotlkdb.com/?npc=21215" }] },
-      { "name": "Fathom-Lord Karathress", "npcs": [{ "name": "Fathom-Lord Karathress", "link": "https://wotlkdb.com/?npc=21214" }] },
-      { "name": "Morogrim Tidewalker", "npcs": [{ "name": "Morogrim Tidewalker", "link": "https://wotlkdb.com/?npc=21213" }] },
-      { "name": "Lady Vashj", "npcs": [{ "name": "Lady Vashj", "link": "https://wotlkdb.com/?npc=21212" }] }
+      {
+        "name": "Hydross the Unstable",
+        "npcs": [
+          {
+            "name": "Hydross the Unstable",
+            "link": "https://wotlkdb.com/?npc=21216"
+          }
+        ]
+      },
+      {
+        "name": "The Lurker Below",
+        "npcs": [
+          {
+            "name": "The Lurker Below",
+            "link": "https://wotlkdb.com/?npc=21217"
+          }
+        ]
+      },
+      {
+        "name": "Leotheras the Blind",
+        "npcs": [
+          {
+            "name": "Leotheras the Blind",
+            "link": "https://wotlkdb.com/?npc=21215"
+          }
+        ]
+      },
+      {
+        "name": "Fathom-Lord Karathress",
+        "npcs": [
+          {
+            "name": "Fathom-Lord Karathress",
+            "link": "https://wotlkdb.com/?npc=21214"
+          }
+        ]
+      },
+      {
+        "name": "Morogrim Tidewalker",
+        "npcs": [
+          {
+            "name": "Morogrim Tidewalker",
+            "link": "https://wotlkdb.com/?npc=21213"
+          }
+        ]
+      },
+      {
+        "name": "Lady Vashj",
+        "npcs": [
+          {
+            "name": "Lady Vashj",
+            "link": "https://wotlkdb.com/?npc=21212"
+          }
+        ]
+      }
     ]
   },
   {
@@ -137,11 +646,44 @@
     "name": "Tempest Keep: The Eye",
     "shortname": "tk",
     "raid": true,
+    "enabled": false,
     "bosses": [
-      { "name": "Al'ar", "npcs": [{ "name": "Al'ar", "link": "https://wotlkdb.com/?npc=19514" }] },
-      { "name": "Void Reaver", "npcs": [{ "name": "Void Reaver", "link": "https://wotlkdb.com/?npc=19516" }] },
-      { "name": "High Astromancer Solarian", "npcs": [{ "name": "High Astromancer Solarian", "link": "https://wotlkdb.com/?npc=18805" }] },
-      { "name": "Kael'thas Sunstrider", "npcs": [{ "name": "Kael'thas Sunstrider", "link": "https://wotlkdb.com/?npc=19622" }] }
+      {
+        "name": "Al'ar",
+        "npcs": [
+          {
+            "name": "Al'ar",
+            "link": "https://wotlkdb.com/?npc=19514"
+          }
+        ]
+      },
+      {
+        "name": "Void Reaver",
+        "npcs": [
+          {
+            "name": "Void Reaver",
+            "link": "https://wotlkdb.com/?npc=19516"
+          }
+        ]
+      },
+      {
+        "name": "High Astromancer Solarian",
+        "npcs": [
+          {
+            "name": "High Astromancer Solarian",
+            "link": "https://wotlkdb.com/?npc=18805"
+          }
+        ]
+      },
+      {
+        "name": "Kael'thas Sunstrider",
+        "npcs": [
+          {
+            "name": "Kael'thas Sunstrider",
+            "link": "https://wotlkdb.com/?npc=19622"
+          }
+        ]
+      }
     ]
   },
   {
@@ -149,12 +691,53 @@
     "name": "Battle for Mount Hyjal",
     "shortname": "hyjal",
     "raid": true,
+    "enabled": false,
     "bosses": [
-      { "name": "Rage Winterchill", "npcs": [{ "name": "Rage Winterchill", "link": "https://wotlkdb.com/?npc=17767" }] },
-      { "name": "Anetheron", "npcs": [{ "name": "Anetheron", "link": "https://wotlkdb.com/?npc=17808" }] },
-      { "name": "Kaz'rogal", "npcs": [{ "name": "Kaz'rogal", "link": "https://wotlkdb.com/?npc=17888" }] },
-      { "name": "Azgalor", "npcs": [{ "name": "Azgalor", "link": "https://wotlkdb.com/?npc=17842" }] },
-      { "name": "Archimonde", "npcs": [{ "name": "Archimonde", "link": "https://wotlkdb.com/?npc=17968" }] }
+      {
+        "name": "Rage Winterchill",
+        "npcs": [
+          {
+            "name": "Rage Winterchill",
+            "link": "https://wotlkdb.com/?npc=17767"
+          }
+        ]
+      },
+      {
+        "name": "Anetheron",
+        "npcs": [
+          {
+            "name": "Anetheron",
+            "link": "https://wotlkdb.com/?npc=17808"
+          }
+        ]
+      },
+      {
+        "name": "Kaz'rogal",
+        "npcs": [
+          {
+            "name": "Kaz'rogal",
+            "link": "https://wotlkdb.com/?npc=17888"
+          }
+        ]
+      },
+      {
+        "name": "Azgalor",
+        "npcs": [
+          {
+            "name": "Azgalor",
+            "link": "https://wotlkdb.com/?npc=17842"
+          }
+        ]
+      },
+      {
+        "name": "Archimonde",
+        "npcs": [
+          {
+            "name": "Archimonde",
+            "link": "https://wotlkdb.com/?npc=17968"
+          }
+        ]
+      }
     ]
   },
   {
@@ -162,16 +745,101 @@
     "name": "Black Temple",
     "shortname": "bt",
     "raid": true,
+    "enabled": false,
     "bosses": [
-      { "name": "High Warlord Naj'entus", "npcs": [{ "name": "High Warlord Naj'entus", "link": "https://wotlkdb.com/?npc=22887" }] },
-      { "name": "Supremamus", "npcs": [{ "name": "Supremamus", "link": "https://wotlkdb.com/?npc=22898" }] },
-      { "name": "Shade of Akama", "npcs": [{ "name": "Shade of Akama", "link": "https://wotlkdb.com/?npc=22841" }] },
-      { "name": "Teron Gorefiend", "npcs": [{ "name": "Teron Gorefiend", "link": "https://wotlkdb.com/?npc=22871" }] },
-      { "name": "Gurtogg Bloodboil", "npcs": [{ "name": "Gurtogg Bloodboil", "link": "https://wotlkdb.com/?npc=22948" }] },
-      { "name": "Reliquary of Souls", "npcs": [{ "name": "Reliquary of Souls", "link": "https://wotlkdb.com/?npc=22856" }] },
-      { "name": "Mother Shahraz", "npcs": [{ "name": "Mother Shahraz", "link": "https://wotlkdb.com/?npc=22947" }] },
-      { "name": "The Illidari Council", "npcs": [{ "name": "Gathios the Shatterer", "link": "https://wotlkdb.com/?npc=22949" }, { "name": "High Nethermancer Zerevor", "link": "https://wotlkdb.com/?npc=22950" }, { "name": "Veras Darkshadow", "link": "https://wotlkdb.com/?npc=22951" }, { "name": "Lady Malande", "link": "https://wotlkdb.com/?npc=22952" }] },
-      { "name": "Illidan Stormrage", "npcs": [{ "name": "Illidan Stormrage", "link": "https://wotlkdb.com/?npc=22917" }] }
+      {
+        "name": "High Warlord Naj'entus",
+        "npcs": [
+          {
+            "name": "High Warlord Naj'entus",
+            "link": "https://wotlkdb.com/?npc=22887"
+          }
+        ]
+      },
+      {
+        "name": "Supremamus",
+        "npcs": [
+          {
+            "name": "Supremamus",
+            "link": "https://wotlkdb.com/?npc=22898"
+          }
+        ]
+      },
+      {
+        "name": "Shade of Akama",
+        "npcs": [
+          {
+            "name": "Shade of Akama",
+            "link": "https://wotlkdb.com/?npc=22841"
+          }
+        ]
+      },
+      {
+        "name": "Teron Gorefiend",
+        "npcs": [
+          {
+            "name": "Teron Gorefiend",
+            "link": "https://wotlkdb.com/?npc=22871"
+          }
+        ]
+      },
+      {
+        "name": "Gurtogg Bloodboil",
+        "npcs": [
+          {
+            "name": "Gurtogg Bloodboil",
+            "link": "https://wotlkdb.com/?npc=22948"
+          }
+        ]
+      },
+      {
+        "name": "Reliquary of Souls",
+        "npcs": [
+          {
+            "name": "Reliquary of Souls",
+            "link": "https://wotlkdb.com/?npc=22856"
+          }
+        ]
+      },
+      {
+        "name": "Mother Shahraz",
+        "npcs": [
+          {
+            "name": "Mother Shahraz",
+            "link": "https://wotlkdb.com/?npc=22947"
+          }
+        ]
+      },
+      {
+        "name": "The Illidari Council",
+        "npcs": [
+          {
+            "name": "Gathios the Shatterer",
+            "link": "https://wotlkdb.com/?npc=22949"
+          },
+          {
+            "name": "High Nethermancer Zerevor",
+            "link": "https://wotlkdb.com/?npc=22950"
+          },
+          {
+            "name": "Veras Darkshadow",
+            "link": "https://wotlkdb.com/?npc=22951"
+          },
+          {
+            "name": "Lady Malande",
+            "link": "https://wotlkdb.com/?npc=22952"
+          }
+        ]
+      },
+      {
+        "name": "Illidan Stormrage",
+        "npcs": [
+          {
+            "name": "Illidan Stormrage",
+            "link": "https://wotlkdb.com/?npc=22917"
+          }
+        ]
+      }
     ]
   },
   {
@@ -179,13 +847,62 @@
     "name": "Zul'Aman",
     "shortname": "za",
     "raid": true,
+    "enabled": true,
     "bosses": [
-      { "name": "Nalorakk", "npcs": [{ "name": "Nalorakk", "link": "https://wotlkdb.com/?npc=23576" }] },
-      { "name": "Akil'zon", "npcs": [{ "name": "Akil'zon", "link": "https://wotlkdb.com/?npc=23574" }] },
-      { "name": "Jan'alai", "npcs": [{ "name": "Jan'alai", "link": "https://wotlkdb.com/?npc=23578" }] },
-      { "name": "Halazzi", "npcs": [{ "name": "Halazzi", "link": "https://wotlkdb.com/?npc=23577" }] },
-      { "name": "Hex Lord Malacrass", "npcs": [{ "name": "Hex Lord Malacrass", "link": "https://wotlkdb.com/?npc=24239" }] },
-      { "name": "Zul'jin", "npcs": [{ "name": "Zul'jin", "link": "https://wotlkdb.com/?npc=23863" }] }
+      {
+        "name": "Nalorakk",
+        "npcs": [
+          {
+            "name": "Nalorakk",
+            "link": "https://wotlkdb.com/?npc=23576"
+          }
+        ]
+      },
+      {
+        "name": "Akil'zon",
+        "npcs": [
+          {
+            "name": "Akil'zon",
+            "link": "https://wotlkdb.com/?npc=23574"
+          }
+        ]
+      },
+      {
+        "name": "Jan'alai",
+        "npcs": [
+          {
+            "name": "Jan'alai",
+            "link": "https://wotlkdb.com/?npc=23578"
+          }
+        ]
+      },
+      {
+        "name": "Halazzi",
+        "npcs": [
+          {
+            "name": "Halazzi",
+            "link": "https://wotlkdb.com/?npc=23577"
+          }
+        ]
+      },
+      {
+        "name": "Hex Lord Malacrass",
+        "npcs": [
+          {
+            "name": "Hex Lord Malacrass",
+            "link": "https://wotlkdb.com/?npc=24239"
+          }
+        ]
+      },
+      {
+        "name": "Zul'jin",
+        "npcs": [
+          {
+            "name": "Zul'jin",
+            "link": "https://wotlkdb.com/?npc=23863"
+          }
+        ]
+      }
     ]
   },
   {
@@ -193,138 +910,1192 @@
     "name": "Sunwell Plateau",
     "shortname": "swp",
     "raid": true,
+    "enabled": false,
     "bosses": [
-      { "name": "Kalecgos", "npcs": [{ "name": "Kalecgos", "link": "https://wotlkdb.com/?npc=24850" }] },
-      { "name": "Brutallus", "npcs": [{ "name": "Brutallus", "link": "https://wotlkdb.com/?npc=24882" }] },
-      { "name": "Felmyst", "npcs": [{ "name": "Felmyst", "link": "https://wotlkdb.com/?npc=25038" }] },
-      { "name": "Eredar Twins", "npcs": [{ "name": "Grand Astromancer Alythess", "link": "https://wotlkdb.com/?npc=25165" }, { "name": "Lady Sacrolash", "link": "https://wotlkdb.com/?npc=25166" }] },
-      { "name": "M'uru", "npcs": [{ "name": "M'uru", "link": "https://wotlkdb.com/?npc=25741" }] },
-      { "name": "Kil'jaeden", "npcs": [{ "name": "Kil'jaeden", "link": "https://wotlkdb.com/?npc=25315" }] }
+      {
+        "name": "Kalecgos",
+        "npcs": [
+          {
+            "name": "Kalecgos",
+            "link": "https://wotlkdb.com/?npc=24850"
+          }
+        ]
+      },
+      {
+        "name": "Brutallus",
+        "npcs": [
+          {
+            "name": "Brutallus",
+            "link": "https://wotlkdb.com/?npc=24882"
+          }
+        ]
+      },
+      {
+        "name": "Felmyst",
+        "npcs": [
+          {
+            "name": "Felmyst",
+            "link": "https://wotlkdb.com/?npc=25038"
+          }
+        ]
+      },
+      {
+        "name": "Eredar Twins",
+        "npcs": [
+          {
+            "name": "Grand Astromancer Alythess",
+            "link": "https://wotlkdb.com/?npc=25165"
+          },
+          {
+            "name": "Lady Sacrolash",
+            "link": "https://wotlkdb.com/?npc=25166"
+          }
+        ]
+      },
+      {
+        "name": "M'uru",
+        "npcs": [
+          {
+            "name": "M'uru",
+            "link": "https://wotlkdb.com/?npc=25741"
+          }
+        ]
+      },
+      {
+        "name": "Kil'jaeden",
+        "npcs": [
+          {
+            "name": "Kil'jaeden",
+            "link": "https://wotlkdb.com/?npc=25315"
+          }
+        ]
+      }
     ]
   },
   {
     "id": 15,
-    "name": "Vault of Archavon",
-    "shortname": "voa",
+    "name": "Vault of Archavon (10 Player)",
+    "shortname": "voa10",
     "raid": true,
+    "enabled": false,
     "bosses": [
-      { "name": "Archavon the Stone Watcher", "npcs": [{ "name": "Archavon the Stone Watcher", "link": "https://wotlkdb.com/?npc=31125" }] },
-      { "name": "Emalon the Storm Watcher", "npcs": [{ "name": "Emalon the Storm Watcher", "link": "https://wotlkdb.com/?npc=33993" }] },
-      { "name": "Koralon the Flame Watcher", "npcs": [{ "name": "Koralon the Flame Watcher", "link": "https://wotlkdb.com/?npc=35013" }] },
-      { "name": "Toravon the Ice Watcher", "npcs": [{ "name": "Toravon the Ice Watcher", "link": "https://wotlkdb.com/?npc=38433" }] }
+      {
+        "name": "Archavon the Stone Watcher",
+        "npcs": [
+          {
+            "name": "Archavon the Stone Watcher",
+            "link": "https://wotlkdb.com/?npc=31125"
+          }
+        ]
+      },
+      {
+        "name": "Emalon the Storm Watcher",
+        "npcs": [
+          {
+            "name": "Emalon the Storm Watcher",
+            "link": "https://wotlkdb.com/?npc=33993"
+          }
+        ]
+      },
+      {
+        "name": "Koralon the Flame Watcher",
+        "npcs": [
+          {
+            "name": "Koralon the Flame Watcher",
+            "link": "https://wotlkdb.com/?npc=35013"
+          }
+        ]
+      },
+      {
+        "name": "Toravon the Ice Watcher",
+        "npcs": [
+          {
+            "name": "Toravon the Ice Watcher",
+            "link": "https://wotlkdb.com/?npc=38433"
+          }
+        ]
+      }
     ]
   },
   {
     "id": 16,
-    "name": "Naxxramas",
-    "shortname": "naxx",
+    "name": "Vault of Archavon (25 Player)",
+    "shortname": "voa25",
     "raid": true,
+    "enabled": false,
     "bosses": [
-      { "name": "Anub'Rekhan", "npcs": [{ "name": "Anub'Rekhan", "link": "https://wotlkdb.com/?npc=15956" }] },
-      { "name": "Grand Widow Faerlina", "npcs": [{ "name": "Grand Widow Faerlina", "link": "https://wotlkdb.com/?npc=15953" }] },
-      { "name": "Maexxna", "npcs": [{ "name": "Maexxna", "link": "https://wotlkdb.com/?npc=15952" }] },
-      { "name": "Noth the Plaguebringer", "npcs": [{ "name": "Noth the Plaguebringer", "link": "https://wotlkdb.com/?npc=15954" }] },
-      { "name": "Heigan the Unclean", "npcs": [{ "name": "Heigan the Unclean", "link": "https://wotlkdb.com/?npc=15936" }] },
-      { "name": "Loatheb", "npcs": [{ "name": "Loatheb", "link": "https://wotlkdb.com/?npc=16011" }] },
-      { "name": "Instructor Razuvious", "npcs": [{ "name": "Instructor Razuvious", "link": "https://wotlkdb.com/?npc=16061" }] },
-      { "name": "Gothik the Harvester", "npcs": [{ "name": "Gothik the Harvester", "link": "https://wotlkdb.com/?npc=16060" }] },
-      { "name": "The Four Horsemen", "npcs": [{ "name": "Four Horsemen Chest", "link": "https://wotlkdb.com/?object=193596" }] },
-      { "name": "Patchwerk", "npcs": [{ "name": "Patchwerk", "link": "https://wotlkdb.com/?npc=16028" }] },
-      { "name": "Grobbulus", "npcs": [{ "name": "Grobbulus", "link": "https://wotlkdb.com/?npc=15931" }] },
-      { "name": "Gluth", "npcs": [{ "name": "Gluth", "link": "https://wotlkdb.com/?npc=15932" }] },
-      { "name": "Thaddius", "npcs": [{ "name": "Thaddius", "link": "https://wotlkdb.com/?npc=15928" }] },
-      { "name": "Sapphiron", "npcs": [{ "name": "Sapphiron", "link": "https://wotlkdb.com/?npc=15989" }] },
-      { "name": "Kel'Thuzad", "npcs": [{ "name": "Kel'Thuzad", "link": "https://wotlkdb.com/?npc=15990" }] }
+      {
+        "name": "Archavon the Stone Watcher",
+        "npcs": [
+          {
+            "name": "Archavon the Stone Watcher",
+            "link": "https://wotlkdb.com/?npc=31125"
+          }
+        ]
+      },
+      {
+        "name": "Emalon the Storm Watcher",
+        "npcs": [
+          {
+            "name": "Emalon the Storm Watcher",
+            "link": "https://wotlkdb.com/?npc=33993"
+          }
+        ]
+      },
+      {
+        "name": "Koralon the Flame Watcher",
+        "npcs": [
+          {
+            "name": "Koralon the Flame Watcher",
+            "link": "https://wotlkdb.com/?npc=35013"
+          }
+        ]
+      },
+      {
+        "name": "Toravon the Ice Watcher",
+        "npcs": [
+          {
+            "name": "Toravon the Ice Watcher",
+            "link": "https://wotlkdb.com/?npc=38433"
+          }
+        ]
+      }
     ]
   },
   {
     "id": 17,
-    "name": "The Obsidian Sanctuary",
-    "shortname": "os",
+    "name": "Naxxramas (10 Player)",
+    "shortname": "naxx10",
     "raid": true,
+    "enabled": false,
     "bosses": [
-      { "name": "Sartharion", "npcs": [{ "name": "Sartharion", "link": "https://wotlkdb.com/?npc=28860" }] }
+      {
+        "name": "Anub'Rekhan",
+        "npcs": [
+          {
+            "name": "Anub'Rekhan",
+            "link": "https://wotlkdb.com/?npc=15956"
+          }
+        ]
+      },
+      {
+        "name": "Grand Widow Faerlina",
+        "npcs": [
+          {
+            "name": "Grand Widow Faerlina",
+            "link": "https://wotlkdb.com/?npc=15953"
+          }
+        ]
+      },
+      {
+        "name": "Maexxna",
+        "npcs": [
+          {
+            "name": "Maexxna",
+            "link": "https://wotlkdb.com/?npc=15952"
+          }
+        ]
+      },
+      {
+        "name": "Noth the Plaguebringer",
+        "npcs": [
+          {
+            "name": "Noth the Plaguebringer",
+            "link": "https://wotlkdb.com/?npc=15954"
+          }
+        ]
+      },
+      {
+        "name": "Heigan the Unclean",
+        "npcs": [
+          {
+            "name": "Heigan the Unclean",
+            "link": "https://wotlkdb.com/?npc=15936"
+          }
+        ]
+      },
+      {
+        "name": "Loatheb",
+        "npcs": [
+          {
+            "name": "Loatheb",
+            "link": "https://wotlkdb.com/?npc=16011"
+          }
+        ]
+      },
+      {
+        "name": "Instructor Razuvious",
+        "npcs": [
+          {
+            "name": "Instructor Razuvious",
+            "link": "https://wotlkdb.com/?npc=16061"
+          }
+        ]
+      },
+      {
+        "name": "Gothik the Harvester",
+        "npcs": [
+          {
+            "name": "Gothik the Harvester",
+            "link": "https://wotlkdb.com/?npc=16060"
+          }
+        ]
+      },
+      {
+        "name": "The Four Horsemen",
+        "npcs": [
+          {
+            "name": "Four Horsemen Chest",
+            "link": "https://wotlkdb.com/?object=193596"
+          }
+        ]
+      },
+      {
+        "name": "Patchwerk",
+        "npcs": [
+          {
+            "name": "Patchwerk",
+            "link": "https://wotlkdb.com/?npc=16028"
+          }
+        ]
+      },
+      {
+        "name": "Grobbulus",
+        "npcs": [
+          {
+            "name": "Grobbulus",
+            "link": "https://wotlkdb.com/?npc=15931"
+          }
+        ]
+      },
+      {
+        "name": "Gluth",
+        "npcs": [
+          {
+            "name": "Gluth",
+            "link": "https://wotlkdb.com/?npc=15932"
+          }
+        ]
+      },
+      {
+        "name": "Thaddius",
+        "npcs": [
+          {
+            "name": "Thaddius",
+            "link": "https://wotlkdb.com/?npc=15928"
+          }
+        ]
+      },
+      {
+        "name": "Sapphiron",
+        "npcs": [
+          {
+            "name": "Sapphiron",
+            "link": "https://wotlkdb.com/?npc=15989"
+          }
+        ]
+      },
+      {
+        "name": "Kel'Thuzad",
+        "npcs": [
+          {
+            "name": "Kel'Thuzad",
+            "link": "https://wotlkdb.com/?npc=15990"
+          }
+        ]
+      }
     ]
   },
   {
     "id": 18,
-    "name": "The Eye of Eternity",
-    "shortname": "eoe",
+    "name": "Naxxramas (25 Player)",
+    "shortname": "naxx25",
     "raid": true,
+    "enabled": false,
     "bosses": [
-      { "name": "Malygos", "npcs": [{ "name": "Malygos", "link": "https://wotlkdb.com/?npc=28859" }] }
+      {
+        "name": "Anub'Rekhan",
+        "npcs": [
+          {
+            "name": "Anub'Rekhan",
+            "link": "https://wotlkdb.com/?npc=15956"
+          }
+        ]
+      },
+      {
+        "name": "Grand Widow Faerlina",
+        "npcs": [
+          {
+            "name": "Grand Widow Faerlina",
+            "link": "https://wotlkdb.com/?npc=15953"
+          }
+        ]
+      },
+      {
+        "name": "Maexxna",
+        "npcs": [
+          {
+            "name": "Maexxna",
+            "link": "https://wotlkdb.com/?npc=15952"
+          }
+        ]
+      },
+      {
+        "name": "Noth the Plaguebringer",
+        "npcs": [
+          {
+            "name": "Noth the Plaguebringer",
+            "link": "https://wotlkdb.com/?npc=15954"
+          }
+        ]
+      },
+      {
+        "name": "Heigan the Unclean",
+        "npcs": [
+          {
+            "name": "Heigan the Unclean",
+            "link": "https://wotlkdb.com/?npc=15936"
+          }
+        ]
+      },
+      {
+        "name": "Loatheb",
+        "npcs": [
+          {
+            "name": "Loatheb",
+            "link": "https://wotlkdb.com/?npc=16011"
+          }
+        ]
+      },
+      {
+        "name": "Instructor Razuvious",
+        "npcs": [
+          {
+            "name": "Instructor Razuvious",
+            "link": "https://wotlkdb.com/?npc=16061"
+          }
+        ]
+      },
+      {
+        "name": "Gothik the Harvester",
+        "npcs": [
+          {
+            "name": "Gothik the Harvester",
+            "link": "https://wotlkdb.com/?npc=16060"
+          }
+        ]
+      },
+      {
+        "name": "The Four Horsemen",
+        "npcs": [
+          {
+            "name": "Four Horsemen Chest",
+            "link": "https://wotlkdb.com/?object=193596"
+          }
+        ]
+      },
+      {
+        "name": "Patchwerk",
+        "npcs": [
+          {
+            "name": "Patchwerk",
+            "link": "https://wotlkdb.com/?npc=16028"
+          }
+        ]
+      },
+      {
+        "name": "Grobbulus",
+        "npcs": [
+          {
+            "name": "Grobbulus",
+            "link": "https://wotlkdb.com/?npc=15931"
+          }
+        ]
+      },
+      {
+        "name": "Gluth",
+        "npcs": [
+          {
+            "name": "Gluth",
+            "link": "https://wotlkdb.com/?npc=15932"
+          }
+        ]
+      },
+      {
+        "name": "Thaddius",
+        "npcs": [
+          {
+            "name": "Thaddius",
+            "link": "https://wotlkdb.com/?npc=15928"
+          }
+        ]
+      },
+      {
+        "name": "Sapphiron",
+        "npcs": [
+          {
+            "name": "Sapphiron",
+            "link": "https://wotlkdb.com/?npc=15989"
+          }
+        ]
+      },
+      {
+        "name": "Kel'Thuzad",
+        "npcs": [
+          {
+            "name": "Kel'Thuzad",
+            "link": "https://wotlkdb.com/?npc=15990"
+          }
+        ]
+      }
     ]
   },
   {
     "id": 19,
-    "name": "Ulduar",
-    "shortname": "uld",
+    "name": "The Obsidian Sanctuary",
+    "shortname": "os",
     "raid": true,
+    "enabled": true,
     "bosses": [
-      { "name": "Flame Leviathan", "npcs": [{ "name": "Flame Leviathan", "link": "https://wotlkdb.com/?npc=33113" }] },
-      { "name": "Ignis the Furnace Master", "npcs": [{ "name": "Ignis the Furnace Master", "link": "https://wotlkdb.com/?npc=33118" }] },
-      { "name": "Razorscale", "npcs": [{ "name": "Razorscale", "link": "https://wotlkdb.com/?npc=33186" }] },
-      { "name": "XT-002 Deconstructor", "npcs": [{ "name": "XT-002 Deconstructor", "link": "https://wotlkdb.com/?npc=33293" }] },
-      { "name": "Assembly of Iron", "npcs": [{ "name": "Steelbreaker", "link": "https://wotlkdb.com/?npc=32867" }, { "name": "Runemaster Molgeim", "link": "https://wotlkdb.com/?npc=32927" }, { "name": "Stormcaller Brundir", "link": "https://wotlkdb.com/?npc=32857" }] },
-      { "name": "Kologarn", "npcs": [{ "name": "Kologarn", "link": "https://wotlkdb.com/?npc=32930" }] },
-      { "name": "Auriaya", "npcs": [{ "name": "Auriaya", "link": "https://wotlkdb.com/?npc=33515" }] },
-      { "name": "Freya", "npcs": [{ "name": "Freya", "link": "https://wotlkdb.com/?npc=32906" }] },
-      { "name": "Thorim", "npcs": [{ "name": "Thorim", "link": "https://wotlkdb.com/?npc=32865" }] },
-      { "name": "Mimiron", "npcs": [{ "name": "Mimiron", "link": "https://wotlkdb.com/?npc=33350" }] },
-      { "name": "General Vezax", "npcs": [{ "name": "General Vezax", "link": "https://wotlkdb.com/?npc=33271" }] },
-      { "name": "Yogg-Saron", "npcs": [{ "name": "Yogg-Saron", "link": "https://wotlkdb.com/?npc=33288" }] },
-      { "name": "Algalon the Observer", "npcs": [{ "name": "Algalon the Observer", "link": "https://wotlkdb.com/?npc=32871" }] }
+      {
+        "name": "Sartharion",
+        "npcs": [
+          {
+            "name": "Sartharion",
+            "link": "https://wotlkdb.com/?npc=28860"
+          }
+        ]
+      }
     ]
   },
   {
     "id": 20,
-    "name": "Trial of the Crusader",
-    "shortname": "toc",
+    "name": "The Eye of Eternity",
+    "shortname": "eoe",
     "raid": true,
+    "enabled": false,
     "bosses": [
-      { "name": "The Northrend Beasts", "npcs": [{ "name": "Gormok the Impaler", "link": "https://wotlkdb.com/?npc=34796" }, { "name": "Acidmaw", "link": "https://wotlkdb.com/?npc=34799" }, { "name": "Dreadscale", "link": "https://wotlkdb.com/?npc=34797" }, { "name": "Icehowl", "link": "https://wotlkdb.com/?npc=34798" }] },
-      { "name": "Lord Jaraxxus", "npcs": [{ "name": "Lord Jaraxxus", "link": "https://wotlkdb.com/?npc=34780" }] },
-      { "name": "Faction Champions", "npcs": [{ "name": "Faction Champions", "link": "https://wotlkdb.com/?npc=34461" }] },
-      { "name": "Twin Val'kyr", "npcs": [{ "name": "Fjola Lightbane", "link": "https://wotlkdb.com/?npc=34497" }, { "name": "Eydis Darkbane", "link": "https://wotlkdb.com/?npc=34496" }] },
-      { "name": "Anub'arak", "npcs": [{ "name": "Anub'arak", "link": "https://wotlkdb.com/?npc=34564" }] }
+      {
+        "name": "Malygos",
+        "npcs": [
+          {
+            "name": "Malygos",
+            "link": "https://wotlkdb.com/?npc=28859"
+          }
+        ]
+      }
     ]
   },
   {
     "id": 21,
-    "name": "Onyxia's Lair",
-    "shortname": "ony",
+    "name": "Ulduar (10 Player)",
+    "shortname": "uld10",
     "raid": true,
+    "enabled": false,
     "bosses": [
-      { "name": "Onyxia", "npcs": [{ "name": "Onyxia", "link": "https://wotlkdb.com/?npc=10184" }] }
+      {
+        "name": "Flame Leviathan",
+        "npcs": [
+          {
+            "name": "Flame Leviathan",
+            "link": "https://wotlkdb.com/?npc=33113"
+          }
+        ]
+      },
+      {
+        "name": "Ignis the Furnace Master",
+        "npcs": [
+          {
+            "name": "Ignis the Furnace Master",
+            "link": "https://wotlkdb.com/?npc=33118"
+          }
+        ]
+      },
+      {
+        "name": "Razorscale",
+        "npcs": [
+          {
+            "name": "Razorscale",
+            "link": "https://wotlkdb.com/?npc=33186"
+          }
+        ]
+      },
+      {
+        "name": "XT-002 Deconstructor",
+        "npcs": [
+          {
+            "name": "XT-002 Deconstructor",
+            "link": "https://wotlkdb.com/?npc=33293"
+          }
+        ]
+      },
+      {
+        "name": "Assembly of Iron",
+        "npcs": [
+          {
+            "name": "Steelbreaker",
+            "link": "https://wotlkdb.com/?npc=32867"
+          },
+          {
+            "name": "Runemaster Molgeim",
+            "link": "https://wotlkdb.com/?npc=32927"
+          },
+          {
+            "name": "Stormcaller Brundir",
+            "link": "https://wotlkdb.com/?npc=32857"
+          }
+        ]
+      },
+      {
+        "name": "Kologarn",
+        "npcs": [
+          {
+            "name": "Kologarn",
+            "link": "https://wotlkdb.com/?npc=32930"
+          }
+        ]
+      },
+      {
+        "name": "Auriaya",
+        "npcs": [
+          {
+            "name": "Auriaya",
+            "link": "https://wotlkdb.com/?npc=33515"
+          }
+        ]
+      },
+      {
+        "name": "Freya",
+        "npcs": [
+          {
+            "name": "Freya",
+            "link": "https://wotlkdb.com/?npc=32906"
+          }
+        ]
+      },
+      {
+        "name": "Thorim",
+        "npcs": [
+          {
+            "name": "Thorim",
+            "link": "https://wotlkdb.com/?npc=32865"
+          }
+        ]
+      },
+      {
+        "name": "Mimiron",
+        "npcs": [
+          {
+            "name": "Mimiron",
+            "link": "https://wotlkdb.com/?npc=33350"
+          }
+        ]
+      },
+      {
+        "name": "General Vezax",
+        "npcs": [
+          {
+            "name": "General Vezax",
+            "link": "https://wotlkdb.com/?npc=33271"
+          }
+        ]
+      },
+      {
+        "name": "Yogg-Saron",
+        "npcs": [
+          {
+            "name": "Yogg-Saron",
+            "link": "https://wotlkdb.com/?npc=33288"
+          }
+        ]
+      },
+      {
+        "name": "Algalon the Observer",
+        "npcs": [
+          {
+            "name": "Algalon the Observer",
+            "link": "https://wotlkdb.com/?npc=32871"
+          }
+        ]
+      }
     ]
   },
   {
     "id": 22,
-    "name": "Icecrown Citadel",
-    "shortname": "icc",
+    "name": "Ulduar (25 Player)",
+    "shortname": "uld25",
     "raid": true,
+    "enabled": false,
     "bosses": [
-      { "name": "Lord Marrowgar", "npcs": [{ "name": "Lord Marrowgar", "link": "https://wotlkdb.com/?npc=36612" }] },
-      { "name": "Lady Deathwhisper", "npcs": [{ "name": "Lady Deathwhisper", "link": "https://wotlkdb.com/?npc=36855" }] },
-      { "name": "Icecrown Gunship Battle", "npcs": [{ "name": "Gunship Armory Chest", "link": "https://wotlkdb.com/?object=201873" }] },
-      { "name": "Deathbringer Saurfang", "npcs": [{ "name": "Deathbringer Saurfang", "link": "https://wotlkdb.com/?npc=37813" }] },
-      { "name": "Festergut", "npcs": [{ "name": "Festergut", "link": "https://wotlkdb.com/?npc=36626" }] },
-      { "name": "Rotface", "npcs": [{ "name": "Rotface", "link": "https://wotlkdb.com/?npc=36627" }] },
-      { "name": "Professor Putricide", "npcs": [{ "name": "Professor Putricide", "link": "https://wotlkdb.com/?npc=36678" }] },
-      { "name": "Blood Prince Council", "npcs": [{ "name": "Prince Keleseth", "link": "https://wotlkdb.com/?npc=37972" }, { "name": "Prince Taldaram", "link": "https://wotlkdb.com/?npc=37973" }, { "name": "Prince Valanar", "link": "https://wotlkdb.com/?npc=37970" }] },
-      { "name": "Blood-Queen Lana'thel", "npcs": [{ "name": "Blood-Queen Lana'thel", "link": "https://wotlkdb.com/?npc=37955" }] },
-      { "name": "Valithria Dreamwalker", "npcs": [{ "name": "Cache of the Dreamwalker", "link": "https://wotlkdb.com/?object=201959" }] },
-      { "name": "Sindragosa", "npcs": [{ "name": "Sindragosa", "link": "https://wotlkdb.com/?npc=36853" }] },
-      { "name": "The Lich King", "npcs": [{ "name": "The Lich King", "link": "https://wotlkdb.com/?npc=36597" }] }
+      {
+        "name": "Flame Leviathan",
+        "npcs": [
+          {
+            "name": "Flame Leviathan",
+            "link": "https://wotlkdb.com/?npc=33113"
+          }
+        ]
+      },
+      {
+        "name": "Ignis the Furnace Master",
+        "npcs": [
+          {
+            "name": "Ignis the Furnace Master",
+            "link": "https://wotlkdb.com/?npc=33118"
+          }
+        ]
+      },
+      {
+        "name": "Razorscale",
+        "npcs": [
+          {
+            "name": "Razorscale",
+            "link": "https://wotlkdb.com/?npc=33186"
+          }
+        ]
+      },
+      {
+        "name": "XT-002 Deconstructor",
+        "npcs": [
+          {
+            "name": "XT-002 Deconstructor",
+            "link": "https://wotlkdb.com/?npc=33293"
+          }
+        ]
+      },
+      {
+        "name": "Assembly of Iron",
+        "npcs": [
+          {
+            "name": "Steelbreaker",
+            "link": "https://wotlkdb.com/?npc=32867"
+          },
+          {
+            "name": "Runemaster Molgeim",
+            "link": "https://wotlkdb.com/?npc=32927"
+          },
+          {
+            "name": "Stormcaller Brundir",
+            "link": "https://wotlkdb.com/?npc=32857"
+          }
+        ]
+      },
+      {
+        "name": "Kologarn",
+        "npcs": [
+          {
+            "name": "Kologarn",
+            "link": "https://wotlkdb.com/?npc=32930"
+          }
+        ]
+      },
+      {
+        "name": "Auriaya",
+        "npcs": [
+          {
+            "name": "Auriaya",
+            "link": "https://wotlkdb.com/?npc=33515"
+          }
+        ]
+      },
+      {
+        "name": "Freya",
+        "npcs": [
+          {
+            "name": "Freya",
+            "link": "https://wotlkdb.com/?npc=32906"
+          }
+        ]
+      },
+      {
+        "name": "Thorim",
+        "npcs": [
+          {
+            "name": "Thorim",
+            "link": "https://wotlkdb.com/?npc=32865"
+          }
+        ]
+      },
+      {
+        "name": "Mimiron",
+        "npcs": [
+          {
+            "name": "Mimiron",
+            "link": "https://wotlkdb.com/?npc=33350"
+          }
+        ]
+      },
+      {
+        "name": "General Vezax",
+        "npcs": [
+          {
+            "name": "General Vezax",
+            "link": "https://wotlkdb.com/?npc=33271"
+          }
+        ]
+      },
+      {
+        "name": "Yogg-Saron",
+        "npcs": [
+          {
+            "name": "Yogg-Saron",
+            "link": "https://wotlkdb.com/?npc=33288"
+          }
+        ]
+      },
+      {
+        "name": "Algalon the Observer",
+        "npcs": [
+          {
+            "name": "Algalon the Observer",
+            "link": "https://wotlkdb.com/?npc=32871"
+          }
+        ]
+      }
     ]
   },
   {
     "id": 23,
-    "name": "The Ruby Sanctum",
-    "shortname": "rs",
+    "name": "Trial of the Crusader (10 Player)",
+    "shortname": "toc10",
     "raid": true,
+    "enabled": false,
     "bosses": [
-      { "name": "Halion", "npcs": [{ "name": "Halion", "link": "https://wotlkdb.com/?npc=39863" }] }
+      {
+        "name": "The Northrend Beasts",
+        "npcs": [
+          {
+            "name": "Gormok the Impaler",
+            "link": "https://wotlkdb.com/?npc=34796"
+          },
+          {
+            "name": "Acidmaw",
+            "link": "https://wotlkdb.com/?npc=34799"
+          },
+          {
+            "name": "Dreadscale",
+            "link": "https://wotlkdb.com/?npc=34797"
+          },
+          {
+            "name": "Icehowl",
+            "link": "https://wotlkdb.com/?npc=34798"
+          }
+        ]
+      },
+      {
+        "name": "Lord Jaraxxus",
+        "npcs": [
+          {
+            "name": "Lord Jaraxxus",
+            "link": "https://wotlkdb.com/?npc=34780"
+          }
+        ]
+      },
+      {
+        "name": "Faction Champions",
+        "npcs": [
+          {
+            "name": "Faction Champions",
+            "link": "https://wotlkdb.com/?npc=34461"
+          }
+        ]
+      },
+      {
+        "name": "Twin Val'kyr",
+        "npcs": [
+          {
+            "name": "Fjola Lightbane",
+            "link": "https://wotlkdb.com/?npc=34496"
+          },
+          {
+            "name": "Eydis Darkbane",
+            "link": "https://wotlkdb.com/?npc=34497"
+          }
+        ]
+      },
+      {
+        "name": "Anub'arak",
+        "npcs": [
+          {
+            "name": "Anub'arak",
+            "link": "https://wotlkdb.com/?npc=34564"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Trial of the Crusader (25 Player)",
+    "shortname": "toc25",
+    "raid": true,
+    "enabled": false,
+    "bosses": [
+      {
+        "name": "The Northrend Beasts",
+        "npcs": [
+          {
+            "name": "Gormok the Impaler",
+            "link": "https://wotlkdb.com/?npc=34796"
+          },
+          {
+            "name": "Acidmaw",
+            "link": "https://wotlkdb.com/?npc=34799"
+          },
+          {
+            "name": "Dreadscale",
+            "link": "https://wotlkdb.com/?npc=34797"
+          },
+          {
+            "name": "Icehowl",
+            "link": "https://wotlkdb.com/?npc=34798"
+          }
+        ]
+      },
+      {
+        "name": "Lord Jaraxxus",
+        "npcs": [
+          {
+            "name": "Lord Jaraxxus",
+            "link": "https://wotlkdb.com/?npc=34780"
+          }
+        ]
+      },
+      {
+        "name": "Faction Champions",
+        "npcs": [
+          {
+            "name": "Faction Champions",
+            "link": "https://wotlkdb.com/?npc=34461"
+          }
+        ]
+      },
+      {
+        "name": "Twin Val'kyr",
+        "npcs": [
+          {
+            "name": "Fjola Lightbane",
+            "link": "https://wotlkdb.com/?npc=34496"
+          },
+          {
+            "name": "Eydis Darkbane",
+            "link": "https://wotlkdb.com/?npc=34497"
+          }
+        ]
+      },
+      {
+        "name": "Anub'arak",
+        "npcs": [
+          {
+            "name": "Anub'arak",
+            "link": "https://wotlkdb.com/?npc=34564"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Onyxia's Lair",
+    "shortname": "ony",
+    "raid": true,
+    "enabled": true,
+    "bosses": [
+      {
+        "name": "Onyxia",
+        "npcs": [
+          {
+            "name": "Onyxia",
+            "link": "https://wotlkdb.com/?npc=10184"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Icecrown Citadel (10 Player)",
+    "shortname": "icc10",
+    "raid": true,
+    "enabled": false,
+    "bosses": [
+      {
+        "name": "Lord Marrowgar",
+        "npcs": [
+          {
+            "name": "Lord Marrowgar",
+            "link": "https://wotlkdb.com/?npc=36612"
+          }
+        ]
+      },
+      {
+        "name": "Lady Deathwhisper",
+        "npcs": [
+          {
+            "name": "Lady Deathwhisper",
+            "link": "https://wotlkdb.com/?npc=36855"
+          }
+        ]
+      },
+      {
+        "name": "Icecrown Gunship Battle",
+        "npcs": [
+          {
+            "name": "Gunship Armory Chest",
+            "link": "https://wotlkdb.com/?object=201873"
+          }
+        ]
+      },
+      {
+        "name": "Deathbringer Saurfang",
+        "npcs": [
+          {
+            "name": "Deathbringer Saurfang",
+            "link": "https://wotlkdb.com/?npc=37813"
+          }
+        ]
+      },
+      {
+        "name": "Festergut",
+        "npcs": [
+          {
+            "name": "Festergut",
+            "link": "https://wotlkdb.com/?npc=36626"
+          }
+        ]
+      },
+      {
+        "name": "Rotface",
+        "npcs": [
+          {
+            "name": "Rotface",
+            "link": "https://wotlkdb.com/?npc=36627"
+          }
+        ]
+      },
+      {
+        "name": "Professor Putricide",
+        "npcs": [
+          {
+            "name": "Professor Putricide",
+            "link": "https://wotlkdb.com/?npc=36678"
+          }
+        ]
+      },
+      {
+        "name": "Blood Prince Council",
+        "npcs": [
+          {
+            "name": "Prince Keleseth",
+            "link": "https://wotlkdb.com/?npc=37972"
+          },
+          {
+            "name": "Prince Taldaram",
+            "link": "https://wotlkdb.com/?npc=37973"
+          },
+          {
+            "name": "Prince Valanar",
+            "link": "https://wotlkdb.com/?npc=37970"
+          }
+        ]
+      },
+      {
+        "name": "Blood-Queen Lana'thel",
+        "npcs": [
+          {
+            "name": "Blood-Queen Lana'thel",
+            "link": "https://wotlkdb.com/?npc=37955"
+          }
+        ]
+      },
+      {
+        "name": "Valithria Dreamwalker",
+        "npcs": [
+          {
+            "name": "Cache of the Dreamwalker",
+            "link": "https://wotlkdb.com/?object=201959"
+          }
+        ]
+      },
+      {
+        "name": "Sindragosa",
+        "npcs": [
+          {
+            "name": "Sindragosa",
+            "link": "https://wotlkdb.com/?npc=36853"
+          }
+        ]
+      },
+      {
+        "name": "The Lich King",
+        "npcs": [
+          {
+            "name": "The Lich King",
+            "link": "https://wotlkdb.com/?npc=36597"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Icecrown Citadel (25 Player)",
+    "shortname": "icc25",
+    "raid": true,
+    "enabled": false,
+    "bosses": [
+      {
+        "name": "Lord Marrowgar",
+        "npcs": [
+          {
+            "name": "Lord Marrowgar",
+            "link": "https://wotlkdb.com/?npc=36612"
+          }
+        ]
+      },
+      {
+        "name": "Lady Deathwhisper",
+        "npcs": [
+          {
+            "name": "Lady Deathwhisper",
+            "link": "https://wotlkdb.com/?npc=36855"
+          }
+        ]
+      },
+      {
+        "name": "Icecrown Gunship Battle",
+        "npcs": [
+          {
+            "name": "Gunship Armory Chest",
+            "link": "https://wotlkdb.com/?object=201873"
+          }
+        ]
+      },
+      {
+        "name": "Deathbringer Saurfang",
+        "npcs": [
+          {
+            "name": "Deathbringer Saurfang",
+            "link": "https://wotlkdb.com/?npc=37813"
+          }
+        ]
+      },
+      {
+        "name": "Festergut",
+        "npcs": [
+          {
+            "name": "Festergut",
+            "link": "https://wotlkdb.com/?npc=36626"
+          }
+        ]
+      },
+      {
+        "name": "Rotface",
+        "npcs": [
+          {
+            "name": "Rotface",
+            "link": "https://wotlkdb.com/?npc=36627"
+          }
+        ]
+      },
+      {
+        "name": "Professor Putricide",
+        "npcs": [
+          {
+            "name": "Professor Putricide",
+            "link": "https://wotlkdb.com/?npc=36678"
+          }
+        ]
+      },
+      {
+        "name": "Blood Prince Council",
+        "npcs": [
+          {
+            "name": "Prince Keleseth",
+            "link": "https://wotlkdb.com/?npc=37972"
+          },
+          {
+            "name": "Prince Taldaram",
+            "link": "https://wotlkdb.com/?npc=37973"
+          },
+          {
+            "name": "Prince Valanar",
+            "link": "https://wotlkdb.com/?npc=37970"
+          }
+        ]
+      },
+      {
+        "name": "Blood-Queen Lana'thel",
+        "npcs": [
+          {
+            "name": "Blood-Queen Lana'thel",
+            "link": "https://wotlkdb.com/?npc=37955"
+          }
+        ]
+      },
+      {
+        "name": "Valithria Dreamwalker",
+        "npcs": [
+          {
+            "name": "Cache of the Dreamwalker",
+            "link": "https://wotlkdb.com/?object=201959"
+          }
+        ]
+      },
+      {
+        "name": "Sindragosa",
+        "npcs": [
+          {
+            "name": "Sindragosa",
+            "link": "https://wotlkdb.com/?npc=36853"
+          }
+        ]
+      },
+      {
+        "name": "The Lich King",
+        "npcs": [
+          {
+            "name": "The Lich King",
+            "link": "https://wotlkdb.com/?npc=36597"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "name": "The Ruby Sanctum (10 Player)",
+    "shortname": "rs10",
+    "raid": true,
+    "enabled": false,
+    "bosses": [
+      {
+        "name": "Halion",
+        "npcs": [
+          {
+            "name": "Halion",
+            "link": "https://wotlkdb.com/?npc=39863"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "name": "The Ruby Sanctum (25 Player)",
+    "shortname": "rs25",
+    "raid": true,
+    "enabled": false,
+    "bosses": [
+      {
+        "name": "Halion",
+        "npcs": [
+          {
+            "name": "Halion",
+            "link": "https://wotlkdb.com/?npc=39863"
+          }
+        ]
+      }
     ]
   }
 ]
