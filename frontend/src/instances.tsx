@@ -9,7 +9,7 @@ export const SERVER_LABELS: Record<GameServer, string> = {
 }
 
 export const instanceOrder = [
-  -- Vanilla & Classic --
+  // Vanilla & Classic --
   "Molten Core",
   "Blackwing Lair",
   "Zul'Gurub",
@@ -17,7 +17,7 @@ export const instanceOrder = [
   "Temple of Ahn'Qiraj",
   "Onyxia's Lair",
   
-  -- The Burning Crusade --
+  // The Burning Crusade --
   "Lower Karazhan Halls",
   "Tower of Karazhan",
   "Emerald Sanctum",
@@ -31,7 +31,7 @@ export const instanceOrder = [
   "Zul'Aman",
   "Sunwell Plateau",
 
-  -- Wrath of the Lich King --
+  // Wrath of the Lich King --
   "Vault of Archavon (10 Player)",
   "Vault of Archavon (25 Player)",
   "Naxxramas (10 Player)",
@@ -47,6 +47,7 @@ export const instanceOrder = [
   "The Ruby Sanctum (10 Player)",
   "The Ruby Sanctum (25 Player)",
 ]
+
 export const renderInstance: (
   instances: Instance[],
 ) => SelectProps["renderOption"] = (instances) =>
