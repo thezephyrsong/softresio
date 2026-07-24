@@ -75,19 +75,24 @@ export const ClassIcon = (
   { spec, xclass }: { xclass?: string | null; spec?: string | null },
 ) => {
   const icon = !xclass || spec === null
-    ? "inv_misc_questionmark.png"
+    ? "inv_misc_questionmark.jpg"
     : classIcons[`${xclass}${spec ? spec.replace(" ", "") : ""}`]
   return (
     <Image
       radius={2}
       h={20}
       w={20}
-      src={`https://database.turtlecraft.gg/images/icons/medium/${icon}`}
+      src={`https://wotlkdb.com/static/images/wow/icons/medium/${icon}`}
     />
   )
 }
 
 export const classes: { [className: string]: string[] } = {
+  "Death Knight": [
+    "Blood",
+    "Frost",
+    "Unholy",
+  ],
   "Warrior": [
     "Arms",
     "Fury",
@@ -138,42 +143,65 @@ export const classes: { [className: string]: string[] } = {
 }
 
 export const classIcons: { [classSpec: string]: string } = {
-  "Warrior": "class_warrior.png",
-  "WarriorArms": "ability_warrior_savageblow.png",
-  "WarriorFury": "ability_warrior_innerrage.png",
-  "WarriorProtection": "inv_shield_06.png",
-  "Paladin": "class_paladin.png",
-  "PaladinHoly": "spell_holy_holybolt.png",
-  "PaladinProtection": "spell_holy_devotionaura.png",
-  "PaladinRetribution": "spell_holy_auraoflight.png",
-  "Hunter": "class_hunter.png",
-  "HunterBeastMastery": "ability_hunter_beasttaming.png",
-  "HunterMarksmanship": "ability_marksmanship.png",
-  "HunterSurvival": "ability_hunter_swiftstrike.png",
-  "Rogue": "class_rogue.png",
-  "RogueAssassination": "ability_rogue_eviscerate.png",
-  "RogueCombat": "ability_backstab.png",
-  "RogueSubtlety": "ability_stealth.png",
-  "Priest": "class_priest.png",
-  "PriestDiscipline": "spell_holy_wordfortitude.png",
-  "PriestHoly": "spell_holy_holybolt.png",
-  "PriestShadow": "spell_shadow_shadowwordpain.png",
-  "Shaman": "class_shaman.png",
-  "ShamanElemental": "spell_nature_lightning.png",
-  "ShamanEnhancement": "spell_nature_lightningshield.png",
-  "ShamanTank": "inv_shield_06.png",
-  "ShamanRestoration": "spell_nature_magicimmunity.png",
-  "Mage": "class_mage.png",
-  "MageArcane": "spell_holy_magicalsentry.png",
-  "MageFire": "spell_fire_flamebolt.png",
-  "MageFrost": "spell_frost_frostbolt02.png",
-  "Warlock": "class_warlock.png",
-  "WarlockAffliction": "spell_shadow_deathcoil.png",
-  "WarlockDemonology": "spell_shadow_metamorphosis.png",
-  "WarlockDestruction": "spell_shadow_rainoffire.png",
-  "Druid": "class_druid.png",
-  "DruidBalance": "spell_nature_starfall.png",
-  "DruidCat": "ability_druid_catform.png",
-  "DruidRestoration": "spell_nature_healingtouch.png",
-  "DruidBear": "ability_racial_bearform.png",
+  // Death Knight
+  "Death Knight": "class_deathknight.jpg",
+  "Death KnightBlood": "spell_deathknight_bloodpresence.jpg",
+  "Death KnightFrost": "spell_deathknight_frostpresence.jpg",
+  "Death KnightUnholy": "spell_deathknight_unholypresence.jpg",
+
+  // Warrior
+  "Warrior": "class_warrior.jpg",
+  "WarriorArms": "ability_warrior_savageblow.jpg",
+  "WarriorFury": "ability_warrior_innerrage.jpg",
+  "WarriorProtection": "inv_shield_06.jpg",
+
+  // Paladin
+  "Paladin": "class_paladin.jpg",
+  "PaladinHoly": "spell_holy_holybolt.jpg",
+  "PaladinProtection": "spell_holy_devotionaura.jpg",
+  "PaladinRetribution": "spell_holy_auraoflight.jpg",
+
+  // Hunter
+  "Hunter": "class_hunter.jpg",
+  "HunterBeastMastery": "ability_hunter_beasttaming.jpg",
+  "HunterMarksmanship": "ability_marksmanship.jpg",
+  "HunterSurvival": "ability_hunter_swiftstrike.jpg",
+
+  // Rogue
+  "Rogue": "class_rogue.jpg",
+  "RogueAssassination": "ability_rogue_eviscerate.jpg",
+  "RogueCombat": "ability_backstab.jpg",
+  "RogueSubtlety": "ability_stealth.jpg",
+
+  // Priest
+  "Priest": "class_priest.jpg",
+  "PriestDiscipline": "spell_holy_wordfortitude.jpg",
+  "PriestHoly": "spell_holy_holybolt.jpg",
+  "PriestShadow": "spell_shadow_shadowwordpain.jpg",
+
+  // Shaman
+  "Shaman": "class_shaman.jpg",
+  "ShamanElemental": "spell_nature_lightning.jpg",
+  "ShamanEnhancement": "spell_nature_lightningshield.jpg",
+  "ShamanTank": "inv_shield_06.jpg",
+  "ShamanRestoration": "spell_nature_magicimmunity.jpg",
+
+  // Mage
+  "Mage": "class_mage.jpg",
+  "MageArcane": "spell_holy_magicalsentry.jpg",
+  "MageFire": "spell_fire_flamebolt.jpg",
+  "MageFrost": "spell_frost_frostbolt02.jpg",
+
+  // Warlock
+  "Warlock": "class_warlock.jpg",
+  "WarlockAffliction": "spell_shadow_deathcoil.jpg",
+  "WarlockDemonology": "spell_shadow_metamorphosis.jpg",
+  "WarlockDestruction": "spell_shadow_rainoffire.jpg",
+
+  // Druid
+  "Druid": "class_druid.jpg",
+  "DruidBalance": "spell_nature_starfall.jpg",
+  "DruidCat": "ability_druid_catform.jpg",
+  "DruidRestoration": "spell_nature_healingtouch.jpg",
+  "DruidBear": "ability_racial_bearform.jpg",
 }
