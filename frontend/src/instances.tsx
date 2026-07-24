@@ -36,7 +36,7 @@ export const instanceOrder = [
   "Vault of Archavon (25 Player)",
   "Naxxramas (10 Player)",
   "Naxxramas (25 Player)",
-  "The Obsidian Sanctuary",
+  "The Obsidian Sanctum",
   "The Eye of Eternity",
   "Ulduar (10 Player)",
   "Ulduar (25 Player)",

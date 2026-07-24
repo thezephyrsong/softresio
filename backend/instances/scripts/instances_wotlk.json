@@ -1352,7 +1352,7 @@
   },
   {
     "id": 118,
-    "name": "The Obsidian Sanctuary (10 Player)",
+    "name": "The Obsidian Sanctum (10 Player)",
     "shortname": "os10",
     "raid": true,
     "enabled": true,
@@ -1370,7 +1370,7 @@
   },
   {
     "id": 119,
-    "name": "The Obsidian Sanctuary (25 Player)",
+    "name": "The Obsidian Sanctum (25 Player)",
     "shortname": "os25",
     "raid": true,
     "enabled": true,
