@@ -90,7 +90,7 @@ export const ItemNameAndIcon = (
           onClick={(e) => {
             if (allowImageClick) {
               globalThis.open(
-                `https://database.turtlecraft.gg/?item=${item.id}`,
+                `https://wotlkdb.com/?item=${item.id}`,
               )
               e.stopPropagation()
             }
@@ -111,7 +111,7 @@ export const ItemNameAndIcon = (
                 radius="sm"
                 h={24}
                 w={24}
-                src={`https://database.turtlecraft.gg/images/icons/medium/${item.icon}`}
+                src={`https://wotlkdb.com/static/images/wow/icons/large/${item.icon}`}
               />
             )}
         </Box>
