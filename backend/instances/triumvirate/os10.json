@@ -31,7 +31,7 @@
         "Equip: Improves critical strike rating by 15.",
         "Equip: Increases your armor penetration rating by 14."
       ],
-      "icon": "inv_helmet_110.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 18.0,
@@ -73,7 +73,7 @@
         "Equip: Improves critical strike rating by 13.",
         "Equip: Increases spell power by 33."
       ],
-      "icon": "spell_arcane_blast.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 18.0,
@@ -116,7 +116,7 @@
         "Equip: Increases defense rating by 11.",
         "Equip: Increases your parry rating by 13."
       ],
-      "icon": "inv_jewelry_ring_70.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 19.0,
@@ -159,7 +159,7 @@
         "Equip: Increases spell power by 26.",
         "Equip: Restores 11 mana per 5 sec."
       ],
-      "icon": "inv_jewelry_ring_67.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 7.0,
@@ -193,7 +193,7 @@
       "tooltip": [
         "Majestic Dragon Figurine"
       ],
-      "icon": "inv_misc_head_dragon_green.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 18.0,
@@ -236,7 +236,7 @@
         "Equip: Improves critical strike rating by 8.",
         "Equip: Increases attack power by 39."
       ],
-      "icon": "inv_weapon_hand_18.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 18.0,
@@ -270,7 +270,7 @@
       "tooltip": [
         "Dragon Hide Bag"
       ],
-      "icon": "inv_misc_bag_26_spellfire.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 100.0,
@@ -304,7 +304,7 @@
       "tooltip": [
         "Satchel of Spoils"
       ],
-      "icon": "inv_misc_bag_17.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 100.0,
@@ -338,7 +338,7 @@
       "tooltip": [
         "Gale-Proof Cloak"
       ],
-      "icon": "inv_misc_cape_20.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 1.0,
@@ -383,7 +383,7 @@
         "Equip: Improves hit rating by 20.",
         "Equip: Improves haste rating by 11."
       ],
-      "icon": "inv_chest_leather_15.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 2.0,
@@ -428,7 +428,7 @@
         "Equip: Improves critical strike rating by 14.",
         "Equip: Increases spell power by 34."
       ],
-      "icon": "inv_pants_leather_23.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 1.0,
@@ -473,7 +473,7 @@
         "Equip: Increases spell power by 30.",
         "Equip: Restores 8 mana per 5 sec."
       ],
-      "icon": "inv_belt_12.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 2.0,
@@ -517,7 +517,7 @@
         "Equip: Increases spell power by 29.",
         "Equip: Restores 11 mana per 5 sec."
       ],
-      "icon": "inv_jewelry_necklace_41.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 2.0,
@@ -551,7 +551,7 @@
       "tooltip": [
         "Gloves of the Lost Conqueror"
       ],
-      "icon": "inv_gauntlets_27.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 28.0,
@@ -585,7 +585,7 @@
       "tooltip": [
         "Gloves of the Lost Protector"
       ],
-      "icon": "inv_gauntlets_27.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 29.0,
@@ -619,7 +619,7 @@
       "tooltip": [
         "Gloves of the Lost Vanquisher"
       ],
-      "icon": "inv_gauntlets_27.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 37.0,
@@ -665,7 +665,7 @@
         "Equip: Improves critical strike rating by 12.",
         "Equip: Increases spell power by 31."
       ],
-      "icon": "inv_helmet_133.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -711,7 +711,7 @@
         "Equip: Improves critical strike rating by 26.",
         "Equip: Improves hit rating by 16."
       ],
-      "icon": "inv_chest_mail_05.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -756,7 +756,7 @@
         "Equip: Restores 7 mana per 5 sec.",
         "Equip: Increases spell power by 32."
       ],
-      "icon": "inv_boots_chain_12.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -800,7 +800,7 @@
         "Equip: Improves critical strike rating by 12.",
         "Equip: Improves hit rating by 18."
       ],
-      "icon": "inv_pants_plate_21.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -845,7 +845,7 @@
         "Equip: Improves critical strike rating by 15.",
         "Equip: Increases your armor penetration rating by 11."
       ],
-      "icon": "inv_jewelry_ring_66.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -879,7 +879,7 @@
       "tooltip": [
         "Reins of the Black Drake"
       ],
-      "icon": "ability_mount_drake_twilight.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 100.0,

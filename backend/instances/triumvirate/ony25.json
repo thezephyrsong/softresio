@@ -23,7 +23,7 @@
       "tooltip": [
         "Flowing Sapphiron Drape"
       ],
-      "icon": "inv_misc_cape_16.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -63,7 +63,7 @@
         "Equip: Improves haste rating by 17.",
         "Equip: Increases spell power by 30."
       ],
-      "icon": "inv_helmet_24.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -103,7 +103,7 @@
         "Equip: Improves critical strike rating by 18.",
         "Equip: Increases spell power by 33."
       ],
-      "icon": "inv_helmet_24.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -143,7 +143,7 @@
         "Equip: Improves critical strike rating by 20.",
         "Equip: Increases spell power by 33."
       ],
-      "icon": "inv_helmet_08.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -183,7 +183,7 @@
         "Equip: Improves critical strike rating by 18.",
         "Equip: Increases spell power by 33."
       ],
-      "icon": "inv_helmet_70.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -223,7 +223,7 @@
         "Equip: Improves critical strike rating by 12.",
         "Equip: Increases your armor penetration rating by 15."
       ],
-      "icon": "inv_helmet_41.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -263,7 +263,7 @@
         "Equip: Improves haste rating by 19.",
         "Equip: Increases spell power by 30."
       ],
-      "icon": "inv_helmet_09.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -303,7 +303,7 @@
         "Equip: Improves critical strike rating by 13.",
         "Equip: Increases spell power by 22."
       ],
-      "icon": "inv_helmet_09.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -343,7 +343,7 @@
         "Equip: Improves hit rating by 22.",
         "Equip: Increases your expertise rating by 20."
       ],
-      "icon": "inv_helmet_09.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -384,7 +384,7 @@
         "Equip: Improves critical strike rating by 19.",
         "Equip: Improves haste rating by 23."
       ],
-      "icon": "inv_helmet_69.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -424,7 +424,7 @@
         "Equip: Improves critical strike rating by 20.",
         "Equip: Improves hit rating by 17."
       ],
-      "icon": "inv_helmet_69.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -464,7 +464,7 @@
         "Equip: Restores 16 mana per 5 sec.",
         "Equip: Increases spell power by 54."
       ],
-      "icon": "inv_helmet_69.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -505,7 +505,7 @@
         "Equip: Increases your armor penetration rating by 12.",
         "Equip: Increases attack power by 45."
       ],
-      "icon": "inv_helmet_05.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -545,7 +545,7 @@
         "Equip: Increases your dodge rating by 13.",
         "Equip: Increases your parry rating by 17."
       ],
-      "icon": "inv_helmet_71.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -584,7 +584,7 @@
         "Equip: Improves critical strike rating by 13.",
         "Equip: Increases your armor penetration rating by 16."
       ],
-      "icon": "inv_helmet_71.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -624,7 +624,7 @@
         "Equip: Increases your parry rating by 17.",
         "Equip: Improves hit rating by 16."
       ],
-      "icon": "inv_helmet_146.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -663,7 +663,7 @@
         "Equip: Improves hit rating by 15.",
         "Equip: Increases your armor penetration rating by 15."
       ],
-      "icon": "inv_helmet_146.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -703,7 +703,7 @@
         "Equip: Improves critical strike rating by 11.",
         "Equip: Increases spell power by 33."
       ],
-      "icon": "inv_helmet_74.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -743,7 +743,7 @@
         "Equip: Increases your dodge rating by 18.",
         "Equip: Improves hit rating by 16."
       ],
-      "icon": "inv_helmet_74.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -782,7 +782,7 @@
         "Equip: Improves critical strike rating by 12.",
         "Equip: Improves haste rating by 16."
       ],
-      "icon": "inv_helmet_74.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -825,7 +825,7 @@
         "Equip: Increases your expertise rating by 11.",
         "Equip: Increases defense rating by 13."
       ],
-      "icon": "inv_belt_12.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -871,7 +871,7 @@
         "Requires Level 60",
         "Equip: Increases defense rating by 20."
       ],
-      "icon": "inv_jewelry_ring_13.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -917,7 +917,7 @@
         "(2) Set: Increases spell power by 52.",
         "(2) Set: Your direct heals have a chance to cause Cauterizing Heal. Your direct damage spells have a chance to cause Searing Flame."
       ],
-      "icon": "inv_misc_monsterscales_15.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -963,7 +963,7 @@
         "(2) Set: Increases spell power by 52.",
         "(2) Set: Your direct heals have a chance to cause Cauterizing Heal. Your direct damage spells have a chance to cause Searing Flame."
       ],
-      "icon": "inv_misc_monsterscales_15.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -1005,7 +1005,7 @@
         "Equip: Increases spell power by 27.",
         "Use: Summons a Skeleton that will protect you for 1 min. (15 Min Cooldown)"
       ],
-      "icon": "inv_misc_book_07.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -1049,7 +1049,7 @@
         "Equip: Increases spell power by 130.",
         "Equip: Restores 10 mana per 5 sec."
       ],
-      "icon": "inv_weapon_shortblade_06.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -1089,7 +1089,7 @@
         "Requires Level 60",
         "Chance on hit: Sends a shadowy bolt at the enemy causing 190 Shadow damage and lowering all stats by 65 for 30 sec."
       ],
-      "icon": "inv_weapon_shortblade_18.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -1133,7 +1133,7 @@
         "Equip: Increases spell power by 130.",
         "Equip: Improves hit rating by 20."
       ],
-      "icon": "inv_sword_39.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -1169,7 +1169,7 @@
         "Requires Level 60",
         "Chance on hit: Grants the wielder 14 defense rating and 400 armor for 10 sec."
       ],
-      "icon": "inv_sword_01.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -1210,7 +1210,7 @@
         "Requires Level 60",
         "Chance on hit: Delivers a fatal wound for 2222 damage."
       ],
-      "icon": "inv_sword_18.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -1253,7 +1253,7 @@
         "Equip: Increases your expertise rating by 19.",
         "Equip: Improves critical strike rating by 17."
       ],
-      "icon": "inv_sword_28.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -1293,7 +1293,7 @@
         "Requires Level 60",
         "Chance on hit: Sends a shadowy bolt at the enemy causing 1458 to 1874 Shadow damage."
       ],
-      "icon": "inv_axe_09.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -1339,7 +1339,7 @@
         "Chance on hit: Steals 200 to 320 life from target enemy.",
         "Use: Summons a new Reinforced Thunderstrike."
       ],
-      "icon": "inv_spear_08.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -1384,7 +1384,7 @@
         "Equip: Improves haste rating by 17.",
         "Chance on hit: Blasts up to 3 targets for 250 to 398 Nature damage. Each target after the first takes less damage."
       ],
-      "icon": "inv_spear_08.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -1427,7 +1427,7 @@
         "Equip: Improves critical strike rating by 15.",
         "Equip: Increases attack power by 34."
       ],
-      "icon": "inv_weapon_rifle_09.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -1461,7 +1461,7 @@
       "tooltip": [
         "Head of Onyxia"
       ],
-      "icon": "inv_misc_head_dragon_01.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -1504,7 +1504,7 @@
         "Equip: Improves critical strike rating by 12.",
         "Equip: Increases attack power by 36."
       ],
-      "icon": "inv_jewelry_necklace_09.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -1547,7 +1547,7 @@
         "Equip: Improves critical strike rating by 19.",
         "Equip: Increases spell power by 33."
       ],
-      "icon": "inv_jewelry_ring_27.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -1588,7 +1588,7 @@
         "Equip: Increases defense rating by 25.",
         "Equip: Restores 37 health per 5 sec."
       ],
-      "icon": "spell_shadow_lifedrain.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -1622,7 +1622,7 @@
       "tooltip": [
         "Enlarged Onyxia Hide Backpack"
       ],
-      "icon": "inv_misc_bag_22.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -1656,7 +1656,7 @@
       "tooltip": [
         "Ashen Sack of Gems"
       ],
-      "icon": "inv_misc_bag_10_black.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -1690,7 +1690,7 @@
       "tooltip": [
         "Reins of the Onyxian Drake"
       ],
-      "icon": "achievement_boss_onyxia.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,

@@ -32,7 +32,7 @@
         "Equip: Increases attack power by 36.",
         "Equip: Increases your armor penetration rating by 15."
       ],
-      "icon": "inv_shoulder_73.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 16.0,
@@ -75,7 +75,7 @@
         "Equip: Improves haste rating by 11.",
         "Equip: Increases spell power by 29."
       ],
-      "icon": "inv_shoulder_73.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 19.0,
@@ -122,7 +122,7 @@
         "Equip: Improves hit rating by 14.",
         "Equip: Increases attack power by 38."
       ],
-      "icon": "inv_helmet_18.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 16.0,
@@ -164,7 +164,7 @@
         "Equip: Improves haste rating by 13.",
         "Equip: Increases spell power by 32."
       ],
-      "icon": "inv_shoulder_80.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 19.0,
@@ -209,7 +209,7 @@
         "Equip: Increases spell power by 36.",
         "Equip: Improves haste rating by 11."
       ],
-      "icon": "inv_chest_plate18.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 17.0,
@@ -252,7 +252,7 @@
         "Equip: Improves hit rating by 15.",
         "Equip: Increases your dodge rating by 19."
       ],
-      "icon": "inv_pants_plate_21.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 17.0,
@@ -295,7 +295,7 @@
         "Equip: Increases spell power by 26.",
         "Equip: Restores 11 mana per 5 sec."
       ],
-      "icon": "inv_jewelry_ring_67.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 7.0,
@@ -329,7 +329,7 @@
       "tooltip": [
         "Fury of the Five Flights"
       ],
-      "icon": "spell_shadow_rainoffire.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 17.0,
@@ -363,7 +363,7 @@
       "tooltip": [
         "Illustration of the Dragon Soul"
       ],
-      "icon": "inv_offhand_hyjal_d_01.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 19.0,
@@ -407,7 +407,7 @@
         "Equip: Improves critical strike rating by 17.",
         "Equip: Increases spell power by 140."
       ],
-      "icon": "inv_staff_81.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 19.0,
@@ -441,7 +441,7 @@
       "tooltip": [
         "Dragon Hide Bag"
       ],
-      "icon": "inv_misc_bag_26_spellfire.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 100.0,
@@ -475,7 +475,7 @@
       "tooltip": [
         "Large Satchel of Spoils"
       ],
-      "icon": "inv_misc_bag_17.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 100.0,
@@ -509,7 +509,7 @@
       "tooltip": [
         "Gauntlets of the Lost Conqueror"
       ],
-      "icon": "inv_gauntlets_27.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 51.0,
@@ -543,7 +543,7 @@
       "tooltip": [
         "Gauntlets of the Lost Protector"
       ],
-      "icon": "inv_gauntlets_27.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 53.0,
@@ -577,7 +577,7 @@
       "tooltip": [
         "Gauntlets of the Lost Vanquisher"
       ],
-      "icon": "inv_gauntlets_27.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 67.0,
@@ -622,7 +622,7 @@
         "Equip: Increases spell power by 35.",
         "Equip: Improves haste rating by 15."
       ],
-      "icon": "inv_chest_cloth_63.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 7.0,
@@ -668,7 +668,7 @@
         "Equip: Improves critical strike rating by 12.",
         "Equip: Improves haste rating by 11."
       ],
-      "icon": "inv_shoulder_73.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 7.0,
@@ -713,7 +713,7 @@
         "Equip: Improves critical strike rating by 11.",
         "Equip: Restores 9 mana per 5 sec."
       ],
-      "icon": "inv_gauntlets_69.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 6.0,
@@ -758,7 +758,7 @@
         "Equip: Increases your parry rating by 21.",
         "Equip: Increases your dodge rating by 13."
       ],
-      "icon": "inv_chest_plate20.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 6.0,
@@ -792,7 +792,7 @@
       "tooltip": [
         "Pennant Cloak"
       ],
-      "icon": "inv_misc_cape_naxxramas_02.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 3.0,
@@ -837,7 +837,7 @@
         "Equip: Increases spell power by 23.",
         "Equip: Improves haste rating by 12."
       ],
-      "icon": "inv_bracer_17.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 3.0,
@@ -883,7 +883,7 @@
         "Equip: Improves haste rating by 11.",
         "Equip: Increases spell power by 32."
       ],
-      "icon": "inv_helmet_108.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 3.0,
@@ -928,7 +928,7 @@
         "Equip: Improves hit rating by 18.",
         "Equip: Improves haste rating by 14."
       ],
-      "icon": "inv_pants_mail_25.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 3.0,
@@ -973,7 +973,7 @@
         "Equip: Improves critical strike rating by 20.",
         "Equip: Increases your expertise rating by 16."
       ],
-      "icon": "inv_helmet_95.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 3.0,
@@ -1007,7 +1007,7 @@
       "tooltip": [
         "Reins of the Twilight Drake"
       ],
-      "icon": "ability_mount_drake_twilight.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 100.0,

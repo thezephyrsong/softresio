@@ -23,7 +23,7 @@
       "tooltip": [
         "Formula: Enchant Weapon"
       ],
-      "icon": "inv_misc_note_01.png",
+      "icon": "inv_misc_note_01.jpg",
       "dropsFrom": [
         {
           "chance": 100.0,
@@ -57,12 +57,17 @@
       "tooltip": [
         "Badge of Justice"
       ],
-      "icon": "spell_holy_championsbond.png",
+      "icon": "spell_holy_championsbond.jpg",
       "dropsFrom": [
         {
           "chance": 100.0,
           "bossId": 1,
           "npcId": 1
+        },
+        {
+          "chance": 100.0,
+          "bossId": 4,
+          "npcId": 4
         },
         {
           "chance": 100.0,
@@ -76,8 +81,8 @@
         },
         {
           "chance": 100.0,
-          "bossId": 4,
-          "npcId": 4
+          "bossId": 6,
+          "npcId": 6
         },
         {
           "chance": 100.0,
@@ -88,11 +93,6 @@
           "chance": 100.0,
           "bossId": 8,
           "npcId": 8
-        },
-        {
-          "chance": 100.0,
-          "bossId": 6,
-          "npcId": 6
         },
         {
           "chance": 100.0,
@@ -135,7 +135,7 @@
         "Requires Level 60",
         "Equip: Increases attack power by 30."
       ],
-      "icon": "inv_weapon_shortblade_38.png",
+      "icon": "inv_weapon_shortblade_38.jpg",
       "dropsFrom": [
         {
           "chance": 8.33,
@@ -176,7 +176,7 @@
         "Requires Level 60",
         "Equip: Increases spell power by 20."
       ],
-      "icon": "inv_jewelry_ring_60.png",
+      "icon": "inv_jewelry_ring_60.jpg",
       "dropsFrom": [
         {
           "chance": 8.33,
@@ -216,7 +216,7 @@
         "Equip: Increases your dodge rating by 27.",
         "Use: Increases dodge rating by 220 for 10 sec. (2 Min Cooldown)"
       ],
-      "icon": "inv_misc_pocketwatch_02.png",
+      "icon": "inv_misc_pocketwatch_02.jpg",
       "dropsFrom": [
         {
           "chance": 8.33,
@@ -250,7 +250,7 @@
       "tooltip": [
         "Royal Cloak of Arathi Kings"
       ],
-      "icon": "inv_misc_cape_10.png",
+      "icon": "inv_misc_cape_10.jpg",
       "dropsFrom": [
         {
           "chance": 8.33,
@@ -291,7 +291,7 @@
         "Equip: Improves hit rating by 12.",
         "Equip: Increases spell power by 22."
       ],
-      "icon": "inv_jewelry_necklace_ahnqiraj_04.png",
+      "icon": "inv_jewelry_necklace_ahnqiraj_04.jpg",
       "dropsFrom": [
         {
           "chance": 8.33,
@@ -335,7 +335,7 @@
         "Equip: Improves hit rating by 11.",
         "Equip: Increases attack power by 36."
       ],
-      "icon": "inv_boots_plate_06.png",
+      "icon": "inv_boots_plate_06.jpg",
       "dropsFrom": [
         {
           "chance": 8.33,
@@ -377,7 +377,7 @@
         "Requires Level 60",
         "Equip: Increases spell power by 32."
       ],
-      "icon": "inv_belt_08.png",
+      "icon": "inv_belt_08.jpg",
       "dropsFrom": [
         {
           "chance": 8.33,
@@ -421,7 +421,7 @@
         "Equip: Increases defense rating by 16.",
         "Equip: Increases your shield block rating by 11."
       ],
-      "icon": "inv_belt_27.png",
+      "icon": "inv_belt_27.jpg",
       "dropsFrom": [
         {
           "chance": 8.33,
@@ -463,7 +463,7 @@
         "Equip: Increases spell power by 32.",
         "Equip: Restores 9 mana per 5 sec."
       ],
-      "icon": "inv_belt_22.png",
+      "icon": "inv_belt_22.jpg",
       "dropsFrom": [
         {
           "chance": 8.33,
@@ -497,7 +497,7 @@
       "tooltip": [
         "Idol of the Avian Heart"
       ],
-      "icon": "inv_misc_thegoldencheep.png",
+      "icon": "inv_misc_thegoldencheep.jpg",
       "dropsFrom": [
         {
           "chance": 8.33,
@@ -539,7 +539,7 @@
         "Equip: Improves critical strike rating by 14.",
         "Equip: Increases spell power by 28."
       ],
-      "icon": "inv_boots_chain_05.png",
+      "icon": "inv_boots_chain_05.jpg",
       "dropsFrom": [
         {
           "chance": 8.33,
@@ -573,12 +573,531 @@
       "tooltip": [
         "Shadow-Cloak of Dalaran"
       ],
-      "icon": "inv_misc_cape_20.png",
+      "icon": "inv_misc_cape_20.jpg",
       "dropsFrom": [
         {
           "chance": 8.33,
           "bossId": 1,
           "npcId": 1
+        }
+      ],
+      "slots": [
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 22561,
+      "name": "Formula: Enchant Weapon",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Formula: Enchant Weapon"
+      ],
+      "icon": "inv_misc_note_01.jpg",
+      "dropsFrom": [
+        {
+          "chance": 100.0,
+          "bossId": 4,
+          "npcId": 4
+        }
+      ],
+      "slots": [
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 28652,
+      "name": "Cincture of Will",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Cincture of Will",
+        "Binds when picked up",
+        "Waist    Cloth",
+        "67 Armor",
+        "+17 Stamina",
+        "+20 Intellect",
+        "+17 Spirit",
+        "Requires Level 60",
+        "Equip: Increases spell power by 32."
+      ],
+      "icon": "inv_belt_08.jpg",
+      "dropsFrom": [
+        {
+          "chance": 8.33,
+          "bossId": 4,
+          "npcId": 4
+        }
+      ],
+      "slots": [
+        "Waist"
+      ],
+      "types": [
+        "Cloth"
+      ]
+    },
+    {
+      "id": 28653,
+      "name": "Shadowvine Cloak of Infusion",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Shadowvine Cloak of Infusion"
+      ],
+      "icon": "inv_misc_cape_05.jpg",
+      "dropsFrom": [
+        {
+          "chance": 8.33,
+          "bossId": 4,
+          "npcId": 4
+        }
+      ],
+      "slots": [
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 28654,
+      "name": "Malefic Girdle",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Malefic Girdle",
+        "Binds when picked up",
+        "Waist    Cloth",
+        "67 Armor",
+        "+19 Stamina",
+        "+18 Intellect",
+        "Requires Level 60",
+        "Equip: Improves critical strike rating by 15.",
+        "Equip: Increases spell power by 27."
+      ],
+      "icon": "inv_belt_03.jpg",
+      "dropsFrom": [
+        {
+          "chance": 8.33,
+          "bossId": 4,
+          "npcId": 4
+        }
+      ],
+      "slots": [
+        "Waist"
+      ],
+      "types": [
+        "Cloth"
+      ]
+    },
+    {
+      "id": 28655,
+      "name": "Cord of Nature's Sustenance",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Cord of Nature's Sustenance",
+        "Binds when picked up",
+        "Waist    Leather",
+        "131 Armor",
+        "+17 Stamina",
+        "+21 Intellect",
+        "+11 Spirit",
+        "Requires Level 60",
+        "Equip: Increases spell power by 32.",
+        "Equip: Restores 7 mana per 5 sec."
+      ],
+      "icon": "inv_belt_22.jpg",
+      "dropsFrom": [
+        {
+          "chance": 8.33,
+          "bossId": 4,
+          "npcId": 4
+        }
+      ],
+      "slots": [
+        "Waist"
+      ],
+      "types": [
+        "Leather"
+      ]
+    },
+    {
+      "id": 28656,
+      "name": "Girdle of the Prowler",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Girdle of the Prowler",
+        "Binds when picked up",
+        "Waist    Mail",
+        "265 Armor",
+        "+17 Agility",
+        "+15 Stamina",
+        "+15 Intellect",
+        "Requires Level 60",
+        "Equip: Improves hit rating by 15.",
+        "Equip: Increases attack power by 38.",
+        "Equip: Restores 6 mana per 5 sec."
+      ],
+      "icon": "inv_belt_22.jpg",
+      "dropsFrom": [
+        {
+          "chance": 8.33,
+          "bossId": 4,
+          "npcId": 4
+        }
+      ],
+      "slots": [
+        "Waist"
+      ],
+      "types": [
+        "Mail"
+      ]
+    },
+    {
+      "id": 28657,
+      "name": "Fool's Bane",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Fool's Bane",
+        "Binds when picked up",
+        "One-Hand    Mace",
+        "134 - 239 Damage    Speed 2.60",
+        "(71.7 damage per second)",
+        "Yellow Socket",
+        "Socket Bonus: +4 Attack Power",
+        "Requires Level 60",
+        "Equip: Improves critical strike rating by 17.",
+        "Equip: Increases attack power by 36."
+      ],
+      "icon": "inv_weapon_shortblade_44.jpg",
+      "dropsFrom": [
+        {
+          "chance": 8.33,
+          "bossId": 4,
+          "npcId": 4
+        }
+      ],
+      "slots": [
+        "Main Hand"
+      ],
+      "types": [
+        "One-Handed Maces"
+      ]
+    },
+    {
+      "id": 28658,
+      "name": "Terestian's Stranglestaff",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Terestian's Stranglestaff",
+        "Binds when picked up",
+        "Unique",
+        "Two-Hand    Staff",
+        "218 - 342 Damage    Speed 3.00",
+        "(93.3 damage per second)",
+        "+26 Agility",
+        "+31 Stamina",
+        "Requires Level 60",
+        "Equip: Increases attack power by 54.",
+        "Equip: Improves hit rating by 21."
+      ],
+      "icon": "inv_staff_55.jpg",
+      "dropsFrom": [
+        {
+          "chance": 8.33,
+          "bossId": 4,
+          "npcId": 4
+        }
+      ],
+      "slots": [
+        "Main Hand"
+      ],
+      "types": [
+        "Staves"
+      ]
+    },
+    {
+      "id": 28659,
+      "name": "Xavian Stiletto",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Xavian Stiletto",
+        "Binds when picked up",
+        "Thrown    Thrown",
+        "87 - 174 Damage    Speed 1.40",
+        "(93.2 damage per second)",
+        "Requires Level 60",
+        "Equip: Improves critical strike rating by 14.",
+        "Equip: Improves hit rating by 10."
+      ],
+      "icon": "inv_weapon_shortblade_35.jpg",
+      "dropsFrom": [
+        {
+          "chance": 8.33,
+          "bossId": 4,
+          "npcId": 4
+        }
+      ],
+      "slots": [
+        "Ranged"
+      ],
+      "types": [
+        "Thrown"
+      ]
+    },
+    {
+      "id": 28660,
+      "name": "Gilded Thorium Cloak",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Gilded Thorium Cloak"
+      ],
+      "icon": "inv_misc_cape_20.jpg",
+      "dropsFrom": [
+        {
+          "chance": 8.33,
+          "bossId": 4,
+          "npcId": 4
+        }
+      ],
+      "slots": [
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 28661,
+      "name": "Mender's Heart-Ring",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Mender's Heart-Ring",
+        "Binds when picked up",
+        "Unique",
+        "Finger",
+        "+12 Stamina",
+        "+15 Intellect",
+        "+13 Spirit",
+        "Requires Level 60",
+        "Equip: Increases spell power by 23."
+      ],
+      "icon": "inv_jewelry_ring_36.jpg",
+      "dropsFrom": [
+        {
+          "chance": 8.33,
+          "bossId": 4,
+          "npcId": 4
+        }
+      ],
+      "slots": [
+        "Finger"
+      ],
+      "types": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "id": 28662,
+      "name": "Breastplate of the Lightbinder",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Breastplate of the Lightbinder",
+        "Binds when picked up",
+        "Chest    Plate",
+        "903 Armor",
+        "+20 Stamina",
+        "+28 Intellect",
+        "Requires Level 60",
+        "Equip: Increases spell power by 36.",
+        "Equip: Restores 11 mana per 5 sec."
+      ],
+      "icon": "inv_chest_plate03.jpg",
+      "dropsFrom": [
+        {
+          "chance": 8.33,
+          "bossId": 4,
+          "npcId": 4
+        }
+      ],
+      "slots": [
+        "Chest"
+      ],
+      "types": [
+        "Plate"
+      ]
+    },
+    {
+      "id": 28785,
+      "name": "The Lightning Capacitor",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "The Lightning Capacitor"
+      ],
+      "icon": "inv_trinket_naxxramas06.jpg",
+      "dropsFrom": [
+        {
+          "chance": 8.33,
+          "bossId": 4,
+          "npcId": 4
         }
       ],
       "slots": [
@@ -615,7 +1134,7 @@
         "Equip: Increases spell power by 30.",
         "Equip: Restores 9 mana per 5 sec."
       ],
-      "icon": "inv_shoulder_25.png",
+      "icon": "inv_shoulder_25.jpg",
       "dropsFrom": [
         {
           "chance": 16.67,
@@ -659,7 +1178,7 @@
         "Equip: Increases defense rating by 17.",
         "Equip: Increases your dodge rating by 15."
       ],
-      "icon": "inv_pants_plate_05.png",
+      "icon": "inv_pants_plate_05.jpg",
       "dropsFrom": [
         {
           "chance": 16.67,
@@ -701,7 +1220,7 @@
         "Equip: Increases spell power by 34.",
         "Equip: Restores 7 mana per 5 sec."
       ],
-      "icon": "inv_shoulder_14.png",
+      "icon": "inv_shoulder_14.jpg",
       "dropsFrom": [
         {
           "chance": 16.67,
@@ -744,7 +1263,7 @@
         "Equip: Improves hit rating by 20.",
         "Equip: Increases spell power by 136."
       ],
-      "icon": "inv_weapon_halberd17.png",
+      "icon": "inv_weapon_halberd17.jpg",
       "dropsFrom": [
         {
           "chance": 16.67,
@@ -786,7 +1305,7 @@
         "Requires Level 60",
         "Equip: Increases spell power by 29."
       ],
-      "icon": "inv_shoulder_01.png",
+      "icon": "inv_shoulder_01.jpg",
       "dropsFrom": [
         {
           "chance": 16.67,
@@ -828,7 +1347,7 @@
         "Equip: Improves hit rating by 15.",
         "Equip: Increases attack power by 33."
       ],
-      "icon": "inv_jewelry_ring_47.png",
+      "icon": "inv_jewelry_ring_47.jpg",
       "dropsFrom": [
         {
           "chance": 16.67,
@@ -862,7 +1381,7 @@
       "tooltip": [
         "Gloves of the Fallen Hero"
       ],
-      "icon": "inv_gauntlets_27.png",
+      "icon": "inv_gauntlets_27.jpg",
       "dropsFrom": [
         {
           "chance": 33.33,
@@ -896,7 +1415,7 @@
       "tooltip": [
         "Gloves of the Fallen Champion"
       ],
-      "icon": "inv_gauntlets_27.png",
+      "icon": "inv_gauntlets_27.jpg",
       "dropsFrom": [
         {
           "chance": 33.33,
@@ -930,7 +1449,7 @@
       "tooltip": [
         "Gloves of the Fallen Defender"
       ],
-      "icon": "inv_gauntlets_27.png",
+      "icon": "inv_gauntlets_27.jpg",
       "dropsFrom": [
         {
           "chance": 33.33,
@@ -972,7 +1491,7 @@
         "Requires Level 60",
         "Equip: Increases spell power by 25."
       ],
-      "icon": "inv_bracer_13.png",
+      "icon": "inv_bracer_13.jpg",
       "dropsFrom": [
         {
           "chance": 8.33,
@@ -1014,7 +1533,7 @@
         "Equip: Improves critical strike rating by 11.",
         "Equip: Increases spell power by 25."
       ],
-      "icon": "inv_bracer_02.png",
+      "icon": "inv_bracer_02.jpg",
       "dropsFrom": [
         {
           "chance": 8.33,
@@ -1055,7 +1574,7 @@
         "Equip: Improves critical strike rating by 15.",
         "Equip: Increases attack power by 41."
       ],
-      "icon": "inv_bracer_15.png",
+      "icon": "inv_bracer_15.jpg",
       "dropsFrom": [
         {
           "chance": 8.33,
@@ -1096,7 +1615,7 @@
         "Requires Level 60",
         "Equip: Increases spell power by 27."
       ],
-      "icon": "inv_bracer_13.png",
+      "icon": "inv_bracer_13.jpg",
       "dropsFrom": [
         {
           "chance": 8.33,
@@ -1136,7 +1655,7 @@
         "Equip: Increases your dodge rating by 15.",
         "Equip: Increases defense rating by 11."
       ],
-      "icon": "inv_jewelry_necklace_ahnqiraj_02.png",
+      "icon": "inv_jewelry_necklace_ahnqiraj_02.jpg",
       "dropsFrom": [
         {
           "chance": 8.33,
@@ -1180,7 +1699,7 @@
         "Equip: Improves critical strike rating by 13.",
         "Equip: Increases spell power by 23."
       ],
-      "icon": "inv_boots_cloth_05.png",
+      "icon": "inv_boots_cloth_05.jpg",
       "dropsFrom": [
         {
           "chance": 8.33,
@@ -1224,7 +1743,7 @@
         "Equip: Increases your shield block rating by 12.",
         "Equip: Increases the block value of your shield by 53."
       ],
-      "icon": "inv_gauntlets_31.png",
+      "icon": "inv_gauntlets_31.jpg",
       "dropsFrom": [
         {
           "chance": 8.33,
@@ -1269,7 +1788,7 @@
         "Equip: Increases attack power by 41.",
         "Equip: Restores 3 mana per 5 sec."
       ],
-      "icon": "inv_gauntlets_25.png",
+      "icon": "inv_gauntlets_25.jpg",
       "dropsFrom": [
         {
           "chance": 8.33,
@@ -1313,7 +1832,7 @@
         "Equip: Increases spell power by 33.",
         "Equip: Restores 6 mana per 5 sec."
       ],
-      "icon": "inv_gauntlets_25.png",
+      "icon": "inv_gauntlets_25.jpg",
       "dropsFrom": [
         {
           "chance": 8.33,
@@ -1357,7 +1876,7 @@
         "Requires Level 60",
         "Equip: Increases spell power by 34."
       ],
-      "icon": "inv_gauntlets_25.png",
+      "icon": "inv_gauntlets_25.jpg",
       "dropsFrom": [
         {
           "chance": 8.33,
@@ -1401,7 +1920,7 @@
         "Equip: Increases spell power by 126.",
         "Equip: Restores 8 mana per 5 sec."
       ],
-      "icon": "inv_hammer_26.png",
+      "icon": "inv_hammer_26.jpg",
       "dropsFrom": [
         {
           "chance": 8.33,
@@ -1435,1674 +1954,12 @@
       "tooltip": [
         "Totem of Healing Rains"
       ],
-      "icon": "spell_nature_giftofthewaterspirit.png",
+      "icon": "spell_nature_giftofthewaterspirit.jpg",
       "dropsFrom": [
         {
           "chance": 8.33,
           "bossId": 2,
           "npcId": 2
-        }
-      ],
-      "slots": [
-        "Unknown"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 22561,
-      "name": "Formula: Enchant Weapon",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Formula: Enchant Weapon"
-      ],
-      "icon": "inv_misc_note_01.png",
-      "dropsFrom": [
-        {
-          "chance": 100.0,
-          "bossId": 4,
-          "npcId": 4
-        }
-      ],
-      "slots": [
-        "Unknown"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 28652,
-      "name": "Cincture of Will",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Cincture of Will",
-        "Binds when picked up",
-        "Waist    Cloth",
-        "67 Armor",
-        "+17 Stamina",
-        "+20 Intellect",
-        "+17 Spirit",
-        "Requires Level 60",
-        "Equip: Increases spell power by 32."
-      ],
-      "icon": "inv_belt_08.png",
-      "dropsFrom": [
-        {
-          "chance": 8.33,
-          "bossId": 4,
-          "npcId": 4
-        }
-      ],
-      "slots": [
-        "Waist"
-      ],
-      "types": [
-        "Cloth"
-      ]
-    },
-    {
-      "id": 28653,
-      "name": "Shadowvine Cloak of Infusion",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Shadowvine Cloak of Infusion"
-      ],
-      "icon": "inv_misc_cape_05.png",
-      "dropsFrom": [
-        {
-          "chance": 8.33,
-          "bossId": 4,
-          "npcId": 4
-        }
-      ],
-      "slots": [
-        "Unknown"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 28654,
-      "name": "Malefic Girdle",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Malefic Girdle",
-        "Binds when picked up",
-        "Waist    Cloth",
-        "67 Armor",
-        "+19 Stamina",
-        "+18 Intellect",
-        "Requires Level 60",
-        "Equip: Improves critical strike rating by 15.",
-        "Equip: Increases spell power by 27."
-      ],
-      "icon": "inv_belt_03.png",
-      "dropsFrom": [
-        {
-          "chance": 8.33,
-          "bossId": 4,
-          "npcId": 4
-        }
-      ],
-      "slots": [
-        "Waist"
-      ],
-      "types": [
-        "Cloth"
-      ]
-    },
-    {
-      "id": 28655,
-      "name": "Cord of Nature's Sustenance",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Cord of Nature's Sustenance",
-        "Binds when picked up",
-        "Waist    Leather",
-        "131 Armor",
-        "+17 Stamina",
-        "+21 Intellect",
-        "+11 Spirit",
-        "Requires Level 60",
-        "Equip: Increases spell power by 32.",
-        "Equip: Restores 7 mana per 5 sec."
-      ],
-      "icon": "inv_belt_22.png",
-      "dropsFrom": [
-        {
-          "chance": 8.33,
-          "bossId": 4,
-          "npcId": 4
-        }
-      ],
-      "slots": [
-        "Waist"
-      ],
-      "types": [
-        "Leather"
-      ]
-    },
-    {
-      "id": 28656,
-      "name": "Girdle of the Prowler",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Girdle of the Prowler",
-        "Binds when picked up",
-        "Waist    Mail",
-        "265 Armor",
-        "+17 Agility",
-        "+15 Stamina",
-        "+15 Intellect",
-        "Requires Level 60",
-        "Equip: Improves hit rating by 15.",
-        "Equip: Increases attack power by 38.",
-        "Equip: Restores 6 mana per 5 sec."
-      ],
-      "icon": "inv_belt_22.png",
-      "dropsFrom": [
-        {
-          "chance": 8.33,
-          "bossId": 4,
-          "npcId": 4
-        }
-      ],
-      "slots": [
-        "Waist"
-      ],
-      "types": [
-        "Mail"
-      ]
-    },
-    {
-      "id": 28657,
-      "name": "Fool's Bane",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Fool's Bane",
-        "Binds when picked up",
-        "One-Hand    Mace",
-        "134 - 239 Damage    Speed 2.60",
-        "(71.7 damage per second)",
-        "Yellow Socket",
-        "Socket Bonus: +4 Attack Power",
-        "Requires Level 60",
-        "Equip: Improves critical strike rating by 17.",
-        "Equip: Increases attack power by 36."
-      ],
-      "icon": "inv_weapon_shortblade_44.png",
-      "dropsFrom": [
-        {
-          "chance": 8.33,
-          "bossId": 4,
-          "npcId": 4
-        }
-      ],
-      "slots": [
-        "Main Hand"
-      ],
-      "types": [
-        "One-Handed Maces"
-      ]
-    },
-    {
-      "id": 28658,
-      "name": "Terestian's Stranglestaff",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Terestian's Stranglestaff",
-        "Binds when picked up",
-        "Unique",
-        "Two-Hand    Staff",
-        "218 - 342 Damage    Speed 3.00",
-        "(93.3 damage per second)",
-        "+26 Agility",
-        "+31 Stamina",
-        "Requires Level 60",
-        "Equip: Increases attack power by 54.",
-        "Equip: Improves hit rating by 21."
-      ],
-      "icon": "inv_staff_55.png",
-      "dropsFrom": [
-        {
-          "chance": 8.33,
-          "bossId": 4,
-          "npcId": 4
-        }
-      ],
-      "slots": [
-        "Main Hand"
-      ],
-      "types": [
-        "Staves"
-      ]
-    },
-    {
-      "id": 28659,
-      "name": "Xavian Stiletto",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Xavian Stiletto",
-        "Binds when picked up",
-        "Thrown    Thrown",
-        "87 - 174 Damage    Speed 1.40",
-        "(93.2 damage per second)",
-        "Requires Level 60",
-        "Equip: Improves critical strike rating by 14.",
-        "Equip: Improves hit rating by 10."
-      ],
-      "icon": "inv_weapon_shortblade_35.png",
-      "dropsFrom": [
-        {
-          "chance": 8.33,
-          "bossId": 4,
-          "npcId": 4
-        }
-      ],
-      "slots": [
-        "Ranged"
-      ],
-      "types": [
-        "Thrown"
-      ]
-    },
-    {
-      "id": 28660,
-      "name": "Gilded Thorium Cloak",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Gilded Thorium Cloak"
-      ],
-      "icon": "inv_misc_cape_20.png",
-      "dropsFrom": [
-        {
-          "chance": 8.33,
-          "bossId": 4,
-          "npcId": 4
-        }
-      ],
-      "slots": [
-        "Unknown"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 28661,
-      "name": "Mender's Heart-Ring",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Mender's Heart-Ring",
-        "Binds when picked up",
-        "Unique",
-        "Finger",
-        "+12 Stamina",
-        "+15 Intellect",
-        "+13 Spirit",
-        "Requires Level 60",
-        "Equip: Increases spell power by 23."
-      ],
-      "icon": "inv_jewelry_ring_36.png",
-      "dropsFrom": [
-        {
-          "chance": 8.33,
-          "bossId": 4,
-          "npcId": 4
-        }
-      ],
-      "slots": [
-        "Finger"
-      ],
-      "types": [
-        "Miscellaneous"
-      ]
-    },
-    {
-      "id": 28662,
-      "name": "Breastplate of the Lightbinder",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Breastplate of the Lightbinder",
-        "Binds when picked up",
-        "Chest    Plate",
-        "903 Armor",
-        "+20 Stamina",
-        "+28 Intellect",
-        "Requires Level 60",
-        "Equip: Increases spell power by 36.",
-        "Equip: Restores 11 mana per 5 sec."
-      ],
-      "icon": "inv_chest_plate03.png",
-      "dropsFrom": [
-        {
-          "chance": 8.33,
-          "bossId": 4,
-          "npcId": 4
-        }
-      ],
-      "slots": [
-        "Chest"
-      ],
-      "types": [
-        "Plate"
-      ]
-    },
-    {
-      "id": 28785,
-      "name": "The Lightning Capacitor",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "The Lightning Capacitor"
-      ],
-      "icon": "inv_trinket_naxxramas06.png",
-      "dropsFrom": [
-        {
-          "chance": 8.33,
-          "bossId": 4,
-          "npcId": 4
-        }
-      ],
-      "slots": [
-        "Unknown"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 22560,
-      "name": "Formula: Enchant Weapon",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Formula: Enchant Weapon"
-      ],
-      "icon": "inv_misc_note_01.png",
-      "dropsFrom": [
-        {
-          "chance": 100.0,
-          "bossId": 5,
-          "npcId": 5
-        }
-      ],
-      "slots": [
-        "Unknown"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 23933,
-      "name": "Medivh's Journal",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Medivh's Journal"
-      ],
-      "icon": "inv_misc_book_06.png",
-      "dropsFrom": [
-        {
-          "chance": 100.0,
-          "bossId": 5,
-          "npcId": 5
-        }
-      ],
-      "slots": [
-        "Unknown"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 28663,
-      "name": "Boots of the Incorrupt",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Boots of the Incorrupt",
-        "Binds when picked up",
-        "Feet    Cloth",
-        "73 Armor",
-        "+17 Stamina",
-        "+17 Intellect",
-        "+16 Spirit",
-        "Requires Level 60",
-        "Equip: Increases spell power by 30.",
-        "Equip: Restores 7 mana per 5 sec."
-      ],
-      "icon": "inv_boots_fabric_01.png",
-      "dropsFrom": [
-        {
-          "chance": 8.33,
-          "bossId": 5,
-          "npcId": 5
-        }
-      ],
-      "slots": [
-        "Feet"
-      ],
-      "types": [
-        "Cloth"
-      ]
-    },
-    {
-      "id": 28666,
-      "name": "Pauldrons of the Justice-Seeker",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Pauldrons of the Justice-Seeker",
-        "Binds when picked up",
-        "Shoulder    Plate",
-        "711 Armor",
-        "+16 Stamina",
-        "+18 Intellect",
-        "Requires Level 60",
-        "Equip: Improves critical strike rating by 15.",
-        "Equip: Increases spell power by 30.",
-        "Equip: Restores 6 mana per 5 sec."
-      ],
-      "icon": "inv_shoulder_35.png",
-      "dropsFrom": [
-        {
-          "chance": 8.33,
-          "bossId": 5,
-          "npcId": 5
-        }
-      ],
-      "slots": [
-        "Shoulders"
-      ],
-      "types": [
-        "Plate"
-      ]
-    },
-    {
-      "id": 28669,
-      "name": "Rapscallion Boots",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Rapscallion Boots",
-        "Binds when picked up",
-        "Feet    Leather",
-        "150 Armor",
-        "+18 Stamina",
-        "Requires Level 60",
-        "Equip: Improves critical strike rating by 17.",
-        "Equip: Increases attack power by 41."
-      ],
-      "icon": "inv_boots_plate_06.png",
-      "dropsFrom": [
-        {
-          "chance": 8.33,
-          "bossId": 5,
-          "npcId": 5
-        }
-      ],
-      "slots": [
-        "Feet"
-      ],
-      "types": [
-        "Leather"
-      ]
-    },
-    {
-      "id": 28670,
-      "name": "Boots of the Infernal Coven",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Boots of the Infernal Coven",
-        "Binds when picked up",
-        "Feet    Cloth",
-        "73 Armor",
-        "+19 Stamina",
-        "+19 Intellect",
-        "+16 Spirit",
-        "Requires Level 60",
-        "Equip: Increases spell power by 25."
-      ],
-      "icon": "inv_boots_05.png",
-      "dropsFrom": [
-        {
-          "chance": 8.33,
-          "bossId": 5,
-          "npcId": 5
-        }
-      ],
-      "slots": [
-        "Feet"
-      ],
-      "types": [
-        "Cloth"
-      ]
-    },
-    {
-      "id": 28671,
-      "name": "Steelspine Faceguard",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Steelspine Faceguard",
-        "Binds when picked up",
-        "Head    Mail",
-        "433 Armor",
-        "+21 Agility",
-        "+24 Stamina",
-        "+22 Intellect",
-        "Requires Level 60",
-        "Equip: Increases attack power by 37.",
-        "Equip: Restores 8 mana per 5 sec."
-      ],
-      "icon": "inv_helmet_05.png",
-      "dropsFrom": [
-        {
-          "chance": 8.33,
-          "bossId": 5,
-          "npcId": 5
-        }
-      ],
-      "slots": [
-        "Head"
-      ],
-      "types": [
-        "Mail"
-      ]
-    },
-    {
-      "id": 28672,
-      "name": "Drape of the Dark Reavers",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Drape of the Dark Reavers"
-      ],
-      "icon": "inv_misc_cape_10.png",
-      "dropsFrom": [
-        {
-          "chance": 8.33,
-          "bossId": 5,
-          "npcId": 5
-        }
-      ],
-      "slots": [
-        "Unknown"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 28673,
-      "name": "Tirisfal Wand of Ascendancy",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Tirisfal Wand of Ascendancy",
-        "Binds when picked up",
-        "Ranged    Wand",
-        "96 - 185 Shadow Damage    Speed 1.50",
-        "(93.7 damage per second)",
-        "+11 Stamina",
-        "+12 Intellect",
-        "Requires Level 60",
-        "Equip: Improves hit rating by 11.",
-        "Equip: Increases spell power by 14."
-      ],
-      "icon": "inv_wand_21.png",
-      "dropsFrom": [
-        {
-          "chance": 8.33,
-          "bossId": 5,
-          "npcId": 5
-        }
-      ],
-      "slots": [
-        "Ranged"
-      ],
-      "types": [
-        "Wands"
-      ]
-    },
-    {
-      "id": 28674,
-      "name": "Saberclaw Talisman",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Saberclaw Talisman",
-        "Binds when picked up",
-        "Neck",
-        "+21 Agility",
-        "+20 Stamina",
-        "Requires Level 60",
-        "Equip: Increases attack power by 38."
-      ],
-      "icon": "inv_jewelry_necklace_34.png",
-      "dropsFrom": [
-        {
-          "chance": 8.33,
-          "bossId": 5,
-          "npcId": 5
-        }
-      ],
-      "slots": [
-        "Neck"
-      ],
-      "types": [
-        "Miscellaneous"
-      ]
-    },
-    {
-      "id": 28675,
-      "name": "Shermanar Great-Ring",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Shermanar Great-Ring",
-        "Binds when picked up",
-        "Unique",
-        "Finger",
-        "188 Armor",
-        "+25 Stamina",
-        "Requires Level 60",
-        "Equip: Increases defense rating by 16."
-      ],
-      "icon": "inv_jewelry_ring_19.png",
-      "dropsFrom": [
-        {
-          "chance": 8.33,
-          "bossId": 5,
-          "npcId": 5
-        }
-      ],
-      "slots": [
-        "Finger"
-      ],
-      "types": [
-        "Miscellaneous"
-      ]
-    },
-    {
-      "id": 28726,
-      "name": "Mantle of the Mind Flayer",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Mantle of the Mind Flayer",
-        "Binds when picked up",
-        "Shoulder    Cloth",
-        "96 Armor",
-        "+23 Stamina",
-        "+20 Intellect",
-        "Requires Level 60",
-        "Equip: Increases spell power by 25.",
-        "Equip: Increases spell penetration by 13."
-      ],
-      "icon": "inv_shoulder_25.png",
-      "dropsFrom": [
-        {
-          "chance": 8.33,
-          "bossId": 5,
-          "npcId": 5
-        }
-      ],
-      "slots": [
-        "Shoulders"
-      ],
-      "types": [
-        "Cloth"
-      ]
-    },
-    {
-      "id": 28727,
-      "name": "Pendant of the Violet Eye",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Pendant of the Violet Eye",
-        "Binds when picked up",
-        "Unique",
-        "Trinket",
-        "+28 Intellect",
-        "Requires Level 60",
-        "Use: Each spell cast within 20 seconds will grant a stacking bonus of 18 mana regen per 5 sec. Expires after 20 seconds.  Abilities with no mana cost will not trigger this trinket. (2 Min Cooldown)"
-      ],
-      "icon": "inv_trinket_naxxramas02.png",
-      "dropsFrom": [
-        {
-          "chance": 8.33,
-          "bossId": 5,
-          "npcId": 5
-        }
-      ],
-      "slots": [
-        "Trinket"
-      ],
-      "types": [
-        "Miscellaneous"
-      ]
-    },
-    {
-      "id": 28728,
-      "name": "Aran's Soothing Sapphire",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Aran's Soothing Sapphire",
-        "Binds when picked up",
-        "Held In Off-hand",
-        "+12 Stamina",
-        "+14 Intellect",
-        "Requires Level 60",
-        "Equip: Increases spell power by 27.",
-        "Equip: Restores 5 mana per 5 sec."
-      ],
-      "icon": "inv_misc_gem_sapphire_02.png",
-      "dropsFrom": [
-        {
-          "chance": 8.33,
-          "bossId": 5,
-          "npcId": 5
-        }
-      ],
-      "slots": [
-        "Off Hand"
-      ],
-      "types": [
-        "Miscellaneous"
-      ]
-    },
-    {
-      "id": 28757,
-      "name": "Ring of a Thousand Marks",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Ring of a Thousand Marks",
-        "Binds when picked up",
-        "Unique",
-        "Finger",
-        "+15 Stamina",
-        "Requires Level 60",
-        "Equip: Improves critical strike rating by 16.",
-        "Equip: Improves hit rating by 16.",
-        "Equip: Increases attack power by 36."
-      ],
-      "icon": "inv_jewelry_ring_ahnqiraj_05.png",
-      "dropsFrom": [
-        {
-          "chance": 16.67,
-          "bossId": 8,
-          "npcId": 8
-        }
-      ],
-      "slots": [
-        "Finger"
-      ],
-      "types": [
-        "Miscellaneous"
-      ]
-    },
-    {
-      "id": 28762,
-      "name": "Adornment of Stolen Souls",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Adornment of Stolen Souls",
-        "Binds when picked up",
-        "Neck",
-        "+16 Stamina",
-        "+18 Intellect",
-        "Requires Level 60",
-        "Equip: Improves critical strike rating by 16.",
-        "Equip: Increases spell power by 27."
-      ],
-      "icon": "inv_jewelry_necklace_29naxxramas.png",
-      "dropsFrom": [
-        {
-          "chance": 16.67,
-          "bossId": 8,
-          "npcId": 8
-        }
-      ],
-      "slots": [
-        "Neck"
-      ],
-      "types": [
-        "Miscellaneous"
-      ]
-    },
-    {
-      "id": 28763,
-      "name": "Jade Ring of the Everliving",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Jade Ring of the Everliving",
-        "Binds when picked up",
-        "Unique",
-        "Finger",
-        "Requires Level 60",
-        "Equip: Increases spell power by 31.",
-        "Equip: Restores 11 mana per 5 sec."
-      ],
-      "icon": "inv_jewelry_ring_08.png",
-      "dropsFrom": [
-        {
-          "chance": 16.67,
-          "bossId": 8,
-          "npcId": 8
-        }
-      ],
-      "slots": [
-        "Finger"
-      ],
-      "types": [
-        "Miscellaneous"
-      ]
-    },
-    {
-      "id": 28764,
-      "name": "Farstrider Wildercloak",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Farstrider Wildercloak"
-      ],
-      "icon": "inv_misc_cape_17.png",
-      "dropsFrom": [
-        {
-          "chance": 16.67,
-          "bossId": 8,
-          "npcId": 8
-        }
-      ],
-      "slots": [
-        "Unknown"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 28765,
-      "name": "Stainless Cloak of the Pure Hearted",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Stainless Cloak of the Pure Hearted"
-      ],
-      "icon": "inv_misc_cape_06.png",
-      "dropsFrom": [
-        {
-          "chance": 16.67,
-          "bossId": 8,
-          "npcId": 8
-        }
-      ],
-      "slots": [
-        "Unknown"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 28766,
-      "name": "Ruby Drape of the Mysticant",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Ruby Drape of the Mysticant"
-      ],
-      "icon": "inv_misc_cape_18.png",
-      "dropsFrom": [
-        {
-          "chance": 16.67,
-          "bossId": 8,
-          "npcId": 8
-        }
-      ],
-      "slots": [
-        "Unknown"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 28767,
-      "name": "The Decapitator",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "The Decapitator",
-        "Binds when picked up",
-        "One-Hand    Axe",
-        "134 - 239 Damage    Speed 2.60",
-        "(71.7 damage per second)",
-        "Requires Level 60",
-        "Equip: Improves critical strike rating by 19.",
-        "Use: Hurls your axe in an attempt to decapitate your target causing 373 to 412 damage. (3 Min Cooldown)"
-      ],
-      "icon": "inv_axe_66.png",
-      "dropsFrom": [
-        {
-          "chance": 16.67,
-          "bossId": 8,
-          "npcId": 8
-        }
-      ],
-      "slots": [
-        "Main Hand"
-      ],
-      "types": [
-        "One-Handed Axes"
-      ]
-    },
-    {
-      "id": 28768,
-      "name": "Malchazeen",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Malchazeen",
-        "Binds when picked up",
-        "Unique",
-        "One-Hand    Dagger",
-        "102 - 157 Damage    Speed 1.80",
-        "(71.9 damage per second)",
-        "+11 Stamina",
-        "Requires Level 60",
-        "Equip: Improves hit rating by 12.",
-        "Equip: Increases attack power by 32."
-      ],
-      "icon": "inv_weapon_shortblade_40.png",
-      "dropsFrom": [
-        {
-          "chance": 16.67,
-          "bossId": 8,
-          "npcId": 8
-        }
-      ],
-      "slots": [
-        "Main Hand"
-      ],
-      "types": [
-        "Daggers"
-      ]
-    },
-    {
-      "id": 28770,
-      "name": "Nathrezim Mindblade",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Nathrezim Mindblade",
-        "Binds when picked up",
-        "Unique",
-        "Main Hand    Dagger",
-        "71 - 110 Damage    Speed 1.80",
-        "(50.3 damage per second)",
-        "+14 Stamina",
-        "+18 Intellect",
-        "Requires Level 60",
-        "Equip: Improves critical strike rating by 18.",
-        "Equip: Increases spell power by 126."
-      ],
-      "icon": "inv_weapon_shortblade_41.png",
-      "dropsFrom": [
-        {
-          "chance": 16.67,
-          "bossId": 8,
-          "npcId": 8
-        }
-      ],
-      "slots": [
-        "Main Hand"
-      ],
-      "types": [
-        "Daggers"
-      ]
-    },
-    {
-      "id": 28771,
-      "name": "Light's Justice",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Light's Justice",
-        "Binds when picked up",
-        "Main Hand    Mace",
-        "71 - 110 Damage    Speed 1.80",
-        "(50.3 damage per second)",
-        "+16 Stamina",
-        "+17 Intellect",
-        "+14 Spirit",
-        "Requires Level 60",
-        "Equip: Increases spell power by 126."
-      ],
-      "icon": "inv_mace_46.png",
-      "dropsFrom": [
-        {
-          "chance": 16.67,
-          "bossId": 8,
-          "npcId": 8
-        }
-      ],
-      "slots": [
-        "Main Hand"
-      ],
-      "types": [
-        "One-Handed Maces"
-      ]
-    },
-    {
-      "id": 28772,
-      "name": "Sunfury Bow of the Phoenix",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Sunfury Bow of the Phoenix",
-        "Binds when picked up",
-        "Ranged    Bow",
-        "211 - 331 Damage    Speed 2.90",
-        "(93.4 damage per second)",
-        "+15 Agility",
-        "Requires Level 60",
-        "Equip: Increases attack power by 35.",
-        "Equip: Improves critical strike rating by 12."
-      ],
-      "icon": "inv_weapon_bow_18.png",
-      "dropsFrom": [
-        {
-          "chance": 16.67,
-          "bossId": 8,
-          "npcId": 8
-        }
-      ],
-      "slots": [
-        "Ranged"
-      ],
-      "types": [
-        "Bows"
-      ]
-    },
-    {
-      "id": 28773,
-      "name": "Gorehowl",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Gorehowl",
-        "Binds when picked up",
-        "Two-Hand    Axe",
-        "258 - 414 Damage    Speed 3.60",
-        "(93.3 damage per second)",
-        "+28 Strength",
-        "+25 Agility",
-        "+30 Stamina",
-        "Requires Level 60"
-      ],
-      "icon": "inv_axe_60.png",
-      "dropsFrom": [
-        {
-          "chance": 16.67,
-          "bossId": 8,
-          "npcId": 8
-        }
-      ],
-      "slots": [
-        "Main Hand"
-      ],
-      "types": [
-        "Two-Handed Axes"
-      ]
-    },
-    {
-      "id": 29759,
-      "name": "Helm of the Fallen Hero",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Helm of the Fallen Hero"
-      ],
-      "icon": "inv_helmet_24.png",
-      "dropsFrom": [
-        {
-          "chance": 33.33,
-          "bossId": 8,
-          "npcId": 8
-        }
-      ],
-      "slots": [
-        "Unknown"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 29760,
-      "name": "Helm of the Fallen Champion",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Helm of the Fallen Champion"
-      ],
-      "icon": "inv_helmet_24.png",
-      "dropsFrom": [
-        {
-          "chance": 33.33,
-          "bossId": 8,
-          "npcId": 8
-        }
-      ],
-      "slots": [
-        "Unknown"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 29761,
-      "name": "Helm of the Fallen Defender",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Helm of the Fallen Defender"
-      ],
-      "icon": "inv_helmet_24.png",
-      "dropsFrom": [
-        {
-          "chance": 33.33,
-          "bossId": 8,
-          "npcId": 8
         }
       ],
       "slots": [
@@ -3139,7 +1996,7 @@
         "Requires Level 60",
         "Equip: Increases attack power by 34."
       ],
-      "icon": "inv_sword_74.png",
+      "icon": "inv_sword_74.jpg",
       "dropsFrom": [
         {
           "chance": 8.33,
@@ -3180,7 +2037,7 @@
         "Requires Level 60",
         "Equip: Improves critical strike rating by 15."
       ],
-      "icon": "inv_jewelry_ring_24.png",
+      "icon": "inv_jewelry_ring_24.jpg",
       "dropsFrom": [
         {
           "chance": 8.33,
@@ -3221,7 +2078,7 @@
         "Requires Level 60",
         "Equip: Increases spell power by 25."
       ],
-      "icon": "inv_jewelry_necklace_32.png",
+      "icon": "inv_jewelry_necklace_32.jpg",
       "dropsFrom": [
         {
           "chance": 8.33,
@@ -3263,7 +2120,7 @@
         "Equip: Improves hit rating by 21.",
         "Equip: Increases attack power by 43."
       ],
-      "icon": "inv_helmet_58.png",
+      "icon": "inv_helmet_58.jpg",
       "dropsFrom": [
         {
           "chance": 8.33,
@@ -3305,7 +2162,7 @@
         "Equip: Increases spell power by 28.",
         "Equip: Restores 6 mana per 5 sec."
       ],
-      "icon": "inv_belt_22.png",
+      "icon": "inv_belt_22.jpg",
       "dropsFrom": [
         {
           "chance": 8.33,
@@ -3346,7 +2203,7 @@
         "Equip: Improves hit rating by 14.",
         "Equip: Increases spell power by 20."
       ],
-      "icon": "inv_misc_gem_ebondraenite_02.png",
+      "icon": "inv_misc_gem_ebondraenite_02.jpg",
       "dropsFrom": [
         {
           "chance": 8.33,
@@ -3388,7 +2245,7 @@
         "Equip: Increases spell power by 36.",
         "Equip: Restores 10 mana per 5 sec."
       ],
-      "icon": "inv_chest_plate08.png",
+      "icon": "inv_chest_plate08.jpg",
       "dropsFrom": [
         {
           "chance": 8.33,
@@ -3433,7 +2290,7 @@
         "Equip: Increases attack power by 32.",
         "Equip: Restores 7 mana per 5 sec."
       ],
-      "icon": "inv_pants_plate_02.png",
+      "icon": "inv_pants_plate_02.jpg",
       "dropsFrom": [
         {
           "chance": 8.33,
@@ -3477,7 +2334,7 @@
         "Equip: Improves hit rating by 17.",
         "Equip: Increases attack power by 37."
       ],
-      "icon": "inv_pants_leather_13.png",
+      "icon": "inv_pants_leather_13.jpg",
       "dropsFrom": [
         {
           "chance": 8.33,
@@ -3521,7 +2378,7 @@
         "Requires Level 60",
         "Equip: Increases spell power by 36."
       ],
-      "icon": "inv_pants_cloth_13.png",
+      "icon": "inv_pants_cloth_13.jpg",
       "dropsFrom": [
         {
           "chance": 8.33,
@@ -3564,7 +2421,7 @@
         "Requires Level 60",
         "Equip: Increases defense rating by 13."
       ],
-      "icon": "inv_shoulder_29.png",
+      "icon": "inv_shoulder_29.jpg",
       "dropsFrom": [
         {
           "chance": 8.33,
@@ -3607,7 +2464,7 @@
         "Equip: Improves hit rating by 16.",
         "Equip: Increases spell power by 33."
       ],
-      "icon": "inv_helmet_53.png",
+      "icon": "inv_helmet_53.jpg",
       "dropsFrom": [
         {
           "chance": 8.33,
@@ -3620,6 +2477,1149 @@
       ],
       "types": [
         "Cloth"
+      ]
+    },
+    {
+      "id": 22560,
+      "name": "Formula: Enchant Weapon",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Formula: Enchant Weapon"
+      ],
+      "icon": "inv_misc_note_01.jpg",
+      "dropsFrom": [
+        {
+          "chance": 100.0,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 23933,
+      "name": "Medivh's Journal",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Medivh's Journal"
+      ],
+      "icon": "inv_misc_book_06.jpg",
+      "dropsFrom": [
+        {
+          "chance": 100.0,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 28663,
+      "name": "Boots of the Incorrupt",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Boots of the Incorrupt",
+        "Binds when picked up",
+        "Feet    Cloth",
+        "73 Armor",
+        "+17 Stamina",
+        "+17 Intellect",
+        "+16 Spirit",
+        "Requires Level 60",
+        "Equip: Increases spell power by 30.",
+        "Equip: Restores 7 mana per 5 sec."
+      ],
+      "icon": "inv_boots_fabric_01.jpg",
+      "dropsFrom": [
+        {
+          "chance": 8.33,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Feet"
+      ],
+      "types": [
+        "Cloth"
+      ]
+    },
+    {
+      "id": 28666,
+      "name": "Pauldrons of the Justice-Seeker",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Pauldrons of the Justice-Seeker",
+        "Binds when picked up",
+        "Shoulder    Plate",
+        "711 Armor",
+        "+16 Stamina",
+        "+18 Intellect",
+        "Requires Level 60",
+        "Equip: Improves critical strike rating by 15.",
+        "Equip: Increases spell power by 30.",
+        "Equip: Restores 6 mana per 5 sec."
+      ],
+      "icon": "inv_shoulder_35.jpg",
+      "dropsFrom": [
+        {
+          "chance": 8.33,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Shoulders"
+      ],
+      "types": [
+        "Plate"
+      ]
+    },
+    {
+      "id": 28669,
+      "name": "Rapscallion Boots",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Rapscallion Boots",
+        "Binds when picked up",
+        "Feet    Leather",
+        "150 Armor",
+        "+18 Stamina",
+        "Requires Level 60",
+        "Equip: Improves critical strike rating by 17.",
+        "Equip: Increases attack power by 41."
+      ],
+      "icon": "inv_boots_plate_06.jpg",
+      "dropsFrom": [
+        {
+          "chance": 8.33,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Feet"
+      ],
+      "types": [
+        "Leather"
+      ]
+    },
+    {
+      "id": 28670,
+      "name": "Boots of the Infernal Coven",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Boots of the Infernal Coven",
+        "Binds when picked up",
+        "Feet    Cloth",
+        "73 Armor",
+        "+19 Stamina",
+        "+19 Intellect",
+        "+16 Spirit",
+        "Requires Level 60",
+        "Equip: Increases spell power by 25."
+      ],
+      "icon": "inv_boots_05.jpg",
+      "dropsFrom": [
+        {
+          "chance": 8.33,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Feet"
+      ],
+      "types": [
+        "Cloth"
+      ]
+    },
+    {
+      "id": 28671,
+      "name": "Steelspine Faceguard",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Steelspine Faceguard",
+        "Binds when picked up",
+        "Head    Mail",
+        "433 Armor",
+        "+21 Agility",
+        "+24 Stamina",
+        "+22 Intellect",
+        "Requires Level 60",
+        "Equip: Increases attack power by 37.",
+        "Equip: Restores 8 mana per 5 sec."
+      ],
+      "icon": "inv_helmet_05.jpg",
+      "dropsFrom": [
+        {
+          "chance": 8.33,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Head"
+      ],
+      "types": [
+        "Mail"
+      ]
+    },
+    {
+      "id": 28672,
+      "name": "Drape of the Dark Reavers",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Drape of the Dark Reavers"
+      ],
+      "icon": "inv_misc_cape_10.jpg",
+      "dropsFrom": [
+        {
+          "chance": 8.33,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 28673,
+      "name": "Tirisfal Wand of Ascendancy",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Tirisfal Wand of Ascendancy",
+        "Binds when picked up",
+        "Ranged    Wand",
+        "96 - 185 Shadow Damage    Speed 1.50",
+        "(93.7 damage per second)",
+        "+11 Stamina",
+        "+12 Intellect",
+        "Requires Level 60",
+        "Equip: Improves hit rating by 11.",
+        "Equip: Increases spell power by 14."
+      ],
+      "icon": "inv_wand_21.jpg",
+      "dropsFrom": [
+        {
+          "chance": 8.33,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Ranged"
+      ],
+      "types": [
+        "Wands"
+      ]
+    },
+    {
+      "id": 28674,
+      "name": "Saberclaw Talisman",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Saberclaw Talisman",
+        "Binds when picked up",
+        "Neck",
+        "+21 Agility",
+        "+20 Stamina",
+        "Requires Level 60",
+        "Equip: Increases attack power by 38."
+      ],
+      "icon": "inv_jewelry_necklace_34.jpg",
+      "dropsFrom": [
+        {
+          "chance": 8.33,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Neck"
+      ],
+      "types": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "id": 28675,
+      "name": "Shermanar Great-Ring",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Shermanar Great-Ring",
+        "Binds when picked up",
+        "Unique",
+        "Finger",
+        "188 Armor",
+        "+25 Stamina",
+        "Requires Level 60",
+        "Equip: Increases defense rating by 16."
+      ],
+      "icon": "inv_jewelry_ring_19.jpg",
+      "dropsFrom": [
+        {
+          "chance": 8.33,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Finger"
+      ],
+      "types": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "id": 28726,
+      "name": "Mantle of the Mind Flayer",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Mantle of the Mind Flayer",
+        "Binds when picked up",
+        "Shoulder    Cloth",
+        "96 Armor",
+        "+23 Stamina",
+        "+20 Intellect",
+        "Requires Level 60",
+        "Equip: Increases spell power by 25.",
+        "Equip: Increases spell penetration by 13."
+      ],
+      "icon": "inv_shoulder_25.jpg",
+      "dropsFrom": [
+        {
+          "chance": 8.33,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Shoulders"
+      ],
+      "types": [
+        "Cloth"
+      ]
+    },
+    {
+      "id": 28727,
+      "name": "Pendant of the Violet Eye",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Pendant of the Violet Eye",
+        "Binds when picked up",
+        "Unique",
+        "Trinket",
+        "+28 Intellect",
+        "Requires Level 60",
+        "Use: Each spell cast within 20 seconds will grant a stacking bonus of 18 mana regen per 5 sec. Expires after 20 seconds.  Abilities with no mana cost will not trigger this trinket. (2 Min Cooldown)"
+      ],
+      "icon": "inv_trinket_naxxramas02.jpg",
+      "dropsFrom": [
+        {
+          "chance": 8.33,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Trinket"
+      ],
+      "types": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "id": 28728,
+      "name": "Aran's Soothing Sapphire",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Aran's Soothing Sapphire",
+        "Binds when picked up",
+        "Held In Off-hand",
+        "+12 Stamina",
+        "+14 Intellect",
+        "Requires Level 60",
+        "Equip: Increases spell power by 27.",
+        "Equip: Restores 5 mana per 5 sec."
+      ],
+      "icon": "inv_misc_gem_sapphire_02.jpg",
+      "dropsFrom": [
+        {
+          "chance": 8.33,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Off Hand"
+      ],
+      "types": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "id": 28757,
+      "name": "Ring of a Thousand Marks",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Ring of a Thousand Marks",
+        "Binds when picked up",
+        "Unique",
+        "Finger",
+        "+15 Stamina",
+        "Requires Level 60",
+        "Equip: Improves critical strike rating by 16.",
+        "Equip: Improves hit rating by 16.",
+        "Equip: Increases attack power by 36."
+      ],
+      "icon": "inv_jewelry_ring_ahnqiraj_05.jpg",
+      "dropsFrom": [
+        {
+          "chance": 16.67,
+          "bossId": 8,
+          "npcId": 8
+        }
+      ],
+      "slots": [
+        "Finger"
+      ],
+      "types": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "id": 28762,
+      "name": "Adornment of Stolen Souls",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Adornment of Stolen Souls",
+        "Binds when picked up",
+        "Neck",
+        "+16 Stamina",
+        "+18 Intellect",
+        "Requires Level 60",
+        "Equip: Improves critical strike rating by 16.",
+        "Equip: Increases spell power by 27."
+      ],
+      "icon": "inv_jewelry_necklace_29naxxramas.jpg",
+      "dropsFrom": [
+        {
+          "chance": 16.67,
+          "bossId": 8,
+          "npcId": 8
+        }
+      ],
+      "slots": [
+        "Neck"
+      ],
+      "types": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "id": 28763,
+      "name": "Jade Ring of the Everliving",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Jade Ring of the Everliving",
+        "Binds when picked up",
+        "Unique",
+        "Finger",
+        "Requires Level 60",
+        "Equip: Increases spell power by 31.",
+        "Equip: Restores 11 mana per 5 sec."
+      ],
+      "icon": "inv_jewelry_ring_08.jpg",
+      "dropsFrom": [
+        {
+          "chance": 16.67,
+          "bossId": 8,
+          "npcId": 8
+        }
+      ],
+      "slots": [
+        "Finger"
+      ],
+      "types": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "id": 28764,
+      "name": "Farstrider Wildercloak",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Farstrider Wildercloak"
+      ],
+      "icon": "inv_misc_cape_17.jpg",
+      "dropsFrom": [
+        {
+          "chance": 16.67,
+          "bossId": 8,
+          "npcId": 8
+        }
+      ],
+      "slots": [
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 28765,
+      "name": "Stainless Cloak of the Pure Hearted",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Stainless Cloak of the Pure Hearted"
+      ],
+      "icon": "inv_misc_cape_06.jpg",
+      "dropsFrom": [
+        {
+          "chance": 16.67,
+          "bossId": 8,
+          "npcId": 8
+        }
+      ],
+      "slots": [
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 28766,
+      "name": "Ruby Drape of the Mysticant",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Ruby Drape of the Mysticant"
+      ],
+      "icon": "inv_misc_cape_18.jpg",
+      "dropsFrom": [
+        {
+          "chance": 16.67,
+          "bossId": 8,
+          "npcId": 8
+        }
+      ],
+      "slots": [
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 28767,
+      "name": "The Decapitator",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "The Decapitator",
+        "Binds when picked up",
+        "One-Hand    Axe",
+        "134 - 239 Damage    Speed 2.60",
+        "(71.7 damage per second)",
+        "Requires Level 60",
+        "Equip: Improves critical strike rating by 19.",
+        "Use: Hurls your axe in an attempt to decapitate your target causing 373 to 412 damage. (3 Min Cooldown)"
+      ],
+      "icon": "inv_axe_66.jpg",
+      "dropsFrom": [
+        {
+          "chance": 16.67,
+          "bossId": 8,
+          "npcId": 8
+        }
+      ],
+      "slots": [
+        "Main Hand"
+      ],
+      "types": [
+        "One-Handed Axes"
+      ]
+    },
+    {
+      "id": 28768,
+      "name": "Malchazeen",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Malchazeen",
+        "Binds when picked up",
+        "Unique",
+        "One-Hand    Dagger",
+        "102 - 157 Damage    Speed 1.80",
+        "(71.9 damage per second)",
+        "+11 Stamina",
+        "Requires Level 60",
+        "Equip: Improves hit rating by 12.",
+        "Equip: Increases attack power by 32."
+      ],
+      "icon": "inv_weapon_shortblade_40.jpg",
+      "dropsFrom": [
+        {
+          "chance": 16.67,
+          "bossId": 8,
+          "npcId": 8
+        }
+      ],
+      "slots": [
+        "Main Hand"
+      ],
+      "types": [
+        "Daggers"
+      ]
+    },
+    {
+      "id": 28770,
+      "name": "Nathrezim Mindblade",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Nathrezim Mindblade",
+        "Binds when picked up",
+        "Unique",
+        "Main Hand    Dagger",
+        "71 - 110 Damage    Speed 1.80",
+        "(50.3 damage per second)",
+        "+14 Stamina",
+        "+18 Intellect",
+        "Requires Level 60",
+        "Equip: Improves critical strike rating by 18.",
+        "Equip: Increases spell power by 126."
+      ],
+      "icon": "inv_weapon_shortblade_41.jpg",
+      "dropsFrom": [
+        {
+          "chance": 16.67,
+          "bossId": 8,
+          "npcId": 8
+        }
+      ],
+      "slots": [
+        "Main Hand"
+      ],
+      "types": [
+        "Daggers"
+      ]
+    },
+    {
+      "id": 28771,
+      "name": "Light's Justice",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Light's Justice",
+        "Binds when picked up",
+        "Main Hand    Mace",
+        "71 - 110 Damage    Speed 1.80",
+        "(50.3 damage per second)",
+        "+16 Stamina",
+        "+17 Intellect",
+        "+14 Spirit",
+        "Requires Level 60",
+        "Equip: Increases spell power by 126."
+      ],
+      "icon": "inv_mace_46.jpg",
+      "dropsFrom": [
+        {
+          "chance": 16.67,
+          "bossId": 8,
+          "npcId": 8
+        }
+      ],
+      "slots": [
+        "Main Hand"
+      ],
+      "types": [
+        "One-Handed Maces"
+      ]
+    },
+    {
+      "id": 28772,
+      "name": "Sunfury Bow of the Phoenix",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Sunfury Bow of the Phoenix",
+        "Binds when picked up",
+        "Ranged    Bow",
+        "211 - 331 Damage    Speed 2.90",
+        "(93.4 damage per second)",
+        "+15 Agility",
+        "Requires Level 60",
+        "Equip: Increases attack power by 35.",
+        "Equip: Improves critical strike rating by 12."
+      ],
+      "icon": "inv_weapon_bow_18.jpg",
+      "dropsFrom": [
+        {
+          "chance": 16.67,
+          "bossId": 8,
+          "npcId": 8
+        }
+      ],
+      "slots": [
+        "Ranged"
+      ],
+      "types": [
+        "Bows"
+      ]
+    },
+    {
+      "id": 28773,
+      "name": "Gorehowl",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Gorehowl",
+        "Binds when picked up",
+        "Two-Hand    Axe",
+        "258 - 414 Damage    Speed 3.60",
+        "(93.3 damage per second)",
+        "+28 Strength",
+        "+25 Agility",
+        "+30 Stamina",
+        "Requires Level 60"
+      ],
+      "icon": "inv_axe_60.jpg",
+      "dropsFrom": [
+        {
+          "chance": 16.67,
+          "bossId": 8,
+          "npcId": 8
+        }
+      ],
+      "slots": [
+        "Main Hand"
+      ],
+      "types": [
+        "Two-Handed Axes"
+      ]
+    },
+    {
+      "id": 29759,
+      "name": "Helm of the Fallen Hero",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Helm of the Fallen Hero"
+      ],
+      "icon": "inv_helmet_24.jpg",
+      "dropsFrom": [
+        {
+          "chance": 33.33,
+          "bossId": 8,
+          "npcId": 8
+        }
+      ],
+      "slots": [
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 29760,
+      "name": "Helm of the Fallen Champion",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Helm of the Fallen Champion"
+      ],
+      "icon": "inv_helmet_24.jpg",
+      "dropsFrom": [
+        {
+          "chance": 33.33,
+          "bossId": 8,
+          "npcId": 8
+        }
+      ],
+      "slots": [
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 29761,
+      "name": "Helm of the Fallen Defender",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Helm of the Fallen Defender"
+      ],
+      "icon": "inv_helmet_24.jpg",
+      "dropsFrom": [
+        {
+          "chance": 33.33,
+          "bossId": 8,
+          "npcId": 8
+        }
+      ],
+      "slots": [
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
       ]
     },
     {
@@ -3641,7 +3641,7 @@
       "tooltip": [
         "Faint Arcane Essence"
       ],
-      "icon": "inv_enchant_essencemagicsmall.png",
+      "icon": "inv_enchant_essencemagicsmall.jpg",
       "dropsFrom": [
         {
           "chance": 100.0,
@@ -3675,7 +3675,7 @@
       "tooltip": [
         "Blazing Signet"
       ],
-      "icon": "spell_fire_burnout.png",
+      "icon": "spell_fire_burnout.jpg",
       "dropsFrom": [
         {
           "chance": 100.0,
@@ -3719,7 +3719,7 @@
         "Equip: Increases defense rating by 18.",
         "Equip: Increases the block value of your shield by 38."
       ],
-      "icon": "inv_chest_plate02.png",
+      "icon": "inv_chest_plate02.jpg",
       "dropsFrom": [
         {
           "chance": 8.33,
@@ -3762,7 +3762,7 @@
         "Equip: Increases attack power by 41.",
         "Equip: Restores 6 mana per 5 sec."
       ],
-      "icon": "inv_chest_chain_07.png",
+      "icon": "inv_chest_chain_07.jpg",
       "dropsFrom": [
         {
           "chance": 8.33,
@@ -3805,7 +3805,7 @@
         "Equip: Increases spell power by 31.",
         "Equip: Restores 7 mana per 5 sec."
       ],
-      "icon": "inv_chest_leather_07.png",
+      "icon": "inv_chest_leather_07.jpg",
       "dropsFrom": [
         {
           "chance": 8.33,
@@ -3847,7 +3847,7 @@
         "Equip: Improves hit rating by 17.",
         "Equip: Increases attack power by 37."
       ],
-      "icon": "inv_chest_leather_06.png",
+      "icon": "inv_chest_leather_06.jpg",
       "dropsFrom": [
         {
           "chance": 8.33,
@@ -3891,7 +3891,7 @@
         "Equip: Increases spell power by 25.",
         "Equip: Gives a chance when your harmful spells land to increase spell power by 130 for 10 sec."
       ],
-      "icon": "inv_chest_cloth_12.png",
+      "icon": "inv_chest_cloth_12.jpg",
       "dropsFrom": [
         {
           "chance": 8.33,
@@ -3932,7 +3932,7 @@
         "Equip: Improves critical strike rating by 11.",
         "Equip: Increases spell power by 17."
       ],
-      "icon": "inv_offhand_outlandraid_01.png",
+      "icon": "inv_offhand_outlandraid_01.jpg",
       "dropsFrom": [
         {
           "chance": 8.33,
@@ -3975,7 +3975,7 @@
         "Requires Level 60",
         "Equip: Increases spell power by 145."
       ],
-      "icon": "inv_staff_57.png",
+      "icon": "inv_staff_57.jpg",
       "dropsFrom": [
         {
           "chance": 8.33,
@@ -4018,7 +4018,7 @@
         "Equip: Increases defense rating by 10.",
         "Equip: Increases the block value of your shield by 38."
       ],
-      "icon": "inv_shield_29.png",
+      "icon": "inv_shield_29.jpg",
       "dropsFrom": [
         {
           "chance": 8.33,
@@ -4061,7 +4061,7 @@
         "Socket Bonus: +3 Strength",
         "Requires Level 60"
       ],
-      "icon": "inv_boots_plate_04.png",
+      "icon": "inv_boots_plate_04.jpg",
       "dropsFrom": [
         {
           "chance": 8.33,
@@ -4100,7 +4100,7 @@
         "Equip: Increases spell power by 35.",
         "Equip: Restores 10 mana per 5 sec."
       ],
-      "icon": "inv_jewelry_necklace_17.png",
+      "icon": "inv_jewelry_necklace_17.jpg",
       "dropsFrom": [
         {
           "chance": 8.33,
@@ -4144,7 +4144,7 @@
         "Equip: Improves critical strike rating by 9.",
         "Equip: Increases attack power by 26."
       ],
-      "icon": "inv_boots_chain_04.png",
+      "icon": "inv_boots_chain_04.jpg",
       "dropsFrom": [
         {
           "chance": 8.33,
@@ -4187,7 +4187,7 @@
         "Equip: Increases spell power by 22.",
         "Equip: Restores 6 mana per 5 sec."
       ],
-      "icon": "inv_shield_37.png",
+      "icon": "inv_shield_37.jpg",
       "dropsFrom": [
         {
           "chance": 8.33,
