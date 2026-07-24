@@ -26,7 +26,7 @@ export const SrPlusLog = (
     characterName: string
     items: Item[]
     itemId: number
-    guildId: string
+    guildId?: string
     open: boolean
     onClose: () => void
   },
@@ -34,6 +34,7 @@ export const SrPlusLog = (
   const [changeSrPlus, setChangeSrPlus] = useState(sumSrPlus(srPluses))
 
   const submit = () => {
+    if (!guildId) return
     const request: SrPlusManualChangeRequest = {
       guildId,
       characterName,
@@ -91,7 +92,7 @@ export const SrPlusLog = (
           <Button
             w={100}
             onClick={submit}
-            disabled={changeSrPlus === (sumSrPlus(srPluses))}
+            disabled={!guildId || changeSrPlus === (sumSrPlus(srPluses))}
           >
             Set SR+
           </Button>

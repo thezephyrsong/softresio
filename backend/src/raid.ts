@@ -103,6 +103,7 @@ app.post("/api/raid/create", async (c) => {
       instanceId: z.number(),
       srCount: z.number().max(4).min(1),
       guildId: uuidSchema.optional(),
+      previousRaidId: raidIdSchema.optional(),
     })
     .safeParse(await c.req.json())
 
@@ -127,6 +128,7 @@ app.post("/api/raid/create", async (c) => {
     hardReserves,
     allowDuplicateSr,
     guildId,
+    previousRaidId,
   }: CreateEditRaidRequest = request.data
 
   const raidId = editRaidId || generateRaidId()
@@ -157,6 +159,26 @@ app.post("/api/raid/create", async (c) => {
           }
         }
 
+        if (previousRaidId) {
+          if (previousRaidId === raidId) {
+            return [{
+              error: { message: "A raid can't build SR+ on top of itself" },
+              user,
+            }, 400]
+          }
+          const [previousResult] = await sql<{ raid: Raid }[]>`select raid
+            from raids where raid @> ${{
+            id: previousRaidId,
+            deleted: false,
+          } as never};`
+          if (!previousResult?.raid) {
+            return [{
+              error: { message: "Could not find a raid with that link" },
+              user,
+            }, 400]
+          }
+        }
+
         const raid = result?.raid
         if (raid && !raid.admins.some((u) => u.userId == user.userId)) {
           return [{
@@ -181,6 +203,7 @@ app.post("/api/raid/create", async (c) => {
           hardReserves,
           allowDuplicateSr,
           guildId,
+          previousRaidId,
         }
 
         if (raid?.instanceId !== updatedRaid.instanceId) {

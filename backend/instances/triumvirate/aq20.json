@@ -1,12 +1,12 @@
 {
-  "id": 4,
+  "id": 103,
   "shortname": "aq20",
   "raid": true,
   "name": "Ruins of Ahn'Qiraj",
   "items": [
     {
       "id": 20884,
-      "name": "Item #20884",
+      "name": "Qiraji Magisterial Ring",
       "classes": [
         "Death Knight",
         "Druid",
@@ -21,19 +21,14 @@
       ],
       "quality": 4,
       "tooltip": [
-        "Item #20884"
+        "Qiraji Magisterial Ring"
       ],
       "icon": "inv_qiraj_ringmagisterial.png",
       "dropsFrom": [
         {
-          "chance": 19.75,
-          "bossId": 3,
-          "npcId": 3
-        },
-        {
-          "chance": 34.5,
-          "bossId": 2,
-          "npcId": 2
+          "chance": 24.75,
+          "bossId": 1,
+          "npcId": 1
         },
         {
           "chance": 24.75,
@@ -42,13 +37,18 @@
         },
         {
           "chance": 19.75,
+          "bossId": 3,
+          "npcId": 3
+        },
+        {
+          "chance": 19.75,
           "bossId": 4,
           "npcId": 4
         },
         {
-          "chance": 24.75,
-          "bossId": 1,
-          "npcId": 1
+          "chance": 34.5,
+          "bossId": 2,
+          "npcId": 2
         },
         {
           "chance": 0.0,
@@ -65,7 +65,7 @@
     },
     {
       "id": 20885,
-      "name": "Item #20885",
+      "name": "Qiraji Martial Drape",
       "classes": [
         "Death Knight",
         "Druid",
@@ -80,14 +80,14 @@
       ],
       "quality": 4,
       "tooltip": [
-        "Item #20885"
+        "Qiraji Martial Drape"
       ],
       "icon": "inv_qiraj_drapemartial.png",
       "dropsFrom": [
         {
-          "chance": 19.75,
-          "bossId": 3,
-          "npcId": 3
+          "chance": 24.75,
+          "bossId": 1,
+          "npcId": 1
         },
         {
           "chance": 24.75,
@@ -96,62 +96,13 @@
         },
         {
           "chance": 19.75,
-          "bossId": 4,
-          "npcId": 4
-        },
-        {
-          "chance": 24.75,
-          "bossId": 1,
-          "npcId": 1
-        }
-      ],
-      "slots": [
-        "Unknown"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 20886,
-      "name": "Item #20886",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Item #20886"
-      ],
-      "icon": "inv_qiraj_hiltspiked.png",
-      "dropsFrom": [
-        {
-          "chance": 10.0,
           "bossId": 3,
           "npcId": 3
         },
         {
-          "chance": 15.0,
-          "bossId": 2,
-          "npcId": 2
-        },
-        {
-          "chance": 10.0,
+          "chance": 19.75,
           "bossId": 4,
           "npcId": 4
-        },
-        {
-          "chance": 0.0,
-          "bossId": 5,
-          "npcId": 5
         }
       ],
       "slots": [
@@ -163,7 +114,7 @@
     },
     {
       "id": 20888,
-      "name": "Item #20888",
+      "name": "Qiraji Ceremonial Ring",
       "classes": [
         "Death Knight",
         "Druid",
@@ -178,19 +129,14 @@
       ],
       "quality": 4,
       "tooltip": [
-        "Item #20888"
+        "Qiraji Ceremonial Ring"
       ],
       "icon": "inv_qiraj_ringceremonial.png",
       "dropsFrom": [
         {
-          "chance": 19.75,
-          "bossId": 3,
-          "npcId": 3
-        },
-        {
-          "chance": 34.5,
-          "bossId": 2,
-          "npcId": 2
+          "chance": 24.75,
+          "bossId": 1,
+          "npcId": 1
         },
         {
           "chance": 24.75,
@@ -199,13 +145,18 @@
         },
         {
           "chance": 19.75,
+          "bossId": 3,
+          "npcId": 3
+        },
+        {
+          "chance": 19.75,
           "bossId": 4,
           "npcId": 4
         },
         {
-          "chance": 24.75,
-          "bossId": 1,
-          "npcId": 1
+          "chance": 34.5,
+          "bossId": 2,
+          "npcId": 2
         },
         {
           "chance": 0.0,
@@ -222,7 +173,7 @@
     },
     {
       "id": 20889,
-      "name": "Item #20889",
+      "name": "Qiraji Regal Drape",
       "classes": [
         "Death Knight",
         "Druid",
@@ -237,14 +188,14 @@
       ],
       "quality": 4,
       "tooltip": [
-        "Item #20889"
+        "Qiraji Regal Drape"
       ],
       "icon": "inv_bracer_18.png",
       "dropsFrom": [
         {
-          "chance": 19.75,
-          "bossId": 3,
-          "npcId": 3
+          "chance": 24.75,
+          "bossId": 1,
+          "npcId": 1
         },
         {
           "chance": 24.75,
@@ -253,13 +204,2332 @@
         },
         {
           "chance": 19.75,
+          "bossId": 3,
+          "npcId": 3
+        },
+        {
+          "chance": 19.75,
+          "bossId": 4,
+          "npcId": 4
+        }
+      ],
+      "slots": [
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 21492,
+      "name": "Manslayer of the Qiraji",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Manslayer of the Qiraji",
+        "Binds when picked up",
+        "Two-Hand    Sword",
+        "261 - 421 Damage    Speed 3.60",
+        "(94.7 damage per second)",
+        "+29 Strength",
+        "+26 Stamina",
+        "Requires Level 60",
+        "Equip: Improves critical strike rating by 21.",
+        "Equip: Increases your expertise rating by 16."
+      ],
+      "icon": "inv_sword_56.png",
+      "dropsFrom": [
+        {
+          "chance": 10.0,
+          "bossId": 1,
+          "npcId": 1
+        }
+      ],
+      "slots": [
+        "Main Hand"
+      ],
+      "types": [
+        "Two-Handed Swords"
+      ]
+    },
+    {
+      "id": 21493,
+      "name": "Boots of the Vanguard",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Boots of the Vanguard",
+        "Binds when picked up",
+        "Feet    Leather",
+        "152 Armor",
+        "+26 Strength",
+        "+23 Agility",
+        "+27 Stamina",
+        "Yellow Socket",
+        "Socket Bonus: +4 Attack Power",
+        "Requires Level 60",
+        "Equip: Increases your expertise rating by 14."
+      ],
+      "icon": "inv_boots_08.png",
+      "dropsFrom": [
+        {
+          "chance": 10.0,
+          "bossId": 1,
+          "npcId": 1
+        }
+      ],
+      "slots": [
+        "Feet"
+      ],
+      "types": [
+        "Leather"
+      ]
+    },
+    {
+      "id": 21494,
+      "name": "Southwind's Grasp",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Southwind's Grasp",
+        "Binds when picked up",
+        "Waist    Leather",
+        "133 Armor",
+        "+19 Stamina",
+        "+18 Intellect",
+        "Yellow Socket",
+        "Socket Bonus: +3 Intellect",
+        "Requires Level 60",
+        "Equip: Increases spell power by 27.",
+        "Equip: Improves critical strike rating by 15."
+      ],
+      "icon": "inv_belt_25.png",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 1,
+          "npcId": 1
+        }
+      ],
+      "slots": [
+        "Waist"
+      ],
+      "types": [
+        "Leather"
+      ]
+    },
+    {
+      "id": 21495,
+      "name": "Legplates of the Qiraji Command",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Legplates of the Qiraji Command",
+        "Binds when picked up",
+        "Legs    Plate",
+        "844 Armor",
+        "+33 Strength",
+        "+27 Stamina",
+        "Red Socket",
+        "Socket Bonus: +2 Strength",
+        "Requires Level 60",
+        "Equip: Improves critical strike rating by 14.",
+        "Equip: Increases your armor penetration rating by 15."
+      ],
+      "icon": "inv_pants_plate_15.png",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 1,
+          "npcId": 1
+        }
+      ],
+      "slots": [
+        "Legs"
+      ],
+      "types": [
+        "Plate"
+      ]
+    },
+    {
+      "id": 21496,
+      "name": "Bracers of Qiraji Command",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Bracers of Qiraji Command",
+        "Binds when picked up",
+        "Wrist    Cloth",
+        "48 Armor",
+        "+23 Stamina",
+        "+18 Intellect",
+        "Yellow Socket",
+        "Socket Bonus: +2 Intellect",
+        "Requires Level 60",
+        "Equip: Increases spell power by 30.",
+        "Equip: Improves spell hit rating by 16."
+      ],
+      "icon": "inv_bracer_13.png",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 1,
+          "npcId": 1
+        }
+      ],
+      "slots": [
+        "Wrists"
+      ],
+      "types": [
+        "Cloth"
+      ]
+    },
+    {
+      "id": 21497,
+      "name": "Boots of the Qiraji General",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Boots of the Qiraji General",
+        "Binds when picked up",
+        "Feet    Mail",
+        "335 Armor",
+        "+23 Agility",
+        "+18 Stamina",
+        "+16 Intellect",
+        "Red Socket",
+        "Socket Bonus: +4 Attack Power",
+        "Requires Level 60",
+        "Equip: Increases attack power by 38.",
+        "Equip: Improves haste rating by 15."
+      ],
+      "icon": "inv_boots_chain_11.png",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 1,
+          "npcId": 1
+        }
+      ],
+      "slots": [
+        "Feet"
+      ],
+      "types": [
+        "Mail"
+      ]
+    },
+    {
+      "id": 20727,
+      "name": "Formula: Enchant Gloves",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Formula: Enchant Gloves"
+      ],
+      "icon": "inv_misc_note_01.png",
+      "dropsFrom": [
+        {
+          "chance": 14.29,
+          "bossId": 1,
+          "npcId": 1
+        },
+        {
+          "chance": 14.29,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 14.29,
+          "bossId": 3,
+          "npcId": 3
+        },
+        {
+          "chance": 14.29,
           "bossId": 4,
           "npcId": 4
         },
         {
-          "chance": 24.75,
+          "chance": 14.29,
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 14.29,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 20728,
+      "name": "Formula: Enchant Gloves",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Formula: Enchant Gloves"
+      ],
+      "icon": "inv_misc_note_01.png",
+      "dropsFrom": [
+        {
+          "chance": 14.29,
           "bossId": 1,
           "npcId": 1
+        },
+        {
+          "chance": 14.29,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 14.29,
+          "bossId": 3,
+          "npcId": 3
+        },
+        {
+          "chance": 14.29,
+          "bossId": 4,
+          "npcId": 4
+        },
+        {
+          "chance": 14.29,
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 14.29,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 20729,
+      "name": "Formula: Enchant Gloves",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Formula: Enchant Gloves"
+      ],
+      "icon": "inv_misc_note_01.png",
+      "dropsFrom": [
+        {
+          "chance": 14.29,
+          "bossId": 1,
+          "npcId": 1
+        },
+        {
+          "chance": 14.29,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 14.29,
+          "bossId": 3,
+          "npcId": 3
+        },
+        {
+          "chance": 14.29,
+          "bossId": 4,
+          "npcId": 4
+        },
+        {
+          "chance": 14.29,
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 14.29,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 20730,
+      "name": "Formula: Enchant Gloves",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Formula: Enchant Gloves"
+      ],
+      "icon": "inv_misc_note_01.png",
+      "dropsFrom": [
+        {
+          "chance": 14.29,
+          "bossId": 1,
+          "npcId": 1
+        },
+        {
+          "chance": 14.29,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 14.29,
+          "bossId": 3,
+          "npcId": 3
+        },
+        {
+          "chance": 14.29,
+          "bossId": 4,
+          "npcId": 4
+        },
+        {
+          "chance": 14.29,
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 14.29,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 20731,
+      "name": "Formula: Enchant Gloves",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Formula: Enchant Gloves"
+      ],
+      "icon": "inv_misc_note_01.png",
+      "dropsFrom": [
+        {
+          "chance": 14.29,
+          "bossId": 1,
+          "npcId": 1
+        },
+        {
+          "chance": 14.29,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 14.29,
+          "bossId": 3,
+          "npcId": 3
+        },
+        {
+          "chance": 14.29,
+          "bossId": 4,
+          "npcId": 4
+        },
+        {
+          "chance": 14.29,
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 14.29,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 20734,
+      "name": "Formula: Enchant Cloak",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Formula: Enchant Cloak"
+      ],
+      "icon": "inv_misc_note_01.png",
+      "dropsFrom": [
+        {
+          "chance": 14.29,
+          "bossId": 1,
+          "npcId": 1
+        },
+        {
+          "chance": 14.29,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 14.29,
+          "bossId": 3,
+          "npcId": 3
+        },
+        {
+          "chance": 14.29,
+          "bossId": 4,
+          "npcId": 4
+        },
+        {
+          "chance": 14.29,
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 14.29,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 20736,
+      "name": "Formula: Enchant Cloak",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Formula: Enchant Cloak"
+      ],
+      "icon": "inv_misc_note_01.png",
+      "dropsFrom": [
+        {
+          "chance": 14.29,
+          "bossId": 1,
+          "npcId": 1
+        },
+        {
+          "chance": 14.29,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 14.29,
+          "bossId": 3,
+          "npcId": 3
+        },
+        {
+          "chance": 14.29,
+          "bossId": 4,
+          "npcId": 4
+        },
+        {
+          "chance": 14.29,
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 14.29,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 21214,
+      "name": "Tome of Frostbolt XI",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Tome of Frostbolt XI"
+      ],
+      "icon": "inv_misc_book_07.png",
+      "dropsFrom": [
+        {
+          "chance": 4.54,
+          "bossId": 1,
+          "npcId": 1
+        },
+        {
+          "chance": 4.54,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 4.54,
+          "bossId": 3,
+          "npcId": 3
+        },
+        {
+          "chance": 4.54,
+          "bossId": 4,
+          "npcId": 4
+        },
+        {
+          "chance": 4.54,
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 4.54,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 21279,
+      "name": "Tome of Fireball XII",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Tome of Fireball XII"
+      ],
+      "icon": "inv_misc_book_07.png",
+      "dropsFrom": [
+        {
+          "chance": 4.54,
+          "bossId": 1,
+          "npcId": 1
+        },
+        {
+          "chance": 4.54,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 4.54,
+          "bossId": 3,
+          "npcId": 3
+        },
+        {
+          "chance": 4.54,
+          "bossId": 4,
+          "npcId": 4
+        },
+        {
+          "chance": 4.54,
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 4.54,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 21280,
+      "name": "Tome of Arcane Missiles VIII",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Tome of Arcane Missiles VIII"
+      ],
+      "icon": "inv_misc_book_07.png",
+      "dropsFrom": [
+        {
+          "chance": 4.54,
+          "bossId": 1,
+          "npcId": 1
+        },
+        {
+          "chance": 4.54,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 4.54,
+          "bossId": 3,
+          "npcId": 3
+        },
+        {
+          "chance": 4.54,
+          "bossId": 4,
+          "npcId": 4
+        },
+        {
+          "chance": 4.54,
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 4.54,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 21284,
+      "name": "Codex of Greater Heal V",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Codex of Greater Heal V"
+      ],
+      "icon": "inv_misc_book_09.png",
+      "dropsFrom": [
+        {
+          "chance": 4.54,
+          "bossId": 1,
+          "npcId": 1
+        },
+        {
+          "chance": 4.54,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 4.54,
+          "bossId": 3,
+          "npcId": 3
+        },
+        {
+          "chance": 4.54,
+          "bossId": 4,
+          "npcId": 4
+        },
+        {
+          "chance": 4.54,
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 4.54,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 21285,
+      "name": "Codex of Renew X",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Codex of Renew X"
+      ],
+      "icon": "inv_misc_book_09.png",
+      "dropsFrom": [
+        {
+          "chance": 4.54,
+          "bossId": 1,
+          "npcId": 1
+        },
+        {
+          "chance": 4.54,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 4.54,
+          "bossId": 3,
+          "npcId": 3
+        },
+        {
+          "chance": 4.54,
+          "bossId": 4,
+          "npcId": 4
+        },
+        {
+          "chance": 4.54,
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 4.54,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 21287,
+      "name": "Codex of Prayer of Healing V",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Codex of Prayer of Healing V"
+      ],
+      "icon": "inv_misc_book_09.png",
+      "dropsFrom": [
+        {
+          "chance": 4.54,
+          "bossId": 1,
+          "npcId": 1
+        },
+        {
+          "chance": 4.54,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 4.54,
+          "bossId": 3,
+          "npcId": 3
+        },
+        {
+          "chance": 4.54,
+          "bossId": 4,
+          "npcId": 4
+        },
+        {
+          "chance": 4.54,
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 4.54,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 21288,
+      "name": "Libram: Blessing of Wisdom VI",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Libram: Blessing of Wisdom VI"
+      ],
+      "icon": "inv_misc_book_08.png",
+      "dropsFrom": [
+        {
+          "chance": 4.54,
+          "bossId": 1,
+          "npcId": 1
+        },
+        {
+          "chance": 4.54,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 4.54,
+          "bossId": 3,
+          "npcId": 3
+        },
+        {
+          "chance": 4.54,
+          "bossId": 4,
+          "npcId": 4
+        },
+        {
+          "chance": 4.54,
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 4.54,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 21289,
+      "name": "Libram: Blessing of Might VII",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Libram: Blessing of Might VII"
+      ],
+      "icon": "inv_misc_book_08.png",
+      "dropsFrom": [
+        {
+          "chance": 4.54,
+          "bossId": 1,
+          "npcId": 1
+        },
+        {
+          "chance": 4.54,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 4.54,
+          "bossId": 3,
+          "npcId": 3
+        },
+        {
+          "chance": 4.54,
+          "bossId": 4,
+          "npcId": 4
+        },
+        {
+          "chance": 4.54,
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 4.54,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 21290,
+      "name": "Libram: Holy Light IX",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Libram: Holy Light IX"
+      ],
+      "icon": "inv_misc_book_08.png",
+      "dropsFrom": [
+        {
+          "chance": 4.54,
+          "bossId": 1,
+          "npcId": 1
+        },
+        {
+          "chance": 4.54,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 4.54,
+          "bossId": 3,
+          "npcId": 3
+        },
+        {
+          "chance": 4.54,
+          "bossId": 4,
+          "npcId": 4
+        },
+        {
+          "chance": 4.54,
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 4.54,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 21291,
+      "name": "Tablet of Healing Wave X",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Tablet of Healing Wave X"
+      ],
+      "icon": "inv_misc_stonetablet_11.png",
+      "dropsFrom": [
+        {
+          "chance": 4.54,
+          "bossId": 1,
+          "npcId": 1
+        },
+        {
+          "chance": 4.54,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 4.54,
+          "bossId": 3,
+          "npcId": 3
+        },
+        {
+          "chance": 4.54,
+          "bossId": 4,
+          "npcId": 4
+        },
+        {
+          "chance": 4.54,
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 4.54,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 21292,
+      "name": "Tablet of Strength of Earth Totem V",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Tablet of Strength of Earth Totem V"
+      ],
+      "icon": "inv_misc_stonetablet_11.png",
+      "dropsFrom": [
+        {
+          "chance": 4.54,
+          "bossId": 1,
+          "npcId": 1
+        },
+        {
+          "chance": 4.54,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 4.54,
+          "bossId": 3,
+          "npcId": 3
+        },
+        {
+          "chance": 4.54,
+          "bossId": 4,
+          "npcId": 4
+        },
+        {
+          "chance": 4.54,
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 4.54,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 21294,
+      "name": "Book of Healing Touch XI",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Book of Healing Touch XI"
+      ],
+      "icon": "inv_misc_book_11.png",
+      "dropsFrom": [
+        {
+          "chance": 4.54,
+          "bossId": 1,
+          "npcId": 1
+        },
+        {
+          "chance": 4.54,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 4.54,
+          "bossId": 3,
+          "npcId": 3
+        },
+        {
+          "chance": 4.54,
+          "bossId": 4,
+          "npcId": 4
+        },
+        {
+          "chance": 4.54,
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 4.54,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 21295,
+      "name": "Book of Starfire VII",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Book of Starfire VII"
+      ],
+      "icon": "inv_misc_book_11.png",
+      "dropsFrom": [
+        {
+          "chance": 4.54,
+          "bossId": 1,
+          "npcId": 1
+        },
+        {
+          "chance": 4.54,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 4.54,
+          "bossId": 3,
+          "npcId": 3
+        },
+        {
+          "chance": 4.54,
+          "bossId": 4,
+          "npcId": 4
+        },
+        {
+          "chance": 4.54,
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 4.54,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 21296,
+      "name": "Book of Rejuvenation XI",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Book of Rejuvenation XI"
+      ],
+      "icon": "inv_misc_book_11.png",
+      "dropsFrom": [
+        {
+          "chance": 4.54,
+          "bossId": 1,
+          "npcId": 1
+        },
+        {
+          "chance": 4.54,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 4.54,
+          "bossId": 3,
+          "npcId": 3
+        },
+        {
+          "chance": 4.54,
+          "bossId": 4,
+          "npcId": 4
+        },
+        {
+          "chance": 4.54,
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 4.54,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 21297,
+      "name": "Manual of Heroic Strike IX",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Manual of Heroic Strike IX"
+      ],
+      "icon": "inv_misc_book_03.png",
+      "dropsFrom": [
+        {
+          "chance": 4.54,
+          "bossId": 1,
+          "npcId": 1
+        },
+        {
+          "chance": 4.54,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 4.54,
+          "bossId": 3,
+          "npcId": 3
+        },
+        {
+          "chance": 4.54,
+          "bossId": 4,
+          "npcId": 4
+        },
+        {
+          "chance": 4.54,
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 4.54,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 21298,
+      "name": "Manual of Battle Shout VII",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Manual of Battle Shout VII"
+      ],
+      "icon": "inv_misc_book_03.png",
+      "dropsFrom": [
+        {
+          "chance": 4.54,
+          "bossId": 1,
+          "npcId": 1
+        },
+        {
+          "chance": 4.54,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 4.54,
+          "bossId": 3,
+          "npcId": 3
+        },
+        {
+          "chance": 4.54,
+          "bossId": 4,
+          "npcId": 4
+        },
+        {
+          "chance": 4.54,
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 4.54,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 21299,
+      "name": "Manual of Revenge VI",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Manual of Revenge VI"
+      ],
+      "icon": "inv_misc_book_03.png",
+      "dropsFrom": [
+        {
+          "chance": 4.54,
+          "bossId": 1,
+          "npcId": 1
+        },
+        {
+          "chance": 4.54,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 4.54,
+          "bossId": 3,
+          "npcId": 3
+        },
+        {
+          "chance": 4.54,
+          "bossId": 4,
+          "npcId": 4
+        },
+        {
+          "chance": 4.54,
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 4.54,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 21300,
+      "name": "Handbook of Backstab IX",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Handbook of Backstab IX"
+      ],
+      "icon": "inv_misc_book_10.png",
+      "dropsFrom": [
+        {
+          "chance": 4.54,
+          "bossId": 1,
+          "npcId": 1
+        },
+        {
+          "chance": 4.54,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 4.54,
+          "bossId": 3,
+          "npcId": 3
+        },
+        {
+          "chance": 4.54,
+          "bossId": 4,
+          "npcId": 4
+        },
+        {
+          "chance": 4.54,
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 4.54,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 21303,
+      "name": "Handbook of Feint V",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Handbook of Feint V"
+      ],
+      "icon": "inv_misc_book_10.png",
+      "dropsFrom": [
+        {
+          "chance": 4.54,
+          "bossId": 1,
+          "npcId": 1
+        },
+        {
+          "chance": 4.54,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 4.54,
+          "bossId": 3,
+          "npcId": 3
+        },
+        {
+          "chance": 4.54,
+          "bossId": 4,
+          "npcId": 4
+        },
+        {
+          "chance": 4.54,
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 4.54,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 21304,
+      "name": "Guide: Multi-Shot V",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Guide: Multi-Shot V"
+      ],
+      "icon": "inv_misc_book_02.png",
+      "dropsFrom": [
+        {
+          "chance": 4.54,
+          "bossId": 1,
+          "npcId": 1
+        },
+        {
+          "chance": 4.54,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 4.54,
+          "bossId": 3,
+          "npcId": 3
+        },
+        {
+          "chance": 4.54,
+          "bossId": 4,
+          "npcId": 4
+        },
+        {
+          "chance": 4.54,
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 4.54,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 21306,
+      "name": "Guide: Serpent Sting IX",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Guide: Serpent Sting IX"
+      ],
+      "icon": "inv_misc_book_02.png",
+      "dropsFrom": [
+        {
+          "chance": 4.54,
+          "bossId": 1,
+          "npcId": 1
+        },
+        {
+          "chance": 4.54,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 4.54,
+          "bossId": 3,
+          "npcId": 3
+        },
+        {
+          "chance": 4.54,
+          "bossId": 4,
+          "npcId": 4
+        },
+        {
+          "chance": 4.54,
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 4.54,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 21307,
+      "name": "Guide: Aspect of the Hawk VII",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Guide: Aspect of the Hawk VII"
+      ],
+      "icon": "inv_misc_book_02.png",
+      "dropsFrom": [
+        {
+          "chance": 4.54,
+          "bossId": 1,
+          "npcId": 1
+        },
+        {
+          "chance": 4.54,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 4.54,
+          "bossId": 3,
+          "npcId": 3
+        },
+        {
+          "chance": 4.54,
+          "bossId": 4,
+          "npcId": 4
+        },
+        {
+          "chance": 4.54,
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 4.54,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 21498,
+      "name": "Qiraji Sacrificial Dagger",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Qiraji Sacrificial Dagger",
+        "Binds when picked up",
+        "Unique-Equipped",
+        "One-Hand    Dagger",
+        "107 - 170 Damage    Speed 1.90",
+        "(72.9 damage per second)",
+        "+17 Stamina",
+        "Requires Level 60",
+        "Equip: Increases attack power by 42."
+      ],
+      "icon": "inv_weapon_shortblade_12.png",
+      "dropsFrom": [
+        {
+          "chance": 10.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Main Hand"
+      ],
+      "types": [
+        "Daggers"
+      ]
+    },
+    {
+      "id": 21499,
+      "name": "Vestments of the Shifting Sands",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Vestments of the Shifting Sands",
+        "Binds when picked up",
+        "Chest    Cloth",
+        "127 Armor",
+        "+23 Stamina",
+        "+28 Intellect",
+        "+31 Spirit",
+        "Yellow Socket",
+        "Socket Bonus: +3 Intellect",
+        "Requires Level 60",
+        "Equip: Increases spell power by 36.",
+        "Equip: Improves critical strike rating by 18."
+      ],
+      "icon": "inv_chest_cloth_17.png",
+      "dropsFrom": [
+        {
+          "chance": 10.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Chest"
+      ],
+      "types": [
+        "Cloth"
+      ]
+    },
+    {
+      "id": 21500,
+      "name": "Belt of the Inquisition",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Belt of the Inquisition",
+        "Binds when picked up",
+        "Waist    Cloth",
+        "68 Armor",
+        "+21 Stamina",
+        "+23 Intellect",
+        "Requires Level 60",
+        "Equip: Increases spell power by 29.",
+        "Equip: Improves haste rating by 15."
+      ],
+      "icon": "inv_belt_05.png",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Waist"
+      ],
+      "types": [
+        "Cloth"
+      ]
+    },
+    {
+      "id": 21501,
+      "name": "Toughened Silithid Hide Gloves",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Toughened Silithid Hide Gloves",
+        "Binds when picked up",
+        "Hands    Leather",
+        "195 Armor",
+        "+21 Strength",
+        "+26 Agility",
+        "+24 Stamina",
+        "Blue Socket",
+        "Socket Bonus: +3 Agility",
+        "Requires Level 60",
+        "Equip: Increases attack power by 22."
+      ],
+      "icon": "inv_gauntlets_24.png",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Hands"
+      ],
+      "types": [
+        "Leather"
+      ]
+    },
+    {
+      "id": 21502,
+      "name": "Sand Reaver Wristguards",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Sand Reaver Wristguards",
+        "Binds when picked up",
+        "Wrist    Mail",
+        "219 Armor",
+        "+23 Stamina",
+        "+26 Intellect",
+        "Red Socket",
+        "Socket Bonus: +2 Spell Power",
+        "Requires Level 60",
+        "Equip: Increases spell power by 29.",
+        "Equip: Improves critical strike rating by 17."
+      ],
+      "icon": "inv_bracer_19.png",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Wrists"
+      ],
+      "types": [
+        "Mail"
+      ]
+    },
+    {
+      "id": 21503,
+      "name": "Belt of the Sand Reaver",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Belt of the Sand Reaver",
+        "Binds when picked up",
+        "Waist    Plate",
+        "603 Armor",
+        "+18 Strength",
+        "+31 Stamina",
+        "Blue Socket",
+        "Socket Bonus: +3 Stamina",
+        "Requires Level 60",
+        "Equip: Increases defense rating by 14.",
+        "Equip: Increases your dodge rating by 16."
+      ],
+      "icon": "inv_belt_13.png",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Waist"
+      ],
+      "types": [
+        "Plate"
+      ]
+    },
+    {
+      "id": 22217,
+      "name": "Kurinnaxx's Venom Sac",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Kurinnaxx's Venom Sac"
+      ],
+      "icon": "inv_misc_organ_04.png",
+      "dropsFrom": [
+        {
+          "chance": 100.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 20886,
+      "name": "Qiraji Spiked Hilt",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Qiraji Spiked Hilt"
+      ],
+      "icon": "inv_qiraj_hiltspiked.png",
+      "dropsFrom": [
+        {
+          "chance": 10.0,
+          "bossId": 3,
+          "npcId": 3
+        },
+        {
+          "chance": 10.0,
+          "bossId": 4,
+          "npcId": 4
+        },
+        {
+          "chance": 15.0,
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 0.0,
+          "bossId": 5,
+          "npcId": 5
         }
       ],
       "slots": [
@@ -271,7 +2541,7 @@
     },
     {
       "id": 20890,
-      "name": "Item #20890",
+      "name": "Qiraji Ornate Hilt",
       "classes": [
         "Death Knight",
         "Druid",
@@ -286,7 +2556,7 @@
       ],
       "quality": 4,
       "tooltip": [
-        "Item #20890"
+        "Qiraji Ornate Hilt"
       ],
       "icon": "inv_qiraj_hiltornate.png",
       "dropsFrom": [
@@ -296,14 +2566,14 @@
           "npcId": 3
         },
         {
-          "chance": 15.0,
-          "bossId": 2,
-          "npcId": 2
-        },
-        {
           "chance": 10.0,
           "bossId": 4,
           "npcId": 4
+        },
+        {
+          "chance": 15.0,
+          "bossId": 2,
+          "npcId": 2
         },
         {
           "chance": 0.0,
@@ -620,8 +2890,8 @@
       ]
     },
     {
-      "id": 20727,
-      "name": "Item #20727",
+      "id": 21466,
+      "name": "Stinger of Ayamiss",
       "classes": [
         "Death Knight",
         "Druid",
@@ -636,51 +2906,35 @@
       ],
       "quality": 4,
       "tooltip": [
-        "Item #20727"
+        "Stinger of Ayamiss",
+        "Binds when picked up",
+        "Main Hand    Mace",
+        "85 - 160 Damage    Speed 2.40",
+        "(51.0 damage per second)",
+        "+21 Stamina",
+        "+17 Intellect",
+        "Requires Level 60",
+        "Equip: Increases spell power by 130.",
+        "Equip: Improves critical strike rating by 16."
       ],
-      "icon": "inv_misc_note_01.png",
+      "icon": "inv_mace23.png",
       "dropsFrom": [
         {
-          "chance": 14.29,
-          "bossId": 3,
-          "npcId": 3
-        },
-        {
-          "chance": 14.29,
-          "bossId": 2,
-          "npcId": 2
-        },
-        {
-          "chance": 14.29,
-          "bossId": 0,
-          "npcId": 0
-        },
-        {
-          "chance": 14.29,
+          "chance": 6.67,
           "bossId": 4,
           "npcId": 4
-        },
-        {
-          "chance": 14.29,
-          "bossId": 1,
-          "npcId": 1
-        },
-        {
-          "chance": 14.29,
-          "bossId": 5,
-          "npcId": 5
         }
       ],
       "slots": [
-        "Unknown"
+        "Main Hand"
       ],
       "types": [
-        "Unknown"
+        "One-Handed Maces"
       ]
     },
     {
-      "id": 20728,
-      "name": "Item #20728",
+      "id": 21478,
+      "name": "Bow of Taut Sinew",
       "classes": [
         "Death Knight",
         "Druid",
@@ -695,51 +2949,35 @@
       ],
       "quality": 4,
       "tooltip": [
-        "Item #20728"
+        "Bow of Taut Sinew",
+        "Binds when picked up",
+        "Ranged    Bow",
+        "146 - 270 Damage    Speed 2.20",
+        "(94.5 damage per second)",
+        "+18 Agility",
+        "+15 Nature Resistance",
+        "Requires Level 60",
+        "Equip: Increases attack power by 27.",
+        "Equip: Increases your armor penetration rating by 16."
       ],
-      "icon": "inv_misc_note_01.png",
+      "icon": "inv_weapon_bow_13.png",
       "dropsFrom": [
         {
-          "chance": 14.29,
-          "bossId": 3,
-          "npcId": 3
-        },
-        {
-          "chance": 14.29,
-          "bossId": 2,
-          "npcId": 2
-        },
-        {
-          "chance": 14.29,
-          "bossId": 0,
-          "npcId": 0
-        },
-        {
-          "chance": 14.29,
+          "chance": 6.67,
           "bossId": 4,
           "npcId": 4
-        },
-        {
-          "chance": 14.29,
-          "bossId": 1,
-          "npcId": 1
-        },
-        {
-          "chance": 14.29,
-          "bossId": 5,
-          "npcId": 5
         }
       ],
       "slots": [
-        "Unknown"
+        "Ranged"
       ],
       "types": [
-        "Unknown"
+        "Bows"
       ]
     },
     {
-      "id": 20729,
-      "name": "Item #20729",
+      "id": 21479,
+      "name": "Gauntlets of the Immovable",
       "classes": [
         "Death Knight",
         "Druid",
@@ -754,51 +2992,41 @@
       ],
       "quality": 4,
       "tooltip": [
-        "Item #20729"
+        "Gauntlets of the Immovable",
+        "Binds when picked up",
+        "Hands    Plate",
+        "603 Armor",
+        "+25 Strength",
+        "+34 Stamina",
+        "Yellow Socket",
+        "Socket Bonus: +3 Stamina",
+        "Requires Level 60",
+        "Equip: Increases defense rating by 17.",
+        "Equip: Increases your parry rating by 15."
       ],
-      "icon": "inv_misc_note_01.png",
+      "icon": "inv_gauntlets_31.png",
       "dropsFrom": [
         {
-          "chance": 14.29,
-          "bossId": 3,
-          "npcId": 3
-        },
-        {
-          "chance": 14.29,
-          "bossId": 2,
-          "npcId": 2
-        },
-        {
-          "chance": 14.29,
-          "bossId": 0,
-          "npcId": 0
-        },
-        {
-          "chance": 14.29,
+          "chance": 6.67,
           "bossId": 4,
           "npcId": 4
         },
         {
-          "chance": 14.29,
-          "bossId": 1,
-          "npcId": 1
-        },
-        {
-          "chance": 14.29,
-          "bossId": 5,
-          "npcId": 5
+          "chance": 0.0,
+          "bossId": 2,
+          "npcId": 2
         }
       ],
       "slots": [
-        "Unknown"
+        "Hands"
       ],
       "types": [
-        "Unknown"
+        "Plate"
       ]
     },
     {
-      "id": 20730,
-      "name": "Item #20730",
+      "id": 21480,
+      "name": "Scaled Silithid Gauntlets",
       "classes": [
         "Death Knight",
         "Druid",
@@ -813,51 +3041,37 @@
       ],
       "quality": 4,
       "tooltip": [
-        "Item #20730"
+        "Scaled Silithid Gauntlets",
+        "Binds when picked up",
+        "Hands    Mail",
+        "337 Armor",
+        "+18 Agility",
+        "+24 Stamina",
+        "+15 Intellect",
+        "Yellow Socket",
+        "Socket Bonus: +2 Agility",
+        "Requires Level 60",
+        "Equip: Increases attack power by 37.",
+        "Equip: Increases your expertise rating by 15."
       ],
-      "icon": "inv_misc_note_01.png",
+      "icon": "inv_gauntlets_10.png",
       "dropsFrom": [
         {
-          "chance": 14.29,
-          "bossId": 3,
-          "npcId": 3
-        },
-        {
-          "chance": 14.29,
-          "bossId": 2,
-          "npcId": 2
-        },
-        {
-          "chance": 14.29,
-          "bossId": 0,
-          "npcId": 0
-        },
-        {
-          "chance": 14.29,
+          "chance": 0.0,
           "bossId": 4,
           "npcId": 4
-        },
-        {
-          "chance": 14.29,
-          "bossId": 1,
-          "npcId": 1
-        },
-        {
-          "chance": 14.29,
-          "bossId": 5,
-          "npcId": 5
         }
       ],
       "slots": [
-        "Unknown"
+        "Hands"
       ],
       "types": [
-        "Unknown"
+        "Mail"
       ]
     },
     {
-      "id": 20731,
-      "name": "Item #20731",
+      "id": 21481,
+      "name": "Boots of the Desert Protector",
       "classes": [
         "Death Knight",
         "Druid",
@@ -872,51 +3086,36 @@
       ],
       "quality": 4,
       "tooltip": [
-        "Item #20731"
+        "Boots of the Desert Protector",
+        "Binds when picked up",
+        "Feet    Plate",
+        "558 Armor",
+        "+21 Stamina",
+        "+23 Intellect",
+        "Yellow Socket",
+        "Socket Bonus: +2 Spell Power",
+        "Requires Level 60",
+        "Equip: Increases spell power by 28.",
+        "Equip: Restores 11 mana per 5 sec."
       ],
-      "icon": "inv_misc_note_01.png",
+      "icon": "inv_boots_plate_05.png",
       "dropsFrom": [
         {
-          "chance": 14.29,
-          "bossId": 3,
-          "npcId": 3
-        },
-        {
-          "chance": 14.29,
-          "bossId": 2,
-          "npcId": 2
-        },
-        {
-          "chance": 14.29,
-          "bossId": 0,
-          "npcId": 0
-        },
-        {
-          "chance": 14.29,
+          "chance": 0.0,
           "bossId": 4,
           "npcId": 4
-        },
-        {
-          "chance": 14.29,
-          "bossId": 1,
-          "npcId": 1
-        },
-        {
-          "chance": 14.29,
-          "bossId": 5,
-          "npcId": 5
         }
       ],
       "slots": [
-        "Unknown"
+        "Feet"
       ],
       "types": [
-        "Unknown"
+        "Plate"
       ]
     },
     {
-      "id": 20734,
-      "name": "Item #20734",
+      "id": 21482,
+      "name": "Boots of the Fiery Sands",
       "classes": [
         "Death Knight",
         "Druid",
@@ -931,51 +3130,36 @@
       ],
       "quality": 4,
       "tooltip": [
-        "Item #20734"
+        "Boots of the Fiery Sands",
+        "Binds when picked up",
+        "Feet    Mail",
+        "335 Armor",
+        "+22 Stamina",
+        "+21 Intellect",
+        "Yellow Socket",
+        "Socket Bonus: +2 Spell Power",
+        "Requires Level 60",
+        "Equip: Increases spell power by 29.",
+        "Equip: Restores 12 mana per 5 sec."
       ],
-      "icon": "inv_misc_note_01.png",
+      "icon": "inv_boots_chain_02.png",
       "dropsFrom": [
         {
-          "chance": 14.29,
-          "bossId": 3,
-          "npcId": 3
-        },
-        {
-          "chance": 14.29,
-          "bossId": 2,
-          "npcId": 2
-        },
-        {
-          "chance": 14.29,
-          "bossId": 0,
-          "npcId": 0
-        },
-        {
-          "chance": 14.29,
+          "chance": 0.0,
           "bossId": 4,
           "npcId": 4
-        },
-        {
-          "chance": 14.29,
-          "bossId": 1,
-          "npcId": 1
-        },
-        {
-          "chance": 14.29,
-          "bossId": 5,
-          "npcId": 5
         }
       ],
       "slots": [
-        "Unknown"
+        "Feet"
       ],
       "types": [
-        "Unknown"
+        "Mail"
       ]
     },
     {
-      "id": 20736,
-      "name": "Item #20736",
+      "id": 21483,
+      "name": "Ring of the Desert Winds",
       "classes": [
         "Death Knight",
         "Druid",
@@ -990,51 +3174,34 @@
       ],
       "quality": 4,
       "tooltip": [
-        "Item #20736"
+        "Ring of the Desert Winds",
+        "Binds when picked up",
+        "Unique-Equipped",
+        "Finger",
+        "+23 Stamina",
+        "+17 Intellect",
+        "Requires Level 60",
+        "Equip: Increases spell power by 31.",
+        "Equip: Improves critical strike rating by 13."
       ],
-      "icon": "inv_misc_note_01.png",
+      "icon": "inv_jewelry_ring_ahnqiraj_05.png",
       "dropsFrom": [
         {
-          "chance": 14.29,
-          "bossId": 3,
-          "npcId": 3
-        },
-        {
-          "chance": 14.29,
-          "bossId": 2,
-          "npcId": 2
-        },
-        {
-          "chance": 14.29,
-          "bossId": 0,
-          "npcId": 0
-        },
-        {
-          "chance": 14.29,
+          "chance": 0.0,
           "bossId": 4,
           "npcId": 4
-        },
-        {
-          "chance": 14.29,
-          "bossId": 1,
-          "npcId": 1
-        },
-        {
-          "chance": 14.29,
-          "bossId": 5,
-          "npcId": 5
         }
       ],
       "slots": [
-        "Unknown"
+        "Finger"
       ],
       "types": [
-        "Unknown"
+        "Miscellaneous"
       ]
     },
     {
-      "id": 21214,
-      "name": "Item #21214",
+      "id": 21484,
+      "name": "Helm of Regrowth",
       "classes": [
         "Death Knight",
         "Druid",
@@ -1049,1285 +3216,33 @@
       ],
       "quality": 4,
       "tooltip": [
-        "Item #21214"
+        "Helm of Regrowth",
+        "Binds when picked up",
+        "Head    Leather",
+        "203 Armor",
+        "+27 Stamina",
+        "+25 Intellect",
+        "+21 Spirit",
+        "Meta Socket",
+        "Red Socket",
+        "Socket Bonus: +5 Intellect",
+        "Requires Level 60",
+        "Equip: Increases spell power by 31.",
+        "Equip: Improves critical strike rating by 16."
       ],
-      "icon": "inv_misc_book_07.png",
+      "icon": "inv_helmet_15.png",
       "dropsFrom": [
         {
-          "chance": 4.54,
-          "bossId": 3,
-          "npcId": 3
-        },
-        {
-          "chance": 4.54,
-          "bossId": 2,
-          "npcId": 2
-        },
-        {
-          "chance": 4.54,
-          "bossId": 0,
-          "npcId": 0
-        },
-        {
-          "chance": 4.54,
+          "chance": 0.0,
           "bossId": 4,
           "npcId": 4
-        },
-        {
-          "chance": 4.54,
-          "bossId": 1,
-          "npcId": 1
-        },
-        {
-          "chance": 4.54,
-          "bossId": 5,
-          "npcId": 5
         }
       ],
       "slots": [
-        "Unknown"
+        "Head"
       ],
       "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 21279,
-      "name": "Item #21279",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Item #21279"
-      ],
-      "icon": "inv_misc_book_07.png",
-      "dropsFrom": [
-        {
-          "chance": 4.54,
-          "bossId": 3,
-          "npcId": 3
-        },
-        {
-          "chance": 4.54,
-          "bossId": 2,
-          "npcId": 2
-        },
-        {
-          "chance": 4.54,
-          "bossId": 0,
-          "npcId": 0
-        },
-        {
-          "chance": 4.54,
-          "bossId": 4,
-          "npcId": 4
-        },
-        {
-          "chance": 4.54,
-          "bossId": 1,
-          "npcId": 1
-        },
-        {
-          "chance": 4.54,
-          "bossId": 5,
-          "npcId": 5
-        }
-      ],
-      "slots": [
-        "Unknown"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 21280,
-      "name": "Item #21280",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Item #21280"
-      ],
-      "icon": "inv_misc_book_07.png",
-      "dropsFrom": [
-        {
-          "chance": 4.54,
-          "bossId": 3,
-          "npcId": 3
-        },
-        {
-          "chance": 4.54,
-          "bossId": 2,
-          "npcId": 2
-        },
-        {
-          "chance": 4.54,
-          "bossId": 0,
-          "npcId": 0
-        },
-        {
-          "chance": 4.54,
-          "bossId": 4,
-          "npcId": 4
-        },
-        {
-          "chance": 4.54,
-          "bossId": 1,
-          "npcId": 1
-        },
-        {
-          "chance": 4.54,
-          "bossId": 5,
-          "npcId": 5
-        }
-      ],
-      "slots": [
-        "Unknown"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 21284,
-      "name": "Item #21284",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Item #21284"
-      ],
-      "icon": "inv_misc_book_09.png",
-      "dropsFrom": [
-        {
-          "chance": 4.54,
-          "bossId": 3,
-          "npcId": 3
-        },
-        {
-          "chance": 4.54,
-          "bossId": 2,
-          "npcId": 2
-        },
-        {
-          "chance": 4.54,
-          "bossId": 0,
-          "npcId": 0
-        },
-        {
-          "chance": 4.54,
-          "bossId": 4,
-          "npcId": 4
-        },
-        {
-          "chance": 4.54,
-          "bossId": 1,
-          "npcId": 1
-        },
-        {
-          "chance": 4.54,
-          "bossId": 5,
-          "npcId": 5
-        }
-      ],
-      "slots": [
-        "Unknown"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 21285,
-      "name": "Item #21285",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Item #21285"
-      ],
-      "icon": "inv_misc_book_09.png",
-      "dropsFrom": [
-        {
-          "chance": 4.54,
-          "bossId": 3,
-          "npcId": 3
-        },
-        {
-          "chance": 4.54,
-          "bossId": 2,
-          "npcId": 2
-        },
-        {
-          "chance": 4.54,
-          "bossId": 0,
-          "npcId": 0
-        },
-        {
-          "chance": 4.54,
-          "bossId": 4,
-          "npcId": 4
-        },
-        {
-          "chance": 4.54,
-          "bossId": 1,
-          "npcId": 1
-        },
-        {
-          "chance": 4.54,
-          "bossId": 5,
-          "npcId": 5
-        }
-      ],
-      "slots": [
-        "Unknown"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 21287,
-      "name": "Item #21287",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Item #21287"
-      ],
-      "icon": "inv_misc_book_09.png",
-      "dropsFrom": [
-        {
-          "chance": 4.54,
-          "bossId": 3,
-          "npcId": 3
-        },
-        {
-          "chance": 4.54,
-          "bossId": 2,
-          "npcId": 2
-        },
-        {
-          "chance": 4.54,
-          "bossId": 0,
-          "npcId": 0
-        },
-        {
-          "chance": 4.54,
-          "bossId": 4,
-          "npcId": 4
-        },
-        {
-          "chance": 4.54,
-          "bossId": 1,
-          "npcId": 1
-        },
-        {
-          "chance": 4.54,
-          "bossId": 5,
-          "npcId": 5
-        }
-      ],
-      "slots": [
-        "Unknown"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 21288,
-      "name": "Item #21288",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Item #21288"
-      ],
-      "icon": "inv_misc_book_08.png",
-      "dropsFrom": [
-        {
-          "chance": 4.54,
-          "bossId": 3,
-          "npcId": 3
-        },
-        {
-          "chance": 4.54,
-          "bossId": 2,
-          "npcId": 2
-        },
-        {
-          "chance": 4.54,
-          "bossId": 0,
-          "npcId": 0
-        },
-        {
-          "chance": 4.54,
-          "bossId": 4,
-          "npcId": 4
-        },
-        {
-          "chance": 4.54,
-          "bossId": 1,
-          "npcId": 1
-        },
-        {
-          "chance": 4.54,
-          "bossId": 5,
-          "npcId": 5
-        }
-      ],
-      "slots": [
-        "Unknown"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 21289,
-      "name": "Item #21289",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Item #21289"
-      ],
-      "icon": "inv_misc_book_08.png",
-      "dropsFrom": [
-        {
-          "chance": 4.54,
-          "bossId": 3,
-          "npcId": 3
-        },
-        {
-          "chance": 4.54,
-          "bossId": 2,
-          "npcId": 2
-        },
-        {
-          "chance": 4.54,
-          "bossId": 0,
-          "npcId": 0
-        },
-        {
-          "chance": 4.54,
-          "bossId": 4,
-          "npcId": 4
-        },
-        {
-          "chance": 4.54,
-          "bossId": 1,
-          "npcId": 1
-        },
-        {
-          "chance": 4.54,
-          "bossId": 5,
-          "npcId": 5
-        }
-      ],
-      "slots": [
-        "Unknown"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 21290,
-      "name": "Item #21290",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Item #21290"
-      ],
-      "icon": "inv_misc_book_08.png",
-      "dropsFrom": [
-        {
-          "chance": 4.54,
-          "bossId": 3,
-          "npcId": 3
-        },
-        {
-          "chance": 4.54,
-          "bossId": 2,
-          "npcId": 2
-        },
-        {
-          "chance": 4.54,
-          "bossId": 0,
-          "npcId": 0
-        },
-        {
-          "chance": 4.54,
-          "bossId": 4,
-          "npcId": 4
-        },
-        {
-          "chance": 4.54,
-          "bossId": 1,
-          "npcId": 1
-        },
-        {
-          "chance": 4.54,
-          "bossId": 5,
-          "npcId": 5
-        }
-      ],
-      "slots": [
-        "Unknown"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 21291,
-      "name": "Item #21291",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Item #21291"
-      ],
-      "icon": "inv_misc_stonetablet_11.png",
-      "dropsFrom": [
-        {
-          "chance": 4.54,
-          "bossId": 3,
-          "npcId": 3
-        },
-        {
-          "chance": 4.54,
-          "bossId": 2,
-          "npcId": 2
-        },
-        {
-          "chance": 4.54,
-          "bossId": 0,
-          "npcId": 0
-        },
-        {
-          "chance": 4.54,
-          "bossId": 4,
-          "npcId": 4
-        },
-        {
-          "chance": 4.54,
-          "bossId": 1,
-          "npcId": 1
-        },
-        {
-          "chance": 4.54,
-          "bossId": 5,
-          "npcId": 5
-        }
-      ],
-      "slots": [
-        "Unknown"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 21292,
-      "name": "Item #21292",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Item #21292"
-      ],
-      "icon": "inv_misc_stonetablet_11.png",
-      "dropsFrom": [
-        {
-          "chance": 4.54,
-          "bossId": 3,
-          "npcId": 3
-        },
-        {
-          "chance": 4.54,
-          "bossId": 2,
-          "npcId": 2
-        },
-        {
-          "chance": 4.54,
-          "bossId": 0,
-          "npcId": 0
-        },
-        {
-          "chance": 4.54,
-          "bossId": 4,
-          "npcId": 4
-        },
-        {
-          "chance": 4.54,
-          "bossId": 1,
-          "npcId": 1
-        },
-        {
-          "chance": 4.54,
-          "bossId": 5,
-          "npcId": 5
-        }
-      ],
-      "slots": [
-        "Unknown"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 21294,
-      "name": "Item #21294",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Item #21294"
-      ],
-      "icon": "inv_misc_book_11.png",
-      "dropsFrom": [
-        {
-          "chance": 4.54,
-          "bossId": 3,
-          "npcId": 3
-        },
-        {
-          "chance": 4.54,
-          "bossId": 2,
-          "npcId": 2
-        },
-        {
-          "chance": 4.54,
-          "bossId": 0,
-          "npcId": 0
-        },
-        {
-          "chance": 4.54,
-          "bossId": 4,
-          "npcId": 4
-        },
-        {
-          "chance": 4.54,
-          "bossId": 1,
-          "npcId": 1
-        },
-        {
-          "chance": 4.54,
-          "bossId": 5,
-          "npcId": 5
-        }
-      ],
-      "slots": [
-        "Unknown"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 21295,
-      "name": "Item #21295",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Item #21295"
-      ],
-      "icon": "inv_misc_book_11.png",
-      "dropsFrom": [
-        {
-          "chance": 4.54,
-          "bossId": 3,
-          "npcId": 3
-        },
-        {
-          "chance": 4.54,
-          "bossId": 2,
-          "npcId": 2
-        },
-        {
-          "chance": 4.54,
-          "bossId": 0,
-          "npcId": 0
-        },
-        {
-          "chance": 4.54,
-          "bossId": 4,
-          "npcId": 4
-        },
-        {
-          "chance": 4.54,
-          "bossId": 1,
-          "npcId": 1
-        },
-        {
-          "chance": 4.54,
-          "bossId": 5,
-          "npcId": 5
-        }
-      ],
-      "slots": [
-        "Unknown"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 21296,
-      "name": "Item #21296",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Item #21296"
-      ],
-      "icon": "inv_misc_book_11.png",
-      "dropsFrom": [
-        {
-          "chance": 4.54,
-          "bossId": 3,
-          "npcId": 3
-        },
-        {
-          "chance": 4.54,
-          "bossId": 2,
-          "npcId": 2
-        },
-        {
-          "chance": 4.54,
-          "bossId": 0,
-          "npcId": 0
-        },
-        {
-          "chance": 4.54,
-          "bossId": 4,
-          "npcId": 4
-        },
-        {
-          "chance": 4.54,
-          "bossId": 1,
-          "npcId": 1
-        },
-        {
-          "chance": 4.54,
-          "bossId": 5,
-          "npcId": 5
-        }
-      ],
-      "slots": [
-        "Unknown"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 21297,
-      "name": "Item #21297",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Item #21297"
-      ],
-      "icon": "inv_misc_book_03.png",
-      "dropsFrom": [
-        {
-          "chance": 4.54,
-          "bossId": 3,
-          "npcId": 3
-        },
-        {
-          "chance": 4.54,
-          "bossId": 2,
-          "npcId": 2
-        },
-        {
-          "chance": 4.54,
-          "bossId": 0,
-          "npcId": 0
-        },
-        {
-          "chance": 4.54,
-          "bossId": 4,
-          "npcId": 4
-        },
-        {
-          "chance": 4.54,
-          "bossId": 1,
-          "npcId": 1
-        },
-        {
-          "chance": 4.54,
-          "bossId": 5,
-          "npcId": 5
-        }
-      ],
-      "slots": [
-        "Unknown"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 21298,
-      "name": "Item #21298",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Item #21298"
-      ],
-      "icon": "inv_misc_book_03.png",
-      "dropsFrom": [
-        {
-          "chance": 4.54,
-          "bossId": 3,
-          "npcId": 3
-        },
-        {
-          "chance": 4.54,
-          "bossId": 2,
-          "npcId": 2
-        },
-        {
-          "chance": 4.54,
-          "bossId": 0,
-          "npcId": 0
-        },
-        {
-          "chance": 4.54,
-          "bossId": 4,
-          "npcId": 4
-        },
-        {
-          "chance": 4.54,
-          "bossId": 1,
-          "npcId": 1
-        },
-        {
-          "chance": 4.54,
-          "bossId": 5,
-          "npcId": 5
-        }
-      ],
-      "slots": [
-        "Unknown"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 21299,
-      "name": "Item #21299",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Item #21299"
-      ],
-      "icon": "inv_misc_book_03.png",
-      "dropsFrom": [
-        {
-          "chance": 4.54,
-          "bossId": 3,
-          "npcId": 3
-        },
-        {
-          "chance": 4.54,
-          "bossId": 2,
-          "npcId": 2
-        },
-        {
-          "chance": 4.54,
-          "bossId": 0,
-          "npcId": 0
-        },
-        {
-          "chance": 4.54,
-          "bossId": 4,
-          "npcId": 4
-        },
-        {
-          "chance": 4.54,
-          "bossId": 1,
-          "npcId": 1
-        },
-        {
-          "chance": 4.54,
-          "bossId": 5,
-          "npcId": 5
-        }
-      ],
-      "slots": [
-        "Unknown"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 21300,
-      "name": "Item #21300",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Item #21300"
-      ],
-      "icon": "inv_misc_book_10.png",
-      "dropsFrom": [
-        {
-          "chance": 4.54,
-          "bossId": 3,
-          "npcId": 3
-        },
-        {
-          "chance": 4.54,
-          "bossId": 2,
-          "npcId": 2
-        },
-        {
-          "chance": 4.54,
-          "bossId": 0,
-          "npcId": 0
-        },
-        {
-          "chance": 4.54,
-          "bossId": 4,
-          "npcId": 4
-        },
-        {
-          "chance": 4.54,
-          "bossId": 1,
-          "npcId": 1
-        },
-        {
-          "chance": 4.54,
-          "bossId": 5,
-          "npcId": 5
-        }
-      ],
-      "slots": [
-        "Unknown"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 21303,
-      "name": "Item #21303",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Item #21303"
-      ],
-      "icon": "inv_misc_book_10.png",
-      "dropsFrom": [
-        {
-          "chance": 4.54,
-          "bossId": 3,
-          "npcId": 3
-        },
-        {
-          "chance": 4.54,
-          "bossId": 2,
-          "npcId": 2
-        },
-        {
-          "chance": 4.54,
-          "bossId": 0,
-          "npcId": 0
-        },
-        {
-          "chance": 4.54,
-          "bossId": 4,
-          "npcId": 4
-        },
-        {
-          "chance": 4.54,
-          "bossId": 1,
-          "npcId": 1
-        },
-        {
-          "chance": 4.54,
-          "bossId": 5,
-          "npcId": 5
-        }
-      ],
-      "slots": [
-        "Unknown"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 21304,
-      "name": "Item #21304",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Item #21304"
-      ],
-      "icon": "inv_misc_book_02.png",
-      "dropsFrom": [
-        {
-          "chance": 4.54,
-          "bossId": 3,
-          "npcId": 3
-        },
-        {
-          "chance": 4.54,
-          "bossId": 2,
-          "npcId": 2
-        },
-        {
-          "chance": 4.54,
-          "bossId": 0,
-          "npcId": 0
-        },
-        {
-          "chance": 4.54,
-          "bossId": 4,
-          "npcId": 4
-        },
-        {
-          "chance": 4.54,
-          "bossId": 1,
-          "npcId": 1
-        },
-        {
-          "chance": 4.54,
-          "bossId": 5,
-          "npcId": 5
-        }
-      ],
-      "slots": [
-        "Unknown"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 21306,
-      "name": "Item #21306",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Item #21306"
-      ],
-      "icon": "inv_misc_book_02.png",
-      "dropsFrom": [
-        {
-          "chance": 4.54,
-          "bossId": 3,
-          "npcId": 3
-        },
-        {
-          "chance": 4.54,
-          "bossId": 2,
-          "npcId": 2
-        },
-        {
-          "chance": 4.54,
-          "bossId": 0,
-          "npcId": 0
-        },
-        {
-          "chance": 4.54,
-          "bossId": 4,
-          "npcId": 4
-        },
-        {
-          "chance": 4.54,
-          "bossId": 1,
-          "npcId": 1
-        },
-        {
-          "chance": 4.54,
-          "bossId": 5,
-          "npcId": 5
-        }
-      ],
-      "slots": [
-        "Unknown"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 21307,
-      "name": "Item #21307",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Item #21307"
-      ],
-      "icon": "inv_misc_book_02.png",
-      "dropsFrom": [
-        {
-          "chance": 4.54,
-          "bossId": 3,
-          "npcId": 3
-        },
-        {
-          "chance": 4.54,
-          "bossId": 2,
-          "npcId": 2
-        },
-        {
-          "chance": 4.54,
-          "bossId": 0,
-          "npcId": 0
-        },
-        {
-          "chance": 4.54,
-          "bossId": 4,
-          "npcId": 4
-        },
-        {
-          "chance": 4.54,
-          "bossId": 1,
-          "npcId": 1
-        },
-        {
-          "chance": 4.54,
-          "bossId": 5,
-          "npcId": 5
-        }
-      ],
-      "slots": [
-        "Unknown"
-      ],
-      "types": [
-        "Unknown"
+        "Leather"
       ]
     },
     {
@@ -2517,7 +3432,7 @@
     },
     {
       "id": 21470,
-      "name": "Item #21470",
+      "name": "Cloak of the Savior",
       "classes": [
         "Death Knight",
         "Druid",
@@ -2532,7 +3447,7 @@
       ],
       "quality": 4,
       "tooltip": [
-        "Item #21470"
+        "Cloak of the Savior"
       ],
       "icon": "inv_misc_cape_16.png",
       "dropsFrom": [
@@ -2852,57 +3767,8 @@
       ]
     },
     {
-      "id": 21479,
-      "name": "Gauntlets of the Immovable",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Gauntlets of the Immovable",
-        "Binds when picked up",
-        "Hands    Plate",
-        "603 Armor",
-        "+25 Strength",
-        "+34 Stamina",
-        "Yellow Socket",
-        "Socket Bonus: +3 Stamina",
-        "Requires Level 60",
-        "Equip: Increases defense rating by 17.",
-        "Equip: Increases your parry rating by 15."
-      ],
-      "icon": "inv_gauntlets_31.png",
-      "dropsFrom": [
-        {
-          "chance": 0.0,
-          "bossId": 2,
-          "npcId": 2
-        },
-        {
-          "chance": 6.67,
-          "bossId": 4,
-          "npcId": 4
-        }
-      ],
-      "slots": [
-        "Hands"
-      ],
-      "types": [
-        "Plate"
-      ]
-    },
-    {
       "id": 22220,
-      "name": "Item #22220",
+      "name": "Plans: Black Grasp of the Destroyer",
       "classes": [
         "Death Knight",
         "Druid",
@@ -2917,7 +3783,7 @@
       ],
       "quality": 4,
       "tooltip": [
-        "Item #22220"
+        "Plans: Black Grasp of the Destroyer"
       ],
       "icon": "inv_scroll_05.png",
       "dropsFrom": [
@@ -2935,874 +3801,8 @@
       ]
     },
     {
-      "id": 21498,
-      "name": "Qiraji Sacrificial Dagger",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Qiraji Sacrificial Dagger",
-        "Binds when picked up",
-        "Unique-Equipped",
-        "One-Hand    Dagger",
-        "107 - 170 Damage    Speed 1.90",
-        "(72.9 damage per second)",
-        "+17 Stamina",
-        "Requires Level 60",
-        "Equip: Increases attack power by 42."
-      ],
-      "icon": "inv_weapon_shortblade_12.png",
-      "dropsFrom": [
-        {
-          "chance": 10.0,
-          "bossId": 0,
-          "npcId": 0
-        }
-      ],
-      "slots": [
-        "Main Hand"
-      ],
-      "types": [
-        "Daggers"
-      ]
-    },
-    {
-      "id": 21499,
-      "name": "Vestments of the Shifting Sands",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Vestments of the Shifting Sands",
-        "Binds when picked up",
-        "Chest    Cloth",
-        "127 Armor",
-        "+23 Stamina",
-        "+28 Intellect",
-        "+31 Spirit",
-        "Yellow Socket",
-        "Socket Bonus: +3 Intellect",
-        "Requires Level 60",
-        "Equip: Increases spell power by 36.",
-        "Equip: Improves critical strike rating by 18."
-      ],
-      "icon": "inv_chest_cloth_17.png",
-      "dropsFrom": [
-        {
-          "chance": 10.0,
-          "bossId": 0,
-          "npcId": 0
-        }
-      ],
-      "slots": [
-        "Chest"
-      ],
-      "types": [
-        "Cloth"
-      ]
-    },
-    {
-      "id": 21500,
-      "name": "Belt of the Inquisition",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Belt of the Inquisition",
-        "Binds when picked up",
-        "Waist    Cloth",
-        "68 Armor",
-        "+21 Stamina",
-        "+23 Intellect",
-        "Requires Level 60",
-        "Equip: Increases spell power by 29.",
-        "Equip: Improves haste rating by 15."
-      ],
-      "icon": "inv_belt_05.png",
-      "dropsFrom": [
-        {
-          "chance": 0.0,
-          "bossId": 0,
-          "npcId": 0
-        }
-      ],
-      "slots": [
-        "Waist"
-      ],
-      "types": [
-        "Cloth"
-      ]
-    },
-    {
-      "id": 21501,
-      "name": "Toughened Silithid Hide Gloves",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Toughened Silithid Hide Gloves",
-        "Binds when picked up",
-        "Hands    Leather",
-        "195 Armor",
-        "+21 Strength",
-        "+26 Agility",
-        "+24 Stamina",
-        "Blue Socket",
-        "Socket Bonus: +3 Agility",
-        "Requires Level 60",
-        "Equip: Increases attack power by 22."
-      ],
-      "icon": "inv_gauntlets_24.png",
-      "dropsFrom": [
-        {
-          "chance": 0.0,
-          "bossId": 0,
-          "npcId": 0
-        }
-      ],
-      "slots": [
-        "Hands"
-      ],
-      "types": [
-        "Leather"
-      ]
-    },
-    {
-      "id": 21502,
-      "name": "Sand Reaver Wristguards",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Sand Reaver Wristguards",
-        "Binds when picked up",
-        "Wrist    Mail",
-        "219 Armor",
-        "+23 Stamina",
-        "+26 Intellect",
-        "Red Socket",
-        "Socket Bonus: +2 Spell Power",
-        "Requires Level 60",
-        "Equip: Increases spell power by 29.",
-        "Equip: Improves critical strike rating by 17."
-      ],
-      "icon": "inv_bracer_19.png",
-      "dropsFrom": [
-        {
-          "chance": 0.0,
-          "bossId": 0,
-          "npcId": 0
-        }
-      ],
-      "slots": [
-        "Wrists"
-      ],
-      "types": [
-        "Mail"
-      ]
-    },
-    {
-      "id": 21503,
-      "name": "Belt of the Sand Reaver",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Belt of the Sand Reaver",
-        "Binds when picked up",
-        "Waist    Plate",
-        "603 Armor",
-        "+18 Strength",
-        "+31 Stamina",
-        "Blue Socket",
-        "Socket Bonus: +3 Stamina",
-        "Requires Level 60",
-        "Equip: Increases defense rating by 14.",
-        "Equip: Increases your dodge rating by 16."
-      ],
-      "icon": "inv_belt_13.png",
-      "dropsFrom": [
-        {
-          "chance": 0.0,
-          "bossId": 0,
-          "npcId": 0
-        }
-      ],
-      "slots": [
-        "Waist"
-      ],
-      "types": [
-        "Plate"
-      ]
-    },
-    {
-      "id": 22217,
-      "name": "Item #22217",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Item #22217"
-      ],
-      "icon": "inv_misc_organ_04.png",
-      "dropsFrom": [
-        {
-          "chance": 100.0,
-          "bossId": 0,
-          "npcId": 0
-        }
-      ],
-      "slots": [
-        "Unknown"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 21466,
-      "name": "Stinger of Ayamiss",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Stinger of Ayamiss",
-        "Binds when picked up",
-        "Main Hand    Mace",
-        "85 - 160 Damage    Speed 2.40",
-        "(51.0 damage per second)",
-        "+21 Stamina",
-        "+17 Intellect",
-        "Requires Level 60",
-        "Equip: Increases spell power by 130.",
-        "Equip: Improves critical strike rating by 16."
-      ],
-      "icon": "inv_mace23.png",
-      "dropsFrom": [
-        {
-          "chance": 6.67,
-          "bossId": 4,
-          "npcId": 4
-        }
-      ],
-      "slots": [
-        "Main Hand"
-      ],
-      "types": [
-        "One-Handed Maces"
-      ]
-    },
-    {
-      "id": 21478,
-      "name": "Bow of Taut Sinew",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Bow of Taut Sinew",
-        "Binds when picked up",
-        "Ranged    Bow",
-        "146 - 270 Damage    Speed 2.20",
-        "(94.5 damage per second)",
-        "+18 Agility",
-        "+15 Nature Resistance",
-        "Requires Level 60",
-        "Equip: Increases attack power by 27.",
-        "Equip: Increases your armor penetration rating by 16."
-      ],
-      "icon": "inv_weapon_bow_13.png",
-      "dropsFrom": [
-        {
-          "chance": 6.67,
-          "bossId": 4,
-          "npcId": 4
-        }
-      ],
-      "slots": [
-        "Ranged"
-      ],
-      "types": [
-        "Bows"
-      ]
-    },
-    {
-      "id": 21480,
-      "name": "Scaled Silithid Gauntlets",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Scaled Silithid Gauntlets",
-        "Binds when picked up",
-        "Hands    Mail",
-        "337 Armor",
-        "+18 Agility",
-        "+24 Stamina",
-        "+15 Intellect",
-        "Yellow Socket",
-        "Socket Bonus: +2 Agility",
-        "Requires Level 60",
-        "Equip: Increases attack power by 37.",
-        "Equip: Increases your expertise rating by 15."
-      ],
-      "icon": "inv_gauntlets_10.png",
-      "dropsFrom": [
-        {
-          "chance": 0.0,
-          "bossId": 4,
-          "npcId": 4
-        }
-      ],
-      "slots": [
-        "Hands"
-      ],
-      "types": [
-        "Mail"
-      ]
-    },
-    {
-      "id": 21481,
-      "name": "Boots of the Desert Protector",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Boots of the Desert Protector",
-        "Binds when picked up",
-        "Feet    Plate",
-        "558 Armor",
-        "+21 Stamina",
-        "+23 Intellect",
-        "Yellow Socket",
-        "Socket Bonus: +2 Spell Power",
-        "Requires Level 60",
-        "Equip: Increases spell power by 28.",
-        "Equip: Restores 11 mana per 5 sec."
-      ],
-      "icon": "inv_boots_plate_05.png",
-      "dropsFrom": [
-        {
-          "chance": 0.0,
-          "bossId": 4,
-          "npcId": 4
-        }
-      ],
-      "slots": [
-        "Feet"
-      ],
-      "types": [
-        "Plate"
-      ]
-    },
-    {
-      "id": 21482,
-      "name": "Boots of the Fiery Sands",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Boots of the Fiery Sands",
-        "Binds when picked up",
-        "Feet    Mail",
-        "335 Armor",
-        "+22 Stamina",
-        "+21 Intellect",
-        "Yellow Socket",
-        "Socket Bonus: +2 Spell Power",
-        "Requires Level 60",
-        "Equip: Increases spell power by 29.",
-        "Equip: Restores 12 mana per 5 sec."
-      ],
-      "icon": "inv_boots_chain_02.png",
-      "dropsFrom": [
-        {
-          "chance": 0.0,
-          "bossId": 4,
-          "npcId": 4
-        }
-      ],
-      "slots": [
-        "Feet"
-      ],
-      "types": [
-        "Mail"
-      ]
-    },
-    {
-      "id": 21483,
-      "name": "Ring of the Desert Winds",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Ring of the Desert Winds",
-        "Binds when picked up",
-        "Unique-Equipped",
-        "Finger",
-        "+23 Stamina",
-        "+17 Intellect",
-        "Requires Level 60",
-        "Equip: Increases spell power by 31.",
-        "Equip: Improves critical strike rating by 13."
-      ],
-      "icon": "inv_jewelry_ring_ahnqiraj_05.png",
-      "dropsFrom": [
-        {
-          "chance": 0.0,
-          "bossId": 4,
-          "npcId": 4
-        }
-      ],
-      "slots": [
-        "Finger"
-      ],
-      "types": [
-        "Miscellaneous"
-      ]
-    },
-    {
-      "id": 21484,
-      "name": "Helm of Regrowth",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Helm of Regrowth",
-        "Binds when picked up",
-        "Head    Leather",
-        "203 Armor",
-        "+27 Stamina",
-        "+25 Intellect",
-        "+21 Spirit",
-        "Meta Socket",
-        "Red Socket",
-        "Socket Bonus: +5 Intellect",
-        "Requires Level 60",
-        "Equip: Increases spell power by 31.",
-        "Equip: Improves critical strike rating by 16."
-      ],
-      "icon": "inv_helmet_15.png",
-      "dropsFrom": [
-        {
-          "chance": 0.0,
-          "bossId": 4,
-          "npcId": 4
-        }
-      ],
-      "slots": [
-        "Head"
-      ],
-      "types": [
-        "Leather"
-      ]
-    },
-    {
-      "id": 21492,
-      "name": "Manslayer of the Qiraji",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Manslayer of the Qiraji",
-        "Binds when picked up",
-        "Two-Hand    Sword",
-        "261 - 421 Damage    Speed 3.60",
-        "(94.7 damage per second)",
-        "+29 Strength",
-        "+26 Stamina",
-        "Requires Level 60",
-        "Equip: Improves critical strike rating by 21.",
-        "Equip: Increases your expertise rating by 16."
-      ],
-      "icon": "inv_sword_56.png",
-      "dropsFrom": [
-        {
-          "chance": 10.0,
-          "bossId": 1,
-          "npcId": 1
-        }
-      ],
-      "slots": [
-        "Main Hand"
-      ],
-      "types": [
-        "Two-Handed Swords"
-      ]
-    },
-    {
-      "id": 21493,
-      "name": "Boots of the Vanguard",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Boots of the Vanguard",
-        "Binds when picked up",
-        "Feet    Leather",
-        "152 Armor",
-        "+26 Strength",
-        "+23 Agility",
-        "+27 Stamina",
-        "Yellow Socket",
-        "Socket Bonus: +4 Attack Power",
-        "Requires Level 60",
-        "Equip: Increases your expertise rating by 14."
-      ],
-      "icon": "inv_boots_08.png",
-      "dropsFrom": [
-        {
-          "chance": 10.0,
-          "bossId": 1,
-          "npcId": 1
-        }
-      ],
-      "slots": [
-        "Feet"
-      ],
-      "types": [
-        "Leather"
-      ]
-    },
-    {
-      "id": 21494,
-      "name": "Southwind's Grasp",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Southwind's Grasp",
-        "Binds when picked up",
-        "Waist    Leather",
-        "133 Armor",
-        "+19 Stamina",
-        "+18 Intellect",
-        "Yellow Socket",
-        "Socket Bonus: +3 Intellect",
-        "Requires Level 60",
-        "Equip: Increases spell power by 27.",
-        "Equip: Improves critical strike rating by 15."
-      ],
-      "icon": "inv_belt_25.png",
-      "dropsFrom": [
-        {
-          "chance": 0.0,
-          "bossId": 1,
-          "npcId": 1
-        }
-      ],
-      "slots": [
-        "Waist"
-      ],
-      "types": [
-        "Leather"
-      ]
-    },
-    {
-      "id": 21495,
-      "name": "Legplates of the Qiraji Command",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Legplates of the Qiraji Command",
-        "Binds when picked up",
-        "Legs    Plate",
-        "844 Armor",
-        "+33 Strength",
-        "+27 Stamina",
-        "Red Socket",
-        "Socket Bonus: +2 Strength",
-        "Requires Level 60",
-        "Equip: Improves critical strike rating by 14.",
-        "Equip: Increases your armor penetration rating by 15."
-      ],
-      "icon": "inv_pants_plate_15.png",
-      "dropsFrom": [
-        {
-          "chance": 0.0,
-          "bossId": 1,
-          "npcId": 1
-        }
-      ],
-      "slots": [
-        "Legs"
-      ],
-      "types": [
-        "Plate"
-      ]
-    },
-    {
-      "id": 21496,
-      "name": "Bracers of Qiraji Command",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Bracers of Qiraji Command",
-        "Binds when picked up",
-        "Wrist    Cloth",
-        "48 Armor",
-        "+23 Stamina",
-        "+18 Intellect",
-        "Yellow Socket",
-        "Socket Bonus: +2 Intellect",
-        "Requires Level 60",
-        "Equip: Increases spell power by 30.",
-        "Equip: Improves spell hit rating by 16."
-      ],
-      "icon": "inv_bracer_13.png",
-      "dropsFrom": [
-        {
-          "chance": 0.0,
-          "bossId": 1,
-          "npcId": 1
-        }
-      ],
-      "slots": [
-        "Wrists"
-      ],
-      "types": [
-        "Cloth"
-      ]
-    },
-    {
-      "id": 21497,
-      "name": "Boots of the Qiraji General",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Boots of the Qiraji General",
-        "Binds when picked up",
-        "Feet    Mail",
-        "335 Armor",
-        "+23 Agility",
-        "+18 Stamina",
-        "+16 Intellect",
-        "Red Socket",
-        "Socket Bonus: +4 Attack Power",
-        "Requires Level 60",
-        "Equip: Increases attack power by 38.",
-        "Equip: Improves haste rating by 15."
-      ],
-      "icon": "inv_boots_chain_11.png",
-      "dropsFrom": [
-        {
-          "chance": 0.0,
-          "bossId": 1,
-          "npcId": 1
-        }
-      ],
-      "slots": [
-        "Feet"
-      ],
-      "types": [
-        "Mail"
-      ]
-    },
-    {
       "id": 21220,
-      "name": "Item #21220",
+      "name": "Head of Ossirian the Unscarred",
       "classes": [
         "Death Knight",
         "Druid",
@@ -3817,7 +3817,7 @@
       ],
       "quality": 4,
       "tooltip": [
-        "Item #21220"
+        "Head of Ossirian the Unscarred"
       ],
       "icon": "ability_hunter_pet_owl.png",
       "dropsFrom": [
@@ -3969,7 +3969,7 @@
     },
     {
       "id": 21456,
-      "name": "Item #21456",
+      "name": "Sandstorm Cloak",
       "classes": [
         "Death Knight",
         "Druid",
@@ -3984,7 +3984,7 @@
       ],
       "quality": 4,
       "tooltip": [
-        "Item #21456"
+        "Sandstorm Cloak"
       ],
       "icon": "inv_misc_cape_06.png",
       "dropsFrom": [

@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import { useNavigate, useParams } from "react-router"
+import { useNavigate, useParams, useSearchParams } from "react-router"
 import {
   Button,
   Collapse,
@@ -11,6 +11,7 @@ import {
   Switch,
   Text,
   Textarea,
+  TextInput,
 } from "@mantine/core"
 import { DateTimePicker } from "@mantine/dates"
 import { modals } from "@mantine/modals"
@@ -28,6 +29,7 @@ import type {
   Raid,
 } from "../shared/types.ts"
 import { deepEqual } from "fast-equals"
+import { parseRaidIdFromLink, raidIdToUrl } from "../shared/utils.ts"
 
 export const CreateRaid = (
   { itemPickerOpen = false, edit = false }: {
@@ -37,6 +39,8 @@ export const CreateRaid = (
 ) => {
   const navigate = useNavigate()
   const params = useParams()
+  const [searchParams] = useSearchParams()
+  const nextSrPlus = searchParams.get("nextSrPlus") === "true"
 
   const [raidBeforeEdit, setRaidBeforeEdit] = useState<Raid>()
   const [instances, setInstances] = useState<Instance[]>()
@@ -48,12 +52,15 @@ export const CreateRaid = (
   const [selectedServer, setSelectedServer] = useState<GameServer | null>(
     () => {
       const saved = localStorage.getItem("selectedServer")
-      return (saved === "triumvirate" || saved === "turtlewow" || saved === "epoch") ? saved : null
+      // Only one server (triumvirate) right now, so default straight to it
+      // instead of making the user pick it manually.
+      return saved === "triumvirate" ? saved : "triumvirate"
     },
   )
 
   const [description, setDescription] = useState("")
   const [useSrPlus, setUseSrPlus] = useState(false)
+  const [previousRaidLink, setPreviousRaidLink] = useState("")
   const [allowDuplicateSr, setAllowDuplicateSr] = useState(false)
   const [useHr, setUseHr] = useState(false)
   const [srCount, setSrCount] = useState<number | undefined>()
@@ -70,6 +77,13 @@ export const CreateRaid = (
       alert("Missing information")
       return
     }
+    const previousRaidId = selectedGuildId
+      ? undefined
+      : parseRaidIdFromLink(previousRaidLink)
+    if (useSrPlus && !selectedGuildId && previousRaidLink && !previousRaidId) {
+      alert("That doesn't look like a valid raid link")
+      return
+    }
     const request: CreateEditRaidRequest = {
       raidId: edit ? params.raidId : undefined,
       instanceId: instance.id,
@@ -80,6 +94,7 @@ export const CreateRaid = (
       hardReserves,
       allowDuplicateSr,
       guildId: selectedGuildId,
+      previousRaidId,
     }
     fetch("/api/raid/create", { method: "POST", body: JSON.stringify(request) })
       .then((r) => r.json())
@@ -131,14 +146,31 @@ export const CreateRaid = (
             setInstance(instances.find((i) => i.id == raid.instanceId))
             setHardReserves(raid.hardReserves)
             setDescription(raid.description)
-            setUseSrPlus(raid.useSrPlus)
             setAllowDuplicateSr(raid.allowDuplicateSr)
             setUseHr(raid.hardReserves.length > 0)
             setSrCount(raid.srCount)
             setSelectedGuildId(raid.guildId)
 
-            if (edit) {
+            if (nextSrPlus) {
+              // Carry SR+ forward onto the raid we just copied from (not
+              // whatever it itself was chained on top of), and default the
+              // time to a week later instead of the usual "next half hour".
+              setUseSrPlus(true)
+              setPreviousRaidLink(raidIdToUrl(raid.id))
+              setTime(
+                new Date(new Date(raid.time).getTime() + 7 * 24 * 60 * 60 * 1000),
+              )
+            } else {
+              setUseSrPlus(raid.useSrPlus)
+              setPreviousRaidLink(
+                raid.previousRaidId ? raidIdToUrl(raid.previousRaidId) : "",
+              )
+            }
+
+            if (edit && !nextSrPlus) {
               setTime(new Date(raid.time))
+              setRaidBeforeEdit(raid)
+            } else if (edit) {
               setRaidBeforeEdit(raid)
             }
           }
@@ -158,6 +190,7 @@ export const CreateRaid = (
       srCount: raidBeforeEdit.srCount,
       time: raidBeforeEdit.time,
       selectedGuildId: raidBeforeEdit.guildId,
+      previousRaidId: raidBeforeEdit.previousRaidId,
     }
     const b = {
       instanceId: instance?.id,
@@ -168,6 +201,9 @@ export const CreateRaid = (
       srCount,
       time: time.toISOString(),
       selectedGuildId,
+      previousRaidId: selectedGuildId
+        ? undefined
+        : parseRaidIdFromLink(previousRaidLink),
     }
     return !deepEqual(a, b)
   }
@@ -291,6 +327,12 @@ export const CreateRaid = (
             }}
             label="Hard-reserve items"
           />
+          <Switch
+            checked={useSrPlus}
+            onChange={(event) => setUseSrPlus(event.currentTarget.checked)}
+            label="Use SR+"
+            description="Give priority to characters who soft-reserved an item before but didn't win it"
+          />
           {guilds.length > 0
             ? (
               <Select
@@ -305,6 +347,20 @@ export const CreateRaid = (
               />
             )
             : null}
+          <Collapse in={useSrPlus && !selectedGuildId}>
+            <TextInput
+              label="Previous raid link"
+              description="Paste the link of a previous raid to build SR+ priority on top of it. Leave blank to start fresh."
+              placeholder="https://.../ABCDE"
+              value={previousRaidLink}
+              onChange={(event) =>
+                setPreviousRaidLink(event.currentTarget.value)}
+              error={previousRaidLink &&
+                  !parseRaidIdFromLink(previousRaidLink)
+                ? "Doesn't look like a valid raid link"
+                : undefined}
+            />
+          </Collapse>
           <Collapse in={useHr && instance ? true : false}>
             {instance
               ? (

@@ -32,6 +32,15 @@ export const raidIdToUrl = (raidId: string): string => {
   }/${raidId}`
 }
 
+export const parseRaidIdFromLink = (link: string): string | undefined => {
+  const trimmed = link.trim()
+  if (!trimmed) return undefined
+  const segments = trimmed.split("/").filter(Boolean)
+  const lastSegment = segments[segments.length - 1]
+  if (!lastSegment || lastSegment.length !== 5) return undefined
+  return lastSegment.toUpperCase()
+}
+
 export const choice = <T>(array: readonly T[]): T => {
   // Return a random element
   return array[Math.floor(Math.random() * array.length)]

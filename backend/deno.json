@@ -5,7 +5,7 @@
     "zod": "npm:zod@^4.3.6"
   },
   "tasks": {
-    "cli": "deno run --allow-read --allow-net --allow-sys --allow-env src/cli.ts"
+    "cli": "deno run --allow-read --allow-net --allow-sys --allow-env src/cli.ts",
     "start": "deno serve --allow-read --allow-net --allow-sys --allow-env src/main.ts",
     "start-dev": "deno serve --allow-read --allow-net --allow-sys --allow-env --watch src/main.ts"
   },

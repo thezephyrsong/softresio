@@ -212,7 +212,7 @@ export const RaidElement = (
   useEffect(loadRaid, [params.raidId])
 
   useEffect(() => {
-    if (raid?.guildId && !srPluses) {
+    if (raid?.useSrPlus && !srPluses) {
       fetch(`/api/srplus/${raid.id}`)
         .then((r) => r.json())
         .then((j: GetSrPlusResponse) => {
@@ -341,6 +341,17 @@ export const RaidElement = (
                 >
                   Clone
                 </Button>
+                {raid.locked
+                  ? (
+                    <Button
+                      variant="default"
+                      onClick={() =>
+                        navigate(`/copy/${params.raidId}?nextSrPlus=true`)}
+                    >
+                      Make Next SR+
+                    </Button>
+                  )
+                  : null}
                 {raid.owner.userId == user.userId
                   ? (
                     <Button

@@ -74,6 +74,7 @@ export interface Raid {
   allowDuplicateSr: boolean
   owner: User
   guildId?: string // uuidv4
+  previousRaidId?: string // 5-char raid id; SR+ baseline for raids without a guild
 }
 
 interface GenericResponse<T> {
@@ -95,6 +96,7 @@ export interface CreateEditRaidRequest {
   hardReserves: number[]
   allowDuplicateSr: boolean
   guildId?: string //uuidv4
+  previousRaidId?: string
 }
 
 export interface CreateGuildRequest {
@@ -180,7 +182,7 @@ export interface Boss {
   name: string
 }
 
-export type GameServer = "triumvirate" | "turtlewow" | "epoch"
+export type GameServer = "triumvirate" // | "turtlewow" | "epoch" (temporarily disabled, no instance data)
 
 export interface Instance {
   id: number

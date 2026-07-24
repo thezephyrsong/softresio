@@ -52,6 +52,7 @@ export const SrListElement = (
     locked,
     srPluses,
     guildId,
+    showSrPlus,
   }: {
     srPluses: SrPlus[]
     visible: boolean
@@ -65,6 +66,7 @@ export const SrListElement = (
     editAdmin: (user: User, remove: boolean) => void
     deleteSr: () => void
     guildId?: string
+    showSrPlus?: boolean
   },
 ) => {
   const { ref, hovered } = useHover()
@@ -207,7 +209,7 @@ export const SrListElement = (
               highlight={false}
             />
           </Table.Td>
-          {guildId
+          {showSrPlus
             ? (
               <Table.Td ta="center" onClick={(e) => e.stopPropagation()}>
                 <Button
@@ -221,7 +223,7 @@ export const SrListElement = (
                 >
                   {sumSrPlus(srPluses)}
                 </Button>
-                {guildId && srPluses.length > 0
+                {srPluses.length > 0
                   ? (
                     <SrPlusLog
                       items={items}
@@ -409,7 +411,7 @@ export const SrList = (
               </ActionIcon>
             </Group>
           </Table.Th>
-          {raid.guildId
+          {raid.useSrPlus
             ? (
               <Table.Th ta="center" pb="sm" px={0} w={40}>
                 SR+
@@ -423,6 +425,7 @@ export const SrList = (
           <SrListElement
             items={items}
             guildId={raid.guildId}
+            showSrPlus={raid.useSrPlus}
             locked={raid.locked}
             key={`${e.attendee.character.name}|${e.softReserve.itemId}|${e.index}`}
             visible={filter(e)}

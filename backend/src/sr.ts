@@ -296,12 +296,17 @@ app.post("/api/srplus", async (c) => {
   return c.json(...response)
 })
 
-export const getSrPluses = async (raid: Raid): Promise<SrPlus[]> => {
+const MAX_SR_PLUS_CHAIN = 50 // guard against absurdly long or cyclic chains
+
+const getGuildSrPluses = async (
+  raid: Raid,
+  guildId: string,
+): Promise<SrPlus[]> => {
   const [guildResult] = await sql<{ guild: Guild }[]>`select guild
       from guilds
       where
         guild @> ${{
-    id: raid.guildId,
+    id: guildId,
   } as never};`
   if (!guildResult?.guild) return []
   const guild = guildResult.guild
@@ -348,6 +353,51 @@ export const getSrPluses = async (raid: Raid): Promise<SrPlus[]> => {
   return srPlus
 }
 
+// For raids with no guild: instead of an automatic guild-wide search, the
+// raid creator points at a specific earlier raid (or chain of raids, if that
+// one also has a previousRaidId) to build SR+ priority on top of.
+const getChainedSrPluses = async (raid: Raid): Promise<SrPlus[]> => {
+  const srPlus: SrPlus[] = []
+  const visited = new Set<string>([raid.id])
+  let currentId = raid.previousRaidId
+
+  for (let i = 0; i < MAX_SR_PLUS_CHAIN && currentId; i++) {
+    if (visited.has(currentId)) break // cycle guard
+    visited.add(currentId)
+
+    const [result] = await sql<{ raid: Raid }[]>`select raid from raids where raid @> ${{
+      id: currentId,
+      deleted: false,
+    } as never};`
+    const previousRaid = result?.raid
+    if (!previousRaid) break
+
+    for (const attendee of previousRaid.attendees) {
+      for (const sr of attendee.softReserves) {
+        srPlus.push({
+          type: "raid",
+          raidId: previousRaid.id,
+          time: previousRaid.time,
+          characterName: attendee.character.name,
+          itemId: sr.itemId,
+        })
+      }
+    }
+
+    currentId = previousRaid.previousRaidId
+  }
+
+  return srPlus
+}
+
+export const getSrPluses = async (raid: Raid): Promise<SrPlus[]> => {
+  if (raid.guildId) return await getGuildSrPluses(raid, raid.guildId)
+  if (raid.useSrPlus && raid.previousRaidId) {
+    return await getChainedSrPluses(raid)
+  }
+  return []
+}
+
 app.get("/api/srplus/:raidId", async (c) => {
   const user = await getOrCreateUser(c)
   const request = z.string().length(5).safeParse(c.req.param("raidId"))
@@ -369,8 +419,8 @@ app.get("/api/srplus/:raidId", async (c) => {
   if (!raid) {
     return c.json({ error: { message: "Raid not found" } }, 404)
   }
-  if (!raid.guildId) {
-    return c.json({ error: { message: "Raid has no guild" } }, 400)
+  if (!raid.guildId && !raid.useSrPlus) {
+    return c.json({ error: { message: "Raid does not use SR+" } }, 400)
   }
   const response: GetSrPlusResponse = {
     user,

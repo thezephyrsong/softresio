@@ -3,9 +3,9 @@ import { Title } from "@mantine/core"
 import type { GameServer, Instance } from "../shared/types.ts"
 
 export const SERVER_LABELS: Record<GameServer, string> = {
-  turtlewow: "Turtle WoW",
-  epoch: "Project Epoch",
   triumvirate: "Triumvirate",
+  // turtlewow: "Turtle WoW", // temporarily disabled, no instance data
+  // epoch: "Project Epoch", // temporarily disabled, no instance data
 }
 
 export const instanceOrder = [
@@ -57,7 +57,9 @@ export const renderInstance: (
   const instance = instances.filter((i) => i.id.toString() == option.value)[0]
   return (
     <>
-      <Title order={6} w={45}>{instance.shortname.toUpperCase()}</Title>
+      <Title order={6} w={70} style={{ whiteSpace: "nowrap", flexShrink: 0 }}>
+        {instance.shortname.toUpperCase()}
+      </Title>
       {instance.name}
     </>
   )

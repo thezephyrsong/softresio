@@ -1,446 +1,9 @@
 {
-  "id": 13,
+  "id": 112,
   "shortname": "za",
   "raid": true,
   "name": "Zul'Aman",
   "items": [
-    {
-      "id": 33326,
-      "name": "Bulwark of the Amani Empire",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Bulwark of the Amani Empire",
-        "Binds when picked up",
-        "Off Hand    Shield",
-        "2991 Armor",
-        "61 Block",
-        "+15 Strength",
-        "+36 Stamina",
-        "Yellow Socket",
-        "Socket Bonus: +3 Stamina",
-        "Requires Level 60",
-        "Equip: Increases your shield block rating by 18.",
-        "Equip: Increases the block value of your shield by 45."
-      ],
-      "icon": "inv_shield_42.png",
-      "dropsFrom": [
-        {
-          "chance": 14.29,
-          "bossId": 2,
-          "npcId": 2
-        }
-      ],
-      "slots": [
-        "Off Hand"
-      ],
-      "types": [
-        "Shields"
-      ]
-    },
-    {
-      "id": 33328,
-      "name": "Arrow-fall Chestguard",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Arrow-fall Chestguard",
-        "Binds when picked up",
-        "Chest    Mail",
-        "556 Armor",
-        "+27 Agility",
-        "+28 Stamina",
-        "+22 Intellect",
-        "Red Socket",
-        "Yellow Socket",
-        "Socket Bonus: +4 Agility",
-        "Requires Level 60",
-        "Equip: Improves haste rating by 14.",
-        "Equip: Increases attack power by 52."
-      ],
-      "icon": "inv_chest_chain_13.png",
-      "dropsFrom": [
-        {
-          "chance": 14.29,
-          "bossId": 2,
-          "npcId": 2
-        }
-      ],
-      "slots": [
-        "Chest"
-      ],
-      "types": [
-        "Mail"
-      ]
-    },
-    {
-      "id": 33329,
-      "name": "Shadowtooth Trollskin Cuirass",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Shadowtooth Trollskin Cuirass",
-        "Binds when picked up",
-        "Chest    Leather",
-        "258 Armor",
-        "+28 Agility",
-        "+25 Stamina",
-        "Yellow Socket",
-        "Blue Socket",
-        "Socket Bonus: +4 Agility",
-        "Requires Level 60",
-        "Equip: Increases attack power by 57.",
-        "Equip: Increases your armor penetration rating by 14."
-      ],
-      "icon": "inv_chest_leather_06.png",
-      "dropsFrom": [
-        {
-          "chance": 14.29,
-          "bossId": 2,
-          "npcId": 2
-        }
-      ],
-      "slots": [
-        "Chest"
-      ],
-      "types": [
-        "Leather"
-      ]
-    },
-    {
-      "id": 33332,
-      "name": "Enamelled Disc of Mojo",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Enamelled Disc of Mojo",
-        "Binds when picked up",
-        "Off Hand    Shield",
-        "2991 Armor",
-        "32 Block",
-        "+18 Stamina",
-        "+19 Intellect",
-        "Yellow Socket",
-        "Socket Bonus: +3 Intellect",
-        "Requires Level 60",
-        "Equip: Increases spell power by 26.",
-        "Equip: Restores 7 mana per 5 sec."
-      ],
-      "icon": "inv_shield_43.png",
-      "dropsFrom": [
-        {
-          "chance": 14.29,
-          "bossId": 2,
-          "npcId": 2
-        }
-      ],
-      "slots": [
-        "Off Hand"
-      ],
-      "types": [
-        "Shields"
-      ]
-    },
-    {
-      "id": 33354,
-      "name": "Wub's Cursed Hexblade",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Wub's Cursed Hexblade",
-        "Binds when picked up",
-        "Unique",
-        "Main Hand    Dagger",
-        "74 - 114 Damage    Speed 1.80",
-        "(52.2 damage per second)",
-        "+23 Stamina",
-        "+21 Intellect",
-        "Red Socket",
-        "Socket Bonus: +2 Spell Power",
-        "Requires Level 60",
-        "Equip: Improves hit rating by 16.",
-        "Equip: Improves critical strike rating by 11.",
-        "Equip: Increases spell power by 134.",
-        "Equip: Restores 13 mana per 5 sec."
-      ],
-      "icon": "inv_weapon_shortblade_64.png",
-      "dropsFrom": [
-        {
-          "chance": 14.29,
-          "bossId": 2,
-          "npcId": 2
-        }
-      ],
-      "slots": [
-        "Main Hand"
-      ],
-      "types": [
-        "Daggers"
-      ]
-    },
-    {
-      "id": 33356,
-      "name": "Helm of Natural Regeneration",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Helm of Natural Regeneration",
-        "Binds when picked up",
-        "Head    Leather",
-        "208 Armor",
-        "+26 Stamina",
-        "+28 Intellect",
-        "+21 Spirit",
-        "Meta Socket",
-        "Yellow Socket",
-        "Socket Bonus: +4 Spell Power",
-        "Requires Level 60",
-        "Equip: Increases spell power by 35.",
-        "Equip: Improves critical strike rating by 16."
-      ],
-      "icon": "inv_helmet_112.png",
-      "dropsFrom": [
-        {
-          "chance": 14.29,
-          "bossId": 2,
-          "npcId": 2
-        }
-      ],
-      "slots": [
-        "Head"
-      ],
-      "types": [
-        "Leather"
-      ]
-    },
-    {
-      "id": 33357,
-      "name": "Footpads of Madness",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Footpads of Madness",
-        "Binds when picked up",
-        "Feet    Cloth",
-        "76 Armor",
-        "+19 Stamina",
-        "+22 Intellect",
-        "Red Socket",
-        "Socket Bonus: +4 Haste Rating",
-        "Requires Level 60",
-        "Equip: Improves haste rating by 12.",
-        "Equip: Increases spell power by 29."
-      ],
-      "icon": "inv_boots_05.png",
-      "dropsFrom": [
-        {
-          "chance": 14.29,
-          "bossId": 2,
-          "npcId": 2
-        }
-      ],
-      "slots": [
-        "Feet"
-      ],
-      "types": [
-        "Cloth"
-      ]
-    },
-    {
-      "id": 29434,
-      "name": "Item #29434",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Item #29434"
-      ],
-      "icon": "spell_holy_championsbond.png",
-      "dropsFrom": [
-        {
-          "chance": 100.0,
-          "bossId": 2,
-          "npcId": 2
-        },
-        {
-          "chance": 100.0,
-          "bossId": 3,
-          "npcId": 3
-        },
-        {
-          "chance": 100.0,
-          "bossId": 4,
-          "npcId": 4
-        },
-        {
-          "chance": 100.0,
-          "bossId": 0,
-          "npcId": 0
-        },
-        {
-          "chance": 100.0,
-          "bossId": 1,
-          "npcId": 1
-        },
-        {
-          "chance": 100.0,
-          "bossId": 5,
-          "npcId": 5
-        }
-      ],
-      "slots": [
-        "Unknown"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 33307,
-      "name": "Item #33307",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Item #33307"
-      ],
-      "icon": "inv_misc_note_01.png",
-      "dropsFrom": [
-        {
-          "chance": 5.0,
-          "bossId": 2,
-          "npcId": 2
-        },
-        {
-          "chance": 5.0,
-          "bossId": 3,
-          "npcId": 3
-        },
-        {
-          "chance": 5.0,
-          "bossId": 4,
-          "npcId": 4
-        },
-        {
-          "chance": 5.0,
-          "bossId": 0,
-          "npcId": 0
-        },
-        {
-          "chance": 5.0,
-          "bossId": 1,
-          "npcId": 1
-        },
-        {
-          "chance": 5.0,
-          "bossId": 5,
-          "npcId": 5
-        }
-      ],
-      "slots": [
-        "Unknown"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
     {
       "id": 33297,
       "name": "The Savage's Choker",
@@ -754,6 +317,438 @@
       ],
       "types": [
         "Mail"
+      ]
+    },
+    {
+      "id": 29434,
+      "name": "Badge of Justice",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Badge of Justice"
+      ],
+      "icon": "spell_holy_championsbond.png",
+      "dropsFrom": [
+        {
+          "chance": 100.0,
+          "bossId": 3,
+          "npcId": 3
+        },
+        {
+          "chance": 100.0,
+          "bossId": 1,
+          "npcId": 1
+        },
+        {
+          "chance": 100.0,
+          "bossId": 4,
+          "npcId": 4
+        },
+        {
+          "chance": 100.0,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 100.0,
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 100.0,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 33307,
+      "name": "Formula: Enchant Weapon",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Formula: Enchant Weapon"
+      ],
+      "icon": "inv_misc_note_01.png",
+      "dropsFrom": [
+        {
+          "chance": 5.0,
+          "bossId": 3,
+          "npcId": 3
+        },
+        {
+          "chance": 5.0,
+          "bossId": 1,
+          "npcId": 1
+        },
+        {
+          "chance": 5.0,
+          "bossId": 4,
+          "npcId": 4
+        },
+        {
+          "chance": 5.0,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 5.0,
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 5.0,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 33214,
+      "name": "Akil'zon's Talonblade",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Akil'zon's Talonblade",
+        "Binds when picked up",
+        "One-Hand    Sword",
+        "77 - 147 Damage    Speed 1.50",
+        "(74.7 damage per second)",
+        "+20 Agility",
+        "+18 Stamina",
+        "Red Socket",
+        "Socket Bonus: +4 Attack Power",
+        "Requires Level 60",
+        "Equip: Improves haste rating by 12.",
+        "Equip: Increases attack power by 44."
+      ],
+      "icon": "inv_sword_108.png",
+      "dropsFrom": [
+        {
+          "chance": 14.29,
+          "bossId": 1,
+          "npcId": 1
+        }
+      ],
+      "slots": [
+        "Main Hand"
+      ],
+      "types": [
+        "One-Handed Swords"
+      ]
+    },
+    {
+      "id": 33215,
+      "name": "Bloodstained Elven Battlevest",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Bloodstained Elven Battlevest",
+        "Binds when picked up",
+        "Chest    Plate",
+        "939 Armor",
+        "+42 Strength",
+        "+30 Stamina",
+        "Red Socket",
+        "Blue Socket",
+        "Socket Bonus: +4 Armor Penetration Rating",
+        "Requires Level 60",
+        "Equip: Improves critical strike rating by 15.",
+        "Equip: Increases your armor penetration rating by 14."
+      ],
+      "icon": "inv_chest_plate_22.png",
+      "dropsFrom": [
+        {
+          "chance": 14.29,
+          "bossId": 1,
+          "npcId": 1
+        }
+      ],
+      "slots": [
+        "Chest"
+      ],
+      "types": [
+        "Plate"
+      ]
+    },
+    {
+      "id": 33216,
+      "name": "Chestguard of Hidden Purpose",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Chestguard of Hidden Purpose",
+        "Binds when picked up",
+        "Chest    Plate",
+        "939 Armor",
+        "+30 Stamina",
+        "+24 Intellect",
+        "Red Socket",
+        "Yellow Socket",
+        "Socket Bonus: +3 Intellect",
+        "Requires Level 60",
+        "Equip: Increases spell power by 37.",
+        "Equip: Improves haste rating by 14.",
+        "Equip: Restores 12 mana per 5 sec."
+      ],
+      "icon": "inv_chest_plate_24.png",
+      "dropsFrom": [
+        {
+          "chance": 14.29,
+          "bossId": 1,
+          "npcId": 1
+        }
+      ],
+      "slots": [
+        "Chest"
+      ],
+      "types": [
+        "Plate"
+      ]
+    },
+    {
+      "id": 33281,
+      "name": "Brooch of Nature's Mercy",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Brooch of Nature's Mercy",
+        "Binds when picked up",
+        "Neck",
+        "+22 Intellect",
+        "+24 Spirit",
+        "Requires Level 60",
+        "Equip: Improves haste rating by 14.",
+        "Equip: Increases spell power by 34."
+      ],
+      "icon": "inv_jewelry_necklace_ahnqiraj_03.png",
+      "dropsFrom": [
+        {
+          "chance": 14.29,
+          "bossId": 1,
+          "npcId": 1
+        }
+      ],
+      "slots": [
+        "Neck"
+      ],
+      "types": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "id": 33283,
+      "name": "Amani Punisher",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Amani Punisher",
+        "Binds when picked up",
+        "Main Hand    Mace",
+        "55 - 112 Damage    Speed 1.60",
+        "(52.2 damage per second)",
+        "+21 Stamina",
+        "+22 Intellect",
+        "Blue Socket",
+        "Socket Bonus: +2 Spell Power",
+        "Requires Level 60",
+        "Equip: Improves hit rating by 19.",
+        "Equip: Increases spell power by 134.",
+        "Equip: Increases spell penetration by 16."
+      ],
+      "icon": "inv_mace_32.png",
+      "dropsFrom": [
+        {
+          "chance": 14.29,
+          "bossId": 1,
+          "npcId": 1
+        }
+      ],
+      "slots": [
+        "Main Hand"
+      ],
+      "types": [
+        "One-Handed Maces"
+      ]
+    },
+    {
+      "id": 33286,
+      "name": "Mojo-mender's Mask",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Mojo-mender's Mask",
+        "Binds when picked up",
+        "Head    Mail",
+        "450 Armor",
+        "+26 Stamina",
+        "+25 Intellect",
+        "Meta Socket",
+        "Yellow Socket",
+        "Socket Bonus: +4 Spell Power",
+        "Requires Level 60",
+        "Equip: Increases spell power by 33.",
+        "Equip: Improves haste rating by 15.",
+        "Equip: Restores 12 mana per 5 sec."
+      ],
+      "icon": "inv_helmet_116.png",
+      "dropsFrom": [
+        {
+          "chance": 14.29,
+          "bossId": 1,
+          "npcId": 1
+        }
+      ],
+      "slots": [
+        "Head"
+      ],
+      "types": [
+        "Mail"
+      ]
+    },
+    {
+      "id": 33293,
+      "name": "Signet of Ancient Magics",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Signet of Ancient Magics",
+        "Binds when picked up",
+        "Unique",
+        "Finger",
+        "+16 Stamina",
+        "+16 Intellect",
+        "Blue Socket",
+        "Socket Bonus: +2 Spell Power",
+        "Requires Level 60",
+        "Equip: Increases spell power by 31.",
+        "Equip: Improves critical strike rating by 13.",
+        "Equip: Restores 8 mana per 5 sec."
+      ],
+      "icon": "inv_jewelry_ring_68.png",
+      "dropsFrom": [
+        {
+          "chance": 14.29,
+          "bossId": 1,
+          "npcId": 1
+        }
+      ],
+      "slots": [
+        "Finger"
+      ],
+      "types": [
+        "Miscellaneous"
       ]
     },
     {
@@ -1206,7 +1201,7 @@
     },
     {
       "id": 33592,
-      "name": "Item #33592",
+      "name": "Cloak of Ancient Rituals",
       "classes": [
         "Death Knight",
         "Druid",
@@ -1221,7 +1216,7 @@
       ],
       "quality": 4,
       "tooltip": [
-        "Item #33592"
+        "Cloak of Ancient Rituals"
       ],
       "icon": "inv_misc_cape_16.png",
       "dropsFrom": [
@@ -1322,7 +1317,7 @@
     },
     {
       "id": 34029,
-      "name": "Item #34029",
+      "name": "Tiny Voodoo Mask",
       "classes": [
         "Death Knight",
         "Druid",
@@ -1337,7 +1332,7 @@
       ],
       "quality": 4,
       "tooltip": [
-        "Item #34029"
+        "Tiny Voodoo Mask"
       ],
       "icon": "inv_helm_mask_zulgurub_d_01.png",
       "dropsFrom": [
@@ -1671,8 +1666,8 @@
       ]
     },
     {
-      "id": 33214,
-      "name": "Akil'zon's Talonblade",
+      "id": 33326,
+      "name": "Bulwark of the Amani Empire",
       "classes": [
         "Death Knight",
         "Druid",
@@ -1687,37 +1682,37 @@
       ],
       "quality": 4,
       "tooltip": [
-        "Akil'zon's Talonblade",
+        "Bulwark of the Amani Empire",
         "Binds when picked up",
-        "One-Hand    Sword",
-        "77 - 147 Damage    Speed 1.50",
-        "(74.7 damage per second)",
-        "+20 Agility",
-        "+18 Stamina",
-        "Red Socket",
-        "Socket Bonus: +4 Attack Power",
+        "Off Hand    Shield",
+        "2991 Armor",
+        "61 Block",
+        "+15 Strength",
+        "+36 Stamina",
+        "Yellow Socket",
+        "Socket Bonus: +3 Stamina",
         "Requires Level 60",
-        "Equip: Improves haste rating by 12.",
-        "Equip: Increases attack power by 44."
+        "Equip: Increases your shield block rating by 18.",
+        "Equip: Increases the block value of your shield by 45."
       ],
-      "icon": "inv_sword_108.png",
+      "icon": "inv_shield_42.png",
       "dropsFrom": [
         {
           "chance": 14.29,
-          "bossId": 1,
-          "npcId": 1
+          "bossId": 2,
+          "npcId": 2
         }
       ],
       "slots": [
-        "Main Hand"
+        "Off Hand"
       ],
       "types": [
-        "One-Handed Swords"
+        "Shields"
       ]
     },
     {
-      "id": 33215,
-      "name": "Bloodstained Elven Battlevest",
+      "id": 33328,
+      "name": "Arrow-fall Chestguard",
       "classes": [
         "Death Knight",
         "Druid",
@@ -1732,216 +1727,38 @@
       ],
       "quality": 4,
       "tooltip": [
-        "Bloodstained Elven Battlevest",
+        "Arrow-fall Chestguard",
         "Binds when picked up",
-        "Chest    Plate",
-        "939 Armor",
-        "+42 Strength",
-        "+30 Stamina",
+        "Chest    Mail",
+        "556 Armor",
+        "+27 Agility",
+        "+28 Stamina",
+        "+22 Intellect",
         "Red Socket",
-        "Blue Socket",
-        "Socket Bonus: +4 Armor Penetration Rating",
+        "Yellow Socket",
+        "Socket Bonus: +4 Agility",
         "Requires Level 60",
-        "Equip: Improves critical strike rating by 15.",
-        "Equip: Increases your armor penetration rating by 14."
+        "Equip: Improves haste rating by 14.",
+        "Equip: Increases attack power by 52."
       ],
-      "icon": "inv_chest_plate_22.png",
+      "icon": "inv_chest_chain_13.png",
       "dropsFrom": [
         {
           "chance": 14.29,
-          "bossId": 1,
-          "npcId": 1
+          "bossId": 2,
+          "npcId": 2
         }
       ],
       "slots": [
         "Chest"
-      ],
-      "types": [
-        "Plate"
-      ]
-    },
-    {
-      "id": 33216,
-      "name": "Chestguard of Hidden Purpose",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Chestguard of Hidden Purpose",
-        "Binds when picked up",
-        "Chest    Plate",
-        "939 Armor",
-        "+30 Stamina",
-        "+24 Intellect",
-        "Red Socket",
-        "Yellow Socket",
-        "Socket Bonus: +3 Intellect",
-        "Requires Level 60",
-        "Equip: Increases spell power by 37.",
-        "Equip: Improves haste rating by 14.",
-        "Equip: Restores 12 mana per 5 sec."
-      ],
-      "icon": "inv_chest_plate_24.png",
-      "dropsFrom": [
-        {
-          "chance": 14.29,
-          "bossId": 1,
-          "npcId": 1
-        }
-      ],
-      "slots": [
-        "Chest"
-      ],
-      "types": [
-        "Plate"
-      ]
-    },
-    {
-      "id": 33281,
-      "name": "Brooch of Nature's Mercy",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Brooch of Nature's Mercy",
-        "Binds when picked up",
-        "Neck",
-        "+22 Intellect",
-        "+24 Spirit",
-        "Requires Level 60",
-        "Equip: Improves haste rating by 14.",
-        "Equip: Increases spell power by 34."
-      ],
-      "icon": "inv_jewelry_necklace_ahnqiraj_03.png",
-      "dropsFrom": [
-        {
-          "chance": 14.29,
-          "bossId": 1,
-          "npcId": 1
-        }
-      ],
-      "slots": [
-        "Neck"
-      ],
-      "types": [
-        "Miscellaneous"
-      ]
-    },
-    {
-      "id": 33283,
-      "name": "Amani Punisher",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Amani Punisher",
-        "Binds when picked up",
-        "Main Hand    Mace",
-        "55 - 112 Damage    Speed 1.60",
-        "(52.2 damage per second)",
-        "+21 Stamina",
-        "+22 Intellect",
-        "Blue Socket",
-        "Socket Bonus: +2 Spell Power",
-        "Requires Level 60",
-        "Equip: Improves hit rating by 19.",
-        "Equip: Increases spell power by 134.",
-        "Equip: Increases spell penetration by 16."
-      ],
-      "icon": "inv_mace_32.png",
-      "dropsFrom": [
-        {
-          "chance": 14.29,
-          "bossId": 1,
-          "npcId": 1
-        }
-      ],
-      "slots": [
-        "Main Hand"
-      ],
-      "types": [
-        "One-Handed Maces"
-      ]
-    },
-    {
-      "id": 33286,
-      "name": "Mojo-mender's Mask",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Mojo-mender's Mask",
-        "Binds when picked up",
-        "Head    Mail",
-        "450 Armor",
-        "+26 Stamina",
-        "+25 Intellect",
-        "Meta Socket",
-        "Yellow Socket",
-        "Socket Bonus: +4 Spell Power",
-        "Requires Level 60",
-        "Equip: Increases spell power by 33.",
-        "Equip: Improves haste rating by 15.",
-        "Equip: Restores 12 mana per 5 sec."
-      ],
-      "icon": "inv_helmet_116.png",
-      "dropsFrom": [
-        {
-          "chance": 14.29,
-          "bossId": 1,
-          "npcId": 1
-        }
-      ],
-      "slots": [
-        "Head"
       ],
       "types": [
         "Mail"
       ]
     },
     {
-      "id": 33293,
-      "name": "Signet of Ancient Magics",
+      "id": 33329,
+      "name": "Shadowtooth Trollskin Cuirass",
       "classes": [
         "Death Knight",
         "Druid",
@@ -1956,37 +1773,220 @@
       ],
       "quality": 4,
       "tooltip": [
-        "Signet of Ancient Magics",
+        "Shadowtooth Trollskin Cuirass",
         "Binds when picked up",
-        "Unique",
-        "Finger",
-        "+16 Stamina",
-        "+16 Intellect",
+        "Chest    Leather",
+        "258 Armor",
+        "+28 Agility",
+        "+25 Stamina",
+        "Yellow Socket",
         "Blue Socket",
-        "Socket Bonus: +2 Spell Power",
+        "Socket Bonus: +4 Agility",
         "Requires Level 60",
-        "Equip: Increases spell power by 31.",
-        "Equip: Improves critical strike rating by 13.",
-        "Equip: Restores 8 mana per 5 sec."
+        "Equip: Increases attack power by 57.",
+        "Equip: Increases your armor penetration rating by 14."
       ],
-      "icon": "inv_jewelry_ring_68.png",
+      "icon": "inv_chest_leather_06.png",
       "dropsFrom": [
         {
           "chance": 14.29,
-          "bossId": 1,
-          "npcId": 1
+          "bossId": 2,
+          "npcId": 2
         }
       ],
       "slots": [
-        "Finger"
+        "Chest"
       ],
       "types": [
-        "Miscellaneous"
+        "Leather"
+      ]
+    },
+    {
+      "id": 33332,
+      "name": "Enamelled Disc of Mojo",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Enamelled Disc of Mojo",
+        "Binds when picked up",
+        "Off Hand    Shield",
+        "2991 Armor",
+        "32 Block",
+        "+18 Stamina",
+        "+19 Intellect",
+        "Yellow Socket",
+        "Socket Bonus: +3 Intellect",
+        "Requires Level 60",
+        "Equip: Increases spell power by 26.",
+        "Equip: Restores 7 mana per 5 sec."
+      ],
+      "icon": "inv_shield_43.png",
+      "dropsFrom": [
+        {
+          "chance": 14.29,
+          "bossId": 2,
+          "npcId": 2
+        }
+      ],
+      "slots": [
+        "Off Hand"
+      ],
+      "types": [
+        "Shields"
+      ]
+    },
+    {
+      "id": 33354,
+      "name": "Wub's Cursed Hexblade",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Wub's Cursed Hexblade",
+        "Binds when picked up",
+        "Unique",
+        "Main Hand    Dagger",
+        "74 - 114 Damage    Speed 1.80",
+        "(52.2 damage per second)",
+        "+23 Stamina",
+        "+21 Intellect",
+        "Red Socket",
+        "Socket Bonus: +2 Spell Power",
+        "Requires Level 60",
+        "Equip: Improves hit rating by 16.",
+        "Equip: Improves critical strike rating by 11.",
+        "Equip: Increases spell power by 134.",
+        "Equip: Restores 13 mana per 5 sec."
+      ],
+      "icon": "inv_weapon_shortblade_64.png",
+      "dropsFrom": [
+        {
+          "chance": 14.29,
+          "bossId": 2,
+          "npcId": 2
+        }
+      ],
+      "slots": [
+        "Main Hand"
+      ],
+      "types": [
+        "Daggers"
+      ]
+    },
+    {
+      "id": 33356,
+      "name": "Helm of Natural Regeneration",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Helm of Natural Regeneration",
+        "Binds when picked up",
+        "Head    Leather",
+        "208 Armor",
+        "+26 Stamina",
+        "+28 Intellect",
+        "+21 Spirit",
+        "Meta Socket",
+        "Yellow Socket",
+        "Socket Bonus: +4 Spell Power",
+        "Requires Level 60",
+        "Equip: Increases spell power by 35.",
+        "Equip: Improves critical strike rating by 16."
+      ],
+      "icon": "inv_helmet_112.png",
+      "dropsFrom": [
+        {
+          "chance": 14.29,
+          "bossId": 2,
+          "npcId": 2
+        }
+      ],
+      "slots": [
+        "Head"
+      ],
+      "types": [
+        "Leather"
+      ]
+    },
+    {
+      "id": 33357,
+      "name": "Footpads of Madness",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Footpads of Madness",
+        "Binds when picked up",
+        "Feet    Cloth",
+        "76 Armor",
+        "+19 Stamina",
+        "+22 Intellect",
+        "Red Socket",
+        "Socket Bonus: +4 Haste Rating",
+        "Requires Level 60",
+        "Equip: Improves haste rating by 12.",
+        "Equip: Increases spell power by 29."
+      ],
+      "icon": "inv_boots_05.png",
+      "dropsFrom": [
+        {
+          "chance": 14.29,
+          "bossId": 2,
+          "npcId": 2
+        }
+      ],
+      "slots": [
+        "Feet"
+      ],
+      "types": [
+        "Cloth"
       ]
     },
     {
       "id": 33102,
-      "name": "Item #33102",
+      "name": "Blood of Zul'jin",
       "classes": [
         "Death Knight",
         "Druid",
@@ -2001,7 +2001,7 @@
       ],
       "quality": 4,
       "tooltip": [
-        "Item #33102"
+        "Blood of Zul'jin"
       ],
       "icon": "inv_potion_20.png",
       "dropsFrom": [
