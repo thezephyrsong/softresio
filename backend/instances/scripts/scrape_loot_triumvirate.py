@@ -10,7 +10,7 @@ from lua_loot_parser import parse_lua_loot_file, merge_tables
 from atlasloot_boss_map import get_boss_atlasloot_keys
 
 LUA_LOOT_TABLES = {}  # populated by load_lua_loot_tables() if the file is found
-ITEM_NAME_CACHE = {}  # item_id -> name fetched from wotlkdb.com (or None if not found)
+WOTLKDB_ITEM_CACHE = {}  # item_id -> {"name": str, "icon": str}
 
 ALL_CLASSES = [
     "Death Knight", "Druid", "Hunter", "Mage", "Paladin",
@@ -58,10 +58,6 @@ def load_items_db():
         sys.exit(1)
 
 def load_lua_loot_tables():
-    """Loads wrathofthelichking.lua (AtlasLoot data) if present alongside the
-    script. This gives us real per-difficulty (10/25) drop tables with actual
-    percentages, instead of relying on wotlkdb.com scrapes that don't
-    distinguish raid size."""
     global LUA_LOOT_TABLES
     lua_file = "wrathofthelichking.lua"
     if os.path.exists(lua_file):
@@ -76,11 +72,7 @@ def load_lua_loot_tables():
         print(f"Notice: {lua_file} not found - 10/25 man drop % split will rely on wotlkdb.com scraping only.\n")
         LUA_LOOT_TABLES = {}
 
-
 def get_lua_loot_for_boss(instance_shortname, boss_name):
-    """Returns a list of {item_id, percent} dicts for this boss/difficulty
-    from the AtlasLoot lua data, or None if not mapped (caller should fall
-    back to scraping wotlkdb.com for this boss)."""
     if not LUA_LOOT_TABLES:
         return None
     instance_prefix = re.sub(r'(10|25)$', '', instance_shortname)
@@ -89,7 +81,6 @@ def get_lua_loot_for_boss(instance_shortname, boss_name):
     if not keys:
         return None
     return merge_tables(LUA_LOOT_TABLES, keys)
-
 
 def extract_drops_from_html(text):
     drops = []
@@ -167,43 +158,68 @@ def format_icon(icon_name):
     clean_icon = icon_name.lower().strip()
     return clean_icon + ".png" if not clean_icon.endswith(".png") else clean_icon
 
-def fetch_item_name_from_wotlkdb(item_id):
-    """For items that don't exist in the local items.json (e.g. custom
-    Triumvirate-only items), grab just the display name from wotlkdb.com's
-    item page. Stats/tooltip still come from the local in-game scrape (or
-    the generic placeholder if we don't have them) since a custom server's
-    item stats can differ from the stock wotlkdb.com values - only the name
-    is usually safe to borrow."""
-    if item_id in ITEM_NAME_CACHE:
-        return ITEM_NAME_CACHE[item_id]
+def fetch_item_from_wotlkdb(item_id):
+    """
+    Primary fetcher for item metadata directly from wotlkdb.com.
+    Tries XML API endpoint first, falling back to HTML parsing.
+    """
+    if item_id in WOTLKDB_ITEM_CACHE:
+        return WOTLKDB_ITEM_CACHE[item_id]
 
-    name = None
+    data = {"name": None, "icon": None}
+
+    # Method 1: Query AoWoW XML API endpoint
     try:
-        res = requests.get(
-            f"https://wotlkdb.com/?item={item_id}",
-            headers=HTTP_HEADERS,
-            timeout=5,
-        )
-        if res.status_code == 200 and "Just a moment..." not in res.text:
-            title_m = re.search(r"<title>(.*?)</title>", res.text, re.DOTALL)
-            if title_m:
-                # Titles look like "Item Name - Item - Wrath of the Lich King"
-                candidate = title_m.group(1).split(" - ")[0].strip()
-                if candidate and candidate.lower() != "wotlk database 3.3.5a":
-                    name = candidate
+        xml_url = f"https://wotlkdb.com/?item={item_id}&xml"
+        res = requests.get(xml_url, headers=HTTP_HEADERS, timeout=5)
+        if res.status_code == 200 and "<wowhead>" in res.text:
+            name_m = re.search(r'<name><!\[CDATA\[(.*?)\]\]></name>', res.text) or re.search(r'<name>(.*?)</name>', res.text)
+            if name_m:
+                data["name"] = name_m.group(1).strip()
+
+            icon_m = re.search(r'<icon[^>]*>(.*?)</icon>', res.text, re.IGNORECASE)
+            if icon_m:
+                data["icon"] = icon_m.group(1).strip()
     except Exception:
         pass
 
-    ITEM_NAME_CACHE[item_id] = name
-    return name
+    # Method 2: HTML Page Fallback
+    if not data["name"] or not data["icon"]:
+        try:
+            html_url = f"https://wotlkdb.com/?item={item_id}"
+            res = requests.get(html_url, headers=HTTP_HEADERS, timeout=5)
+            if res.status_code == 200 and "Just a moment..." not in res.text:
+                if not data["name"]:
+                    title_m = re.search(r"<title>(.*?)</title>", res.text, re.DOTALL)
+                    if title_m:
+                        candidate = title_m.group(1).split(" - ")[0].strip()
+                        if candidate and candidate.lower() != "wotlk database 3.3.5a":
+                            data["name"] = candidate
 
+                if not data["icon"]:
+                    icon_m = re.search(r'["\']?icon["\']?\s*:\s*["\']([^"\']+)["\']', res.text)
+                    if icon_m:
+                        data["icon"] = icon_m.group(1).strip()
+        except Exception:
+            pass
+
+    WOTLKDB_ITEM_CACHE[item_id] = data
+    return data
 
 def get_item_info_local_only(item_id, icon_hint="inv_misc_questionmark"):
     item_id = int(item_id)
-    icon_formatted = format_icon(icon_hint)
+
+    # 1. Primary icon/name fetch from wotlkdb.com
+    wotlk_data = fetch_item_from_wotlkdb(item_id)
+    wotlk_icon = wotlk_data.get("icon")
 
     if item_id in ITEMS_DB:
         item = ITEMS_DB[item_id]
+
+        # Prioritize wotlkdb icon first -> local items.json -> icon_hint fallback
+        db_icon = item.get("icon") or item.get("iconName") or item.get("icon_name")
+        chosen_icon = wotlk_icon or db_icon or icon_hint
+        icon_formatted = format_icon(chosen_icon)
 
         raw_q = item.get("quality", 4)
         quality = QUALITY_MAP.get(raw_q, raw_q) if isinstance(raw_q, str) else raw_q
@@ -228,8 +244,9 @@ def get_item_info_local_only(item_id, icon_hint="inv_misc_questionmark"):
             "is_missing": False
         }
     else:
-        fetched_name = fetch_item_name_from_wotlkdb(item_id)
-        name = fetched_name or f"Item #{item_id}"
+        chosen_icon = wotlk_icon or icon_hint
+        icon_formatted = format_icon(chosen_icon)
+        name = wotlk_data.get("name") or f"Item #{item_id}"
         return {
             "name": name,
             "quality": 4,
@@ -276,7 +293,6 @@ def add_item_drop(instance_items_map, missing_items, item_id, chance, boss_id, n
         "bossId": boss_id,
         "npcId": npc_id
     })
-
 
 def extract_loot_instance(instance):
     instance_items_map = {}

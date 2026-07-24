@@ -5,439 +5,6 @@
   "name": "Zul'Aman",
   "items": [
     {
-      "id": 33297,
-      "name": "The Savage's Choker",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "The Savage's Choker",
-        "Binds when picked up",
-        "Neck",
-        "+19 Agility",
-        "+20 Stamina",
-        "Yellow Socket",
-        "Socket Bonus: +3 Agility",
-        "Requires Level 60",
-        "Equip: Improves haste rating by 15.",
-        "Equip: Increases attack power by 45."
-      ],
-      "icon": "inv_jewelry_necklace_19.png",
-      "dropsFrom": [
-        {
-          "chance": 14.29,
-          "bossId": 3,
-          "npcId": 3
-        }
-      ],
-      "slots": [
-        "Neck"
-      ],
-      "types": [
-        "Miscellaneous"
-      ]
-    },
-    {
-      "id": 33299,
-      "name": "Spaulders of the Advocate",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Spaulders of the Advocate",
-        "Binds when picked up",
-        "Shoulder    Plate",
-        "739 Armor",
-        "+26 Stamina",
-        "+29 Intellect",
-        "Yellow Socket",
-        "Socket Bonus: +3 Intellect",
-        "Requires Level 60",
-        "Equip: Improves critical strike rating by 14.",
-        "Equip: Increases spell power by 28.",
-        "Equip: Restores 6 mana per 5 sec."
-      ],
-      "icon": "inv_shoulder_84.png",
-      "dropsFrom": [
-        {
-          "chance": 14.29,
-          "bossId": 3,
-          "npcId": 3
-        }
-      ],
-      "slots": [
-        "Shoulders"
-      ],
-      "types": [
-        "Plate"
-      ]
-    },
-    {
-      "id": 33300,
-      "name": "Shoulderpads of Dancing Blades",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Shoulderpads of Dancing Blades",
-        "Binds when picked up",
-        "Shoulder    Leather",
-        "194 Armor",
-        "+27 Agility",
-        "+22 Stamina",
-        "Red Socket",
-        "Socket Bonus: +3 Agility",
-        "Requires Level 60",
-        "Equip: Improves hit rating by 15.",
-        "Equip: Increases attack power by 44."
-      ],
-      "icon": "inv_shoulder_24.png",
-      "dropsFrom": [
-        {
-          "chance": 14.29,
-          "bossId": 3,
-          "npcId": 3
-        }
-      ],
-      "slots": [
-        "Shoulders"
-      ],
-      "types": [
-        "Leather"
-      ]
-    },
-    {
-      "id": 33303,
-      "name": "Skullshatter Warboots",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Skullshatter Warboots",
-        "Binds when picked up",
-        "Feet    Plate",
-        "572 Armor",
-        "+24 Strength",
-        "+26 Stamina",
-        "Red Socket",
-        "Blue Socket",
-        "Socket Bonus: +3 Strength",
-        "Requires Level 60",
-        "Equip: Improves critical strike rating by 20.",
-        "Equip: Increases your armor penetration rating by 10."
-      ],
-      "icon": "inv_boots_plate_10.png",
-      "dropsFrom": [
-        {
-          "chance": 14.29,
-          "bossId": 3,
-          "npcId": 3
-        }
-      ],
-      "slots": [
-        "Feet"
-      ],
-      "types": [
-        "Plate"
-      ]
-    },
-    {
-      "id": 33317,
-      "name": "Robe of Departed Spirits",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Robe of Departed Spirits",
-        "Binds when picked up",
-        "Chest    Cloth",
-        "130 Armor",
-        "+26 Stamina",
-        "+30 Intellect",
-        "+21 Spirit",
-        "Yellow Socket",
-        "Blue Socket",
-        "Socket Bonus: +4 Spell Power",
-        "Requires Level 60",
-        "Equip: Improves haste rating by 14.",
-        "Equip: Increases spell power by 37."
-      ],
-      "icon": "inv_chest_cloth_18.png",
-      "dropsFrom": [
-        {
-          "chance": 14.29,
-          "bossId": 3,
-          "npcId": 3
-        }
-      ],
-      "slots": [
-        "Chest"
-      ],
-      "types": [
-        "Cloth"
-      ]
-    },
-    {
-      "id": 33322,
-      "name": "Shimmer-pelt Vest",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Shimmer-pelt Vest",
-        "Binds when picked up",
-        "Chest    Leather",
-        "258 Armor",
-        "+21 Stamina",
-        "+33 Intellect",
-        "+24 Spirit",
-        "Red Socket",
-        "Red Socket",
-        "Socket Bonus: +4 Spell Power",
-        "Requires Level 60",
-        "Equip: Increases spell power by 37.",
-        "Equip: Improves haste rating by 15.",
-        "Equip: Restores 14 mana per 5 sec."
-      ],
-      "icon": "inv_chest_leather_01.png",
-      "dropsFrom": [
-        {
-          "chance": 14.29,
-          "bossId": 3,
-          "npcId": 3
-        }
-      ],
-      "slots": [
-        "Chest"
-      ],
-      "types": [
-        "Leather"
-      ]
-    },
-    {
-      "id": 33533,
-      "name": "Avalanche Leggings",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Avalanche Leggings",
-        "Binds when picked up",
-        "Legs    Mail",
-        "487 Armor",
-        "+34 Stamina",
-        "+33 Intellect",
-        "Red Socket",
-        "Yellow Socket",
-        "Socket Bonus: +4 Spell Power",
-        "Requires Level 60",
-        "Equip: Improves critical strike rating by 16.",
-        "Equip: Increases spell power by 34."
-      ],
-      "icon": "inv_pants_mail_26.png",
-      "dropsFrom": [
-        {
-          "chance": 14.29,
-          "bossId": 3,
-          "npcId": 3
-        }
-      ],
-      "slots": [
-        "Legs"
-      ],
-      "types": [
-        "Mail"
-      ]
-    },
-    {
-      "id": 29434,
-      "name": "Badge of Justice",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Badge of Justice"
-      ],
-      "icon": "spell_holy_championsbond.png",
-      "dropsFrom": [
-        {
-          "chance": 100.0,
-          "bossId": 3,
-          "npcId": 3
-        },
-        {
-          "chance": 100.0,
-          "bossId": 1,
-          "npcId": 1
-        },
-        {
-          "chance": 100.0,
-          "bossId": 4,
-          "npcId": 4
-        },
-        {
-          "chance": 100.0,
-          "bossId": 0,
-          "npcId": 0
-        },
-        {
-          "chance": 100.0,
-          "bossId": 2,
-          "npcId": 2
-        },
-        {
-          "chance": 100.0,
-          "bossId": 5,
-          "npcId": 5
-        }
-      ],
-      "slots": [
-        "Unknown"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 33307,
-      "name": "Formula: Enchant Weapon",
-      "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": [
-        "Formula: Enchant Weapon"
-      ],
-      "icon": "inv_misc_note_01.png",
-      "dropsFrom": [
-        {
-          "chance": 5.0,
-          "bossId": 3,
-          "npcId": 3
-        },
-        {
-          "chance": 5.0,
-          "bossId": 1,
-          "npcId": 1
-        },
-        {
-          "chance": 5.0,
-          "bossId": 4,
-          "npcId": 4
-        },
-        {
-          "chance": 5.0,
-          "bossId": 0,
-          "npcId": 0
-        },
-        {
-          "chance": 5.0,
-          "bossId": 2,
-          "npcId": 2
-        },
-        {
-          "chance": 5.0,
-          "bossId": 5,
-          "npcId": 5
-        }
-      ],
-      "slots": [
-        "Unknown"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
       "id": 33214,
       "name": "Akil'zon's Talonblade",
       "classes": [
@@ -749,6 +316,124 @@
       ],
       "types": [
         "Miscellaneous"
+      ]
+    },
+    {
+      "id": 29434,
+      "name": "Badge of Justice",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Badge of Justice"
+      ],
+      "icon": "spell_holy_championsbond.png",
+      "dropsFrom": [
+        {
+          "chance": 100.0,
+          "bossId": 1,
+          "npcId": 1
+        },
+        {
+          "chance": 100.0,
+          "bossId": 4,
+          "npcId": 4
+        },
+        {
+          "chance": 100.0,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 100.0,
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 100.0,
+          "bossId": 3,
+          "npcId": 3
+        },
+        {
+          "chance": 100.0,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 33307,
+      "name": "Formula: Enchant Weapon",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Formula: Enchant Weapon"
+      ],
+      "icon": "inv_misc_note_01.png",
+      "dropsFrom": [
+        {
+          "chance": 5.0,
+          "bossId": 1,
+          "npcId": 1
+        },
+        {
+          "chance": 5.0,
+          "bossId": 4,
+          "npcId": 4
+        },
+        {
+          "chance": 5.0,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 5.0,
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 5.0,
+          "bossId": 3,
+          "npcId": 3
+        },
+        {
+          "chance": 5.0,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
       ]
     },
     {
@@ -1982,6 +1667,321 @@
       ],
       "types": [
         "Cloth"
+      ]
+    },
+    {
+      "id": 33297,
+      "name": "The Savage's Choker",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "The Savage's Choker",
+        "Binds when picked up",
+        "Neck",
+        "+19 Agility",
+        "+20 Stamina",
+        "Yellow Socket",
+        "Socket Bonus: +3 Agility",
+        "Requires Level 60",
+        "Equip: Improves haste rating by 15.",
+        "Equip: Increases attack power by 45."
+      ],
+      "icon": "inv_jewelry_necklace_19.png",
+      "dropsFrom": [
+        {
+          "chance": 14.29,
+          "bossId": 3,
+          "npcId": 3
+        }
+      ],
+      "slots": [
+        "Neck"
+      ],
+      "types": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "id": 33299,
+      "name": "Spaulders of the Advocate",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Spaulders of the Advocate",
+        "Binds when picked up",
+        "Shoulder    Plate",
+        "739 Armor",
+        "+26 Stamina",
+        "+29 Intellect",
+        "Yellow Socket",
+        "Socket Bonus: +3 Intellect",
+        "Requires Level 60",
+        "Equip: Improves critical strike rating by 14.",
+        "Equip: Increases spell power by 28.",
+        "Equip: Restores 6 mana per 5 sec."
+      ],
+      "icon": "inv_shoulder_84.png",
+      "dropsFrom": [
+        {
+          "chance": 14.29,
+          "bossId": 3,
+          "npcId": 3
+        }
+      ],
+      "slots": [
+        "Shoulders"
+      ],
+      "types": [
+        "Plate"
+      ]
+    },
+    {
+      "id": 33300,
+      "name": "Shoulderpads of Dancing Blades",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Shoulderpads of Dancing Blades",
+        "Binds when picked up",
+        "Shoulder    Leather",
+        "194 Armor",
+        "+27 Agility",
+        "+22 Stamina",
+        "Red Socket",
+        "Socket Bonus: +3 Agility",
+        "Requires Level 60",
+        "Equip: Improves hit rating by 15.",
+        "Equip: Increases attack power by 44."
+      ],
+      "icon": "inv_shoulder_24.png",
+      "dropsFrom": [
+        {
+          "chance": 14.29,
+          "bossId": 3,
+          "npcId": 3
+        }
+      ],
+      "slots": [
+        "Shoulders"
+      ],
+      "types": [
+        "Leather"
+      ]
+    },
+    {
+      "id": 33303,
+      "name": "Skullshatter Warboots",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Skullshatter Warboots",
+        "Binds when picked up",
+        "Feet    Plate",
+        "572 Armor",
+        "+24 Strength",
+        "+26 Stamina",
+        "Red Socket",
+        "Blue Socket",
+        "Socket Bonus: +3 Strength",
+        "Requires Level 60",
+        "Equip: Improves critical strike rating by 20.",
+        "Equip: Increases your armor penetration rating by 10."
+      ],
+      "icon": "inv_boots_plate_10.png",
+      "dropsFrom": [
+        {
+          "chance": 14.29,
+          "bossId": 3,
+          "npcId": 3
+        }
+      ],
+      "slots": [
+        "Feet"
+      ],
+      "types": [
+        "Plate"
+      ]
+    },
+    {
+      "id": 33317,
+      "name": "Robe of Departed Spirits",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Robe of Departed Spirits",
+        "Binds when picked up",
+        "Chest    Cloth",
+        "130 Armor",
+        "+26 Stamina",
+        "+30 Intellect",
+        "+21 Spirit",
+        "Yellow Socket",
+        "Blue Socket",
+        "Socket Bonus: +4 Spell Power",
+        "Requires Level 60",
+        "Equip: Improves haste rating by 14.",
+        "Equip: Increases spell power by 37."
+      ],
+      "icon": "inv_chest_cloth_18.png",
+      "dropsFrom": [
+        {
+          "chance": 14.29,
+          "bossId": 3,
+          "npcId": 3
+        }
+      ],
+      "slots": [
+        "Chest"
+      ],
+      "types": [
+        "Cloth"
+      ]
+    },
+    {
+      "id": 33322,
+      "name": "Shimmer-pelt Vest",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Shimmer-pelt Vest",
+        "Binds when picked up",
+        "Chest    Leather",
+        "258 Armor",
+        "+21 Stamina",
+        "+33 Intellect",
+        "+24 Spirit",
+        "Red Socket",
+        "Red Socket",
+        "Socket Bonus: +4 Spell Power",
+        "Requires Level 60",
+        "Equip: Increases spell power by 37.",
+        "Equip: Improves haste rating by 15.",
+        "Equip: Restores 14 mana per 5 sec."
+      ],
+      "icon": "inv_chest_leather_01.png",
+      "dropsFrom": [
+        {
+          "chance": 14.29,
+          "bossId": 3,
+          "npcId": 3
+        }
+      ],
+      "slots": [
+        "Chest"
+      ],
+      "types": [
+        "Leather"
+      ]
+    },
+    {
+      "id": 33533,
+      "name": "Avalanche Leggings",
+      "classes": [
+        "Death Knight",
+        "Druid",
+        "Hunter",
+        "Mage",
+        "Paladin",
+        "Priest",
+        "Rogue",
+        "Shaman",
+        "Warlock",
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": [
+        "Avalanche Leggings",
+        "Binds when picked up",
+        "Legs    Mail",
+        "487 Armor",
+        "+34 Stamina",
+        "+33 Intellect",
+        "Red Socket",
+        "Yellow Socket",
+        "Socket Bonus: +4 Spell Power",
+        "Requires Level 60",
+        "Equip: Improves critical strike rating by 16.",
+        "Equip: Increases spell power by 34."
+      ],
+      "icon": "inv_pants_mail_26.png",
+      "dropsFrom": [
+        {
+          "chance": 14.29,
+          "bossId": 3,
+          "npcId": 3
+        }
+      ],
+      "slots": [
+        "Legs"
+      ],
+      "types": [
+        "Mail"
       ]
     },
     {
