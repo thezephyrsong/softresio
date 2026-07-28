@@ -8,31 +8,20 @@
       "id": 40437,
       "name": "Concealment Shoulderpads",
       "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
+        "Warrior",
         "Paladin",
-        "Priest",
+        "Hunter",
         "Rogue",
+        "Priest",
+        "Death Knight",
         "Shaman",
+        "Mage",
         "Warlock",
-        "Warrior"
+        "Druid"
       ],
       "quality": 4,
-      "tooltip": [
-        "Concealment Shoulderpads",
-        "Binds when picked up",
-        "Shoulder    Leather",
-        "189 Armor",
-        "+19 Agility",
-        "+28 Stamina",
-        "Requires Level 60",
-        "Equip: Increases your expertise rating by 14.",
-        "Equip: Increases attack power by 36.",
-        "Equip: Increases your armor penetration rating by 15."
-      ],
-      "icon": "inv_misc_questionmark.jpg",
+      "tooltip": "<table><tr><td><b class=\"q4\">Concealment Shoulderpads</b><br /><table width=\"100%\"><tr><td>Shoulder</td><th></th></tr></table>Item Level 105<br />+19 Agility<br />+28 Stamina<br />+14 Expertise Rating<br />+36 Attack Power<br />+15 Armor Penetration<br />Requires Level 60<br /></td></tr></table>",
+      "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
           "chance": 16.0,
@@ -41,41 +30,30 @@
         }
       ],
       "slots": [
-        "Shoulders"
+        "Shoulder"
       ],
       "types": [
-        "Leather"
+        "Unknown"
       ]
     },
     {
       "id": 40439,
       "name": "Mantle of the Eternal Sentinel",
       "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
+        "Warrior",
         "Paladin",
-        "Priest",
+        "Hunter",
         "Rogue",
+        "Priest",
+        "Death Knight",
         "Shaman",
+        "Mage",
         "Warlock",
-        "Warrior"
+        "Druid"
       ],
       "quality": 4,
-      "tooltip": [
-        "Mantle of the Eternal Sentinel",
-        "Binds when equipped",
-        "Shoulder    Leather",
-        "189 Armor",
-        "+16 Stamina",
-        "+20 Intellect",
-        "Requires Level 60",
-        "Equip: Improves critical strike rating by 17.",
-        "Equip: Improves haste rating by 11.",
-        "Equip: Increases spell power by 29."
-      ],
-      "icon": "inv_misc_questionmark.jpg",
+      "tooltip": "<table><tr><td><b class=\"q4\">Mantle of the Eternal Sentinel</b><br /><table width=\"100%\"><tr><td>Shoulder</td><th></th></tr></table>Item Level 105<br />+16 Stamina<br />+20 Intellect<br />+17 Crit Rating<br />+11 Haste Rating<br />+29 Spell Power<br />Requires Level 60<br /></td></tr></table>",
+      "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
           "chance": 19.0,
@@ -84,45 +62,30 @@
         }
       ],
       "slots": [
-        "Shoulders"
+        "Shoulder"
       ],
       "types": [
-        "Leather"
+        "Unknown"
       ]
     },
     {
       "id": 40451,
       "name": "Hyaline Helm of the Sniper",
       "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
+        "Warrior",
         "Paladin",
-        "Priest",
+        "Hunter",
         "Rogue",
+        "Priest",
+        "Death Knight",
         "Shaman",
+        "Mage",
         "Warlock",
-        "Warrior"
+        "Druid"
       ],
       "quality": 4,
-      "tooltip": [
-        "Hyaline Helm of the Sniper",
-        "Binds when picked up",
-        "Head    Mail",
-        "439 Armor",
-        "+28 Agility",
-        "+29 Stamina",
-        "+19 Intellect",
-        "Meta Socket",
-        "Blue Socket",
-        "Socket Bonus: +5 Agility",
-        "Requires Level 60",
-        "Equip: Improves haste rating by 15.",
-        "Equip: Improves hit rating by 14.",
-        "Equip: Increases attack power by 38."
-      ],
-      "icon": "inv_misc_questionmark.jpg",
+      "tooltip": "<table><tr><td><b class=\"q4\">Hyaline Helm of the Sniper</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>Item Level 105<br />+28 Agility<br />+29 Stamina<br />+19 Intellect<br />+15 Haste Rating<br />+14 Hit Rating<br />+38 Attack Power<br />Requires Level 60<br /></td></tr></table>",
+      "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
           "chance": 16.0,
@@ -134,37 +97,27 @@
         "Head"
       ],
       "types": [
-        "Mail"
+        "Unknown"
       ]
     },
     {
       "id": 40438,
       "name": "Council Chamber Epaulets",
       "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
+        "Warrior",
         "Paladin",
-        "Priest",
+        "Hunter",
         "Rogue",
+        "Priest",
+        "Death Knight",
         "Shaman",
+        "Mage",
         "Warlock",
-        "Warrior"
+        "Druid"
       ],
       "quality": 4,
-      "tooltip": [
-        "Council Chamber Epaulets",
-        "Binds when picked up",
-        "Shoulder    Mail",
-        "413 Armor",
-        "+23 Stamina",
-        "+18 Intellect",
-        "Requires Level 60",
-        "Equip: Improves haste rating by 13.",
-        "Equip: Increases spell power by 32."
-      ],
-      "icon": "inv_misc_questionmark.jpg",
+      "tooltip": "<table><tr><td><b class=\"q4\">Council Chamber Epaulets</b><br /><table width=\"100%\"><tr><td>Shoulder</td><th></th></tr></table>Item Level 105<br />+23 Stamina<br />+18 Intellect<br />+13 Haste Rating<br />+32 Spell Power<br />Requires Level 60<br /></td></tr></table>",
+      "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
           "chance": 19.0,
@@ -173,43 +126,30 @@
         }
       ],
       "slots": [
-        "Shoulders"
+        "Shoulder"
       ],
       "types": [
-        "Mail"
+        "Unknown"
       ]
     },
     {
       "id": 40453,
       "name": "Chestplate of the Great Aspects",
       "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
+        "Warrior",
         "Paladin",
-        "Priest",
+        "Hunter",
         "Rogue",
+        "Priest",
+        "Death Knight",
         "Shaman",
+        "Mage",
         "Warlock",
-        "Warrior"
+        "Druid"
       ],
       "quality": 4,
-      "tooltip": [
-        "Chestplate of the Great Aspects",
-        "Binds when picked up",
-        "Chest    Plate",
-        "917 Armor",
-        "+25 Stamina",
-        "+26 Intellect",
-        "Yellow Socket",
-        "Socket Bonus: +2 Intellect",
-        "Requires Level 60",
-        "Equip: Improves critical strike rating by 13.",
-        "Equip: Increases spell power by 36.",
-        "Equip: Improves haste rating by 11."
-      ],
-      "icon": "inv_misc_questionmark.jpg",
+      "tooltip": "<table><tr><td><b class=\"q4\">Chestplate of the Great Aspects</b><br /><table width=\"100%\"><tr><td>Chest</td><th></th></tr></table>Item Level 105<br />+25 Stamina<br />+26 Intellect<br />+13 Crit Rating<br />+36 Spell Power<br />+11 Haste Rating<br />Requires Level 60<br /></td></tr></table>",
+      "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
           "chance": 17.0,
@@ -221,38 +161,27 @@
         "Chest"
       ],
       "types": [
-        "Plate"
+        "Unknown"
       ]
     },
     {
       "id": 40446,
       "name": "Dragon Brood Legguards",
       "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
+        "Warrior",
         "Paladin",
-        "Priest",
+        "Hunter",
         "Rogue",
+        "Priest",
+        "Death Knight",
         "Shaman",
+        "Mage",
         "Warlock",
-        "Warrior"
+        "Druid"
       ],
       "quality": 4,
-      "tooltip": [
-        "Dragon Brood Legguards",
-        "Binds when picked up",
-        "Legs    Plate",
-        "844 Armor",
-        "+22 Strength",
-        "+34 Stamina",
-        "Requires Level 60",
-        "Equip: Increases defense rating by 16.",
-        "Equip: Improves hit rating by 15.",
-        "Equip: Increases your dodge rating by 19."
-      ],
-      "icon": "inv_misc_questionmark.jpg",
+      "tooltip": "<table><tr><td><b class=\"q4\">Dragon Brood Legguards</b><br /><table width=\"100%\"><tr><td>Legs</td><th></th></tr></table>Item Level 105<br />+22 Strength<br />+34 Stamina<br />+16 Defense Rating<br />+15 Hit Rating<br />+19 Dodge Rating<br />Requires Level 60<br /></td></tr></table>",
+      "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
           "chance": 17.0,
@@ -264,38 +193,27 @@
         "Legs"
       ],
       "types": [
-        "Plate"
+        "Unknown"
       ]
     },
     {
       "id": 40433,
       "name": "Wyrmrest Band",
       "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
+        "Warrior",
         "Paladin",
-        "Priest",
+        "Hunter",
         "Rogue",
+        "Priest",
+        "Death Knight",
         "Shaman",
+        "Mage",
         "Warlock",
-        "Warrior"
+        "Druid"
       ],
       "quality": 4,
-      "tooltip": [
-        "Wyrmrest Band",
-        "Binds when picked up",
-        "Unique-Equipped",
-        "Finger",
-        "+15 Stamina",
-        "+14 Intellect",
-        "Requires Level 60",
-        "Equip: Improves haste rating by 11.",
-        "Equip: Increases spell power by 26.",
-        "Equip: Restores 11 mana per 5 sec."
-      ],
-      "icon": "inv_misc_questionmark.jpg",
+      "tooltip": "<table><tr><td><b class=\"q4\">Wyrmrest Band</b><br /><table width=\"100%\"><tr><td>Finger</td><th></th></tr></table>Item Level 103<br />+14 Intellect<br />+15 Stamina<br />+11 Haste Rating<br />+26 Spell Power<br />+11 Mana Regen (MP5)<br />Requires Level 60<br /></td></tr></table>",
+      "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
           "chance": 7.0,
@@ -307,29 +225,27 @@
         "Finger"
       ],
       "types": [
-        "Miscellaneous"
+        "Unknown"
       ]
     },
     {
       "id": 40431,
       "name": "Fury of the Five Flights",
       "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
+        "Warrior",
         "Paladin",
-        "Priest",
+        "Hunter",
         "Rogue",
+        "Priest",
+        "Death Knight",
         "Shaman",
+        "Mage",
         "Warlock",
-        "Warrior"
+        "Druid"
       ],
       "quality": 4,
-      "tooltip": [
-        "Fury of the Five Flights"
-      ],
-      "icon": "inv_misc_questionmark.jpg",
+      "tooltip": "<table><tr><td><b class=\"q4\">Fury of the Five Flights</b><br /><table width=\"100%\"><tr><td>Trinket</td><th></th></tr></table>Item Level 105<br />Requires Level 60<br /></td></tr></table>",
+      "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
           "chance": 17.0,
@@ -338,7 +254,7 @@
         }
       ],
       "slots": [
-        "Unknown"
+        "Trinket"
       ],
       "types": [
         "Unknown"
@@ -348,22 +264,20 @@
       "id": 40432,
       "name": "Illustration of the Dragon Soul",
       "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
+        "Warrior",
         "Paladin",
-        "Priest",
+        "Hunter",
         "Rogue",
+        "Priest",
+        "Death Knight",
         "Shaman",
+        "Mage",
         "Warlock",
-        "Warrior"
+        "Druid"
       ],
       "quality": 4,
-      "tooltip": [
-        "Illustration of the Dragon Soul"
-      ],
-      "icon": "inv_misc_questionmark.jpg",
+      "tooltip": "<table><tr><td><b class=\"q4\">Illustration of the Dragon Soul</b><br /><table width=\"100%\"><tr><td>Trinket</td><th></th></tr></table>Item Level 105<br />Requires Level 60<br /></td></tr></table>",
+      "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
           "chance": 19.0,
@@ -372,7 +286,7 @@
         }
       ],
       "slots": [
-        "Unknown"
+        "Trinket"
       ],
       "types": [
         "Unknown"
@@ -382,32 +296,20 @@
       "id": 40455,
       "name": "Staff of Restraint",
       "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
+        "Warrior",
         "Paladin",
-        "Priest",
+        "Hunter",
         "Rogue",
+        "Priest",
+        "Death Knight",
         "Shaman",
+        "Mage",
         "Warlock",
-        "Warrior"
+        "Druid"
       ],
       "quality": 4,
-      "tooltip": [
-        "Staff of Restraint",
-        "Binds when picked up",
-        "Two-Hand    Staff",
-        "164 - 260 Damage    Speed 3.20",
-        "(66.2 damage per second)",
-        "+21 Stamina",
-        "+29 Intellect",
-        "+22 Spirit",
-        "Requires Level 60",
-        "Equip: Improves critical strike rating by 17.",
-        "Equip: Increases spell power by 140."
-      ],
-      "icon": "inv_misc_questionmark.jpg",
+      "tooltip": "<table><tr><td><b class=\"q4\">Staff of Restraint</b><br /><table width=\"100%\"><tr><td>Two-Hand</td><th></th></tr></table>Item Level 105<br />+21 Stamina<br />+29 Intellect<br />+22 Spirit<br />+17 Crit Rating<br />+140 Spell Power<br />Requires Level 60<br /></td></tr></table>",
+      "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
           "chance": 19.0,
@@ -416,32 +318,30 @@
         }
       ],
       "slots": [
-        "Main Hand"
+        "Two-Hand"
       ],
       "types": [
-        "Staves"
+        "Unknown"
       ]
     },
     {
       "id": 43345,
       "name": "Dragon Hide Bag",
       "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
+        "Warrior",
         "Paladin",
-        "Priest",
+        "Hunter",
         "Rogue",
+        "Priest",
+        "Death Knight",
         "Shaman",
+        "Mage",
         "Warlock",
-        "Warrior"
+        "Druid"
       ],
       "quality": 4,
-      "tooltip": [
-        "Dragon Hide Bag"
-      ],
-      "icon": "inv_misc_questionmark.jpg",
+      "tooltip": "<table><tr><td><b class=\"q4\">Dragon Hide Bag</b><br /><table width=\"100%\"><tr><td>Bag</td><th></th></tr></table>Item Level 60<br /></td></tr></table>",
+      "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
           "chance": 100.0,
@@ -450,7 +350,7 @@
         }
       ],
       "slots": [
-        "Unknown"
+        "Bag"
       ],
       "types": [
         "Unknown"
@@ -460,22 +360,20 @@
       "id": 43346,
       "name": "Large Satchel of Spoils",
       "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
+        "Warrior",
         "Paladin",
-        "Priest",
+        "Hunter",
         "Rogue",
+        "Priest",
+        "Death Knight",
         "Shaman",
+        "Mage",
         "Warlock",
-        "Warrior"
+        "Druid"
       ],
       "quality": 4,
-      "tooltip": [
-        "Large Satchel of Spoils"
-      ],
-      "icon": "inv_misc_questionmark.jpg",
+      "tooltip": "<table><tr><td><b class=\"q4\">Large Satchel of Spoils</b><br /></td></tr></table>",
+      "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
           "chance": 100.0,
@@ -484,7 +382,7 @@
         }
       ],
       "slots": [
-        "Unknown"
+        "Non-equippable"
       ],
       "types": [
         "Unknown"
@@ -494,22 +392,13 @@
       "id": 40628,
       "name": "Gauntlets of the Lost Conqueror",
       "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
         "Paladin",
         "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
+        "Warlock"
       ],
       "quality": 4,
-      "tooltip": [
-        "Gauntlets of the Lost Conqueror"
-      ],
-      "icon": "inv_misc_questionmark.jpg",
+      "tooltip": "<table><tr><td><b class=\"q4\">Gauntlets of the Lost Conqueror</b><br />Item Level 60<br />Requires Level 60<br /></td></tr></table>",
+      "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
           "chance": 51.0,
@@ -518,7 +407,7 @@
         }
       ],
       "slots": [
-        "Unknown"
+        "Non-equippable"
       ],
       "types": [
         "Unknown"
@@ -528,22 +417,13 @@
       "id": 40629,
       "name": "Gauntlets of the Lost Protector",
       "classes": [
-        "Death Knight",
-        "Druid",
+        "Warrior",
         "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
-        "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
+        "Shaman"
       ],
       "quality": 4,
-      "tooltip": [
-        "Gauntlets of the Lost Protector"
-      ],
-      "icon": "inv_misc_questionmark.jpg",
+      "tooltip": "<table><tr><td><b class=\"q4\">Gauntlets of the Lost Protector</b><br />Item Level 60<br />Requires Level 60<br /></td></tr></table>",
+      "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
           "chance": 53.0,
@@ -552,7 +432,7 @@
         }
       ],
       "slots": [
-        "Unknown"
+        "Non-equippable"
       ],
       "types": [
         "Unknown"
@@ -562,22 +442,14 @@
       "id": 40630,
       "name": "Gauntlets of the Lost Vanquisher",
       "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
-        "Paladin",
-        "Priest",
         "Rogue",
-        "Shaman",
-        "Warlock",
-        "Warrior"
+        "Death Knight",
+        "Mage",
+        "Druid"
       ],
       "quality": 4,
-      "tooltip": [
-        "Gauntlets of the Lost Vanquisher"
-      ],
-      "icon": "inv_misc_questionmark.jpg",
+      "tooltip": "<table><tr><td><b class=\"q4\">Gauntlets of the Lost Vanquisher</b><br />Item Level 60<br />Requires Level 60<br /></td></tr></table>",
+      "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
           "chance": 67.0,
@@ -586,7 +458,7 @@
         }
       ],
       "slots": [
-        "Unknown"
+        "Non-equippable"
       ],
       "types": [
         "Unknown"
@@ -596,33 +468,20 @@
       "id": 44002,
       "name": "The Sanctum's Flowing Vestments",
       "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
+        "Warrior",
         "Paladin",
-        "Priest",
+        "Hunter",
         "Rogue",
+        "Priest",
+        "Death Knight",
         "Shaman",
+        "Mage",
         "Warlock",
-        "Warrior"
+        "Druid"
       ],
       "quality": 4,
-      "tooltip": [
-        "The Sanctum's Flowing Vestments",
-        "Binds when picked up",
-        "Chest    Cloth",
-        "127 Armor",
-        "+27 Stamina",
-        "+28 Intellect",
-        "+18 Spirit",
-        "Red Socket",
-        "Socket Bonus: +2 Intellect",
-        "Requires Level 60",
-        "Equip: Increases spell power by 35.",
-        "Equip: Improves haste rating by 15."
-      ],
-      "icon": "inv_misc_questionmark.jpg",
+      "tooltip": "<table><tr><td><b class=\"q4\">The Sanctum's Flowing Vestments</b><br /><table width=\"100%\"><tr><td>Robe</td><th></th></tr></table>Item Level 105<br />+35 Spell Power<br />+27 Stamina<br />+28 Intellect<br />+18 Spirit<br />+15 Haste Rating<br />Requires Level 60<br /></td></tr></table>",
+      "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
           "chance": 7.0,
@@ -631,44 +490,30 @@
         }
       ],
       "slots": [
-        "Chest"
+        "Robe"
       ],
       "types": [
-        "Cloth"
+        "Unknown"
       ]
     },
     {
       "id": 44003,
       "name": "Upstanding Spaulders",
       "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
+        "Warrior",
         "Paladin",
-        "Priest",
+        "Hunter",
         "Rogue",
+        "Priest",
+        "Death Knight",
         "Shaman",
+        "Mage",
         "Warlock",
-        "Warrior"
+        "Druid"
       ],
       "quality": 4,
-      "tooltip": [
-        "Upstanding Spaulders",
-        "Binds when picked up",
-        "Shoulder    Mail",
-        "406 Armor",
-        "+18 Agility",
-        "+22 Stamina",
-        "+12 Intellect",
-        "Blue Socket",
-        "Socket Bonus: +2 Attack Power",
-        "Requires Level 60",
-        "Equip: Increases attack power by 29.",
-        "Equip: Improves critical strike rating by 12.",
-        "Equip: Improves haste rating by 11."
-      ],
-      "icon": "inv_misc_questionmark.jpg",
+      "tooltip": "<table><tr><td><b class=\"q4\">Upstanding Spaulders</b><br /><table width=\"100%\"><tr><td>Shoulder</td><th></th></tr></table>Item Level 105<br />+29 Attack Power<br />+18 Agility<br />+22 Stamina<br />+12 Intellect<br />+12 Crit Rating<br />+11 Haste Rating<br />Requires Level 60<br /></td></tr></table>",
+      "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
           "chance": 7.0,
@@ -677,43 +522,30 @@
         }
       ],
       "slots": [
-        "Shoulders"
+        "Shoulder"
       ],
       "types": [
-        "Mail"
+        "Unknown"
       ]
     },
     {
       "id": 44004,
       "name": "Bountiful Gauntlets",
       "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
+        "Warrior",
         "Paladin",
-        "Priest",
+        "Hunter",
         "Rogue",
+        "Priest",
+        "Death Knight",
         "Shaman",
+        "Mage",
         "Warlock",
-        "Warrior"
+        "Druid"
       ],
       "quality": 4,
-      "tooltip": [
-        "Bountiful Gauntlets",
-        "Binds when picked up",
-        "Hands    Mail",
-        "337 Armor",
-        "+23 Stamina",
-        "+19 Intellect",
-        "Yellow Socket",
-        "Socket Bonus: +2 Intellect",
-        "Requires Level 60",
-        "Equip: Increases spell power by 28.",
-        "Equip: Improves critical strike rating by 11.",
-        "Equip: Restores 9 mana per 5 sec."
-      ],
-      "icon": "inv_misc_questionmark.jpg",
+      "tooltip": "<table><tr><td><b class=\"q4\">Bountiful Gauntlets</b><br /><table width=\"100%\"><tr><td>Hands</td><th></th></tr></table>Item Level 105<br />+28 Spell Power<br />+23 Stamina<br />+19 Intellect<br />+11 Crit Rating<br />+9 Mana Regen (MP5)<br />Requires Level 60<br /></td></tr></table>",
+      "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
           "chance": 6.0,
@@ -725,40 +557,27 @@
         "Hands"
       ],
       "types": [
-        "Mail"
+        "Unknown"
       ]
     },
     {
       "id": 44000,
       "name": "Dragonstorm Breastplate",
       "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
+        "Warrior",
         "Paladin",
-        "Priest",
+        "Hunter",
         "Rogue",
+        "Priest",
+        "Death Knight",
         "Shaman",
+        "Mage",
         "Warlock",
-        "Warrior"
+        "Druid"
       ],
       "quality": 4,
-      "tooltip": [
-        "Dragonstorm Breastplate",
-        "Binds when picked up",
-        "Chest    Plate",
-        "978 Armor",
-        "+33 Strength",
-        "+44 Stamina",
-        "Red Socket",
-        "Socket Bonus: +3 Stamina",
-        "Requires Level 60",
-        "Equip: Increases defense rating by 16.",
-        "Equip: Increases your parry rating by 21.",
-        "Equip: Increases your dodge rating by 13."
-      ],
-      "icon": "inv_misc_questionmark.jpg",
+      "tooltip": "<table><tr><td><b class=\"q4\">Dragonstorm Breastplate</b><br /><table width=\"100%\"><tr><td>Chest</td><th></th></tr></table>Item Level 105<br />+33 Strength<br />+44 Stamina<br />+16 Defense Rating<br />+21 Parry Rating<br />+13 Dodge Rating<br />Requires Level 60<br /></td></tr></table>",
+      "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
           "chance": 6.0,
@@ -770,29 +589,27 @@
         "Chest"
       ],
       "types": [
-        "Plate"
+        "Unknown"
       ]
     },
     {
       "id": 44005,
       "name": "Pennant Cloak",
       "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
+        "Warrior",
         "Paladin",
-        "Priest",
+        "Hunter",
         "Rogue",
+        "Priest",
+        "Death Knight",
         "Shaman",
+        "Mage",
         "Warlock",
-        "Warrior"
+        "Druid"
       ],
       "quality": 4,
-      "tooltip": [
-        "Pennant Cloak"
-      ],
-      "icon": "inv_misc_questionmark.jpg",
+      "tooltip": "<table><tr><td><b class=\"q4\">Pennant Cloak</b><br /><table width=\"100%\"><tr><td>Back</td><th></th></tr></table>Item Level 105<br />+23 Spell Power<br />+19 Stamina<br />+16 Intellect<br />+12 Crit Rating<br />+15 Haste Rating<br />Requires Level 60<br /></td></tr></table>",
+      "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
           "chance": 3.0,
@@ -801,7 +618,7 @@
         }
       ],
       "slots": [
-        "Unknown"
+        "Back"
       ],
       "types": [
         "Unknown"
@@ -811,33 +628,20 @@
       "id": 44008,
       "name": "Unsullied Cuffs",
       "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
+        "Warrior",
         "Paladin",
-        "Priest",
+        "Hunter",
         "Rogue",
+        "Priest",
+        "Death Knight",
         "Shaman",
+        "Mage",
         "Warlock",
-        "Warrior"
+        "Druid"
       ],
       "quality": 4,
-      "tooltip": [
-        "Unsullied Cuffs",
-        "Binds when picked up",
-        "Wrist    Cloth",
-        "48 Armor",
-        "+19 Stamina",
-        "+16 Intellect",
-        "+15 Spirit",
-        "Red Socket",
-        "Socket Bonus: +2 Spell Power",
-        "Requires Level 60",
-        "Equip: Increases spell power by 23.",
-        "Equip: Improves haste rating by 12."
-      ],
-      "icon": "inv_misc_questionmark.jpg",
+      "tooltip": "<table><tr><td><b class=\"q4\">Unsullied Cuffs</b><br /><table width=\"100%\"><tr><td>Wrist</td><th></th></tr></table>Item Level 105<br />+23 Spell Power<br />+19 Stamina<br />+16 Intellect<br />+15 Spirit<br />+12 Haste Rating<br />Requires Level 60<br /></td></tr></table>",
+      "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
           "chance": 3.0,
@@ -846,44 +650,30 @@
         }
       ],
       "slots": [
-        "Wrists"
+        "Wrist"
       ],
       "types": [
-        "Cloth"
+        "Unknown"
       ]
     },
     {
       "id": 44007,
       "name": "Headpiece of Reconciliation",
       "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
+        "Warrior",
         "Paladin",
-        "Priest",
+        "Hunter",
         "Rogue",
+        "Priest",
+        "Death Knight",
         "Shaman",
+        "Mage",
         "Warlock",
-        "Warrior"
+        "Druid"
       ],
       "quality": 4,
-      "tooltip": [
-        "Headpiece of Reconciliation",
-        "Binds when picked up",
-        "Head    Leather",
-        "203 Armor",
-        "+21 Stamina",
-        "+24 Intellect",
-        "+21 Spirit",
-        "Meta Socket",
-        "Yellow Socket",
-        "Socket Bonus: +2 Spell Power",
-        "Requires Level 60",
-        "Equip: Improves haste rating by 11.",
-        "Equip: Increases spell power by 32."
-      ],
-      "icon": "inv_misc_questionmark.jpg",
+      "tooltip": "<table><tr><td><b class=\"q4\">Headpiece of Reconciliation</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>Item Level 105<br />+21 Stamina<br />+24 Intellect<br />+21 Spirit<br />+11 Haste Rating<br />+32 Spell Power<br />Requires Level 60<br /></td></tr></table>",
+      "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
           "chance": 3.0,
@@ -895,40 +685,27 @@
         "Head"
       ],
       "types": [
-        "Leather"
+        "Unknown"
       ]
     },
     {
       "id": 44011,
       "name": "Leggings of the Honored",
       "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
+        "Warrior",
         "Paladin",
-        "Priest",
+        "Hunter",
         "Rogue",
+        "Priest",
+        "Death Knight",
         "Shaman",
+        "Mage",
         "Warlock",
-        "Warrior"
+        "Druid"
       ],
       "quality": 4,
-      "tooltip": [
-        "Leggings of the Honored",
-        "Binds when picked up",
-        "Legs    Leather",
-        "218 Armor",
-        "+27 Agility",
-        "+28 Stamina",
-        "Red Socket",
-        "Socket Bonus: +2 Agility",
-        "Requires Level 60",
-        "Equip: Increases attack power by 42.",
-        "Equip: Improves hit rating by 18.",
-        "Equip: Improves haste rating by 14."
-      ],
-      "icon": "inv_misc_questionmark.jpg",
+      "tooltip": "<table><tr><td><b class=\"q4\">Leggings of the Honored</b><br /><table width=\"100%\"><tr><td>Legs</td><th></th></tr></table>Item Level 105<br />+42 Attack Power<br />+27 Agility<br />+28 Stamina<br />+18 Hit Rating<br />+14 Haste Rating<br />Requires Level 60<br /></td></tr></table>",
+      "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
           "chance": 3.0,
@@ -940,40 +717,27 @@
         "Legs"
       ],
       "types": [
-        "Leather"
+        "Unknown"
       ]
     },
     {
       "id": 44006,
       "name": "Obsidian Greathelm",
       "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
+        "Warrior",
         "Paladin",
-        "Priest",
+        "Hunter",
         "Rogue",
+        "Priest",
+        "Death Knight",
         "Shaman",
+        "Mage",
         "Warlock",
-        "Warrior"
+        "Druid"
       ],
       "quality": 4,
-      "tooltip": [
-        "Obsidian Greathelm",
-        "Binds when picked up",
-        "Head    Plate",
-        "786 Armor",
-        "+33 Strength",
-        "+27 Stamina",
-        "Meta Socket",
-        "Red Socket",
-        "Socket Bonus: +3 Strength",
-        "Requires Level 60",
-        "Equip: Improves critical strike rating by 20.",
-        "Equip: Increases your expertise rating by 16."
-      ],
-      "icon": "inv_misc_questionmark.jpg",
+      "tooltip": "<table><tr><td><b class=\"q4\">Obsidian Greathelm</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>Item Level 105<br />+33 Strength<br />+27 Stamina<br />+20 Crit Rating<br />+16 Expertise Rating<br />Requires Level 60<br /></td></tr></table>",
+      "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
           "chance": 3.0,
@@ -985,29 +749,27 @@
         "Head"
       ],
       "types": [
-        "Plate"
+        "Unknown"
       ]
     },
     {
       "id": 43954,
       "name": "Reins of the Twilight Drake",
       "classes": [
-        "Death Knight",
-        "Druid",
-        "Hunter",
-        "Mage",
+        "Warrior",
         "Paladin",
-        "Priest",
+        "Hunter",
         "Rogue",
+        "Priest",
+        "Death Knight",
         "Shaman",
+        "Mage",
         "Warlock",
-        "Warrior"
+        "Druid"
       ],
       "quality": 4,
-      "tooltip": [
-        "Reins of the Twilight Drake"
-      ],
-      "icon": "inv_misc_questionmark.jpg",
+      "tooltip": "<table><tr><td><b class=\"q4\">Reins of the Twilight Drake</b><br />Item Level 53<br />Requires Level 55<br /></td></tr></table>",
+      "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
           "chance": 100.0,
@@ -1016,7 +778,7 @@
         }
       ],
       "slots": [
-        "Unknown"
+        "Non-equippable"
       ],
       "types": [
         "Unknown"
