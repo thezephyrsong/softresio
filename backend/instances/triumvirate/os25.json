@@ -2,7 +2,7 @@
   "id": 119,
   "shortname": "os25",
   "raid": true,
-  "name": "The Obsidian Sanctum (25 Player)",
+  "name": "The Obsidian Sanctuary (25 Player)",
   "items": [
     {
       "id": 40437,
@@ -20,8 +20,8 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Concealment Shoulderpads</b><br /><table width=\"100%\"><tr><td>Shoulder</td><th></th></tr></table>+19 Agility<br />+28 Stamina<br />+36 Attack Power<br />+15 Armor Penetration<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your expertise rating by 14.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.jpg",
+      "tooltip": "<table><tr><td><b class=\"q4\">Concealment Shoulderpads</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Shoulder</td><th>Leather</th></tr></table>189 Armor<br />+19 Agility<br />+28 Stamina<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your expertise rating by 14.</span><br /><span class=\"q2\">Equip: Increases attack power by 36.</span><br /><span class=\"q2\">Equip: Increases your armor penetration rating by 15.</span><br /></td></tr></table>",
+      "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
           "chance": 16.0,
@@ -52,8 +52,8 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Mantle of the Eternal Sentinel</b><br /><table width=\"100%\"><tr><td>Shoulder</td><th></th></tr></table>+16 Stamina<br />+20 Intellect<br />+29 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 17.</span><br /><span class=\"q2\">Equip: Improves haste rating by 11.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.jpg",
+      "tooltip": "<table><tr><td><b class=\"q4\">Mantle of the Eternal Sentinel</b><br />Binds when equipped<br /><table width=\"100%\"><tr><td>Shoulder</td><th>Leather</th></tr></table>189 Armor<br />+16 Stamina<br />+20 Intellect<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves critical strike rating by 17.</span><br /><span class=\"q2\">Equip: Improves haste rating by 11.</span><br /><span class=\"q2\">Equip: Increases spell power by 29.</span><br /></td></tr></table>",
+      "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
           "chance": 19.0,
@@ -84,8 +84,8 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Hyaline Helm of the Sniper</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>+28 Agility<br />+29 Stamina<br />+19 Intellect<br />+38 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves haste rating by 15.</span><br /><span class=\"q2\">Equip: Improves hit rating by 14.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.jpg",
+      "tooltip": "<table><tr><td><b class=\"q4\">Hyaline Helm of the Sniper</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Head</td><th>Mail</th></tr></table>439 Armor<br />+28 Agility<br />+29 Stamina<br />+19 Intellect<br />Meta Socket<br />Blue Socket<br />Socket Bonus: +5 Agility<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves haste rating by 15.</span><br /><span class=\"q2\">Equip: Improves hit rating by 14.</span><br /><span class=\"q2\">Equip: Increases attack power by 38.</span><br /></td></tr></table>",
+      "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
           "chance": 16.0,
@@ -116,8 +116,8 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Council Chamber Epaulets</b><br /><table width=\"100%\"><tr><td>Shoulder</td><th></th></tr></table>+23 Stamina<br />+18 Intellect<br />+32 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves haste rating by 13.</span><br /><span class=\"q2\">Use: $WowheadPower.registerSpell(1280, 0, {});</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.jpg",
+      "tooltip": "<table><tr><td><b class=\"q4\">Council Chamber Epaulets</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Shoulder</td><th>Mail</th></tr></table>413 Armor<br />+23 Stamina<br />+18 Intellect<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves haste rating by 13.</span><br /><span class=\"q2\">Equip: Increases spell power by 32.</span><br /></td></tr></table>",
+      "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
           "chance": 19.0,
@@ -148,8 +148,8 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Chestplate of the Great Aspects</b><br /><table width=\"100%\"><tr><td>Chest</td><th></th></tr></table>+25 Stamina<br />+26 Intellect<br />+36 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 13.</span><br /><span class=\"q2\">Equip: Improves haste rating by 11.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.jpg",
+      "tooltip": "<table><tr><td><b class=\"q4\">Chestplate of the Great Aspects</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Chest</td><th>Plate</th></tr></table>917 Armor<br />+25 Stamina<br />+26 Intellect<br />Yellow Socket<br />Socket Bonus: +2 Intellect<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves critical strike rating by 13.</span><br /><span class=\"q2\">Equip: Increases spell power by 36.</span><br /><span class=\"q2\">Equip: Improves haste rating by 11.</span><br /></td></tr></table>",
+      "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
           "chance": 17.0,
@@ -180,8 +180,8 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Dragon Brood Legguards</b><br /><table width=\"100%\"><tr><td>Legs</td><th></th></tr></table>+22 Strength<br />+34 Stamina<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your defense rating by 16.</span><br /><span class=\"q2\">Equip: Improves hit rating by 15.</span><br /><span class=\"q2\">Equip: Increases your dodge rating by 19.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.jpg",
+      "tooltip": "<table><tr><td><b class=\"q4\">Dragon Brood Legguards</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Legs</td><th>Plate</th></tr></table>844 Armor<br />+22 Strength<br />+34 Stamina<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases defense rating by 16.</span><br /><span class=\"q2\">Equip: Improves hit rating by 15.</span><br /><span class=\"q2\">Equip: Increases your dodge rating by 19.</span><br /></td></tr></table>",
+      "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
           "chance": 17.0,
@@ -212,8 +212,8 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Wyrmrest Band</b><br /><table width=\"100%\"><tr><td>Finger</td><th></th></tr></table>+15 Stamina<br />+14 Intellect<br />+26 Spell Power<br />+11 Mana Regen (MP5)<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves haste rating by 11.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.jpg",
+      "tooltip": "<table><tr><td><b class=\"q4\">Wyrmrest Band</b><br />Binds when picked up<br />Unique-Equipped<br /><table width=\"100%\"><tr><td>Finger</td><th></th></tr></table>+15 Stamina<br />+14 Intellect<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves haste rating by 11.</span><br /><span class=\"q2\">Equip: Increases spell power by 26.</span><br /><span class=\"q2\">Equip: Restores 11 mana per 5 sec.</span><br /></td></tr></table>",
+      "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
           "chance": 7.0,
@@ -244,8 +244,8 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Fury of the Five Flights</b><br /><table width=\"100%\"><tr><td>Trinket</td><th></th></tr></table>Requires Level 60<br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.jpg",
+      "tooltip": "<table><tr><td><b class=\"q4\">Fury of the Five Flights</b><br />Binds when picked up<br />Unique<br /><table width=\"100%\"><tr><td>Trinket</td><th></th></tr></table>Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Each time you deal melee or ranged damage to an opponent, you gain 8 attack power for the next 10 sec, stacking up to 20 times.</span><br /></td></tr></table>",
+      "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
           "chance": 17.0,
@@ -276,8 +276,8 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Illustration of the Dragon Soul</b><br /><table width=\"100%\"><tr><td>Trinket</td><th></th></tr></table>Requires Level 60<br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.jpg",
+      "tooltip": "<table><tr><td><b class=\"q4\">Illustration of the Dragon Soul</b><br />Binds when picked up<br />Unique<br /><table width=\"100%\"><tr><td>Trinket</td><th></th></tr></table>Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Each time you cast a damaging or healing spell you gain 10 spell power for the next 10 sec, stacking up to 10 times.</span><br /></td></tr></table>",
+      "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
           "chance": 19.0,
@@ -308,8 +308,8 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Staff of Restraint</b><br /><table width=\"100%\"><tr><td>Two-Hand</td><th></th></tr></table>+21 Stamina<br />+29 Intellect<br />+22 Spirit<br />+140 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 17.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.jpg",
+      "tooltip": "<table><tr><td><b class=\"q4\">Staff of Restraint</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Two-Hand</td><th>Staff</th></tr></table>164 - 260 Damage - Speed 3.20<br />(66.2 damage per second)<br />+21 Stamina<br />+29 Intellect<br />+22 Spirit<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves critical strike rating by 17.</span><br /><span class=\"q2\">Equip: Increases spell power by 140.</span><br /></td></tr></table>",
+      "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
           "chance": 19.0,
@@ -340,8 +340,8 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Dragon Hide Bag</b><br /><table width=\"100%\"><tr><td>Bag</td><th></th></tr></table></td></tr></table>",
-      "icon": "inv_misc_questionmark.jpg",
+      "tooltip": "<table><tr><td><b class=\"q4\">Dragon Hide Bag</b><br />Binds when picked up<br />Unique<br />22 Slot Bag<br /></td></tr></table>",
+      "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
           "chance": 100.0,
@@ -372,8 +372,8 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Large Satchel of Spoils</b><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.jpg",
+      "tooltip": "<table><tr><td><b class=\"q4\">Large Satchel of Spoils</b><br />Binds when picked up<br /></td></tr></table>",
+      "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
           "chance": 100.0,
@@ -397,8 +397,8 @@
         "Warlock"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Gauntlets of the Lost Conqueror</b><br />Requires Level 60<br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.jpg",
+      "tooltip": "<table><tr><td><b class=\"q4\">Gauntlets of the Lost Conqueror</b><br />Binds when picked up<br />Classes: Paladin, Priest, Warlock<br />Requires Level 60<br /></td></tr></table>",
+      "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
           "chance": 51.0,
@@ -422,8 +422,8 @@
         "Shaman"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Gauntlets of the Lost Protector</b><br />Requires Level 60<br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.jpg",
+      "tooltip": "<table><tr><td><b class=\"q4\">Gauntlets of the Lost Protector</b><br />Binds when picked up<br />Classes: Warrior, Hunter, Shaman<br />Requires Level 60<br /></td></tr></table>",
+      "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
           "chance": 53.0,
@@ -448,8 +448,8 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Gauntlets of the Lost Vanquisher</b><br />Requires Level 60<br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.jpg",
+      "tooltip": "<table><tr><td><b class=\"q4\">Gauntlets of the Lost Vanquisher</b><br />Binds when picked up<br />Classes: Rogue, Death Knight, Mage, Druid<br />Requires Level 60<br /></td></tr></table>",
+      "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
           "chance": 67.0,
@@ -480,8 +480,8 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">The Sanctum's Flowing Vestments</b><br /><table width=\"100%\"><tr><td>Robe</td><th></th></tr></table>+27 Stamina<br />+28 Intellect<br />+18 Spirit<br />+35 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves haste rating by 15.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.jpg",
+      "tooltip": "<table><tr><td><b class=\"q4\">The Sanctum's Flowing Vestments</b><br />Binds when picked up<br />Chest - Cloth<br />127 Armor<br />+27 Stamina<br />+28 Intellect<br />+18 Spirit<br />Red Socket<br />Socket Bonus: +2 Intellect<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases spell power by 35.</span><br /><span class=\"q2\">Equip: Improves haste rating by 15.</span><br /></td></tr></table>",
+      "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
           "chance": 7.0,
@@ -512,8 +512,8 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Upstanding Spaulders</b><br /><table width=\"100%\"><tr><td>Shoulder</td><th></th></tr></table>+18 Agility<br />+22 Stamina<br />+12 Intellect<br />+29 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 12.</span><br /><span class=\"q2\">Equip: Improves haste rating by 11.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.jpg",
+      "tooltip": "<table><tr><td><b class=\"q4\">Upstanding Spaulders</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Shoulder</td><th>Mail</th></tr></table>406 Armor<br />+18 Agility<br />+22 Stamina<br />+12 Intellect<br />Blue Socket<br />Socket Bonus: +2 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases attack power by 29.</span><br /><span class=\"q2\">Equip: Improves critical strike rating by 12.</span><br /><span class=\"q2\">Equip: Improves haste rating by 11.</span><br /></td></tr></table>",
+      "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
           "chance": 7.0,
@@ -544,8 +544,8 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Bountiful Gauntlets</b><br /><table width=\"100%\"><tr><td>Hands</td><th></th></tr></table>+23 Stamina<br />+19 Intellect<br />+28 Spell Power<br />+9 Mana Regen (MP5)<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 11.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.jpg",
+      "tooltip": "<table><tr><td><b class=\"q4\">Bountiful Gauntlets</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Hands</td><th>Mail</th></tr></table>337 Armor<br />+23 Stamina<br />+19 Intellect<br />Yellow Socket<br />Socket Bonus: +2 Intellect<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases spell power by 28.</span><br /><span class=\"q2\">Equip: Improves critical strike rating by 11.</span><br /><span class=\"q2\">Equip: Restores 9 mana per 5 sec.</span><br /></td></tr></table>",
+      "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
           "chance": 6.0,
@@ -576,8 +576,8 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Dragonstorm Breastplate</b><br /><table width=\"100%\"><tr><td>Chest</td><th></th></tr></table>+33 Strength<br />+44 Stamina<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your defense rating by 16.</span><br /><span class=\"q2\">Equip: Increases your parry rating by 21.</span><br /><span class=\"q2\">Equip: Increases your dodge rating by 13.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.jpg",
+      "tooltip": "<table><tr><td><b class=\"q4\">Dragonstorm Breastplate</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Chest</td><th>Plate</th></tr></table>978 Armor<br />+33 Strength<br />+44 Stamina<br />Red Socket<br />Socket Bonus: +3 Stamina<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases defense rating by 16.</span><br /><span class=\"q2\">Equip: Increases your parry rating by 21.</span><br /><span class=\"q2\">Equip: Increases your dodge rating by 13.</span><br /></td></tr></table>",
+      "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
           "chance": 6.0,
@@ -608,8 +608,8 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Pennant Cloak</b><br /><table width=\"100%\"><tr><td>Back</td><th></th></tr></table>+19 Stamina<br />+16 Intellect<br />+23 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 12.</span><br /><span class=\"q2\">Equip: Improves haste rating by 15.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.jpg",
+      "tooltip": "<table><tr><td><b class=\"q4\">Pennant Cloak</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Back</td><th></th></tr></table>69 Armor<br />+19 Stamina<br />+16 Intellect<br />Blue Socket<br />Socket Bonus: +2 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases spell power by 23.</span><br /><span class=\"q2\">Equip: Improves critical strike rating by 12.</span><br /><span class=\"q2\">Equip: Improves haste rating by 15.</span><br /></td></tr></table>",
+      "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
           "chance": 3.0,
@@ -640,8 +640,8 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Unsullied Cuffs</b><br /><table width=\"100%\"><tr><td>Wrist</td><th></th></tr></table>+19 Stamina<br />+16 Intellect<br />+15 Spirit<br />+23 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves haste rating by 12.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.jpg",
+      "tooltip": "<table><tr><td><b class=\"q4\">Unsullied Cuffs</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Wrist</td><th>Cloth</th></tr></table>48 Armor<br />+19 Stamina<br />+16 Intellect<br />+15 Spirit<br />Red Socket<br />Socket Bonus: +2 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases spell power by 23.</span><br /><span class=\"q2\">Equip: Improves haste rating by 12.</span><br /></td></tr></table>",
+      "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
           "chance": 3.0,
@@ -672,8 +672,8 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Headpiece of Reconciliation</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>+21 Stamina<br />+24 Intellect<br />+21 Spirit<br />+32 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves haste rating by 11.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.jpg",
+      "tooltip": "<table><tr><td><b class=\"q4\">Headpiece of Reconciliation</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Head</td><th>Leather</th></tr></table>203 Armor<br />+21 Stamina<br />+24 Intellect<br />+21 Spirit<br />Meta Socket<br />Yellow Socket<br />Socket Bonus: +2 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves haste rating by 11.</span><br /><span class=\"q2\">Equip: Increases spell power by 32.</span><br /></td></tr></table>",
+      "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
           "chance": 3.0,
@@ -704,8 +704,8 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Leggings of the Honored</b><br /><table width=\"100%\"><tr><td>Legs</td><th></th></tr></table>+27 Agility<br />+28 Stamina<br />+42 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves hit rating by 18.</span><br /><span class=\"q2\">Equip: Improves haste rating by 14.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.jpg",
+      "tooltip": "<table><tr><td><b class=\"q4\">Leggings of the Honored</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Legs</td><th>Leather</th></tr></table>218 Armor<br />+27 Agility<br />+28 Stamina<br />Red Socket<br />Socket Bonus: +2 Agility<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases attack power by 42.</span><br /><span class=\"q2\">Equip: Improves hit rating by 18.</span><br /><span class=\"q2\">Equip: Improves haste rating by 14.</span><br /></td></tr></table>",
+      "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
           "chance": 3.0,
@@ -736,8 +736,8 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Obsidian Greathelm</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>+33 Strength<br />+27 Stamina<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 20.</span><br /><span class=\"q2\">Equip: Increases your expertise rating by 16.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.jpg",
+      "tooltip": "<table><tr><td><b class=\"q4\">Obsidian Greathelm</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Head</td><th>Plate</th></tr></table>786 Armor<br />+33 Strength<br />+27 Stamina<br />Meta Socket<br />Red Socket<br />Socket Bonus: +3 Strength<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves critical strike rating by 20.</span><br /><span class=\"q2\">Equip: Increases your expertise rating by 16.</span><br /></td></tr></table>",
+      "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
           "chance": 3.0,
@@ -768,8 +768,8 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Reins of the Twilight Drake</b><br />Requires Level 55<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: $WowheadPower.registerSpell(544433512, 0, {});</span><br /><span class=\"q2\">Equip: $WowheadPower.registerSpell(1830843241, 0, {});</span><br /><span class=\"q2\">Equip: $WowheadPower.registerSpell(1869442421, 0, {});</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.jpg",
+      "tooltip": "<table><tr><td><b class=\"q4\">Reins of the Twilight Drake</b><br />Binds when used<br />Mount<br />Requires Level 55<br />Requires Riding (300)<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: Teaches you how to summon this mount.  Can only be summoned in Outland or Northrend.  This is a very fast mount.</span><br /></td></tr></table>",
+      "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
           "chance": 100.0,
