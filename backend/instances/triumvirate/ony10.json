@@ -21,7 +21,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Fluttering Sapphiron Drape</b><br /><table width=\"100%\"><tr><td>Back</td><th></th></tr></table>+21 Stamina<br />+17 Intellect<br />+28 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 16.</span><br /><span class=\"q2\">Equip: Improves haste rating by 11.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -44,7 +44,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Circlet of Transcendence</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>+21 Stamina<br />+25 Intellect<br />+28 Spirit<br />+30 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 18.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -67,7 +67,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Coronet of Transcendence</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>+32 Stamina<br />+23 Intellect<br />+35 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 16.</span><br /><span class=\"q2\">Equip: Improves haste rating by 16.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -90,7 +90,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Nemesis Skullcover</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>+22 Stamina<br />+24 Intellect<br />+24 Spirit<br />+30 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 17.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -113,7 +113,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Netherwind Hood</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>+20 Stamina<br />+24 Intellect<br />+30 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves hit rating by 17.</span><br /><span class=\"q2\">Equip: Improves your crit rating by 17.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -136,7 +136,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Bloodfang Mask</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>+25 Agility<br />+26 Stamina<br />+40 Attack Power<br />+14 Armor Penetration<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 11.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -159,7 +159,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Stormrage Antlers</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>+20 Stamina<br />+21 Intellect<br />+30 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 19.</span><br /><span class=\"q2\">Equip: Improves haste rating by 18.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -182,7 +182,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Stormrage Helm</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>+22 Agility<br />+20 Stamina<br />+33 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves hit rating by 17.</span><br /><span class=\"q2\">Equip: Increases your expertise rating by 12.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -205,7 +205,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Stormrage Hood</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>+22 Stamina<br />+17 Intellect<br />+21 Spirit<br />+30 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 18.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -228,7 +228,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Coif of Ten Storms</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>+22 Stamina<br />+19 Intellect<br />+30 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 18.</span><br /><span class=\"q2\">Equip: Improves hit rating by 12.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -251,7 +251,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Cowl of Ten Storms</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>+25 Agility<br />+21 Stamina<br />+13 Intellect<br />+40 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 21.</span><br /><span class=\"q2\">Equip: Improves haste rating by 12.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -274,7 +274,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Gaze of Ten Storms</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>+26 Stamina<br />+22 Intellect<br />+11 Mana Regen (MP5)<br />+33 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 16.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -297,7 +297,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Dragonstalker's Helmet</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>+25 Agility<br />+21 Stamina<br />+14 Intellect<br />+12 Armor Penetration<br />+40 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 13.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -320,7 +320,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Faceguard of Wrath</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>+24 Strength<br />+37 Stamina<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your defense rating by 17.</span><br /><span class=\"q2\">Equip: Increases your dodge rating by 12.</span><br /><span class=\"q2\">Equip: Increases your parry rating by 16.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -343,7 +343,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Greathelm of Wrath</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>+33 Strength<br />+24 Stamina<br />+15 Armor Penetration<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 12.</span><br /><span class=\"q2\">Use: $WowheadPower.registerSpell(1536, 0, {</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -366,7 +366,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Frostforged Helmet</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>+33 Strength<br />+24 Stamina<br />+15 Armor Penetration<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves hit rating by 15.</span><br /><span class=\"q2\">Use: $WowheadPower.registerSpell(1536, 0, {</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -389,7 +389,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Frostforged Ringhelm</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>+26 Strength<br />+37 Stamina<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your defense rating by 13.</span><br /><span class=\"q2\">Equip: Increases your parry rating by 16.</span><br /><span class=\"q2\">Equip: Improves hit rating by 15.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -412,7 +412,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Judgement Cover</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>+26 Stamina<br />+28 Intellect<br />+30 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves haste rating by 12.</span><br /><span class=\"q2\">Equip: Improves your crit rating by 10.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -435,7 +435,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Judgement Helm</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>+33 Strength<br />+24 Stamina<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 12.</span><br /><span class=\"q2\">Equip: Improves haste rating by 15.</span><br /><span class=\"q2\">Use: $WowheadPower.registerSpell(1536, 0, {</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -458,7 +458,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Judgement Helmet</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>+24 Strength<br />+37 Stamina<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your defense rating by 16.</span><br /><span class=\"q2\">Equip: Increases your dodge rating by 16.</span><br /><span class=\"q2\">Equip: Improves hit rating by 15.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -490,7 +490,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Eskhandar's Choker</b><br /><table width=\"100%\"><tr><td>Neck</td><th></th></tr></table>+18 Strength<br />+28 Stamina<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your dodge rating by 11.</span><br /><span class=\"q2\">Equip: Increases your expertise rating by 10.</span><br /><span class=\"q2\">Equip: Increases your defense rating by 12.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -522,7 +522,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Runed Ring of Binding</b><br /><table width=\"100%\"><tr><td>Finger</td><th></th></tr></table>+30 Stamina<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your defense rating by 18.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -554,7 +554,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Purified Shard of the Flame</b><br /><table width=\"100%\"><tr><td>Trinket</td><th></th></tr></table>+91 Health Regen<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: $WowheadPower.registerSpell(512, 0, {</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -586,7 +586,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Purified Shard of the Scale</b><br /><table width=\"100%\"><tr><td>Trinket</td><th></th></tr></table>+20 Mana Regen (MP5)<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: $WowheadPower.registerSpell(512, 0, {</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -618,7 +618,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Antique Cornerstone Grimoire</b><br /><table width=\"100%\"><tr><td>Held In Off-hand</td><th></th></tr></table>+16 Stamina<br />+15 Intellect<br />+14 Spirit<br />+94 Fire Resistance<br />+23 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: $WowheadPower.registerSpell(1792, 0, {});</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -650,7 +650,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Sharpened Fang of the Mystics</b><br /><table width=\"100%\"><tr><td>Main Hand</td><th></th></tr></table>+13 Stamina<br />+19 Intellect<br />+126 Spell Power<br />+9 Mana Regen (MP5)<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 14.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -682,7 +682,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Rusted Gutgore Ripper</b><br /><table width=\"100%\"><tr><td>One-Hand</td><th></th></tr></table>Requires Level 60<br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -714,7 +714,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Glinting Azuresong Mageblade</b><br /><table width=\"100%\"><tr><td>Main Hand</td><th></th></tr></table>+14 Stamina<br />+20 Intellect<br />+126 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 16.</span><br /><span class=\"q2\">Equip: Improves hit rating by 17.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -739,7 +739,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Gleaming Quel'Serrar</b><br /><table width=\"100%\"><tr><td>One-Hand</td><th></th></tr></table>+23 Stamina<br />Requires Level 60<br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -771,7 +771,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Singed Vis'kag the Bloodletter</b><br /><table width=\"100%\"><tr><td>One-Hand</td><th></th></tr></table>Requires Level 60<br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -803,7 +803,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Keen Obsidian Edged Blade</b><br /><table width=\"100%\"><tr><td>Two-Hand</td><th></th></tr></table>+30 Strength<br />+25 Stamina<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your expertise rating by 17.</span><br /><span class=\"q2\">Equip: Improves your crit rating by 15.</span><br /><span class=\"q2\">Equip: $WowheadPower.registerSpell(256, 0, {});</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -835,7 +835,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Empowered Deathbringer</b><br /><table width=\"100%\"><tr><td>One-Hand</td><th></th></tr></table>Requires Level 60<br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -867,7 +867,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Reclaimed Shadowstrike</b><br /><table width=\"100%\"><tr><td>Two-Hand</td><th></th></tr></table>+30 Agility<br />+21 Stamina<br />+48 Attack Power<br />+15 Armor Penetration<br />+2 Holy Resistance<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 14.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -899,7 +899,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Reclaimed Thunderstrike</b><br /><table width=\"100%\"><tr><td>Two-Hand</td><th></th></tr></table>+30 Agility<br />+21 Stamina<br />+48 Attack Power<br />+2 Holy Resistance<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your expertise rating by 14.</span><br /><span class=\"q2\">Equip: Improves haste rating by 15.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -931,7 +931,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Snub-Nose Blastershot Launcher</b><br /><table width=\"100%\"><tr><td>Ranged Right</td><th></th></tr></table>+14 Agility<br />+13 Stamina<br />+19 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 14.</span><br /><span class=\"q2\">Equip: $WowheadPower.registerSpell(256, 0, {});</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -963,7 +963,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Head of Onyxia - Alliance</b><br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: $WowheadPower.registerSpell(1684104552, 0, {});</span><br /><span class=\"q2\">Equip: $WowheadPower.registerSpell(1734962278, 0, {});</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -995,7 +995,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Sparkling Onyxia Tooth Pendant</b><br /><table width=\"100%\"><tr><td>Neck</td><th></th></tr></table>+22 Agility<br />+20 Stamina<br />+36 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves hit rating by 14.</span><br /><span class=\"q2\">Equip: Improves your crit rating by 12.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -1027,7 +1027,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Polished Dragonslayer's Signet</b><br /><table width=\"100%\"><tr><td>Finger</td><th></th></tr></table>+22 Stamina<br />+20 Intellect<br />+12 Spirit<br />+33 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 19.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -1059,7 +1059,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Purified Onyxia Blood Talisman</b><br /><table width=\"100%\"><tr><td>Trinket</td><th></th></tr></table>+37 Health Regen<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your parry rating by 40.</span><br /><span class=\"q2\">Equip: Increases your defense rating by 25.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -1091,7 +1091,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Enlarged Onyxia Hide Backpack</b><br /><table width=\"100%\"><tr><td>Bag</td><th></th></tr></table></td></tr></table>",
-      "icon": "inv_misc_questionmark.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -1123,7 +1123,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Ashen Sack of Gems</b><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -1155,7 +1155,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Reins of the Onyxian Drake</b><br />Requires Level 55<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: $WowheadPower.registerSpell(544433512, 0, {});</span><br /><span class=\"q2\">Equip: $WowheadPower.registerSpell(1830843241, 0, {});</span><br /><span class=\"q2\">Equip: $WowheadPower.registerSpell(1869442421, 0, {});</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.png",
+      "icon": "inv_misc_questionmark.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,

@@ -5,1289 +5,6 @@
   "name": "Karazhan",
   "items": [
     {
-      "id": 22561,
-      "name": "Formula: Enchant Weapon - Soulfrost",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 3,
-      "tooltip": "<table><tr><td><b class=\"q3\">Formula: Enchant Weapon - Soulfrost</b><br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: $WowheadPower.registerSpell(544433512, 0, {});</span><br /><span class=\"q2\">Equip: $WowheadPower.registerSpell(1696627052, 0, {});</span><br /><span class=\"q2\">Equip: $WowheadPower.registerSpell(1869881454, 0, {});</span><br /></td></tr></table>",
-      "icon": "inv_misc_note_01.png",
-      "dropsFrom": [
-        {
-          "chance": 100.0,
-          "bossId": 4,
-          "npcId": 4
-        }
-      ],
-      "slots": [
-        "Non-equippable"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 29434,
-      "name": "Badge of Justice",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Badge of Justice</b><br />Requires Level 60<br /></td></tr></table>",
-      "icon": "spell_holy_championsbond.png",
-      "dropsFrom": [
-        {
-          "chance": 100.0,
-          "bossId": 4,
-          "npcId": 4
-        },
-        {
-          "chance": 100.0,
-          "bossId": 1,
-          "npcId": 1
-        },
-        {
-          "chance": 100.0,
-          "bossId": 2,
-          "npcId": 2
-        },
-        {
-          "chance": 100.0,
-          "bossId": 3,
-          "npcId": 3
-        },
-        {
-          "chance": 100.0,
-          "bossId": 5,
-          "npcId": 5
-        },
-        {
-          "chance": 100.0,
-          "bossId": 6,
-          "npcId": 6
-        },
-        {
-          "chance": 100.0,
-          "bossId": 9,
-          "npcId": 9
-        },
-        {
-          "chance": 100.0,
-          "bossId": 8,
-          "npcId": 8
-        }
-      ],
-      "slots": [
-        "Non-equippable"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 28652,
-      "name": "Cincture of Will",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Cincture of Will</b><br /><table width=\"100%\"><tr><td>Waist</td><th></th></tr></table>+17 Stamina<br />+20 Intellect<br />+17 Spirit<br />+32 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: $WowheadPower.registerSpell(1792, 0, {});</span><br /></td></tr></table>",
-      "icon": "inv_belt_08.png",
-      "dropsFrom": [
-        {
-          "chance": 8.33,
-          "bossId": 4,
-          "npcId": 4
-        }
-      ],
-      "slots": [
-        "Waist"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 28653,
-      "name": "Shadowvine Cloak of Infusion",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Shadowvine Cloak of Infusion</b><br /><table width=\"100%\"><tr><td>Back</td><th></th></tr></table>+15 Intellect<br />+15 Spirit<br />+9 Mana Regen (MP5)<br />Requires Level 60<br /></td></tr></table>",
-      "icon": "inv_misc_cape_05.png",
-      "dropsFrom": [
-        {
-          "chance": 8.33,
-          "bossId": 4,
-          "npcId": 4
-        }
-      ],
-      "slots": [
-        "Back"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 28654,
-      "name": "Malefic Girdle",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Malefic Girdle</b><br /><table width=\"100%\"><tr><td>Waist</td><th></th></tr></table>+19 Stamina<br />+18 Intellect<br />+27 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 15.</span><br /><span class=\"q2\">Use: $WowheadPower.registerSpell(1792, 0, {});</span><br /></td></tr></table>",
-      "icon": "inv_belt_03.png",
-      "dropsFrom": [
-        {
-          "chance": 8.33,
-          "bossId": 4,
-          "npcId": 4
-        }
-      ],
-      "slots": [
-        "Waist"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 28655,
-      "name": "Cord of Nature's Sustenance",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Cord of Nature's Sustenance</b><br /><table width=\"100%\"><tr><td>Waist</td><th></th></tr></table>+17 Stamina<br />+21 Intellect<br />+11 Spirit<br />+32 Spell Power<br />+7 Mana Regen (MP5)<br />Requires Level 60<br /></td></tr></table>",
-      "icon": "inv_belt_22.png",
-      "dropsFrom": [
-        {
-          "chance": 8.33,
-          "bossId": 4,
-          "npcId": 4
-        }
-      ],
-      "slots": [
-        "Waist"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 28656,
-      "name": "Girdle of the Prowler",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Girdle of the Prowler</b><br /><table width=\"100%\"><tr><td>Waist</td><th></th></tr></table>+17 Agility<br />+15 Stamina<br />+15 Intellect<br />+38 Attack Power<br />+6 Mana Regen (MP5)<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves hit rating by 15.</span><br /></td></tr></table>",
-      "icon": "inv_belt_22.png",
-      "dropsFrom": [
-        {
-          "chance": 8.33,
-          "bossId": 4,
-          "npcId": 4
-        }
-      ],
-      "slots": [
-        "Waist"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 28657,
-      "name": "Fool's Bane",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Fool's Bane</b><br /><table width=\"100%\"><tr><td>One-Hand</td><th></th></tr></table>+36 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 17.</span><br /></td></tr></table>",
-      "icon": "inv_weapon_shortblade_44.png",
-      "dropsFrom": [
-        {
-          "chance": 8.33,
-          "bossId": 4,
-          "npcId": 4
-        }
-      ],
-      "slots": [
-        "One-Hand"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 28658,
-      "name": "Terestian's Stranglestaff",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Terestian's Stranglestaff</b><br /><table width=\"100%\"><tr><td>Two-Hand</td><th></th></tr></table>+26 Agility<br />+31 Stamina<br />+54 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves hit rating by 21.</span><br /><span class=\"q2\">Use: $WowheadPower.registerSpell(512, 0, {</span><br /></td></tr></table>",
-      "icon": "inv_staff_55.png",
-      "dropsFrom": [
-        {
-          "chance": 8.33,
-          "bossId": 4,
-          "npcId": 4
-        }
-      ],
-      "slots": [
-        "Two-Hand"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 28659,
-      "name": "Xavian Stiletto",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Xavian Stiletto</b><br /><table width=\"100%\"><tr><td>Thrown</td><th></th></tr></table>Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 14.</span><br /><span class=\"q2\">Equip: Improves hit rating by 10.</span><br /></td></tr></table>",
-      "icon": "inv_weapon_shortblade_35.png",
-      "dropsFrom": [
-        {
-          "chance": 8.33,
-          "bossId": 4,
-          "npcId": 4
-        }
-      ],
-      "slots": [
-        "Thrown"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 28660,
-      "name": "Gilded Thorium Cloak",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Gilded Thorium Cloak</b><br /><table width=\"100%\"><tr><td>Back</td><th></th></tr></table>+21 Stamina<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your defense rating by 17.</span><br /></td></tr></table>",
-      "icon": "inv_misc_cape_20.png",
-      "dropsFrom": [
-        {
-          "chance": 8.33,
-          "bossId": 4,
-          "npcId": 4
-        }
-      ],
-      "slots": [
-        "Back"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 28661,
-      "name": "Mender's Heart-Ring",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Mender's Heart-Ring</b><br /><table width=\"100%\"><tr><td>Finger</td><th></th></tr></table>+12 Stamina<br />+15 Intellect<br />+13 Spirit<br />+23 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: $WowheadPower.registerSpell(768, 0, {</span><br /></td></tr></table>",
-      "icon": "inv_jewelry_ring_36.png",
-      "dropsFrom": [
-        {
-          "chance": 8.33,
-          "bossId": 4,
-          "npcId": 4
-        }
-      ],
-      "slots": [
-        "Finger"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 28662,
-      "name": "Breastplate of the Lightbinder",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Breastplate of the Lightbinder</b><br /><table width=\"100%\"><tr><td>Chest</td><th></th></tr></table>+20 Stamina<br />+28 Intellect<br />+36 Spell Power<br />+11 Mana Regen (MP5)<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: $WowheadPower.registerSpell(256, 0, {});</span><br /></td></tr></table>",
-      "icon": "inv_chest_plate03.png",
-      "dropsFrom": [
-        {
-          "chance": 8.33,
-          "bossId": 4,
-          "npcId": 4
-        }
-      ],
-      "slots": [
-        "Chest"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 28785,
-      "name": "The Lightning Capacitor",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">The Lightning Capacitor</b><br /><table width=\"100%\"><tr><td>Trinket</td><th></th></tr></table>Requires Level 60<br /></td></tr></table>",
-      "icon": "inv_trinket_naxxramas06.png",
-      "dropsFrom": [
-        {
-          "chance": 8.33,
-          "bossId": 4,
-          "npcId": 4
-        }
-      ],
-      "slots": [
-        "Trinket"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 22559,
-      "name": "Formula: Enchant Weapon - Mongoose",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 3,
-      "tooltip": "<table><tr><td><b class=\"q3\">Formula: Enchant Weapon - Mongoose</b><br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: $WowheadPower.registerSpell(544433512, 0, {});</span><br /><span class=\"q2\">Equip: $WowheadPower.registerSpell(1696627052, 0, {});</span><br /><span class=\"q2\">Equip: $WowheadPower.registerSpell(1869881454, 0, {});</span><br /></td></tr></table>",
-      "icon": "inv_misc_note_01.png",
-      "dropsFrom": [
-        {
-          "chance": 100.0,
-          "bossId": 1,
-          "npcId": 1
-        }
-      ],
-      "slots": [
-        "Non-equippable"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 28524,
-      "name": "Emerald Ripper",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Emerald Ripper</b><br /><table width=\"100%\"><tr><td>One-Hand</td><th></th></tr></table>+13 Agility<br />+12 Stamina<br />+30 Attack Power<br />Requires Level 60<br /></td></tr></table>",
-      "icon": "inv_weapon_shortblade_38.png",
-      "dropsFrom": [
-        {
-          "chance": 8.33,
-          "bossId": 1,
-          "npcId": 1
-        }
-      ],
-      "slots": [
-        "One-Hand"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 28525,
-      "name": "Signet of Unshakable Faith",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Signet of Unshakable Faith</b><br /><table width=\"100%\"><tr><td>Held In Off-hand</td><th></th></tr></table>+13 Stamina<br />+15 Intellect<br />+15 Spirit<br />+20 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: $WowheadPower.registerSpell(768, 0, {</span><br /></td></tr></table>",
-      "icon": "inv_jewelry_ring_60.png",
-      "dropsFrom": [
-        {
-          "chance": 8.33,
-          "bossId": 1,
-          "npcId": 1
-        }
-      ],
-      "slots": [
-        "Held In Off-hand"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 28528,
-      "name": "Moroes' Lucky Pocket Watch",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Moroes' Lucky Pocket Watch</b><br /><table width=\"100%\"><tr><td>Trinket</td><th></th></tr></table>Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your dodge rating by 27.</span><br /><span class=\"q2\">Use: $WowheadPower.registerSpell(1024, 0, {});</span><br /></td></tr></table>",
-      "icon": "inv_misc_pocketwatch_02.png",
-      "dropsFrom": [
-        {
-          "chance": 8.33,
-          "bossId": 1,
-          "npcId": 1
-        }
-      ],
-      "slots": [
-        "Trinket"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 28529,
-      "name": "Royal Cloak of Arathi Kings",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Royal Cloak of Arathi Kings</b><br /><table width=\"100%\"><tr><td>Back</td><th></th></tr></table>+18 Strength<br />+22 Stamina<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves hit rating by 14.</span><br /></td></tr></table>",
-      "icon": "inv_misc_cape_10.png",
-      "dropsFrom": [
-        {
-          "chance": 8.33,
-          "bossId": 1,
-          "npcId": 1
-        }
-      ],
-      "slots": [
-        "Back"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 28530,
-      "name": "Brooch of Unquenchable Fury",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Brooch of Unquenchable Fury</b><br /><table width=\"100%\"><tr><td>Neck</td><th></th></tr></table>+17 Stamina<br />+15 Intellect<br />+22 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves hit rating by 12.</span><br /><span class=\"q2\">Use: $WowheadPower.registerSpell(768, 0, {</span><br /></td></tr></table>",
-      "icon": "inv_jewelry_necklace_ahnqiraj_04.png",
-      "dropsFrom": [
-        {
-          "chance": 8.33,
-          "bossId": 1,
-          "npcId": 1
-        }
-      ],
-      "slots": [
-        "Neck"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 28545,
-      "name": "Edgewalker Longboots",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Edgewalker Longboots</b><br /><table width=\"100%\"><tr><td>Feet</td><th></th></tr></table>+18 Agility<br />+20 Stamina<br />+36 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves hit rating by 11.</span><br /><span class=\"q2\">Use: $WowheadPower.registerSpell(2048, 0, {</span><br /></td></tr></table>",
-      "icon": "inv_boots_plate_06.png",
-      "dropsFrom": [
-        {
-          "chance": 8.33,
-          "bossId": 1,
-          "npcId": 1
-        }
-      ],
-      "slots": [
-        "Feet"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 28565,
-      "name": "Nethershard Girdle",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Nethershard Girdle</b><br /><table width=\"100%\"><tr><td>Waist</td><th></th></tr></table>+15 Stamina<br />+21 Intellect<br />+15 Spirit<br />+32 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: $WowheadPower.registerSpell(1792, 0, {});</span><br /></td></tr></table>",
-      "icon": "inv_belt_08.png",
-      "dropsFrom": [
-        {
-          "chance": 8.33,
-          "bossId": 1,
-          "npcId": 1
-        }
-      ],
-      "slots": [
-        "Waist"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 28566,
-      "name": "Crimson Girdle of the Indomitable",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Crimson Girdle of the Indomitable</b><br /><table width=\"100%\"><tr><td>Waist</td><th></th></tr></table>+14 Strength<br />+25 Stamina<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your defense rating by 16.</span><br /><span class=\"q2\">Equip: Increases your shield block rating by 11.</span><br /><span class=\"q2\">Equip: $WowheadPower.registerSpell(256, 0, {});</span><br /></td></tr></table>",
-      "icon": "inv_belt_27.png",
-      "dropsFrom": [
-        {
-          "chance": 8.33,
-          "bossId": 1,
-          "npcId": 1
-        }
-      ],
-      "slots": [
-        "Waist"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 28567,
-      "name": "Belt of Gale Force",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Belt of Gale Force</b><br /><table width=\"100%\"><tr><td>Waist</td><th></th></tr></table>+19 Stamina<br />+20 Intellect<br />+32 Spell Power<br />+9 Mana Regen (MP5)<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: $WowheadPower.registerSpell(1280, 0, {});</span><br /></td></tr></table>",
-      "icon": "inv_belt_22.png",
-      "dropsFrom": [
-        {
-          "chance": 8.33,
-          "bossId": 1,
-          "npcId": 1
-        }
-      ],
-      "slots": [
-        "Waist"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 28568,
-      "name": "Idol of the Avian Heart",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Idol of the Avian Heart</b><br /><table width=\"100%\"><tr><td>Relic</td><th></th></tr></table>Requires Level 60<br /></td></tr></table>",
-      "icon": "inv_misc_thegoldencheep.png",
-      "dropsFrom": [
-        {
-          "chance": 8.33,
-          "bossId": 1,
-          "npcId": 1
-        }
-      ],
-      "slots": [
-        "Relic"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 28569,
-      "name": "Boots of Valiance",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Boots of Valiance</b><br /><table width=\"100%\"><tr><td>Feet</td><th></th></tr></table>+16 Stamina<br />+19 Intellect<br />+28 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 14.</span><br /><span class=\"q2\">Equip: $WowheadPower.registerSpell(256, 0, {});</span><br /></td></tr></table>",
-      "icon": "inv_boots_chain_05.png",
-      "dropsFrom": [
-        {
-          "chance": 8.33,
-          "bossId": 1,
-          "npcId": 1
-        }
-      ],
-      "slots": [
-        "Feet"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 28570,
-      "name": "Shadow-Cloak of Dalaran",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Shadow-Cloak of Dalaran</b><br /><table width=\"100%\"><tr><td>Back</td><th></th></tr></table>+13 Stamina<br />+12 Intellect<br />+26 Spell Power<br />Requires Level 60<br /></td></tr></table>",
-      "icon": "inv_misc_cape_20.png",
-      "dropsFrom": [
-        {
-          "chance": 8.33,
-          "bossId": 1,
-          "npcId": 1
-        }
-      ],
-      "slots": [
-        "Back"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 28511,
-      "name": "Bands of Indwelling",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Bands of Indwelling</b><br /><table width=\"100%\"><tr><td>Wrist</td><th></th></tr></table>+15 Stamina<br />+12 Intellect<br />+14 Spirit<br />+25 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: $WowheadPower.registerSpell(1792, 0, {});</span><br /></td></tr></table>",
-      "icon": "inv_bracer_13.png",
-      "dropsFrom": [
-        {
-          "chance": 8.33,
-          "bossId": 2,
-          "npcId": 2
-        }
-      ],
-      "slots": [
-        "Wrist"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 28512,
-      "name": "Bracers of Justice",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Bracers of Justice</b><br /><table width=\"100%\"><tr><td>Wrist</td><th></th></tr></table>+15 Stamina<br />+15 Intellect<br />+25 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 11.</span><br /><span class=\"q2\">Equip: $WowheadPower.registerSpell(256, 0, {});</span><br /></td></tr></table>",
-      "icon": "inv_bracer_02.png",
-      "dropsFrom": [
-        {
-          "chance": 8.33,
-          "bossId": 2,
-          "npcId": 2
-        }
-      ],
-      "slots": [
-        "Wrist"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 28514,
-      "name": "Bracers of Maliciousness",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Bracers of Maliciousness</b><br /><table width=\"100%\"><tr><td>Wrist</td><th></th></tr></table>+17 Stamina<br />+41 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 15.</span><br /></td></tr></table>",
-      "icon": "inv_bracer_15.png",
-      "dropsFrom": [
-        {
-          "chance": 8.33,
-          "bossId": 2,
-          "npcId": 2
-        }
-      ],
-      "slots": [
-        "Wrist"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 28515,
-      "name": "Bands of Nefarious Deeds",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Bands of Nefarious Deeds</b><br /><table width=\"100%\"><tr><td>Wrist</td><th></th></tr></table>+19 Stamina<br />+15 Intellect<br />+27 Spell Power<br />Requires Level 60<br /></td></tr></table>",
-      "icon": "inv_bracer_13.png",
-      "dropsFrom": [
-        {
-          "chance": 8.33,
-          "bossId": 2,
-          "npcId": 2
-        }
-      ],
-      "slots": [
-        "Wrist"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 28516,
-      "name": "Barbed Choker of Discipline",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Barbed Choker of Discipline</b><br /><table width=\"100%\"><tr><td>Neck</td><th></th></tr></table>+24 Stamina<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your dodge rating by 15.</span><br /><span class=\"q2\">Equip: Increases your defense rating by 11.</span><br /></td></tr></table>",
-      "icon": "inv_jewelry_necklace_ahnqiraj_02.png",
-      "dropsFrom": [
-        {
-          "chance": 8.33,
-          "bossId": 2,
-          "npcId": 2
-        }
-      ],
-      "slots": [
-        "Neck"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 28517,
-      "name": "Boots of Foretelling",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Boots of Foretelling</b><br /><table width=\"100%\"><tr><td>Feet</td><th></th></tr></table>+19 Stamina<br />+16 Intellect<br />+23 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 13.</span><br /><span class=\"q2\">Use: $WowheadPower.registerSpell(1792, 0, {});</span><br /></td></tr></table>",
-      "icon": "inv_boots_cloth_05.png",
-      "dropsFrom": [
-        {
-          "chance": 8.33,
-          "bossId": 2,
-          "npcId": 2
-        }
-      ],
-      "slots": [
-        "Feet"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 28518,
-      "name": "Iron Gauntlets of the Maiden",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Iron Gauntlets of the Maiden</b><br /><table width=\"100%\"><tr><td>Hands</td><th></th></tr></table>+28 Stamina<br />+53 Unknown Stat (48)<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your defense rating by 11.</span><br /><span class=\"q2\">Equip: Increases your shield block rating by 12.</span><br /><span class=\"q2\">Use: $WowheadPower.registerSpell(1536, 0, {</span><br /></td></tr></table>",
-      "icon": "inv_gauntlets_31.png",
-      "dropsFrom": [
-        {
-          "chance": 8.33,
-          "bossId": 2,
-          "npcId": 2
-        }
-      ],
-      "slots": [
-        "Hands"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 28519,
-      "name": "Gloves of Quickening",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Gloves of Quickening</b><br /><table width=\"100%\"><tr><td>Hands</td><th></th></tr></table>+15 Stamina<br />+17 Intellect<br />+41 Attack Power<br />+3 Mana Regen (MP5)<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 12.</span><br /></td></tr></table>",
-      "icon": "inv_gauntlets_25.png",
-      "dropsFrom": [
-        {
-          "chance": 8.33,
-          "bossId": 2,
-          "npcId": 2
-        }
-      ],
-      "slots": [
-        "Hands"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 28520,
-      "name": "Gloves of Centering",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Gloves of Centering</b><br /><table width=\"100%\"><tr><td>Hands</td><th></th></tr></table>+17 Stamina<br />+14 Intellect<br />+33 Spell Power<br />+6 Mana Regen (MP5)<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: $WowheadPower.registerSpell(1280, 0, {});</span><br /></td></tr></table>",
-      "icon": "inv_gauntlets_25.png",
-      "dropsFrom": [
-        {
-          "chance": 8.33,
-          "bossId": 2,
-          "npcId": 2
-        }
-      ],
-      "slots": [
-        "Hands"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 28521,
-      "name": "Mitts of the Treemender",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Mitts of the Treemender</b><br /><table width=\"100%\"><tr><td>Hands</td><th></th></tr></table>+17 Stamina<br />+15 Intellect<br />+10 Spirit<br />+34 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: $WowheadPower.registerSpell(2048, 0, {</span><br /></td></tr></table>",
-      "icon": "inv_gauntlets_25.png",
-      "dropsFrom": [
-        {
-          "chance": 8.33,
-          "bossId": 2,
-          "npcId": 2
-        }
-      ],
-      "slots": [
-        "Hands"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 28522,
-      "name": "Shard of the Virtuous",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Shard of the Virtuous</b><br /><table width=\"100%\"><tr><td>Main Hand</td><th></th></tr></table>+15 Stamina<br />+16 Intellect<br />+126 Spell Power<br />+8 Mana Regen (MP5)<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: $WowheadPower.registerSpell(256, 0, {});</span><br /></td></tr></table>",
-      "icon": "inv_hammer_26.png",
-      "dropsFrom": [
-        {
-          "chance": 8.33,
-          "bossId": 2,
-          "npcId": 2
-        }
-      ],
-      "slots": [
-        "Main Hand"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 28523,
-      "name": "Totem of Healing Rains",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Totem of Healing Rains</b><br /><table width=\"100%\"><tr><td>Relic</td><th></th></tr></table>Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: $WowheadPower.registerSpell(1629516660, 0, {});</span><br /><span class=\"q2\">Equip: $WowheadPower.registerSpell(1629498469, 0, {});</span><br /></td></tr></table>",
-      "icon": "spell_nature_giftofthewaterspirit.png",
-      "dropsFrom": [
-        {
-          "chance": 8.33,
-          "bossId": 2,
-          "npcId": 2
-        }
-      ],
-      "slots": [
-        "Relic"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
       "id": 28612,
       "name": "Pauldrons of the Solace-Giver",
       "classes": [
@@ -1304,7 +21,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Pauldrons of the Solace-Giver</b><br /><table width=\"100%\"><tr><td>Shoulder</td><th></th></tr></table>+20 Intellect<br />+15 Spirit<br />+30 Spell Power<br />+9 Mana Regen (MP5)<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: $WowheadPower.registerSpell(1792, 0, {});</span><br /></td></tr></table>",
-      "icon": "inv_shoulder_25.png",
+      "icon": "inv_shoulder_25.jpg",
       "dropsFrom": [
         {
           "chance": 16.67,
@@ -1336,7 +53,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Wrynn Dynasty Greaves</b><br /><table width=\"100%\"><tr><td>Legs</td><th></th></tr></table>+17 Strength<br />+34 Stamina<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your defense rating by 17.</span><br /><span class=\"q2\">Equip: Increases your dodge rating by 15.</span><br /><span class=\"q2\">Equip: $WowheadPower.registerSpell(256, 0, {});</span><br /></td></tr></table>",
-      "icon": "inv_pants_plate_05.png",
+      "icon": "inv_pants_plate_05.jpg",
       "dropsFrom": [
         {
           "chance": 16.67,
@@ -1368,7 +85,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Dragon-Quake Shoulderguards</b><br /><table width=\"100%\"><tr><td>Shoulder</td><th></th></tr></table>+13 Stamina<br />+19 Intellect<br />+34 Spell Power<br />+7 Mana Regen (MP5)<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: $WowheadPower.registerSpell(1280, 0, {});</span><br /></td></tr></table>",
-      "icon": "inv_shoulder_14.png",
+      "icon": "inv_shoulder_14.jpg",
       "dropsFrom": [
         {
           "chance": 16.67,
@@ -1400,7 +117,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Staff of Infinite Mysteries</b><br /><table width=\"100%\"><tr><td>Two-Hand</td><th></th></tr></table>+27 Stamina<br />+31 Intellect<br />+136 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves hit rating by 20.</span><br /><span class=\"q2\">Use: $WowheadPower.registerSpell(512, 0, {</span><br /></td></tr></table>",
-      "icon": "inv_weapon_halberd17.png",
+      "icon": "inv_weapon_halberd17.jpg",
       "dropsFrom": [
         {
           "chance": 16.67,
@@ -1432,7 +149,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Forest Wind Shoulderpads</b><br /><table width=\"100%\"><tr><td>Shoulder</td><th></th></tr></table>+15 Stamina<br />+20 Intellect<br />+17 Spirit<br />+29 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: $WowheadPower.registerSpell(2048, 0, {</span><br /></td></tr></table>",
-      "icon": "inv_shoulder_01.png",
+      "icon": "inv_shoulder_01.jpg",
       "dropsFrom": [
         {
           "chance": 16.67,
@@ -1464,7 +181,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Garona's Signet Ring</b><br /><table width=\"100%\"><tr><td>Finger</td><th></th></tr></table>+14 Agility<br />+17 Stamina<br />+33 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves hit rating by 15.</span><br /><span class=\"q2\">Use: $WowheadPower.registerSpell(768, 0, {</span><br /></td></tr></table>",
-      "icon": "inv_jewelry_ring_47.png",
+      "icon": "inv_jewelry_ring_47.jpg",
       "dropsFrom": [
         {
           "chance": 16.67,
@@ -1480,6 +197,73 @@
       ]
     },
     {
+      "id": 29434,
+      "name": "Badge of Justice",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Badge of Justice</b><br />Requires Level 60<br /></td></tr></table>",
+      "icon": "spell_holy_championsbond.jpg",
+      "dropsFrom": [
+        {
+          "chance": 100.0,
+          "bossId": 3,
+          "npcId": 3
+        },
+        {
+          "chance": 100.0,
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 100.0,
+          "bossId": 1,
+          "npcId": 1
+        },
+        {
+          "chance": 100.0,
+          "bossId": 4,
+          "npcId": 4
+        },
+        {
+          "chance": 100.0,
+          "bossId": 6,
+          "npcId": 6
+        },
+        {
+          "chance": 100.0,
+          "bossId": 5,
+          "npcId": 5
+        },
+        {
+          "chance": 100.0,
+          "bossId": 9,
+          "npcId": 9
+        },
+        {
+          "chance": 100.0,
+          "bossId": 8,
+          "npcId": 8
+        }
+      ],
+      "slots": [
+        "Non-equippable"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
       "id": 29756,
       "name": "Gloves of the Fallen Hero",
       "classes": [
@@ -1489,7 +273,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Gloves of the Fallen Hero</b><br />Requires Level 60<br /></td></tr></table>",
-      "icon": "inv_gauntlets_27.png",
+      "icon": "inv_gauntlets_27.jpg",
       "dropsFrom": [
         {
           "chance": 33.33,
@@ -1514,7 +298,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Gloves of the Fallen Champion</b><br />Requires Level 60<br /></td></tr></table>",
-      "icon": "inv_gauntlets_27.png",
+      "icon": "inv_gauntlets_27.jpg",
       "dropsFrom": [
         {
           "chance": 33.33,
@@ -1539,7 +323,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Gloves of the Fallen Defender</b><br />Requires Level 60<br /></td></tr></table>",
-      "icon": "inv_gauntlets_27.png",
+      "icon": "inv_gauntlets_27.jpg",
       "dropsFrom": [
         {
           "chance": 33.33,
@@ -1555,8 +339,392 @@
       ]
     },
     {
-      "id": 22560,
-      "name": "Formula: Enchant Weapon - Sunfire",
+      "id": 28511,
+      "name": "Bands of Indwelling",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Bands of Indwelling</b><br /><table width=\"100%\"><tr><td>Wrist</td><th></th></tr></table>+15 Stamina<br />+12 Intellect<br />+14 Spirit<br />+25 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: $WowheadPower.registerSpell(1792, 0, {});</span><br /></td></tr></table>",
+      "icon": "inv_bracer_13.jpg",
+      "dropsFrom": [
+        {
+          "chance": 8.33,
+          "bossId": 2,
+          "npcId": 2
+        }
+      ],
+      "slots": [
+        "Wrist"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 28512,
+      "name": "Bracers of Justice",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Bracers of Justice</b><br /><table width=\"100%\"><tr><td>Wrist</td><th></th></tr></table>+15 Stamina<br />+15 Intellect<br />+25 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 11.</span><br /><span class=\"q2\">Equip: $WowheadPower.registerSpell(256, 0, {});</span><br /></td></tr></table>",
+      "icon": "inv_bracer_02.jpg",
+      "dropsFrom": [
+        {
+          "chance": 8.33,
+          "bossId": 2,
+          "npcId": 2
+        }
+      ],
+      "slots": [
+        "Wrist"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 28514,
+      "name": "Bracers of Maliciousness",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Bracers of Maliciousness</b><br /><table width=\"100%\"><tr><td>Wrist</td><th></th></tr></table>+17 Stamina<br />+41 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 15.</span><br /></td></tr></table>",
+      "icon": "inv_bracer_15.jpg",
+      "dropsFrom": [
+        {
+          "chance": 8.33,
+          "bossId": 2,
+          "npcId": 2
+        }
+      ],
+      "slots": [
+        "Wrist"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 28515,
+      "name": "Bands of Nefarious Deeds",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Bands of Nefarious Deeds</b><br /><table width=\"100%\"><tr><td>Wrist</td><th></th></tr></table>+19 Stamina<br />+15 Intellect<br />+27 Spell Power<br />Requires Level 60<br /></td></tr></table>",
+      "icon": "inv_bracer_13.jpg",
+      "dropsFrom": [
+        {
+          "chance": 8.33,
+          "bossId": 2,
+          "npcId": 2
+        }
+      ],
+      "slots": [
+        "Wrist"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 28516,
+      "name": "Barbed Choker of Discipline",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Barbed Choker of Discipline</b><br /><table width=\"100%\"><tr><td>Neck</td><th></th></tr></table>+24 Stamina<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your dodge rating by 15.</span><br /><span class=\"q2\">Equip: Increases your defense rating by 11.</span><br /></td></tr></table>",
+      "icon": "inv_jewelry_necklace_ahnqiraj_02.jpg",
+      "dropsFrom": [
+        {
+          "chance": 8.33,
+          "bossId": 2,
+          "npcId": 2
+        }
+      ],
+      "slots": [
+        "Neck"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 28517,
+      "name": "Boots of Foretelling",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Boots of Foretelling</b><br /><table width=\"100%\"><tr><td>Feet</td><th></th></tr></table>+19 Stamina<br />+16 Intellect<br />+23 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 13.</span><br /><span class=\"q2\">Use: $WowheadPower.registerSpell(1792, 0, {});</span><br /></td></tr></table>",
+      "icon": "inv_boots_cloth_05.jpg",
+      "dropsFrom": [
+        {
+          "chance": 8.33,
+          "bossId": 2,
+          "npcId": 2
+        }
+      ],
+      "slots": [
+        "Feet"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 28518,
+      "name": "Iron Gauntlets of the Maiden",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Iron Gauntlets of the Maiden</b><br /><table width=\"100%\"><tr><td>Hands</td><th></th></tr></table>+28 Stamina<br />+53 Unknown Stat (48)<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your defense rating by 11.</span><br /><span class=\"q2\">Equip: Increases your shield block rating by 12.</span><br /><span class=\"q2\">Use: $WowheadPower.registerSpell(1536, 0, {</span><br /></td></tr></table>",
+      "icon": "inv_gauntlets_31.jpg",
+      "dropsFrom": [
+        {
+          "chance": 8.33,
+          "bossId": 2,
+          "npcId": 2
+        }
+      ],
+      "slots": [
+        "Hands"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 28519,
+      "name": "Gloves of Quickening",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Gloves of Quickening</b><br /><table width=\"100%\"><tr><td>Hands</td><th></th></tr></table>+15 Stamina<br />+17 Intellect<br />+41 Attack Power<br />+3 Mana Regen (MP5)<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 12.</span><br /></td></tr></table>",
+      "icon": "inv_gauntlets_25.jpg",
+      "dropsFrom": [
+        {
+          "chance": 8.33,
+          "bossId": 2,
+          "npcId": 2
+        }
+      ],
+      "slots": [
+        "Hands"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 28520,
+      "name": "Gloves of Centering",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Gloves of Centering</b><br /><table width=\"100%\"><tr><td>Hands</td><th></th></tr></table>+17 Stamina<br />+14 Intellect<br />+33 Spell Power<br />+6 Mana Regen (MP5)<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: $WowheadPower.registerSpell(1280, 0, {});</span><br /></td></tr></table>",
+      "icon": "inv_gauntlets_25.jpg",
+      "dropsFrom": [
+        {
+          "chance": 8.33,
+          "bossId": 2,
+          "npcId": 2
+        }
+      ],
+      "slots": [
+        "Hands"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 28521,
+      "name": "Mitts of the Treemender",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Mitts of the Treemender</b><br /><table width=\"100%\"><tr><td>Hands</td><th></th></tr></table>+17 Stamina<br />+15 Intellect<br />+10 Spirit<br />+34 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: $WowheadPower.registerSpell(2048, 0, {</span><br /></td></tr></table>",
+      "icon": "inv_gauntlets_25.jpg",
+      "dropsFrom": [
+        {
+          "chance": 8.33,
+          "bossId": 2,
+          "npcId": 2
+        }
+      ],
+      "slots": [
+        "Hands"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 28522,
+      "name": "Shard of the Virtuous",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Shard of the Virtuous</b><br /><table width=\"100%\"><tr><td>Main Hand</td><th></th></tr></table>+15 Stamina<br />+16 Intellect<br />+126 Spell Power<br />+8 Mana Regen (MP5)<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: $WowheadPower.registerSpell(256, 0, {});</span><br /></td></tr></table>",
+      "icon": "inv_hammer_26.jpg",
+      "dropsFrom": [
+        {
+          "chance": 8.33,
+          "bossId": 2,
+          "npcId": 2
+        }
+      ],
+      "slots": [
+        "Main Hand"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 28523,
+      "name": "Totem of Healing Rains",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Totem of Healing Rains</b><br /><table width=\"100%\"><tr><td>Relic</td><th></th></tr></table>Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: $WowheadPower.registerSpell(1629516660, 0, {});</span><br /><span class=\"q2\">Equip: $WowheadPower.registerSpell(1629498469, 0, {});</span><br /></td></tr></table>",
+      "icon": "spell_nature_giftofthewaterspirit.jpg",
+      "dropsFrom": [
+        {
+          "chance": 8.33,
+          "bossId": 2,
+          "npcId": 2
+        }
+      ],
+      "slots": [
+        "Relic"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 22559,
+      "name": "Formula: Enchant Weapon - Mongoose",
       "classes": [
         "Warrior",
         "Paladin",
@@ -1570,13 +738,13 @@
         "Druid"
       ],
       "quality": 3,
-      "tooltip": "<table><tr><td><b class=\"q3\">Formula: Enchant Weapon - Sunfire</b><br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: $WowheadPower.registerSpell(544433512, 0, {});</span><br /><span class=\"q2\">Equip: $WowheadPower.registerSpell(1696627052, 0, {});</span><br /><span class=\"q2\">Equip: $WowheadPower.registerSpell(1869881454, 0, {});</span><br /></td></tr></table>",
-      "icon": "inv_misc_note_01.png",
+      "tooltip": "<table><tr><td><b class=\"q3\">Formula: Enchant Weapon - Mongoose</b><br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: $WowheadPower.registerSpell(544433512, 0, {});</span><br /><span class=\"q2\">Equip: $WowheadPower.registerSpell(1696627052, 0, {});</span><br /><span class=\"q2\">Equip: $WowheadPower.registerSpell(1869881454, 0, {});</span><br /></td></tr></table>",
+      "icon": "inv_misc_note_01.jpg",
       "dropsFrom": [
         {
           "chance": 100.0,
-          "bossId": 5,
-          "npcId": 5
+          "bossId": 1,
+          "npcId": 1
         }
       ],
       "slots": [
@@ -1587,40 +755,8 @@
       ]
     },
     {
-      "id": 23933,
-      "name": "Medivh's Journal",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 1,
-      "tooltip": "<table><tr><td><b class=\"q1\">Medivh's Journal</b><br /></td></tr></table>",
-      "icon": "inv_misc_book_06.png",
-      "dropsFrom": [
-        {
-          "chance": 100.0,
-          "bossId": 5,
-          "npcId": 5
-        }
-      ],
-      "slots": [
-        "Non-equippable"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 28663,
-      "name": "Boots of the Incorrupt",
+      "id": 28524,
+      "name": "Emerald Ripper",
       "classes": [
         "Warrior",
         "Paladin",
@@ -1634,25 +770,25 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Boots of the Incorrupt</b><br /><table width=\"100%\"><tr><td>Feet</td><th></th></tr></table>+17 Stamina<br />+17 Intellect<br />+16 Spirit<br />+30 Spell Power<br />+7 Mana Regen (MP5)<br />Requires Level 60<br /></td></tr></table>",
-      "icon": "inv_boots_fabric_01.png",
+      "tooltip": "<table><tr><td><b class=\"q4\">Emerald Ripper</b><br /><table width=\"100%\"><tr><td>One-Hand</td><th></th></tr></table>+13 Agility<br />+12 Stamina<br />+30 Attack Power<br />Requires Level 60<br /></td></tr></table>",
+      "icon": "inv_weapon_shortblade_38.jpg",
       "dropsFrom": [
         {
           "chance": 8.33,
-          "bossId": 5,
-          "npcId": 5
+          "bossId": 1,
+          "npcId": 1
         }
       ],
       "slots": [
-        "Feet"
+        "One-Hand"
       ],
       "types": [
         "Unknown"
       ]
     },
     {
-      "id": 28666,
-      "name": "Pauldrons of the Justice-Seeker",
+      "id": 28525,
+      "name": "Signet of Unshakable Faith",
       "classes": [
         "Warrior",
         "Paladin",
@@ -1666,25 +802,25 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Pauldrons of the Justice-Seeker</b><br /><table width=\"100%\"><tr><td>Shoulder</td><th></th></tr></table>+16 Stamina<br />+18 Intellect<br />+30 Spell Power<br />+6 Mana Regen (MP5)<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 15.</span><br /></td></tr></table>",
-      "icon": "inv_shoulder_35.png",
+      "tooltip": "<table><tr><td><b class=\"q4\">Signet of Unshakable Faith</b><br /><table width=\"100%\"><tr><td>Held In Off-hand</td><th></th></tr></table>+13 Stamina<br />+15 Intellect<br />+15 Spirit<br />+20 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: $WowheadPower.registerSpell(768, 0, {</span><br /></td></tr></table>",
+      "icon": "inv_jewelry_ring_60.jpg",
       "dropsFrom": [
         {
           "chance": 8.33,
-          "bossId": 5,
-          "npcId": 5
+          "bossId": 1,
+          "npcId": 1
         }
       ],
       "slots": [
-        "Shoulder"
+        "Held In Off-hand"
       ],
       "types": [
         "Unknown"
       ]
     },
     {
-      "id": 28669,
-      "name": "Rapscallion Boots",
+      "id": 28528,
+      "name": "Moroes' Lucky Pocket Watch",
       "classes": [
         "Warrior",
         "Paladin",
@@ -1698,269 +834,13 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Rapscallion Boots</b><br /><table width=\"100%\"><tr><td>Feet</td><th></th></tr></table>+18 Stamina<br />+41 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 17.</span><br /></td></tr></table>",
-      "icon": "inv_boots_plate_06.png",
+      "tooltip": "<table><tr><td><b class=\"q4\">Moroes' Lucky Pocket Watch</b><br /><table width=\"100%\"><tr><td>Trinket</td><th></th></tr></table>Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your dodge rating by 27.</span><br /><span class=\"q2\">Use: $WowheadPower.registerSpell(1024, 0, {});</span><br /></td></tr></table>",
+      "icon": "inv_misc_pocketwatch_02.jpg",
       "dropsFrom": [
         {
           "chance": 8.33,
-          "bossId": 5,
-          "npcId": 5
-        }
-      ],
-      "slots": [
-        "Feet"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 28670,
-      "name": "Boots of the Infernal Coven",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Boots of the Infernal Coven</b><br /><table width=\"100%\"><tr><td>Feet</td><th></th></tr></table>+19 Stamina<br />+19 Intellect<br />+16 Spirit<br />+25 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: $WowheadPower.registerSpell(1792, 0, {});</span><br /></td></tr></table>",
-      "icon": "inv_boots_05.png",
-      "dropsFrom": [
-        {
-          "chance": 8.33,
-          "bossId": 5,
-          "npcId": 5
-        }
-      ],
-      "slots": [
-        "Feet"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 28671,
-      "name": "Steelspine Faceguard",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Steelspine Faceguard</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>+21 Agility<br />+24 Stamina<br />+22 Intellect<br />+37 Attack Power<br />+8 Mana Regen (MP5)<br />Requires Level 60<br /></td></tr></table>",
-      "icon": "inv_helmet_05.png",
-      "dropsFrom": [
-        {
-          "chance": 8.33,
-          "bossId": 5,
-          "npcId": 5
-        }
-      ],
-      "slots": [
-        "Head"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 28672,
-      "name": "Drape of the Dark Reavers",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Drape of the Dark Reavers</b><br /><table width=\"100%\"><tr><td>Back</td><th></th></tr></table>+17 Agility<br />+15 Stamina<br />+28 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves hit rating by 15.</span><br /><span class=\"q2\">Use: $WowheadPower.registerSpell(1792, 0, {});</span><br /></td></tr></table>",
-      "icon": "inv_misc_cape_10.png",
-      "dropsFrom": [
-        {
-          "chance": 8.33,
-          "bossId": 5,
-          "npcId": 5
-        }
-      ],
-      "slots": [
-        "Back"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 28673,
-      "name": "Tirisfal Wand of Ascendancy",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Tirisfal Wand of Ascendancy</b><br /><table width=\"100%\"><tr><td>Ranged Right</td><th></th></tr></table>+11 Stamina<br />+12 Intellect<br />+14 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves hit rating by 11.</span><br /><span class=\"q2\">Use: $WowheadPower.registerSpell(512, 0, {</span><br /></td></tr></table>",
-      "icon": "inv_wand_21.png",
-      "dropsFrom": [
-        {
-          "chance": 8.33,
-          "bossId": 5,
-          "npcId": 5
-        }
-      ],
-      "slots": [
-        "Ranged Right"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 28674,
-      "name": "Saberclaw Talisman",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Saberclaw Talisman</b><br /><table width=\"100%\"><tr><td>Neck</td><th></th></tr></table>+21 Agility<br />+20 Stamina<br />+38 Attack Power<br />Requires Level 60<br /></td></tr></table>",
-      "icon": "inv_jewelry_necklace_34.png",
-      "dropsFrom": [
-        {
-          "chance": 8.33,
-          "bossId": 5,
-          "npcId": 5
-        }
-      ],
-      "slots": [
-        "Neck"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 28675,
-      "name": "Shermanar Great-Ring",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Shermanar Great-Ring</b><br /><table width=\"100%\"><tr><td>Finger</td><th></th></tr></table>+25 Stamina<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your defense rating by 16.</span><br /></td></tr></table>",
-      "icon": "inv_jewelry_ring_19.png",
-      "dropsFrom": [
-        {
-          "chance": 8.33,
-          "bossId": 5,
-          "npcId": 5
-        }
-      ],
-      "slots": [
-        "Finger"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 28726,
-      "name": "Mantle of the Mind Flayer",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Mantle of the Mind Flayer</b><br /><table width=\"100%\"><tr><td>Shoulder</td><th></th></tr></table>+23 Stamina<br />+20 Intellect<br />+25 Spell Power<br />+13 Unknown Stat (47)<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: $WowheadPower.registerSpell(1792, 0, {});</span><br /></td></tr></table>",
-      "icon": "inv_shoulder_25.png",
-      "dropsFrom": [
-        {
-          "chance": 8.33,
-          "bossId": 5,
-          "npcId": 5
-        }
-      ],
-      "slots": [
-        "Shoulder"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 28727,
-      "name": "Pendant of the Violet Eye",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Pendant of the Violet Eye</b><br /><table width=\"100%\"><tr><td>Trinket</td><th></th></tr></table>+28 Intellect<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: $WowheadPower.registerSpell(1024, 0, {});</span><br /></td></tr></table>",
-      "icon": "inv_trinket_naxxramas02.png",
-      "dropsFrom": [
-        {
-          "chance": 8.33,
-          "bossId": 5,
-          "npcId": 5
+          "bossId": 1,
+          "npcId": 1
         }
       ],
       "slots": [
@@ -1971,8 +851,8 @@
       ]
     },
     {
-      "id": 28728,
-      "name": "Aran's Soothing Sapphire",
+      "id": 28529,
+      "name": "Royal Cloak of Arathi Kings",
       "classes": [
         "Warrior",
         "Paladin",
@@ -1986,17 +866,689 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Aran's Soothing Sapphire</b><br /><table width=\"100%\"><tr><td>Held In Off-hand</td><th></th></tr></table>+12 Stamina<br />+14 Intellect<br />+27 Spell Power<br />+5 Mana Regen (MP5)<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: $WowheadPower.registerSpell(768, 0, {</span><br /></td></tr></table>",
-      "icon": "inv_misc_gem_sapphire_02.png",
+      "tooltip": "<table><tr><td><b class=\"q4\">Royal Cloak of Arathi Kings</b><br /><table width=\"100%\"><tr><td>Back</td><th></th></tr></table>+18 Strength<br />+22 Stamina<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves hit rating by 14.</span><br /></td></tr></table>",
+      "icon": "inv_misc_cape_10.jpg",
       "dropsFrom": [
         {
           "chance": 8.33,
-          "bossId": 5,
-          "npcId": 5
+          "bossId": 1,
+          "npcId": 1
         }
       ],
       "slots": [
-        "Held In Off-hand"
+        "Back"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 28530,
+      "name": "Brooch of Unquenchable Fury",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Brooch of Unquenchable Fury</b><br /><table width=\"100%\"><tr><td>Neck</td><th></th></tr></table>+17 Stamina<br />+15 Intellect<br />+22 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves hit rating by 12.</span><br /><span class=\"q2\">Use: $WowheadPower.registerSpell(768, 0, {</span><br /></td></tr></table>",
+      "icon": "inv_jewelry_necklace_ahnqiraj_04.jpg",
+      "dropsFrom": [
+        {
+          "chance": 8.33,
+          "bossId": 1,
+          "npcId": 1
+        }
+      ],
+      "slots": [
+        "Neck"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 28545,
+      "name": "Edgewalker Longboots",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Edgewalker Longboots</b><br /><table width=\"100%\"><tr><td>Feet</td><th></th></tr></table>+18 Agility<br />+20 Stamina<br />+36 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves hit rating by 11.</span><br /><span class=\"q2\">Use: $WowheadPower.registerSpell(2048, 0, {</span><br /></td></tr></table>",
+      "icon": "inv_boots_plate_06.jpg",
+      "dropsFrom": [
+        {
+          "chance": 8.33,
+          "bossId": 1,
+          "npcId": 1
+        }
+      ],
+      "slots": [
+        "Feet"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 28565,
+      "name": "Nethershard Girdle",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Nethershard Girdle</b><br /><table width=\"100%\"><tr><td>Waist</td><th></th></tr></table>+15 Stamina<br />+21 Intellect<br />+15 Spirit<br />+32 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: $WowheadPower.registerSpell(1792, 0, {});</span><br /></td></tr></table>",
+      "icon": "inv_belt_08.jpg",
+      "dropsFrom": [
+        {
+          "chance": 8.33,
+          "bossId": 1,
+          "npcId": 1
+        }
+      ],
+      "slots": [
+        "Waist"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 28566,
+      "name": "Crimson Girdle of the Indomitable",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Crimson Girdle of the Indomitable</b><br /><table width=\"100%\"><tr><td>Waist</td><th></th></tr></table>+14 Strength<br />+25 Stamina<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your defense rating by 16.</span><br /><span class=\"q2\">Equip: Increases your shield block rating by 11.</span><br /><span class=\"q2\">Equip: $WowheadPower.registerSpell(256, 0, {});</span><br /></td></tr></table>",
+      "icon": "inv_belt_27.jpg",
+      "dropsFrom": [
+        {
+          "chance": 8.33,
+          "bossId": 1,
+          "npcId": 1
+        }
+      ],
+      "slots": [
+        "Waist"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 28567,
+      "name": "Belt of Gale Force",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Belt of Gale Force</b><br /><table width=\"100%\"><tr><td>Waist</td><th></th></tr></table>+19 Stamina<br />+20 Intellect<br />+32 Spell Power<br />+9 Mana Regen (MP5)<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: $WowheadPower.registerSpell(1280, 0, {});</span><br /></td></tr></table>",
+      "icon": "inv_belt_22.jpg",
+      "dropsFrom": [
+        {
+          "chance": 8.33,
+          "bossId": 1,
+          "npcId": 1
+        }
+      ],
+      "slots": [
+        "Waist"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 28568,
+      "name": "Idol of the Avian Heart",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Idol of the Avian Heart</b><br /><table width=\"100%\"><tr><td>Relic</td><th></th></tr></table>Requires Level 60<br /></td></tr></table>",
+      "icon": "inv_misc_thegoldencheep.jpg",
+      "dropsFrom": [
+        {
+          "chance": 8.33,
+          "bossId": 1,
+          "npcId": 1
+        }
+      ],
+      "slots": [
+        "Relic"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 28569,
+      "name": "Boots of Valiance",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Boots of Valiance</b><br /><table width=\"100%\"><tr><td>Feet</td><th></th></tr></table>+16 Stamina<br />+19 Intellect<br />+28 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 14.</span><br /><span class=\"q2\">Equip: $WowheadPower.registerSpell(256, 0, {});</span><br /></td></tr></table>",
+      "icon": "inv_boots_chain_05.jpg",
+      "dropsFrom": [
+        {
+          "chance": 8.33,
+          "bossId": 1,
+          "npcId": 1
+        }
+      ],
+      "slots": [
+        "Feet"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 28570,
+      "name": "Shadow-Cloak of Dalaran",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Shadow-Cloak of Dalaran</b><br /><table width=\"100%\"><tr><td>Back</td><th></th></tr></table>+13 Stamina<br />+12 Intellect<br />+26 Spell Power<br />Requires Level 60<br /></td></tr></table>",
+      "icon": "inv_misc_cape_20.jpg",
+      "dropsFrom": [
+        {
+          "chance": 8.33,
+          "bossId": 1,
+          "npcId": 1
+        }
+      ],
+      "slots": [
+        "Back"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 22561,
+      "name": "Formula: Enchant Weapon - Soulfrost",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 3,
+      "tooltip": "<table><tr><td><b class=\"q3\">Formula: Enchant Weapon - Soulfrost</b><br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: $WowheadPower.registerSpell(544433512, 0, {});</span><br /><span class=\"q2\">Equip: $WowheadPower.registerSpell(1696627052, 0, {});</span><br /><span class=\"q2\">Equip: $WowheadPower.registerSpell(1869881454, 0, {});</span><br /></td></tr></table>",
+      "icon": "inv_misc_note_01.jpg",
+      "dropsFrom": [
+        {
+          "chance": 100.0,
+          "bossId": 4,
+          "npcId": 4
+        }
+      ],
+      "slots": [
+        "Non-equippable"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 28652,
+      "name": "Cincture of Will",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Cincture of Will</b><br /><table width=\"100%\"><tr><td>Waist</td><th></th></tr></table>+17 Stamina<br />+20 Intellect<br />+17 Spirit<br />+32 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: $WowheadPower.registerSpell(1792, 0, {});</span><br /></td></tr></table>",
+      "icon": "inv_belt_08.jpg",
+      "dropsFrom": [
+        {
+          "chance": 8.33,
+          "bossId": 4,
+          "npcId": 4
+        }
+      ],
+      "slots": [
+        "Waist"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 28653,
+      "name": "Shadowvine Cloak of Infusion",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Shadowvine Cloak of Infusion</b><br /><table width=\"100%\"><tr><td>Back</td><th></th></tr></table>+15 Intellect<br />+15 Spirit<br />+9 Mana Regen (MP5)<br />Requires Level 60<br /></td></tr></table>",
+      "icon": "inv_misc_cape_05.jpg",
+      "dropsFrom": [
+        {
+          "chance": 8.33,
+          "bossId": 4,
+          "npcId": 4
+        }
+      ],
+      "slots": [
+        "Back"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 28654,
+      "name": "Malefic Girdle",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Malefic Girdle</b><br /><table width=\"100%\"><tr><td>Waist</td><th></th></tr></table>+19 Stamina<br />+18 Intellect<br />+27 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 15.</span><br /><span class=\"q2\">Use: $WowheadPower.registerSpell(1792, 0, {});</span><br /></td></tr></table>",
+      "icon": "inv_belt_03.jpg",
+      "dropsFrom": [
+        {
+          "chance": 8.33,
+          "bossId": 4,
+          "npcId": 4
+        }
+      ],
+      "slots": [
+        "Waist"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 28655,
+      "name": "Cord of Nature's Sustenance",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Cord of Nature's Sustenance</b><br /><table width=\"100%\"><tr><td>Waist</td><th></th></tr></table>+17 Stamina<br />+21 Intellect<br />+11 Spirit<br />+32 Spell Power<br />+7 Mana Regen (MP5)<br />Requires Level 60<br /></td></tr></table>",
+      "icon": "inv_belt_22.jpg",
+      "dropsFrom": [
+        {
+          "chance": 8.33,
+          "bossId": 4,
+          "npcId": 4
+        }
+      ],
+      "slots": [
+        "Waist"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 28656,
+      "name": "Girdle of the Prowler",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Girdle of the Prowler</b><br /><table width=\"100%\"><tr><td>Waist</td><th></th></tr></table>+17 Agility<br />+15 Stamina<br />+15 Intellect<br />+38 Attack Power<br />+6 Mana Regen (MP5)<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves hit rating by 15.</span><br /></td></tr></table>",
+      "icon": "inv_belt_22.jpg",
+      "dropsFrom": [
+        {
+          "chance": 8.33,
+          "bossId": 4,
+          "npcId": 4
+        }
+      ],
+      "slots": [
+        "Waist"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 28657,
+      "name": "Fool's Bane",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Fool's Bane</b><br /><table width=\"100%\"><tr><td>One-Hand</td><th></th></tr></table>+36 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 17.</span><br /></td></tr></table>",
+      "icon": "inv_weapon_shortblade_44.jpg",
+      "dropsFrom": [
+        {
+          "chance": 8.33,
+          "bossId": 4,
+          "npcId": 4
+        }
+      ],
+      "slots": [
+        "One-Hand"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 28658,
+      "name": "Terestian's Stranglestaff",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Terestian's Stranglestaff</b><br /><table width=\"100%\"><tr><td>Two-Hand</td><th></th></tr></table>+26 Agility<br />+31 Stamina<br />+54 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves hit rating by 21.</span><br /><span class=\"q2\">Use: $WowheadPower.registerSpell(512, 0, {</span><br /></td></tr></table>",
+      "icon": "inv_staff_55.jpg",
+      "dropsFrom": [
+        {
+          "chance": 8.33,
+          "bossId": 4,
+          "npcId": 4
+        }
+      ],
+      "slots": [
+        "Two-Hand"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 28659,
+      "name": "Xavian Stiletto",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Xavian Stiletto</b><br /><table width=\"100%\"><tr><td>Thrown</td><th></th></tr></table>Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 14.</span><br /><span class=\"q2\">Equip: Improves hit rating by 10.</span><br /></td></tr></table>",
+      "icon": "inv_weapon_shortblade_35.jpg",
+      "dropsFrom": [
+        {
+          "chance": 8.33,
+          "bossId": 4,
+          "npcId": 4
+        }
+      ],
+      "slots": [
+        "Thrown"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 28660,
+      "name": "Gilded Thorium Cloak",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Gilded Thorium Cloak</b><br /><table width=\"100%\"><tr><td>Back</td><th></th></tr></table>+21 Stamina<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your defense rating by 17.</span><br /></td></tr></table>",
+      "icon": "inv_misc_cape_20.jpg",
+      "dropsFrom": [
+        {
+          "chance": 8.33,
+          "bossId": 4,
+          "npcId": 4
+        }
+      ],
+      "slots": [
+        "Back"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 28661,
+      "name": "Mender's Heart-Ring",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Mender's Heart-Ring</b><br /><table width=\"100%\"><tr><td>Finger</td><th></th></tr></table>+12 Stamina<br />+15 Intellect<br />+13 Spirit<br />+23 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: $WowheadPower.registerSpell(768, 0, {</span><br /></td></tr></table>",
+      "icon": "inv_jewelry_ring_36.jpg",
+      "dropsFrom": [
+        {
+          "chance": 8.33,
+          "bossId": 4,
+          "npcId": 4
+        }
+      ],
+      "slots": [
+        "Finger"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 28662,
+      "name": "Breastplate of the Lightbinder",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Breastplate of the Lightbinder</b><br /><table width=\"100%\"><tr><td>Chest</td><th></th></tr></table>+20 Stamina<br />+28 Intellect<br />+36 Spell Power<br />+11 Mana Regen (MP5)<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: $WowheadPower.registerSpell(256, 0, {});</span><br /></td></tr></table>",
+      "icon": "inv_chest_plate03.jpg",
+      "dropsFrom": [
+        {
+          "chance": 8.33,
+          "bossId": 4,
+          "npcId": 4
+        }
+      ],
+      "slots": [
+        "Chest"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 28785,
+      "name": "The Lightning Capacitor",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">The Lightning Capacitor</b><br /><table width=\"100%\"><tr><td>Trinket</td><th></th></tr></table>Requires Level 60<br /></td></tr></table>",
+      "icon": "inv_trinket_naxxramas06.jpg",
+      "dropsFrom": [
+        {
+          "chance": 8.33,
+          "bossId": 4,
+          "npcId": 4
+        }
+      ],
+      "slots": [
+        "Trinket"
       ],
       "types": [
         "Unknown"
@@ -2019,7 +1571,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Spiteblade</b><br /><table width=\"100%\"><tr><td>One-Hand</td><th></th></tr></table>+10 Agility<br />+11 Stamina<br />+34 Attack Power<br />Requires Level 60<br /></td></tr></table>",
-      "icon": "inv_sword_74.png",
+      "icon": "inv_sword_74.jpg",
       "dropsFrom": [
         {
           "chance": 8.33,
@@ -2051,7 +1603,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Mithril Band of the Unscarred</b><br /><table width=\"100%\"><tr><td>Finger</td><th></th></tr></table>+18 Strength<br />+15 Stamina<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 15.</span><br /></td></tr></table>",
-      "icon": "inv_jewelry_ring_24.png",
+      "icon": "inv_jewelry_ring_24.jpg",
       "dropsFrom": [
         {
           "chance": 8.33,
@@ -2083,7 +1635,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Shining Chain of the Afterworld</b><br /><table width=\"100%\"><tr><td>Neck</td><th></th></tr></table>+12 Stamina<br />+15 Intellect<br />+13 Spirit<br />+25 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: $WowheadPower.registerSpell(1024, 0, {});</span><br /></td></tr></table>",
-      "icon": "inv_jewelry_necklace_32.png",
+      "icon": "inv_jewelry_necklace_32.jpg",
       "dropsFrom": [
         {
           "chance": 8.33,
@@ -2115,7 +1667,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Cowl of Defiance</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>+19 Agility<br />+21 Stamina<br />+43 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves hit rating by 21.</span><br /><span class=\"q2\">Use: $WowheadPower.registerSpell(2048, 0, {</span><br /></td></tr></table>",
-      "icon": "inv_helmet_58.png",
+      "icon": "inv_helmet_58.jpg",
       "dropsFrom": [
         {
           "chance": 8.33,
@@ -2147,7 +1699,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Girdle of Truth</b><br /><table width=\"100%\"><tr><td>Waist</td><th></th></tr></table>+20 Stamina<br />+20 Intellect<br />+28 Spell Power<br />+6 Mana Regen (MP5)<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: $WowheadPower.registerSpell(256, 0, {});</span><br /></td></tr></table>",
-      "icon": "inv_belt_22.png",
+      "icon": "inv_belt_22.jpg",
       "dropsFrom": [
         {
           "chance": 8.33,
@@ -2179,7 +1731,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Jewel of Infinite Possibilities</b><br /><table width=\"100%\"><tr><td>Held In Off-hand</td><th></th></tr></table>+15 Stamina<br />+16 Intellect<br />+20 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves hit rating by 14.</span><br /><span class=\"q2\">Use: $WowheadPower.registerSpell(768, 0, {</span><br /></td></tr></table>",
-      "icon": "inv_misc_gem_ebondraenite_02.png",
+      "icon": "inv_misc_gem_ebondraenite_02.jpg",
       "dropsFrom": [
         {
           "chance": 8.33,
@@ -2211,7 +1763,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Earthblood Chestguard</b><br /><table width=\"100%\"><tr><td>Chest</td><th></th></tr></table>+24 Stamina<br />+22 Intellect<br />+36 Spell Power<br />+10 Mana Regen (MP5)<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: $WowheadPower.registerSpell(1280, 0, {});</span><br /></td></tr></table>",
-      "icon": "inv_chest_plate08.png",
+      "icon": "inv_chest_plate08.jpg",
       "dropsFrom": [
         {
           "chance": 8.33,
@@ -2243,7 +1795,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Rip-Flayer Leggings</b><br /><table width=\"100%\"><tr><td>Legs</td><th></th></tr></table>+14 Stamina<br />+21 Intellect<br />+32 Attack Power<br />+7 Mana Regen (MP5)<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 20.</span><br /></td></tr></table>",
-      "icon": "inv_pants_plate_02.png",
+      "icon": "inv_pants_plate_02.jpg",
       "dropsFrom": [
         {
           "chance": 8.33,
@@ -2275,7 +1827,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Skulker's Greaves</b><br /><table width=\"100%\"><tr><td>Legs</td><th></th></tr></table>+22 Agility<br />+20 Stamina<br />+37 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves hit rating by 17.</span><br /><span class=\"q2\">Use: $WowheadPower.registerSpell(2048, 0, {</span><br /></td></tr></table>",
-      "icon": "inv_pants_leather_13.png",
+      "icon": "inv_pants_leather_13.jpg",
       "dropsFrom": [
         {
           "chance": 8.33,
@@ -2307,7 +1859,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Pantaloons of Repentance</b><br /><table width=\"100%\"><tr><td>Legs</td><th></th></tr></table>+19 Stamina<br />+24 Intellect<br />+18 Spirit<br />+36 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: $WowheadPower.registerSpell(1792, 0, {});</span><br /></td></tr></table>",
-      "icon": "inv_pants_cloth_13.png",
+      "icon": "inv_pants_cloth_13.jpg",
       "dropsFrom": [
         {
           "chance": 8.33,
@@ -2339,7 +1891,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Mantle of Abrahmis</b><br /><table width=\"100%\"><tr><td>Shoulder</td><th></th></tr></table>+15 Strength<br />+28 Stamina<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your defense rating by 13.</span><br /></td></tr></table>",
-      "icon": "inv_shoulder_29.png",
+      "icon": "inv_shoulder_29.jpg",
       "dropsFrom": [
         {
           "chance": 8.33,
@@ -2371,7 +1923,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Uni-Mind Headdress</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>+22 Stamina<br />+28 Intellect<br />+33 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 17.</span><br /><span class=\"q2\">Equip: Improves hit rating by 16.</span><br /></td></tr></table>",
-      "icon": "inv_helmet_53.png",
+      "icon": "inv_helmet_53.jpg",
       "dropsFrom": [
         {
           "chance": 8.33,
@@ -2381,6 +1933,454 @@
       ],
       "slots": [
         "Head"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 22560,
+      "name": "Formula: Enchant Weapon - Sunfire",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 3,
+      "tooltip": "<table><tr><td><b class=\"q3\">Formula: Enchant Weapon - Sunfire</b><br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: $WowheadPower.registerSpell(544433512, 0, {});</span><br /><span class=\"q2\">Equip: $WowheadPower.registerSpell(1696627052, 0, {});</span><br /><span class=\"q2\">Equip: $WowheadPower.registerSpell(1869881454, 0, {});</span><br /></td></tr></table>",
+      "icon": "inv_misc_note_01.jpg",
+      "dropsFrom": [
+        {
+          "chance": 100.0,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Non-equippable"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 23933,
+      "name": "Medivh's Journal",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 1,
+      "tooltip": "<table><tr><td><b class=\"q1\">Medivh's Journal</b><br /></td></tr></table>",
+      "icon": "inv_misc_book_06.jpg",
+      "dropsFrom": [
+        {
+          "chance": 100.0,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Non-equippable"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 28663,
+      "name": "Boots of the Incorrupt",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Boots of the Incorrupt</b><br /><table width=\"100%\"><tr><td>Feet</td><th></th></tr></table>+17 Stamina<br />+17 Intellect<br />+16 Spirit<br />+30 Spell Power<br />+7 Mana Regen (MP5)<br />Requires Level 60<br /></td></tr></table>",
+      "icon": "inv_boots_fabric_01.jpg",
+      "dropsFrom": [
+        {
+          "chance": 8.33,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Feet"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 28666,
+      "name": "Pauldrons of the Justice-Seeker",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Pauldrons of the Justice-Seeker</b><br /><table width=\"100%\"><tr><td>Shoulder</td><th></th></tr></table>+16 Stamina<br />+18 Intellect<br />+30 Spell Power<br />+6 Mana Regen (MP5)<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 15.</span><br /></td></tr></table>",
+      "icon": "inv_shoulder_35.jpg",
+      "dropsFrom": [
+        {
+          "chance": 8.33,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Shoulder"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 28669,
+      "name": "Rapscallion Boots",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Rapscallion Boots</b><br /><table width=\"100%\"><tr><td>Feet</td><th></th></tr></table>+18 Stamina<br />+41 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 17.</span><br /></td></tr></table>",
+      "icon": "inv_boots_plate_06.jpg",
+      "dropsFrom": [
+        {
+          "chance": 8.33,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Feet"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 28670,
+      "name": "Boots of the Infernal Coven",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Boots of the Infernal Coven</b><br /><table width=\"100%\"><tr><td>Feet</td><th></th></tr></table>+19 Stamina<br />+19 Intellect<br />+16 Spirit<br />+25 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: $WowheadPower.registerSpell(1792, 0, {});</span><br /></td></tr></table>",
+      "icon": "inv_boots_05.jpg",
+      "dropsFrom": [
+        {
+          "chance": 8.33,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Feet"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 28671,
+      "name": "Steelspine Faceguard",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Steelspine Faceguard</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>+21 Agility<br />+24 Stamina<br />+22 Intellect<br />+37 Attack Power<br />+8 Mana Regen (MP5)<br />Requires Level 60<br /></td></tr></table>",
+      "icon": "inv_helmet_05.jpg",
+      "dropsFrom": [
+        {
+          "chance": 8.33,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Head"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 28672,
+      "name": "Drape of the Dark Reavers",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Drape of the Dark Reavers</b><br /><table width=\"100%\"><tr><td>Back</td><th></th></tr></table>+17 Agility<br />+15 Stamina<br />+28 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves hit rating by 15.</span><br /><span class=\"q2\">Use: $WowheadPower.registerSpell(1792, 0, {});</span><br /></td></tr></table>",
+      "icon": "inv_misc_cape_10.jpg",
+      "dropsFrom": [
+        {
+          "chance": 8.33,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Back"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 28673,
+      "name": "Tirisfal Wand of Ascendancy",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Tirisfal Wand of Ascendancy</b><br /><table width=\"100%\"><tr><td>Ranged Right</td><th></th></tr></table>+11 Stamina<br />+12 Intellect<br />+14 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves hit rating by 11.</span><br /><span class=\"q2\">Use: $WowheadPower.registerSpell(512, 0, {</span><br /></td></tr></table>",
+      "icon": "inv_wand_21.jpg",
+      "dropsFrom": [
+        {
+          "chance": 8.33,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Ranged Right"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 28674,
+      "name": "Saberclaw Talisman",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Saberclaw Talisman</b><br /><table width=\"100%\"><tr><td>Neck</td><th></th></tr></table>+21 Agility<br />+20 Stamina<br />+38 Attack Power<br />Requires Level 60<br /></td></tr></table>",
+      "icon": "inv_jewelry_necklace_34.jpg",
+      "dropsFrom": [
+        {
+          "chance": 8.33,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Neck"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 28675,
+      "name": "Shermanar Great-Ring",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Shermanar Great-Ring</b><br /><table width=\"100%\"><tr><td>Finger</td><th></th></tr></table>+25 Stamina<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your defense rating by 16.</span><br /></td></tr></table>",
+      "icon": "inv_jewelry_ring_19.jpg",
+      "dropsFrom": [
+        {
+          "chance": 8.33,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Finger"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 28726,
+      "name": "Mantle of the Mind Flayer",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Mantle of the Mind Flayer</b><br /><table width=\"100%\"><tr><td>Shoulder</td><th></th></tr></table>+23 Stamina<br />+20 Intellect<br />+25 Spell Power<br />+13 Unknown Stat (47)<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: $WowheadPower.registerSpell(1792, 0, {});</span><br /></td></tr></table>",
+      "icon": "inv_shoulder_25.jpg",
+      "dropsFrom": [
+        {
+          "chance": 8.33,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Shoulder"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 28727,
+      "name": "Pendant of the Violet Eye",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Pendant of the Violet Eye</b><br /><table width=\"100%\"><tr><td>Trinket</td><th></th></tr></table>+28 Intellect<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: $WowheadPower.registerSpell(1024, 0, {});</span><br /></td></tr></table>",
+      "icon": "inv_trinket_naxxramas02.jpg",
+      "dropsFrom": [
+        {
+          "chance": 8.33,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Trinket"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 28728,
+      "name": "Aran's Soothing Sapphire",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Aran's Soothing Sapphire</b><br /><table width=\"100%\"><tr><td>Held In Off-hand</td><th></th></tr></table>+12 Stamina<br />+14 Intellect<br />+27 Spell Power<br />+5 Mana Regen (MP5)<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: $WowheadPower.registerSpell(768, 0, {</span><br /></td></tr></table>",
+      "icon": "inv_misc_gem_sapphire_02.jpg",
+      "dropsFrom": [
+        {
+          "chance": 8.33,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Held In Off-hand"
       ],
       "types": [
         "Unknown"
@@ -2403,7 +2403,7 @@
       ],
       "quality": 1,
       "tooltip": "<table><tr><td><b class=\"q1\">Faint Arcane Essence</b><br /></td></tr></table>",
-      "icon": "inv_enchant_essencemagicsmall.png",
+      "icon": "inv_enchant_essencemagicsmall.jpg",
       "dropsFrom": [
         {
           "chance": 100.0,
@@ -2435,7 +2435,7 @@
       ],
       "quality": 1,
       "tooltip": "<table><tr><td><b class=\"q1\">Blazing Signet</b><br /></td></tr></table>",
-      "icon": "spell_fire_burnout.png",
+      "icon": "spell_fire_burnout.jpg",
       "dropsFrom": [
         {
           "chance": 100.0,
@@ -2467,7 +2467,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Panzar'Thar Breastplate</b><br /><table width=\"100%\"><tr><td>Chest</td><th></th></tr></table>+17 Strength<br />+36 Stamina<br />+38 Unknown Stat (48)<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your defense rating by 18.</span><br /><span class=\"q2\">Equip: $WowheadPower.registerSpell(256, 0, {});</span><br /></td></tr></table>",
-      "icon": "inv_chest_plate02.png",
+      "icon": "inv_chest_plate02.jpg",
       "dropsFrom": [
         {
           "chance": 8.33,
@@ -2499,7 +2499,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Scaled Breastplate of Carnage</b><br /><table width=\"100%\"><tr><td>Chest</td><th></th></tr></table>+23 Stamina<br />+27 Intellect<br />+41 Attack Power<br />+6 Mana Regen (MP5)<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 17.</span><br /></td></tr></table>",
-      "icon": "inv_chest_chain_07.png",
+      "icon": "inv_chest_chain_07.jpg",
       "dropsFrom": [
         {
           "chance": 8.33,
@@ -2531,7 +2531,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Stonebough Jerkin</b><br /><table width=\"100%\"><tr><td>Chest</td><th></th></tr></table>+22 Stamina<br />+18 Intellect<br />+22 Spirit<br />+31 Spell Power<br />+7 Mana Regen (MP5)<br />Requires Level 60<br /></td></tr></table>",
-      "icon": "inv_chest_leather_07.png",
+      "icon": "inv_chest_leather_07.jpg",
       "dropsFrom": [
         {
           "chance": 8.33,
@@ -2563,7 +2563,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Chestguard of the Conniver</b><br /><table width=\"100%\"><tr><td>Chest</td><th></th></tr></table>+21 Agility<br />+17 Stamina<br />+37 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves hit rating by 17.</span><br /><span class=\"q2\">Use: $WowheadPower.registerSpell(2048, 0, {</span><br /></td></tr></table>",
-      "icon": "inv_chest_leather_06.png",
+      "icon": "inv_chest_leather_06.jpg",
       "dropsFrom": [
         {
           "chance": 8.33,
@@ -2595,7 +2595,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Robe of the Elder Scribes</b><br /><table width=\"100%\"><tr><td>Robe</td><th></th></tr></table>+19 Stamina<br />+20 Intellect<br />+17 Spirit<br />+25 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 17.</span><br /></td></tr></table>",
-      "icon": "inv_chest_cloth_12.png",
+      "icon": "inv_chest_cloth_12.jpg",
       "dropsFrom": [
         {
           "chance": 8.33,
@@ -2627,7 +2627,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Talisman of Nightbane</b><br /><table width=\"100%\"><tr><td>Held In Off-hand</td><th></th></tr></table>+13 Stamina<br />+13 Intellect<br />+17 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 11.</span><br /><span class=\"q2\">Use: $WowheadPower.registerSpell(768, 0, {</span><br /></td></tr></table>",
-      "icon": "inv_offhand_outlandraid_01.png",
+      "icon": "inv_offhand_outlandraid_01.jpg",
       "dropsFrom": [
         {
           "chance": 8.33,
@@ -2659,7 +2659,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Nightstaff of the Everliving</b><br /><table width=\"100%\"><tr><td>Two-Hand</td><th></th></tr></table>+23 Stamina<br />+24 Intellect<br />+39 Spirit<br />+145 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: $WowheadPower.registerSpell(512, 0, {</span><br /></td></tr></table>",
-      "icon": "inv_staff_57.png",
+      "icon": "inv_staff_57.jpg",
       "dropsFrom": [
         {
           "chance": 8.33,
@@ -2691,7 +2691,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Shield of Impenetrable Darkness</b><br /><table width=\"100%\"><tr><td>Shield</td><th></th></tr></table>+16 Strength<br />+32 Stamina<br />+38 Unknown Stat (48)<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your defense rating by 10.</span><br /><span class=\"q2\">Use: $WowheadPower.registerSpell(1536, 0, {</span><br /></td></tr></table>",
-      "icon": "inv_shield_29.png",
+      "icon": "inv_shield_29.jpg",
       "dropsFrom": [
         {
           "chance": 8.33,
@@ -2723,7 +2723,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Ironstriders of Urgency</b><br /><table width=\"100%\"><tr><td>Feet</td><th></th></tr></table>+21 Strength<br />+14 Agility<br />+20 Stamina<br />Requires Level 60<br /></td></tr></table>",
-      "icon": "inv_boots_plate_04.png",
+      "icon": "inv_boots_plate_04.jpg",
       "dropsFrom": [
         {
           "chance": 8.33,
@@ -2755,7 +2755,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Emberspur Talisman</b><br /><table width=\"100%\"><tr><td>Neck</td><th></th></tr></table>+35 Spell Power<br />+10 Mana Regen (MP5)<br />Requires Level 60<br /></td></tr></table>",
-      "icon": "inv_jewelry_necklace_17.png",
+      "icon": "inv_jewelry_necklace_17.jpg",
       "dropsFrom": [
         {
           "chance": 8.33,
@@ -2787,7 +2787,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Ferocious Swift-Kickers</b><br /><table width=\"100%\"><tr><td>Feet</td><th></th></tr></table>+15 Stamina<br />+15 Intellect<br />+26 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 9.</span><br /><span class=\"q2\">Use: $WowheadPower.registerSpell(1280, 0, {});</span><br /></td></tr></table>",
-      "icon": "inv_boots_chain_04.png",
+      "icon": "inv_boots_chain_04.jpg",
       "dropsFrom": [
         {
           "chance": 8.33,
@@ -2819,7 +2819,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Dragonheart Flameshield</b><br /><table width=\"100%\"><tr><td>Shield</td><th></th></tr></table>+21 Stamina<br />+23 Intellect<br />+22 Spell Power<br />+6 Mana Regen (MP5)<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: $WowheadPower.registerSpell(1536, 0, {</span><br /></td></tr></table>",
-      "icon": "inv_shield_37.png",
+      "icon": "inv_shield_37.jpg",
       "dropsFrom": [
         {
           "chance": 8.33,
@@ -2851,7 +2851,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Ring of a Thousand Marks</b><br /><table width=\"100%\"><tr><td>Finger</td><th></th></tr></table>+15 Stamina<br />+36 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 16.</span><br /><span class=\"q2\">Equip: Improves hit rating by 16.</span><br /><span class=\"q2\">Use: $WowheadPower.registerSpell(1024, 0, {});</span><br /></td></tr></table>",
-      "icon": "inv_jewelry_ring_ahnqiraj_05.png",
+      "icon": "inv_jewelry_ring_ahnqiraj_05.jpg",
       "dropsFrom": [
         {
           "chance": 16.67,
@@ -2883,7 +2883,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Adornment of Stolen Souls</b><br /><table width=\"100%\"><tr><td>Neck</td><th></th></tr></table>+16 Stamina<br />+18 Intellect<br />+27 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 16.</span><br /><span class=\"q2\">Use: $WowheadPower.registerSpell(1024, 0, {});</span><br /></td></tr></table>",
-      "icon": "inv_jewelry_necklace_29naxxramas.png",
+      "icon": "inv_jewelry_necklace_29naxxramas.jpg",
       "dropsFrom": [
         {
           "chance": 16.67,
@@ -2915,7 +2915,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Jade Ring of the Everliving</b><br /><table width=\"100%\"><tr><td>Finger</td><th></th></tr></table>+31 Spell Power<br />+11 Mana Regen (MP5)<br />Requires Level 60<br /></td></tr></table>",
-      "icon": "inv_jewelry_ring_08.png",
+      "icon": "inv_jewelry_ring_08.jpg",
       "dropsFrom": [
         {
           "chance": 16.67,
@@ -2947,7 +2947,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Farstrider Wildercloak</b><br /><table width=\"100%\"><tr><td>Back</td><th></th></tr></table>+18 Stamina<br />+38 Attack Power<br />Requires Level 60<br /></td></tr></table>",
-      "icon": "inv_misc_cape_17.png",
+      "icon": "inv_misc_cape_17.jpg",
       "dropsFrom": [
         {
           "chance": 16.67,
@@ -2979,7 +2979,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Stainless Cloak of the Pure Hearted</b><br /><table width=\"100%\"><tr><td>Back</td><th></th></tr></table>+15 Stamina<br />+16 Intellect<br />+28 Spell Power<br />+6 Mana Regen (MP5)<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: $WowheadPower.registerSpell(1792, 0, {});</span><br /></td></tr></table>",
-      "icon": "inv_misc_cape_06.png",
+      "icon": "inv_misc_cape_06.jpg",
       "dropsFrom": [
         {
           "chance": 16.67,
@@ -3011,7 +3011,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Ruby Drape of the Mysticant</b><br /><table width=\"100%\"><tr><td>Back</td><th></th></tr></table>+15 Stamina<br />+15 Intellect<br />+24 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves hit rating by 15.</span><br /><span class=\"q2\">Use: $WowheadPower.registerSpell(1792, 0, {});</span><br /></td></tr></table>",
-      "icon": "inv_misc_cape_18.png",
+      "icon": "inv_misc_cape_18.jpg",
       "dropsFrom": [
         {
           "chance": 16.67,
@@ -3043,7 +3043,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">The Decapitator</b><br /><table width=\"100%\"><tr><td>One-Hand</td><th></th></tr></table>Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 19.</span><br /><span class=\"q2\">Equip: $WowheadPower.registerSpell(256, 0, {});</span><br /><span class=\"q2\">Use: $WowheadPower.registerSpell(26880, 0, {</span><br /></td></tr></table>",
-      "icon": "inv_axe_66.png",
+      "icon": "inv_axe_66.jpg",
       "dropsFrom": [
         {
           "chance": 16.67,
@@ -3075,7 +3075,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Malchazeen</b><br /><table width=\"100%\"><tr><td>One-Hand</td><th></th></tr></table>+11 Stamina<br />+32 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves hit rating by 12.</span><br /></td></tr></table>",
-      "icon": "inv_weapon_shortblade_40.png",
+      "icon": "inv_weapon_shortblade_40.jpg",
       "dropsFrom": [
         {
           "chance": 16.67,
@@ -3107,7 +3107,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Nathrezim Mindblade</b><br /><table width=\"100%\"><tr><td>Main Hand</td><th></th></tr></table>+14 Stamina<br />+18 Intellect<br />+126 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 18.</span><br /><span class=\"q2\">Equip: $WowheadPower.registerSpell(256, 0, {});</span><br /></td></tr></table>",
-      "icon": "inv_weapon_shortblade_41.png",
+      "icon": "inv_weapon_shortblade_41.jpg",
       "dropsFrom": [
         {
           "chance": 16.67,
@@ -3139,7 +3139,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Light's Justice</b><br /><table width=\"100%\"><tr><td>Main Hand</td><th></th></tr></table>+16 Stamina<br />+17 Intellect<br />+14 Spirit<br />+126 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: $WowheadPower.registerSpell(256, 0, {});</span><br /></td></tr></table>",
-      "icon": "inv_mace_46.png",
+      "icon": "inv_mace_46.jpg",
       "dropsFrom": [
         {
           "chance": 16.67,
@@ -3171,7 +3171,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Sunfury Bow of the Phoenix</b><br /><table width=\"100%\"><tr><td>Ranged</td><th></th></tr></table>+15 Agility<br />+35 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 12.</span><br /></td></tr></table>",
-      "icon": "inv_weapon_bow_18.png",
+      "icon": "inv_weapon_bow_18.jpg",
       "dropsFrom": [
         {
           "chance": 16.67,
@@ -3203,7 +3203,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Gorehowl</b><br /><table width=\"100%\"><tr><td>Two-Hand</td><th></th></tr></table>+28 Strength<br />+25 Agility<br />+30 Stamina<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: $WowheadPower.registerSpell(543520865, 0, {});</span><br /><span class=\"q2\">Equip: $WowheadPower.registerSpell(1931506529, 0, {});</span><br /></td></tr></table>",
-      "icon": "inv_axe_60.png",
+      "icon": "inv_axe_60.jpg",
       "dropsFrom": [
         {
           "chance": 16.67,
@@ -3228,7 +3228,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Helm of the Fallen Hero</b><br />Requires Level 60<br /></td></tr></table>",
-      "icon": "inv_helmet_24.png",
+      "icon": "inv_helmet_24.jpg",
       "dropsFrom": [
         {
           "chance": 33.33,
@@ -3253,7 +3253,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Helm of the Fallen Champion</b><br />Requires Level 60<br /></td></tr></table>",
-      "icon": "inv_helmet_24.png",
+      "icon": "inv_helmet_24.jpg",
       "dropsFrom": [
         {
           "chance": 33.33,
@@ -3278,7 +3278,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Helm of the Fallen Defender</b><br />Requires Level 60<br /></td></tr></table>",
-      "icon": "inv_helmet_24.png",
+      "icon": "inv_helmet_24.jpg",
       "dropsFrom": [
         {
           "chance": 33.33,
