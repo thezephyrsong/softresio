@@ -35,6 +35,15 @@ SLOT_MAP = {
     "shield": "Shield", "relic": "Relic"
 }
 
+# Custom Token Overrides (Boss Name/Key substring -> List of Token IDs)
+CUSTOM_BOSS_DROPS = {
+    # Karazhan
+    "Prince Malchezaar": [92026, 92027, 92028],       # Head
+    "Netherspite": [92032, 92033, 92034],             # Shoulders
+
+    # Obsidian Sanctum
+    "Sartharion": [92023, 92024, 92025],              # Hands
+
     # Ruins of Ahn'Qiraj (AQ20)
     "Ossirian": [92020, 92021, 92022],                # Chest
     "Ayamiss": [92032, 92033, 92034],                 # Shoulders
