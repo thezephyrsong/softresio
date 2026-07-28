@@ -125,11 +125,11 @@ function App() {
                   />
                   <Anchor
                     size="sm"
-                    href="https://github.com/kofoednielsen/softresio"
+                    href="https://github.com/thezephyrsong/softresio"
                     underline="never"
                     c={githubHovered ? "lightgray" : "grey"}
                   >
-                    This project is open-source
+                    This project is an open-source fork for Triumvirate
                   </Anchor>
                 </Group>
                 <Group gap="xs" mx="lg" ref={discordRef}>
