@@ -421,82 +421,6 @@
       ]
     },
     {
-      "id": 40613,
-      "name": "Gloves of the Lost Conqueror",
-      "classes": [
-        "Paladin",
-        "Priest",
-        "Warlock"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Gloves of the Lost Conqueror</b><br />Binds when picked up<br />Classes: Paladin, Priest, Warlock<br />Requires Level 60<br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.jpg",
-      "dropsFrom": [
-        {
-          "chance": 28.0,
-          "bossId": 0,
-          "npcId": 0
-        }
-      ],
-      "slots": [
-        "Non-equippable"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 40614,
-      "name": "Gloves of the Lost Protector",
-      "classes": [
-        "Warrior",
-        "Hunter",
-        "Shaman"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Gloves of the Lost Protector</b><br />Binds when picked up<br />Classes: Warrior, Hunter, Shaman<br />Requires Level 60<br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.jpg",
-      "dropsFrom": [
-        {
-          "chance": 29.0,
-          "bossId": 0,
-          "npcId": 0
-        }
-      ],
-      "slots": [
-        "Non-equippable"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 40615,
-      "name": "Gloves of the Lost Vanquisher",
-      "classes": [
-        "Rogue",
-        "Death Knight",
-        "Mage",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Gloves of the Lost Vanquisher</b><br />Binds when picked up<br />Classes: Rogue, Death Knight, Mage, Druid<br />Requires Level 60<br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.jpg",
-      "dropsFrom": [
-        {
-          "chance": 37.0,
-          "bossId": 0,
-          "npcId": 0
-        }
-      ],
-      "slots": [
-        "Non-equippable"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
       "id": 43995,
       "name": "Enamored Cowl",
       "classes": [
@@ -677,6 +601,82 @@
       "dropsFrom": [
         {
           "chance": 100.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Non-equippable"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 92023,
+      "name": "Gloves of the Umbral Conqueror",
+      "classes": [
+        "Paladin",
+        "Priest",
+        "Warlock"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Gloves of the Umbral Conqueror</b><br />Binds when picked up<br />Classes: Paladin, Priest, Warlock<br />Requires Level 60<br /></td></tr></table>",
+      "icon": "inv_misc_questionmark.jpg",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Non-equippable"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 92024,
+      "name": "Gloves of the Umbral Protector",
+      "classes": [
+        "Warrior",
+        "Hunter",
+        "Shaman"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Gloves of the Umbral Protector</b><br />Binds when picked up<br />Classes: Warrior, Hunter, Shaman<br />Requires Level 60<br /></td></tr></table>",
+      "icon": "inv_misc_questionmark.jpg",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Non-equippable"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 92025,
+      "name": "Gloves of the Umbral Vanquisher",
+      "classes": [
+        "Rogue",
+        "Death Knight",
+        "Mage",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Gloves of the Umbral Vanquisher</b><br />Binds when picked up<br />Classes: Rogue, Death Knight, Mage, Druid<br />Requires Level 60<br /></td></tr></table>",
+      "icon": "inv_misc_questionmark.jpg",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
           "bossId": 0,
           "npcId": 0
         }

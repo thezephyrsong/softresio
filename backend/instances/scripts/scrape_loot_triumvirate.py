@@ -35,6 +35,14 @@ SLOT_MAP = {
     "shield": "Shield", "relic": "Relic"
 }
 
+    # Ruins of Ahn'Qiraj (AQ20)
+    "Ossirian": [92020, 92021, 92022],                # Chest
+    "Ayamiss": [92032, 92033, 92034],                 # Shoulders
+
+    # Onyxia's Lair
+    "Onyxia": [92029, 92030, 92031],                  # Legs
+}
+
 # For the new items.json schema, where a class restriction is a bitmask
 # (allowable_classes) instead of a "Classes: X, Y, Z" tooltip line. These are
 # the standard WotLK per-class bits; unrestricted items use -1 or a
@@ -615,6 +623,23 @@ def extract_loot_instance(instance):
             for i, npc_info in enumerate(boss_npcs):
                 npc_id = first_npc_id_for_boss + i
                 tasks.append((boss_id, boss["name"], npc_id, npc_info["name"], npc_info["link"]))
+
+        # -------------------------------------------------------------
+        # CUSTOM TIER TOKEN INJECTION
+        # -------------------------------------------------------------
+        boss_name = boss["name"]
+        for custom_boss, token_ids in CUSTOM_BOSS_DROPS.items():
+            # Case-insensitive substring match (e.g. matches "Ossirian the Unscarred")
+            if custom_boss.lower() in boss_name.lower():
+                for token_id in token_ids:
+                    add_item_drop(
+                        instance_items_map,
+                        missing_items,
+                        token_id,
+                        0.0,  # drop chance percentage
+                        boss_id,
+                        first_npc_id_for_boss
+                    )
 
     with ThreadPoolExecutor(max_workers=5) as executor:
         futures = [executor.submit(fetch_npc_loot, task) for task in tasks]

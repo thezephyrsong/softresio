@@ -62,23 +62,23 @@
         },
         {
           "chance": 30.0,
-          "bossId": 0,
-          "npcId": 0
-        },
-        {
-          "chance": 30.0,
           "bossId": 2,
           "npcId": 2
         },
         {
           "chance": 30.0,
-          "bossId": 5,
-          "npcId": 5
+          "bossId": 0,
+          "npcId": 0
         },
         {
           "chance": 30.0,
           "bossId": 6,
           "npcId": 6
+        },
+        {
+          "chance": 30.0,
+          "bossId": 5,
+          "npcId": 5
         }
       ],
       "slots": [
@@ -114,13 +114,18 @@
         },
         {
           "chance": 30.0,
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 30.0,
           "bossId": 0,
           "npcId": 0
         },
         {
           "chance": 30.0,
-          "bossId": 2,
-          "npcId": 2
+          "bossId": 6,
+          "npcId": 6
         },
         {
           "chance": 30.0,
@@ -131,11 +136,6 @@
           "chance": 30.0,
           "bossId": 7,
           "npcId": 7
-        },
-        {
-          "chance": 30.0,
-          "bossId": 6,
-          "npcId": 6
         }
       ],
       "slots": [
@@ -171,13 +171,18 @@
         },
         {
           "chance": 40.0,
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 40.0,
           "bossId": 0,
           "npcId": 0
         },
         {
           "chance": 40.0,
-          "bossId": 2,
-          "npcId": 2
+          "bossId": 6,
+          "npcId": 6
         },
         {
           "chance": 40.0,
@@ -186,18 +191,13 @@
         },
         {
           "chance": 40.0,
-          "bossId": 7,
-          "npcId": 7
-        },
-        {
-          "chance": 40.0,
           "bossId": 9,
           "npcId": 9
         },
         {
           "chance": 40.0,
-          "bossId": 6,
-          "npcId": 6
+          "bossId": 7,
+          "npcId": 7
         }
       ],
       "slots": [
@@ -444,11 +444,6 @@
         },
         {
           "chance": 100.0,
-          "bossId": 0,
-          "npcId": 0
-        },
-        {
-          "chance": 100.0,
           "bossId": 1,
           "npcId": 1
         },
@@ -464,13 +459,18 @@
         },
         {
           "chance": 100.0,
-          "bossId": 5,
-          "npcId": 5
+          "bossId": 0,
+          "npcId": 0
         },
         {
           "chance": 100.0,
-          "bossId": 7,
-          "npcId": 7
+          "bossId": 6,
+          "npcId": 6
+        },
+        {
+          "chance": 100.0,
+          "bossId": 5,
+          "npcId": 5
         },
         {
           "chance": 100.0,
@@ -479,8 +479,8 @@
         },
         {
           "chance": 100.0,
-          "bossId": 6,
-          "npcId": 6
+          "bossId": 7,
+          "npcId": 7
         }
       ],
       "slots": [
@@ -516,11 +516,6 @@
         },
         {
           "chance": 0.2,
-          "bossId": 0,
-          "npcId": 0
-        },
-        {
-          "chance": 0.2,
           "bossId": 1,
           "npcId": 1
         },
@@ -533,6 +528,11 @@
           "chance": 0.2,
           "bossId": 2,
           "npcId": 2
+        },
+        {
+          "chance": 0.2,
+          "bossId": 0,
+          "npcId": 0
         },
         {
           "chance": 0.2,
@@ -578,11 +578,6 @@
         },
         {
           "chance": 0.2,
-          "bossId": 0,
-          "npcId": 0
-        },
-        {
-          "chance": 0.2,
           "bossId": 1,
           "npcId": 1
         },
@@ -595,6 +590,11 @@
           "chance": 0.2,
           "bossId": 2,
           "npcId": 2
+        },
+        {
+          "chance": 0.2,
+          "bossId": 0,
+          "npcId": 0
         },
         {
           "chance": 0.2,
@@ -640,11 +640,6 @@
         },
         {
           "chance": 0.2,
-          "bossId": 0,
-          "npcId": 0
-        },
-        {
-          "chance": 0.2,
           "bossId": 1,
           "npcId": 1
         },
@@ -657,6 +652,11 @@
           "chance": 0.2,
           "bossId": 2,
           "npcId": 2
+        },
+        {
+          "chance": 0.2,
+          "bossId": 0,
+          "npcId": 0
         },
         {
           "chance": 0.2,
@@ -702,11 +702,6 @@
         },
         {
           "chance": 0.2,
-          "bossId": 0,
-          "npcId": 0
-        },
-        {
-          "chance": 0.2,
           "bossId": 1,
           "npcId": 1
         },
@@ -719,6 +714,11 @@
           "chance": 0.2,
           "bossId": 2,
           "npcId": 2
+        },
+        {
+          "chance": 0.2,
+          "bossId": 0,
+          "npcId": 0
         },
         {
           "chance": 0.2,
@@ -764,11 +764,6 @@
         },
         {
           "chance": 0.2,
-          "bossId": 0,
-          "npcId": 0
-        },
-        {
-          "chance": 0.2,
           "bossId": 1,
           "npcId": 1
         },
@@ -781,6 +776,11 @@
           "chance": 0.2,
           "bossId": 2,
           "npcId": 2
+        },
+        {
+          "chance": 0.2,
+          "bossId": 0,
+          "npcId": 0
         },
         {
           "chance": 0.2,
@@ -826,11 +826,6 @@
         },
         {
           "chance": 0.2,
-          "bossId": 0,
-          "npcId": 0
-        },
-        {
-          "chance": 0.2,
           "bossId": 1,
           "npcId": 1
         },
@@ -843,6 +838,11 @@
           "chance": 0.2,
           "bossId": 2,
           "npcId": 2
+        },
+        {
+          "chance": 0.2,
+          "bossId": 0,
+          "npcId": 0
         },
         {
           "chance": 0.2,
@@ -888,11 +888,6 @@
         },
         {
           "chance": 0.2,
-          "bossId": 0,
-          "npcId": 0
-        },
-        {
-          "chance": 0.2,
           "bossId": 1,
           "npcId": 1
         },
@@ -905,6 +900,11 @@
           "chance": 0.2,
           "bossId": 2,
           "npcId": 2
+        },
+        {
+          "chance": 0.2,
+          "bossId": 0,
+          "npcId": 0
         },
         {
           "chance": 0.2,
@@ -950,11 +950,6 @@
         },
         {
           "chance": 0.2,
-          "bossId": 0,
-          "npcId": 0
-        },
-        {
-          "chance": 0.2,
           "bossId": 1,
           "npcId": 1
         },
@@ -967,6 +962,11 @@
           "chance": 0.2,
           "bossId": 2,
           "npcId": 2
+        },
+        {
+          "chance": 0.2,
+          "bossId": 0,
+          "npcId": 0
         },
         {
           "chance": 0.2,
@@ -1012,11 +1012,6 @@
         },
         {
           "chance": 0.2,
-          "bossId": 0,
-          "npcId": 0
-        },
-        {
-          "chance": 0.2,
           "bossId": 1,
           "npcId": 1
         },
@@ -1029,6 +1024,11 @@
           "chance": 0.2,
           "bossId": 2,
           "npcId": 2
+        },
+        {
+          "chance": 0.2,
+          "bossId": 0,
+          "npcId": 0
         },
         {
           "chance": 0.2,
@@ -1074,11 +1074,6 @@
         },
         {
           "chance": 0.2,
-          "bossId": 0,
-          "npcId": 0
-        },
-        {
-          "chance": 0.2,
           "bossId": 1,
           "npcId": 1
         },
@@ -1091,6 +1086,11 @@
           "chance": 0.2,
           "bossId": 2,
           "npcId": 2
+        },
+        {
+          "chance": 0.2,
+          "bossId": 0,
+          "npcId": 0
         },
         {
           "chance": 0.2,
@@ -1417,11 +1417,6 @@
           "npcId": 4
         },
         {
-          "chance": 6.25,
-          "bossId": 0,
-          "npcId": 0
-        },
-        {
           "chance": 0.0,
           "bossId": 1,
           "npcId": 1
@@ -1438,6 +1433,16 @@
         },
         {
           "chance": 6.25,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 7.14,
+          "bossId": 6,
+          "npcId": 6
+        },
+        {
+          "chance": 6.25,
           "bossId": 5,
           "npcId": 5
         },
@@ -1445,11 +1450,6 @@
           "chance": 0.0,
           "bossId": 7,
           "npcId": 7
-        },
-        {
-          "chance": 7.14,
-          "bossId": 6,
-          "npcId": 6
         }
       ],
       "slots": [
@@ -1642,631 +1642,6 @@
       ],
       "slots": [
         "Feet"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 16800,
-      "name": "Arcanist Boots",
-      "classes": [
-        "Mage"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Arcanist Boots</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Feet</td><th>Cloth</th></tr></table>23 Armor<br />+9 Stamina<br />+10 Intellect<br />+7 Spirit<br />+10 Shadow Resistance<br />Classes: Mage<br />Requires Level 60<br />Arcanist Regalia (0/8)<br />Arcanist Belt<br />Arcanist Bindings<br />Arcanist Crown<br />Arcanist Boots<br />Arcanist Gloves<br />Arcanist Leggings<br />Arcanist Mantle<br />Arcanist Robes<br />(3) Set: Increases spell power by 18.<br />(5) Set: Increases your spell penetration by 38.<br />(8) Set: Decreases the threat generated by your spells by 15%.<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your critical strike rating by 11.</span><br /><span class=\"q2\">Equip: Increases spell power by 8.</span><br /></td></tr></table>",
-      "icon": "inv_boots_07.jpg",
-      "dropsFrom": [
-        {
-          "chance": 6.25,
-          "bossId": 0,
-          "npcId": 0
-        }
-      ],
-      "slots": [
-        "Feet"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 16805,
-      "name": "Felheart Gloves",
-      "classes": [
-        "Warlock"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Felheart Gloves</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Hands</td><th>Cloth</th></tr></table>21 Armor<br />+12 Stamina<br />+10 Intellect<br />+5 Spirit<br />+7 Fire Resistance<br />Classes: Warlock<br />Requires Level 60<br />Felheart Raiment (0/8)<br />Felheart Belt<br />Felheart Bracers<br />Felheart Gloves<br />Felheart Pants<br />Felheart Robes<br />Felheart Shoulder Pads<br />Felheart Horns<br />Felheart Slippers<br />(3) Set: Health or Mana gained from Drain Life and Drain Mana increased by 15%.<br />(5) Set: Your pet gains 60 stamina and 500 spell resistance against all schools of magic.<br />(8) Set: Mana cost of Shadow spells reduced by 15%.<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your critical strike rating by 11.</span><br /><span class=\"q2\">Equip: Increases spell power by 6.</span><br /></td></tr></table>",
-      "icon": "inv_gauntlets_19.jpg",
-      "dropsFrom": [
-        {
-          "chance": 6.25,
-          "bossId": 0,
-          "npcId": 0
-        }
-      ],
-      "slots": [
-        "Hands"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 16829,
-      "name": "Cenarion Boots",
-      "classes": [
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Cenarion Boots</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Feet</td><th>Leather</th></tr></table>45 Armor<br />+11 Stamina<br />+9 Intellect<br />+10 Spirit<br />+7 Shadow Resistance<br />Classes: Druid<br />Requires Level 60<br />Cenarion Raiment (0/8)<br />Cenarion Belt<br />Cenarion Boots<br />Cenarion Bracers<br />Cenarion Vestments<br />Cenarion Gloves<br />Cenarion Helm<br />Cenarion Leggings<br />Cenarion Spaulders<br />(3) Set: Damage dealt by Thorns increased by 4 and duration increased by 50%.<br />(5) Set: Increases your critical strike rating by 28.<br />(8) Set: Reduces the cooldown of your Tranquility spell by 50% and increases the damage done by your Hurricane spell by 15%.<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Restores 3 mana per 5 sec.</span><br /><span class=\"q2\">Equip: Increases spell power by 7.</span><br /></td></tr></table>",
-      "icon": "inv_boots_08.jpg",
-      "dropsFrom": [
-        {
-          "chance": 6.25,
-          "bossId": 0,
-          "npcId": 0
-        }
-      ],
-      "slots": [
-        "Feet"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 16837,
-      "name": "Earthfury Boots",
-      "classes": [
-        "Shaman"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Earthfury Boots</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Feet</td><th>Mail</th></tr></table>95 Armor<br />+10 Stamina<br />+7 Intellect<br />+15 Spirit<br />+7 Shadow Resistance<br />Classes: Shaman<br />Requires Level 60<br />The Earthfury (0/8)<br />Earthfury Belt<br />Earthfury Boots<br />Earthfury Bracers<br />Earthfury Vestments<br />Earthfury Epaulets<br />Earthfury Gauntlets<br />Earthfury Helmet<br />Earthfury Legguards<br />(3) Set: The radius of your totems that affect friendly targets is increased to 30 yd.<br />(5) Set: After casting your Healing Wave or Lesser Healing Wave spell, gives you a 25% chance to gain Mana equal to 35% of the base cost of the spell.<br />(8) Set: Your Healing Wave will now jump to additional nearby targets. Each jump reduces the effectiveness of the heal by 80%, and the spell will jump to up to two additional targets.<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases spell power by 7.</span><br /></td></tr></table>",
-      "icon": "inv_boots_plate_06.jpg",
-      "dropsFrom": [
-        {
-          "chance": 6.25,
-          "bossId": 0,
-          "npcId": 0
-        }
-      ],
-      "slots": [
-        "Feet"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 16859,
-      "name": "Lawbringer Boots",
-      "classes": [
-        "Paladin"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Lawbringer Boots</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Feet</td><th>Plate</th></tr></table>571 Armor<br />+5 Strength<br />+14 Stamina<br />+9 Intellect<br />+7 Spirit<br />+7 Shadow Resistance<br />Classes: Paladin<br />Requires Level 60<br />Lawbringer Armor (0/8)<br />Lawbringer Belt<br />Lawbringer Boots<br />Lawbringer Bracers<br />Lawbringer Chestguard<br />Lawbringer Gauntlets<br />Lawbringer Helm<br />Lawbringer Legplates<br />Lawbringer Spaulders<br />(3) Set: Increases the chance of triggering a Judgement of Light heal by 10%.<br />(5) Set: Increases your critical strike rating by 14.<br />(8) Set: Gives the Paladin a chance on every melee hit to heal your party for 189 to 211.<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Restores 3 mana per 5 sec.</span><br /><span class=\"q2\">Equip: Increases spell power by 7.</span><br /></td></tr></table>",
-      "icon": "inv_boots_plate_09.jpg",
-      "dropsFrom": [
-        {
-          "chance": 6.25,
-          "bossId": 0,
-          "npcId": 0
-        }
-      ],
-      "slots": [
-        "Feet"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 16863,
-      "name": "Gauntlets of Might",
-      "classes": [
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Gauntlets of Might</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Hands</td><th>Plate</th></tr></table>520 Armor<br />+15 Strength<br />+12 Stamina<br />+7 Fire Resistance<br />Classes: Warrior<br />Requires Level 60<br />Battlegear of Might (0/8)<br />Belt of Might<br />Bracers of Might<br />Breastplate of Might<br />Gauntlets of Might<br />Helm of Might<br />Legplates of Might<br />Pauldrons of Might<br />Sabatons of Might<br />(3) Set: Increases the block value of your shield by 60.<br />(5) Set: Gives you a 20% chance to generate an additional Rage point whenever damage is dealt to you.<br />(8) Set: Increases the threat generated by Sunder Armor and Devastate by 15%.<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your hit rating by 8.</span><br /><span class=\"q2\">Equip: Increases defense rating by 6.</span><br /></td></tr></table>",
-      "icon": "inv_gauntlets_10.jpg",
-      "dropsFrom": [
-        {
-          "chance": 6.25,
-          "bossId": 0,
-          "npcId": 0
-        }
-      ],
-      "slots": [
-        "Hands"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 17109,
-      "name": "Choker of Enlightenment",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Choker of Enlightenment</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Neck</td><th></th></tr></table>+20 Stamina<br />+20 Intellect<br />+17 Spirit<br />Yellow Socket<br />Socket Bonus: +2 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases spell power by 33.</span><br /><span class=\"q2\">Equip: Improves haste rating by 14.</span><br /></td></tr></table>",
-      "icon": "inv_jewelry_necklace_10.jpg",
-      "dropsFrom": [
-        {
-          "chance": 0.0,
-          "bossId": 0,
-          "npcId": 0
-        }
-      ],
-      "slots": [
-        "Neck"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 17329,
-      "name": "Hand of Lucifron",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 1,
-      "tooltip": "<table><tr><td><b class=\"q1\">Hand of Lucifron</b><br />Quest Item<br /></td></tr></table>",
-      "icon": "inv_gauntlets_26.jpg",
-      "dropsFrom": [
-        {
-          "chance": 100.0,
-          "bossId": 0,
-          "npcId": 0
-        }
-      ],
-      "slots": [
-        "Non-equippable"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 17077,
-      "name": "Crimson Shocker",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Crimson Shocker</b><br />Binds when picked up<br />Ranged - Wand<br />159 - 235 Fire Damage - Speed 2.00<br />(98.5 damage per second)<br />+12 Intellect<br />+10 Fire Resistance<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases spell power by 18.</span><br /><span class=\"q2\">Equip: Improves hit rating by 10.</span><br /></td></tr></table>",
-      "icon": "inv_staff_13.jpg",
-      "dropsFrom": [
-        {
-          "chance": 6.25,
-          "bossId": 0,
-          "npcId": 0
-        },
-        {
-          "chance": 6.25,
-          "bossId": 2,
-          "npcId": 2
-        },
-        {
-          "chance": 6.25,
-          "bossId": 5,
-          "npcId": 5
-        },
-        {
-          "chance": 7.14,
-          "bossId": 6,
-          "npcId": 6
-        }
-      ],
-      "slots": [
-        "Ranged Right"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 18870,
-      "name": "Helm of the Lifegiver",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Helm of the Lifegiver</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Head</td><th>Mail</th></tr></table>456 Armor<br />+26 Stamina<br />+31 Intellect<br />Meta Socket<br />Red Socket<br />Socket Bonus: +5 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases spell power by 34.</span><br /><span class=\"q2\">Equip: Improves haste rating by 16.</span><br /><span class=\"q2\">Equip: Improves critical strike rating by 12.</span><br /></td></tr></table>",
-      "icon": "inv_helmet_18.jpg",
-      "dropsFrom": [
-        {
-          "chance": 6.25,
-          "bossId": 0,
-          "npcId": 0
-        },
-        {
-          "chance": 6.25,
-          "bossId": 2,
-          "npcId": 2
-        },
-        {
-          "chance": 6.25,
-          "bossId": 5,
-          "npcId": 5
-        },
-        {
-          "chance": 7.14,
-          "bossId": 6,
-          "npcId": 6
-        }
-      ],
-      "slots": [
-        "Head"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 18872,
-      "name": "Manastorm Leggings",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Manastorm Leggings</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Legs</td><th>Cloth</th></tr></table>115 Armor<br />+28 Stamina<br />+31 Intellect<br />Red Socket<br />Yellow Socket<br />Socket Bonus: +4 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases spell power by 34.</span><br /><span class=\"q2\">Equip: Improves haste rating by 13.</span><br /></td></tr></table>",
-      "icon": "inv_pants_08.jpg",
-      "dropsFrom": [
-        {
-          "chance": 6.25,
-          "bossId": 0,
-          "npcId": 0
-        },
-        {
-          "chance": 6.25,
-          "bossId": 2,
-          "npcId": 2
-        },
-        {
-          "chance": 6.25,
-          "bossId": 5,
-          "npcId": 5
-        },
-        {
-          "chance": 7.14,
-          "bossId": 6,
-          "npcId": 6
-        }
-      ],
-      "slots": [
-        "Legs"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 18875,
-      "name": "Salamander Scale Pants",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Salamander Scale Pants</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Legs</td><th>Leather</th></tr></table>226 Armor<br />+28 Stamina<br />+29 Intellect<br />+10 Fire Resistance<br />Yellow Socket<br />Yellow Socket<br />Socket Bonus: +4 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases spell power by 33.</span><br /><span class=\"q2\">Equip: Restores 13 mana per 5 sec.</span><br /></td></tr></table>",
-      "icon": "inv_pants_12.jpg",
-      "dropsFrom": [
-        {
-          "chance": 6.25,
-          "bossId": 0,
-          "npcId": 0
-        },
-        {
-          "chance": 6.25,
-          "bossId": 2,
-          "npcId": 2
-        },
-        {
-          "chance": 6.25,
-          "bossId": 5,
-          "npcId": 5
-        },
-        {
-          "chance": 7.14,
-          "bossId": 6,
-          "npcId": 6
-        }
-      ],
-      "slots": [
-        "Legs"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 18878,
-      "name": "Sorcerous Dagger",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Sorcerous Dagger</b><br />Binds when picked up<br />Unique<br /><table width=\"100%\"><tr><td>Main Hand</td><th>Dagger</th></tr></table>49 - 99 Damage - Speed 1.40<br />(52.9 damage per second)<br />+19 Stamina<br />+21 Intellect<br />Red Socket<br />Yellow Socket<br />Socket Bonus: +2 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases spell power by 136.</span><br /><span class=\"q2\">Equip: Improves haste rating by 16.</span><br /><span class=\"q2\">Equip: Improves hit rating by 17.</span><br /></td></tr></table>",
-      "icon": "inv_weapon_shortblade_07.jpg",
-      "dropsFrom": [
-        {
-          "chance": 6.25,
-          "bossId": 0,
-          "npcId": 0
-        },
-        {
-          "chance": 6.25,
-          "bossId": 2,
-          "npcId": 2
-        },
-        {
-          "chance": 6.25,
-          "bossId": 5,
-          "npcId": 5
-        },
-        {
-          "chance": 7.14,
-          "bossId": 6,
-          "npcId": 6
-        }
-      ],
-      "slots": [
-        "Main Hand"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 18879,
-      "name": "Heavy Dark Iron Ring",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Heavy Dark Iron Ring</b><br />Binds when picked up<br />Unique-Equipped<br /><table width=\"100%\"><tr><td>Finger</td><th></th></tr></table>263 Armor<br />+35 Stamina<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases defense rating by 16.</span><br /><span class=\"q2\">Equip: Increases your expertise rating by 14.</span><br /></td></tr></table>",
-      "icon": "inv_jewelry_ring_14.jpg",
-      "dropsFrom": [
-        {
-          "chance": 6.25,
-          "bossId": 0,
-          "npcId": 0
-        },
-        {
-          "chance": 6.25,
-          "bossId": 2,
-          "npcId": 2
-        },
-        {
-          "chance": 6.25,
-          "bossId": 5,
-          "npcId": 5
-        },
-        {
-          "chance": 7.14,
-          "bossId": 6,
-          "npcId": 6
-        }
-      ],
-      "slots": [
-        "Finger"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 19145,
-      "name": "Robe of Volatile Power",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Robe of Volatile Power</b><br />Binds when picked up<br />Chest - Cloth<br />132 Armor<br />+25 Stamina<br />+32 Intellect<br />+24 Spirit<br />Red Socket<br />Blue Socket<br />Socket Bonus: +4 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves critical strike rating by 17.</span><br /><span class=\"q2\">Equip: Increases spell power by 37.</span><br /></td></tr></table>",
-      "icon": "inv_chest_cloth_18.jpg",
-      "dropsFrom": [
-        {
-          "chance": 6.25,
-          "bossId": 0,
-          "npcId": 0
-        },
-        {
-          "chance": 6.25,
-          "bossId": 2,
-          "npcId": 2
-        },
-        {
-          "chance": 6.25,
-          "bossId": 5,
-          "npcId": 5
-        },
-        {
-          "chance": 7.14,
-          "bossId": 6,
-          "npcId": 6
-        }
-      ],
-      "slots": [
-        "Robe"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 19146,
-      "name": "Wristguards of Stability",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Wristguards of Stability</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Wrist</td><th>Leather</th></tr></table>104 Armor<br />+21 Strength<br />+16 Agility<br />+21 Stamina<br />Red Socket<br />Socket Bonus: +6 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your armor penetration rating by 13.</span><br /></td></tr></table>",
-      "icon": "inv_bracer_04.jpg",
-      "dropsFrom": [
-        {
-          "chance": 6.25,
-          "bossId": 0,
-          "npcId": 0
-        },
-        {
-          "chance": 6.25,
-          "bossId": 2,
-          "npcId": 2
-        },
-        {
-          "chance": 6.25,
-          "bossId": 5,
-          "npcId": 5
-        },
-        {
-          "chance": 7.14,
-          "bossId": 6,
-          "npcId": 6
-        }
-      ],
-      "slots": [
-        "Wrist"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 19147,
-      "name": "Ring of Spell Power",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Ring of Spell Power</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Finger</td><th></th></tr></table>+17 Stamina<br />+15 Intellect<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases spell power by 38.</span><br /><span class=\"q2\">Equip: Improves critical strike rating by 14.</span><br /></td></tr></table>",
-      "icon": "inv_jewelry_ring_38.jpg",
-      "dropsFrom": [
-        {
-          "chance": 6.25,
-          "bossId": 0,
-          "npcId": 0
-        },
-        {
-          "chance": 6.25,
-          "bossId": 2,
-          "npcId": 2
-        },
-        {
-          "chance": 6.25,
-          "bossId": 5,
-          "npcId": 5
-        },
-        {
-          "chance": 7.14,
-          "bossId": 6,
-          "npcId": 6
-        }
-      ],
-      "slots": [
-        "Finger"
       ],
       "types": [
         "Unknown"
@@ -3288,6 +2663,787 @@
       ]
     },
     {
+      "id": 17077,
+      "name": "Crimson Shocker",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Crimson Shocker</b><br />Binds when picked up<br />Ranged - Wand<br />159 - 235 Fire Damage - Speed 2.00<br />(98.5 damage per second)<br />+12 Intellect<br />+10 Fire Resistance<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases spell power by 18.</span><br /><span class=\"q2\">Equip: Improves hit rating by 10.</span><br /></td></tr></table>",
+      "icon": "inv_staff_13.jpg",
+      "dropsFrom": [
+        {
+          "chance": 6.25,
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 6.25,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 7.14,
+          "bossId": 6,
+          "npcId": 6
+        },
+        {
+          "chance": 6.25,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Ranged Right"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 18870,
+      "name": "Helm of the Lifegiver",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Helm of the Lifegiver</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Head</td><th>Mail</th></tr></table>456 Armor<br />+26 Stamina<br />+31 Intellect<br />Meta Socket<br />Red Socket<br />Socket Bonus: +5 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases spell power by 34.</span><br /><span class=\"q2\">Equip: Improves haste rating by 16.</span><br /><span class=\"q2\">Equip: Improves critical strike rating by 12.</span><br /></td></tr></table>",
+      "icon": "inv_helmet_18.jpg",
+      "dropsFrom": [
+        {
+          "chance": 6.25,
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 6.25,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 7.14,
+          "bossId": 6,
+          "npcId": 6
+        },
+        {
+          "chance": 6.25,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Head"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 18872,
+      "name": "Manastorm Leggings",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Manastorm Leggings</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Legs</td><th>Cloth</th></tr></table>115 Armor<br />+28 Stamina<br />+31 Intellect<br />Red Socket<br />Yellow Socket<br />Socket Bonus: +4 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases spell power by 34.</span><br /><span class=\"q2\">Equip: Improves haste rating by 13.</span><br /></td></tr></table>",
+      "icon": "inv_pants_08.jpg",
+      "dropsFrom": [
+        {
+          "chance": 6.25,
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 6.25,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 7.14,
+          "bossId": 6,
+          "npcId": 6
+        },
+        {
+          "chance": 6.25,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Legs"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 18875,
+      "name": "Salamander Scale Pants",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Salamander Scale Pants</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Legs</td><th>Leather</th></tr></table>226 Armor<br />+28 Stamina<br />+29 Intellect<br />+10 Fire Resistance<br />Yellow Socket<br />Yellow Socket<br />Socket Bonus: +4 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases spell power by 33.</span><br /><span class=\"q2\">Equip: Restores 13 mana per 5 sec.</span><br /></td></tr></table>",
+      "icon": "inv_pants_12.jpg",
+      "dropsFrom": [
+        {
+          "chance": 6.25,
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 6.25,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 7.14,
+          "bossId": 6,
+          "npcId": 6
+        },
+        {
+          "chance": 6.25,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Legs"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 18878,
+      "name": "Sorcerous Dagger",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Sorcerous Dagger</b><br />Binds when picked up<br />Unique<br /><table width=\"100%\"><tr><td>Main Hand</td><th>Dagger</th></tr></table>49 - 99 Damage - Speed 1.40<br />(52.9 damage per second)<br />+19 Stamina<br />+21 Intellect<br />Red Socket<br />Yellow Socket<br />Socket Bonus: +2 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases spell power by 136.</span><br /><span class=\"q2\">Equip: Improves haste rating by 16.</span><br /><span class=\"q2\">Equip: Improves hit rating by 17.</span><br /></td></tr></table>",
+      "icon": "inv_weapon_shortblade_07.jpg",
+      "dropsFrom": [
+        {
+          "chance": 6.25,
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 6.25,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 7.14,
+          "bossId": 6,
+          "npcId": 6
+        },
+        {
+          "chance": 6.25,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Main Hand"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 18879,
+      "name": "Heavy Dark Iron Ring",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Heavy Dark Iron Ring</b><br />Binds when picked up<br />Unique-Equipped<br /><table width=\"100%\"><tr><td>Finger</td><th></th></tr></table>263 Armor<br />+35 Stamina<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases defense rating by 16.</span><br /><span class=\"q2\">Equip: Increases your expertise rating by 14.</span><br /></td></tr></table>",
+      "icon": "inv_jewelry_ring_14.jpg",
+      "dropsFrom": [
+        {
+          "chance": 6.25,
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 6.25,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 7.14,
+          "bossId": 6,
+          "npcId": 6
+        },
+        {
+          "chance": 6.25,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Finger"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 19145,
+      "name": "Robe of Volatile Power",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Robe of Volatile Power</b><br />Binds when picked up<br />Chest - Cloth<br />132 Armor<br />+25 Stamina<br />+32 Intellect<br />+24 Spirit<br />Red Socket<br />Blue Socket<br />Socket Bonus: +4 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves critical strike rating by 17.</span><br /><span class=\"q2\">Equip: Increases spell power by 37.</span><br /></td></tr></table>",
+      "icon": "inv_chest_cloth_18.jpg",
+      "dropsFrom": [
+        {
+          "chance": 6.25,
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 6.25,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 7.14,
+          "bossId": 6,
+          "npcId": 6
+        },
+        {
+          "chance": 6.25,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Robe"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 19146,
+      "name": "Wristguards of Stability",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Wristguards of Stability</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Wrist</td><th>Leather</th></tr></table>104 Armor<br />+21 Strength<br />+16 Agility<br />+21 Stamina<br />Red Socket<br />Socket Bonus: +6 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your armor penetration rating by 13.</span><br /></td></tr></table>",
+      "icon": "inv_bracer_04.jpg",
+      "dropsFrom": [
+        {
+          "chance": 6.25,
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 6.25,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 7.14,
+          "bossId": 6,
+          "npcId": 6
+        },
+        {
+          "chance": 6.25,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Wrist"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 19147,
+      "name": "Ring of Spell Power",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Ring of Spell Power</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Finger</td><th></th></tr></table>+17 Stamina<br />+15 Intellect<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases spell power by 38.</span><br /><span class=\"q2\">Equip: Improves critical strike rating by 14.</span><br /></td></tr></table>",
+      "icon": "inv_jewelry_ring_38.jpg",
+      "dropsFrom": [
+        {
+          "chance": 6.25,
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 6.25,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 7.14,
+          "bossId": 6,
+          "npcId": 6
+        },
+        {
+          "chance": 6.25,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Finger"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 16800,
+      "name": "Arcanist Boots",
+      "classes": [
+        "Mage"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Arcanist Boots</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Feet</td><th>Cloth</th></tr></table>23 Armor<br />+9 Stamina<br />+10 Intellect<br />+7 Spirit<br />+10 Shadow Resistance<br />Classes: Mage<br />Requires Level 60<br />Arcanist Regalia (0/8)<br />Arcanist Belt<br />Arcanist Bindings<br />Arcanist Crown<br />Arcanist Boots<br />Arcanist Gloves<br />Arcanist Leggings<br />Arcanist Mantle<br />Arcanist Robes<br />(3) Set: Increases spell power by 18.<br />(5) Set: Increases your spell penetration by 38.<br />(8) Set: Decreases the threat generated by your spells by 15%.<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your critical strike rating by 11.</span><br /><span class=\"q2\">Equip: Increases spell power by 8.</span><br /></td></tr></table>",
+      "icon": "inv_boots_07.jpg",
+      "dropsFrom": [
+        {
+          "chance": 6.25,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Feet"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 16805,
+      "name": "Felheart Gloves",
+      "classes": [
+        "Warlock"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Felheart Gloves</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Hands</td><th>Cloth</th></tr></table>21 Armor<br />+12 Stamina<br />+10 Intellect<br />+5 Spirit<br />+7 Fire Resistance<br />Classes: Warlock<br />Requires Level 60<br />Felheart Raiment (0/8)<br />Felheart Belt<br />Felheart Bracers<br />Felheart Gloves<br />Felheart Pants<br />Felheart Robes<br />Felheart Shoulder Pads<br />Felheart Horns<br />Felheart Slippers<br />(3) Set: Health or Mana gained from Drain Life and Drain Mana increased by 15%.<br />(5) Set: Your pet gains 60 stamina and 500 spell resistance against all schools of magic.<br />(8) Set: Mana cost of Shadow spells reduced by 15%.<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your critical strike rating by 11.</span><br /><span class=\"q2\">Equip: Increases spell power by 6.</span><br /></td></tr></table>",
+      "icon": "inv_gauntlets_19.jpg",
+      "dropsFrom": [
+        {
+          "chance": 6.25,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Hands"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 16829,
+      "name": "Cenarion Boots",
+      "classes": [
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Cenarion Boots</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Feet</td><th>Leather</th></tr></table>45 Armor<br />+11 Stamina<br />+9 Intellect<br />+10 Spirit<br />+7 Shadow Resistance<br />Classes: Druid<br />Requires Level 60<br />Cenarion Raiment (0/8)<br />Cenarion Belt<br />Cenarion Boots<br />Cenarion Bracers<br />Cenarion Vestments<br />Cenarion Gloves<br />Cenarion Helm<br />Cenarion Leggings<br />Cenarion Spaulders<br />(3) Set: Damage dealt by Thorns increased by 4 and duration increased by 50%.<br />(5) Set: Increases your critical strike rating by 28.<br />(8) Set: Reduces the cooldown of your Tranquility spell by 50% and increases the damage done by your Hurricane spell by 15%.<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Restores 3 mana per 5 sec.</span><br /><span class=\"q2\">Equip: Increases spell power by 7.</span><br /></td></tr></table>",
+      "icon": "inv_boots_08.jpg",
+      "dropsFrom": [
+        {
+          "chance": 6.25,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Feet"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 16837,
+      "name": "Earthfury Boots",
+      "classes": [
+        "Shaman"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Earthfury Boots</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Feet</td><th>Mail</th></tr></table>95 Armor<br />+10 Stamina<br />+7 Intellect<br />+15 Spirit<br />+7 Shadow Resistance<br />Classes: Shaman<br />Requires Level 60<br />The Earthfury (0/8)<br />Earthfury Belt<br />Earthfury Boots<br />Earthfury Bracers<br />Earthfury Vestments<br />Earthfury Epaulets<br />Earthfury Gauntlets<br />Earthfury Helmet<br />Earthfury Legguards<br />(3) Set: The radius of your totems that affect friendly targets is increased to 30 yd.<br />(5) Set: After casting your Healing Wave or Lesser Healing Wave spell, gives you a 25% chance to gain Mana equal to 35% of the base cost of the spell.<br />(8) Set: Your Healing Wave will now jump to additional nearby targets. Each jump reduces the effectiveness of the heal by 80%, and the spell will jump to up to two additional targets.<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases spell power by 7.</span><br /></td></tr></table>",
+      "icon": "inv_boots_plate_06.jpg",
+      "dropsFrom": [
+        {
+          "chance": 6.25,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Feet"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 16859,
+      "name": "Lawbringer Boots",
+      "classes": [
+        "Paladin"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Lawbringer Boots</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Feet</td><th>Plate</th></tr></table>571 Armor<br />+5 Strength<br />+14 Stamina<br />+9 Intellect<br />+7 Spirit<br />+7 Shadow Resistance<br />Classes: Paladin<br />Requires Level 60<br />Lawbringer Armor (0/8)<br />Lawbringer Belt<br />Lawbringer Boots<br />Lawbringer Bracers<br />Lawbringer Chestguard<br />Lawbringer Gauntlets<br />Lawbringer Helm<br />Lawbringer Legplates<br />Lawbringer Spaulders<br />(3) Set: Increases the chance of triggering a Judgement of Light heal by 10%.<br />(5) Set: Increases your critical strike rating by 14.<br />(8) Set: Gives the Paladin a chance on every melee hit to heal your party for 189 to 211.<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Restores 3 mana per 5 sec.</span><br /><span class=\"q2\">Equip: Increases spell power by 7.</span><br /></td></tr></table>",
+      "icon": "inv_boots_plate_09.jpg",
+      "dropsFrom": [
+        {
+          "chance": 6.25,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Feet"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 16863,
+      "name": "Gauntlets of Might",
+      "classes": [
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Gauntlets of Might</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Hands</td><th>Plate</th></tr></table>520 Armor<br />+15 Strength<br />+12 Stamina<br />+7 Fire Resistance<br />Classes: Warrior<br />Requires Level 60<br />Battlegear of Might (0/8)<br />Belt of Might<br />Bracers of Might<br />Breastplate of Might<br />Gauntlets of Might<br />Helm of Might<br />Legplates of Might<br />Pauldrons of Might<br />Sabatons of Might<br />(3) Set: Increases the block value of your shield by 60.<br />(5) Set: Gives you a 20% chance to generate an additional Rage point whenever damage is dealt to you.<br />(8) Set: Increases the threat generated by Sunder Armor and Devastate by 15%.<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your hit rating by 8.</span><br /><span class=\"q2\">Equip: Increases defense rating by 6.</span><br /></td></tr></table>",
+      "icon": "inv_gauntlets_10.jpg",
+      "dropsFrom": [
+        {
+          "chance": 6.25,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Hands"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 17109,
+      "name": "Choker of Enlightenment",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Choker of Enlightenment</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Neck</td><th></th></tr></table>+20 Stamina<br />+20 Intellect<br />+17 Spirit<br />Yellow Socket<br />Socket Bonus: +2 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases spell power by 33.</span><br /><span class=\"q2\">Equip: Improves haste rating by 14.</span><br /></td></tr></table>",
+      "icon": "inv_jewelry_necklace_10.jpg",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Neck"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 17329,
+      "name": "Hand of Lucifron",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 1,
+      "tooltip": "<table><tr><td><b class=\"q1\">Hand of Lucifron</b><br />Quest Item<br /></td></tr></table>",
+      "icon": "inv_gauntlets_26.jpg",
+      "dropsFrom": [
+        {
+          "chance": 100.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Non-equippable"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 16816,
+      "name": "Mantle of Prophecy",
+      "classes": [
+        "Priest"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Mantle of Prophecy</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Shoulder</td><th>Cloth</th></tr></table>25 Armor<br />+9 Stamina<br />+16 Intellect<br />+7 Spirit<br />+7 Shadow Resistance<br />Classes: Priest<br />Requires Level 60<br />Tier 1 Prophecy (0/8)<br />Boots of Prophecy<br />Circlet of Prophecy<br />Girdle of Prophecy<br />Gloves of Prophecy<br />Pants of Prophecy<br />Mantle of Prophecy<br />Robes of Prophecy<br />Vambraces of Prophecy<br />(2) Set: Increases your chance of a critical hit with Prayer of Healing by 25%.<br />(4) Set: Reduces the duration of the Weakened Soul effect caused by your Power Word: Shield by 2 sec.<br />(5) Set: Increases spell power by 30.<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases spell power by 6.</span><br /></td></tr></table>",
+      "icon": "inv_shoulder_02.jpg",
+      "dropsFrom": [
+        {
+          "chance": 7.14,
+          "bossId": 6,
+          "npcId": 6
+        }
+      ],
+      "slots": [
+        "Shoulder"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 16823,
+      "name": "Nightslayer Shoulder Pads",
+      "classes": [
+        "Rogue"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Nightslayer Shoulder Pads</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Shoulder</td><th>Leather</th></tr></table>49 Armor<br />+2 Strength<br />+18 Agility<br />+8 Stamina<br />+7 Shadow Resistance<br />Classes: Rogue<br />Requires Level 60<br />Nightslayer Armor (0/8)<br />Nightslayer Belt<br />Nightslayer Boots<br />Nightslayer Bracelets<br />Nightslayer Chestpiece<br />Nightslayer Cover<br />Nightslayer Gloves<br />Nightslayer Pants<br />Nightslayer Shoulder Pads<br />(3) Set: Reduces the cooldown of your Vanish ability by 30 sec.<br />(5) Set: Increases your maximum Energy by 10.<br />(8) Set: Heals the rogue for 500 when Vanish is performed.<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your hit rating by 8.</span><br /></td></tr></table>",
+      "icon": "inv_shoulder_25.jpg",
+      "dropsFrom": [
+        {
+          "chance": 7.14,
+          "bossId": 6,
+          "npcId": 6
+        }
+      ],
+      "slots": [
+        "Shoulder"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 16848,
+      "name": "Giantstalker's Epaulets",
+      "classes": [
+        "Hunter"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Giantstalker's Epaulets</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Shoulder</td><th>Mail</th></tr></table>104 Armor<br />+11 Agility<br />+10 Stamina<br />+3 Intellect<br />+6 Spirit<br />+7 Shadow Resistance<br />Classes: Hunter<br />Requires Level 60<br />Giantstalker Armor (0/8)<br />Giantstalker's Belt<br />Giantstalker's Boots<br />Giantstalker's Bracers<br />Giantstalker's Breastplate<br />Giantstalker's Epaulets<br />Giantstalker's Gloves<br />Giantstalker's Helmet<br />Giantstalker's Leggings<br />(3) Set: Increases the range of your Mend Pet spell by 50% and the effect by 10%.  Also reduces the cost by 30%.<br />(5) Set: Increases your pet's stamina by 30 and all spell resistances by 40.<br />(8) Set: Increases the damage of Multi-shot and Volley by 15%.<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your hit rating by 8.</span><br /><span class=\"q2\">Equip: Increases attack power by 26.</span><br /></td></tr></table>",
+      "icon": "inv_shoulder_10.jpg",
+      "dropsFrom": [
+        {
+          "chance": 7.14,
+          "bossId": 6,
+          "npcId": 6
+        }
+      ],
+      "slots": [
+        "Shoulder"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 16868,
+      "name": "Pauldrons of Might",
+      "classes": [
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Pauldrons of Might</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Shoulder</td><th>Plate</th></tr></table>625 Armor<br />+10 Strength<br />+15 Stamina<br />+7 Shadow Resistance<br />Classes: Warrior<br />Requires Level 60<br />Battlegear of Might (0/8)<br />Belt of Might<br />Bracers of Might<br />Breastplate of Might<br />Gauntlets of Might<br />Helm of Might<br />Legplates of Might<br />Pauldrons of Might<br />Sabatons of Might<br />(3) Set: Increases the block value of your shield by 60.<br />(5) Set: Gives you a 20% chance to generate an additional Rage point whenever damage is dealt to you.<br />(8) Set: Increases the threat generated by Sunder Armor and Devastate by 15%.<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your block rating by 8.</span><br /><span class=\"q2\">Equip: Increases defense rating by 6.</span><br /></td></tr></table>",
+      "icon": "inv_shoulder_15.jpg",
+      "dropsFrom": [
+        {
+          "chance": 7.14,
+          "bossId": 6,
+          "npcId": 6
+        }
+      ],
+      "slots": [
+        "Shoulder"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 17074,
+      "name": "Shadowstrike",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Shadowstrike</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Two-Hand</td><th>Polearm</th></tr></table>237 - 374 Damage - Speed 3.10<br />(98.5 damage per second)<br />+35 Agility<br />+25 Stamina<br />Red Socket<br />Socket Bonus: +6 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases attack power by 62.</span><br /><span class=\"q2\">Equip: Improves critical strike rating by 18.</span><br /><span class=\"q2\">Equip: Increases your armor penetration rating by 19.</span><br /><span class=\"q2\">Chance on hit: Steals 200 to 320 life from target enemy.</span><br /><span class=\"q2\">Use: Transforms Shadowstrike into Thunderstrike.</span><br /></td></tr></table>",
+      "icon": "inv_spear_08.jpg",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 6,
+          "npcId": 6
+        }
+      ],
+      "slots": [
+        "Two-Hand"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 17330,
+      "name": "Hand of Sulfuron",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 1,
+      "tooltip": "<table><tr><td><b class=\"q1\">Hand of Sulfuron</b><br />Quest Item<br /></td></tr></table>",
+      "icon": "inv_gauntlets_03.jpg",
+      "dropsFrom": [
+        {
+          "chance": 100.0,
+          "bossId": 6,
+          "npcId": 6
+        }
+      ],
+      "slots": [
+        "Non-equippable"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
       "id": 16801,
       "name": "Arcanist Gloves",
       "classes": [
@@ -3452,341 +3608,6 @@
       ],
       "slots": [
         "Non-equippable"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 17072,
-      "name": "Blastershot Launcher",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Blastershot Launcher</b><br />Binds when picked up<br />Ranged - Gun<br />185 - 328 Damage - Speed 2.60<br />(98.7 damage per second)<br />+19 Agility<br />+17 Stamina<br />Yellow Socket<br />Socket Bonus: +6 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves critical strike rating by 16.</span><br /><span class=\"q2\">Equip: Increases attack power by 42.</span><br /></td></tr></table>",
-      "icon": "inv_weapon_rifle_09.jpg",
-      "dropsFrom": [
-        {
-          "chance": 0.0,
-          "bossId": 7,
-          "npcId": 7
-        }
-      ],
-      "slots": [
-        "Ranged Right"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 17103,
-      "name": "Azuresong Mageblade",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Azuresong Mageblade</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Main Hand</td><th>Sword</th></tr></table>88 - 166 Damage - Speed 2.40<br />(52.9 damage per second)<br />+19 Stamina<br />+23 Intellect<br />Red Socket<br />Socket Bonus: +2 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases spell power by 136.</span><br /><span class=\"q2\">Equip: Improves critical strike rating by 15.</span><br /><span class=\"q2\">Equip: Improves haste rating by 13.</span><br /></td></tr></table>",
-      "icon": "inv_sword_39.jpg",
-      "dropsFrom": [
-        {
-          "chance": 0.0,
-          "bossId": 7,
-          "npcId": 7
-        }
-      ],
-      "slots": [
-        "Main Hand"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 17203,
-      "name": "Sulfuron Ingot",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Sulfuron Ingot</b><br /></td></tr></table>",
-      "icon": "spell_fire_sealoffire.jpg",
-      "dropsFrom": [
-        {
-          "chance": 30.0,
-          "bossId": 7,
-          "npcId": 7
-        }
-      ],
-      "slots": [
-        "Non-equippable"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 18842,
-      "name": "Staff of Dominance",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Staff of Dominance</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Two-Hand</td><th>Staff</th></tr></table>155 - 244 Damage - Speed 2.90<br />(68.8 damage per second)<br />+32 Stamina<br />+34 Intellect<br />+24 Spirit<br />Red Socket<br />Red Socket<br />Socket Bonus: +4 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases spell power by 146.</span><br /><span class=\"q2\">Equip: Improves critical strike rating by 26.</span><br /><span class=\"q2\">Equip: Improves hit rating by 24.</span><br /></td></tr></table>",
-      "icon": "inv_staff_13.jpg",
-      "dropsFrom": [
-        {
-          "chance": 0.0,
-          "bossId": 7,
-          "npcId": 7
-        }
-      ],
-      "slots": [
-        "Two-Hand"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 16798,
-      "name": "Arcanist Robes",
-      "classes": [
-        "Mage"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Arcanist Robes</b><br />Binds when picked up<br />Chest - Cloth<br />34 Armor<br />+13 Stamina<br />+17 Intellect<br />+7 Spirit<br />+10 Fire Resistance<br />Classes: Mage<br />Requires Level 60<br />Arcanist Regalia (0/8)<br />Arcanist Belt<br />Arcanist Bindings<br />Arcanist Crown<br />Arcanist Boots<br />Arcanist Gloves<br />Arcanist Leggings<br />Arcanist Mantle<br />Arcanist Robes<br />(3) Set: Increases spell power by 18.<br />(5) Set: Increases your spell penetration by 38.<br />(8) Set: Decreases the threat generated by your spells by 15%.<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases spell power by 17.</span><br /></td></tr></table>",
-      "icon": "inv_chest_cloth_03.jpg",
-      "dropsFrom": [
-        {
-          "chance": 11.11,
-          "bossId": 7,
-          "npcId": 7
-        }
-      ],
-      "slots": [
-        "Robe"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 16809,
-      "name": "Felheart Robes",
-      "classes": [
-        "Warlock"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Felheart Robes</b><br />Binds when picked up<br />Chest - Cloth<br />34 Armor<br />+22 Stamina<br />+14 Intellect<br />+10 Fire Resistance<br />Classes: Warlock<br />Requires Level 60<br />Felheart Raiment (0/8)<br />Felheart Belt<br />Felheart Bracers<br />Felheart Gloves<br />Felheart Pants<br />Felheart Robes<br />Felheart Shoulder Pads<br />Felheart Horns<br />Felheart Slippers<br />(3) Set: Health or Mana gained from Drain Life and Drain Mana increased by 15%.<br />(5) Set: Your pet gains 60 stamina and 500 spell resistance against all schools of magic.<br />(8) Set: Mana cost of Shadow spells reduced by 15%.<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases spell power by 9.</span><br /><span class=\"q2\">Equip: Increases your hit rating by 6.</span><br /></td></tr></table>",
-      "icon": "inv_chest_cloth_09.jpg",
-      "dropsFrom": [
-        {
-          "chance": 11.11,
-          "bossId": 7,
-          "npcId": 7
-        }
-      ],
-      "slots": [
-        "Robe"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 16815,
-      "name": "Robes of Prophecy",
-      "classes": [
-        "Priest"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Robes of Prophecy</b><br />Binds when picked up<br />Chest - Cloth<br />34 Armor<br />+14 Stamina<br />+19 Intellect<br />+12 Spirit<br />+10 Fire Resistance<br />Classes: Priest<br />Requires Level 60<br />Tier 1 Prophecy (0/8)<br />Boots of Prophecy<br />Circlet of Prophecy<br />Girdle of Prophecy<br />Gloves of Prophecy<br />Pants of Prophecy<br />Mantle of Prophecy<br />Robes of Prophecy<br />Vambraces of Prophecy<br />(2) Set: Increases your chance of a critical hit with Prayer of Healing by 25%.<br />(4) Set: Reduces the duration of the Weakened Soul effect caused by your Power Word: Shield by 2 sec.<br />(5) Set: Increases spell power by 30.<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases spell power by 10.</span><br /></td></tr></table>",
-      "icon": "inv_chest_cloth_03.jpg",
-      "dropsFrom": [
-        {
-          "chance": 11.11,
-          "bossId": 7,
-          "npcId": 7
-        }
-      ],
-      "slots": [
-        "Robe"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 16820,
-      "name": "Nightslayer Chestpiece",
-      "classes": [
-        "Rogue"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Nightslayer Chestpiece</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Chest</td><th>Leather</th></tr></table>66 Armor<br />+7 Strength<br />+20 Agility<br />+14 Stamina<br />+10 Fire Resistance<br />Classes: Rogue<br />Requires Level 60<br />Nightslayer Armor (0/8)<br />Nightslayer Belt<br />Nightslayer Boots<br />Nightslayer Bracelets<br />Nightslayer Chestpiece<br />Nightslayer Cover<br />Nightslayer Gloves<br />Nightslayer Pants<br />Nightslayer Shoulder Pads<br />(3) Set: Reduces the cooldown of your Vanish ability by 30 sec.<br />(5) Set: Increases your maximum Energy by 10.<br />(8) Set: Heals the rogue for 500 when Vanish is performed.<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your critical strike rating by 11.</span><br /></td></tr></table>",
-      "icon": "inv_chest_cloth_07.jpg",
-      "dropsFrom": [
-        {
-          "chance": 11.11,
-          "bossId": 7,
-          "npcId": 7
-        }
-      ],
-      "slots": [
-        "Chest"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 16833,
-      "name": "Cenarion Vestments",
-      "classes": [
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Cenarion Vestments</b><br />Binds when picked up<br />Chest - Leather<br />66 Armor<br />+16 Stamina<br />+17 Intellect<br />+11 Spirit<br />+10 Fire Resistance<br />Classes: Druid<br />Requires Level 60<br />Cenarion Raiment (0/8)<br />Cenarion Belt<br />Cenarion Boots<br />Cenarion Bracers<br />Cenarion Vestments<br />Cenarion Gloves<br />Cenarion Helm<br />Cenarion Leggings<br />Cenarion Spaulders<br />(3) Set: Damage dealt by Thorns increased by 4 and duration increased by 50%.<br />(5) Set: Increases your critical strike rating by 28.<br />(8) Set: Reduces the cooldown of your Tranquility spell by 50% and increases the damage done by your Hurricane spell by 15%.<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Restores 3 mana per 5 sec.</span><br /><span class=\"q2\">Equip: Increases spell power by 10.</span><br /></td></tr></table>",
-      "icon": "inv_chest_cloth_06.jpg",
-      "dropsFrom": [
-        {
-          "chance": 11.11,
-          "bossId": 7,
-          "npcId": 7
-        }
-      ],
-      "slots": [
-        "Robe"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 16841,
-      "name": "Earthfury Vestments",
-      "classes": [
-        "Shaman"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Earthfury Vestments</b><br />Binds when picked up<br />Chest - Mail<br />138 Armor<br />+12 Stamina<br />+19 Intellect<br />+9 Spirit<br />+10 Fire Resistance<br />Classes: Shaman<br />Requires Level 60<br />The Earthfury (0/8)<br />Earthfury Belt<br />Earthfury Boots<br />Earthfury Bracers<br />Earthfury Vestments<br />Earthfury Epaulets<br />Earthfury Gauntlets<br />Earthfury Helmet<br />Earthfury Legguards<br />(3) Set: The radius of your totems that affect friendly targets is increased to 30 yd.<br />(5) Set: After casting your Healing Wave or Lesser Healing Wave spell, gives you a 25% chance to gain Mana equal to 35% of the base cost of the spell.<br />(8) Set: Your Healing Wave will now jump to additional nearby targets. Each jump reduces the effectiveness of the heal by 80%, and the spell will jump to up to two additional targets.<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your critical strike rating by 11.</span><br /><span class=\"q2\">Equip: Increases spell power by 10.</span><br /></td></tr></table>",
-      "icon": "inv_chest_chain_11.jpg",
-      "dropsFrom": [
-        {
-          "chance": 11.11,
-          "bossId": 7,
-          "npcId": 7
-        }
-      ],
-      "slots": [
-        "Robe"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 16845,
-      "name": "Giantstalker's Breastplate",
-      "classes": [
-        "Hunter"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Giantstalker's Breastplate</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Chest</td><th>Mail</th></tr></table>138 Armor<br />+12 Agility<br />+16 Stamina<br />+7 Intellect<br />+10 Fire Resistance<br />Classes: Hunter<br />Requires Level 60<br />Giantstalker Armor (0/8)<br />Giantstalker's Belt<br />Giantstalker's Boots<br />Giantstalker's Bracers<br />Giantstalker's Breastplate<br />Giantstalker's Epaulets<br />Giantstalker's Gloves<br />Giantstalker's Helmet<br />Giantstalker's Leggings<br />(3) Set: Increases the range of your Mend Pet spell by 50% and the effect by 10%.  Also reduces the cost by 30%.<br />(5) Set: Increases your pet's stamina by 30 and all spell resistances by 40.<br />(8) Set: Increases the damage of Multi-shot and Volley by 15%.<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your critical strike rating by 11.</span><br /><span class=\"q2\">Equip: Increases attack power by 28.</span><br /></td></tr></table>",
-      "icon": "inv_chest_chain_03.jpg",
-      "dropsFrom": [
-        {
-          "chance": 11.11,
-          "bossId": 7,
-          "npcId": 7
-        }
-      ],
-      "slots": [
-        "Chest"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 16853,
-      "name": "Lawbringer Chestguard",
-      "classes": [
-        "Paladin"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Lawbringer Chestguard</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Chest</td><th>Plate</th></tr></table>833 Armor<br />+5 Strength<br />+18 Stamina<br />+15 Intellect<br />+9 Spirit<br />+10 Fire Resistance<br />Classes: Paladin<br />Requires Level 60<br />Lawbringer Armor (0/8)<br />Lawbringer Belt<br />Lawbringer Boots<br />Lawbringer Bracers<br />Lawbringer Chestguard<br />Lawbringer Gauntlets<br />Lawbringer Helm<br />Lawbringer Legplates<br />Lawbringer Spaulders<br />(3) Set: Increases the chance of triggering a Judgement of Light heal by 10%.<br />(5) Set: Increases your critical strike rating by 14.<br />(8) Set: Gives the Paladin a chance on every melee hit to heal your party for 189 to 211.<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases spell power by 10.</span><br /></td></tr></table>",
-      "icon": "inv_chest_plate03.jpg",
-      "dropsFrom": [
-        {
-          "chance": 11.11,
-          "bossId": 7,
-          "npcId": 7
-        }
-      ],
-      "slots": [
-        "Chest"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 16865,
-      "name": "Breastplate of Might",
-      "classes": [
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Breastplate of Might</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Chest</td><th>Plate</th></tr></table>833 Armor<br />+14 Strength<br />+20 Stamina<br />+10 Fire Resistance<br />Classes: Warrior<br />Requires Level 60<br />Battlegear of Might (0/8)<br />Belt of Might<br />Bracers of Might<br />Breastplate of Might<br />Gauntlets of Might<br />Helm of Might<br />Legplates of Might<br />Pauldrons of Might<br />Sabatons of Might<br />(3) Set: Increases the block value of your shield by 60.<br />(5) Set: Gives you a 20% chance to generate an additional Rage point whenever damage is dealt to you.<br />(8) Set: Increases the threat generated by Sunder Armor and Devastate by 15%.<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your block rating by 15.</span><br /><span class=\"q2\">Equip: Increases defense rating by 8.</span><br /></td></tr></table>",
-      "icon": "inv_chest_plate16.jpg",
-      "dropsFrom": [
-        {
-          "chance": 11.11,
-          "bossId": 7,
-          "npcId": 7
-        }
-      ],
-      "slots": [
-        "Chest"
       ],
       "types": [
         "Unknown"
@@ -7457,100 +7278,8 @@
       ]
     },
     {
-      "id": 16816,
-      "name": "Mantle of Prophecy",
-      "classes": [
-        "Priest"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Mantle of Prophecy</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Shoulder</td><th>Cloth</th></tr></table>25 Armor<br />+9 Stamina<br />+16 Intellect<br />+7 Spirit<br />+7 Shadow Resistance<br />Classes: Priest<br />Requires Level 60<br />Tier 1 Prophecy (0/8)<br />Boots of Prophecy<br />Circlet of Prophecy<br />Girdle of Prophecy<br />Gloves of Prophecy<br />Pants of Prophecy<br />Mantle of Prophecy<br />Robes of Prophecy<br />Vambraces of Prophecy<br />(2) Set: Increases your chance of a critical hit with Prayer of Healing by 25%.<br />(4) Set: Reduces the duration of the Weakened Soul effect caused by your Power Word: Shield by 2 sec.<br />(5) Set: Increases spell power by 30.<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases spell power by 6.</span><br /></td></tr></table>",
-      "icon": "inv_shoulder_02.jpg",
-      "dropsFrom": [
-        {
-          "chance": 7.14,
-          "bossId": 6,
-          "npcId": 6
-        }
-      ],
-      "slots": [
-        "Shoulder"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 16823,
-      "name": "Nightslayer Shoulder Pads",
-      "classes": [
-        "Rogue"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Nightslayer Shoulder Pads</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Shoulder</td><th>Leather</th></tr></table>49 Armor<br />+2 Strength<br />+18 Agility<br />+8 Stamina<br />+7 Shadow Resistance<br />Classes: Rogue<br />Requires Level 60<br />Nightslayer Armor (0/8)<br />Nightslayer Belt<br />Nightslayer Boots<br />Nightslayer Bracelets<br />Nightslayer Chestpiece<br />Nightslayer Cover<br />Nightslayer Gloves<br />Nightslayer Pants<br />Nightslayer Shoulder Pads<br />(3) Set: Reduces the cooldown of your Vanish ability by 30 sec.<br />(5) Set: Increases your maximum Energy by 10.<br />(8) Set: Heals the rogue for 500 when Vanish is performed.<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your hit rating by 8.</span><br /></td></tr></table>",
-      "icon": "inv_shoulder_25.jpg",
-      "dropsFrom": [
-        {
-          "chance": 7.14,
-          "bossId": 6,
-          "npcId": 6
-        }
-      ],
-      "slots": [
-        "Shoulder"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 16848,
-      "name": "Giantstalker's Epaulets",
-      "classes": [
-        "Hunter"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Giantstalker's Epaulets</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Shoulder</td><th>Mail</th></tr></table>104 Armor<br />+11 Agility<br />+10 Stamina<br />+3 Intellect<br />+6 Spirit<br />+7 Shadow Resistance<br />Classes: Hunter<br />Requires Level 60<br />Giantstalker Armor (0/8)<br />Giantstalker's Belt<br />Giantstalker's Boots<br />Giantstalker's Bracers<br />Giantstalker's Breastplate<br />Giantstalker's Epaulets<br />Giantstalker's Gloves<br />Giantstalker's Helmet<br />Giantstalker's Leggings<br />(3) Set: Increases the range of your Mend Pet spell by 50% and the effect by 10%.  Also reduces the cost by 30%.<br />(5) Set: Increases your pet's stamina by 30 and all spell resistances by 40.<br />(8) Set: Increases the damage of Multi-shot and Volley by 15%.<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your hit rating by 8.</span><br /><span class=\"q2\">Equip: Increases attack power by 26.</span><br /></td></tr></table>",
-      "icon": "inv_shoulder_10.jpg",
-      "dropsFrom": [
-        {
-          "chance": 7.14,
-          "bossId": 6,
-          "npcId": 6
-        }
-      ],
-      "slots": [
-        "Shoulder"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 16868,
-      "name": "Pauldrons of Might",
-      "classes": [
-        "Warrior"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Pauldrons of Might</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Shoulder</td><th>Plate</th></tr></table>625 Armor<br />+10 Strength<br />+15 Stamina<br />+7 Shadow Resistance<br />Classes: Warrior<br />Requires Level 60<br />Battlegear of Might (0/8)<br />Belt of Might<br />Bracers of Might<br />Breastplate of Might<br />Gauntlets of Might<br />Helm of Might<br />Legplates of Might<br />Pauldrons of Might<br />Sabatons of Might<br />(3) Set: Increases the block value of your shield by 60.<br />(5) Set: Gives you a 20% chance to generate an additional Rage point whenever damage is dealt to you.<br />(8) Set: Increases the threat generated by Sunder Armor and Devastate by 15%.<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your block rating by 8.</span><br /><span class=\"q2\">Equip: Increases defense rating by 6.</span><br /></td></tr></table>",
-      "icon": "inv_shoulder_15.jpg",
-      "dropsFrom": [
-        {
-          "chance": 7.14,
-          "bossId": 6,
-          "npcId": 6
-        }
-      ],
-      "slots": [
-        "Shoulder"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 17074,
-      "name": "Shadowstrike",
+      "id": 17072,
+      "name": "Blastershot Launcher",
       "classes": [
         "Warrior",
         "Paladin",
@@ -7564,13 +7293,109 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Shadowstrike</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Two-Hand</td><th>Polearm</th></tr></table>237 - 374 Damage - Speed 3.10<br />(98.5 damage per second)<br />+35 Agility<br />+25 Stamina<br />Red Socket<br />Socket Bonus: +6 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases attack power by 62.</span><br /><span class=\"q2\">Equip: Improves critical strike rating by 18.</span><br /><span class=\"q2\">Equip: Increases your armor penetration rating by 19.</span><br /><span class=\"q2\">Chance on hit: Steals 200 to 320 life from target enemy.</span><br /><span class=\"q2\">Use: Transforms Shadowstrike into Thunderstrike.</span><br /></td></tr></table>",
-      "icon": "inv_spear_08.jpg",
+      "tooltip": "<table><tr><td><b class=\"q4\">Blastershot Launcher</b><br />Binds when picked up<br />Ranged - Gun<br />185 - 328 Damage - Speed 2.60<br />(98.7 damage per second)<br />+19 Agility<br />+17 Stamina<br />Yellow Socket<br />Socket Bonus: +6 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves critical strike rating by 16.</span><br /><span class=\"q2\">Equip: Increases attack power by 42.</span><br /></td></tr></table>",
+      "icon": "inv_weapon_rifle_09.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
-          "bossId": 6,
-          "npcId": 6
+          "bossId": 7,
+          "npcId": 7
+        }
+      ],
+      "slots": [
+        "Ranged Right"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 17103,
+      "name": "Azuresong Mageblade",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Azuresong Mageblade</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Main Hand</td><th>Sword</th></tr></table>88 - 166 Damage - Speed 2.40<br />(52.9 damage per second)<br />+19 Stamina<br />+23 Intellect<br />Red Socket<br />Socket Bonus: +2 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases spell power by 136.</span><br /><span class=\"q2\">Equip: Improves critical strike rating by 15.</span><br /><span class=\"q2\">Equip: Improves haste rating by 13.</span><br /></td></tr></table>",
+      "icon": "inv_sword_39.jpg",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 7,
+          "npcId": 7
+        }
+      ],
+      "slots": [
+        "Main Hand"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 17203,
+      "name": "Sulfuron Ingot",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Sulfuron Ingot</b><br /></td></tr></table>",
+      "icon": "spell_fire_sealoffire.jpg",
+      "dropsFrom": [
+        {
+          "chance": 30.0,
+          "bossId": 7,
+          "npcId": 7
+        }
+      ],
+      "slots": [
+        "Non-equippable"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 18842,
+      "name": "Staff of Dominance",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Staff of Dominance</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Two-Hand</td><th>Staff</th></tr></table>155 - 244 Damage - Speed 2.90<br />(68.8 damage per second)<br />+32 Stamina<br />+34 Intellect<br />+24 Spirit<br />Red Socket<br />Red Socket<br />Socket Bonus: +4 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases spell power by 146.</span><br /><span class=\"q2\">Equip: Improves critical strike rating by 26.</span><br /><span class=\"q2\">Equip: Improves hit rating by 24.</span><br /></td></tr></table>",
+      "icon": "inv_staff_13.jpg",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 7,
+          "npcId": 7
         }
       ],
       "slots": [
@@ -7581,32 +7406,207 @@
       ]
     },
     {
-      "id": 17330,
-      "name": "Hand of Sulfuron",
+      "id": 16798,
+      "name": "Arcanist Robes",
       "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
+        "Mage"
       ],
-      "quality": 1,
-      "tooltip": "<table><tr><td><b class=\"q1\">Hand of Sulfuron</b><br />Quest Item<br /></td></tr></table>",
-      "icon": "inv_gauntlets_03.jpg",
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Arcanist Robes</b><br />Binds when picked up<br />Chest - Cloth<br />34 Armor<br />+13 Stamina<br />+17 Intellect<br />+7 Spirit<br />+10 Fire Resistance<br />Classes: Mage<br />Requires Level 60<br />Arcanist Regalia (0/8)<br />Arcanist Belt<br />Arcanist Bindings<br />Arcanist Crown<br />Arcanist Boots<br />Arcanist Gloves<br />Arcanist Leggings<br />Arcanist Mantle<br />Arcanist Robes<br />(3) Set: Increases spell power by 18.<br />(5) Set: Increases your spell penetration by 38.<br />(8) Set: Decreases the threat generated by your spells by 15%.<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases spell power by 17.</span><br /></td></tr></table>",
+      "icon": "inv_chest_cloth_03.jpg",
       "dropsFrom": [
         {
-          "chance": 100.0,
-          "bossId": 6,
-          "npcId": 6
+          "chance": 11.11,
+          "bossId": 7,
+          "npcId": 7
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Robe"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 16809,
+      "name": "Felheart Robes",
+      "classes": [
+        "Warlock"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Felheart Robes</b><br />Binds when picked up<br />Chest - Cloth<br />34 Armor<br />+22 Stamina<br />+14 Intellect<br />+10 Fire Resistance<br />Classes: Warlock<br />Requires Level 60<br />Felheart Raiment (0/8)<br />Felheart Belt<br />Felheart Bracers<br />Felheart Gloves<br />Felheart Pants<br />Felheart Robes<br />Felheart Shoulder Pads<br />Felheart Horns<br />Felheart Slippers<br />(3) Set: Health or Mana gained from Drain Life and Drain Mana increased by 15%.<br />(5) Set: Your pet gains 60 stamina and 500 spell resistance against all schools of magic.<br />(8) Set: Mana cost of Shadow spells reduced by 15%.<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases spell power by 9.</span><br /><span class=\"q2\">Equip: Increases your hit rating by 6.</span><br /></td></tr></table>",
+      "icon": "inv_chest_cloth_09.jpg",
+      "dropsFrom": [
+        {
+          "chance": 11.11,
+          "bossId": 7,
+          "npcId": 7
+        }
+      ],
+      "slots": [
+        "Robe"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 16815,
+      "name": "Robes of Prophecy",
+      "classes": [
+        "Priest"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Robes of Prophecy</b><br />Binds when picked up<br />Chest - Cloth<br />34 Armor<br />+14 Stamina<br />+19 Intellect<br />+12 Spirit<br />+10 Fire Resistance<br />Classes: Priest<br />Requires Level 60<br />Tier 1 Prophecy (0/8)<br />Boots of Prophecy<br />Circlet of Prophecy<br />Girdle of Prophecy<br />Gloves of Prophecy<br />Pants of Prophecy<br />Mantle of Prophecy<br />Robes of Prophecy<br />Vambraces of Prophecy<br />(2) Set: Increases your chance of a critical hit with Prayer of Healing by 25%.<br />(4) Set: Reduces the duration of the Weakened Soul effect caused by your Power Word: Shield by 2 sec.<br />(5) Set: Increases spell power by 30.<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases spell power by 10.</span><br /></td></tr></table>",
+      "icon": "inv_chest_cloth_03.jpg",
+      "dropsFrom": [
+        {
+          "chance": 11.11,
+          "bossId": 7,
+          "npcId": 7
+        }
+      ],
+      "slots": [
+        "Robe"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 16820,
+      "name": "Nightslayer Chestpiece",
+      "classes": [
+        "Rogue"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Nightslayer Chestpiece</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Chest</td><th>Leather</th></tr></table>66 Armor<br />+7 Strength<br />+20 Agility<br />+14 Stamina<br />+10 Fire Resistance<br />Classes: Rogue<br />Requires Level 60<br />Nightslayer Armor (0/8)<br />Nightslayer Belt<br />Nightslayer Boots<br />Nightslayer Bracelets<br />Nightslayer Chestpiece<br />Nightslayer Cover<br />Nightslayer Gloves<br />Nightslayer Pants<br />Nightslayer Shoulder Pads<br />(3) Set: Reduces the cooldown of your Vanish ability by 30 sec.<br />(5) Set: Increases your maximum Energy by 10.<br />(8) Set: Heals the rogue for 500 when Vanish is performed.<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your critical strike rating by 11.</span><br /></td></tr></table>",
+      "icon": "inv_chest_cloth_07.jpg",
+      "dropsFrom": [
+        {
+          "chance": 11.11,
+          "bossId": 7,
+          "npcId": 7
+        }
+      ],
+      "slots": [
+        "Chest"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 16833,
+      "name": "Cenarion Vestments",
+      "classes": [
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Cenarion Vestments</b><br />Binds when picked up<br />Chest - Leather<br />66 Armor<br />+16 Stamina<br />+17 Intellect<br />+11 Spirit<br />+10 Fire Resistance<br />Classes: Druid<br />Requires Level 60<br />Cenarion Raiment (0/8)<br />Cenarion Belt<br />Cenarion Boots<br />Cenarion Bracers<br />Cenarion Vestments<br />Cenarion Gloves<br />Cenarion Helm<br />Cenarion Leggings<br />Cenarion Spaulders<br />(3) Set: Damage dealt by Thorns increased by 4 and duration increased by 50%.<br />(5) Set: Increases your critical strike rating by 28.<br />(8) Set: Reduces the cooldown of your Tranquility spell by 50% and increases the damage done by your Hurricane spell by 15%.<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Restores 3 mana per 5 sec.</span><br /><span class=\"q2\">Equip: Increases spell power by 10.</span><br /></td></tr></table>",
+      "icon": "inv_chest_cloth_06.jpg",
+      "dropsFrom": [
+        {
+          "chance": 11.11,
+          "bossId": 7,
+          "npcId": 7
+        }
+      ],
+      "slots": [
+        "Robe"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 16841,
+      "name": "Earthfury Vestments",
+      "classes": [
+        "Shaman"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Earthfury Vestments</b><br />Binds when picked up<br />Chest - Mail<br />138 Armor<br />+12 Stamina<br />+19 Intellect<br />+9 Spirit<br />+10 Fire Resistance<br />Classes: Shaman<br />Requires Level 60<br />The Earthfury (0/8)<br />Earthfury Belt<br />Earthfury Boots<br />Earthfury Bracers<br />Earthfury Vestments<br />Earthfury Epaulets<br />Earthfury Gauntlets<br />Earthfury Helmet<br />Earthfury Legguards<br />(3) Set: The radius of your totems that affect friendly targets is increased to 30 yd.<br />(5) Set: After casting your Healing Wave or Lesser Healing Wave spell, gives you a 25% chance to gain Mana equal to 35% of the base cost of the spell.<br />(8) Set: Your Healing Wave will now jump to additional nearby targets. Each jump reduces the effectiveness of the heal by 80%, and the spell will jump to up to two additional targets.<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your critical strike rating by 11.</span><br /><span class=\"q2\">Equip: Increases spell power by 10.</span><br /></td></tr></table>",
+      "icon": "inv_chest_chain_11.jpg",
+      "dropsFrom": [
+        {
+          "chance": 11.11,
+          "bossId": 7,
+          "npcId": 7
+        }
+      ],
+      "slots": [
+        "Robe"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 16845,
+      "name": "Giantstalker's Breastplate",
+      "classes": [
+        "Hunter"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Giantstalker's Breastplate</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Chest</td><th>Mail</th></tr></table>138 Armor<br />+12 Agility<br />+16 Stamina<br />+7 Intellect<br />+10 Fire Resistance<br />Classes: Hunter<br />Requires Level 60<br />Giantstalker Armor (0/8)<br />Giantstalker's Belt<br />Giantstalker's Boots<br />Giantstalker's Bracers<br />Giantstalker's Breastplate<br />Giantstalker's Epaulets<br />Giantstalker's Gloves<br />Giantstalker's Helmet<br />Giantstalker's Leggings<br />(3) Set: Increases the range of your Mend Pet spell by 50% and the effect by 10%.  Also reduces the cost by 30%.<br />(5) Set: Increases your pet's stamina by 30 and all spell resistances by 40.<br />(8) Set: Increases the damage of Multi-shot and Volley by 15%.<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your critical strike rating by 11.</span><br /><span class=\"q2\">Equip: Increases attack power by 28.</span><br /></td></tr></table>",
+      "icon": "inv_chest_chain_03.jpg",
+      "dropsFrom": [
+        {
+          "chance": 11.11,
+          "bossId": 7,
+          "npcId": 7
+        }
+      ],
+      "slots": [
+        "Chest"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 16853,
+      "name": "Lawbringer Chestguard",
+      "classes": [
+        "Paladin"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Lawbringer Chestguard</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Chest</td><th>Plate</th></tr></table>833 Armor<br />+5 Strength<br />+18 Stamina<br />+15 Intellect<br />+9 Spirit<br />+10 Fire Resistance<br />Classes: Paladin<br />Requires Level 60<br />Lawbringer Armor (0/8)<br />Lawbringer Belt<br />Lawbringer Boots<br />Lawbringer Bracers<br />Lawbringer Chestguard<br />Lawbringer Gauntlets<br />Lawbringer Helm<br />Lawbringer Legplates<br />Lawbringer Spaulders<br />(3) Set: Increases the chance of triggering a Judgement of Light heal by 10%.<br />(5) Set: Increases your critical strike rating by 14.<br />(8) Set: Gives the Paladin a chance on every melee hit to heal your party for 189 to 211.<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases spell power by 10.</span><br /></td></tr></table>",
+      "icon": "inv_chest_plate03.jpg",
+      "dropsFrom": [
+        {
+          "chance": 11.11,
+          "bossId": 7,
+          "npcId": 7
+        }
+      ],
+      "slots": [
+        "Chest"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 16865,
+      "name": "Breastplate of Might",
+      "classes": [
+        "Warrior"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Breastplate of Might</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Chest</td><th>Plate</th></tr></table>833 Armor<br />+14 Strength<br />+20 Stamina<br />+10 Fire Resistance<br />Classes: Warrior<br />Requires Level 60<br />Battlegear of Might (0/8)<br />Belt of Might<br />Bracers of Might<br />Breastplate of Might<br />Gauntlets of Might<br />Helm of Might<br />Legplates of Might<br />Pauldrons of Might<br />Sabatons of Might<br />(3) Set: Increases the block value of your shield by 60.<br />(5) Set: Gives you a 20% chance to generate an additional Rage point whenever damage is dealt to you.<br />(8) Set: Increases the threat generated by Sunder Armor and Devastate by 15%.<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your block rating by 15.</span><br /><span class=\"q2\">Equip: Increases defense rating by 8.</span><br /></td></tr></table>",
+      "icon": "inv_chest_plate16.jpg",
+      "dropsFrom": [
+        {
+          "chance": 11.11,
+          "bossId": 7,
+          "npcId": 7
+        }
+      ],
+      "slots": [
+        "Chest"
       ],
       "types": [
         "Unknown"
