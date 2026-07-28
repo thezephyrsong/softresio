@@ -19,14 +19,9 @@
       "icon": "inv_qiraj_ringmagisterial.png",
       "dropsFrom": [
         {
-          "chance": 24.75,
-          "bossId": 1,
-          "npcId": 1
-        },
-        {
-          "chance": 24.75,
-          "bossId": 0,
-          "npcId": 0
+          "chance": 19.75,
+          "bossId": 4,
+          "npcId": 4
         },
         {
           "chance": 34.5,
@@ -34,14 +29,19 @@
           "npcId": 2
         },
         {
+          "chance": 24.75,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
           "chance": 19.75,
           "bossId": 3,
           "npcId": 3
         },
         {
-          "chance": 19.75,
-          "bossId": 4,
-          "npcId": 4
+          "chance": 24.75,
+          "bossId": 1,
+          "npcId": 1
         },
         {
           "chance": 0.0,
@@ -70,9 +70,9 @@
       "icon": "inv_qiraj_drapemartial.png",
       "dropsFrom": [
         {
-          "chance": 24.75,
-          "bossId": 1,
-          "npcId": 1
+          "chance": 19.75,
+          "bossId": 4,
+          "npcId": 4
         },
         {
           "chance": 24.75,
@@ -85,9 +85,51 @@
           "npcId": 3
         },
         {
-          "chance": 19.75,
+          "chance": 24.75,
+          "bossId": 1,
+          "npcId": 1
+        }
+      ],
+      "slots": [
+        "Non-equippable"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 20886,
+      "name": "Qiraji Spiked Hilt",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Shaman"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Qiraji Spiked Hilt</b><br /></td></tr></table>",
+      "icon": "inv_qiraj_hiltspiked.png",
+      "dropsFrom": [
+        {
+          "chance": 10.0,
           "bossId": 4,
           "npcId": 4
+        },
+        {
+          "chance": 15.0,
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 10.0,
+          "bossId": 3,
+          "npcId": 3
+        },
+        {
+          "chance": 0.0,
+          "bossId": 5,
+          "npcId": 5
         }
       ],
       "slots": [
@@ -111,14 +153,9 @@
       "icon": "inv_qiraj_ringceremonial.png",
       "dropsFrom": [
         {
-          "chance": 24.75,
-          "bossId": 1,
-          "npcId": 1
-        },
-        {
-          "chance": 24.75,
-          "bossId": 0,
-          "npcId": 0
+          "chance": 19.75,
+          "bossId": 4,
+          "npcId": 4
         },
         {
           "chance": 34.5,
@@ -126,14 +163,19 @@
           "npcId": 2
         },
         {
+          "chance": 24.75,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
           "chance": 19.75,
           "bossId": 3,
           "npcId": 3
         },
         {
-          "chance": 19.75,
-          "bossId": 4,
-          "npcId": 4
+          "chance": 24.75,
+          "bossId": 1,
+          "npcId": 1
         },
         {
           "chance": 0.0,
@@ -163,9 +205,9 @@
       "icon": "inv_bracer_18.png",
       "dropsFrom": [
         {
-          "chance": 24.75,
-          "bossId": 1,
-          "npcId": 1
+          "chance": 19.75,
+          "bossId": 4,
+          "npcId": 4
         },
         {
           "chance": 24.75,
@@ -178,9 +220,9 @@
           "npcId": 3
         },
         {
-          "chance": 19.75,
-          "bossId": 4,
-          "npcId": 4
+          "chance": 24.75,
+          "bossId": 1,
+          "npcId": 1
         }
       ],
       "slots": [
@@ -191,40 +233,49 @@
       ]
     },
     {
-      "id": 21492,
-      "name": "Manslayer of the Qiraji",
+      "id": 20890,
+      "name": "Qiraji Ornate Hilt",
       "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
         "Priest",
-        "Death Knight",
-        "Shaman",
         "Mage",
         "Warlock",
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Manslayer of the Qiraji</b><br /><table width=\"100%\"><tr><td>Two-Hand</td><th></th></tr></table>Item Level 105<br />+29 Strength<br />+26 Stamina<br />+21 Crit Rating<br />+16 Expertise Rating<br />Requires Level 60<br /></td></tr></table>",
-      "icon": "inv_sword_56.png",
+      "tooltip": "<table><tr><td><b class=\"q4\">Qiraji Ornate Hilt</b><br /></td></tr></table>",
+      "icon": "inv_qiraj_hiltornate.png",
       "dropsFrom": [
         {
           "chance": 10.0,
-          "bossId": 1,
-          "npcId": 1
+          "bossId": 4,
+          "npcId": 4
+        },
+        {
+          "chance": 15.0,
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 10.0,
+          "bossId": 3,
+          "npcId": 3
+        },
+        {
+          "chance": 0.0,
+          "bossId": 5,
+          "npcId": 5
         }
       ],
       "slots": [
-        "Two-Hand"
+        "Non-equippable"
       ],
       "types": [
         "Unknown"
       ]
     },
     {
-      "id": 21493,
-      "name": "Boots of the Vanguard",
+      "id": 21466,
+      "name": "Stinger of Ayamiss",
       "classes": [
         "Warrior",
         "Paladin",
@@ -238,13 +289,146 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Boots of the Vanguard</b><br /><table width=\"100%\"><tr><td>Feet</td><th></th></tr></table>Item Level 105<br />+23 Agility<br />+27 Stamina<br />+26 Strength<br />+14 Expertise Rating<br />Requires Level 60<br /></td></tr></table>",
-      "icon": "inv_boots_08.png",
+      "tooltip": "<table><tr><td><b class=\"q4\">Stinger of Ayamiss</b><br /><table width=\"100%\"><tr><td>Main Hand</td><th></th></tr></table>+21 Stamina<br />+17 Intellect<br />+130 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 16.</span><br /></td></tr></table>",
+      "icon": "inv_mace23.png",
       "dropsFrom": [
         {
-          "chance": 10.0,
-          "bossId": 1,
-          "npcId": 1
+          "chance": 6.67,
+          "bossId": 4,
+          "npcId": 4
+        }
+      ],
+      "slots": [
+        "Main Hand"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 21478,
+      "name": "Bow of Taut Sinew",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Bow of Taut Sinew</b><br /><table width=\"100%\"><tr><td>Ranged</td><th></th></tr></table>+18 Agility<br />+27 Attack Power<br />+16 Armor Penetration<br />Requires Level 60<br /></td></tr></table>",
+      "icon": "inv_weapon_bow_13.png",
+      "dropsFrom": [
+        {
+          "chance": 6.67,
+          "bossId": 4,
+          "npcId": 4
+        }
+      ],
+      "slots": [
+        "Ranged"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 21479,
+      "name": "Gauntlets of the Immovable",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Gauntlets of the Immovable</b><br /><table width=\"100%\"><tr><td>Hands</td><th></th></tr></table>+25 Strength<br />+34 Stamina<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your defense rating by 17.</span><br /><span class=\"q2\">Equip: Increases your parry rating by 15.</span><br /></td></tr></table>",
+      "icon": "inv_gauntlets_31.png",
+      "dropsFrom": [
+        {
+          "chance": 6.67,
+          "bossId": 4,
+          "npcId": 4
+        },
+        {
+          "chance": 0.0,
+          "bossId": 2,
+          "npcId": 2
+        }
+      ],
+      "slots": [
+        "Hands"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 21480,
+      "name": "Scaled Silithid Gauntlets",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Scaled Silithid Gauntlets</b><br /><table width=\"100%\"><tr><td>Hands</td><th></th></tr></table>+18 Agility<br />+24 Stamina<br />+15 Intellect<br />+37 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your expertise rating by 15.</span><br /></td></tr></table>",
+      "icon": "inv_gauntlets_10.png",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 4,
+          "npcId": 4
+        }
+      ],
+      "slots": [
+        "Hands"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 21481,
+      "name": "Boots of the Desert Protector",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Boots of the Desert Protector</b><br /><table width=\"100%\"><tr><td>Feet</td><th></th></tr></table>+21 Stamina<br />+23 Intellect<br />+28 Spell Power<br />+11 Mana Regen (MP5)<br />Requires Level 60<br /></td></tr></table>",
+      "icon": "inv_boots_plate_05.png",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 4,
+          "npcId": 4
         }
       ],
       "slots": [
@@ -255,8 +439,8 @@
       ]
     },
     {
-      "id": 21494,
-      "name": "Southwind's Grasp",
+      "id": 21482,
+      "name": "Boots of the Fiery Sands",
       "classes": [
         "Warrior",
         "Paladin",
@@ -270,113 +454,81 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Southwind's Grasp</b><br /><table width=\"100%\"><tr><td>Waist</td><th></th></tr></table>Item Level 105<br />+18 Intellect<br />+19 Stamina<br />+27 Spell Power<br />+15 Crit Rating<br />Requires Level 60<br /></td></tr></table>",
-      "icon": "inv_belt_25.png",
+      "tooltip": "<table><tr><td><b class=\"q4\">Boots of the Fiery Sands</b><br /><table width=\"100%\"><tr><td>Feet</td><th></th></tr></table>+22 Stamina<br />+21 Intellect<br />+29 Spell Power<br />+12 Mana Regen (MP5)<br />Requires Level 60<br /></td></tr></table>",
+      "icon": "inv_boots_chain_02.png",
       "dropsFrom": [
         {
           "chance": 0.0,
-          "bossId": 1,
-          "npcId": 1
-        }
-      ],
-      "slots": [
-        "Waist"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 21495,
-      "name": "Legplates of the Qiraji Command",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Legplates of the Qiraji Command</b><br /><table width=\"100%\"><tr><td>Legs</td><th></th></tr></table>Item Level 105<br />+33 Strength<br />+27 Stamina<br />+14 Crit Rating<br />+15 Armor Penetration<br />Requires Level 60<br /></td></tr></table>",
-      "icon": "inv_pants_plate_15.png",
-      "dropsFrom": [
-        {
-          "chance": 0.0,
-          "bossId": 1,
-          "npcId": 1
-        }
-      ],
-      "slots": [
-        "Legs"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 21496,
-      "name": "Bracers of Qiraji Command",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Bracers of Qiraji Command</b><br /><table width=\"100%\"><tr><td>Wrist</td><th></th></tr></table>Item Level 105<br />+18 Intellect<br />+23 Stamina<br />+30 Spell Power<br />+16 Spell Hit Rating<br />Requires Level 60<br /></td></tr></table>",
-      "icon": "inv_bracer_13.png",
-      "dropsFrom": [
-        {
-          "chance": 0.0,
-          "bossId": 1,
-          "npcId": 1
-        }
-      ],
-      "slots": [
-        "Wrist"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 21497,
-      "name": "Boots of the Qiraji General",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Boots of the Qiraji General</b><br /><table width=\"100%\"><tr><td>Feet</td><th></th></tr></table>Item Level 105<br />+23 Agility<br />+18 Stamina<br />+16 Intellect<br />+38 Attack Power<br />+15 Haste Rating<br />Requires Level 60<br /></td></tr></table>",
-      "icon": "inv_boots_chain_11.png",
-      "dropsFrom": [
-        {
-          "chance": 0.0,
-          "bossId": 1,
-          "npcId": 1
+          "bossId": 4,
+          "npcId": 4
         }
       ],
       "slots": [
         "Feet"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 21483,
+      "name": "Ring of the Desert Winds",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Ring of the Desert Winds</b><br /><table width=\"100%\"><tr><td>Finger</td><th></th></tr></table>+23 Stamina<br />+17 Intellect<br />+31 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 13.</span><br /></td></tr></table>",
+      "icon": "inv_jewelry_ring_ahnqiraj_05.png",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 4,
+          "npcId": 4
+        }
+      ],
+      "slots": [
+        "Finger"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 21484,
+      "name": "Helm of Regrowth",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Helm of Regrowth</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>+27 Stamina<br />+25 Intellect<br />+21 Spirit<br />+31 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 16.</span><br /></td></tr></table>",
+      "icon": "inv_helmet_15.png",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 4,
+          "npcId": 4
+        }
+      ],
+      "slots": [
+        "Head"
       ],
       "types": [
         "Unknown"
@@ -398,18 +550,13 @@
         "Druid"
       ],
       "quality": 3,
-      "tooltip": "<table><tr><td><b class=\"q3\">Formula: Enchant Gloves - Shadow Power</b><br />Item Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q3\">Formula: Enchant Gloves - Shadow Power</b><br /></td></tr></table>",
       "icon": "inv_misc_note_01.png",
       "dropsFrom": [
         {
           "chance": 14.29,
-          "bossId": 1,
-          "npcId": 1
-        },
-        {
-          "chance": 14.29,
-          "bossId": 0,
-          "npcId": 0
+          "bossId": 4,
+          "npcId": 4
         },
         {
           "chance": 14.29,
@@ -418,13 +565,18 @@
         },
         {
           "chance": 14.29,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 14.29,
           "bossId": 3,
           "npcId": 3
         },
         {
           "chance": 14.29,
-          "bossId": 4,
-          "npcId": 4
+          "bossId": 1,
+          "npcId": 1
         },
         {
           "chance": 14.29,
@@ -455,18 +607,13 @@
         "Druid"
       ],
       "quality": 3,
-      "tooltip": "<table><tr><td><b class=\"q3\">Formula: Enchant Gloves - Frost Power</b><br />Item Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q3\">Formula: Enchant Gloves - Frost Power</b><br /></td></tr></table>",
       "icon": "inv_misc_note_01.png",
       "dropsFrom": [
         {
           "chance": 14.29,
-          "bossId": 1,
-          "npcId": 1
-        },
-        {
-          "chance": 14.29,
-          "bossId": 0,
-          "npcId": 0
+          "bossId": 4,
+          "npcId": 4
         },
         {
           "chance": 14.29,
@@ -475,13 +622,18 @@
         },
         {
           "chance": 14.29,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 14.29,
           "bossId": 3,
           "npcId": 3
         },
         {
           "chance": 14.29,
-          "bossId": 4,
-          "npcId": 4
+          "bossId": 1,
+          "npcId": 1
         },
         {
           "chance": 14.29,
@@ -512,18 +664,13 @@
         "Druid"
       ],
       "quality": 3,
-      "tooltip": "<table><tr><td><b class=\"q3\">Formula: Enchant Gloves - Fire Power</b><br />Item Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q3\">Formula: Enchant Gloves - Fire Power</b><br /></td></tr></table>",
       "icon": "inv_misc_note_01.png",
       "dropsFrom": [
         {
           "chance": 14.29,
-          "bossId": 1,
-          "npcId": 1
-        },
-        {
-          "chance": 14.29,
-          "bossId": 0,
-          "npcId": 0
+          "bossId": 4,
+          "npcId": 4
         },
         {
           "chance": 14.29,
@@ -532,13 +679,18 @@
         },
         {
           "chance": 14.29,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 14.29,
           "bossId": 3,
           "npcId": 3
         },
         {
           "chance": 14.29,
-          "bossId": 4,
-          "npcId": 4
+          "bossId": 1,
+          "npcId": 1
         },
         {
           "chance": 14.29,
@@ -569,18 +721,13 @@
         "Druid"
       ],
       "quality": 3,
-      "tooltip": "<table><tr><td><b class=\"q3\">Formula: Enchant Gloves - Healing Power</b><br />Item Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q3\">Formula: Enchant Gloves - Healing Power</b><br /></td></tr></table>",
       "icon": "inv_misc_note_01.png",
       "dropsFrom": [
         {
           "chance": 14.29,
-          "bossId": 1,
-          "npcId": 1
-        },
-        {
-          "chance": 14.29,
-          "bossId": 0,
-          "npcId": 0
+          "bossId": 4,
+          "npcId": 4
         },
         {
           "chance": 14.29,
@@ -589,13 +736,18 @@
         },
         {
           "chance": 14.29,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 14.29,
           "bossId": 3,
           "npcId": 3
         },
         {
           "chance": 14.29,
-          "bossId": 4,
-          "npcId": 4
+          "bossId": 1,
+          "npcId": 1
         },
         {
           "chance": 14.29,
@@ -626,18 +778,13 @@
         "Druid"
       ],
       "quality": 3,
-      "tooltip": "<table><tr><td><b class=\"q3\">Formula: Enchant Gloves - Superior Agility</b><br />Item Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q3\">Formula: Enchant Gloves - Superior Agility</b><br /></td></tr></table>",
       "icon": "inv_misc_note_01.png",
       "dropsFrom": [
         {
           "chance": 14.29,
-          "bossId": 1,
-          "npcId": 1
-        },
-        {
-          "chance": 14.29,
-          "bossId": 0,
-          "npcId": 0
+          "bossId": 4,
+          "npcId": 4
         },
         {
           "chance": 14.29,
@@ -646,13 +793,18 @@
         },
         {
           "chance": 14.29,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 14.29,
           "bossId": 3,
           "npcId": 3
         },
         {
           "chance": 14.29,
-          "bossId": 4,
-          "npcId": 4
+          "bossId": 1,
+          "npcId": 1
         },
         {
           "chance": 14.29,
@@ -683,18 +835,13 @@
         "Druid"
       ],
       "quality": 3,
-      "tooltip": "<table><tr><td><b class=\"q3\">Formula: Enchant Cloak - Stealth</b><br />Item Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q3\">Formula: Enchant Cloak - Stealth</b><br /></td></tr></table>",
       "icon": "inv_misc_note_01.png",
       "dropsFrom": [
         {
           "chance": 14.29,
-          "bossId": 1,
-          "npcId": 1
-        },
-        {
-          "chance": 14.29,
-          "bossId": 0,
-          "npcId": 0
+          "bossId": 4,
+          "npcId": 4
         },
         {
           "chance": 14.29,
@@ -703,13 +850,18 @@
         },
         {
           "chance": 14.29,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 14.29,
           "bossId": 3,
           "npcId": 3
         },
         {
           "chance": 14.29,
-          "bossId": 4,
-          "npcId": 4
+          "bossId": 1,
+          "npcId": 1
         },
         {
           "chance": 14.29,
@@ -740,18 +892,13 @@
         "Druid"
       ],
       "quality": 3,
-      "tooltip": "<table><tr><td><b class=\"q3\">Formula: Enchant Cloak - Dodge</b><br />Item Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q3\">Formula: Enchant Cloak - Dodge</b><br /></td></tr></table>",
       "icon": "inv_misc_note_01.png",
       "dropsFrom": [
         {
           "chance": 14.29,
-          "bossId": 1,
-          "npcId": 1
-        },
-        {
-          "chance": 14.29,
-          "bossId": 0,
-          "npcId": 0
+          "bossId": 4,
+          "npcId": 4
         },
         {
           "chance": 14.29,
@@ -760,13 +907,18 @@
         },
         {
           "chance": 14.29,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 14.29,
           "bossId": 3,
           "npcId": 3
         },
         {
           "chance": 14.29,
-          "bossId": 4,
-          "npcId": 4
+          "bossId": 1,
+          "npcId": 1
         },
         {
           "chance": 14.29,
@@ -788,18 +940,13 @@
         "Mage"
       ],
       "quality": 3,
-      "tooltip": "<table><tr><td><b class=\"q3\">Tome of Frostbolt XI</b><br />Item Level 44<br />Requires Level 50<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q3\">Tome of Frostbolt XI</b><br />Requires Level 50<br /></td></tr></table>",
       "icon": "inv_misc_book_07.png",
       "dropsFrom": [
         {
           "chance": 4.54,
-          "bossId": 1,
-          "npcId": 1
-        },
-        {
-          "chance": 4.54,
-          "bossId": 0,
-          "npcId": 0
+          "bossId": 4,
+          "npcId": 4
         },
         {
           "chance": 4.54,
@@ -808,13 +955,18 @@
         },
         {
           "chance": 4.54,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 4.54,
           "bossId": 3,
           "npcId": 3
         },
         {
           "chance": 4.54,
-          "bossId": 4,
-          "npcId": 4
+          "bossId": 1,
+          "npcId": 1
         },
         {
           "chance": 4.54,
@@ -836,18 +988,13 @@
         "Mage"
       ],
       "quality": 3,
-      "tooltip": "<table><tr><td><b class=\"q3\">Tome of Fireball XII</b><br />Item Level 44<br />Requires Level 50<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q3\">Tome of Fireball XII</b><br />Requires Level 50<br /></td></tr></table>",
       "icon": "inv_misc_book_07.png",
       "dropsFrom": [
         {
           "chance": 4.54,
-          "bossId": 1,
-          "npcId": 1
-        },
-        {
-          "chance": 4.54,
-          "bossId": 0,
-          "npcId": 0
+          "bossId": 4,
+          "npcId": 4
         },
         {
           "chance": 4.54,
@@ -856,13 +1003,18 @@
         },
         {
           "chance": 4.54,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 4.54,
           "bossId": 3,
           "npcId": 3
         },
         {
           "chance": 4.54,
-          "bossId": 4,
-          "npcId": 4
+          "bossId": 1,
+          "npcId": 1
         },
         {
           "chance": 4.54,
@@ -884,18 +1036,13 @@
         "Mage"
       ],
       "quality": 3,
-      "tooltip": "<table><tr><td><b class=\"q3\">Tome of Arcane Missiles VIII</b><br />Item Level 44<br />Requires Level 50<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q3\">Tome of Arcane Missiles VIII</b><br />Requires Level 50<br /></td></tr></table>",
       "icon": "inv_misc_book_07.png",
       "dropsFrom": [
         {
           "chance": 4.54,
-          "bossId": 1,
-          "npcId": 1
-        },
-        {
-          "chance": 4.54,
-          "bossId": 0,
-          "npcId": 0
+          "bossId": 4,
+          "npcId": 4
         },
         {
           "chance": 4.54,
@@ -904,13 +1051,18 @@
         },
         {
           "chance": 4.54,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 4.54,
           "bossId": 3,
           "npcId": 3
         },
         {
           "chance": 4.54,
-          "bossId": 4,
-          "npcId": 4
+          "bossId": 1,
+          "npcId": 1
         },
         {
           "chance": 4.54,
@@ -932,18 +1084,13 @@
         "Priest"
       ],
       "quality": 3,
-      "tooltip": "<table><tr><td><b class=\"q3\">Codex of Greater Heal V</b><br />Item Level 44<br />Requires Level 50<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q3\">Codex of Greater Heal V</b><br />Requires Level 50<br /></td></tr></table>",
       "icon": "inv_misc_book_09.png",
       "dropsFrom": [
         {
           "chance": 4.54,
-          "bossId": 1,
-          "npcId": 1
-        },
-        {
-          "chance": 4.54,
-          "bossId": 0,
-          "npcId": 0
+          "bossId": 4,
+          "npcId": 4
         },
         {
           "chance": 4.54,
@@ -952,13 +1099,18 @@
         },
         {
           "chance": 4.54,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 4.54,
           "bossId": 3,
           "npcId": 3
         },
         {
           "chance": 4.54,
-          "bossId": 4,
-          "npcId": 4
+          "bossId": 1,
+          "npcId": 1
         },
         {
           "chance": 4.54,
@@ -980,18 +1132,13 @@
         "Priest"
       ],
       "quality": 3,
-      "tooltip": "<table><tr><td><b class=\"q3\">Codex of Renew X</b><br />Item Level 44<br />Requires Level 50<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q3\">Codex of Renew X</b><br />Requires Level 50<br /></td></tr></table>",
       "icon": "inv_misc_book_09.png",
       "dropsFrom": [
         {
           "chance": 4.54,
-          "bossId": 1,
-          "npcId": 1
-        },
-        {
-          "chance": 4.54,
-          "bossId": 0,
-          "npcId": 0
+          "bossId": 4,
+          "npcId": 4
         },
         {
           "chance": 4.54,
@@ -1000,13 +1147,18 @@
         },
         {
           "chance": 4.54,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 4.54,
           "bossId": 3,
           "npcId": 3
         },
         {
           "chance": 4.54,
-          "bossId": 4,
-          "npcId": 4
+          "bossId": 1,
+          "npcId": 1
         },
         {
           "chance": 4.54,
@@ -1028,18 +1180,13 @@
         "Priest"
       ],
       "quality": 3,
-      "tooltip": "<table><tr><td><b class=\"q3\">Codex of Prayer of Healing V</b><br />Item Level 44<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q3\">Codex of Prayer of Healing V</b><br />Requires Level 60<br /></td></tr></table>",
       "icon": "inv_misc_book_09.png",
       "dropsFrom": [
         {
           "chance": 4.54,
-          "bossId": 1,
-          "npcId": 1
-        },
-        {
-          "chance": 4.54,
-          "bossId": 0,
-          "npcId": 0
+          "bossId": 4,
+          "npcId": 4
         },
         {
           "chance": 4.54,
@@ -1048,13 +1195,18 @@
         },
         {
           "chance": 4.54,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 4.54,
           "bossId": 3,
           "npcId": 3
         },
         {
           "chance": 4.54,
-          "bossId": 4,
-          "npcId": 4
+          "bossId": 1,
+          "npcId": 1
         },
         {
           "chance": 4.54,
@@ -1076,18 +1228,13 @@
         "Paladin"
       ],
       "quality": 3,
-      "tooltip": "<table><tr><td><b class=\"q3\">Libram: Blessing of Wisdom VI</b><br />Item Level 44<br />Requires Level 50<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q3\">Libram: Blessing of Wisdom VI</b><br />Requires Level 50<br /></td></tr></table>",
       "icon": "inv_misc_book_08.png",
       "dropsFrom": [
         {
           "chance": 4.54,
-          "bossId": 1,
-          "npcId": 1
-        },
-        {
-          "chance": 4.54,
-          "bossId": 0,
-          "npcId": 0
+          "bossId": 4,
+          "npcId": 4
         },
         {
           "chance": 4.54,
@@ -1096,13 +1243,18 @@
         },
         {
           "chance": 4.54,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 4.54,
           "bossId": 3,
           "npcId": 3
         },
         {
           "chance": 4.54,
-          "bossId": 4,
-          "npcId": 4
+          "bossId": 1,
+          "npcId": 1
         },
         {
           "chance": 4.54,
@@ -1124,18 +1276,13 @@
         "Paladin"
       ],
       "quality": 3,
-      "tooltip": "<table><tr><td><b class=\"q3\">Libram: Blessing of Might VII</b><br />Item Level 44<br />Requires Level 50<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q3\">Libram: Blessing of Might VII</b><br />Requires Level 50<br /></td></tr></table>",
       "icon": "inv_misc_book_08.png",
       "dropsFrom": [
         {
           "chance": 4.54,
-          "bossId": 1,
-          "npcId": 1
-        },
-        {
-          "chance": 4.54,
-          "bossId": 0,
-          "npcId": 0
+          "bossId": 4,
+          "npcId": 4
         },
         {
           "chance": 4.54,
@@ -1144,13 +1291,18 @@
         },
         {
           "chance": 4.54,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 4.54,
           "bossId": 3,
           "npcId": 3
         },
         {
           "chance": 4.54,
-          "bossId": 4,
-          "npcId": 4
+          "bossId": 1,
+          "npcId": 1
         },
         {
           "chance": 4.54,
@@ -1172,18 +1324,13 @@
         "Paladin"
       ],
       "quality": 3,
-      "tooltip": "<table><tr><td><b class=\"q3\">Libram: Holy Light IX</b><br />Item Level 44<br />Requires Level 50<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q3\">Libram: Holy Light IX</b><br />Requires Level 50<br /></td></tr></table>",
       "icon": "inv_misc_book_08.png",
       "dropsFrom": [
         {
           "chance": 4.54,
-          "bossId": 1,
-          "npcId": 1
-        },
-        {
-          "chance": 4.54,
-          "bossId": 0,
-          "npcId": 0
+          "bossId": 4,
+          "npcId": 4
         },
         {
           "chance": 4.54,
@@ -1192,13 +1339,18 @@
         },
         {
           "chance": 4.54,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 4.54,
           "bossId": 3,
           "npcId": 3
         },
         {
           "chance": 4.54,
-          "bossId": 4,
-          "npcId": 4
+          "bossId": 1,
+          "npcId": 1
         },
         {
           "chance": 4.54,
@@ -1220,18 +1372,13 @@
         "Shaman"
       ],
       "quality": 3,
-      "tooltip": "<table><tr><td><b class=\"q3\">Tablet of Healing Wave X</b><br />Item Level 44<br />Requires Level 50<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q3\">Tablet of Healing Wave X</b><br />Requires Level 50<br /></td></tr></table>",
       "icon": "inv_misc_stonetablet_11.png",
       "dropsFrom": [
         {
           "chance": 4.54,
-          "bossId": 1,
-          "npcId": 1
-        },
-        {
-          "chance": 4.54,
-          "bossId": 0,
-          "npcId": 0
+          "bossId": 4,
+          "npcId": 4
         },
         {
           "chance": 4.54,
@@ -1240,13 +1387,18 @@
         },
         {
           "chance": 4.54,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 4.54,
           "bossId": 3,
           "npcId": 3
         },
         {
           "chance": 4.54,
-          "bossId": 4,
-          "npcId": 4
+          "bossId": 1,
+          "npcId": 1
         },
         {
           "chance": 4.54,
@@ -1268,18 +1420,13 @@
         "Shaman"
       ],
       "quality": 3,
-      "tooltip": "<table><tr><td><b class=\"q3\">Tablet of Strength of Earth Totem V</b><br />Item Level 44<br />Requires Level 50<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q3\">Tablet of Strength of Earth Totem V</b><br />Requires Level 50<br /></td></tr></table>",
       "icon": "inv_misc_stonetablet_11.png",
       "dropsFrom": [
         {
           "chance": 4.54,
-          "bossId": 1,
-          "npcId": 1
-        },
-        {
-          "chance": 4.54,
-          "bossId": 0,
-          "npcId": 0
+          "bossId": 4,
+          "npcId": 4
         },
         {
           "chance": 4.54,
@@ -1288,13 +1435,18 @@
         },
         {
           "chance": 4.54,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 4.54,
           "bossId": 3,
           "npcId": 3
         },
         {
           "chance": 4.54,
-          "bossId": 4,
-          "npcId": 4
+          "bossId": 1,
+          "npcId": 1
         },
         {
           "chance": 4.54,
@@ -1316,18 +1468,13 @@
         "Druid"
       ],
       "quality": 3,
-      "tooltip": "<table><tr><td><b class=\"q3\">Book of Healing Touch XI</b><br />Item Level 44<br />Requires Level 50<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q3\">Book of Healing Touch XI</b><br />Requires Level 50<br /></td></tr></table>",
       "icon": "inv_misc_book_11.png",
       "dropsFrom": [
         {
           "chance": 4.54,
-          "bossId": 1,
-          "npcId": 1
-        },
-        {
-          "chance": 4.54,
-          "bossId": 0,
-          "npcId": 0
+          "bossId": 4,
+          "npcId": 4
         },
         {
           "chance": 4.54,
@@ -1336,13 +1483,18 @@
         },
         {
           "chance": 4.54,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 4.54,
           "bossId": 3,
           "npcId": 3
         },
         {
           "chance": 4.54,
-          "bossId": 4,
-          "npcId": 4
+          "bossId": 1,
+          "npcId": 1
         },
         {
           "chance": 4.54,
@@ -1364,18 +1516,13 @@
         "Druid"
       ],
       "quality": 3,
-      "tooltip": "<table><tr><td><b class=\"q3\">Book of Starfire VII</b><br />Item Level 44<br />Requires Level 50<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q3\">Book of Starfire VII</b><br />Requires Level 50<br /></td></tr></table>",
       "icon": "inv_misc_book_11.png",
       "dropsFrom": [
         {
           "chance": 4.54,
-          "bossId": 1,
-          "npcId": 1
-        },
-        {
-          "chance": 4.54,
-          "bossId": 0,
-          "npcId": 0
+          "bossId": 4,
+          "npcId": 4
         },
         {
           "chance": 4.54,
@@ -1384,13 +1531,18 @@
         },
         {
           "chance": 4.54,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 4.54,
           "bossId": 3,
           "npcId": 3
         },
         {
           "chance": 4.54,
-          "bossId": 4,
-          "npcId": 4
+          "bossId": 1,
+          "npcId": 1
         },
         {
           "chance": 4.54,
@@ -1412,18 +1564,13 @@
         "Druid"
       ],
       "quality": 3,
-      "tooltip": "<table><tr><td><b class=\"q3\">Book of Rejuvenation XI</b><br />Item Level 44<br />Requires Level 50<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q3\">Book of Rejuvenation XI</b><br />Requires Level 50<br /></td></tr></table>",
       "icon": "inv_misc_book_11.png",
       "dropsFrom": [
         {
           "chance": 4.54,
-          "bossId": 1,
-          "npcId": 1
-        },
-        {
-          "chance": 4.54,
-          "bossId": 0,
-          "npcId": 0
+          "bossId": 4,
+          "npcId": 4
         },
         {
           "chance": 4.54,
@@ -1432,13 +1579,18 @@
         },
         {
           "chance": 4.54,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 4.54,
           "bossId": 3,
           "npcId": 3
         },
         {
           "chance": 4.54,
-          "bossId": 4,
-          "npcId": 4
+          "bossId": 1,
+          "npcId": 1
         },
         {
           "chance": 4.54,
@@ -1460,18 +1612,13 @@
         "Warrior"
       ],
       "quality": 3,
-      "tooltip": "<table><tr><td><b class=\"q3\">Manual of Heroic Strike IX</b><br />Item Level 44<br />Requires Level 50<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q3\">Manual of Heroic Strike IX</b><br />Requires Level 50<br /></td></tr></table>",
       "icon": "inv_misc_book_03.png",
       "dropsFrom": [
         {
           "chance": 4.54,
-          "bossId": 1,
-          "npcId": 1
-        },
-        {
-          "chance": 4.54,
-          "bossId": 0,
-          "npcId": 0
+          "bossId": 4,
+          "npcId": 4
         },
         {
           "chance": 4.54,
@@ -1480,13 +1627,18 @@
         },
         {
           "chance": 4.54,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 4.54,
           "bossId": 3,
           "npcId": 3
         },
         {
           "chance": 4.54,
-          "bossId": 4,
-          "npcId": 4
+          "bossId": 1,
+          "npcId": 1
         },
         {
           "chance": 4.54,
@@ -1508,18 +1660,13 @@
         "Warrior"
       ],
       "quality": 3,
-      "tooltip": "<table><tr><td><b class=\"q3\">Manual of Battle Shout VII</b><br />Item Level 44<br />Requires Level 50<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q3\">Manual of Battle Shout VII</b><br />Requires Level 50<br /></td></tr></table>",
       "icon": "inv_misc_book_03.png",
       "dropsFrom": [
         {
           "chance": 4.54,
-          "bossId": 1,
-          "npcId": 1
-        },
-        {
-          "chance": 4.54,
-          "bossId": 0,
-          "npcId": 0
+          "bossId": 4,
+          "npcId": 4
         },
         {
           "chance": 4.54,
@@ -1528,13 +1675,18 @@
         },
         {
           "chance": 4.54,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 4.54,
           "bossId": 3,
           "npcId": 3
         },
         {
           "chance": 4.54,
-          "bossId": 4,
-          "npcId": 4
+          "bossId": 1,
+          "npcId": 1
         },
         {
           "chance": 4.54,
@@ -1556,18 +1708,13 @@
         "Warrior"
       ],
       "quality": 3,
-      "tooltip": "<table><tr><td><b class=\"q3\">Manual of Revenge VI</b><br />Item Level 44<br />Requires Level 50<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q3\">Manual of Revenge VI</b><br />Requires Level 50<br /></td></tr></table>",
       "icon": "inv_misc_book_03.png",
       "dropsFrom": [
         {
           "chance": 4.54,
-          "bossId": 1,
-          "npcId": 1
-        },
-        {
-          "chance": 4.54,
-          "bossId": 0,
-          "npcId": 0
+          "bossId": 4,
+          "npcId": 4
         },
         {
           "chance": 4.54,
@@ -1576,13 +1723,18 @@
         },
         {
           "chance": 4.54,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 4.54,
           "bossId": 3,
           "npcId": 3
         },
         {
           "chance": 4.54,
-          "bossId": 4,
-          "npcId": 4
+          "bossId": 1,
+          "npcId": 1
         },
         {
           "chance": 4.54,
@@ -1604,18 +1756,13 @@
         "Rogue"
       ],
       "quality": 3,
-      "tooltip": "<table><tr><td><b class=\"q3\">Handbook of Backstab IX</b><br />Item Level 44<br />Requires Level 50<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q3\">Handbook of Backstab IX</b><br />Requires Level 50<br /></td></tr></table>",
       "icon": "inv_misc_book_10.png",
       "dropsFrom": [
         {
           "chance": 4.54,
-          "bossId": 1,
-          "npcId": 1
-        },
-        {
-          "chance": 4.54,
-          "bossId": 0,
-          "npcId": 0
+          "bossId": 4,
+          "npcId": 4
         },
         {
           "chance": 4.54,
@@ -1624,13 +1771,18 @@
         },
         {
           "chance": 4.54,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 4.54,
           "bossId": 3,
           "npcId": 3
         },
         {
           "chance": 4.54,
-          "bossId": 4,
-          "npcId": 4
+          "bossId": 1,
+          "npcId": 1
         },
         {
           "chance": 4.54,
@@ -1652,18 +1804,13 @@
         "Rogue"
       ],
       "quality": 3,
-      "tooltip": "<table><tr><td><b class=\"q3\">Handbook of Feint V</b><br />Item Level 44<br />Requires Level 50<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q3\">Handbook of Feint V</b><br />Requires Level 50<br /></td></tr></table>",
       "icon": "inv_misc_book_10.png",
       "dropsFrom": [
         {
           "chance": 4.54,
-          "bossId": 1,
-          "npcId": 1
-        },
-        {
-          "chance": 4.54,
-          "bossId": 0,
-          "npcId": 0
+          "bossId": 4,
+          "npcId": 4
         },
         {
           "chance": 4.54,
@@ -1672,13 +1819,18 @@
         },
         {
           "chance": 4.54,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 4.54,
           "bossId": 3,
           "npcId": 3
         },
         {
           "chance": 4.54,
-          "bossId": 4,
-          "npcId": 4
+          "bossId": 1,
+          "npcId": 1
         },
         {
           "chance": 4.54,
@@ -1700,18 +1852,13 @@
         "Hunter"
       ],
       "quality": 3,
-      "tooltip": "<table><tr><td><b class=\"q3\">Guide: Multi-Shot V</b><br />Item Level 44<br />Requires Level 50<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q3\">Guide: Multi-Shot V</b><br />Requires Level 50<br /></td></tr></table>",
       "icon": "inv_misc_book_02.png",
       "dropsFrom": [
         {
           "chance": 4.54,
-          "bossId": 1,
-          "npcId": 1
-        },
-        {
-          "chance": 4.54,
-          "bossId": 0,
-          "npcId": 0
+          "bossId": 4,
+          "npcId": 4
         },
         {
           "chance": 4.54,
@@ -1720,13 +1867,18 @@
         },
         {
           "chance": 4.54,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 4.54,
           "bossId": 3,
           "npcId": 3
         },
         {
           "chance": 4.54,
-          "bossId": 4,
-          "npcId": 4
+          "bossId": 1,
+          "npcId": 1
         },
         {
           "chance": 4.54,
@@ -1748,18 +1900,13 @@
         "Hunter"
       ],
       "quality": 3,
-      "tooltip": "<table><tr><td><b class=\"q3\">Guide: Serpent Sting IX</b><br />Item Level 44<br />Requires Level 50<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q3\">Guide: Serpent Sting IX</b><br />Requires Level 50<br /></td></tr></table>",
       "icon": "inv_misc_book_02.png",
       "dropsFrom": [
         {
           "chance": 4.54,
-          "bossId": 1,
-          "npcId": 1
-        },
-        {
-          "chance": 4.54,
-          "bossId": 0,
-          "npcId": 0
+          "bossId": 4,
+          "npcId": 4
         },
         {
           "chance": 4.54,
@@ -1768,13 +1915,18 @@
         },
         {
           "chance": 4.54,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 4.54,
           "bossId": 3,
           "npcId": 3
         },
         {
           "chance": 4.54,
-          "bossId": 4,
-          "npcId": 4
+          "bossId": 1,
+          "npcId": 1
         },
         {
           "chance": 4.54,
@@ -1796,18 +1948,13 @@
         "Hunter"
       ],
       "quality": 3,
-      "tooltip": "<table><tr><td><b class=\"q3\">Guide: Aspect of the Hawk VII</b><br />Item Level 44<br />Requires Level 50<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q3\">Guide: Aspect of the Hawk VII</b><br />Requires Level 50<br /></td></tr></table>",
       "icon": "inv_misc_book_02.png",
       "dropsFrom": [
         {
           "chance": 4.54,
-          "bossId": 1,
-          "npcId": 1
-        },
-        {
-          "chance": 4.54,
-          "bossId": 0,
-          "npcId": 0
+          "bossId": 4,
+          "npcId": 4
         },
         {
           "chance": 4.54,
@@ -1816,18 +1963,439 @@
         },
         {
           "chance": 4.54,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 4.54,
           "bossId": 3,
           "npcId": 3
         },
         {
           "chance": 4.54,
-          "bossId": 4,
-          "npcId": 4
+          "bossId": 1,
+          "npcId": 1
         },
         {
           "chance": 4.54,
           "bossId": 5,
           "npcId": 5
+        }
+      ],
+      "slots": [
+        "Non-equippable"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 21455,
+      "name": "Southwind Helm",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Southwind Helm</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>+21 Strength<br />+24 Agility<br />+23 Stamina<br />+33 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves hit rating by 17.</span><br /></td></tr></table>",
+      "icon": "inv_helmet_01.png",
+      "dropsFrom": [
+        {
+          "chance": 11.11,
+          "bossId": 2,
+          "npcId": 2
+        }
+      ],
+      "slots": [
+        "Head"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 21467,
+      "name": "Thick Silithid Chestguard",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Thick Silithid Chestguard</b><br /><table width=\"100%\"><tr><td>Chest</td><th></th></tr></table>+19 Strength<br />+26 Agility<br />+21 Stamina<br />+37 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves haste rating by 13.</span><br /></td></tr></table>",
+      "icon": "inv_chest_leather_07.png",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 2,
+          "npcId": 2
+        }
+      ],
+      "slots": [
+        "Chest"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 21468,
+      "name": "Mantle of Maz'Nadir",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Mantle of Maz'Nadir</b><br /><table width=\"100%\"><tr><td>Shoulder</td><th></th></tr></table>+17 Stamina<br />+20 Intellect<br />+17 Spirit<br />+30 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves haste rating by 12.</span><br /></td></tr></table>",
+      "icon": "inv_shoulder_25.png",
+      "dropsFrom": [
+        {
+          "chance": 11.11,
+          "bossId": 2,
+          "npcId": 2
+        }
+      ],
+      "slots": [
+        "Shoulder"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 21469,
+      "name": "Gauntlets of Southwind",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Gauntlets of Southwind</b><br /><table width=\"100%\"><tr><td>Hands</td><th></th></tr></table>+22 Stamina<br />+26 Intellect<br />+26 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves haste rating by 20.</span><br /></td></tr></table>",
+      "icon": "inv_gauntlets_05.png",
+      "dropsFrom": [
+        {
+          "chance": 11.11,
+          "bossId": 2,
+          "npcId": 2
+        }
+      ],
+      "slots": [
+        "Hands"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 21470,
+      "name": "Cloak of the Savior",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Cloak of the Savior</b><br /><table width=\"100%\"><tr><td>Back</td><th></th></tr></table>+17 Stamina<br />+21 Intellect<br />+15 Spirit<br />+25 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves hit rating by 14.</span><br /></td></tr></table>",
+      "icon": "inv_misc_cape_16.png",
+      "dropsFrom": [
+        {
+          "chance": 11.11,
+          "bossId": 2,
+          "npcId": 2
+        }
+      ],
+      "slots": [
+        "Back"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 21471,
+      "name": "Talon of Furious Concentration",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Talon of Furious Concentration</b><br /><table width=\"100%\"><tr><td>Held In Off-hand</td><th></th></tr></table>+15 Stamina<br />+13 Intellect<br />+25 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 12.</span><br /></td></tr></table>",
+      "icon": "inv_mace_21.png",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 2,
+          "npcId": 2
+        }
+      ],
+      "slots": [
+        "Held In Off-hand"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 21472,
+      "name": "Dustwind Turban",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Dustwind Turban</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>+22 Stamina<br />+26 Intellect<br />+23 Spirit<br />+33 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 15.</span><br /></td></tr></table>",
+      "icon": "inv_helmet_62.png",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 2,
+          "npcId": 2
+        }
+      ],
+      "slots": [
+        "Head"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 21473,
+      "name": "Eye of Moam",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Eye of Moam</b><br /><table width=\"100%\"><tr><td>Trinket</td><th></th></tr></table>+22 Intellect<br />+38 Spell Power<br />Requires Level 60<br /></td></tr></table>",
+      "icon": "inv_misc_eye_01.png",
+      "dropsFrom": [
+        {
+          "chance": 11.11,
+          "bossId": 2,
+          "npcId": 2
+        }
+      ],
+      "slots": [
+        "Trinket"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 21474,
+      "name": "Chitinous Shoulderguards",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Chitinous Shoulderguards</b><br /><table width=\"100%\"><tr><td>Shoulder</td><th></th></tr></table>+16 Strength<br />+20 Agility<br />+21 Stamina<br />+24 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your expertise rating by 15.</span><br /></td></tr></table>",
+      "icon": "inv_shoulder_29.png",
+      "dropsFrom": [
+        {
+          "chance": 11.11,
+          "bossId": 2,
+          "npcId": 2
+        }
+      ],
+      "slots": [
+        "Shoulder"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 21475,
+      "name": "Legplates of the Destroyer",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Legplates of the Destroyer</b><br /><table width=\"100%\"><tr><td>Legs</td><th></th></tr></table>+33 Stamina<br />+32 Intellect<br />+32 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves haste rating by 12.</span><br /></td></tr></table>",
+      "icon": "inv_pants_plate_01.png",
+      "dropsFrom": [
+        {
+          "chance": 11.11,
+          "bossId": 2,
+          "npcId": 2
+        }
+      ],
+      "slots": [
+        "Legs"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 21476,
+      "name": "Obsidian Scaled Leggings",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Obsidian Scaled Leggings</b><br /><table width=\"100%\"><tr><td>Legs</td><th></th></tr></table>+26 Agility<br />+31 Stamina<br />+21 Intellect<br />+32 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves haste rating by 13.</span><br /></td></tr></table>",
+      "icon": "inv_pants_mail_15.png",
+      "dropsFrom": [
+        {
+          "chance": 11.11,
+          "bossId": 2,
+          "npcId": 2
+        }
+      ],
+      "slots": [
+        "Legs"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 21477,
+      "name": "Ring of Fury",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Ring of Fury</b><br /><table width=\"100%\"><tr><td>Finger</td><th></th></tr></table>+18 Stamina<br />+37 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 14.</span><br /><span class=\"q2\">Equip: Improves hit rating by 21.</span><br /></td></tr></table>",
+      "icon": "inv_jewelry_ring_ahnqiraj_04.png",
+      "dropsFrom": [
+        {
+          "chance": 11.11,
+          "bossId": 2,
+          "npcId": 2
+        }
+      ],
+      "slots": [
+        "Finger"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 22220,
+      "name": "Plans: Black Grasp of the Destroyer",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 3,
+      "tooltip": "<table><tr><td><b class=\"q3\">Plans: Black Grasp of the Destroyer</b><br /></td></tr></table>",
+      "icon": "inv_scroll_05.png",
+      "dropsFrom": [
+        {
+          "chance": 15.0,
+          "bossId": 2,
+          "npcId": 2
         }
       ],
       "slots": [
@@ -1853,7 +2421,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Qiraji Sacrificial Dagger</b><br /><table width=\"100%\"><tr><td>One-Hand</td><th></th></tr></table>Item Level 105<br />+17 Stamina<br />+42 Attack Power<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Qiraji Sacrificial Dagger</b><br /><table width=\"100%\"><tr><td>One-Hand</td><th></th></tr></table>+17 Stamina<br />+42 Attack Power<br />Requires Level 60<br /></td></tr></table>",
       "icon": "inv_weapon_shortblade_12.png",
       "dropsFrom": [
         {
@@ -1885,7 +2453,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Vestments of the Shifting Sands</b><br /><table width=\"100%\"><tr><td>Robe</td><th></th></tr></table>Item Level 105<br />+23 Stamina<br />+28 Intellect<br />+31 Spirit<br />+36 Spell Power<br />+18 Crit Rating<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Vestments of the Shifting Sands</b><br /><table width=\"100%\"><tr><td>Robe</td><th></th></tr></table>+23 Stamina<br />+28 Intellect<br />+31 Spirit<br />+36 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 18.</span><br /></td></tr></table>",
       "icon": "inv_chest_cloth_17.png",
       "dropsFrom": [
         {
@@ -1917,7 +2485,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Belt of the Inquisition</b><br /><table width=\"100%\"><tr><td>Waist</td><th></th></tr></table>Item Level 105<br />+23 Intellect<br />+21 Stamina<br />+29 Spell Power<br />+15 Haste Rating<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Belt of the Inquisition</b><br /><table width=\"100%\"><tr><td>Waist</td><th></th></tr></table>+21 Stamina<br />+23 Intellect<br />+29 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves haste rating by 15.</span><br /></td></tr></table>",
       "icon": "inv_belt_05.png",
       "dropsFrom": [
         {
@@ -1949,7 +2517,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Toughened Silithid Hide Gloves</b><br /><table width=\"100%\"><tr><td>Hands</td><th></th></tr></table>Item Level 105<br />+24 Stamina<br />+26 Agility<br />+21 Strength<br />+22 Attack Power<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Toughened Silithid Hide Gloves</b><br /><table width=\"100%\"><tr><td>Hands</td><th></th></tr></table>+21 Strength<br />+26 Agility<br />+24 Stamina<br />+22 Attack Power<br />Requires Level 60<br /></td></tr></table>",
       "icon": "inv_gauntlets_24.png",
       "dropsFrom": [
         {
@@ -1981,7 +2549,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Sand Reaver Wristguards</b><br /><table width=\"100%\"><tr><td>Wrist</td><th></th></tr></table>Item Level 105<br />+23 Stamina<br />+26 Intellect<br />+29 Spell Power<br />+17 Crit Rating<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Sand Reaver Wristguards</b><br /><table width=\"100%\"><tr><td>Wrist</td><th></th></tr></table>+23 Stamina<br />+26 Intellect<br />+29 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 17.</span><br /></td></tr></table>",
       "icon": "inv_bracer_19.png",
       "dropsFrom": [
         {
@@ -2013,7 +2581,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Belt of the Sand Reaver</b><br /><table width=\"100%\"><tr><td>Waist</td><th></th></tr></table>Item Level 105<br />+18 Strength<br />+31 Stamina<br />+14 Defense Rating<br />+16 Dodge Rating<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Belt of the Sand Reaver</b><br /><table width=\"100%\"><tr><td>Waist</td><th></th></tr></table>+18 Strength<br />+31 Stamina<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your defense rating by 14.</span><br /><span class=\"q2\">Equip: Increases your dodge rating by 16.</span><br /></td></tr></table>",
       "icon": "inv_belt_13.png",
       "dropsFrom": [
         {
@@ -2062,542 +2630,6 @@
       ]
     },
     {
-      "id": 20886,
-      "name": "Qiraji Spiked Hilt",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Shaman"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Qiraji Spiked Hilt</b><br /></td></tr></table>",
-      "icon": "inv_qiraj_hiltspiked.png",
-      "dropsFrom": [
-        {
-          "chance": 15.0,
-          "bossId": 2,
-          "npcId": 2
-        },
-        {
-          "chance": 10.0,
-          "bossId": 3,
-          "npcId": 3
-        },
-        {
-          "chance": 10.0,
-          "bossId": 4,
-          "npcId": 4
-        },
-        {
-          "chance": 0.0,
-          "bossId": 5,
-          "npcId": 5
-        }
-      ],
-      "slots": [
-        "Non-equippable"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 20890,
-      "name": "Qiraji Ornate Hilt",
-      "classes": [
-        "Priest",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Qiraji Ornate Hilt</b><br /></td></tr></table>",
-      "icon": "inv_qiraj_hiltornate.png",
-      "dropsFrom": [
-        {
-          "chance": 15.0,
-          "bossId": 2,
-          "npcId": 2
-        },
-        {
-          "chance": 10.0,
-          "bossId": 3,
-          "npcId": 3
-        },
-        {
-          "chance": 10.0,
-          "bossId": 4,
-          "npcId": 4
-        },
-        {
-          "chance": 0.0,
-          "bossId": 5,
-          "npcId": 5
-        }
-      ],
-      "slots": [
-        "Non-equippable"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 21455,
-      "name": "Southwind Helm",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Southwind Helm</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>Item Level 105<br />+21 Strength<br />+24 Agility<br />+23 Stamina<br />+33 Attack Power<br />+17 Hit Rating<br />Requires Level 60<br /></td></tr></table>",
-      "icon": "inv_helmet_01.png",
-      "dropsFrom": [
-        {
-          "chance": 11.11,
-          "bossId": 2,
-          "npcId": 2
-        }
-      ],
-      "slots": [
-        "Head"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 21467,
-      "name": "Thick Silithid Chestguard",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Thick Silithid Chestguard</b><br /><table width=\"100%\"><tr><td>Chest</td><th></th></tr></table>Item Level 105<br />+21 Stamina<br />+26 Agility<br />+19 Strength<br />+37 Attack Power<br />+13 Haste Rating<br />Requires Level 60<br /></td></tr></table>",
-      "icon": "inv_chest_leather_07.png",
-      "dropsFrom": [
-        {
-          "chance": 0.0,
-          "bossId": 2,
-          "npcId": 2
-        }
-      ],
-      "slots": [
-        "Chest"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 21468,
-      "name": "Mantle of Maz'Nadir",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Mantle of Maz'Nadir</b><br /><table width=\"100%\"><tr><td>Shoulder</td><th></th></tr></table>Item Level 105<br />+17 Stamina<br />+20 Intellect<br />+17 Spirit<br />+30 Spell Power<br />+12 Haste Rating<br />Requires Level 60<br /></td></tr></table>",
-      "icon": "inv_shoulder_25.png",
-      "dropsFrom": [
-        {
-          "chance": 11.11,
-          "bossId": 2,
-          "npcId": 2
-        }
-      ],
-      "slots": [
-        "Shoulder"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 21469,
-      "name": "Gauntlets of Southwind",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Gauntlets of Southwind</b><br /><table width=\"100%\"><tr><td>Hands</td><th></th></tr></table>Item Level 105<br />+26 Intellect<br />+22 Stamina<br />+26 Spell Power<br />+20 Haste Rating<br />Requires Level 60<br /></td></tr></table>",
-      "icon": "inv_gauntlets_05.png",
-      "dropsFrom": [
-        {
-          "chance": 11.11,
-          "bossId": 2,
-          "npcId": 2
-        }
-      ],
-      "slots": [
-        "Hands"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 21470,
-      "name": "Cloak of the Savior",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Cloak of the Savior</b><br /><table width=\"100%\"><tr><td>Back</td><th></th></tr></table>Item Level 105<br />+21 Intellect<br />+17 Stamina<br />+15 Spirit<br />+25 Spell Power<br />+14 Hit Rating<br />Requires Level 60<br /></td></tr></table>",
-      "icon": "inv_misc_cape_16.png",
-      "dropsFrom": [
-        {
-          "chance": 11.11,
-          "bossId": 2,
-          "npcId": 2
-        }
-      ],
-      "slots": [
-        "Back"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 21471,
-      "name": "Talon of Furious Concentration",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Talon of Furious Concentration</b><br /><table width=\"100%\"><tr><td>Held In Off-hand</td><th></th></tr></table>Item Level 105<br />+13 Intellect<br />+15 Stamina<br />+25 Spell Power<br />+12 Crit Rating<br />Requires Level 60<br /></td></tr></table>",
-      "icon": "inv_mace_21.png",
-      "dropsFrom": [
-        {
-          "chance": 0.0,
-          "bossId": 2,
-          "npcId": 2
-        }
-      ],
-      "slots": [
-        "Held In Off-hand"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 21472,
-      "name": "Dustwind Turban",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Dustwind Turban</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>Item Level 105<br />+22 Stamina<br />+26 Intellect<br />+23 Spirit<br />+33 Spell Power<br />+15 Crit Rating<br />Requires Level 60<br /></td></tr></table>",
-      "icon": "inv_helmet_62.png",
-      "dropsFrom": [
-        {
-          "chance": 0.0,
-          "bossId": 2,
-          "npcId": 2
-        }
-      ],
-      "slots": [
-        "Head"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 21473,
-      "name": "Eye of Moam",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Eye of Moam</b><br /><table width=\"100%\"><tr><td>Trinket</td><th></th></tr></table>Item Level 105<br />+38 Spell Power<br />+22 Intellect<br />Requires Level 60<br /></td></tr></table>",
-      "icon": "inv_misc_eye_01.png",
-      "dropsFrom": [
-        {
-          "chance": 11.11,
-          "bossId": 2,
-          "npcId": 2
-        }
-      ],
-      "slots": [
-        "Trinket"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 21474,
-      "name": "Chitinous Shoulderguards",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Chitinous Shoulderguards</b><br /><table width=\"100%\"><tr><td>Shoulder</td><th></th></tr></table>Item Level 105<br />+20 Agility<br />+16 Strength<br />+21 Stamina<br />+24 Attack Power<br />+15 Expertise Rating<br />Requires Level 60<br /></td></tr></table>",
-      "icon": "inv_shoulder_29.png",
-      "dropsFrom": [
-        {
-          "chance": 11.11,
-          "bossId": 2,
-          "npcId": 2
-        }
-      ],
-      "slots": [
-        "Shoulder"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 21475,
-      "name": "Legplates of the Destroyer",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Legplates of the Destroyer</b><br /><table width=\"100%\"><tr><td>Legs</td><th></th></tr></table>Item Level 105<br />+33 Stamina<br />+32 Intellect<br />+32 Spell Power<br />+12 Haste Rating<br />Requires Level 60<br /></td></tr></table>",
-      "icon": "inv_pants_plate_01.png",
-      "dropsFrom": [
-        {
-          "chance": 11.11,
-          "bossId": 2,
-          "npcId": 2
-        }
-      ],
-      "slots": [
-        "Legs"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 21476,
-      "name": "Obsidian Scaled Leggings",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Obsidian Scaled Leggings</b><br /><table width=\"100%\"><tr><td>Legs</td><th></th></tr></table>Item Level 105<br />+26 Agility<br />+31 Stamina<br />+21 Intellect<br />+32 Spell Power<br />+13 Haste Rating<br />Requires Level 60<br /></td></tr></table>",
-      "icon": "inv_pants_mail_15.png",
-      "dropsFrom": [
-        {
-          "chance": 11.11,
-          "bossId": 2,
-          "npcId": 2
-        }
-      ],
-      "slots": [
-        "Legs"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 21477,
-      "name": "Ring of Fury",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Ring of Fury</b><br /><table width=\"100%\"><tr><td>Finger</td><th></th></tr></table>Item Level 105<br />+18 Stamina<br />+37 Attack Power<br />+14 Crit Rating<br />+21 Hit Rating<br />Requires Level 60<br /></td></tr></table>",
-      "icon": "inv_jewelry_ring_ahnqiraj_04.png",
-      "dropsFrom": [
-        {
-          "chance": 11.11,
-          "bossId": 2,
-          "npcId": 2
-        }
-      ],
-      "slots": [
-        "Finger"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 21479,
-      "name": "Gauntlets of the Immovable",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Gauntlets of the Immovable</b><br /><table width=\"100%\"><tr><td>Hands</td><th></th></tr></table>Item Level 105<br />+25 Strength<br />+34 Stamina<br />+17 Defense Rating<br />+15 Parry Rating<br />Requires Level 60<br /></td></tr></table>",
-      "icon": "inv_gauntlets_31.png",
-      "dropsFrom": [
-        {
-          "chance": 0.0,
-          "bossId": 2,
-          "npcId": 2
-        },
-        {
-          "chance": 6.67,
-          "bossId": 4,
-          "npcId": 4
-        }
-      ],
-      "slots": [
-        "Hands"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 22220,
-      "name": "Plans: Black Grasp of the Destroyer",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 3,
-      "tooltip": "<table><tr><td><b class=\"q3\">Plans: Black Grasp of the Destroyer</b><br />Item Level 60<br /></td></tr></table>",
-      "icon": "inv_scroll_05.png",
-      "dropsFrom": [
-        {
-          "chance": 15.0,
-          "bossId": 2,
-          "npcId": 2
-        }
-      ],
-      "slots": [
-        "Non-equippable"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
       "id": 21485,
       "name": "Buru's Skull Fragment",
       "classes": [
@@ -2613,7 +2645,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Buru's Skull Fragment</b><br /><table width=\"100%\"><tr><td>Shield</td><th></th></tr></table>Item Level 105<br />+19 Strength<br />+35 Stamina<br />+20 Defense Rating<br />+16 Block Rating<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Buru's Skull Fragment</b><br /><table width=\"100%\"><tr><td>Shield</td><th></th></tr></table>+19 Strength<br />+35 Stamina<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your defense rating by 20.</span><br /><span class=\"q2\">Equip: Increases your shield block rating by 16.</span><br /></td></tr></table>",
       "icon": "inv_shield_22.png",
       "dropsFrom": [
         {
@@ -2645,7 +2677,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Gloves of the Swarm</b><br /><table width=\"100%\"><tr><td>Hands</td><th></th></tr></table>Item Level 105<br />+29 Intellect<br />+23 Stamina<br />+26 Spell Power<br />+12 Haste Rating<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Gloves of the Swarm</b><br /><table width=\"100%\"><tr><td>Hands</td><th></th></tr></table>+23 Stamina<br />+29 Intellect<br />+26 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves haste rating by 12.</span><br /></td></tr></table>",
       "icon": "inv_gauntlets_30.png",
       "dropsFrom": [
         {
@@ -2677,7 +2709,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Slimy Scaled Gauntlets</b><br /><table width=\"100%\"><tr><td>Hands</td><th></th></tr></table>Item Level 105<br />+27 Intellect<br />+25 Stamina<br />+27 Spell Power<br />+16 Crit Rating<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Slimy Scaled Gauntlets</b><br /><table width=\"100%\"><tr><td>Hands</td><th></th></tr></table>+25 Stamina<br />+27 Intellect<br />+27 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 16.</span><br /></td></tr></table>",
       "icon": "inv_gauntlets_12.png",
       "dropsFrom": [
         {
@@ -2709,7 +2741,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Fetish of Chitinous Spikes</b><br /><table width=\"100%\"><tr><td>Trinket</td><th></th></tr></table>Item Level 105<br />+40 Stamina<br />+13 Dodge Rating<br />+11 Parry Rating<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Fetish of Chitinous Spikes</b><br /><table width=\"100%\"><tr><td>Trinket</td><th></th></tr></table>+40 Stamina<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your dodge rating by 13.</span><br /><span class=\"q2\">Equip: Increases your parry rating by 11.</span><br /></td></tr></table>",
       "icon": "inv_misc_ahnqirajtrinket_02.png",
       "dropsFrom": [
         {
@@ -2741,7 +2773,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Quicksand Waders</b><br /><table width=\"100%\"><tr><td>Feet</td><th></th></tr></table>Item Level 105<br />+21 Intellect<br />+19 Stamina<br />+16 Spirit<br />+26 Spell Power<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Quicksand Waders</b><br /><table width=\"100%\"><tr><td>Feet</td><th></th></tr></table>+19 Stamina<br />+21 Intellect<br />+16 Spirit<br />+26 Spell Power<br />Requires Level 60<br /></td></tr></table>",
       "icon": "inv_boots_cloth_05.png",
       "dropsFrom": [
         {
@@ -2773,7 +2805,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Slime Kickers</b><br /><table width=\"100%\"><tr><td>Feet</td><th></th></tr></table>Item Level 105<br />+23 Strength<br />+27 Stamina<br />+17 Crit Rating<br />+11 Hit Rating<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Slime Kickers</b><br /><table width=\"100%\"><tr><td>Feet</td><th></th></tr></table>+23 Strength<br />+27 Stamina<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 17.</span><br /><span class=\"q2\">Equip: Improves hit rating by 11.</span><br /></td></tr></table>",
       "icon": "inv_boots_plate_04.png",
       "dropsFrom": [
         {
@@ -2805,7 +2837,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Scaled Bracers of the Gorger</b><br /><table width=\"100%\"><tr><td>Wrist</td><th></th></tr></table>Item Level 105<br />+21 Agility<br />+24 Stamina<br />+34 Attack Power<br />+14 Crit Rating<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Scaled Bracers of the Gorger</b><br /><table width=\"100%\"><tr><td>Wrist</td><th></th></tr></table>+21 Agility<br />+24 Stamina<br />+34 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 14.</span><br /></td></tr></table>",
       "icon": "inv_bracer_03.png",
       "dropsFrom": [
         {
@@ -2822,8 +2854,8 @@
       ]
     },
     {
-      "id": 21466,
-      "name": "Stinger of Ayamiss",
+      "id": 21492,
+      "name": "Manslayer of the Qiraji",
       "classes": [
         "Warrior",
         "Paladin",
@@ -2837,25 +2869,25 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Stinger of Ayamiss</b><br /><table width=\"100%\"><tr><td>Main Hand</td><th></th></tr></table>Item Level 105<br />+17 Intellect<br />+21 Stamina<br />+130 Spell Power<br />+16 Crit Rating<br />Requires Level 60<br /></td></tr></table>",
-      "icon": "inv_mace23.png",
+      "tooltip": "<table><tr><td><b class=\"q4\">Manslayer of the Qiraji</b><br /><table width=\"100%\"><tr><td>Two-Hand</td><th></th></tr></table>+29 Strength<br />+26 Stamina<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 21.</span><br /><span class=\"q2\">Equip: Increases your expertise rating by 16.</span><br /></td></tr></table>",
+      "icon": "inv_sword_56.png",
       "dropsFrom": [
         {
-          "chance": 6.67,
-          "bossId": 4,
-          "npcId": 4
+          "chance": 10.0,
+          "bossId": 1,
+          "npcId": 1
         }
       ],
       "slots": [
-        "Main Hand"
+        "Two-Hand"
       ],
       "types": [
         "Unknown"
       ]
     },
     {
-      "id": 21478,
-      "name": "Bow of Taut Sinew",
+      "id": 21493,
+      "name": "Boots of the Vanguard",
       "classes": [
         "Warrior",
         "Paladin",
@@ -2869,77 +2901,13 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Bow of Taut Sinew</b><br /><table width=\"100%\"><tr><td>Ranged</td><th></th></tr></table>Item Level 105<br />+18 Agility<br />+27 Attack Power<br />+16 Armor Penetration<br />Requires Level 60<br /></td></tr></table>",
-      "icon": "inv_weapon_bow_13.png",
+      "tooltip": "<table><tr><td><b class=\"q4\">Boots of the Vanguard</b><br /><table width=\"100%\"><tr><td>Feet</td><th></th></tr></table>+26 Strength<br />+23 Agility<br />+27 Stamina<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your expertise rating by 14.</span><br /></td></tr></table>",
+      "icon": "inv_boots_08.png",
       "dropsFrom": [
         {
-          "chance": 6.67,
-          "bossId": 4,
-          "npcId": 4
-        }
-      ],
-      "slots": [
-        "Ranged"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 21480,
-      "name": "Scaled Silithid Gauntlets",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Scaled Silithid Gauntlets</b><br /><table width=\"100%\"><tr><td>Hands</td><th></th></tr></table>Item Level 105<br />+18 Agility<br />+24 Stamina<br />+15 Intellect<br />+37 Attack Power<br />+15 Expertise Rating<br />Requires Level 60<br /></td></tr></table>",
-      "icon": "inv_gauntlets_10.png",
-      "dropsFrom": [
-        {
-          "chance": 0.0,
-          "bossId": 4,
-          "npcId": 4
-        }
-      ],
-      "slots": [
-        "Hands"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 21481,
-      "name": "Boots of the Desert Protector",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Boots of the Desert Protector</b><br /><table width=\"100%\"><tr><td>Feet</td><th></th></tr></table>Item Level 105<br />+21 Stamina<br />+23 Intellect<br />+28 Spell Power<br />+11 Mana Regen (MP5)<br />Requires Level 60<br /></td></tr></table>",
-      "icon": "inv_boots_plate_05.png",
-      "dropsFrom": [
-        {
-          "chance": 0.0,
-          "bossId": 4,
-          "npcId": 4
+          "chance": 10.0,
+          "bossId": 1,
+          "npcId": 1
         }
       ],
       "slots": [
@@ -2950,8 +2918,8 @@
       ]
     },
     {
-      "id": 21482,
-      "name": "Boots of the Fiery Sands",
+      "id": 21494,
+      "name": "Southwind's Grasp",
       "classes": [
         "Warrior",
         "Paladin",
@@ -2965,81 +2933,113 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Boots of the Fiery Sands</b><br /><table width=\"100%\"><tr><td>Feet</td><th></th></tr></table>Item Level 105<br />+21 Intellect<br />+22 Stamina<br />+29 Spell Power<br />+12 Mana Regen (MP5)<br />Requires Level 60<br /></td></tr></table>",
-      "icon": "inv_boots_chain_02.png",
+      "tooltip": "<table><tr><td><b class=\"q4\">Southwind's Grasp</b><br /><table width=\"100%\"><tr><td>Waist</td><th></th></tr></table>+19 Stamina<br />+18 Intellect<br />+27 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 15.</span><br /></td></tr></table>",
+      "icon": "inv_belt_25.png",
       "dropsFrom": [
         {
           "chance": 0.0,
-          "bossId": 4,
-          "npcId": 4
+          "bossId": 1,
+          "npcId": 1
+        }
+      ],
+      "slots": [
+        "Waist"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 21495,
+      "name": "Legplates of the Qiraji Command",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Legplates of the Qiraji Command</b><br /><table width=\"100%\"><tr><td>Legs</td><th></th></tr></table>+33 Strength<br />+27 Stamina<br />+15 Armor Penetration<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 14.</span><br /></td></tr></table>",
+      "icon": "inv_pants_plate_15.png",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 1,
+          "npcId": 1
+        }
+      ],
+      "slots": [
+        "Legs"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 21496,
+      "name": "Bracers of Qiraji Command",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Bracers of Qiraji Command</b><br /><table width=\"100%\"><tr><td>Wrist</td><th></th></tr></table>+23 Stamina<br />+18 Intellect<br />+30 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your spell hit rating by 16.</span><br /></td></tr></table>",
+      "icon": "inv_bracer_13.png",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 1,
+          "npcId": 1
+        }
+      ],
+      "slots": [
+        "Wrist"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 21497,
+      "name": "Boots of the Qiraji General",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Boots of the Qiraji General</b><br /><table width=\"100%\"><tr><td>Feet</td><th></th></tr></table>+23 Agility<br />+18 Stamina<br />+16 Intellect<br />+38 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves haste rating by 15.</span><br /></td></tr></table>",
+      "icon": "inv_boots_chain_11.png",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 1,
+          "npcId": 1
         }
       ],
       "slots": [
         "Feet"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 21483,
-      "name": "Ring of the Desert Winds",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Ring of the Desert Winds</b><br /><table width=\"100%\"><tr><td>Finger</td><th></th></tr></table>Item Level 105<br />+23 Stamina<br />+17 Intellect<br />+31 Spell Power<br />+13 Crit Rating<br />Requires Level 60<br /></td></tr></table>",
-      "icon": "inv_jewelry_ring_ahnqiraj_05.png",
-      "dropsFrom": [
-        {
-          "chance": 0.0,
-          "bossId": 4,
-          "npcId": 4
-        }
-      ],
-      "slots": [
-        "Finger"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 21484,
-      "name": "Helm of Regrowth",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Helm of Regrowth</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>Item Level 105<br />+27 Stamina<br />+25 Intellect<br />+21 Spirit<br />+31 Spell Power<br />+16 Crit Rating<br />Requires Level 60<br /></td></tr></table>",
-      "icon": "inv_helmet_15.png",
-      "dropsFrom": [
-        {
-          "chance": 0.0,
-          "bossId": 4,
-          "npcId": 4
-        }
-      ],
-      "slots": [
-        "Head"
       ],
       "types": [
         "Unknown"
@@ -3061,7 +3061,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Head of Ossirian the Unscarred</b><br />Item Level 45<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Head of Ossirian the Unscarred</b><br />Requires Level 60<br /></td></tr></table>",
       "icon": "ability_hunter_pet_owl.png",
       "dropsFrom": [
         {
@@ -3093,7 +3093,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Staff of the Ruins</b><br /><table width=\"100%\"><tr><td>Two-Hand</td><th></th></tr></table>Item Level 105<br />+31 Intellect<br />+26 Stamina<br />+23 Spirit<br />+140 Spell Power<br />+16 Crit Rating<br />+23 Hit Rating<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Staff of the Ruins</b><br /><table width=\"100%\"><tr><td>Two-Hand</td><th></th></tr></table>+26 Stamina<br />+31 Intellect<br />+23 Spirit<br />+140 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 16.</span><br /><span class=\"q2\">Equip: Improves hit rating by 23.</span><br /></td></tr></table>",
       "icon": "inv_staff_12.png",
       "dropsFrom": [
         {
@@ -3125,7 +3125,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Mantle of the Horusath</b><br /><table width=\"100%\"><tr><td>Shoulder</td><th></th></tr></table>Item Level 105<br />+25 Intellect<br />+26 Stamina<br />+26 Spell Power<br />+13 Haste Rating<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Mantle of the Horusath</b><br /><table width=\"100%\"><tr><td>Shoulder</td><th></th></tr></table>+26 Stamina<br />+25 Intellect<br />+26 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves haste rating by 13.</span><br /></td></tr></table>",
       "icon": "inv_shoulder_28.png",
       "dropsFrom": [
         {
@@ -3157,7 +3157,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Runic Stone Shoulders</b><br /><table width=\"100%\"><tr><td>Shoulder</td><th></th></tr></table>Item Level 105<br />+23 Intellect<br />+25 Stamina<br />+26 Spell Power<br />+14 Haste Rating<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Runic Stone Shoulders</b><br /><table width=\"100%\"><tr><td>Shoulder</td><th></th></tr></table>+25 Stamina<br />+23 Intellect<br />+26 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves haste rating by 14.</span><br /></td></tr></table>",
       "icon": "inv_shoulder_18.png",
       "dropsFrom": [
         {
@@ -3189,7 +3189,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Sandstorm Cloak</b><br /><table width=\"100%\"><tr><td>Back</td><th></th></tr></table>Item Level 105<br />+15 Strength<br />+29 Stamina<br />+13 Defense Rating<br />+10 Dodge Rating<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Sandstorm Cloak</b><br /><table width=\"100%\"><tr><td>Back</td><th></th></tr></table>+15 Strength<br />+29 Stamina<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your defense rating by 13.</span><br /><span class=\"q2\">Equip: Increases your dodge rating by 10.</span><br /></td></tr></table>",
       "icon": "inv_misc_cape_06.png",
       "dropsFrom": [
         {
@@ -3221,7 +3221,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Bracers of Brutality</b><br /><table width=\"100%\"><tr><td>Wrist</td><th></th></tr></table>Item Level 105<br />+20 Strength<br />+24 Stamina<br />+28 Attack Power<br />+12 Crit Rating<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Bracers of Brutality</b><br /><table width=\"100%\"><tr><td>Wrist</td><th></th></tr></table>+20 Strength<br />+24 Stamina<br />+28 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 12.</span><br /></td></tr></table>",
       "icon": "inv_bracer_19.png",
       "dropsFrom": [
         {
@@ -3253,7 +3253,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Gauntlets of New Life</b><br /><table width=\"100%\"><tr><td>Hands</td><th></th></tr></table>Item Level 105<br />+25 Intellect<br />+22 Stamina<br />+28 Spell Power<br />+11 Mana Regen (MP5)<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Gauntlets of New Life</b><br /><table width=\"100%\"><tr><td>Hands</td><th></th></tr></table>+22 Stamina<br />+25 Intellect<br />+28 Spell Power<br />+11 Mana Regen (MP5)<br />Requires Level 60<br /></td></tr></table>",
       "icon": "inv_gauntlets_24.png",
       "dropsFrom": [
         {
@@ -3285,7 +3285,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Crossbow of Imminent Doom</b><br /><table width=\"100%\"><tr><td>Ranged Right</td><th></th></tr></table>Item Level 105<br />+18 Agility<br />+14 Stamina<br />+33 Attack Power<br />+15 Hit Rating<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Crossbow of Imminent Doom</b><br /><table width=\"100%\"><tr><td>Ranged Right</td><th></th></tr></table>+18 Agility<br />+14 Stamina<br />+33 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves hit rating by 15.</span><br /></td></tr></table>",
       "icon": "inv_weapon_crossbow_06.png",
       "dropsFrom": [
         {
@@ -3317,7 +3317,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Helm of Domination</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>Item Level 105<br />+28 Strength<br />+40 Stamina<br />+16 Agility<br />+18 Defense Rating<br />+13 Parry Rating<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Helm of Domination</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>+28 Strength<br />+16 Agility<br />+40 Stamina<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your defense rating by 18.</span><br /><span class=\"q2\">Equip: Increases your parry rating by 13.</span><br /></td></tr></table>",
       "icon": "inv_helmet_09.png",
       "dropsFrom": [
         {
@@ -3349,7 +3349,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Leggings of the Black Blizzard</b><br /><table width=\"100%\"><tr><td>Legs</td><th></th></tr></table>Item Level 105<br />+26 Intellect<br />+20 Stamina<br />+21 Spirit<br />+31 Spell Power<br />+16 Crit Rating<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Leggings of the Black Blizzard</b><br /><table width=\"100%\"><tr><td>Legs</td><th></th></tr></table>+20 Stamina<br />+26 Intellect<br />+21 Spirit<br />+31 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 16.</span><br /></td></tr></table>",
       "icon": "inv_pants_cloth_06.png",
       "dropsFrom": [
         {
@@ -3381,7 +3381,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Gloves of Dark Wisdom</b><br /><table width=\"100%\"><tr><td>Hands</td><th></th></tr></table>Item Level 105<br />+23 Intellect<br />+21 Stamina<br />+26 Spell Power<br />+9 Mana Regen (MP5)<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Gloves of Dark Wisdom</b><br /><table width=\"100%\"><tr><td>Hands</td><th></th></tr></table>+21 Stamina<br />+23 Intellect<br />+26 Spell Power<br />+9 Mana Regen (MP5)<br />Requires Level 60<br /></td></tr></table>",
       "icon": "inv_gauntlets_19.png",
       "dropsFrom": [
         {
@@ -3413,7 +3413,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Ossirian's Binding</b><br /><table width=\"100%\"><tr><td>Waist</td><th></th></tr></table>Item Level 105<br />+18 Agility<br />+24 Stamina<br />+17 Intellect<br />+40 Attack Power<br />+17 Crit Rating<br />+15 Hit Rating<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Ossirian's Binding</b><br /><table width=\"100%\"><tr><td>Waist</td><th></th></tr></table>+18 Agility<br />+24 Stamina<br />+17 Intellect<br />+40 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 17.</span><br /><span class=\"q2\">Equip: Improves hit rating by 15.</span><br /></td></tr></table>",
       "icon": "inv_belt_18.png",
       "dropsFrom": [
         {
@@ -3445,7 +3445,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Shackles of the Unscarred</b><br /><table width=\"100%\"><tr><td>Wrist</td><th></th></tr></table>Item Level 105<br />+22 Intellect<br />+19 Stamina<br />+30 Spell Power<br />+14 Unknown Stat (47)<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Shackles of the Unscarred</b><br /><table width=\"100%\"><tr><td>Wrist</td><th></th></tr></table>+19 Stamina<br />+22 Intellect<br />+30 Spell Power<br />+14 Unknown Stat (47)<br />Requires Level 60<br /></td></tr></table>",
       "icon": "inv_bracer_07.png",
       "dropsFrom": [
         {
@@ -3477,7 +3477,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Sand Polished Hammer</b><br /><table width=\"100%\"><tr><td>One-Hand</td><th></th></tr></table>Item Level 105<br />+17 Agility<br />+21 Stamina<br />+43 Attack Power<br />+14 Crit Rating<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Sand Polished Hammer</b><br /><table width=\"100%\"><tr><td>One-Hand</td><th></th></tr></table>+17 Agility<br />+21 Stamina<br />+43 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 14.</span><br /></td></tr></table>",
       "icon": "inv_mace_24.png",
       "dropsFrom": [
         {

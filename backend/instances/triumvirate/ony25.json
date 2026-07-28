@@ -20,7 +20,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Flowing Sapphiron Drape</b><br /><table width=\"100%\"><tr><td>Back</td><th></th></tr></table>Item Level 105<br />+19 Intellect<br />+24 Stamina<br />+32 Spell Power<br />+18 Crit Rating<br />+13 Haste Rating<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Flowing Sapphiron Drape</b><br /><table width=\"100%\"><tr><td>Back</td><th></th></tr></table>+24 Stamina<br />+19 Intellect<br />+32 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 18.</span><br /><span class=\"q2\">Equip: Improves haste rating by 13.</span><br /></td></tr></table>",
       "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
@@ -43,7 +43,7 @@
         "Priest"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Aurora of Transcendence</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>Item Level 105<br />+24 Intellect<br />+19 Crit Rating<br />+23 Stamina<br />+17 Haste Rating<br />+30 Spell Power<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Aurora of Transcendence</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>+23 Stamina<br />+24 Intellect<br />+30 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 19.</span><br /><span class=\"q2\">Equip: Improves haste rating by 17.</span><br /></td></tr></table>",
       "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
@@ -66,7 +66,7 @@
         "Priest"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Halo of Transcendence</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>Item Level 105<br />+24 Intellect<br />+21 Spirit<br />+24 Stamina<br />+18 Crit Rating<br />+33 Spell Power<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Halo of Transcendence</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>+24 Stamina<br />+24 Intellect<br />+21 Spirit<br />+33 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 18.</span><br /></td></tr></table>",
       "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
@@ -89,7 +89,7 @@
         "Warlock"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Nemesis Skullcap</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>Item Level 105<br />+25 Intellect<br />+23 Spirit<br />+32 Stamina<br />+20 Crit Rating<br />+33 Spell Power<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Nemesis Skullcap</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>+32 Stamina<br />+25 Intellect<br />+23 Spirit<br />+33 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 20.</span><br /></td></tr></table>",
       "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
@@ -112,7 +112,7 @@
         "Mage"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Netherwind Crown</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>Item Level 105<br />+25 Intellect<br />+18 Hit Rating<br />+21 Stamina<br />+18 Crit Rating<br />+33 Spell Power<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Netherwind Crown</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>+21 Stamina<br />+25 Intellect<br />+33 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves hit rating by 18.</span><br /><span class=\"q2\">Equip: Improves your crit rating by 18.</span><br /></td></tr></table>",
       "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
@@ -135,7 +135,7 @@
         "Rogue"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Bloodfang Hood</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>Item Level 105<br />+27 Agility<br />+30 Stamina<br />+44 Attack Power<br />+12 Crit Rating<br />+15 Armor Penetration<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Bloodfang Hood</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>+27 Agility<br />+30 Stamina<br />+44 Attack Power<br />+15 Armor Penetration<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 12.</span><br /></td></tr></table>",
       "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
@@ -158,7 +158,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Stormrage Crown</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>Item Level 105<br />+22 Intellect<br />+20 Crit Rating<br />+19 Haste Rating<br />+22 Stamina<br />+30 Spell Power<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Stormrage Crown</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>+22 Stamina<br />+22 Intellect<br />+30 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 20.</span><br /><span class=\"q2\">Equip: Improves haste rating by 19.</span><br /></td></tr></table>",
       "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
@@ -181,7 +181,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Stormrage Cover</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>Item Level 105<br />+23 Intellect<br />+36 Spirit<br />+15 Stamina<br />+13 Crit Rating<br />+22 Spell Power<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Stormrage Cover</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>+15 Stamina<br />+23 Intellect<br />+36 Spirit<br />+22 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 13.</span><br /></td></tr></table>",
       "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
@@ -204,7 +204,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Stormrage Coverlet</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>Item Level 105<br />+17 Agility<br />+22 Attack Power<br />+22 Hit Rating<br />+20 Expertise Rating<br />+33 Stamina<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Stormrage Coverlet</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>+17 Agility<br />+33 Stamina<br />+22 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves hit rating by 22.</span><br /><span class=\"q2\">Equip: Increases your expertise rating by 20.</span><br /></td></tr></table>",
       "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
@@ -227,7 +227,7 @@
         "Shaman"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Crown of Ten Storms</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>Item Level 105<br />+46 Agility<br />+33 Attack Power<br />+19 Crit Rating<br />+12 Intellect<br />+23 Haste Rating<br />+25 Stamina<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Crown of Ten Storms</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>+46 Agility<br />+25 Stamina<br />+12 Intellect<br />+33 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 19.</span><br /><span class=\"q2\">Equip: Improves haste rating by 23.</span><br /></td></tr></table>",
       "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
@@ -250,7 +250,7 @@
         "Shaman"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Helm of Ten Storms</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>Item Level 105<br />+21 Stamina<br />+45 Spell Power<br />+20 Crit Rating<br />+17 Hit Rating<br />+24 Intellect<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Helm of Ten Storms</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>+21 Stamina<br />+24 Intellect<br />+45 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 20.</span><br /><span class=\"q2\">Equip: Improves hit rating by 17.</span><br /></td></tr></table>",
       "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
@@ -273,7 +273,7 @@
         "Shaman"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Helmet of Ten Storms</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>Item Level 105<br />+31 Intellect<br />+39 Stamina<br />+20 Crit Rating<br />+16 Mana Regen (MP5)<br />+54 Spell Power<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Helmet of Ten Storms</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>+39 Stamina<br />+31 Intellect<br />+16 Mana Regen (MP5)<br />+54 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 20.</span><br /></td></tr></table>",
       "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
@@ -296,7 +296,7 @@
         "Hunter"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Dragonstalker's Helm</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>Item Level 105<br />+27 Agility<br />+15 Intellect<br />+14 Crit Rating<br />+25 Stamina<br />+12 Armor Penetration<br />+45 Attack Power<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Dragonstalker's Helm</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>+27 Agility<br />+25 Stamina<br />+15 Intellect<br />+12 Armor Penetration<br />+45 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 14.</span><br /></td></tr></table>",
       "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
@@ -319,7 +319,7 @@
         "Warrior"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Helm of Wrath</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>Item Level 105<br />+40 Stamina<br />+26 Strength<br />+18 Defense Rating<br />+13 Dodge Rating<br />+17 Parry Rating<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Helm of Wrath</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>+26 Strength<br />+40 Stamina<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your defense rating by 18.</span><br /><span class=\"q2\">Equip: Increases your dodge rating by 13.</span><br /><span class=\"q2\">Equip: Increases your parry rating by 17.</span><br /></td></tr></table>",
       "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
@@ -342,7 +342,7 @@
         "Warrior"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Helmet of Wrath</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>Item Level 105<br />+26 Stamina<br />+35 Strength<br />+13 Crit Rating<br />+16 Armor Penetration<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Helmet of Wrath</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>+35 Strength<br />+26 Stamina<br />+16 Armor Penetration<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 13.</span><br /></td></tr></table>",
       "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
@@ -365,7 +365,7 @@
         "Death Knight"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Frostforged Greathelm</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>Item Level 105<br />+40 Stamina<br />+28 Strength<br />+14 Defense Rating<br />+17 Parry Rating<br />+16 Hit Rating<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Frostforged Greathelm</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>+28 Strength<br />+40 Stamina<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your defense rating by 14.</span><br /><span class=\"q2\">Equip: Increases your parry rating by 17.</span><br /><span class=\"q2\">Equip: Improves hit rating by 16.</span><br /></td></tr></table>",
       "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
@@ -388,7 +388,7 @@
         "Death Knight"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Frostforged Helm</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>Item Level 105<br />+24 Stamina<br />+33 Strength<br />+15 Hit Rating<br />+15 Armor Penetration<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Frostforged Helm</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>+33 Strength<br />+24 Stamina<br />+15 Armor Penetration<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves hit rating by 15.</span><br /></td></tr></table>",
       "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
@@ -411,7 +411,7 @@
         "Paladin"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Judgement Crown</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>Item Level 105<br />+31 Intellect<br />+13 Haste Rating<br />+28 Stamina<br />+11 Crit Rating<br />+33 Spell Power<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Judgement Crown</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>+28 Stamina<br />+31 Intellect<br />+33 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves haste rating by 13.</span><br /><span class=\"q2\">Equip: Improves your crit rating by 11.</span><br /></td></tr></table>",
       "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
@@ -434,7 +434,7 @@
         "Paladin"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Judgement Heaume</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>Item Level 105<br />+26 Strength<br />+40 Stamina<br />+17 Defense Rating<br />+18 Dodge Rating<br />+16 Hit Rating<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Judgement Heaume</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>+26 Strength<br />+40 Stamina<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your defense rating by 17.</span><br /><span class=\"q2\">Equip: Increases your dodge rating by 18.</span><br /><span class=\"q2\">Equip: Improves hit rating by 16.</span><br /></td></tr></table>",
       "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
@@ -457,7 +457,7 @@
         "Paladin"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Judgement Hood</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>Item Level 105<br />+35 Strength<br />+12 Crit Rating<br />+26 Stamina<br />+16 Haste Rating<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Judgement Hood</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>+35 Strength<br />+26 Stamina<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 12.</span><br /><span class=\"q2\">Equip: Improves haste rating by 16.</span><br /></td></tr></table>",
       "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
@@ -489,7 +489,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Eskhandar's Links</b><br /><table width=\"100%\"><tr><td>Neck</td><th></th></tr></table>Item Level 105<br />+30 Stamina<br />+13 Dodge Rating<br />+11 Expertise Rating<br />+13 Defense Rating<br />+21 Strength<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Eskhandar's Links</b><br /><table width=\"100%\"><tr><td>Neck</td><th></th></tr></table>+21 Strength<br />+30 Stamina<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your dodge rating by 13.</span><br /><span class=\"q2\">Equip: Increases your expertise rating by 11.</span><br /><span class=\"q2\">Equip: Increases your defense rating by 13.</span><br /></td></tr></table>",
       "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
@@ -521,7 +521,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Signified Ring of Binding</b><br /><table width=\"100%\"><tr><td>Finger</td><th></th></tr></table>Item Level 105<br />+20 Defense Rating<br />+32 Stamina<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Signified Ring of Binding</b><br /><table width=\"100%\"><tr><td>Finger</td><th></th></tr></table>+32 Stamina<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your defense rating by 20.</span><br /></td></tr></table>",
       "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
@@ -553,7 +553,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Shiny Shard of the Flame</b><br /><table width=\"100%\"><tr><td>Trinket</td><th></th></tr></table>Item Level 105<br />+100 Health Regen<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Shiny Shard of the Flame</b><br /><table width=\"100%\"><tr><td>Trinket</td><th></th></tr></table>+100 Health Regen<br />Requires Level 60<br /></td></tr></table>",
       "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
@@ -585,7 +585,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Shiny Shard of the Scale</b><br /><table width=\"100%\"><tr><td>Trinket</td><th></th></tr></table>Item Level 105<br />+24 Mana Regen (MP5)<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Shiny Shard of the Scale</b><br /><table width=\"100%\"><tr><td>Trinket</td><th></th></tr></table>+24 Mana Regen (MP5)<br />Requires Level 60<br /></td></tr></table>",
       "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
@@ -617,7 +617,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Antediluvian Cornerstone Grimoire</b><br /><table width=\"100%\"><tr><td>Held In Off-hand</td><th></th></tr></table>Item Level 105<br />+16 Spirit<br />+20 Intellect<br />+18 Stamina<br />+27 Spell Power<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Antediluvian Cornerstone Grimoire</b><br /><table width=\"100%\"><tr><td>Held In Off-hand</td><th></th></tr></table>+18 Stamina<br />+20 Intellect<br />+16 Spirit<br />+27 Spell Power<br />Requires Level 60<br /></td></tr></table>",
       "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
@@ -649,7 +649,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Honed Fang of the Mystics</b><br /><table width=\"100%\"><tr><td>Main Hand</td><th></th></tr></table>Item Level 105<br />+21 Intellect<br />+16 Crit Rating<br />+130 Spell Power<br />+10 Mana Regen (MP5)<br />+14 Stamina<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Honed Fang of the Mystics</b><br /><table width=\"100%\"><tr><td>Main Hand</td><th></th></tr></table>+14 Stamina<br />+21 Intellect<br />+130 Spell Power<br />+10 Mana Regen (MP5)<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 16.</span><br /></td></tr></table>",
       "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
@@ -681,7 +681,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Tarnished Gutgore Ripper</b><br /><table width=\"100%\"><tr><td>One-Hand</td><th></th></tr></table>Item Level 105<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Tarnished Gutgore Ripper</b><br /><table width=\"100%\"><tr><td>One-Hand</td><th></th></tr></table>Requires Level 60<br /></td></tr></table>",
       "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
@@ -713,7 +713,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Polished Azuresong Mageblade</b><br /><table width=\"100%\"><tr><td>Main Hand</td><th></th></tr></table>Item Level 105<br />+23 Intellect<br />+16 Stamina<br />+18 Crit Rating<br />+130 Spell Power<br />+20 Hit Rating<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Polished Azuresong Mageblade</b><br /><table width=\"100%\"><tr><td>Main Hand</td><th></th></tr></table>+16 Stamina<br />+23 Intellect<br />+130 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 18.</span><br /><span class=\"q2\">Equip: Improves hit rating by 20.</span><br /></td></tr></table>",
       "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
@@ -738,7 +738,7 @@
         "Death Knight"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Burnished Quel'Serrar</b><br /><table width=\"100%\"><tr><td>One-Hand</td><th></th></tr></table>Item Level 105<br />+26 Stamina<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Burnished Quel'Serrar</b><br /><table width=\"100%\"><tr><td>One-Hand</td><th></th></tr></table>+26 Stamina<br />Requires Level 60<br /></td></tr></table>",
       "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
@@ -770,7 +770,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Tempered Vis'kag the Bloodletter</b><br /><table width=\"100%\"><tr><td>One-Hand</td><th></th></tr></table>Item Level 105<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Tempered Vis'kag the Bloodletter</b><br /><table width=\"100%\"><tr><td>One-Hand</td><th></th></tr></table>Requires Level 60<br /></td></tr></table>",
       "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
@@ -802,7 +802,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Sharpened Obsidian Edged Blade</b><br /><table width=\"100%\"><tr><td>Two-Hand</td><th></th></tr></table>Item Level 105<br />+33 Strength<br />+19 Expertise Rating<br />+17 Crit Rating<br />+27 Stamina<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Sharpened Obsidian Edged Blade</b><br /><table width=\"100%\"><tr><td>Two-Hand</td><th></th></tr></table>+33 Strength<br />+27 Stamina<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your expertise rating by 19.</span><br /><span class=\"q2\">Equip: Improves your crit rating by 17.</span><br /></td></tr></table>",
       "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
@@ -834,7 +834,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Raging Deathbringer</b><br /><table width=\"100%\"><tr><td>One-Hand</td><th></th></tr></table>Item Level 105<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Raging Deathbringer</b><br /><table width=\"100%\"><tr><td>One-Hand</td><th></th></tr></table>Requires Level 60<br /></td></tr></table>",
       "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
@@ -866,7 +866,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Reinforced Shadowstrike</b><br /><table width=\"100%\"><tr><td>Two-Hand</td><th></th></tr></table>Item Level 105<br />+33 Agility<br />+56 Attack Power<br />+23 Stamina<br />+16 Crit Rating<br />+17 Armor Penetration<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Reinforced Shadowstrike</b><br /><table width=\"100%\"><tr><td>Two-Hand</td><th></th></tr></table>+33 Agility<br />+23 Stamina<br />+56 Attack Power<br />+17 Armor Penetration<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 16.</span><br /></td></tr></table>",
       "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
@@ -898,7 +898,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Reinforced Thunderstrike</b><br /><table width=\"100%\"><tr><td>Two-Hand</td><th></th></tr></table>Item Level 105<br />+33 Agility<br />+23 Stamina<br />+16 Expertise Rating<br />+56 Attack Power<br />+17 Haste Rating<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Reinforced Thunderstrike</b><br /><table width=\"100%\"><tr><td>Two-Hand</td><th></th></tr></table>+33 Agility<br />+23 Stamina<br />+56 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your expertise rating by 16.</span><br /><span class=\"q2\">Equip: Improves haste rating by 17.</span><br /></td></tr></table>",
       "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
@@ -930,7 +930,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Rifled Blastershot Launcher</b><br /><table width=\"100%\"><tr><td>Ranged Right</td><th></th></tr></table>Item Level 105<br />+14 Stamina<br />+15 Crit Rating<br />+15 Agility<br />+34 Attack Power<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Rifled Blastershot Launcher</b><br /><table width=\"100%\"><tr><td>Ranged Right</td><th></th></tr></table>+15 Agility<br />+14 Stamina<br />+34 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 15.</span><br /></td></tr></table>",
       "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
@@ -962,7 +962,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Head of Onyxia - Alliance</b><br />Item Level 60<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Head of Onyxia - Alliance</b><br />Requires Level 60<br /></td></tr></table>",
       "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
@@ -994,7 +994,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Sparkling Onyxia Tooth Pendant</b><br /><table width=\"100%\"><tr><td>Neck</td><th></th></tr></table>Item Level 105<br />+22 Agility<br />+20 Stamina<br />+14 Hit Rating<br />+12 Crit Rating<br />+36 Attack Power<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Sparkling Onyxia Tooth Pendant</b><br /><table width=\"100%\"><tr><td>Neck</td><th></th></tr></table>+22 Agility<br />+20 Stamina<br />+36 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves hit rating by 14.</span><br /><span class=\"q2\">Equip: Improves your crit rating by 12.</span><br /></td></tr></table>",
       "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
@@ -1026,7 +1026,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Polished Dragonslayer's Signet</b><br /><table width=\"100%\"><tr><td>Finger</td><th></th></tr></table>Item Level 105<br />+20 Intellect<br />+12 Spirit<br />+22 Stamina<br />+19 Crit Rating<br />+33 Spell Power<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Polished Dragonslayer's Signet</b><br /><table width=\"100%\"><tr><td>Finger</td><th></th></tr></table>+22 Stamina<br />+20 Intellect<br />+12 Spirit<br />+33 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 19.</span><br /></td></tr></table>",
       "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
@@ -1058,7 +1058,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Purified Onyxia Blood Talisman</b><br /><table width=\"100%\"><tr><td>Trinket</td><th></th></tr></table>Item Level 105<br />+40 Parry Rating<br />+25 Defense Rating<br />+37 Health Regen<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Purified Onyxia Blood Talisman</b><br /><table width=\"100%\"><tr><td>Trinket</td><th></th></tr></table>+37 Health Regen<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your parry rating by 40.</span><br /><span class=\"q2\">Equip: Increases your defense rating by 25.</span><br /></td></tr></table>",
       "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
@@ -1090,7 +1090,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Enlarged Onyxia Hide Backpack</b><br /><table width=\"100%\"><tr><td>Bag</td><th></th></tr></table>Item Level 42<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Enlarged Onyxia Hide Backpack</b><br /><table width=\"100%\"><tr><td>Bag</td><th></th></tr></table></td></tr></table>",
       "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
@@ -1154,7 +1154,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Reins of the Onyxian Drake</b><br />Item Level 53<br />Requires Level 55<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Reins of the Onyxian Drake</b><br />Requires Level 55<br /></td></tr></table>",
       "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {

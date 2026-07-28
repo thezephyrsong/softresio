@@ -282,12 +282,76 @@ def build_tooltip_html(name, quality, tooltip_lines, slot_label=""):
     return "".join(parts)
 
 
+RATING_STAT_PHRASES = {
+    "hit rating": "Improves hit rating by {value}.",
+    "critical strike rating": "Improves critical strike rating by {value}.",
+    "haste rating": "Improves haste rating by {value}.",
+    "expertise rating": "Increases your expertise rating by {value}.",
+    "armor penetration rating": "Increases your armor penetration rating by {value}.",
+    "defense rating": "Increases your defense rating by {value}.",
+    "dodge rating": "Increases your dodge rating by {value}.",
+    "parry rating": "Increases your parry rating by {value}.",
+    "block rating": "Increases your shield block rating by {value}.",
+    "resilience rating": "Improves your resilience rating by {value}.",
+}
+
+# In-game tooltips always show these in the same order regardless of how
+# the source data lists them; anything not in this list keeps whatever
+# relative order it was given in, appended after these.
+STAT_DISPLAY_ORDER = [
+    "strength", "agility", "stamina", "intellect", "spirit",
+    "arcane resistance", "fire resistance", "frost resistance",
+    "nature resistance", "shadow resistance",
+]
+
+
+def _stat_sort_key(stat_name_value, base_index):
+    stat_name, _ = stat_name_value
+    key = stat_name.strip().lower()
+    if key in STAT_DISPLAY_ORDER:
+        return (0, STAT_DISPLAY_ORDER.index(key))
+    return (1, base_index)
+
+
 def build_tooltip_html_from_stats(name, quality, slot, item_level, required_level, stats):
     """Builds a tooltip HTML string for the new items.json schema, which has
     no raw tooltip text at all - just structured item_level/slot/stats
     fields. Note: unlike build_tooltip_html, this schema has no
-    binding/unique/socket/proc (Equip:) data, so those parts of a real
-    tooltip simply aren't reconstructable from what's available."""
+    binding/unique/socket data, so those parts of a real tooltip simply
+    aren't reconstructable from what's available.
+
+    Matches in-game conventions where possible:
+    - Item Level isn't shown in the base tooltip body, so it's omitted here
+      too (only used upstream for things like get_classes_from_bitmask etc.)
+    - Armor is shown as a bare "N Armor" line (no +) right after the slot row
+    - Any stat whose name ends in "Rating" (hit/crit/haste/expertise/dodge/
+      parry/block/defense/armor pen/resilience) is a secondary combat stat
+      that real tooltips phrase as a green "Equip: Improves/increases..."
+      line instead of a plain "+N StatName" line - everything else (primary
+      attributes, resistances, spell power, attack power, mp5/hp5, etc.)
+      stays a plain stat line.
+    """
+    armor_value = None
+    rating_stats = []
+    plain_stats = []
+    for stat in stats:
+        value = stat.get("value")
+        stat_name = stat.get("stat_name", "")
+        if value is None or not stat_name:
+            continue
+        if stat_name.strip().lower() == "armor":
+            armor_value = value
+        elif stat_name.strip().lower() in RATING_STAT_PHRASES or "rating" in stat_name.lower():
+            rating_stats.append((stat_name, value))
+        else:
+            plain_stats.append((stat_name, value))
+
+    plain_stats = [
+        stat for _, stat in sorted(
+            enumerate(plain_stats), key=lambda pair: _stat_sort_key(pair[1], pair[0])
+        )
+    ]
+
     parts = [f'<table><tr><td><b class="q{quality}">{_html_escape(name)}</b><br />']
 
     if slot and slot != "Non-equippable":
@@ -295,20 +359,29 @@ def build_tooltip_html_from_stats(name, quality, slot, item_level, required_leve
             f'<table width="100%"><tr><td>{_html_escape(slot)}</td><th></th></tr></table>'
         )
 
-    if item_level:
-        parts.append(f'Item Level {item_level}<br />')
+    if armor_value is not None:
+        parts.append(f'{armor_value} Armor<br />')
 
-    for stat in stats:
-        value = stat.get("value")
-        stat_name = stat.get("stat_name", "")
-        if value is not None and stat_name:
-            sign = "+" if value >= 0 else ""
-            parts.append(f'{sign}{value} {_html_escape(stat_name)}<br />')
+    for stat_name, value in plain_stats:
+        sign = "+" if value >= 0 else ""
+        parts.append(f'{sign}{value} {_html_escape(stat_name)}<br />')
 
     if required_level and required_level > 1:
         parts.append(f'Requires Level {required_level}<br />')
 
     parts.append('</td></tr></table>')
+
+    if rating_stats:
+        parts.append('<table><tr><td>')
+        for stat_name, value in rating_stats:
+            phrase = RATING_STAT_PHRASES.get(stat_name.strip().lower())
+            if not phrase:
+                phrase = "Improves your " + stat_name.lower() + " by {value}."
+            parts.append(
+                f'<span class="q2">Equip: {phrase.format(value=value)}</span><br />'
+            )
+        parts.append('</td></tr></table>')
+
     return "".join(parts)
 
 

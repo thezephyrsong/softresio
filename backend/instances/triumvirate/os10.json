@@ -20,7 +20,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Titan's Outlook</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>Item Level 103<br />+36 Strength<br />+24 Stamina<br />+15 Crit Rating<br />+14 Armor Penetration<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Titan's Outlook</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>+36 Strength<br />+24 Stamina<br />+14 Armor Penetration<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 15.</span><br /></td></tr></table>",
       "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
@@ -52,7 +52,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Circle of Arcane Streams</b><br /><table width=\"100%\"><tr><td>Neck</td><th></th></tr></table>Item Level 103<br />+13 Intellect<br />+14 Stamina<br />+14 Hit Rating<br />+13 Crit Rating<br />+33 Spell Power<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Circle of Arcane Streams</b><br /><table width=\"100%\"><tr><td>Neck</td><th></th></tr></table>+14 Stamina<br />+13 Intellect<br />+33 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves hit rating by 14.</span><br /><span class=\"q2\">Equip: Improves your crit rating by 13.</span><br /></td></tr></table>",
       "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
@@ -84,7 +84,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Signet of the Accord</b><br /><table width=\"100%\"><tr><td>Finger</td><th></th></tr></table>Item Level 103<br />+13 Strength<br />+26 Stamina<br />+10 Expertise Rating<br />+11 Defense Rating<br />+13 Parry Rating<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Signet of the Accord</b><br /><table width=\"100%\"><tr><td>Finger</td><th></th></tr></table>+13 Strength<br />+26 Stamina<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your expertise rating by 10.</span><br /><span class=\"q2\">Equip: Increases your defense rating by 11.</span><br /><span class=\"q2\">Equip: Increases your parry rating by 13.</span><br /></td></tr></table>",
       "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
@@ -116,7 +116,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Wyrmrest Band</b><br /><table width=\"100%\"><tr><td>Finger</td><th></th></tr></table>Item Level 103<br />+14 Intellect<br />+15 Stamina<br />+11 Haste Rating<br />+26 Spell Power<br />+11 Mana Regen (MP5)<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Wyrmrest Band</b><br /><table width=\"100%\"><tr><td>Finger</td><th></th></tr></table>+15 Stamina<br />+14 Intellect<br />+26 Spell Power<br />+11 Mana Regen (MP5)<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves haste rating by 11.</span><br /></td></tr></table>",
       "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
@@ -148,7 +148,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Majestic Dragon Figurine</b><br /><table width=\"100%\"><tr><td>Trinket</td><th></th></tr></table>Item Level 103<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Majestic Dragon Figurine</b><br /><table width=\"100%\"><tr><td>Trinket</td><th></th></tr></table>Requires Level 60<br /></td></tr></table>",
       "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
@@ -180,7 +180,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Crimson Steel</b><br /><table width=\"100%\"><tr><td>Main Hand</td><th></th></tr></table>Item Level 103<br />+14 Agility<br />+15 Hit Rating<br />+8 Crit Rating<br />+39 Attack Power<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Crimson Steel</b><br /><table width=\"100%\"><tr><td>Main Hand</td><th></th></tr></table>+14 Agility<br />+39 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves hit rating by 15.</span><br /><span class=\"q2\">Equip: Improves your crit rating by 8.</span><br /></td></tr></table>",
       "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
@@ -212,7 +212,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Dragon Hide Bag</b><br /><table width=\"100%\"><tr><td>Bag</td><th></th></tr></table>Item Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Dragon Hide Bag</b><br /><table width=\"100%\"><tr><td>Bag</td><th></th></tr></table></td></tr></table>",
       "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
@@ -276,7 +276,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Gale-Proof Cloak</b><br /><table width=\"100%\"><tr><td>Back</td><th></th></tr></table>Item Level 103<br />+13 Strength<br />+23 Stamina<br />+11 Defense Rating<br />+12 Dodge Rating<br />+8 Expertise Rating<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Gale-Proof Cloak</b><br /><table width=\"100%\"><tr><td>Back</td><th></th></tr></table>+13 Strength<br />+23 Stamina<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your defense rating by 11.</span><br /><span class=\"q2\">Equip: Increases your dodge rating by 12.</span><br /><span class=\"q2\">Equip: Increases your expertise rating by 8.</span><br /></td></tr></table>",
       "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
@@ -308,7 +308,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Blade-Scarred Tunic</b><br /><table width=\"100%\"><tr><td>Chest</td><th></th></tr></table>Item Level 103<br />+42 Attack Power<br />+14 Agility<br />+20 Stamina<br />+20 Hit Rating<br />+11 Haste Rating<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Blade-Scarred Tunic</b><br /><table width=\"100%\"><tr><td>Chest</td><th></th></tr></table>+14 Agility<br />+20 Stamina<br />+42 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves hit rating by 20.</span><br /><span class=\"q2\">Equip: Improves haste rating by 11.</span><br /></td></tr></table>",
       "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
@@ -340,7 +340,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Legguards of Composure</b><br /><table width=\"100%\"><tr><td>Legs</td><th></th></tr></table>Item Level 103<br />+12 Stamina<br />+16 Intellect<br />+11 Spirit<br />+14 Crit Rating<br />+34 Spell Power<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Legguards of Composure</b><br /><table width=\"100%\"><tr><td>Legs</td><th></th></tr></table>+12 Stamina<br />+16 Intellect<br />+11 Spirit<br />+34 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 14.</span><br /></td></tr></table>",
       "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
@@ -372,7 +372,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Remembrance Girdle</b><br /><table width=\"100%\"><tr><td>Waist</td><th></th></tr></table>Item Level 103<br />+16 Stamina<br />+15 Intellect<br />+16 Haste Rating<br />+30 Spell Power<br />+8 Mana Regen (MP5)<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Remembrance Girdle</b><br /><table width=\"100%\"><tr><td>Waist</td><th></th></tr></table>+16 Stamina<br />+15 Intellect<br />+30 Spell Power<br />+8 Mana Regen (MP5)<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves haste rating by 16.</span><br /></td></tr></table>",
       "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
@@ -404,7 +404,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Volitant Amulet</b><br /><table width=\"100%\"><tr><td>Neck</td><th></th></tr></table>Item Level 103<br />+13 Stamina<br />+14 Intellect<br />+9 Crit Rating<br />+29 Spell Power<br />+11 Mana Regen (MP5)<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Volitant Amulet</b><br /><table width=\"100%\"><tr><td>Neck</td><th></th></tr></table>+13 Stamina<br />+14 Intellect<br />+29 Spell Power<br />+11 Mana Regen (MP5)<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 9.</span><br /></td></tr></table>",
       "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
@@ -429,7 +429,7 @@
         "Warlock"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Gloves of the Lost Conqueror</b><br />Item Level 60<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Gloves of the Lost Conqueror</b><br />Requires Level 60<br /></td></tr></table>",
       "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
@@ -454,7 +454,7 @@
         "Shaman"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Gloves of the Lost Protector</b><br />Item Level 60<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Gloves of the Lost Protector</b><br />Requires Level 60<br /></td></tr></table>",
       "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
@@ -480,7 +480,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Gloves of the Lost Vanquisher</b><br />Item Level 60<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Gloves of the Lost Vanquisher</b><br />Requires Level 60<br /></td></tr></table>",
       "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
@@ -512,7 +512,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Enamored Cowl</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>Item Level 103<br />+17 Stamina<br />+22 Intellect<br />+23 Spirit<br />+12 Crit Rating<br />+31 Spell Power<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Enamored Cowl</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>+17 Stamina<br />+22 Intellect<br />+23 Spirit<br />+31 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 12.</span><br /></td></tr></table>",
       "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
@@ -544,7 +544,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Chestguard of Flagrant Prowess</b><br /><table width=\"100%\"><tr><td>Chest</td><th></th></tr></table>Item Level 103<br />+48 Attack Power<br />+21 Agility<br />+26 Stamina<br />+19 Intellect<br />+26 Crit Rating<br />+16 Hit Rating<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Chestguard of Flagrant Prowess</b><br /><table width=\"100%\"><tr><td>Chest</td><th></th></tr></table>+21 Agility<br />+26 Stamina<br />+19 Intellect<br />+48 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 26.</span><br /><span class=\"q2\">Equip: Improves hit rating by 16.</span><br /></td></tr></table>",
       "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
@@ -576,7 +576,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Sabatons of Firmament</b><br /><table width=\"100%\"><tr><td>Feet</td><th></th></tr></table>Item Level 103<br />+23 Stamina<br />+20 Intellect<br />+18 Crit Rating<br />+7 Mana Regen (MP5)<br />+32 Spell Power<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Sabatons of Firmament</b><br /><table width=\"100%\"><tr><td>Feet</td><th></th></tr></table>+23 Stamina<br />+20 Intellect<br />+7 Mana Regen (MP5)<br />+32 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 18.</span><br /></td></tr></table>",
       "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
@@ -608,7 +608,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Belabored Legplates</b><br /><table width=\"100%\"><tr><td>Legs</td><th></th></tr></table>Item Level 103<br />+30 Strength<br />+22 Stamina<br />+12 Crit Rating<br />+18 Hit Rating<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Belabored Legplates</b><br /><table width=\"100%\"><tr><td>Legs</td><th></th></tr></table>+30 Strength<br />+22 Stamina<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 12.</span><br /><span class=\"q2\">Equip: Improves hit rating by 18.</span><br /></td></tr></table>",
       "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
@@ -640,7 +640,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Greatring of Collision</b><br /><table width=\"100%\"><tr><td>Finger</td><th></th></tr></table>Item Level 103<br />+27 Attack Power<br />+14 Agility<br />+23 Stamina<br />+15 Crit Rating<br />+11 Armor Penetration<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Greatring of Collision</b><br /><table width=\"100%\"><tr><td>Finger</td><th></th></tr></table>+14 Agility<br />+23 Stamina<br />+27 Attack Power<br />+11 Armor Penetration<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 15.</span><br /></td></tr></table>",
       "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
@@ -672,7 +672,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Reins of the Black Drake</b><br />Item Level 53<br />Requires Level 55<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Reins of the Black Drake</b><br />Requires Level 55<br /></td></tr></table>",
       "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
