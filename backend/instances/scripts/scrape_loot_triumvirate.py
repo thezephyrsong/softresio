@@ -190,9 +190,9 @@ def get_classes_from_tooltip(tooltip):
 
 def format_icon(icon_name):
     if not icon_name or icon_name == "inv_misc_questionmark":
-        return "inv_misc_questionmark.png"
+        return "inv_misc_questionmark.jpg"
     clean_icon = icon_name.lower().strip()
-    return clean_icon + ".png" if not clean_icon.endswith(".png") else clean_icon
+    return clean_icon + ".jpg" if not clean_icon.endswith(".jpg") else clean_icon
 
 def fetch_item_name_from_wotlkdb(item_id):
     """For items that don't exist in the local items.json (e.g. custom
