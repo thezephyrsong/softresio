@@ -342,7 +342,7 @@
         "Warrior"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Helmet of Wrath</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>+35 Strength<br />+26 Stamina<br />+16 Armor Penetration<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 13.</span><br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Helmet of Wrath</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>+35 Strength<br />+26 Stamina<br />+16 Armor Penetration<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 13.</span><br /><span class=\"q2\">Use: $WowheadPower.registerSpell(1536, 0, {</span><br /></td></tr></table>",
       "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
@@ -388,7 +388,7 @@
         "Death Knight"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Frostforged Helm</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>+33 Strength<br />+24 Stamina<br />+15 Armor Penetration<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves hit rating by 15.</span><br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Frostforged Helm</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>+33 Strength<br />+24 Stamina<br />+15 Armor Penetration<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves hit rating by 15.</span><br /><span class=\"q2\">Use: $WowheadPower.registerSpell(1536, 0, {</span><br /></td></tr></table>",
       "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
@@ -457,7 +457,7 @@
         "Paladin"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Judgement Hood</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>+35 Strength<br />+26 Stamina<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 12.</span><br /><span class=\"q2\">Equip: Improves haste rating by 16.</span><br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Judgement Hood</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>+35 Strength<br />+26 Stamina<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 12.</span><br /><span class=\"q2\">Equip: Improves haste rating by 16.</span><br /><span class=\"q2\">Use: $WowheadPower.registerSpell(1536, 0, {</span><br /></td></tr></table>",
       "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
@@ -553,7 +553,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Shiny Shard of the Flame</b><br /><table width=\"100%\"><tr><td>Trinket</td><th></th></tr></table>+100 Health Regen<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Shiny Shard of the Flame</b><br /><table width=\"100%\"><tr><td>Trinket</td><th></th></tr></table>+100 Health Regen<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: $WowheadPower.registerSpell(512, 0, {</span><br /></td></tr></table>",
       "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
@@ -585,7 +585,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Shiny Shard of the Scale</b><br /><table width=\"100%\"><tr><td>Trinket</td><th></th></tr></table>+24 Mana Regen (MP5)<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Shiny Shard of the Scale</b><br /><table width=\"100%\"><tr><td>Trinket</td><th></th></tr></table>+24 Mana Regen (MP5)<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: $WowheadPower.registerSpell(512, 0, {</span><br /></td></tr></table>",
       "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
@@ -617,7 +617,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Antediluvian Cornerstone Grimoire</b><br /><table width=\"100%\"><tr><td>Held In Off-hand</td><th></th></tr></table>+18 Stamina<br />+20 Intellect<br />+16 Spirit<br />+27 Spell Power<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Antediluvian Cornerstone Grimoire</b><br /><table width=\"100%\"><tr><td>Held In Off-hand</td><th></th></tr></table>+18 Stamina<br />+20 Intellect<br />+16 Spirit<br />+94 Fire Resistance<br />+27 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: $WowheadPower.registerSpell(1792, 0, {});</span><br /></td></tr></table>",
       "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
@@ -802,7 +802,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Sharpened Obsidian Edged Blade</b><br /><table width=\"100%\"><tr><td>Two-Hand</td><th></th></tr></table>+33 Strength<br />+27 Stamina<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your expertise rating by 19.</span><br /><span class=\"q2\">Equip: Improves your crit rating by 17.</span><br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Sharpened Obsidian Edged Blade</b><br /><table width=\"100%\"><tr><td>Two-Hand</td><th></th></tr></table>+33 Strength<br />+27 Stamina<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your expertise rating by 19.</span><br /><span class=\"q2\">Equip: Improves your crit rating by 17.</span><br /><span class=\"q2\">Equip: $WowheadPower.registerSpell(256, 0, {});</span><br /></td></tr></table>",
       "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
@@ -866,7 +866,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Reinforced Shadowstrike</b><br /><table width=\"100%\"><tr><td>Two-Hand</td><th></th></tr></table>+33 Agility<br />+23 Stamina<br />+56 Attack Power<br />+17 Armor Penetration<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 16.</span><br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Reinforced Shadowstrike</b><br /><table width=\"100%\"><tr><td>Two-Hand</td><th></th></tr></table>+33 Agility<br />+23 Stamina<br />+56 Attack Power<br />+17 Armor Penetration<br />+2 Holy Resistance<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 16.</span><br /></td></tr></table>",
       "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
@@ -898,7 +898,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Reinforced Thunderstrike</b><br /><table width=\"100%\"><tr><td>Two-Hand</td><th></th></tr></table>+33 Agility<br />+23 Stamina<br />+56 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your expertise rating by 16.</span><br /><span class=\"q2\">Equip: Improves haste rating by 17.</span><br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Reinforced Thunderstrike</b><br /><table width=\"100%\"><tr><td>Two-Hand</td><th></th></tr></table>+33 Agility<br />+23 Stamina<br />+56 Attack Power<br />+2 Holy Resistance<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your expertise rating by 16.</span><br /><span class=\"q2\">Equip: Improves haste rating by 17.</span><br /></td></tr></table>",
       "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
@@ -930,7 +930,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Rifled Blastershot Launcher</b><br /><table width=\"100%\"><tr><td>Ranged Right</td><th></th></tr></table>+15 Agility<br />+14 Stamina<br />+34 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 15.</span><br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Rifled Blastershot Launcher</b><br /><table width=\"100%\"><tr><td>Ranged Right</td><th></th></tr></table>+15 Agility<br />+14 Stamina<br />+34 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 15.</span><br /><span class=\"q2\">Equip: $WowheadPower.registerSpell(256, 0, {});</span><br /></td></tr></table>",
       "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
@@ -962,7 +962,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Head of Onyxia - Alliance</b><br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Head of Onyxia - Alliance</b><br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: $WowheadPower.registerSpell(1684104552, 0, {});</span><br /><span class=\"q2\">Equip: $WowheadPower.registerSpell(1734962278, 0, {});</span><br /></td></tr></table>",
       "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
@@ -1154,7 +1154,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Reins of the Onyxian Drake</b><br />Requires Level 55<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Reins of the Onyxian Drake</b><br />Requires Level 55<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: $WowheadPower.registerSpell(544433512, 0, {});</span><br /><span class=\"q2\">Equip: $WowheadPower.registerSpell(1830843241, 0, {});</span><br /><span class=\"q2\">Equip: $WowheadPower.registerSpell(1869442421, 0, {});</span><br /></td></tr></table>",
       "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {

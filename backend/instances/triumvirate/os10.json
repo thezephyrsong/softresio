@@ -180,7 +180,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Crimson Steel</b><br /><table width=\"100%\"><tr><td>Main Hand</td><th></th></tr></table>+14 Agility<br />+39 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves hit rating by 15.</span><br /><span class=\"q2\">Equip: Improves your crit rating by 8.</span><br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Crimson Steel</b><br /><table width=\"100%\"><tr><td>Main Hand</td><th></th></tr></table>+14 Agility<br />+39 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves hit rating by 15.</span><br /><span class=\"q2\">Equip: Improves your crit rating by 8.</span><br /><span class=\"q2\">Equip: $WowheadPower.registerSpell(256, 0, {});</span><br /></td></tr></table>",
       "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
@@ -608,7 +608,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Belabored Legplates</b><br /><table width=\"100%\"><tr><td>Legs</td><th></th></tr></table>+30 Strength<br />+22 Stamina<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 12.</span><br /><span class=\"q2\">Equip: Improves hit rating by 18.</span><br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Belabored Legplates</b><br /><table width=\"100%\"><tr><td>Legs</td><th></th></tr></table>+30 Strength<br />+22 Stamina<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 12.</span><br /><span class=\"q2\">Equip: Improves hit rating by 18.</span><br /><span class=\"q2\">Use: $WowheadPower.registerSpell(1536, 0, {</span><br /></td></tr></table>",
       "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {
@@ -672,7 +672,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Reins of the Black Drake</b><br />Requires Level 55<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Reins of the Black Drake</b><br />Requires Level 55<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: $WowheadPower.registerSpell(544433512, 0, {});</span><br /><span class=\"q2\">Equip: $WowheadPower.registerSpell(1830843241, 0, {});</span><br /><span class=\"q2\">Equip: $WowheadPower.registerSpell(1869442421, 0, {});</span><br /></td></tr></table>",
       "icon": "inv_misc_questionmark.png",
       "dropsFrom": [
         {

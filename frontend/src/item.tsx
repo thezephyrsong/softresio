@@ -111,7 +111,7 @@ export const ItemNameAndIcon = (
                 radius="sm"
                 h={24}
                 w={24}
-                src={`https://wotlkdb.com/static/images/wow/icons/large/${item.icon}`}
+                src={`https://wow.zamimg.com/images/wow/icons/large/${item.icon}`}
               />
             )}
         </Box>

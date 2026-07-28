@@ -82,7 +82,7 @@ export const ClassIcon = (
       radius={2}
       h={20}
       w={20}
-      src={`https://wotlkdb.com/static/images/wow/icons/medium/${icon}`}
+      src={`https://wow.zamimg.com/images/wow/icons/medium/${icon}`}
     />
   )
 }

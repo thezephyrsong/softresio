@@ -5,6 +5,568 @@
   "name": "Zul'Aman",
   "items": [
     {
+      "id": 33326,
+      "name": "Bulwark of the Amani Empire",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Bulwark of the Amani Empire</b><br /><table width=\"100%\"><tr><td>Shield</td><th></th></tr></table>+15 Strength<br />+36 Stamina<br />+45 Unknown Stat (48)<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your shield block rating by 18.</span><br /><span class=\"q2\">Use: $WowheadPower.registerSpell(1536, 0, {</span><br /></td></tr></table>",
+      "icon": "inv_shield_42.png",
+      "dropsFrom": [
+        {
+          "chance": 14.29,
+          "bossId": 2,
+          "npcId": 2
+        }
+      ],
+      "slots": [
+        "Shield"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 33328,
+      "name": "Arrow-fall Chestguard",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Arrow-fall Chestguard</b><br /><table width=\"100%\"><tr><td>Chest</td><th></th></tr></table>+27 Agility<br />+28 Stamina<br />+22 Intellect<br />+52 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves haste rating by 14.</span><br /></td></tr></table>",
+      "icon": "inv_chest_chain_13.png",
+      "dropsFrom": [
+        {
+          "chance": 14.29,
+          "bossId": 2,
+          "npcId": 2
+        }
+      ],
+      "slots": [
+        "Chest"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 33329,
+      "name": "Shadowtooth Trollskin Cuirass",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Shadowtooth Trollskin Cuirass</b><br /><table width=\"100%\"><tr><td>Chest</td><th></th></tr></table>+28 Agility<br />+25 Stamina<br />+57 Attack Power<br />+14 Armor Penetration<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: $WowheadPower.registerSpell(2048, 0, {</span><br /></td></tr></table>",
+      "icon": "inv_chest_leather_06.png",
+      "dropsFrom": [
+        {
+          "chance": 14.29,
+          "bossId": 2,
+          "npcId": 2
+        }
+      ],
+      "slots": [
+        "Chest"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 33332,
+      "name": "Enamelled Disc of Mojo",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Enamelled Disc of Mojo</b><br /><table width=\"100%\"><tr><td>Shield</td><th></th></tr></table>+18 Stamina<br />+19 Intellect<br />+26 Spell Power<br />+7 Mana Regen (MP5)<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: $WowheadPower.registerSpell(1536, 0, {</span><br /></td></tr></table>",
+      "icon": "inv_shield_43.png",
+      "dropsFrom": [
+        {
+          "chance": 14.29,
+          "bossId": 2,
+          "npcId": 2
+        }
+      ],
+      "slots": [
+        "Shield"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 33354,
+      "name": "Wub's Cursed Hexblade",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Wub's Cursed Hexblade</b><br /><table width=\"100%\"><tr><td>Main Hand</td><th></th></tr></table>+23 Stamina<br />+21 Intellect<br />+134 Spell Power<br />+13 Mana Regen (MP5)<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves hit rating by 16.</span><br /><span class=\"q2\">Equip: Improves your crit rating by 11.</span><br /></td></tr></table>",
+      "icon": "inv_weapon_shortblade_64.png",
+      "dropsFrom": [
+        {
+          "chance": 14.29,
+          "bossId": 2,
+          "npcId": 2
+        }
+      ],
+      "slots": [
+        "Main Hand"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 33356,
+      "name": "Helm of Natural Regeneration",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Helm of Natural Regeneration</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>+26 Stamina<br />+28 Intellect<br />+21 Spirit<br />+35 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 16.</span><br /></td></tr></table>",
+      "icon": "inv_helmet_112.png",
+      "dropsFrom": [
+        {
+          "chance": 14.29,
+          "bossId": 2,
+          "npcId": 2
+        }
+      ],
+      "slots": [
+        "Head"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 33357,
+      "name": "Footpads of Madness",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Footpads of Madness</b><br /><table width=\"100%\"><tr><td>Feet</td><th></th></tr></table>+19 Stamina<br />+22 Intellect<br />+29 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves haste rating by 12.</span><br /><span class=\"q2\">Use: $WowheadPower.registerSpell(1792, 0, {});</span><br /></td></tr></table>",
+      "icon": "inv_boots_05.png",
+      "dropsFrom": [
+        {
+          "chance": 14.29,
+          "bossId": 2,
+          "npcId": 2
+        }
+      ],
+      "slots": [
+        "Feet"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 29434,
+      "name": "Badge of Justice",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Badge of Justice</b><br />Requires Level 60<br /></td></tr></table>",
+      "icon": "spell_holy_championsbond.png",
+      "dropsFrom": [
+        {
+          "chance": 100.0,
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 100.0,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 100.0,
+          "bossId": 1,
+          "npcId": 1
+        },
+        {
+          "chance": 100.0,
+          "bossId": 4,
+          "npcId": 4
+        },
+        {
+          "chance": 100.0,
+          "bossId": 3,
+          "npcId": 3
+        },
+        {
+          "chance": 100.0,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Non-equippable"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 33307,
+      "name": "Formula: Enchant Weapon - Executioner",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 3,
+      "tooltip": "<table><tr><td><b class=\"q3\">Formula: Enchant Weapon - Executioner</b><br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: $WowheadPower.registerSpell(544433512, 0, {});</span><br /><span class=\"q2\">Equip: $WowheadPower.registerSpell(1696627052, 0, {});</span><br /><span class=\"q2\">Equip: $WowheadPower.registerSpell(1869881454, 0, {});</span><br /></td></tr></table>",
+      "icon": "inv_misc_note_01.png",
+      "dropsFrom": [
+        {
+          "chance": 5.0,
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 5.0,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 5.0,
+          "bossId": 1,
+          "npcId": 1
+        },
+        {
+          "chance": 5.0,
+          "bossId": 4,
+          "npcId": 4
+        },
+        {
+          "chance": 5.0,
+          "bossId": 3,
+          "npcId": 3
+        },
+        {
+          "chance": 5.0,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Non-equippable"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 33191,
+      "name": "Jungle Stompers",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Jungle Stompers</b><br /><table width=\"100%\"><tr><td>Feet</td><th></th></tr></table>+16 Strength<br />+34 Stamina<br />+32 Unknown Stat (48)<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your defense rating by 15.</span><br /><span class=\"q2\">Equip: Increases your shield block rating by 12.</span><br /></td></tr></table>",
+      "icon": "inv_boots_plate_10.png",
+      "dropsFrom": [
+        {
+          "chance": 14.29,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Feet"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 33203,
+      "name": "Robes of Heavenly Purpose",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Robes of Heavenly Purpose</b><br /><table width=\"100%\"><tr><td>Robe</td><th></th></tr></table>+26 Stamina<br />+30 Intellect<br />+23 Spirit<br />+37 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 16.</span><br /></td></tr></table>",
+      "icon": "inv_chest_cloth_35.png",
+      "dropsFrom": [
+        {
+          "chance": 14.29,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Robe"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 33206,
+      "name": "Pauldrons of Primal Fury",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Pauldrons of Primal Fury</b><br /><table width=\"100%\"><tr><td>Shoulder</td><th></th></tr></table>+22 Agility<br />+27 Stamina<br />+49 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves hit rating by 17.</span><br /><span class=\"q2\">Use: $WowheadPower.registerSpell(1280, 0, {});</span><br /></td></tr></table>",
+      "icon": "inv_shoulder_85.png",
+      "dropsFrom": [
+        {
+          "chance": 14.29,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Shoulder"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 33211,
+      "name": "Bladeangel's Money Belt",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Bladeangel's Money Belt</b><br /><table width=\"100%\"><tr><td>Waist</td><th></th></tr></table>+17 Agility<br />+23 Stamina<br />+37 Attack Power<br />+13 Armor Penetration<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 15.</span><br /><span class=\"q2\">Equip: $WowheadPower.registerSpell(1769234798, 0, {});</span><br /></td></tr></table>",
+      "icon": "inv_belt_14.png",
+      "dropsFrom": [
+        {
+          "chance": 14.29,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Waist"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 33285,
+      "name": "Fury of the Ursine",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Fury of the Ursine</b><br /><table width=\"100%\"><tr><td>Wrist</td><th></th></tr></table>+24 Stamina<br />+19 Intellect<br />+16 Spirit<br />+32 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 18.</span><br /></td></tr></table>",
+      "icon": "inv_bracer_13.png",
+      "dropsFrom": [
+        {
+          "chance": 14.29,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Wrist"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 33327,
+      "name": "Mask of Introspection",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Mask of Introspection</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>+33 Stamina<br />+34 Intellect<br />+33 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 17.</span><br /></td></tr></table>",
+      "icon": "inv_mask_02.png",
+      "dropsFrom": [
+        {
+          "chance": 14.29,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Head"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 33640,
+      "name": "Fury",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Fury</b><br /><table width=\"100%\"><tr><td>Off Hand</td><th></th></tr></table>+21 Agility<br />+18 Stamina<br />+36 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves hit rating by 17.</span><br /><span class=\"q2\">Equip: $WowheadPower.registerSpell(256, 0, {});</span><br /></td></tr></table>",
+      "icon": "inv_weapon_hand_15.png",
+      "dropsFrom": [
+        {
+          "chance": 14.29,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Off Hand"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
       "id": 33214,
       "name": "Akil'zon's Talonblade",
       "classes": [
@@ -20,7 +582,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Akil'zon's Talonblade</b><br /><table width=\"100%\"><tr><td>One-Hand</td><th></th></tr></table>+20 Agility<br />+18 Stamina<br />+44 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves haste rating by 12.</span><br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Akil'zon's Talonblade</b><br /><table width=\"100%\"><tr><td>One-Hand</td><th></th></tr></table>+20 Agility<br />+18 Stamina<br />+44 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves haste rating by 12.</span><br /><span class=\"q2\">Equip: $WowheadPower.registerSpell(256, 0, {});</span><br /></td></tr></table>",
       "icon": "inv_sword_108.png",
       "dropsFrom": [
         {
@@ -52,7 +614,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Bloodstained Elven Battlevest</b><br /><table width=\"100%\"><tr><td>Chest</td><th></th></tr></table>+42 Strength<br />+30 Stamina<br />+14 Armor Penetration<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 15.</span><br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Bloodstained Elven Battlevest</b><br /><table width=\"100%\"><tr><td>Chest</td><th></th></tr></table>+42 Strength<br />+30 Stamina<br />+14 Armor Penetration<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 15.</span><br /><span class=\"q2\">Equip: $WowheadPower.registerSpell(256, 0, {});</span><br /></td></tr></table>",
       "icon": "inv_chest_plate_22.png",
       "dropsFrom": [
         {
@@ -116,7 +678,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Brooch of Nature's Mercy</b><br /><table width=\"100%\"><tr><td>Neck</td><th></th></tr></table>+22 Intellect<br />+24 Spirit<br />+34 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves haste rating by 14.</span><br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Brooch of Nature's Mercy</b><br /><table width=\"100%\"><tr><td>Neck</td><th></th></tr></table>+22 Intellect<br />+24 Spirit<br />+34 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves haste rating by 14.</span><br /><span class=\"q2\">Use: $WowheadPower.registerSpell(1024, 0, {});</span><br /></td></tr></table>",
       "icon": "inv_jewelry_necklace_ahnqiraj_03.png",
       "dropsFrom": [
         {
@@ -229,792 +791,6 @@
       ]
     },
     {
-      "id": 29434,
-      "name": "Badge of Justice",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Badge of Justice</b><br />Requires Level 60<br /></td></tr></table>",
-      "icon": "spell_holy_championsbond.png",
-      "dropsFrom": [
-        {
-          "chance": 100.0,
-          "bossId": 1,
-          "npcId": 1
-        },
-        {
-          "chance": 100.0,
-          "bossId": 3,
-          "npcId": 3
-        },
-        {
-          "chance": 100.0,
-          "bossId": 0,
-          "npcId": 0
-        },
-        {
-          "chance": 100.0,
-          "bossId": 2,
-          "npcId": 2
-        },
-        {
-          "chance": 100.0,
-          "bossId": 4,
-          "npcId": 4
-        },
-        {
-          "chance": 100.0,
-          "bossId": 5,
-          "npcId": 5
-        }
-      ],
-      "slots": [
-        "Non-equippable"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 33307,
-      "name": "Formula: Enchant Weapon - Executioner",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 3,
-      "tooltip": "<table><tr><td><b class=\"q3\">Formula: Enchant Weapon - Executioner</b><br /></td></tr></table>",
-      "icon": "inv_misc_note_01.png",
-      "dropsFrom": [
-        {
-          "chance": 5.0,
-          "bossId": 1,
-          "npcId": 1
-        },
-        {
-          "chance": 5.0,
-          "bossId": 3,
-          "npcId": 3
-        },
-        {
-          "chance": 5.0,
-          "bossId": 0,
-          "npcId": 0
-        },
-        {
-          "chance": 5.0,
-          "bossId": 2,
-          "npcId": 2
-        },
-        {
-          "chance": 5.0,
-          "bossId": 4,
-          "npcId": 4
-        },
-        {
-          "chance": 5.0,
-          "bossId": 5,
-          "npcId": 5
-        }
-      ],
-      "slots": [
-        "Non-equippable"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 33297,
-      "name": "The Savage's Choker",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">The Savage's Choker</b><br /><table width=\"100%\"><tr><td>Neck</td><th></th></tr></table>+19 Agility<br />+20 Stamina<br />+45 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves haste rating by 15.</span><br /></td></tr></table>",
-      "icon": "inv_jewelry_necklace_19.png",
-      "dropsFrom": [
-        {
-          "chance": 14.29,
-          "bossId": 3,
-          "npcId": 3
-        }
-      ],
-      "slots": [
-        "Neck"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 33299,
-      "name": "Spaulders of the Advocate",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Spaulders of the Advocate</b><br /><table width=\"100%\"><tr><td>Shoulder</td><th></th></tr></table>+26 Stamina<br />+29 Intellect<br />+28 Spell Power<br />+6 Mana Regen (MP5)<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 14.</span><br /></td></tr></table>",
-      "icon": "inv_shoulder_84.png",
-      "dropsFrom": [
-        {
-          "chance": 14.29,
-          "bossId": 3,
-          "npcId": 3
-        }
-      ],
-      "slots": [
-        "Shoulder"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 33300,
-      "name": "Shoulderpads of Dancing Blades",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Shoulderpads of Dancing Blades</b><br /><table width=\"100%\"><tr><td>Shoulder</td><th></th></tr></table>+27 Agility<br />+22 Stamina<br />+44 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves hit rating by 15.</span><br /></td></tr></table>",
-      "icon": "inv_shoulder_24.png",
-      "dropsFrom": [
-        {
-          "chance": 14.29,
-          "bossId": 3,
-          "npcId": 3
-        }
-      ],
-      "slots": [
-        "Shoulder"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 33303,
-      "name": "Skullshatter Warboots",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Skullshatter Warboots</b><br /><table width=\"100%\"><tr><td>Feet</td><th></th></tr></table>+24 Strength<br />+26 Stamina<br />+10 Armor Penetration<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 20.</span><br /></td></tr></table>",
-      "icon": "inv_boots_plate_10.png",
-      "dropsFrom": [
-        {
-          "chance": 14.29,
-          "bossId": 3,
-          "npcId": 3
-        }
-      ],
-      "slots": [
-        "Feet"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 33317,
-      "name": "Robe of Departed Spirits",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Robe of Departed Spirits</b><br /><table width=\"100%\"><tr><td>Robe</td><th></th></tr></table>+26 Stamina<br />+30 Intellect<br />+21 Spirit<br />+37 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves haste rating by 14.</span><br /></td></tr></table>",
-      "icon": "inv_chest_cloth_18.png",
-      "dropsFrom": [
-        {
-          "chance": 14.29,
-          "bossId": 3,
-          "npcId": 3
-        }
-      ],
-      "slots": [
-        "Robe"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 33322,
-      "name": "Shimmer-pelt Vest",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Shimmer-pelt Vest</b><br /><table width=\"100%\"><tr><td>Chest</td><th></th></tr></table>+21 Stamina<br />+33 Intellect<br />+24 Spirit<br />+37 Spell Power<br />+14 Mana Regen (MP5)<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves haste rating by 15.</span><br /></td></tr></table>",
-      "icon": "inv_chest_leather_01.png",
-      "dropsFrom": [
-        {
-          "chance": 14.29,
-          "bossId": 3,
-          "npcId": 3
-        }
-      ],
-      "slots": [
-        "Chest"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 33533,
-      "name": "Avalanche Leggings",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Avalanche Leggings</b><br /><table width=\"100%\"><tr><td>Legs</td><th></th></tr></table>+34 Stamina<br />+33 Intellect<br />+34 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 16.</span><br /></td></tr></table>",
-      "icon": "inv_pants_mail_26.png",
-      "dropsFrom": [
-        {
-          "chance": 14.29,
-          "bossId": 3,
-          "npcId": 3
-        }
-      ],
-      "slots": [
-        "Legs"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 33191,
-      "name": "Jungle Stompers",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Jungle Stompers</b><br /><table width=\"100%\"><tr><td>Feet</td><th></th></tr></table>+16 Strength<br />+34 Stamina<br />+32 Unknown Stat (48)<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your defense rating by 15.</span><br /><span class=\"q2\">Equip: Increases your shield block rating by 12.</span><br /></td></tr></table>",
-      "icon": "inv_boots_plate_10.png",
-      "dropsFrom": [
-        {
-          "chance": 14.29,
-          "bossId": 0,
-          "npcId": 0
-        }
-      ],
-      "slots": [
-        "Feet"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 33203,
-      "name": "Robes of Heavenly Purpose",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Robes of Heavenly Purpose</b><br /><table width=\"100%\"><tr><td>Robe</td><th></th></tr></table>+26 Stamina<br />+30 Intellect<br />+23 Spirit<br />+37 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 16.</span><br /></td></tr></table>",
-      "icon": "inv_chest_cloth_35.png",
-      "dropsFrom": [
-        {
-          "chance": 14.29,
-          "bossId": 0,
-          "npcId": 0
-        }
-      ],
-      "slots": [
-        "Robe"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 33206,
-      "name": "Pauldrons of Primal Fury",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Pauldrons of Primal Fury</b><br /><table width=\"100%\"><tr><td>Shoulder</td><th></th></tr></table>+22 Agility<br />+27 Stamina<br />+49 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves hit rating by 17.</span><br /></td></tr></table>",
-      "icon": "inv_shoulder_85.png",
-      "dropsFrom": [
-        {
-          "chance": 14.29,
-          "bossId": 0,
-          "npcId": 0
-        }
-      ],
-      "slots": [
-        "Shoulder"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 33211,
-      "name": "Bladeangel's Money Belt",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Bladeangel's Money Belt</b><br /><table width=\"100%\"><tr><td>Waist</td><th></th></tr></table>+17 Agility<br />+23 Stamina<br />+37 Attack Power<br />+13 Armor Penetration<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 15.</span><br /></td></tr></table>",
-      "icon": "inv_belt_14.png",
-      "dropsFrom": [
-        {
-          "chance": 14.29,
-          "bossId": 0,
-          "npcId": 0
-        }
-      ],
-      "slots": [
-        "Waist"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 33285,
-      "name": "Fury of the Ursine",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Fury of the Ursine</b><br /><table width=\"100%\"><tr><td>Wrist</td><th></th></tr></table>+24 Stamina<br />+19 Intellect<br />+16 Spirit<br />+32 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 18.</span><br /></td></tr></table>",
-      "icon": "inv_bracer_13.png",
-      "dropsFrom": [
-        {
-          "chance": 14.29,
-          "bossId": 0,
-          "npcId": 0
-        }
-      ],
-      "slots": [
-        "Wrist"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 33327,
-      "name": "Mask of Introspection",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Mask of Introspection</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>+33 Stamina<br />+34 Intellect<br />+33 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 17.</span><br /></td></tr></table>",
-      "icon": "inv_mask_02.png",
-      "dropsFrom": [
-        {
-          "chance": 14.29,
-          "bossId": 0,
-          "npcId": 0
-        }
-      ],
-      "slots": [
-        "Head"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 33640,
-      "name": "Fury",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Fury</b><br /><table width=\"100%\"><tr><td>Off Hand</td><th></th></tr></table>+21 Agility<br />+18 Stamina<br />+36 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves hit rating by 17.</span><br /></td></tr></table>",
-      "icon": "inv_weapon_hand_15.png",
-      "dropsFrom": [
-        {
-          "chance": 14.29,
-          "bossId": 0,
-          "npcId": 0
-        }
-      ],
-      "slots": [
-        "Off Hand"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 33326,
-      "name": "Bulwark of the Amani Empire",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Bulwark of the Amani Empire</b><br /><table width=\"100%\"><tr><td>Shield</td><th></th></tr></table>+15 Strength<br />+36 Stamina<br />+45 Unknown Stat (48)<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your shield block rating by 18.</span><br /></td></tr></table>",
-      "icon": "inv_shield_42.png",
-      "dropsFrom": [
-        {
-          "chance": 14.29,
-          "bossId": 2,
-          "npcId": 2
-        }
-      ],
-      "slots": [
-        "Shield"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 33328,
-      "name": "Arrow-fall Chestguard",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Arrow-fall Chestguard</b><br /><table width=\"100%\"><tr><td>Chest</td><th></th></tr></table>+27 Agility<br />+28 Stamina<br />+22 Intellect<br />+52 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves haste rating by 14.</span><br /></td></tr></table>",
-      "icon": "inv_chest_chain_13.png",
-      "dropsFrom": [
-        {
-          "chance": 14.29,
-          "bossId": 2,
-          "npcId": 2
-        }
-      ],
-      "slots": [
-        "Chest"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 33329,
-      "name": "Shadowtooth Trollskin Cuirass",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Shadowtooth Trollskin Cuirass</b><br /><table width=\"100%\"><tr><td>Chest</td><th></th></tr></table>+28 Agility<br />+25 Stamina<br />+57 Attack Power<br />+14 Armor Penetration<br />Requires Level 60<br /></td></tr></table>",
-      "icon": "inv_chest_leather_06.png",
-      "dropsFrom": [
-        {
-          "chance": 14.29,
-          "bossId": 2,
-          "npcId": 2
-        }
-      ],
-      "slots": [
-        "Chest"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 33332,
-      "name": "Enamelled Disc of Mojo",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Enamelled Disc of Mojo</b><br /><table width=\"100%\"><tr><td>Shield</td><th></th></tr></table>+18 Stamina<br />+19 Intellect<br />+26 Spell Power<br />+7 Mana Regen (MP5)<br />Requires Level 60<br /></td></tr></table>",
-      "icon": "inv_shield_43.png",
-      "dropsFrom": [
-        {
-          "chance": 14.29,
-          "bossId": 2,
-          "npcId": 2
-        }
-      ],
-      "slots": [
-        "Shield"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 33354,
-      "name": "Wub's Cursed Hexblade",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Wub's Cursed Hexblade</b><br /><table width=\"100%\"><tr><td>Main Hand</td><th></th></tr></table>+23 Stamina<br />+21 Intellect<br />+134 Spell Power<br />+13 Mana Regen (MP5)<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves hit rating by 16.</span><br /><span class=\"q2\">Equip: Improves your crit rating by 11.</span><br /></td></tr></table>",
-      "icon": "inv_weapon_shortblade_64.png",
-      "dropsFrom": [
-        {
-          "chance": 14.29,
-          "bossId": 2,
-          "npcId": 2
-        }
-      ],
-      "slots": [
-        "Main Hand"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 33356,
-      "name": "Helm of Natural Regeneration",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Helm of Natural Regeneration</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>+26 Stamina<br />+28 Intellect<br />+21 Spirit<br />+35 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 16.</span><br /></td></tr></table>",
-      "icon": "inv_helmet_112.png",
-      "dropsFrom": [
-        {
-          "chance": 14.29,
-          "bossId": 2,
-          "npcId": 2
-        }
-      ],
-      "slots": [
-        "Head"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 33357,
-      "name": "Footpads of Madness",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Footpads of Madness</b><br /><table width=\"100%\"><tr><td>Feet</td><th></th></tr></table>+19 Stamina<br />+22 Intellect<br />+29 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves haste rating by 12.</span><br /></td></tr></table>",
-      "icon": "inv_boots_05.png",
-      "dropsFrom": [
-        {
-          "chance": 14.29,
-          "bossId": 2,
-          "npcId": 2
-        }
-      ],
-      "slots": [
-        "Feet"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
       "id": 33298,
       "name": "Prowler's Strikeblade",
       "classes": [
@@ -1062,7 +838,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Heartless</b><br /><table width=\"100%\"><tr><td>One-Hand</td><th></th></tr></table>+21 Agility<br />+20 Stamina<br />+47 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves haste rating by 15.</span><br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Heartless</b><br /><table width=\"100%\"><tr><td>One-Hand</td><th></th></tr></table>+21 Agility<br />+20 Stamina<br />+47 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves haste rating by 15.</span><br /><span class=\"q2\">Equip: $WowheadPower.registerSpell(256, 0, {});</span><br /></td></tr></table>",
       "icon": "inv_sword_107.png",
       "dropsFrom": [
         {
@@ -1094,7 +870,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Dagger of Bad Mojo</b><br /><table width=\"100%\"><tr><td>One-Hand</td><th></th></tr></table>+19 Agility<br />+20 Stamina<br />+44 Attack Power<br />+13 Armor Penetration<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Dagger of Bad Mojo</b><br /><table width=\"100%\"><tr><td>One-Hand</td><th></th></tr></table>+19 Agility<br />+20 Stamina<br />+44 Attack Power<br />+13 Armor Penetration<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: $WowheadPower.registerSpell(256, 0, {});</span><br /></td></tr></table>",
       "icon": "inv_weapon_shortblade_60.png",
       "dropsFrom": [
         {
@@ -1254,7 +1030,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Hood of the Third Eye</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>+26 Stamina<br />+31 Intellect<br />+33 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 15.</span><br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Hood of the Third Eye</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>+26 Stamina<br />+31 Intellect<br />+33 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 15.</span><br /><span class=\"q2\">Use: $WowheadPower.registerSpell(1792, 0, {});</span><br /></td></tr></table>",
       "icon": "inv_helmet_116.png",
       "dropsFrom": [
         {
@@ -1318,7 +1094,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Staff of Primal Fury</b><br /><table width=\"100%\"><tr><td>Two-Hand</td><th></th></tr></table>+35 Agility<br />+44 Stamina<br />+20 Armor Penetration<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 23.</span><br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Staff of Primal Fury</b><br /><table width=\"100%\"><tr><td>Two-Hand</td><th></th></tr></table>+35 Agility<br />+44 Stamina<br />+20 Armor Penetration<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 23.</span><br /><span class=\"q2\">Use: $WowheadPower.registerSpell(512, 0, {</span><br /></td></tr></table>",
       "icon": "inv_staff_12.png",
       "dropsFrom": [
         {
@@ -1350,7 +1126,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Cloak of Ancient Rituals</b><br /><table width=\"100%\"><tr><td>Back</td><th></th></tr></table>+18 Stamina<br />+23 Intellect<br />+30 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves haste rating by 13.</span><br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Cloak of Ancient Rituals</b><br /><table width=\"100%\"><tr><td>Back</td><th></th></tr></table>+18 Stamina<br />+23 Intellect<br />+30 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves haste rating by 13.</span><br /><span class=\"q2\">Use: $WowheadPower.registerSpell(1792, 0, {});</span><br /></td></tr></table>",
       "icon": "inv_misc_cape_16.png",
       "dropsFrom": [
         {
@@ -1382,7 +1158,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Tome of Diabolic Remedy</b><br /><table width=\"100%\"><tr><td>Trinket</td><th></th></tr></table>+27 Intellect<br />+27 Spell Power<br />+7 Mana Regen (MP5)<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves haste rating by 11.</span><br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Tome of Diabolic Remedy</b><br /><table width=\"100%\"><tr><td>Trinket</td><th></th></tr></table>+27 Intellect<br />+27 Spell Power<br />+7 Mana Regen (MP5)<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves haste rating by 11.</span><br /><span class=\"q2\">Use: $WowheadPower.registerSpell(1024, 0, {});</span><br /></td></tr></table>",
       "icon": "inv_offhand_stratholme_a_01.png",
       "dropsFrom": [
         {
@@ -1414,7 +1190,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Hex Shrunken Head</b><br /><table width=\"100%\"><tr><td>Trinket</td><th></th></tr></table>+30 Spell Power<br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Hex Shrunken Head</b><br /><table width=\"100%\"><tr><td>Trinket</td><th></th></tr></table>+30 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: $WowheadPower.registerSpell(1024, 0, {});</span><br /></td></tr></table>",
       "icon": "inv_misc_head_troll_01.png",
       "dropsFrom": [
         {
@@ -1463,6 +1239,230 @@
       ]
     },
     {
+      "id": 33297,
+      "name": "The Savage's Choker",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">The Savage's Choker</b><br /><table width=\"100%\"><tr><td>Neck</td><th></th></tr></table>+19 Agility<br />+20 Stamina<br />+45 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves haste rating by 15.</span><br /><span class=\"q2\">Use: $WowheadPower.registerSpell(768, 0, {</span><br /></td></tr></table>",
+      "icon": "inv_jewelry_necklace_19.png",
+      "dropsFrom": [
+        {
+          "chance": 14.29,
+          "bossId": 3,
+          "npcId": 3
+        }
+      ],
+      "slots": [
+        "Neck"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 33299,
+      "name": "Spaulders of the Advocate",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Spaulders of the Advocate</b><br /><table width=\"100%\"><tr><td>Shoulder</td><th></th></tr></table>+26 Stamina<br />+29 Intellect<br />+28 Spell Power<br />+6 Mana Regen (MP5)<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 14.</span><br /></td></tr></table>",
+      "icon": "inv_shoulder_84.png",
+      "dropsFrom": [
+        {
+          "chance": 14.29,
+          "bossId": 3,
+          "npcId": 3
+        }
+      ],
+      "slots": [
+        "Shoulder"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 33300,
+      "name": "Shoulderpads of Dancing Blades",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Shoulderpads of Dancing Blades</b><br /><table width=\"100%\"><tr><td>Shoulder</td><th></th></tr></table>+27 Agility<br />+22 Stamina<br />+44 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves hit rating by 15.</span><br /><span class=\"q2\">Use: $WowheadPower.registerSpell(2048, 0, {</span><br /></td></tr></table>",
+      "icon": "inv_shoulder_24.png",
+      "dropsFrom": [
+        {
+          "chance": 14.29,
+          "bossId": 3,
+          "npcId": 3
+        }
+      ],
+      "slots": [
+        "Shoulder"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 33303,
+      "name": "Skullshatter Warboots",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Skullshatter Warboots</b><br /><table width=\"100%\"><tr><td>Feet</td><th></th></tr></table>+24 Strength<br />+26 Stamina<br />+10 Armor Penetration<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 20.</span><br /><span class=\"q2\">Equip: $WowheadPower.registerSpell(256, 0, {});</span><br /></td></tr></table>",
+      "icon": "inv_boots_plate_10.png",
+      "dropsFrom": [
+        {
+          "chance": 14.29,
+          "bossId": 3,
+          "npcId": 3
+        }
+      ],
+      "slots": [
+        "Feet"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 33317,
+      "name": "Robe of Departed Spirits",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Robe of Departed Spirits</b><br /><table width=\"100%\"><tr><td>Robe</td><th></th></tr></table>+26 Stamina<br />+30 Intellect<br />+21 Spirit<br />+37 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves haste rating by 14.</span><br /></td></tr></table>",
+      "icon": "inv_chest_cloth_18.png",
+      "dropsFrom": [
+        {
+          "chance": 14.29,
+          "bossId": 3,
+          "npcId": 3
+        }
+      ],
+      "slots": [
+        "Robe"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 33322,
+      "name": "Shimmer-pelt Vest",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Shimmer-pelt Vest</b><br /><table width=\"100%\"><tr><td>Chest</td><th></th></tr></table>+21 Stamina<br />+33 Intellect<br />+24 Spirit<br />+37 Spell Power<br />+14 Mana Regen (MP5)<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves haste rating by 15.</span><br /></td></tr></table>",
+      "icon": "inv_chest_leather_01.png",
+      "dropsFrom": [
+        {
+          "chance": 14.29,
+          "bossId": 3,
+          "npcId": 3
+        }
+      ],
+      "slots": [
+        "Chest"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 33533,
+      "name": "Avalanche Leggings",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Avalanche Leggings</b><br /><table width=\"100%\"><tr><td>Legs</td><th></th></tr></table>+34 Stamina<br />+33 Intellect<br />+34 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves your crit rating by 16.</span><br /><span class=\"q2\">Use: $WowheadPower.registerSpell(1280, 0, {});</span><br /></td></tr></table>",
+      "icon": "inv_pants_mail_26.png",
+      "dropsFrom": [
+        {
+          "chance": 14.29,
+          "bossId": 3,
+          "npcId": 3
+        }
+      ],
+      "slots": [
+        "Legs"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
       "id": 33102,
       "name": "Blood of Zul'jin",
       "classes": [
@@ -1478,7 +1478,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Blood of Zul'jin</b><br />Requires Level 60<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Blood of Zul'jin</b><br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: $WowheadPower.registerSpell(543713141, 0, {});</span><br /><span class=\"q2\">Equip: $WowheadPower.registerSpell(1851876128, 0, {});</span><br /><span class=\"q2\">Equip: $WowheadPower.registerSpell(1869573218, 0, {});</span><br /></td></tr></table>",
       "icon": "inv_potion_20.png",
       "dropsFrom": [
         {
@@ -1510,7 +1510,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Loop of Cursed Bones</b><br /><table width=\"100%\"><tr><td>Neck</td><th></th></tr></table>+22 Stamina<br />+19 Intellect<br />+32 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves haste rating by 13.</span><br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Loop of Cursed Bones</b><br /><table width=\"100%\"><tr><td>Neck</td><th></th></tr></table>+22 Stamina<br />+19 Intellect<br />+32 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves haste rating by 13.</span><br /><span class=\"q2\">Use: $WowheadPower.registerSpell(768, 0, {</span><br /></td></tr></table>",
       "icon": "inv_jewelry_necklace_04.png",
       "dropsFrom": [
         {
@@ -1574,7 +1574,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Dark Blessing</b><br /><table width=\"100%\"><tr><td>Main Hand</td><th></th></tr></table>+18 Stamina<br />+24 Intellect<br />+134 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves haste rating by 17.</span><br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Dark Blessing</b><br /><table width=\"100%\"><tr><td>Main Hand</td><th></th></tr></table>+18 Stamina<br />+24 Intellect<br />+134 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves haste rating by 17.</span><br /><span class=\"q2\">Equip: $WowheadPower.registerSpell(256, 0, {});</span><br /></td></tr></table>",
       "icon": "inv_staff_64.png",
       "dropsFrom": [
         {
@@ -1606,7 +1606,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Hauberk of the Empire's Champion</b><br /><table width=\"100%\"><tr><td>Chest</td><th></th></tr></table>+26 Stamina<br />+36 Intellect<br />+39 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves haste rating by 18.</span><br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Hauberk of the Empire's Champion</b><br /><table width=\"100%\"><tr><td>Chest</td><th></th></tr></table>+26 Stamina<br />+36 Intellect<br />+39 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves haste rating by 18.</span><br /><span class=\"q2\">Use: $WowheadPower.registerSpell(1280, 0, {});</span><br /></td></tr></table>",
       "icon": "inv_chest_mail_05.png",
       "dropsFrom": [
         {
@@ -1638,7 +1638,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Two-toed Sandals</b><br /><table width=\"100%\"><tr><td>Feet</td><th></th></tr></table>+20 Stamina<br />+21 Intellect<br />+30 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves haste rating by 13.</span><br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Two-toed Sandals</b><br /><table width=\"100%\"><tr><td>Feet</td><th></th></tr></table>+20 Stamina<br />+21 Intellect<br />+30 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves haste rating by 13.</span><br /><span class=\"q2\">Equip: $WowheadPower.registerSpell(1919903264, 0, {});</span><br /></td></tr></table>",
       "icon": "inv_boots_fabric_01.png",
       "dropsFrom": [
         {
@@ -1734,7 +1734,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Cleaver of the Unforgiving</b><br /><table width=\"100%\"><tr><td>One-Hand</td><th></th></tr></table>+16 Strength<br />+25 Stamina<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your parry rating by 15.</span><br /><span class=\"q2\">Equip: Improves hit rating by 13.</span><br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Cleaver of the Unforgiving</b><br /><table width=\"100%\"><tr><td>One-Hand</td><th></th></tr></table>+16 Strength<br />+25 Stamina<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your parry rating by 15.</span><br /><span class=\"q2\">Equip: Improves hit rating by 13.</span><br /><span class=\"q2\">Equip: $WowheadPower.registerSpell(256, 0, {});</span><br /></td></tr></table>",
       "icon": "inv_axe_84.png",
       "dropsFrom": [
         {
@@ -1766,7 +1766,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Jin'rohk, The Great Apocalypse</b><br /><table width=\"100%\"><tr><td>Two-Hand</td><th></th></tr></table>+35 Strength<br />+29 Stamina<br />+80 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves haste rating by 24.</span><br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Jin'rohk, The Great Apocalypse</b><br /><table width=\"100%\"><tr><td>Two-Hand</td><th></th></tr></table>+35 Strength<br />+29 Stamina<br />+80 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves haste rating by 24.</span><br /><span class=\"q2\">Equip: $WowheadPower.registerSpell(256, 0, {});</span><br /></td></tr></table>",
       "icon": "inv_sword_108.png",
       "dropsFrom": [
         {
@@ -1798,7 +1798,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Grimgrin Faceguard</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>+29 Agility<br />+24 Stamina<br />+54 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves hit rating by 19.</span><br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Grimgrin Faceguard</b><br /><table width=\"100%\"><tr><td>Head</td><th></th></tr></table>+29 Agility<br />+24 Stamina<br />+54 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves hit rating by 19.</span><br /><span class=\"q2\">Use: $WowheadPower.registerSpell(2048, 0, {</span><br /></td></tr></table>",
       "icon": "inv_helmet_116.png",
       "dropsFrom": [
         {

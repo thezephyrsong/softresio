@@ -10,7 +10,9 @@ from lua_loot_parser import parse_lua_loot_file, merge_tables
 from atlasloot_boss_map import get_boss_atlasloot_keys
 
 LUA_LOOT_TABLES = {}  # populated by load_lua_loot_tables() if the file is found
-ITEM_NAME_CACHE = {}  # item_id -> name fetched from wotlkdb.com (or None if not found)
+ITEM_NAME_CACHE = {}  # item_id -> name fetched from wotlkdb.com
+SPELL_CACHE_FILE = "spell_cache.json"
+SPELL_CACHE = {}      # str(spell_id) -> description text
 
 ALL_CLASSES = [
     "Death Knight", "Druid", "Hunter", "Mage", "Paladin",
@@ -33,11 +35,6 @@ SLOT_MAP = {
     "shield": "Shield", "relic": "Relic"
 }
 
-# For the new items.json schema, where a class restriction is a bitmask
-# (allowable_classes) instead of a "Classes: X, Y, Z" tooltip line. These are
-# the standard WotLK per-class bits; unrestricted items use -1 or a
-# generic "all bits" sentinel like 262143, both of which naturally decode to
-# every class below without needing special-casing.
 CLASS_BITMASK = {
     1: "Warrior",
     2: "Paladin",
@@ -52,17 +49,90 @@ CLASS_BITMASK = {
 }
 
 
+def load_spell_cache():
+    global SPELL_CACHE
+    if os.path.exists(SPELL_CACHE_FILE):
+        try:
+            with open(SPELL_CACHE_FILE, "r", encoding="utf-8") as f:
+                SPELL_CACHE = json.load(f)
+        except Exception:
+            SPELL_CACHE = {}
+
+
+def save_spell_cache():
+    try:
+        with open(SPELL_CACHE_FILE, "w", encoding="utf-8") as f:
+            json.dump(SPELL_CACHE, f, indent=2)
+    except Exception:
+        pass
+
+
+def fetch_spell_text(spell_id, trigger=1):
+    """Fetches human-readable spell description from wotlkdb.com using spell_id."""
+    spell_id = int(spell_id)
+    str_id = str(spell_id)
+
+    if str_id in SPELL_CACHE:
+        return SPELL_CACHE[str_id]
+
+    trigger_prefixes = {
+        0: "Use: ",
+        1: "Equip: ",
+        2: "Chance on hit: ",
+        6: "Equip: ",
+    }
+    default_prefix = trigger_prefixes.get(trigger, "Equip: ")
+
+    spell_text = None
+    try:
+        url = f"https://wotlkdb.com/?spell={spell_id}&power"
+        res = requests.get(url, headers=HTTP_HEADERS, timeout=5)
+        if res.status_code == 200:
+            try:
+                data = res.json()
+                html = data.get("tooltip", "")
+            except Exception:
+                html = res.text
+
+            if html:
+                # Remove title tags and clean breaks
+                html_no_title = re.sub(r'<b class="q\d?">.*?</b>', '', html, flags=re.DOTALL)
+                clean = re.sub(r'<br\s*/?>|</tr>|</td>', '\n', html_no_title)
+                clean = re.sub(r'<[^>]+>', '', clean)
+                clean = clean.replace('&nbsp;', ' ').replace('&quot;', '"').replace('&amp;', '&')
+
+                lines = [line.strip() for line in clean.split('\n') if line.strip()]
+
+                for line in lines:
+                    if any(line.startswith(p) for p in ["Use:", "Equip:", "Chance on hit:"]):
+                        spell_text = line
+                        break
+                    elif len(line) > 5 and not any(k in line.lower() for k in ["cooldown", "range", "cast time", "mana", "rage", "energy"]):
+                        spell_text = f"{default_prefix}{line}"
+                        break
+    except Exception:
+        pass
+
+    if not spell_text:
+        spell_text = f"{default_prefix}Spell #{spell_id}"
+
+    SPELL_CACHE[str_id] = spell_text
+    return spell_text
+
+
 def get_classes_from_bitmask(mask):
     if mask is None:
         return ALL_CLASSES
     result = [name for bit, name in CLASS_BITMASK.items() if mask & bit]
     return result if result else ALL_CLASSES
 
+
 ITEMS_DB = {}
 HTTP_HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
 }
+
 
 def load_items_db():
     global ITEMS_DB
@@ -82,11 +152,8 @@ def load_items_db():
         print(f"Error: {items_file} not found! Place your in-game scraped items.json in this directory.\n")
         sys.exit(1)
 
+
 def load_lua_loot_tables():
-    """Loads wrathofthelichking.lua (AtlasLoot data) if present alongside the
-    script. This gives us real per-difficulty (10/25) drop tables with actual
-    percentages, instead of relying on wotlkdb.com scrapes that don't
-    distinguish raid size."""
     global LUA_LOOT_TABLES
     lua_file = "wrathofthelichking.lua"
     if os.path.exists(lua_file):
@@ -103,9 +170,6 @@ def load_lua_loot_tables():
 
 
 def get_lua_loot_for_boss(instance_shortname, boss_name):
-    """Returns a list of {item_id, percent} dicts for this boss/difficulty
-    from the AtlasLoot lua data, or None if not mapped (caller should fall
-    back to scraping wotlkdb.com for this boss)."""
     if not LUA_LOOT_TABLES:
         return None
     instance_prefix = re.sub(r'(10|25)$', '', instance_shortname)
@@ -161,6 +225,7 @@ def extract_drops_from_html(text):
                 
     return drops
 
+
 def collect_drops_npc(items):
     result = {}
     for item in items:
@@ -177,6 +242,7 @@ def collect_drops_npc(items):
         })
     return list(result.values())
 
+
 def get_classes_from_tooltip(tooltip):
     tooltip_str = "\n".join(tooltip) if isinstance(tooltip, list) else str(tooltip)
     match = re.search(r"Classes:\s*([^\n\r<]+)", tooltip_str, re.IGNORECASE)
@@ -186,19 +252,15 @@ def get_classes_from_tooltip(tooltip):
         return found if found else ALL_CLASSES
     return ALL_CLASSES
 
+
 def format_icon(icon_name):
     if not icon_name or icon_name == "inv_misc_questionmark":
         return "inv_misc_questionmark.png"
     clean_icon = icon_name.lower().strip()
     return clean_icon + ".png" if not clean_icon.endswith(".png") else clean_icon
 
+
 def fetch_item_name_from_wotlkdb(item_id):
-    """For items that don't exist in the local items.json (e.g. custom
-    Triumvirate-only items), grab just the display name from wotlkdb.com's
-    item page. Stats/tooltip still come from the local in-game scrape (or
-    the generic placeholder if we don't have them) since a custom server's
-    item stats can differ from the stock wotlkdb.com values - only the name
-    is usually safe to borrow."""
     if item_id in ITEM_NAME_CACHE:
         return ITEM_NAME_CACHE[item_id]
 
@@ -212,7 +274,6 @@ def fetch_item_name_from_wotlkdb(item_id):
         if res.status_code == 200 and "Just a moment..." not in res.text:
             title_m = re.search(r"<title>(.*?)</title>", res.text, re.DOTALL)
             if title_m:
-                # Titles look like "Item Name - Item - Wrath of the Lich King"
                 candidate = title_m.group(1).split(" - ")[0].strip()
                 if candidate and candidate.lower() != "wotlk database 3.3.5a":
                     name = candidate
@@ -233,14 +294,6 @@ def _html_escape(s):
 
 
 def build_tooltip_html(name, quality, tooltip_lines, slot_label=""):
-    """Reconstructs a wotlkdb/wowhead-style HTML tooltip string from the
-    plain-text tooltip lines captured by the in-game addon scrape.
-
-    Caveat: items.json only has plain proc text (no spell IDs), so "Equip:"
-    lines are rendered as colored text without the <a href="?spell=..."> link
-    real wotlkdb tooltips have. Everything else (name/quality color, the
-    slot+type row, stat lines) is reconstructed from the scraped data.
-    """
     lines = list(tooltip_lines)
     if lines and lines[0] == name:
         lines = lines[1:]
@@ -251,9 +304,6 @@ def build_tooltip_html(name, quality, tooltip_lines, slot_label=""):
     ]
     base_lines = [l for l in lines if l not in equip_lines]
 
-    # Find the line that starts with the item's known slot name (e.g.
-    # "Hands    Leather" or just "Finger" for slots with no subclass) so we
-    # can turn it into the two-column slot/type row, same as real tooltips.
     slot_line_idx = None
     if slot_label:
         for i, line in enumerate(base_lines):
@@ -295,9 +345,6 @@ RATING_STAT_PHRASES = {
     "resilience rating": "Improves your resilience rating by {value}.",
 }
 
-# In-game tooltips always show these in the same order regardless of how
-# the source data lists them; anything not in this list keeps whatever
-# relative order it was given in, appended after these.
 STAT_DISPLAY_ORDER = [
     "strength", "agility", "stamina", "intellect", "spirit",
     "arcane resistance", "fire resistance", "frost resistance",
@@ -313,24 +360,7 @@ def _stat_sort_key(stat_name_value, base_index):
     return (1, base_index)
 
 
-def build_tooltip_html_from_stats(name, quality, slot, item_level, required_level, stats):
-    """Builds a tooltip HTML string for the new items.json schema, which has
-    no raw tooltip text at all - just structured item_level/slot/stats
-    fields. Note: unlike build_tooltip_html, this schema has no
-    binding/unique/socket data, so those parts of a real tooltip simply
-    aren't reconstructable from what's available.
-
-    Matches in-game conventions where possible:
-    - Item Level isn't shown in the base tooltip body, so it's omitted here
-      too (only used upstream for things like get_classes_from_bitmask etc.)
-    - Armor is shown as a bare "N Armor" line (no +) right after the slot row
-    - Any stat whose name ends in "Rating" (hit/crit/haste/expertise/dodge/
-      parry/block/defense/armor pen/resilience) is a secondary combat stat
-      that real tooltips phrase as a green "Equip: Improves/increases..."
-      line instead of a plain "+N StatName" line - everything else (primary
-      attributes, resistances, spell power, attack power, mp5/hp5, etc.)
-      stays a plain stat line.
-    """
+def build_tooltip_html_from_stats(name, quality, slot, item_level, required_level, stats, spells=None):
     armor_value = None
     rating_stats = []
     plain_stats = []
@@ -352,6 +382,17 @@ def build_tooltip_html_from_stats(name, quality, slot, item_level, required_leve
         )
     ]
 
+    # Process spell effects
+    spell_lines = []
+    if spells and isinstance(spells, list):
+        for sp in spells:
+            if isinstance(sp, dict) and sp.get("spell_id"):
+                s_id = sp["spell_id"]
+                trig = sp.get("trigger", 1)
+                txt = fetch_spell_text(s_id, trig)
+                if txt:
+                    spell_lines.append(txt)
+
     parts = [f'<table><tr><td><b class="q{quality}">{_html_escape(name)}</b><br />']
 
     if slot and slot != "Non-equippable":
@@ -371,7 +412,7 @@ def build_tooltip_html_from_stats(name, quality, slot, item_level, required_leve
 
     parts.append('</td></tr></table>')
 
-    if rating_stats:
+    if rating_stats or spell_lines:
         parts.append('<table><tr><td>')
         for stat_name, value in rating_stats:
             phrase = RATING_STAT_PHRASES.get(stat_name.strip().lower())
@@ -379,6 +420,10 @@ def build_tooltip_html_from_stats(name, quality, slot, item_level, required_leve
                 phrase = "Improves your " + stat_name.lower() + " by {value}."
             parts.append(
                 f'<span class="q2">Equip: {phrase.format(value=value)}</span><br />'
+            )
+        for s_line in spell_lines:
+            parts.append(
+                f'<span class="q2">{_html_escape(s_line)}</span><br />'
             )
         parts.append('</td></tr></table>')
 
@@ -393,25 +438,29 @@ def get_item_info_local_only(item_id, icon_hint="inv_misc_questionmark"):
         item = ITEMS_DB[item_id]
         item_name = item.get("name", f"Item #{item_id}")
 
-        if isinstance(item.get("quality"), dict):
-            # New schema: quality is {id, name}, slot is already a display
-            # label (not a snake_case key), allowable_classes is a bitmask,
-            # and there's no raw tooltip text at all - just item_level /
-            # required_level / stats.
-            quality = item["quality"].get("id", 4)
-            slot_label = item.get("slot") or "Unknown"
+        if isinstance(item.get("quality"), dict) or isinstance(item.get("slot"), dict):
+            quality = item["quality"].get("id", 4) if isinstance(item.get("quality"), dict) else item.get("quality", 4)
+            
+            raw_slot = item.get("slot")
+            if isinstance(raw_slot, dict):
+                slot_label = raw_slot.get("name") or "Unknown"
+            elif isinstance(raw_slot, str):
+                slot_label = raw_slot
+            else:
+                slot_label = "Unknown"
+
             slots = [slot_label]
-            types = ["Unknown"]  # this schema has no subclass info at all
+            types = ["Unknown"]
             classes = get_classes_from_bitmask(item.get("allowable_classes"))
+            spells = item.get("spells", [])
+
             tooltip_html = build_tooltip_html_from_stats(
                 item_name, quality, slot_label,
                 item.get("item_level", 0), item.get("required_level", 1),
                 item.get("stats", []),
+                spells=spells,
             )
         else:
-            # Old schema: quality is an int/string, slot is a snake_case
-            # key, subclass exists, and there's a raw plain-text tooltip
-            # array captured from the in-game addon.
             raw_q = item.get("quality", 4)
             quality = QUALITY_MAP.get(raw_q, raw_q) if isinstance(raw_q, str) else raw_q
 
@@ -451,6 +500,7 @@ def get_item_info_local_only(item_id, icon_hint="inv_misc_questionmark"):
             "is_missing": True
         }
 
+
 def fetch_npc_loot(npc_task):
     boss_id, boss_name, npc_id, npc_name, npc_link = npc_task
     try:
@@ -461,6 +511,7 @@ def fetch_npc_loot(npc_task):
     except Exception:
         pass
     return boss_id, npc_id, []
+
 
 def add_item_drop(instance_items_map, missing_items, item_id, chance, boss_id, npc_id, icon_hint="inv_misc_questionmark"):
     item_meta = get_item_info_local_only(item_id, icon_hint)
@@ -542,9 +593,11 @@ def extract_loot_instance(instance):
 
     return list(instance_items_map.values()), bosses, npcs
 
+
 def main():
     load_items_db()
     load_lua_loot_tables()
+    load_spell_cache()
 
     config_file = None
     for candidate in ["instances_wotlk.json", "instances-wotlk.json", "instances.json"]:
@@ -583,6 +636,9 @@ def main():
         out_filename = os.path.join(output_dir, f"{instance['shortname']}.json")
         with open(out_filename, "w", encoding="utf-8") as f:
             json.dump(out_data, f, indent=2)
+
+    save_spell_cache()
+
 
 if __name__ == "__main__":
     main()
