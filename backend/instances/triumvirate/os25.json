@@ -578,7 +578,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Gloves of the Umbral Conqueror</b><br />Binds when picked up<br />Classes: Paladin, Priest, Warlock<br />Requires Level 60<br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.jpg",
+      "icon": "inv_gauntlets_27.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -618,7 +618,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Gloves of the Umbral Protector</b><br />Binds when picked up<br />Classes: Warrior, Hunter, Shaman<br />Requires Level 60<br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.jpg",
+      "icon": "inv_gauntlets_27.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -659,7 +659,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Gloves of the Umbral Vanquisher</b><br />Binds when picked up<br />Classes: Rogue, Death Knight, Mage, Druid<br />Requires Level 60<br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.jpg",
+      "icon": "inv_gauntlets_27.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
