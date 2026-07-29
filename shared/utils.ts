@@ -1,4 +1,4 @@
-import type { SrPlus } from "../shared/types.ts"
+import type { Instance, SrPlus } from "../shared/types.ts"
 
 type RemoveOneType = <T>(filter: (e: T) => boolean, list: T[]) => T[]
 
@@ -78,4 +78,30 @@ export const sumSrPlus = (srPluses: SrPlus[]) => {
 export const formatCharacterName = (characterName: string) => {
   const cleaned = characterName.toLowerCase().replace(/[^a-zA-Z]/g, "")
   return cleaned.charAt(0).toUpperCase() + cleaned.slice(1)
+}
+
+// Generic "this boss wasn't attempted this raid" filter. Used for any
+// instance where a raid lead needs to scope the SR/HR item pool down to
+// only the bosses they're actually planning to kill - e.g. Obsidian
+// Sanctum's Sartharion drake-tier variants, or Zul'Aman's timed-event
+// chests. Removes the excluded bosses, any NPCs belonging to them, and
+// trims dropsFrom entries for those bosses off every item (dropping the
+// item entirely if that leaves it with no valid drop source left).
+export const filterInstanceBosses = (
+  instance: Instance,
+  excludedBossIds: number[],
+): Instance => {
+  if (!excludedBossIds || excludedBossIds.length === 0) return instance
+  const excluded = new Set(excludedBossIds)
+  return {
+    ...instance,
+    bosses: instance.bosses.filter((boss) => !excluded.has(boss.id)),
+    npcs: instance.npcs.filter((npc) => !excluded.has(npc.bossId)),
+    items: instance.items
+      .map((item) => ({
+        ...item,
+        dropsFrom: item.dropsFrom.filter((df) => !excluded.has(df.bossId)),
+      }))
+      .filter((item) => item.dropsFrom.length > 0),
+  }
 }

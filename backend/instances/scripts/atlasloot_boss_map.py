@@ -34,7 +34,13 @@ BOSS_MAPS = {
         "Kel'Thuzad": ("Naxx80KelThuzad", "Naxx80KelThuzad25Man"),
     },
     "os": {
+        # All four variants pull from the same underlying AtlasLoot table -
+        # see BOSS_MAX_SECTION below for how each one is cut down to the
+        # correct cumulative set of drake bonus-loot tiers.
         "Sartharion": ("Sartharion", "Sartharion25Man"),
+        "Sartharion (1 Drake Left)": ("Sartharion", "Sartharion25Man"),
+        "Sartharion (2 Drakes Left)": ("Sartharion", "Sartharion25Man"),
+        "Sartharion (3 Drakes Left)": ("Sartharion", "Sartharion25Man"),
     },
     "eoe": {
         "Malygos": ("Malygos", "Malygos25Man"),
@@ -96,6 +102,18 @@ BOSS_MAPS = {
     "rs": {
         "Halion": ("Halion", "Halion25Man"),
     },
+    # World Bosses have no 10/25-man split, so the same key is used for both
+    # sides of the tuple - get_boss_atlasloot_keys() will only ever request
+    # the "keys_10" side anyway, since the "wb" shortname never ends in "25".
+    "wb": {
+        "Azuregos": ("WorldBossesClassic", "WorldBossesClassic"),
+        "Emeriss": ("DEmeriss", "DEmeriss"),
+        "Lethon": ("DLethon", "DLethon"),
+        "Taerar": ("DTaerar", "DTaerar"),
+        "Ysondre": ("DYsondre", "DYsondre"),
+        "Doom Lord Kazzak": ("DoomLordKazzak", "DoomLordKazzak"),
+        "Doomwalker": ("Doomwalker", "Doomwalker"),
+    },
 }
 
 
@@ -108,3 +126,23 @@ def get_boss_atlasloot_keys(instance_prefix, boss_name, is_25man):
     keys_10, keys_25 = boss_map[boss_name]
     keys = keys_25 if is_25man else keys_10
     return keys if isinstance(keys, list) else [keys]
+
+
+# (instance_prefix, boss_name) -> max cumulative "section" tier to include
+# from that boss's AtlasLoot table(s). Section 0 is always the base loot;
+# each further tier is one more "Bonus Loot" marker encountered in the
+# table (see lua_loot_parser.py). Bosses not listed here are unfiltered
+# (every section is included), which is the correct behavior for every
+# boss except these achievement-gated cumulative-bonus-loot variants.
+BOSS_MAX_SECTION = {
+    ("os", "Sartharion"): 0,
+    ("os", "Sartharion (1 Drake Left)"): 1,
+    ("os", "Sartharion (2 Drakes Left)"): 2,
+    ("os", "Sartharion (3 Drakes Left)"): 3,
+}
+
+
+def get_boss_max_section(instance_prefix, boss_name):
+    """Returns the max cumulative section tier for this boss, or None if it
+    isn't restricted (caller should include every section)."""
+    return BOSS_MAX_SECTION.get((instance_prefix, boss_name))

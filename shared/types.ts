@@ -75,6 +75,7 @@ export interface Raid {
   owner: User
   guildId?: string // uuidv4
   previousRaidId?: string // 5-char raid id; SR+ baseline for raids without a guild
+  excludedBossIds: number[] // bosses not attempted this raid (e.g. Sartharion drake tiers, ZA timed chests never opened) - their loot is hidden from SR/HR pickers
 }
 
 interface GenericResponse<T> {
@@ -97,6 +98,7 @@ export interface CreateEditRaidRequest {
   allowDuplicateSr: boolean
   guildId?: string //uuidv4
   previousRaidId?: string
+  excludedBossIds: number[]
 }
 
 export interface CreateGuildRequest {

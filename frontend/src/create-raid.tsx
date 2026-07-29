@@ -4,6 +4,7 @@ import {
   Button,
   Collapse,
   Group,
+  MultiSelect,
   Paper,
   SegmentedControl,
   Select,
@@ -15,7 +16,12 @@ import {
 } from "@mantine/core"
 import { DateTimePicker } from "@mantine/dates"
 import { modals } from "@mantine/modals"
-import { instanceFilter, instanceOrder, renderInstance, SERVER_LABELS } from "./instances.tsx"
+import {
+  instanceFilter,
+  instanceOrder,
+  renderInstance,
+  SERVER_LABELS,
+} from "./instances.tsx"
 import { ItemSelect } from "./item-select.tsx"
 import type {
   CreateEditRaidRequest,
@@ -29,7 +35,11 @@ import type {
   Raid,
 } from "../shared/types.ts"
 import { deepEqual } from "fast-equals"
-import { parseRaidIdFromLink, raidIdToUrl } from "../shared/utils.ts"
+import {
+  filterInstanceBosses,
+  parseRaidIdFromLink,
+  raidIdToUrl,
+} from "../shared/utils.ts"
 
 export const CreateRaid = (
   { itemPickerOpen = false, edit = false }: {
@@ -49,6 +59,7 @@ export const CreateRaid = (
   const [guilds, setGuilds] = useState<Guild[]>([])
   const [selectedGuildId, setSelectedGuildId] = useState<string>()
   const [hardReserves, setHardReserves] = useState<number[]>([])
+  const [excludedBossIds, setExcludedBossIds] = useState<number[]>([])
   const [selectedServer, setSelectedServer] = useState<GameServer | null>(
     () => {
       const saved = localStorage.getItem("selectedServer")
@@ -95,6 +106,7 @@ export const CreateRaid = (
       allowDuplicateSr,
       guildId: selectedGuildId,
       previousRaidId,
+      excludedBossIds,
     }
     fetch("/api/raid/create", { method: "POST", body: JSON.stringify(request) })
       .then((r) => r.json())
@@ -145,6 +157,7 @@ export const CreateRaid = (
             const raid = j.data
             setInstance(instances.find((i) => i.id == raid.instanceId))
             setHardReserves(raid.hardReserves)
+            setExcludedBossIds(raid.excludedBossIds || [])
             setDescription(raid.description)
             setAllowDuplicateSr(raid.allowDuplicateSr)
             setUseHr(raid.hardReserves.length > 0)
@@ -158,7 +171,9 @@ export const CreateRaid = (
               setUseSrPlus(true)
               setPreviousRaidLink(raidIdToUrl(raid.id))
               setTime(
-                new Date(new Date(raid.time).getTime() + 7 * 24 * 60 * 60 * 1000),
+                new Date(
+                  new Date(raid.time).getTime() + 7 * 24 * 60 * 60 * 1000,
+                ),
               )
             } else {
               setUseSrPlus(raid.useSrPlus)
@@ -184,6 +199,7 @@ export const CreateRaid = (
     const a = {
       instanceId: raidBeforeEdit.instanceId,
       hardReserves: raidBeforeEdit.hardReserves.sort(),
+      excludedBossIds: (raidBeforeEdit.excludedBossIds || []).sort(),
       description: raidBeforeEdit.description,
       useSrPlus: raidBeforeEdit.useSrPlus,
       allowDuplicateSr: raidBeforeEdit.allowDuplicateSr,
@@ -195,6 +211,7 @@ export const CreateRaid = (
     const b = {
       instanceId: instance?.id,
       hardReserves: hardReserves.sort(),
+      excludedBossIds: excludedBossIds.sort(),
       description,
       useSrPlus,
       allowDuplicateSr,
@@ -211,6 +228,10 @@ export const CreateRaid = (
   const filteredInstances = instances?.filter((i) =>
     selectedServer ? i.server === selectedServer : false
   )
+
+  const filteredInstance = instance
+    ? filterInstanceBosses(instance, excludedBossIds)
+    : undefined
 
   return (
     <>
@@ -241,6 +262,7 @@ export const CreateRaid = (
               else localStorage.removeItem("selectedServer")
               setInstance(undefined)
               setHardReserves([])
+              setExcludedBossIds([])
             }}
           />
           <Select
@@ -248,7 +270,9 @@ export const CreateRaid = (
             withAsterisk={instance == undefined}
             label="Instance"
             searchable
-            placeholder={selectedServer ? "Select instance" : "Select a server first"}
+            placeholder={selectedServer
+              ? "Select instance"
+              : "Select a server first"}
             disabled={!selectedServer}
             maxDropdownHeight={1000}
             data={filteredInstances?.filter((e) => e.raid != worldBoss).map(
@@ -264,13 +288,46 @@ export const CreateRaid = (
                 i.id == Number(v)
               )
               setInstance(newInstance)
-              if ((newInstance?.id == raidBeforeEdit?.instanceId) && useHr) {
-                setHardReserves(raidBeforeEdit?.hardReserves || [])
+              if (newInstance?.id == raidBeforeEdit?.instanceId) {
+                if (useHr) setHardReserves(raidBeforeEdit?.hardReserves || [])
+                setExcludedBossIds(raidBeforeEdit?.excludedBossIds || [])
               } else {
                 setHardReserves([])
+                setExcludedBossIds([])
               }
             }}
           />
+          <Collapse in={(instance?.bosses.length || 0) > 1}>
+            <MultiSelect
+              label="Bosses not being attempted"
+              description="Hide loot from bosses you won't kill this raid (e.g. only 1 Sartharion drake left alive, or Zul'Aman chests you won't get to) from soft-reserve and hard-reserve pickers"
+              placeholder={excludedBossIds.length
+                ? undefined
+                : "None - full instance loot pool"}
+              searchable
+              clearable
+              data={(instance?.bosses || []).map((b) => ({
+                value: b.id.toString(),
+                label: b.name,
+              }))}
+              value={excludedBossIds.map((id) => id.toString())}
+              onChange={(values) => {
+                const newExcluded = values.map((v) => Number(v))
+                setExcludedBossIds(newExcluded)
+                if (instance) {
+                  const stillAllowed = filterInstanceBosses(
+                    instance,
+                    newExcluded,
+                  )
+                  setHardReserves((prev) =>
+                    prev.filter((id) =>
+                      stillAllowed.items.some((i) => i.id == id)
+                    )
+                  )
+                }
+              }}
+            />
+          </Collapse>
           <Textarea
             label="Description"
             value={description}
@@ -361,8 +418,8 @@ export const CreateRaid = (
                 : undefined}
             />
           </Collapse>
-          <Collapse in={useHr && instance ? true : false}>
-            {instance
+          <Collapse in={useHr && filteredInstance ? true : false}>
+            {filteredInstance
               ? (
                 <ItemSelect
                   withAsterisk={hardReserves.length == 0}
@@ -370,7 +427,7 @@ export const CreateRaid = (
                   value={hardReserves}
                   onChange={setHardReserves}
                   sameItemLimit={1}
-                  instance={instance}
+                  instance={filteredInstance}
                   itemPickerOpen={itemPickerOpen}
                 />
               )

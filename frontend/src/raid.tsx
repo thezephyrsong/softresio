@@ -52,7 +52,7 @@ import {
   IconRefreshAlert,
   IconUserFilled,
 } from "@tabler/icons-react"
-import { formatTime } from "../shared/utils.ts"
+import { filterInstanceBosses, formatTime } from "../shared/utils.ts"
 import { IconLock, IconLockOpen2, IconShieldFilled } from "@tabler/icons-react"
 import { useNavigate } from "react-router"
 import { deepEqual } from "fast-equals"
@@ -241,7 +241,9 @@ export const RaidElement = (
     if (raid && instances) {
       const matches = instances.filter((i: Instance) => i.id == raid.instanceId)
       if (matches.length == 1) {
-        setInstance(matches[0])
+        setInstance(
+          filterInstanceBosses(matches[0], raid.excludedBossIds || []),
+        )
       } else {
         alert("Could not find instance")
       }

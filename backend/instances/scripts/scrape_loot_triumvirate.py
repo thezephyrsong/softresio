@@ -7,8 +7,9 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from tqdm import tqdm
 
 from lua_loot_parser import parse_lua_loot_file, merge_tables
-from atlasloot_boss_map import get_boss_atlasloot_keys
+from atlasloot_boss_map import get_boss_atlasloot_keys, get_boss_max_section
 from parse_triumdump_lua import parse_triumdump_lua
+from excluded_items import is_item_excluded
 
 LUA_LOOT_TABLES = {}  # populated by load_lua_loot_tables() if the file is found
 ITEM_NAME_CACHE = {}  # item_id -> name fetched from wotlkdb.com (or None if not found)
@@ -132,7 +133,8 @@ def get_lua_loot_for_boss(instance_shortname, boss_name):
     keys = get_boss_atlasloot_keys(instance_prefix, boss_name, is_25man)
     if not keys:
         return None
-    return merge_tables(LUA_LOOT_TABLES, keys)
+    max_section = get_boss_max_section(instance_prefix, boss_name)
+    return merge_tables(LUA_LOOT_TABLES, keys, max_section=max_section)
 
 
 def extract_drops_from_html(text):
@@ -577,7 +579,10 @@ def fetch_npc_loot(npc_task):
         pass
     return boss_id, npc_id, []
 
-def add_item_drop(instance_items_map, missing_items, item_id, chance, boss_id, npc_id, icon_hint="inv_misc_questionmark"):
+def add_item_drop(instance_items_map, missing_items, item_id, chance, boss_id, npc_id, instance_shortname, icon_hint="inv_misc_questionmark"):
+    if is_item_excluded(item_id, instance_shortname):
+        return
+
     item_meta = get_item_info_local_only(item_id, icon_hint)
 
     if item_meta["is_missing"]:
@@ -626,7 +631,8 @@ def extract_loot_instance(instance):
                 chance = drop["percent"] if drop["percent"] is not None else 0.0
                 add_item_drop(
                     instance_items_map, missing_items,
-                    drop["item_id"], chance, boss_id, first_npc_id_for_boss
+                    drop["item_id"], chance, boss_id, first_npc_id_for_boss,
+                    instance["shortname"]
                 )
         else:
             for i, npc_info in enumerate(boss_npcs):
@@ -647,7 +653,8 @@ def extract_loot_instance(instance):
                         token_id,
                         0.0,  # drop chance percentage
                         boss_id,
-                        first_npc_id_for_boss
+                        first_npc_id_for_boss,
+                        instance["shortname"]
                     )
 
     with ThreadPoolExecutor(max_workers=5) as executor:
@@ -666,7 +673,8 @@ def extract_loot_instance(instance):
 
                 add_item_drop(
                     instance_items_map, missing_items,
-                    drop["id"], at_least_one, boss_id, npc_id, icon_hint
+                    drop["id"], at_least_one, boss_id, npc_id,
+                    instance["shortname"], icon_hint
                 )
 
     if missing_items:

@@ -104,6 +104,7 @@ app.post("/api/raid/create", async (c) => {
       srCount: z.number().max(4).min(1),
       guildId: uuidSchema.optional(),
       previousRaidId: raidIdSchema.optional(),
+      excludedBossIds: z.array(z.number()).default([]),
     })
     .safeParse(await c.req.json())
 
@@ -129,6 +130,7 @@ app.post("/api/raid/create", async (c) => {
     allowDuplicateSr,
     guildId,
     previousRaidId,
+    excludedBossIds,
   }: CreateEditRaidRequest = request.data
 
   const raidId = editRaidId || generateRaidId()
@@ -204,10 +206,13 @@ app.post("/api/raid/create", async (c) => {
           allowDuplicateSr,
           guildId,
           previousRaidId,
+          excludedBossIds,
         }
 
         if (raid?.instanceId !== updatedRaid.instanceId) {
           updatedRaid.attendees = []
+          // bossIds are only meaningful within the instance they came from
+          updatedRaid.excludedBossIds = []
         }
 
         const change = raid ? "edited" : "created"

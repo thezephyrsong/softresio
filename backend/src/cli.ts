@@ -79,6 +79,7 @@ const generateRaids = async (myUserId?: string) => {
         `${hardReserve1.name} and ${hardReserve2.name} is hard-reserved! 😬`,
       locked: choice([true, false]),
       hardReserves: [hardReserve1.id, hardReserve2.id],
+      excludedBossIds: [],
       allowDuplicateSr: true,
       owner: owner,
       guildId: choice(guilds).id,

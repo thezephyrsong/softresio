@@ -1365,6 +1365,33 @@
             "link": "https://wotlkdb.com/?npc=28860"
           }
         ]
+      },
+      {
+        "name": "Sartharion (1 Drake Left)",
+        "npcs": [
+          {
+            "name": "Sartharion",
+            "link": "https://wotlkdb.com/?npc=28860"
+          }
+        ]
+      },
+      {
+        "name": "Sartharion (2 Drakes Left)",
+        "npcs": [
+          {
+            "name": "Sartharion",
+            "link": "https://wotlkdb.com/?npc=28860"
+          }
+        ]
+      },
+      {
+        "name": "Sartharion (3 Drakes Left)",
+        "npcs": [
+          {
+            "name": "Sartharion",
+            "link": "https://wotlkdb.com/?npc=28860"
+          }
+        ]
       }
     ]
   },
@@ -1377,6 +1404,33 @@
     "bosses": [
       {
         "name": "Sartharion",
+        "npcs": [
+          {
+            "name": "Sartharion",
+            "link": "https://wotlkdb.com/?npc=28860"
+          }
+        ]
+      },
+      {
+        "name": "Sartharion (1 Drake Left)",
+        "npcs": [
+          {
+            "name": "Sartharion",
+            "link": "https://wotlkdb.com/?npc=28860"
+          }
+        ]
+      },
+      {
+        "name": "Sartharion (2 Drakes Left)",
+        "npcs": [
+          {
+            "name": "Sartharion",
+            "link": "https://wotlkdb.com/?npc=28860"
+          }
+        ]
+      },
+      {
+        "name": "Sartharion (3 Drakes Left)",
         "npcs": [
           {
             "name": "Sartharion",
@@ -2147,6 +2201,78 @@
           {
             "name": "Halion",
             "link": "https://wotlkdb.com/?npc=39863"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 132,
+    "name": "World Bosses",
+    "shortname": "wb",
+    "raid": true,
+    "enabled": true,
+    "bosses": [
+      {
+        "name": "Azuregos",
+        "npcs": [
+          {
+            "name": "Azuregos",
+            "link": "https://wotlkdb.com/?npc=6109"
+          }
+        ]
+      },
+      {
+        "name": "Doom Lord Kazzak",
+        "npcs": [
+          {
+            "name": "Doom Lord Kazzak",
+            "link": "https://wotlkdb.com/?npc=18728"
+          }
+        ]
+      },
+      {
+        "name": "Doomwalker",
+        "npcs": [
+          {
+            "name": "Doomwalker",
+            "link": "https://wotlkdb.com/?npc=17711"
+          }
+        ]
+      },
+      {
+        "name": "Emeriss",
+        "npcs": [
+          {
+            "name": "Emeriss",
+            "link": "https://wotlkdb.com/?npc=14889"
+          }
+        ]
+      },
+      {
+        "name": "Lethon",
+        "npcs": [
+          {
+            "name": "Lethon",
+            "link": "https://wotlkdb.com/?npc=14888"
+          }
+        ]
+      },
+      {
+        "name": "Taerar",
+        "npcs": [
+          {
+            "name": "Taerar",
+            "link": "https://wotlkdb.com/?npc=14890"
+          }
+        ]
+      },
+      {
+        "name": "Ysondre",
+        "npcs": [
+          {
+            "name": "Ysondre",
+            "link": "https://wotlkdb.com/?npc=14887"
           }
         ]
       }
