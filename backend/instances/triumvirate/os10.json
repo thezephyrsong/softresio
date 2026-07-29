@@ -27,6 +27,21 @@
           "chance": 18.0,
           "bossId": 0,
           "npcId": 0
+        },
+        {
+          "chance": 18.0,
+          "bossId": 1,
+          "npcId": 1
+        },
+        {
+          "chance": 18.0,
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 18.0,
+          "bossId": 3,
+          "npcId": 3
         }
       ],
       "slots": [
@@ -59,6 +74,21 @@
           "chance": 18.0,
           "bossId": 0,
           "npcId": 0
+        },
+        {
+          "chance": 18.0,
+          "bossId": 1,
+          "npcId": 1
+        },
+        {
+          "chance": 18.0,
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 18.0,
+          "bossId": 3,
+          "npcId": 3
         }
       ],
       "slots": [
@@ -91,6 +121,21 @@
           "chance": 19.0,
           "bossId": 0,
           "npcId": 0
+        },
+        {
+          "chance": 19.0,
+          "bossId": 1,
+          "npcId": 1
+        },
+        {
+          "chance": 19.0,
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 19.0,
+          "bossId": 3,
+          "npcId": 3
         }
       ],
       "slots": [
@@ -123,6 +168,21 @@
           "chance": 7.0,
           "bossId": 0,
           "npcId": 0
+        },
+        {
+          "chance": 7.0,
+          "bossId": 1,
+          "npcId": 1
+        },
+        {
+          "chance": 7.0,
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 7.0,
+          "bossId": 3,
+          "npcId": 3
         }
       ],
       "slots": [
@@ -155,6 +215,21 @@
           "chance": 18.0,
           "bossId": 0,
           "npcId": 0
+        },
+        {
+          "chance": 18.0,
+          "bossId": 1,
+          "npcId": 1
+        },
+        {
+          "chance": 18.0,
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 18.0,
+          "bossId": 3,
+          "npcId": 3
         }
       ],
       "slots": [
@@ -187,6 +262,21 @@
           "chance": 18.0,
           "bossId": 0,
           "npcId": 0
+        },
+        {
+          "chance": 18.0,
+          "bossId": 1,
+          "npcId": 1
+        },
+        {
+          "chance": 18.0,
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 18.0,
+          "bossId": 3,
+          "npcId": 3
         }
       ],
       "slots": [
@@ -219,6 +309,21 @@
           "chance": 100.0,
           "bossId": 0,
           "npcId": 0
+        },
+        {
+          "chance": 100.0,
+          "bossId": 1,
+          "npcId": 1
+        },
+        {
+          "chance": 100.0,
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 100.0,
+          "bossId": 3,
+          "npcId": 3
         }
       ],
       "slots": [
@@ -251,6 +356,142 @@
           "chance": 100.0,
           "bossId": 0,
           "npcId": 0
+        },
+        {
+          "chance": 100.0,
+          "bossId": 1,
+          "npcId": 1
+        },
+        {
+          "chance": 100.0,
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 100.0,
+          "bossId": 3,
+          "npcId": 3
+        }
+      ],
+      "slots": [
+        "Non-equippable"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 92023,
+      "name": "Gloves of the Umbral Conqueror",
+      "classes": [
+        "Paladin",
+        "Priest",
+        "Warlock"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Gloves of the Umbral Conqueror</b><br />Binds when picked up<br />Classes: Paladin, Priest, Warlock<br />Requires Level 60<br /></td></tr></table>",
+      "icon": "inv_misc_questionmark.jpg",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 0.0,
+          "bossId": 1,
+          "npcId": 1
+        },
+        {
+          "chance": 0.0,
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 0.0,
+          "bossId": 3,
+          "npcId": 3
+        }
+      ],
+      "slots": [
+        "Non-equippable"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 92024,
+      "name": "Gloves of the Umbral Protector",
+      "classes": [
+        "Warrior",
+        "Hunter",
+        "Shaman"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Gloves of the Umbral Protector</b><br />Binds when picked up<br />Classes: Warrior, Hunter, Shaman<br />Requires Level 60<br /></td></tr></table>",
+      "icon": "inv_misc_questionmark.jpg",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 0.0,
+          "bossId": 1,
+          "npcId": 1
+        },
+        {
+          "chance": 0.0,
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 0.0,
+          "bossId": 3,
+          "npcId": 3
+        }
+      ],
+      "slots": [
+        "Non-equippable"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 92025,
+      "name": "Gloves of the Umbral Vanquisher",
+      "classes": [
+        "Rogue",
+        "Death Knight",
+        "Mage",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Gloves of the Umbral Vanquisher</b><br />Binds when picked up<br />Classes: Rogue, Death Knight, Mage, Druid<br />Requires Level 60<br /></td></tr></table>",
+      "icon": "inv_misc_questionmark.jpg",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 0.0,
+          "bossId": 1,
+          "npcId": 1
+        },
+        {
+          "chance": 0.0,
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 0.0,
+          "bossId": 3,
+          "npcId": 3
         }
       ],
       "slots": [
@@ -281,8 +522,18 @@
       "dropsFrom": [
         {
           "chance": 1.0,
-          "bossId": 0,
-          "npcId": 0
+          "bossId": 1,
+          "npcId": 1
+        },
+        {
+          "chance": 1.0,
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 1.0,
+          "bossId": 3,
+          "npcId": 3
         }
       ],
       "slots": [
@@ -313,8 +564,18 @@
       "dropsFrom": [
         {
           "chance": 2.0,
-          "bossId": 0,
-          "npcId": 0
+          "bossId": 1,
+          "npcId": 1
+        },
+        {
+          "chance": 2.0,
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 2.0,
+          "bossId": 3,
+          "npcId": 3
         }
       ],
       "slots": [
@@ -345,8 +606,18 @@
       "dropsFrom": [
         {
           "chance": 1.0,
-          "bossId": 0,
-          "npcId": 0
+          "bossId": 1,
+          "npcId": 1
+        },
+        {
+          "chance": 1.0,
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 1.0,
+          "bossId": 3,
+          "npcId": 3
         }
       ],
       "slots": [
@@ -377,8 +648,18 @@
       "dropsFrom": [
         {
           "chance": 2.0,
-          "bossId": 0,
-          "npcId": 0
+          "bossId": 1,
+          "npcId": 1
+        },
+        {
+          "chance": 2.0,
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 2.0,
+          "bossId": 3,
+          "npcId": 3
         }
       ],
       "slots": [
@@ -409,12 +690,128 @@
       "dropsFrom": [
         {
           "chance": 2.0,
-          "bossId": 0,
-          "npcId": 0
+          "bossId": 1,
+          "npcId": 1
+        },
+        {
+          "chance": 2.0,
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 2.0,
+          "bossId": 3,
+          "npcId": 3
         }
       ],
       "slots": [
         "Neck"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 40613,
+      "name": "Gloves of the Lost Conqueror",
+      "classes": [
+        "Paladin",
+        "Priest",
+        "Warlock"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Gloves of the Lost Conqueror</b><br />Binds when picked up<br />Classes: Paladin, Priest, Warlock<br />Requires Level 60<br /></td></tr></table>",
+      "icon": "inv_misc_questionmark.jpg",
+      "dropsFrom": [
+        {
+          "chance": 28.0,
+          "bossId": 1,
+          "npcId": 1
+        },
+        {
+          "chance": 28.0,
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 28.0,
+          "bossId": 3,
+          "npcId": 3
+        }
+      ],
+      "slots": [
+        "Non-equippable"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 40614,
+      "name": "Gloves of the Lost Protector",
+      "classes": [
+        "Warrior",
+        "Hunter",
+        "Shaman"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Gloves of the Lost Protector</b><br />Binds when picked up<br />Classes: Warrior, Hunter, Shaman<br />Requires Level 60<br /></td></tr></table>",
+      "icon": "inv_misc_questionmark.jpg",
+      "dropsFrom": [
+        {
+          "chance": 29.0,
+          "bossId": 1,
+          "npcId": 1
+        },
+        {
+          "chance": 29.0,
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 29.0,
+          "bossId": 3,
+          "npcId": 3
+        }
+      ],
+      "slots": [
+        "Non-equippable"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 40615,
+      "name": "Gloves of the Lost Vanquisher",
+      "classes": [
+        "Rogue",
+        "Death Knight",
+        "Mage",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Gloves of the Lost Vanquisher</b><br />Binds when picked up<br />Classes: Rogue, Death Knight, Mage, Druid<br />Requires Level 60<br /></td></tr></table>",
+      "icon": "inv_misc_questionmark.jpg",
+      "dropsFrom": [
+        {
+          "chance": 37.0,
+          "bossId": 1,
+          "npcId": 1
+        },
+        {
+          "chance": 37.0,
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 37.0,
+          "bossId": 3,
+          "npcId": 3
+        }
+      ],
+      "slots": [
+        "Non-equippable"
       ],
       "types": [
         "Unknown"
@@ -441,8 +838,13 @@
       "dropsFrom": [
         {
           "chance": 0.0,
-          "bossId": 0,
-          "npcId": 0
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 0.0,
+          "bossId": 3,
+          "npcId": 3
         }
       ],
       "slots": [
@@ -473,8 +875,13 @@
       "dropsFrom": [
         {
           "chance": 0.0,
-          "bossId": 0,
-          "npcId": 0
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 0.0,
+          "bossId": 3,
+          "npcId": 3
         }
       ],
       "slots": [
@@ -505,8 +912,13 @@
       "dropsFrom": [
         {
           "chance": 0.0,
-          "bossId": 0,
-          "npcId": 0
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 0.0,
+          "bossId": 3,
+          "npcId": 3
         }
       ],
       "slots": [
@@ -537,8 +949,13 @@
       "dropsFrom": [
         {
           "chance": 0.0,
-          "bossId": 0,
-          "npcId": 0
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 0.0,
+          "bossId": 3,
+          "npcId": 3
         }
       ],
       "slots": [
@@ -569,8 +986,13 @@
       "dropsFrom": [
         {
           "chance": 0.0,
-          "bossId": 0,
-          "npcId": 0
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 0.0,
+          "bossId": 3,
+          "npcId": 3
         }
       ],
       "slots": [
@@ -601,84 +1023,8 @@
       "dropsFrom": [
         {
           "chance": 100.0,
-          "bossId": 0,
-          "npcId": 0
-        }
-      ],
-      "slots": [
-        "Non-equippable"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 92023,
-      "name": "Gloves of the Umbral Conqueror",
-      "classes": [
-        "Paladin",
-        "Priest",
-        "Warlock"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Gloves of the Umbral Conqueror</b><br />Binds when picked up<br />Classes: Paladin, Priest, Warlock<br />Requires Level 60<br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.jpg",
-      "dropsFrom": [
-        {
-          "chance": 0.0,
-          "bossId": 0,
-          "npcId": 0
-        }
-      ],
-      "slots": [
-        "Non-equippable"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 92024,
-      "name": "Gloves of the Umbral Protector",
-      "classes": [
-        "Warrior",
-        "Hunter",
-        "Shaman"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Gloves of the Umbral Protector</b><br />Binds when picked up<br />Classes: Warrior, Hunter, Shaman<br />Requires Level 60<br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.jpg",
-      "dropsFrom": [
-        {
-          "chance": 0.0,
-          "bossId": 0,
-          "npcId": 0
-        }
-      ],
-      "slots": [
-        "Non-equippable"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 92025,
-      "name": "Gloves of the Umbral Vanquisher",
-      "classes": [
-        "Rogue",
-        "Death Knight",
-        "Mage",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Gloves of the Umbral Vanquisher</b><br />Binds when picked up<br />Classes: Rogue, Death Knight, Mage, Druid<br />Requires Level 60<br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.jpg",
-      "dropsFrom": [
-        {
-          "chance": 0.0,
-          "bossId": 0,
-          "npcId": 0
+          "bossId": 3,
+          "npcId": 3
         }
       ],
       "slots": [
@@ -693,6 +1039,18 @@
     {
       "id": 0,
       "name": "Sartharion"
+    },
+    {
+      "id": 1,
+      "name": "Sartharion (1 Drake Left)"
+    },
+    {
+      "id": 2,
+      "name": "Sartharion (2 Drakes Left)"
+    },
+    {
+      "id": 3,
+      "name": "Sartharion (3 Drakes Left)"
     }
   ],
   "npcs": [
@@ -700,6 +1058,21 @@
       "id": 0,
       "name": "Sartharion",
       "bossId": 0
+    },
+    {
+      "id": 1,
+      "name": "Sartharion",
+      "bossId": 1
+    },
+    {
+      "id": 2,
+      "name": "Sartharion",
+      "bossId": 2
+    },
+    {
+      "id": 3,
+      "name": "Sartharion",
+      "bossId": 3
     }
   ]
 }
