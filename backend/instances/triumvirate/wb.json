@@ -1,7 +1,7 @@
 {
   "id": 132,
   "shortname": "wb",
-  "raid": true,
+  "raid": false,
   "name": "World Bosses",
   "items": [
     {
