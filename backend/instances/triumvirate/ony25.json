@@ -21,7 +21,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Flowing Sapphiron Drape</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Back</td><th></th></tr></table>69 Armor<br />+24 Stamina<br />+19 Intellect<br />+6 Frost Resistance<br />+6 Arcane Resistance<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases spell power by 32.</span><br /><span class=\"q2\">Equip: Improves critical strike rating by 18.</span><br /><span class=\"q2\">Equip: Improves haste rating by 13.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.jpg",
+      "icon": "inv_misc_cape_16.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -44,7 +44,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Aurora of Transcendence</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Head</td><th>Cloth</th></tr></table>102 Armor<br />+23 Stamina<br />+24 Intellect<br />+10 Fire Resistance<br />+10 Frost Resistance<br />Meta Socket<br />Blue Socket<br />Socket Bonus: +2 Spell Power<br />Classes: Priest<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves critical strike rating by 19.</span><br /><span class=\"q2\">Equip: Improves haste rating by 17.</span><br /><span class=\"q2\">Equip: Increases spell power by 30.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.jpg",
+      "icon": "inv_helmet_24.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -67,7 +67,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Halo of Transcendence</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Head</td><th>Cloth</th></tr></table>102 Armor<br />+24 Stamina<br />+24 Intellect<br />+21 Spirit<br />+10 Fire Resistance<br />+10 Frost Resistance<br />Meta Socket<br />Red Socket<br />Socket Bonus: +8 Spirit<br />Classes: Priest<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves critical strike rating by 18.</span><br /><span class=\"q2\">Equip: Increases spell power by 33.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.jpg",
+      "icon": "inv_helmet_24.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -90,7 +90,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Nemesis Skullcap</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Head</td><th>Cloth</th></tr></table>102 Armor<br />+32 Stamina<br />+25 Intellect<br />+23 Spirit<br />+10 Frost Resistance<br />+10 Shadow Resistance<br />Meta Socket<br />Red Socket<br />Socket Bonus: +2 Spell Power<br />Classes: Warlock<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves critical strike rating by 20.</span><br /><span class=\"q2\">Equip: Increases spell power by 33.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.jpg",
+      "icon": "inv_helmet_08.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -113,7 +113,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Netherwind Crown</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Head</td><th>Cloth</th></tr></table>102 Armor<br />+21 Stamina<br />+25 Intellect<br />+10 Frost Resistance<br />+10 Shadow Resistance<br />Meta Socket<br />Yellow Socket<br />Socket Bonus: +2 Spell Power<br />Classes: Mage<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves hit rating by 18.</span><br /><span class=\"q2\">Equip: Improves critical strike rating by 18.</span><br /><span class=\"q2\">Equip: Increases spell power by 33.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.jpg",
+      "icon": "inv_helmet_70.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -136,7 +136,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Bloodfang Hood</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Head</td><th>Leather</th></tr></table>203 Armor<br />+27 Agility<br />+30 Stamina<br />+10 Frost Resistance<br />+10 Shadow Resistance<br />Meta Socket<br />Red Socket<br />Socket Bonus: +2 Agility<br />Classes: Rogue<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases attack power by 44.</span><br /><span class=\"q2\">Equip: Improves critical strike rating by 12.</span><br /><span class=\"q2\">Equip: Increases your armor penetration rating by 15.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.jpg",
+      "icon": "inv_helmet_41.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -159,7 +159,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Stormrage Crown</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Head</td><th>Leather</th></tr></table>203 Armor<br />+22 Stamina<br />+22 Intellect<br />+10 Frost Resistance<br />+10 Shadow Resistance<br />Meta Socket<br />Yellow Socket<br />Socket Bonus: +2 Spell Power<br />Classes: Druid<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves critical strike rating by 20.</span><br /><span class=\"q2\">Equip: Improves haste rating by 19.</span><br /><span class=\"q2\">Equip: Increases spell power by 30.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.jpg",
+      "icon": "inv_helmet_09.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -182,7 +182,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Stormrage Cover</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Head</td><th>Leather</th></tr></table>203 Armor<br />+15 Stamina<br />+23 Intellect<br />+36 Spirit<br />+10 Frost Resistance<br />+10 Shadow Resistance<br />Meta Socket<br />Blue Socket<br />Socket Bonus: +2 Agility<br />Classes: Druid<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves critical strike rating by 13.</span><br /><span class=\"q2\">Equip: Increases spell power by 22.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.jpg",
+      "icon": "inv_helmet_09.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -205,7 +205,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Stormrage Coverlet</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Head</td><th>Leather</th></tr></table>203 Armor<br />+17 Agility<br />+33 Stamina<br />+10 Frost Resistance<br />+10 Shadow Resistance<br />Meta Socket<br />Blue Socket<br />Socket Bonus: +6 Attack Power<br />Classes: Druid<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases attack power by 22.</span><br /><span class=\"q2\">Equip: Improves hit rating by 22.</span><br /><span class=\"q2\">Equip: Increases your expertise rating by 20.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.jpg",
+      "icon": "inv_helmet_09.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -228,7 +228,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Crown of Ten Storms</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Head</td><th>Mail</th></tr></table>439 Armor<br />+46 Agility<br />+25 Stamina<br />+12 Intellect<br />+10 Frost Resistance<br />+10 Shadow Resistance<br />Meta Socket<br />Red Socket<br />Socket Bonus: +2 Spell Power<br />Classes: Shaman<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases attack power by 33.</span><br /><span class=\"q2\">Equip: Improves critical strike rating by 19.</span><br /><span class=\"q2\">Equip: Improves haste rating by 23.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.jpg",
+      "icon": "inv_helmet_69.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -251,7 +251,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Helm of Ten Storms</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Head</td><th>Mail</th></tr></table>439 Armor<br />+21 Stamina<br />+24 Intellect<br />+10 Frost Resistance<br />+10 Shadow Resistance<br />Meta Socket<br />Yellow Socket<br />Socket Bonus: +2 Spell Power<br />Classes: Shaman<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases spell power by 45.</span><br /><span class=\"q2\">Equip: Improves critical strike rating by 20.</span><br /><span class=\"q2\">Equip: Improves hit rating by 17.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.jpg",
+      "icon": "inv_helmet_69.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -274,7 +274,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Helmet of Ten Storms</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Head</td><th>Mail</th></tr></table>439 Armor<br />+39 Stamina<br />+31 Intellect<br />+10 Frost Resistance<br />+10 Shadow Resistance<br />Meta Socket<br />Blue Socket<br />Socket Bonus: +4 mana every 5 sec.<br />Classes: Shaman<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves critical strike rating by 20.</span><br /><span class=\"q2\">Equip: Restores 16 mana per 5 sec.</span><br /><span class=\"q2\">Equip: Increases spell power by 54.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.jpg",
+      "icon": "inv_helmet_69.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -297,7 +297,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Dragonstalker's Helm</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Head</td><th>Mail</th></tr></table>439 Armor<br />+27 Agility<br />+25 Stamina<br />+15 Intellect<br />+10 Frost Resistance<br />+10 Shadow Resistance<br />Meta Socket<br />Red Socket<br />Socket Bonus: +6 Armor Penetration Rating<br />Classes: Hunter<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves critical strike rating by 14.</span><br /><span class=\"q2\">Equip: Increases your armor penetration rating by 12.</span><br /><span class=\"q2\">Equip: Increases attack power by 45.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.jpg",
+      "icon": "inv_helmet_05.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -320,7 +320,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Helm of Wrath</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Head</td><th>Plate</th></tr></table>786 Armor<br />+26 Strength<br />+40 Stamina<br />+10 Frost Resistance<br />+10 Shadow Resistance<br />Meta Socket<br />Yellow Socket<br />Socket Bonus: +5 Stamina<br />Classes: Warrior<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases defense rating by 18.</span><br /><span class=\"q2\">Equip: Increases your dodge rating by 13.</span><br /><span class=\"q2\">Equip: Increases your parry rating by 17.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.jpg",
+      "icon": "inv_helmet_71.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -343,7 +343,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Helmet of Wrath</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Head</td><th>Plate</th></tr></table>786 Armor<br />+35 Strength<br />+26 Stamina<br />+10 Frost Resistance<br />+10 Shadow Resistance<br />Meta Socket<br />Red Socket<br />Socket Bonus: +5 Strength<br />Classes: Warrior<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves critical strike rating by 13.</span><br /><span class=\"q2\">Equip: Increases your armor penetration rating by 16.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.jpg",
+      "icon": "inv_helmet_71.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -366,7 +366,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Frostforged Greathelm</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Head</td><th>Plate</th></tr></table>786 Armor<br />+28 Strength<br />+40 Stamina<br />+10 Frost Resistance<br />+10 Shadow Resistance<br />Meta Socket<br />Blue Socket<br />Socket Bonus: +5 Stamina<br />Classes: Death Knight<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases defense rating by 14.</span><br /><span class=\"q2\">Equip: Increases your parry rating by 17.</span><br /><span class=\"q2\">Equip: Improves hit rating by 16.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.jpg",
+      "icon": "inv_helmet_146.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -389,7 +389,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Frostforged Helm</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Head</td><th>Plate</th></tr></table>786 Armor<br />+33 Strength<br />+24 Stamina<br />+10 Frost Resistance<br />+10 Shadow Resistance<br />Meta Socket<br />Blue Socket<br />Socket Bonus: +5 Strength<br />Classes: Death Knight<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves hit rating by 15.</span><br /><span class=\"q2\">Equip: Increases your armor penetration rating by 15.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.jpg",
+      "icon": "inv_helmet_146.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -412,7 +412,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Judgement Crown</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Head</td><th>Plate</th></tr></table>786 Armor<br />+28 Stamina<br />+31 Intellect<br />+10 Frost Resistance<br />+10 Shadow Resistance<br />Meta Socket<br />Red Socket<br />Socket Bonus: +5 Intellect<br />Classes: Paladin<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves haste rating by 13.</span><br /><span class=\"q2\">Equip: Improves critical strike rating by 11.</span><br /><span class=\"q2\">Equip: Increases spell power by 33.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.jpg",
+      "icon": "inv_helmet_74.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -435,7 +435,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Judgement Heaume</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Head</td><th>Plate</th></tr></table>786 Armor<br />+26 Strength<br />+40 Stamina<br />+10 Frost Resistance<br />+10 Shadow Resistance<br />Meta Socket<br />Red Socket<br />Socket Bonus: +5 Stamina<br />Classes: Paladin<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases defense rating by 17.</span><br /><span class=\"q2\">Equip: Increases your dodge rating by 18.</span><br /><span class=\"q2\">Equip: Improves hit rating by 16.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.jpg",
+      "icon": "inv_helmet_74.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -458,7 +458,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Judgement Hood</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Head</td><th>Plate</th></tr></table>786 Armor<br />+35 Strength<br />+26 Stamina<br />+10 Frost Resistance<br />+10 Shadow Resistance<br />Meta Socket<br />Yellow Socket<br />Socket Bonus: +5 Strength<br />Classes: Paladin<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves critical strike rating by 12.</span><br /><span class=\"q2\">Equip: Improves haste rating by 16.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.jpg",
+      "icon": "inv_helmet_74.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -490,7 +490,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Eskhandar's Links</b><br />Binds when picked up<br />Unique<br /><table width=\"100%\"><tr><td>Neck</td><th></th></tr></table>+21 Strength<br />+30 Stamina<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your dodge rating by 13.</span><br /><span class=\"q2\">Equip: Increases your expertise rating by 11.</span><br /><span class=\"q2\">Equip: Increases defense rating by 13.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.jpg",
+      "icon": "inv_belt_12.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -522,7 +522,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Signified Ring of Binding</b><br />Binds when picked up<br />Unique-Equipped<br /><table width=\"100%\"><tr><td>Finger</td><th></th></tr></table>200 Armor<br />+32 Stamina<br />+30 Fire Resistance<br />+30 Nature Resistance<br />+30 Frost Resistance<br />+30 Shadow Resistance<br />+30 Arcane Resistance<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases defense rating by 20.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.jpg",
+      "icon": "inv_jewelry_ring_13.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -554,7 +554,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Shiny Shard of the Flame</b><br />Binds when picked up<br />Unique-Equipped<br /><table width=\"100%\"><tr><td>Trinket</td><th></th></tr></table>Requires Level 60<br />Shiny Shard of the Gods (0/2)<br />Shiny Shard of the Scale<br />Shiny Shard of the Flame<br />(2) Set: Increases spell power by 52.<br />(2) Set: Your direct heals have a chance to cause Cauterizing Heal. Your direct damage spells have a chance to cause Searing Flame.<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Restores 100 health per 5 sec.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.jpg",
+      "icon": "inv_misc_monsterscales_15.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -586,7 +586,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Shiny Shard of the Scale</b><br />Binds when picked up<br />Unique-Equipped<br /><table width=\"100%\"><tr><td>Trinket</td><th></th></tr></table>Requires Level 60<br />Shiny Shard of the Gods (0/2)<br />Shiny Shard of the Scale<br />Shiny Shard of the Flame<br />(2) Set: Increases spell power by 52.<br />(2) Set: Your direct heals have a chance to cause Cauterizing Heal. Your direct damage spells have a chance to cause Searing Flame.<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Restores 24 mana per 5 sec.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.jpg",
+      "icon": "inv_misc_monsterscales_15.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -618,7 +618,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Antediluvian Cornerstone Grimoire</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Held In Off-hand</td><th></th></tr></table>+18 Stamina<br />+20 Intellect<br />+16 Spirit<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases spell power by 27.</span><br /><span class=\"q2\">Use: Summons a Skeleton that will protect you for 1 min. (15 Min Cooldown)</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.jpg",
+      "icon": "inv_misc_book_07.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -650,7 +650,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Honed Fang of the Mystics</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Main Hand</td><th>Dagger</th></tr></table>52 - 101 Damage - Speed 1.50<br />(51.0 damage per second)<br />+14 Stamina<br />+21 Intellect<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves critical strike rating by 16.</span><br /><span class=\"q2\">Equip: Increases spell power by 130.</span><br /><span class=\"q2\">Equip: Restores 10 mana per 5 sec.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.jpg",
+      "icon": "inv_weapon_shortblade_06.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -682,7 +682,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Tarnished Gutgore Ripper</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>One-Hand</td><th>Dagger</th></tr></table>103 - 159 Damage - Speed 1.80<br />(72.8 damage per second)<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Chance on hit: Sends a shadowy bolt at the enemy causing 190 Shadow damage and lowering all stats by 65 for 30 sec.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.jpg",
+      "icon": "inv_weapon_shortblade_18.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -714,7 +714,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Polished Azuresong Mageblade</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Main Hand</td><th>Sword</th></tr></table>85 - 160 Damage - Speed 2.40<br />(51.0 damage per second)<br />+16 Stamina<br />+23 Intellect<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves critical strike rating by 18.</span><br /><span class=\"q2\">Equip: Increases spell power by 130.</span><br /><span class=\"q2\">Equip: Improves hit rating by 20.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.jpg",
+      "icon": "inv_sword_39.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -739,7 +739,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Burnished Quel'Serrar</b><br />Binds when picked up<br />Unique<br /><table width=\"100%\"><tr><td>One-Hand</td><th>Sword</th></tr></table>118 - 174 Damage - Speed 2.00<br />(73.0 damage per second)<br />+26 Stamina<br />Classes: Warrior, Paladin, Death Knight<br />Requires Level 60<br />\"The High Blade\"<br /></td></tr></table><table><tr><td><span class=\"q2\">Chance on hit: Grants the wielder 14 defense rating and 400 armor for 10 sec.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.jpg",
+      "icon": "inv_sword_01.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -771,7 +771,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Tempered Vis'kag the Bloodletter</b><br />Binds when picked up<br />Unique-Equipped<br /><table width=\"100%\"><tr><td>One-Hand</td><th>Sword</th></tr></table>136 - 243 Damage - Speed 2.60<br />(72.9 damage per second)<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Chance on hit: Delivers a fatal wound for 2222 damage.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.jpg",
+      "icon": "inv_sword_18.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -803,7 +803,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Sharpened Obsidian Edged Blade</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Two-Hand</td><th>Sword</th></tr></table>255 - 408 Damage - Speed 3.50<br />(94.7 damage per second)<br />+33 Strength<br />+27 Stamina<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your expertise rating by 19.</span><br /><span class=\"q2\">Equip: Improves critical strike rating by 17.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.jpg",
+      "icon": "inv_sword_28.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -835,7 +835,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Raging Deathbringer</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>One-Hand</td><th>Axe</th></tr></table>139 - 254 Damage - Speed 2.70<br />(72.8 damage per second)<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Chance on hit: Sends a shadowy bolt at the enemy causing 1458 to 1874 Shadow damage.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.jpg",
+      "icon": "inv_axe_09.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -867,7 +867,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Reinforced Shadowstrike</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Two-Hand</td><th>Polearm</th></tr></table>228 - 359 Damage - Speed 3.10<br />(94.7 damage per second)<br />+33 Agility<br />+23 Stamina<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases attack power by 56.</span><br /><span class=\"q2\">Equip: Improves critical strike rating by 16.</span><br /><span class=\"q2\">Equip: Increases your armor penetration rating by 17.</span><br /><span class=\"q2\">Chance on hit: Steals 200 to 320 life from target enemy.</span><br /><span class=\"q2\">Use: Summons a new Reinforced Thunderstrike.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.jpg",
+      "icon": "inv_spear_08.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -899,7 +899,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Reinforced Thunderstrike</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Two-Hand</td><th>Polearm</th></tr></table>228 - 359 Damage - Speed 3.10<br />(94.7 damage per second)<br />+33 Agility<br />+23 Stamina<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your expertise rating by 16.</span><br /><span class=\"q2\">Equip: Increases attack power by 56.</span><br /><span class=\"q2\">Equip: Improves haste rating by 17.</span><br /><span class=\"q2\">Chance on hit: Blasts up to 3 targets for 250 to 398 Nature damage. Each target after the first takes less damage.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.jpg",
+      "icon": "inv_spear_08.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -931,7 +931,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Rifled Blastershot Launcher</b><br />Binds when picked up<br />Ranged - Gun<br />214 - 335 Damage - Speed 2.90<br />(94.7 damage per second)<br />+15 Agility<br />+14 Stamina<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves critical strike rating by 15.</span><br /><span class=\"q2\">Equip: Increases attack power by 34.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.jpg",
+      "icon": "inv_weapon_rifle_09.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -963,7 +963,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Head of Onyxia - Alliance</b><br />Binds when picked up<br />Unique<br />This Item Begins a Quest<br />Requires Level 60<br />\"The head of the Black Dragonflight's Brood Mother\"<br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.jpg",
+      "icon": "inv_misc_head_dragon_01.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -995,7 +995,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Sparkling Onyxia Tooth Pendant</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Neck</td><th></th></tr></table>+22 Agility<br />+20 Stamina<br />+10 Fire Resistance<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves hit rating by 14.</span><br /><span class=\"q2\">Equip: Improves critical strike rating by 12.</span><br /><span class=\"q2\">Equip: Increases attack power by 36.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.jpg",
+      "icon": "inv_jewelry_necklace_09.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -1027,7 +1027,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Polished Dragonslayer's Signet</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Finger</td><th></th></tr></table>+22 Stamina<br />+20 Intellect<br />+12 Spirit<br />+10 Fire Resistance<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves critical strike rating by 19.</span><br /><span class=\"q2\">Equip: Increases spell power by 33.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.jpg",
+      "icon": "inv_jewelry_ring_27.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -1059,7 +1059,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Purified Onyxia Blood Talisman</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Trinket</td><th></th></tr></table>+15 Fire Resistance<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your parry rating by 40.</span><br /><span class=\"q2\">Equip: Increases defense rating by 25.</span><br /><span class=\"q2\">Equip: Restores 37 health per 5 sec.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.jpg",
+      "icon": "spell_shadow_lifedrain.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -1091,7 +1091,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Enlarged Onyxia Hide Backpack</b><br />Binds when picked up<br />Unique<br />22 Slot Bag<br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.jpg",
+      "icon": "inv_misc_bag_22.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -1123,7 +1123,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Ashen Sack of Gems</b><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.jpg",
+      "icon": "inv_misc_bag_10_black.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
@@ -1155,7 +1155,7 @@
       ],
       "quality": 4,
       "tooltip": "<table><tr><td><b class=\"q4\">Reins of the Onyxian Drake</b><br />Binds when used<br />Mount<br />Requires Level 55<br />Requires Riding (300)<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: Teaches you how to summon this mount.  Can only be summoned in Outland or Northrend.  This is a very fast mount.</span><br /></td></tr></table>",
-      "icon": "inv_misc_questionmark.jpg",
+      "icon": "achievement_boss_onyxia.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
