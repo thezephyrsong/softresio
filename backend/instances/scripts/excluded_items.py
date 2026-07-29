@@ -431,6 +431,12 @@ EXCLUDED_ITEM_IDS: set[int] = set([
     40628,  # Gauntlets of the Lost Conqueror
     40629,  # Gauntlets of the Lost Protector
     40630,  # Gauntlets of the Lost Vanquisher
+    7075,
+    7076,
+    8150,
+    49487,
+    49486,
+    49485,
 ])
 
 # Hidden only within the listed instance(s)
