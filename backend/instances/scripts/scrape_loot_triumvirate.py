@@ -54,7 +54,7 @@ CUSTOM_BOSS_DROPS = {
     "Ayamiss": [92032, 92033, 92034],                  # Shoulders
 
     # Onyxia's Lair
-    "Onyxia": [92029, 92030, 92031],                   # Legs
+    "Onyxia": [49643, 92029, 92030, 92031],                   # Legs
     # --- Zul'Aman Timed Event Chests ---
     "First Hostage Chest": [
         33590,  # Cloak of Fiends

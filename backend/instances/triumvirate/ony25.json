@@ -1171,6 +1171,38 @@
       ]
     },
     {
+      "id": 49643,
+      "name": "Head of Onyxia - Horde",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Head of Onyxia - Horde</b><br />Binds when picked up<br />Unique<br />This Item Begins a Quest<br />Requires Level 60<br />\"The head of the Black Dragonflight's Brood Mother\"<br /></td></tr></table>",
+      "icon": "inv_misc_head_dragon_01.jpg",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
       "id": 92029,
       "name": "Leggings of the Umbral Conqueror",
       "classes": [
