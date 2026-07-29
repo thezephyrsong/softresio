@@ -33,7 +33,7 @@
         "Back"
       ],
       "types": [
-        "Unknown"
+        "Cloak"
       ]
     },
     {
@@ -65,7 +65,7 @@
         "Back"
       ],
       "types": [
-        "Unknown"
+        "Cloak"
       ]
     },
     {
@@ -97,7 +97,7 @@
         "Head"
       ],
       "types": [
-        "Unknown"
+        "Cloth"
       ]
     },
     {
@@ -129,7 +129,7 @@
         "Legs"
       ],
       "types": [
-        "Unknown"
+        "Cloth"
       ]
     },
     {
@@ -161,7 +161,7 @@
         "Feet"
       ],
       "types": [
-        "Unknown"
+        "Cloth"
       ]
     },
     {
@@ -193,7 +193,7 @@
         "Waist"
       ],
       "types": [
-        "Unknown"
+        "Plate"
       ]
     },
     {
@@ -225,7 +225,7 @@
         "Main Hand"
       ],
       "types": [
-        "Unknown"
+        "Dagger"
       ]
     },
     {
@@ -257,7 +257,7 @@
         "Off Hand"
       ],
       "types": [
-        "Unknown"
+        "Fist Weapon"
       ]
     },
     {
@@ -289,7 +289,7 @@
         "Two-Hand"
       ],
       "types": [
-        "Unknown"
+        "Sword"
       ]
     },
     {
@@ -308,7 +308,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Cold Snap</b><br />Binds when picked up<br />Ranged - Wand<br />87 - 160 Frost Damage - Speed 1.70<br />(72.6 damage per second)<br />+13 Stamina<br />+14 Intellect<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases spell power by 17.</span><br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Cold Snap</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Ranged</td><th>Wand</th></tr></table>87 - 160 Frost Damage - Speed 1.70<br />(72.6 damage per second)<br />+13 Stamina<br />+14 Intellect<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases spell power by 17.</span><br /></td></tr></table>",
       "icon": "inv_wand_01.jpg",
       "dropsFrom": [
         {
@@ -318,10 +318,10 @@
         }
       ],
       "slots": [
-        "Ranged Right"
+        "Ranged"
       ],
       "types": [
-        "Unknown"
+        "Wand"
       ]
     },
     {
@@ -350,7 +350,7 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Unknown"
       ],
       "types": [
         "Unknown"
@@ -373,7 +373,7 @@
         }
       ],
       "slots": [
-        "Bag"
+        "Unknown"
       ],
       "types": [
         "Unknown"
@@ -408,7 +408,7 @@
         "Back"
       ],
       "types": [
-        "Unknown"
+        "Cloak"
       ]
     },
     {
@@ -440,7 +440,7 @@
         "Legs"
       ],
       "types": [
-        "Unknown"
+        "Cloth"
       ]
     },
     {
@@ -472,7 +472,7 @@
         "Feet"
       ],
       "types": [
-        "Unknown"
+        "Leather"
       ]
     },
     {
@@ -504,7 +504,7 @@
         "Legs"
       ],
       "types": [
-        "Unknown"
+        "Mail"
       ]
     },
     {
@@ -536,7 +536,7 @@
         "Shoulder"
       ],
       "types": [
-        "Unknown"
+        "Plate"
       ]
     },
     {
@@ -568,7 +568,7 @@
         "Hands"
       ],
       "types": [
-        "Unknown"
+        "Plate"
       ]
     },
     {
@@ -600,7 +600,7 @@
         "Finger"
       ],
       "types": [
-        "Unknown"
+        "Ring"
       ]
     },
     {
@@ -632,7 +632,7 @@
         "Finger"
       ],
       "types": [
-        "Unknown"
+        "Ring"
       ]
     },
     {
@@ -664,7 +664,7 @@
         "One-Hand"
       ],
       "types": [
-        "Unknown"
+        "Sword"
       ]
     },
     {
@@ -696,7 +696,7 @@
         "Two-Hand"
       ],
       "types": [
-        "Unknown"
+        "Staff"
       ]
     },
     {
@@ -728,7 +728,7 @@
         "Back"
       ],
       "types": [
-        "Unknown"
+        "Cloak"
       ]
     },
     {
@@ -760,7 +760,7 @@
         "Hands"
       ],
       "types": [
-        "Unknown"
+        "Cloth"
       ]
     },
     {
@@ -792,7 +792,7 @@
         "Legs"
       ],
       "types": [
-        "Unknown"
+        "Cloth"
       ]
     },
     {
@@ -824,7 +824,7 @@
         "Chest"
       ],
       "types": [
-        "Unknown"
+        "Leather"
       ]
     },
     {
@@ -856,7 +856,7 @@
         "Head"
       ],
       "types": [
-        "Unknown"
+        "Mail"
       ]
     },
     {
@@ -888,7 +888,7 @@
         "Head"
       ],
       "types": [
-        "Unknown"
+        "Plate"
       ]
     },
     {
@@ -920,7 +920,7 @@
         "Neck"
       ],
       "types": [
-        "Unknown"
+        "Neck"
       ]
     },
     {
@@ -952,7 +952,7 @@
         "Main Hand"
       ],
       "types": [
-        "Unknown"
+        "Dagger"
       ]
     },
     {
@@ -984,7 +984,7 @@
         "Two-Hand"
       ],
       "types": [
-        "Unknown"
+        "Axe"
       ]
     },
     {
@@ -1003,7 +1003,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Barrel-Blade Longrifle</b><br />Binds when equipped<br />Ranged - Gun<br />177 - 316 Damage - Speed 2.60<br />(94.8 damage per second)<br />+16 Agility<br />Red Socket<br />Red Socket<br />Socket Bonus: +10 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases attack power by 27.</span><br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Barrel-Blade Longrifle</b><br />Binds when equipped<br /><table width=\"100%\"><tr><td>Ranged</td><th>Gun</th></tr></table>177 - 316 Damage - Speed 2.60<br />(94.8 damage per second)<br />+16 Agility<br />Red Socket<br />Red Socket<br />Socket Bonus: +10 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases attack power by 27.</span><br /></td></tr></table>",
       "icon": "inv_weapon_rifle_22.jpg",
       "dropsFrom": [
         {
@@ -1013,10 +1013,10 @@
         }
       ],
       "slots": [
-        "Ranged Right"
+        "Ranged"
       ],
       "types": [
-        "Unknown"
+        "Gun"
       ]
     },
     {
@@ -1063,7 +1063,7 @@
         "Back"
       ],
       "types": [
-        "Unknown"
+        "Cloak"
       ]
     },
     {
@@ -1110,7 +1110,7 @@
         "Hands"
       ],
       "types": [
-        "Unknown"
+        "Cloth"
       ]
     },
     {
@@ -1157,7 +1157,7 @@
         "Wrist"
       ],
       "types": [
-        "Unknown"
+        "Leather"
       ]
     },
     {
@@ -1204,7 +1204,7 @@
         "Legs"
       ],
       "types": [
-        "Unknown"
+        "Mail"
       ]
     },
     {
@@ -1251,7 +1251,7 @@
         "Wrist"
       ],
       "types": [
-        "Unknown"
+        "Plate"
       ]
     },
     {
@@ -1298,7 +1298,7 @@
         "Feet"
       ],
       "types": [
-        "Unknown"
+        "Plate"
       ]
     },
     {
@@ -1317,7 +1317,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Trance Stone</b><br />Binds when picked up<br />Unique<br /><table width=\"100%\"><tr><td>Held In Off-hand</td><th></th></tr></table>+16 Stamina<br />+15 Intellect<br />+15 Spirit<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases spell power by 26.</span><br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Trance Stone</b><br />Binds when picked up<br />Unique<br />Held In Off-hand<br />+16 Stamina<br />+15 Intellect<br />+15 Spirit<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases spell power by 26.</span><br /></td></tr></table>",
       "icon": "inv_misc_orb_01.jpg",
       "dropsFrom": [
         {
@@ -1342,7 +1342,7 @@
         }
       ],
       "slots": [
-        "Held In Off-hand"
+        "Unknown"
       ],
       "types": [
         "Unknown"
@@ -1392,7 +1392,7 @@
         "One-Hand"
       ],
       "types": [
-        "Unknown"
+        "Mace"
       ]
     },
     {
@@ -1439,7 +1439,7 @@
         "Two-Hand"
       ],
       "types": [
-        "Unknown"
+        "Staff"
       ]
     },
     {
@@ -1483,7 +1483,7 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Unknown"
       ],
       "types": [
         "Unknown"
@@ -1533,7 +1533,7 @@
         "Finger"
       ],
       "types": [
-        "Unknown"
+        "Ring"
       ]
     },
     {
@@ -1565,7 +1565,7 @@
         "Head"
       ],
       "types": [
-        "Unknown"
+        "Leather"
       ]
     },
     {
@@ -1597,7 +1597,7 @@
         "Feet"
       ],
       "types": [
-        "Unknown"
+        "Mail"
       ]
     },
     {
@@ -1629,7 +1629,7 @@
         "Neck"
       ],
       "types": [
-        "Unknown"
+        "Neck"
       ]
     },
     {
@@ -1661,7 +1661,7 @@
         "Finger"
       ],
       "types": [
-        "Unknown"
+        "Ring"
       ]
     },
     {
@@ -1680,7 +1680,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Polished Ironwood Crossbow</b><br />Binds when picked up<br />Unique<br />Ranged - Crossbow<br />224 - 354 Damage - Speed 3.10<br />(93.2 damage per second)<br />+14 Stamina<br />+7 Nature Resistance<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases attack power by 38.</span><br /><span class=\"q2\">Equip: Improves hit rating by 12.</span><br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Polished Ironwood Crossbow</b><br />Binds when picked up<br />Unique<br /><table width=\"100%\"><tr><td>Ranged</td><th>Crossbow</th></tr></table>224 - 354 Damage - Speed 3.10<br />(93.2 damage per second)<br />+14 Stamina<br />+7 Nature Resistance<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases attack power by 38.</span><br /><span class=\"q2\">Equip: Improves hit rating by 12.</span><br /></td></tr></table>",
       "icon": "inv_weapon_crossbow_11.jpg",
       "dropsFrom": [
         {
@@ -1690,10 +1690,10 @@
         }
       ],
       "slots": [
-        "Ranged Right"
+        "Ranged"
       ],
       "types": [
-        "Unknown"
+        "Crossbow"
       ]
     },
     {
@@ -1725,7 +1725,7 @@
         "Wrist"
       ],
       "types": [
-        "Unknown"
+        "Cloth"
       ]
     },
     {
@@ -1757,7 +1757,7 @@
         "Waist"
       ],
       "types": [
-        "Unknown"
+        "Cloth"
       ]
     },
     {
@@ -1789,7 +1789,7 @@
         "Head"
       ],
       "types": [
-        "Unknown"
+        "Leather"
       ]
     },
     {
@@ -1821,7 +1821,7 @@
         "Legs"
       ],
       "types": [
-        "Unknown"
+        "Leather"
       ]
     },
     {
@@ -1853,7 +1853,7 @@
         "Feet"
       ],
       "types": [
-        "Unknown"
+        "Mail"
       ]
     },
     {
@@ -1885,7 +1885,7 @@
         "Hands"
       ],
       "types": [
-        "Unknown"
+        "Plate"
       ]
     },
     {
@@ -1917,7 +1917,7 @@
         "Feet"
       ],
       "types": [
-        "Unknown"
+        "Cloth"
       ]
     },
     {
@@ -1949,7 +1949,7 @@
         "Shoulder"
       ],
       "types": [
-        "Unknown"
+        "Leather"
       ]
     },
     {
@@ -1981,7 +1981,7 @@
         "Feet"
       ],
       "types": [
-        "Unknown"
+        "Leather"
       ]
     },
     {
@@ -2013,7 +2013,7 @@
         "Finger"
       ],
       "types": [
-        "Unknown"
+        "Ring"
       ]
     },
     {
@@ -2045,7 +2045,7 @@
         "One-Hand"
       ],
       "types": [
-        "Unknown"
+        "Sword"
       ]
     },
     {
@@ -2064,7 +2064,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Jade Inlaid Vestments</b><br />Binds when picked up<br />Chest - Cloth<br />125 Armor<br />+22 Stamina<br />+28 Intellect<br />+24 Spirit<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases spell power by 35.</span><br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Jade Inlaid Vestments</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Chest</td><th>Cloth</th></tr></table>125 Armor<br />+22 Stamina<br />+28 Intellect<br />+24 Spirit<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases spell power by 35.</span><br /></td></tr></table>",
       "icon": "inv_chest_cloth_39.jpg",
       "dropsFrom": [
         {
@@ -2074,10 +2074,10 @@
         }
       ],
       "slots": [
-        "Robe"
+        "Chest"
       ],
       "types": [
-        "Unknown"
+        "Cloth"
       ]
     },
     {
@@ -2109,7 +2109,7 @@
         "Legs"
       ],
       "types": [
-        "Unknown"
+        "Mail"
       ]
     },
     {
@@ -2141,7 +2141,7 @@
         "Shoulder"
       ],
       "types": [
-        "Unknown"
+        "Plate"
       ]
     },
     {
@@ -2173,7 +2173,7 @@
         "Legs"
       ],
       "types": [
-        "Unknown"
+        "Plate"
       ]
     },
     {
@@ -2205,7 +2205,7 @@
         "Trinket"
       ],
       "types": [
-        "Unknown"
+        "Trinket"
       ]
     },
     {
@@ -2237,7 +2237,7 @@
         "One-Hand"
       ],
       "types": [
-        "Unknown"
+        "Dagger"
       ]
     }
   ],

@@ -48,7 +48,7 @@
         "Shoulder"
       ],
       "types": [
-        "Unknown"
+        "Leather"
       ]
     },
     {
@@ -95,7 +95,7 @@
         "Shoulder"
       ],
       "types": [
-        "Unknown"
+        "Leather"
       ]
     },
     {
@@ -142,7 +142,7 @@
         "Head"
       ],
       "types": [
-        "Unknown"
+        "Mail"
       ]
     },
     {
@@ -189,7 +189,7 @@
         "Shoulder"
       ],
       "types": [
-        "Unknown"
+        "Mail"
       ]
     },
     {
@@ -236,7 +236,7 @@
         "Chest"
       ],
       "types": [
-        "Unknown"
+        "Plate"
       ]
     },
     {
@@ -283,7 +283,7 @@
         "Legs"
       ],
       "types": [
-        "Unknown"
+        "Plate"
       ]
     },
     {
@@ -330,7 +330,7 @@
         "Finger"
       ],
       "types": [
-        "Unknown"
+        "Ring"
       ]
     },
     {
@@ -377,7 +377,7 @@
         "Trinket"
       ],
       "types": [
-        "Unknown"
+        "Trinket"
       ]
     },
     {
@@ -424,7 +424,7 @@
         "Trinket"
       ],
       "types": [
-        "Unknown"
+        "Trinket"
       ]
     },
     {
@@ -471,7 +471,7 @@
         "Two-Hand"
       ],
       "types": [
-        "Unknown"
+        "Staff"
       ]
     },
     {
@@ -515,7 +515,7 @@
         }
       ],
       "slots": [
-        "Bag"
+        "Unknown"
       ],
       "types": [
         "Unknown"
@@ -562,7 +562,7 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Unknown"
       ],
       "types": [
         "Unknown"
@@ -602,7 +602,7 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Unknown"
       ],
       "types": [
         "Unknown"
@@ -642,7 +642,7 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Unknown"
       ],
       "types": [
         "Unknown"
@@ -683,7 +683,7 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Unknown"
       ],
       "types": [
         "Unknown"
@@ -705,7 +705,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">The Sanctum's Flowing Vestments</b><br />Binds when picked up<br />Chest - Cloth<br />127 Armor<br />+27 Stamina<br />+28 Intellect<br />+18 Spirit<br />Red Socket<br />Socket Bonus: +2 Intellect<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases spell power by 35.</span><br /><span class=\"q2\">Equip: Improves haste rating by 15.</span><br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">The Sanctum's Flowing Vestments</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Chest</td><th>Cloth</th></tr></table>127 Armor<br />+27 Stamina<br />+28 Intellect<br />+18 Spirit<br />Red Socket<br />Socket Bonus: +2 Intellect<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases spell power by 35.</span><br /><span class=\"q2\">Equip: Improves haste rating by 15.</span><br /></td></tr></table>",
       "icon": "inv_chest_cloth_63.jpg",
       "dropsFrom": [
         {
@@ -725,10 +725,10 @@
         }
       ],
       "slots": [
-        "Robe"
+        "Chest"
       ],
       "types": [
-        "Unknown"
+        "Cloth"
       ]
     },
     {
@@ -770,7 +770,7 @@
         "Shoulder"
       ],
       "types": [
-        "Unknown"
+        "Mail"
       ]
     },
     {
@@ -812,7 +812,7 @@
         "Hands"
       ],
       "types": [
-        "Unknown"
+        "Mail"
       ]
     },
     {
@@ -854,7 +854,7 @@
         "Chest"
       ],
       "types": [
-        "Unknown"
+        "Plate"
       ]
     },
     {
@@ -891,7 +891,7 @@
         "Back"
       ],
       "types": [
-        "Unknown"
+        "Cloak"
       ]
     },
     {
@@ -928,7 +928,7 @@
         "Wrist"
       ],
       "types": [
-        "Unknown"
+        "Cloth"
       ]
     },
     {
@@ -965,7 +965,7 @@
         "Head"
       ],
       "types": [
-        "Unknown"
+        "Leather"
       ]
     },
     {
@@ -1002,7 +1002,7 @@
         "Legs"
       ],
       "types": [
-        "Unknown"
+        "Leather"
       ]
     },
     {
@@ -1039,7 +1039,7 @@
         "Head"
       ],
       "types": [
-        "Unknown"
+        "Plate"
       ]
     },
     {
@@ -1068,7 +1068,7 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Unknown"
       ],
       "types": [
         "Unknown"

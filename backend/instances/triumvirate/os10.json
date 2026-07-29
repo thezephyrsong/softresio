@@ -48,7 +48,7 @@
         "Head"
       ],
       "types": [
-        "Unknown"
+        "Plate"
       ]
     },
     {
@@ -95,7 +95,7 @@
         "Neck"
       ],
       "types": [
-        "Unknown"
+        "Neck"
       ]
     },
     {
@@ -142,7 +142,7 @@
         "Finger"
       ],
       "types": [
-        "Unknown"
+        "Ring"
       ]
     },
     {
@@ -189,7 +189,7 @@
         "Finger"
       ],
       "types": [
-        "Unknown"
+        "Ring"
       ]
     },
     {
@@ -236,7 +236,7 @@
         "Trinket"
       ],
       "types": [
-        "Unknown"
+        "Trinket"
       ]
     },
     {
@@ -283,7 +283,7 @@
         "Main Hand"
       ],
       "types": [
-        "Unknown"
+        "Fist Weapon"
       ]
     },
     {
@@ -327,7 +327,7 @@
         }
       ],
       "slots": [
-        "Bag"
+        "Unknown"
       ],
       "types": [
         "Unknown"
@@ -374,7 +374,7 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Unknown"
       ],
       "types": [
         "Unknown"
@@ -414,7 +414,7 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Unknown"
       ],
       "types": [
         "Unknown"
@@ -454,7 +454,7 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Unknown"
       ],
       "types": [
         "Unknown"
@@ -495,7 +495,7 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Unknown"
       ],
       "types": [
         "Unknown"
@@ -540,7 +540,7 @@
         "Back"
       ],
       "types": [
-        "Unknown"
+        "Cloak"
       ]
     },
     {
@@ -582,7 +582,7 @@
         "Chest"
       ],
       "types": [
-        "Unknown"
+        "Leather"
       ]
     },
     {
@@ -624,7 +624,7 @@
         "Legs"
       ],
       "types": [
-        "Unknown"
+        "Leather"
       ]
     },
     {
@@ -666,7 +666,7 @@
         "Waist"
       ],
       "types": [
-        "Unknown"
+        "Plate"
       ]
     },
     {
@@ -708,7 +708,7 @@
         "Neck"
       ],
       "types": [
-        "Unknown"
+        "Neck"
       ]
     },
     {
@@ -740,7 +740,7 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Unknown"
       ],
       "types": [
         "Unknown"
@@ -775,7 +775,7 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Unknown"
       ],
       "types": [
         "Unknown"
@@ -811,7 +811,7 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Unknown"
       ],
       "types": [
         "Unknown"
@@ -851,7 +851,7 @@
         "Head"
       ],
       "types": [
-        "Unknown"
+        "Cloth"
       ]
     },
     {
@@ -888,7 +888,7 @@
         "Chest"
       ],
       "types": [
-        "Unknown"
+        "Mail"
       ]
     },
     {
@@ -925,7 +925,7 @@
         "Feet"
       ],
       "types": [
-        "Unknown"
+        "Mail"
       ]
     },
     {
@@ -962,7 +962,7 @@
         "Legs"
       ],
       "types": [
-        "Unknown"
+        "Plate"
       ]
     },
     {
@@ -999,7 +999,7 @@
         "Finger"
       ],
       "types": [
-        "Unknown"
+        "Ring"
       ]
     },
     {
@@ -1028,7 +1028,7 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Unknown"
       ],
       "types": [
         "Unknown"

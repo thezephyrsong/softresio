@@ -499,12 +499,39 @@ def load_triumdump():
 KNOWN_SLOT_LABELS = sorted(set(SLOT_MAP.values()) | {"Non-equippable"}, key=len, reverse=True)
 
 
-def detect_slot_label_from_lines(lines):
-    for line in lines[1:4]:
-        for label in KNOWN_SLOT_LABELS:
-            if line == label or line.startswith(label + " "):
-                return label
-    return ""
+def extract_slot_and_type(triumdump_lines):
+    """
+    Parses TriumDump tooltip lines to extract slot (e.g., "Legs", "Back") 
+    and subtype (e.g., "Cloth", "Leather", "Dagger", "Cloak").
+    """
+    # Mapping for standalone slots without a " - Subtype" string
+    STANDALONE_SLOTS = {
+        "Back": ("Back", "Cloak"),
+        "Trinket": ("Trinket", "Trinket"),
+        "Finger": ("Finger", "Ring"),
+        "Neck": ("Neck", "Neck"),
+        "Shield": ("Shield", "Shield"),
+        "Held in Off-hand": ("Held in Off-hand", "Off-Hand"),
+        "Shirt": ("Shirt", "Shirt"),
+        "Tabard": ("Tabard", "Tabard"),
+        "Relic": ("Relic", "Relic"),
+    }
+
+    # IMPORTANT: Only scan lines 1-5. Item slot/type is always near the top.
+    # Scanning all lines causes false-positives on equip effects or set bonuses with " - ".
+    for line in triumdump_lines[1:6]:
+        line_clean = line.strip()
+
+        # Handle lines formatted as "Slot - Subtype" (e.g., "Legs - Cloth", "Hands - Cloth")
+        if " - " in line_clean:
+            parts = [p.strip() for p in line_clean.split(" - ", 1)]
+            return parts[0], parts[1]
+
+        # Handle single-word slot lines (e.g., "Back", "Trinket")
+        if line_clean in STANDALONE_SLOTS:
+            return STANDALONE_SLOTS[line_clean]
+
+    return "Unknown", "Unknown"
 
 
 def _resolve_quality_slot_classes(item, fallback_lines):
@@ -550,22 +577,26 @@ def get_item_info_local_only(item_id, icon_hint="inv_misc_questionmark"):
 
     if triumdump_lines:
         item_name = triumdump_lines[0]
+        
+        # Extract slot and item type directly from TriumDump lines
+        slot_label, item_type = extract_slot_and_type(triumdump_lines)
+
         if db_item:
-            quality, slot_label, classes = _resolve_quality_slot_classes(db_item, triumdump_lines)
+            quality, _, classes = _resolve_quality_slot_classes(db_item, triumdump_lines)
         else:
             quality = 4
-            slot_label = detect_slot_label_from_lines(triumdump_lines)
             classes = get_classes_from_tooltip(triumdump_lines)
 
         tooltip_html = build_tooltip_html(item_name, quality, triumdump_lines, slot_label)
+        
         return {
             "name": item_name,
             "quality": quality,
             "tooltip": tooltip_html,
             "icon": icon_formatted,
             "classes": classes,
-            "slots": [slot_label] if slot_label else ["Unknown"],
-            "types": ["Unknown"],
+            "slots": [slot_label] if slot_label != "Unknown" else ["Unknown"],
+            "types": [item_type] if item_type != "Unknown" else ["Unknown"],
             "is_missing": False
         }
 

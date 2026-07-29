@@ -33,7 +33,7 @@
         "Back"
       ],
       "types": [
-        "Unknown"
+        "Cloak"
       ]
     },
     {
@@ -56,7 +56,7 @@
         "Head"
       ],
       "types": [
-        "Unknown"
+        "Cloth"
       ]
     },
     {
@@ -79,7 +79,7 @@
         "Head"
       ],
       "types": [
-        "Unknown"
+        "Cloth"
       ]
     },
     {
@@ -102,7 +102,7 @@
         "Head"
       ],
       "types": [
-        "Unknown"
+        "Cloth"
       ]
     },
     {
@@ -125,7 +125,7 @@
         "Head"
       ],
       "types": [
-        "Unknown"
+        "Cloth"
       ]
     },
     {
@@ -148,7 +148,7 @@
         "Head"
       ],
       "types": [
-        "Unknown"
+        "Leather"
       ]
     },
     {
@@ -171,7 +171,7 @@
         "Head"
       ],
       "types": [
-        "Unknown"
+        "Leather"
       ]
     },
     {
@@ -194,7 +194,7 @@
         "Head"
       ],
       "types": [
-        "Unknown"
+        "Leather"
       ]
     },
     {
@@ -217,7 +217,7 @@
         "Head"
       ],
       "types": [
-        "Unknown"
+        "Leather"
       ]
     },
     {
@@ -240,7 +240,7 @@
         "Head"
       ],
       "types": [
-        "Unknown"
+        "Mail"
       ]
     },
     {
@@ -263,7 +263,7 @@
         "Head"
       ],
       "types": [
-        "Unknown"
+        "Mail"
       ]
     },
     {
@@ -286,7 +286,7 @@
         "Head"
       ],
       "types": [
-        "Unknown"
+        "Mail"
       ]
     },
     {
@@ -309,7 +309,7 @@
         "Head"
       ],
       "types": [
-        "Unknown"
+        "Mail"
       ]
     },
     {
@@ -332,7 +332,7 @@
         "Head"
       ],
       "types": [
-        "Unknown"
+        "Plate"
       ]
     },
     {
@@ -355,7 +355,7 @@
         "Head"
       ],
       "types": [
-        "Unknown"
+        "Plate"
       ]
     },
     {
@@ -378,7 +378,7 @@
         "Head"
       ],
       "types": [
-        "Unknown"
+        "Plate"
       ]
     },
     {
@@ -401,7 +401,7 @@
         "Head"
       ],
       "types": [
-        "Unknown"
+        "Plate"
       ]
     },
     {
@@ -424,7 +424,7 @@
         "Head"
       ],
       "types": [
-        "Unknown"
+        "Plate"
       ]
     },
     {
@@ -447,7 +447,7 @@
         "Head"
       ],
       "types": [
-        "Unknown"
+        "Plate"
       ]
     },
     {
@@ -470,7 +470,7 @@
         "Head"
       ],
       "types": [
-        "Unknown"
+        "Plate"
       ]
     },
     {
@@ -502,7 +502,7 @@
         "Neck"
       ],
       "types": [
-        "Unknown"
+        "Neck"
       ]
     },
     {
@@ -534,7 +534,7 @@
         "Finger"
       ],
       "types": [
-        "Unknown"
+        "Ring"
       ]
     },
     {
@@ -566,7 +566,7 @@
         "Trinket"
       ],
       "types": [
-        "Unknown"
+        "Trinket"
       ]
     },
     {
@@ -598,7 +598,7 @@
         "Trinket"
       ],
       "types": [
-        "Unknown"
+        "Trinket"
       ]
     },
     {
@@ -617,7 +617,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Antediluvian Cornerstone Grimoire</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Held In Off-hand</td><th></th></tr></table>+18 Stamina<br />+20 Intellect<br />+16 Spirit<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases spell power by 27.</span><br /><span class=\"q2\">Use: Summons a Skeleton that will protect you for 1 min. (15 Min Cooldown)</span><br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Antediluvian Cornerstone Grimoire</b><br />Binds when picked up<br />Held In Off-hand<br />+18 Stamina<br />+20 Intellect<br />+16 Spirit<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases spell power by 27.</span><br /><span class=\"q2\">Use: Summons a Skeleton that will protect you for 1 min. (15 Min Cooldown)</span><br /></td></tr></table>",
       "icon": "inv_misc_book_07.jpg",
       "dropsFrom": [
         {
@@ -627,7 +627,7 @@
         }
       ],
       "slots": [
-        "Held In Off-hand"
+        "Unknown"
       ],
       "types": [
         "Unknown"
@@ -662,7 +662,7 @@
         "Main Hand"
       ],
       "types": [
-        "Unknown"
+        "Dagger"
       ]
     },
     {
@@ -694,7 +694,7 @@
         "One-Hand"
       ],
       "types": [
-        "Unknown"
+        "Dagger"
       ]
     },
     {
@@ -726,7 +726,7 @@
         "Main Hand"
       ],
       "types": [
-        "Unknown"
+        "Sword"
       ]
     },
     {
@@ -751,7 +751,7 @@
         "One-Hand"
       ],
       "types": [
-        "Unknown"
+        "Sword"
       ]
     },
     {
@@ -783,7 +783,7 @@
         "One-Hand"
       ],
       "types": [
-        "Unknown"
+        "Sword"
       ]
     },
     {
@@ -815,7 +815,7 @@
         "Two-Hand"
       ],
       "types": [
-        "Unknown"
+        "Sword"
       ]
     },
     {
@@ -847,7 +847,7 @@
         "One-Hand"
       ],
       "types": [
-        "Unknown"
+        "Axe"
       ]
     },
     {
@@ -879,7 +879,7 @@
         "Two-Hand"
       ],
       "types": [
-        "Unknown"
+        "Polearm"
       ]
     },
     {
@@ -911,7 +911,7 @@
         "Two-Hand"
       ],
       "types": [
-        "Unknown"
+        "Polearm"
       ]
     },
     {
@@ -930,7 +930,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Rifled Blastershot Launcher</b><br />Binds when picked up<br />Ranged - Gun<br />214 - 335 Damage - Speed 2.90<br />(94.7 damage per second)<br />+15 Agility<br />+14 Stamina<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves critical strike rating by 15.</span><br /><span class=\"q2\">Equip: Increases attack power by 34.</span><br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Rifled Blastershot Launcher</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Ranged</td><th>Gun</th></tr></table>214 - 335 Damage - Speed 2.90<br />(94.7 damage per second)<br />+15 Agility<br />+14 Stamina<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves critical strike rating by 15.</span><br /><span class=\"q2\">Equip: Increases attack power by 34.</span><br /></td></tr></table>",
       "icon": "inv_weapon_rifle_09.jpg",
       "dropsFrom": [
         {
@@ -940,10 +940,10 @@
         }
       ],
       "slots": [
-        "Ranged Right"
+        "Ranged"
       ],
       "types": [
-        "Unknown"
+        "Gun"
       ]
     },
     {
@@ -972,7 +972,7 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Unknown"
       ],
       "types": [
         "Unknown"
@@ -1007,7 +1007,7 @@
         "Neck"
       ],
       "types": [
-        "Unknown"
+        "Neck"
       ]
     },
     {
@@ -1039,7 +1039,7 @@
         "Finger"
       ],
       "types": [
-        "Unknown"
+        "Ring"
       ]
     },
     {
@@ -1071,7 +1071,7 @@
         "Trinket"
       ],
       "types": [
-        "Unknown"
+        "Trinket"
       ]
     },
     {
@@ -1100,7 +1100,7 @@
         }
       ],
       "slots": [
-        "Bag"
+        "Unknown"
       ],
       "types": [
         "Unknown"
@@ -1132,7 +1132,7 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Unknown"
       ],
       "types": [
         "Unknown"
@@ -1164,7 +1164,7 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Unknown"
       ],
       "types": [
         "Unknown"
@@ -1189,7 +1189,7 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Unknown"
       ],
       "types": [
         "Unknown"
@@ -1214,7 +1214,7 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Unknown"
       ],
       "types": [
         "Unknown"
@@ -1240,7 +1240,7 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Unknown"
       ],
       "types": [
         "Unknown"

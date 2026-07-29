@@ -35,7 +35,7 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Unknown"
       ],
       "types": [
         "Unknown"
@@ -72,7 +72,7 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Unknown"
       ],
       "types": [
         "Unknown"
@@ -104,7 +104,7 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Unknown"
       ],
       "types": [
         "Unknown"
@@ -141,7 +141,7 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Unknown"
       ],
       "types": [
         "Unknown"
@@ -163,7 +163,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Drillborer Disk</b><br />Binds when picked up<br />Off Hand - Shield<br />3020 Armor<br />62 Block<br />+34 Stamina<br />Blue Socket<br />Socket Bonus: +3 Stamina<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your shield block rating by 15.</span><br /><span class=\"q2\">Equip: Increases the block value of your shield by 44.</span><br /><span class=\"q2\">Equip: When struck in combat inflicts 25 Arcane damage to the attacker.</span><br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Drillborer Disk</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Off Hand</td><th>Shield</th></tr></table>3020 Armor<br />62 Block<br />+34 Stamina<br />Blue Socket<br />Socket Bonus: +3 Stamina<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your shield block rating by 15.</span><br /><span class=\"q2\">Equip: Increases the block value of your shield by 44.</span><br /><span class=\"q2\">Equip: When struck in combat inflicts 25 Arcane damage to the attacker.</span><br /></td></tr></table>",
       "icon": "inv_shield_10.jpg",
       "dropsFrom": [
         {
@@ -173,10 +173,10 @@
         }
       ],
       "slots": [
-        "Shield"
+        "Off Hand"
       ],
       "types": [
-        "Unknown"
+        "Shield"
       ]
     },
     {
@@ -208,7 +208,7 @@
         "One-Hand"
       ],
       "types": [
-        "Unknown"
+        "Dagger"
       ]
     },
     {
@@ -240,7 +240,7 @@
         "Main Hand"
       ],
       "types": [
-        "Unknown"
+        "Mace"
       ]
     },
     {
@@ -269,7 +269,7 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Unknown"
       ],
       "types": [
         "Unknown"
@@ -319,7 +319,7 @@
         "Trinket"
       ],
       "types": [
-        "Unknown"
+        "Trinket"
       ]
     },
     {
@@ -366,7 +366,7 @@
         "Finger"
       ],
       "types": [
-        "Unknown"
+        "Ring"
       ]
     },
     {
@@ -413,7 +413,7 @@
         "Two-Hand"
       ],
       "types": [
-        "Unknown"
+        "Sword"
       ]
     },
     {
@@ -460,7 +460,7 @@
         "Hands"
       ],
       "types": [
-        "Unknown"
+        "Leather"
       ]
     },
     {
@@ -507,7 +507,7 @@
         "Feet"
       ],
       "types": [
-        "Unknown"
+        "Plate"
       ]
     },
     {
@@ -554,7 +554,7 @@
         "Shoulder"
       ],
       "types": [
-        "Unknown"
+        "Mail"
       ]
     },
     {
@@ -586,7 +586,7 @@
         "One-Hand"
       ],
       "types": [
-        "Unknown"
+        "Sword"
       ]
     },
     {
@@ -615,8 +615,8 @@
         },
         {
           "chance": 6.25,
-          "bossId": 0,
-          "npcId": 0
+          "bossId": 2,
+          "npcId": 2
         },
         {
           "chance": 6.25,
@@ -630,8 +630,8 @@
         },
         {
           "chance": 6.25,
-          "bossId": 2,
-          "npcId": 2
+          "bossId": 0,
+          "npcId": 0
         },
         {
           "chance": 6.25,
@@ -653,7 +653,7 @@
         "Legs"
       ],
       "types": [
-        "Unknown"
+        "Plate"
       ]
     },
     {
@@ -700,7 +700,7 @@
         "Waist"
       ],
       "types": [
-        "Unknown"
+        "Cloth"
       ]
     },
     {
@@ -719,7 +719,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Fire Runed Grimoire</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Held In Off-hand</td><th></th></tr></table>+17 Stamina<br />+18 Intellect<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases spell power by 28.</span><br /><span class=\"q2\">Equip: Improves critical strike rating by 13.</span><br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Fire Runed Grimoire</b><br />Binds when picked up<br />Held In Off-hand<br />+17 Stamina<br />+18 Intellect<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases spell power by 28.</span><br /><span class=\"q2\">Equip: Improves critical strike rating by 13.</span><br /></td></tr></table>",
       "icon": "inv_misc_book_09.jpg",
       "dropsFrom": [
         {
@@ -744,7 +744,7 @@
         }
       ],
       "slots": [
-        "Held In Off-hand"
+        "Unknown"
       ],
       "types": [
         "Unknown"
@@ -794,7 +794,7 @@
         "Hands"
       ],
       "types": [
-        "Unknown"
+        "Plate"
       ]
     },
     {
@@ -841,7 +841,7 @@
         "Feet"
       ],
       "types": [
-        "Unknown"
+        "Mail"
       ]
     },
     {
@@ -870,8 +870,8 @@
         },
         {
           "chance": 100.0,
-          "bossId": 0,
-          "npcId": 0
+          "bossId": 2,
+          "npcId": 2
         },
         {
           "chance": 100.0,
@@ -885,8 +885,8 @@
         },
         {
           "chance": 100.0,
-          "bossId": 2,
-          "npcId": 2
+          "bossId": 0,
+          "npcId": 0
         },
         {
           "chance": 100.0,
@@ -910,7 +910,7 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Unknown"
       ],
       "types": [
         "Unknown"
@@ -942,8 +942,8 @@
         },
         {
           "chance": 0.2,
-          "bossId": 0,
-          "npcId": 0
+          "bossId": 2,
+          "npcId": 2
         },
         {
           "chance": 0.2,
@@ -957,8 +957,8 @@
         },
         {
           "chance": 0.2,
-          "bossId": 2,
-          "npcId": 2
+          "bossId": 0,
+          "npcId": 0
         },
         {
           "chance": 0.2,
@@ -972,7 +972,7 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Unknown"
       ],
       "types": [
         "Unknown"
@@ -1004,8 +1004,8 @@
         },
         {
           "chance": 0.2,
-          "bossId": 0,
-          "npcId": 0
+          "bossId": 2,
+          "npcId": 2
         },
         {
           "chance": 0.2,
@@ -1019,8 +1019,8 @@
         },
         {
           "chance": 0.2,
-          "bossId": 2,
-          "npcId": 2
+          "bossId": 0,
+          "npcId": 0
         },
         {
           "chance": 0.2,
@@ -1034,7 +1034,7 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Unknown"
       ],
       "types": [
         "Unknown"
@@ -1066,8 +1066,8 @@
         },
         {
           "chance": 0.2,
-          "bossId": 0,
-          "npcId": 0
+          "bossId": 2,
+          "npcId": 2
         },
         {
           "chance": 0.2,
@@ -1081,8 +1081,8 @@
         },
         {
           "chance": 0.2,
-          "bossId": 2,
-          "npcId": 2
+          "bossId": 0,
+          "npcId": 0
         },
         {
           "chance": 0.2,
@@ -1096,7 +1096,7 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Unknown"
       ],
       "types": [
         "Unknown"
@@ -1128,8 +1128,8 @@
         },
         {
           "chance": 0.2,
-          "bossId": 0,
-          "npcId": 0
+          "bossId": 2,
+          "npcId": 2
         },
         {
           "chance": 0.2,
@@ -1143,8 +1143,8 @@
         },
         {
           "chance": 0.2,
-          "bossId": 2,
-          "npcId": 2
+          "bossId": 0,
+          "npcId": 0
         },
         {
           "chance": 0.2,
@@ -1158,7 +1158,7 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Unknown"
       ],
       "types": [
         "Unknown"
@@ -1190,8 +1190,8 @@
         },
         {
           "chance": 0.2,
-          "bossId": 0,
-          "npcId": 0
+          "bossId": 2,
+          "npcId": 2
         },
         {
           "chance": 0.2,
@@ -1205,8 +1205,8 @@
         },
         {
           "chance": 0.2,
-          "bossId": 2,
-          "npcId": 2
+          "bossId": 0,
+          "npcId": 0
         },
         {
           "chance": 0.2,
@@ -1220,7 +1220,7 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Unknown"
       ],
       "types": [
         "Unknown"
@@ -1242,7 +1242,7 @@
         "Druid"
       ],
       "quality": 3,
-      "tooltip": "<table><tr><td><b class=\"q3\">Pattern: Flarecore Wraps</b><br />Requires Tailoring (300)<br />Flarecore Wraps<br />Binds when equipped<br />Wrist - Cloth<br />50 Armor<br />+22 Intellect<br />+7 Fire Resistance<br />Requires Level 60<br />Requires Mooncloth (6), Fiery Core (8), Essence of Fire (2), Enchanted Leather (6), Rune Thread (4)<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: Teaches you how to sew Flarecore Wraps.</span><br /><span class=\"q2\">Equip: Increases spell power by 30.</span><br /><span class=\"q2\">Equip: Restores 7 mana per 5 sec.</span><br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q3\">Pattern: Flarecore Wraps</b><br />Requires Tailoring (300)<br />Flarecore Wraps<br />Binds when equipped<br /><table width=\"100%\"><tr><td>Wrist</td><th>Cloth</th></tr></table>50 Armor<br />+22 Intellect<br />+7 Fire Resistance<br />Requires Level 60<br />Requires Mooncloth (6), Fiery Core (8), Essence of Fire (2), Enchanted Leather (6), Rune Thread (4)<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: Teaches you how to sew Flarecore Wraps.</span><br /><span class=\"q2\">Equip: Increases spell power by 30.</span><br /><span class=\"q2\">Equip: Restores 7 mana per 5 sec.</span><br /></td></tr></table>",
       "icon": "inv_scroll_05.jpg",
       "dropsFrom": [
         {
@@ -1252,8 +1252,8 @@
         },
         {
           "chance": 0.2,
-          "bossId": 0,
-          "npcId": 0
+          "bossId": 2,
+          "npcId": 2
         },
         {
           "chance": 0.2,
@@ -1267,8 +1267,8 @@
         },
         {
           "chance": 0.2,
-          "bossId": 2,
-          "npcId": 2
+          "bossId": 0,
+          "npcId": 0
         },
         {
           "chance": 0.2,
@@ -1282,10 +1282,10 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Wrist"
       ],
       "types": [
-        "Unknown"
+        "Cloth"
       ]
     },
     {
@@ -1314,8 +1314,8 @@
         },
         {
           "chance": 0.2,
-          "bossId": 0,
-          "npcId": 0
+          "bossId": 2,
+          "npcId": 2
         },
         {
           "chance": 0.2,
@@ -1329,8 +1329,8 @@
         },
         {
           "chance": 0.2,
-          "bossId": 2,
-          "npcId": 2
+          "bossId": 0,
+          "npcId": 0
         },
         {
           "chance": 0.2,
@@ -1344,7 +1344,7 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Unknown"
       ],
       "types": [
         "Unknown"
@@ -1376,8 +1376,8 @@
         },
         {
           "chance": 0.2,
-          "bossId": 0,
-          "npcId": 0
+          "bossId": 2,
+          "npcId": 2
         },
         {
           "chance": 0.2,
@@ -1391,8 +1391,8 @@
         },
         {
           "chance": 0.2,
-          "bossId": 2,
-          "npcId": 2
+          "bossId": 0,
+          "npcId": 0
         },
         {
           "chance": 0.2,
@@ -1406,7 +1406,7 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Unknown"
       ],
       "types": [
         "Unknown"
@@ -1438,8 +1438,8 @@
         },
         {
           "chance": 0.2,
-          "bossId": 0,
-          "npcId": 0
+          "bossId": 2,
+          "npcId": 2
         },
         {
           "chance": 0.2,
@@ -1453,8 +1453,8 @@
         },
         {
           "chance": 0.2,
-          "bossId": 2,
-          "npcId": 2
+          "bossId": 0,
+          "npcId": 0
         },
         {
           "chance": 0.2,
@@ -1468,7 +1468,7 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Unknown"
       ],
       "types": [
         "Unknown"
@@ -1500,8 +1500,8 @@
         },
         {
           "chance": 0.2,
-          "bossId": 0,
-          "npcId": 0
+          "bossId": 2,
+          "npcId": 2
         },
         {
           "chance": 0.2,
@@ -1515,8 +1515,8 @@
         },
         {
           "chance": 0.2,
-          "bossId": 2,
-          "npcId": 2
+          "bossId": 0,
+          "npcId": 0
         },
         {
           "chance": 0.2,
@@ -1530,7 +1530,7 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Unknown"
       ],
       "types": [
         "Unknown"
@@ -1557,8 +1557,8 @@
       "dropsFrom": [
         {
           "chance": 30.0,
-          "bossId": 0,
-          "npcId": 0
+          "bossId": 2,
+          "npcId": 2
         },
         {
           "chance": 30.0,
@@ -1567,8 +1567,8 @@
         },
         {
           "chance": 30.0,
-          "bossId": 2,
-          "npcId": 2
+          "bossId": 0,
+          "npcId": 0
         },
         {
           "chance": 30.0,
@@ -1582,7 +1582,7 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Unknown"
       ],
       "types": [
         "Unknown"
@@ -1609,8 +1609,8 @@
       "dropsFrom": [
         {
           "chance": 30.0,
-          "bossId": 0,
-          "npcId": 0
+          "bossId": 2,
+          "npcId": 2
         },
         {
           "chance": 30.0,
@@ -1619,8 +1619,8 @@
         },
         {
           "chance": 30.0,
-          "bossId": 2,
-          "npcId": 2
+          "bossId": 0,
+          "npcId": 0
         },
         {
           "chance": 30.0,
@@ -1639,7 +1639,7 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Unknown"
       ],
       "types": [
         "Unknown"
@@ -1666,8 +1666,8 @@
       "dropsFrom": [
         {
           "chance": 40.0,
-          "bossId": 0,
-          "npcId": 0
+          "bossId": 2,
+          "npcId": 2
         },
         {
           "chance": 50.0,
@@ -1676,8 +1676,8 @@
         },
         {
           "chance": 40.0,
-          "bossId": 2,
-          "npcId": 2
+          "bossId": 0,
+          "npcId": 0
         },
         {
           "chance": 40.0,
@@ -1701,47 +1701,15 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Unknown"
       ],
       "types": [
         "Unknown"
       ]
     },
     {
-      "id": 17109,
-      "name": "Choker of Enlightenment",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Choker of Enlightenment</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Neck</td><th></th></tr></table>+20 Stamina<br />+20 Intellect<br />+17 Spirit<br />Yellow Socket<br />Socket Bonus: +2 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases spell power by 33.</span><br /><span class=\"q2\">Equip: Improves haste rating by 14.</span><br /></td></tr></table>",
-      "icon": "inv_jewelry_necklace_10.jpg",
-      "dropsFrom": [
-        {
-          "chance": 0.0,
-          "bossId": 0,
-          "npcId": 0
-        }
-      ],
-      "slots": [
-        "Neck"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 17329,
-      "name": "Hand of Lucifron",
+      "id": 17331,
+      "name": "Hand of Gehennas",
       "classes": [
         "Warrior",
         "Paladin",
@@ -1755,17 +1723,17 @@
         "Druid"
       ],
       "quality": 1,
-      "tooltip": "<table><tr><td><b class=\"q1\">Hand of Lucifron</b><br />Quest Item<br /></td></tr></table>",
-      "icon": "inv_gauntlets_26.jpg",
+      "tooltip": "<table><tr><td><b class=\"q1\">Hand of Gehennas</b><br />Quest Item<br /></td></tr></table>",
+      "icon": "spell_fire_immolation.jpg",
       "dropsFrom": [
         {
           "chance": 100.0,
-          "bossId": 0,
-          "npcId": 0
+          "bossId": 2,
+          "npcId": 2
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Unknown"
       ],
       "types": [
         "Unknown"
@@ -1787,18 +1755,18 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Crimson Shocker</b><br />Binds when picked up<br />Ranged - Wand<br />159 - 235 Fire Damage - Speed 2.00<br />(98.5 damage per second)<br />+12 Intellect<br />+10 Fire Resistance<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases spell power by 18.</span><br /><span class=\"q2\">Equip: Improves hit rating by 10.</span><br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Crimson Shocker</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Ranged</td><th>Wand</th></tr></table>159 - 235 Fire Damage - Speed 2.00<br />(98.5 damage per second)<br />+12 Intellect<br />+10 Fire Resistance<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases spell power by 18.</span><br /><span class=\"q2\">Equip: Improves hit rating by 10.</span><br /></td></tr></table>",
       "icon": "inv_staff_13.jpg",
       "dropsFrom": [
         {
           "chance": 6.25,
-          "bossId": 0,
-          "npcId": 0
+          "bossId": 2,
+          "npcId": 2
         },
         {
           "chance": 6.25,
-          "bossId": 2,
-          "npcId": 2
+          "bossId": 0,
+          "npcId": 0
         },
         {
           "chance": 6.25,
@@ -1812,10 +1780,10 @@
         }
       ],
       "slots": [
-        "Ranged Right"
+        "Ranged"
       ],
       "types": [
-        "Unknown"
+        "Wand"
       ]
     },
     {
@@ -1839,13 +1807,13 @@
       "dropsFrom": [
         {
           "chance": 6.25,
-          "bossId": 0,
-          "npcId": 0
+          "bossId": 2,
+          "npcId": 2
         },
         {
           "chance": 6.25,
-          "bossId": 2,
-          "npcId": 2
+          "bossId": 0,
+          "npcId": 0
         },
         {
           "chance": 6.25,
@@ -1862,7 +1830,7 @@
         "Head"
       ],
       "types": [
-        "Unknown"
+        "Mail"
       ]
     },
     {
@@ -1886,13 +1854,13 @@
       "dropsFrom": [
         {
           "chance": 6.25,
-          "bossId": 0,
-          "npcId": 0
+          "bossId": 2,
+          "npcId": 2
         },
         {
           "chance": 6.25,
-          "bossId": 2,
-          "npcId": 2
+          "bossId": 0,
+          "npcId": 0
         },
         {
           "chance": 6.25,
@@ -1909,7 +1877,7 @@
         "Legs"
       ],
       "types": [
-        "Unknown"
+        "Cloth"
       ]
     },
     {
@@ -1933,13 +1901,13 @@
       "dropsFrom": [
         {
           "chance": 6.25,
-          "bossId": 0,
-          "npcId": 0
+          "bossId": 2,
+          "npcId": 2
         },
         {
           "chance": 6.25,
-          "bossId": 2,
-          "npcId": 2
+          "bossId": 0,
+          "npcId": 0
         },
         {
           "chance": 6.25,
@@ -1956,7 +1924,7 @@
         "Legs"
       ],
       "types": [
-        "Unknown"
+        "Leather"
       ]
     },
     {
@@ -1980,13 +1948,13 @@
       "dropsFrom": [
         {
           "chance": 6.25,
-          "bossId": 0,
-          "npcId": 0
+          "bossId": 2,
+          "npcId": 2
         },
         {
           "chance": 6.25,
-          "bossId": 2,
-          "npcId": 2
+          "bossId": 0,
+          "npcId": 0
         },
         {
           "chance": 6.25,
@@ -2003,7 +1971,7 @@
         "Main Hand"
       ],
       "types": [
-        "Unknown"
+        "Dagger"
       ]
     },
     {
@@ -2027,13 +1995,13 @@
       "dropsFrom": [
         {
           "chance": 6.25,
-          "bossId": 0,
-          "npcId": 0
+          "bossId": 2,
+          "npcId": 2
         },
         {
           "chance": 6.25,
-          "bossId": 2,
-          "npcId": 2
+          "bossId": 0,
+          "npcId": 0
         },
         {
           "chance": 6.25,
@@ -2050,7 +2018,7 @@
         "Finger"
       ],
       "types": [
-        "Unknown"
+        "Ring"
       ]
     },
     {
@@ -2069,18 +2037,18 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Robe of Volatile Power</b><br />Binds when picked up<br />Chest - Cloth<br />132 Armor<br />+25 Stamina<br />+32 Intellect<br />+24 Spirit<br />Red Socket<br />Blue Socket<br />Socket Bonus: +4 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves critical strike rating by 17.</span><br /><span class=\"q2\">Equip: Increases spell power by 37.</span><br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Robe of Volatile Power</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Chest</td><th>Cloth</th></tr></table>132 Armor<br />+25 Stamina<br />+32 Intellect<br />+24 Spirit<br />Red Socket<br />Blue Socket<br />Socket Bonus: +4 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves critical strike rating by 17.</span><br /><span class=\"q2\">Equip: Increases spell power by 37.</span><br /></td></tr></table>",
       "icon": "inv_chest_cloth_18.jpg",
       "dropsFrom": [
         {
           "chance": 6.25,
-          "bossId": 0,
-          "npcId": 0
+          "bossId": 2,
+          "npcId": 2
         },
         {
           "chance": 6.25,
-          "bossId": 2,
-          "npcId": 2
+          "bossId": 0,
+          "npcId": 0
         },
         {
           "chance": 6.25,
@@ -2094,10 +2062,10 @@
         }
       ],
       "slots": [
-        "Robe"
+        "Chest"
       ],
       "types": [
-        "Unknown"
+        "Cloth"
       ]
     },
     {
@@ -2121,13 +2089,13 @@
       "dropsFrom": [
         {
           "chance": 6.25,
-          "bossId": 0,
-          "npcId": 0
+          "bossId": 2,
+          "npcId": 2
         },
         {
           "chance": 6.25,
-          "bossId": 2,
-          "npcId": 2
+          "bossId": 0,
+          "npcId": 0
         },
         {
           "chance": 6.25,
@@ -2144,7 +2112,7 @@
         "Wrist"
       ],
       "types": [
-        "Unknown"
+        "Leather"
       ]
     },
     {
@@ -2168,13 +2136,13 @@
       "dropsFrom": [
         {
           "chance": 6.25,
-          "bossId": 0,
-          "npcId": 0
+          "bossId": 2,
+          "npcId": 2
         },
         {
           "chance": 6.25,
-          "bossId": 2,
-          "npcId": 2
+          "bossId": 0,
+          "npcId": 0
         },
         {
           "chance": 6.25,
@@ -2191,7 +2159,7 @@
         "Finger"
       ],
       "types": [
-        "Unknown"
+        "Ring"
       ]
     },
     {
@@ -2220,7 +2188,7 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Unknown"
       ],
       "types": [
         "Unknown"
@@ -2252,7 +2220,7 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Unknown"
       ],
       "types": [
         "Unknown"
@@ -2287,7 +2255,7 @@
         "Finger"
       ],
       "types": [
-        "Unknown"
+        "Ring"
       ]
     },
     {
@@ -2316,7 +2284,7 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Unknown"
       ],
       "types": [
         "Unknown"
@@ -2351,7 +2319,7 @@
         "Neck"
       ],
       "types": [
-        "Unknown"
+        "Neck"
       ]
     },
     {
@@ -2383,7 +2351,7 @@
         "Ranged"
       ],
       "types": [
-        "Unknown"
+        "Bow"
       ]
     },
     {
@@ -2415,7 +2383,7 @@
         "Two-Hand"
       ],
       "types": [
-        "Unknown"
+        "Mace"
       ]
     },
     {
@@ -2447,12 +2415,44 @@
         "Main Hand"
       ],
       "types": [
-        "Unknown"
+        "Fist Weapon"
       ]
     },
     {
-      "id": 17331,
-      "name": "Hand of Gehennas",
+      "id": 17109,
+      "name": "Choker of Enlightenment",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Choker of Enlightenment</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Neck</td><th></th></tr></table>+20 Stamina<br />+20 Intellect<br />+17 Spirit<br />Yellow Socket<br />Socket Bonus: +2 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases spell power by 33.</span><br /><span class=\"q2\">Equip: Improves haste rating by 14.</span><br /></td></tr></table>",
+      "icon": "inv_jewelry_necklace_10.jpg",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 0,
+          "npcId": 0
+        }
+      ],
+      "slots": [
+        "Neck"
+      ],
+      "types": [
+        "Neck"
+      ]
+    },
+    {
+      "id": 17329,
+      "name": "Hand of Lucifron",
       "classes": [
         "Warrior",
         "Paladin",
@@ -2466,17 +2466,17 @@
         "Druid"
       ],
       "quality": 1,
-      "tooltip": "<table><tr><td><b class=\"q1\">Hand of Gehennas</b><br />Quest Item<br /></td></tr></table>",
-      "icon": "spell_fire_immolation.jpg",
+      "tooltip": "<table><tr><td><b class=\"q1\">Hand of Lucifron</b><br />Quest Item<br /></td></tr></table>",
+      "icon": "inv_gauntlets_26.jpg",
       "dropsFrom": [
         {
           "chance": 100.0,
-          "bossId": 2,
-          "npcId": 2
+          "bossId": 0,
+          "npcId": 0
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Unknown"
       ],
       "types": [
         "Unknown"
@@ -2508,7 +2508,7 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Unknown"
       ],
       "types": [
         "Unknown"
@@ -2543,7 +2543,7 @@
         "Two-Hand"
       ],
       "types": [
-        "Unknown"
+        "Polearm"
       ]
     },
     {
@@ -2572,7 +2572,7 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Unknown"
       ],
       "types": [
         "Unknown"
@@ -2594,7 +2594,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Blastershot Launcher</b><br />Binds when picked up<br />Ranged - Gun<br />185 - 328 Damage - Speed 2.60<br />(98.7 damage per second)<br />+19 Agility<br />+17 Stamina<br />Yellow Socket<br />Socket Bonus: +6 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves critical strike rating by 16.</span><br /><span class=\"q2\">Equip: Increases attack power by 42.</span><br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Blastershot Launcher</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Ranged</td><th>Gun</th></tr></table>185 - 328 Damage - Speed 2.60<br />(98.7 damage per second)<br />+19 Agility<br />+17 Stamina<br />Yellow Socket<br />Socket Bonus: +6 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves critical strike rating by 16.</span><br /><span class=\"q2\">Equip: Increases attack power by 42.</span><br /></td></tr></table>",
       "icon": "inv_weapon_rifle_09.jpg",
       "dropsFrom": [
         {
@@ -2604,10 +2604,10 @@
         }
       ],
       "slots": [
-        "Ranged Right"
+        "Ranged"
       ],
       "types": [
-        "Unknown"
+        "Gun"
       ]
     },
     {
@@ -2639,7 +2639,7 @@
         "Main Hand"
       ],
       "types": [
-        "Unknown"
+        "Sword"
       ]
     },
     {
@@ -2668,7 +2668,7 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Unknown"
       ],
       "types": [
         "Unknown"
@@ -2703,7 +2703,7 @@
         "Two-Hand"
       ],
       "types": [
-        "Unknown"
+        "Staff"
       ]
     },
     {
@@ -2732,7 +2732,7 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Unknown"
       ],
       "types": [
         "Unknown"
@@ -2764,7 +2764,7 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Unknown"
       ],
       "types": [
         "Unknown"
@@ -2796,7 +2796,7 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Unknown"
       ],
       "types": [
         "Unknown"
@@ -2818,7 +2818,7 @@
         "Druid"
       ],
       "quality": 3,
-      "tooltip": "<table><tr><td><b class=\"q3\">Aegis of Stormwind</b><br />Binds when equipped<br />Off Hand - Shield<br />1652 Armor<br />37 Block<br />+3 Strength<br />+9 Stamina<br />Requires Level 40<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q3\">Aegis of Stormwind</b><br />Binds when equipped<br /><table width=\"100%\"><tr><td>Off Hand</td><th>Shield</th></tr></table>1652 Armor<br />37 Block<br />+3 Strength<br />+9 Stamina<br />Requires Level 40<br /></td></tr></table>",
       "icon": "inv_shield_06.jpg",
       "dropsFrom": [
         {
@@ -2828,10 +2828,10 @@
         }
       ],
       "slots": [
-        "Shield"
+        "Off Hand"
       ],
       "types": [
-        "Unknown"
+        "Shield"
       ]
     },
     {
@@ -2863,7 +2863,7 @@
         "Trinket"
       ],
       "types": [
-        "Unknown"
+        "Trinket"
       ]
     },
     {
@@ -2895,7 +2895,7 @@
         "Hands"
       ],
       "types": [
-        "Unknown"
+        "Leather"
       ]
     },
     {
@@ -2914,7 +2914,7 @@
         "Druid"
       ],
       "quality": 3,
-      "tooltip": "<table><tr><td><b class=\"q3\">Lapidis Tankard of Tidesippe</b><br />Binds when equipped<br /><table width=\"100%\"><tr><td>Held In Off-hand</td><th></th></tr></table>-18 Agility<br />+2 Intellect<br />+10 Spirit<br />Requires Level 45<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: Restores 1656 mana over 30 sec.  Must remain seated while drinking. (10 Min Cooldown)</span><br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q3\">Lapidis Tankard of Tidesippe</b><br />Binds when equipped<br />Held In Off-hand<br />-18 Agility<br />+2 Intellect<br />+10 Spirit<br />Requires Level 45<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: Restores 1656 mana over 30 sec.  Must remain seated while drinking. (10 Min Cooldown)</span><br /></td></tr></table>",
       "icon": "inv_drink_03.jpg",
       "dropsFrom": [
         {
@@ -2924,7 +2924,7 @@
         }
       ],
       "slots": [
-        "Held In Off-hand"
+        "Unknown"
       ],
       "types": [
         "Unknown"
@@ -2959,7 +2959,7 @@
         "Finger"
       ],
       "types": [
-        "Unknown"
+        "Ring"
       ]
     },
     {
@@ -2991,7 +2991,7 @@
         "One-Hand"
       ],
       "types": [
-        "Unknown"
+        "Dagger"
       ]
     },
     {
@@ -3023,7 +3023,7 @@
         "One-Hand"
       ],
       "types": [
-        "Unknown"
+        "Sword"
       ]
     },
     {
@@ -3055,7 +3055,7 @@
         "Trinket"
       ],
       "types": [
-        "Unknown"
+        "Trinket"
       ]
     },
     {
@@ -3084,7 +3084,7 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Unknown"
       ],
       "types": [
         "Unknown"
@@ -3106,7 +3106,7 @@
         "Druid"
       ],
       "quality": 3,
-      "tooltip": "<table><tr><td><b class=\"q3\">Plans: Mithril Scale Shoulders</b><br />Requires Blacksmithing (235)<br />Mithril Scale Shoulders<br />Binds when equipped<br />Shoulder - Mail<br />200 Armor<br />+12 Stamina<br />Requires Level 35<br />Requires Mithril Bar (14), Thick Leather (4), Citrine (4)<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: Teaches you how to make Mithril Scale Shoulders.</span><br /><span class=\"q2\">Equip: Increases attack power by 18.</span><br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q3\">Plans: Mithril Scale Shoulders</b><br />Requires Blacksmithing (235)<br />Mithril Scale Shoulders<br />Binds when equipped<br /><table width=\"100%\"><tr><td>Shoulder</td><th>Mail</th></tr></table>200 Armor<br />+12 Stamina<br />Requires Level 35<br />Requires Mithril Bar (14), Thick Leather (4), Citrine (4)<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: Teaches you how to make Mithril Scale Shoulders.</span><br /><span class=\"q2\">Equip: Increases attack power by 18.</span><br /></td></tr></table>",
       "icon": "inv_scroll_03.jpg",
       "dropsFrom": [
         {
@@ -3116,10 +3116,10 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Shoulder"
       ],
       "types": [
-        "Unknown"
+        "Mail"
       ]
     },
     {
@@ -3138,7 +3138,7 @@
         "Druid"
       ],
       "quality": 3,
-      "tooltip": "<table><tr><td><b class=\"q3\">Plans: Runed Mithril Hammer</b><br />Requires Blacksmithing (245)<br />Runed Mithril Hammer<br />Binds when equipped<br />One-Hand - Mace<br />59 - 88 Damage - Speed 2.00<br />(36.7 damage per second)<br />+6 Strength<br />+2 Stamina<br />Requires Level 36<br />Requires Mithril Bar (18), Core of Earth (2), Solid Grinding Stone, Thick Leather (4)<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: Teaches you how to make a Runed Mithril Hammer.</span><br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q3\">Plans: Runed Mithril Hammer</b><br />Requires Blacksmithing (245)<br />Runed Mithril Hammer<br />Binds when equipped<br /><table width=\"100%\"><tr><td>One-Hand</td><th>Mace</th></tr></table>59 - 88 Damage - Speed 2.00<br />(36.7 damage per second)<br />+6 Strength<br />+2 Stamina<br />Requires Level 36<br />Requires Mithril Bar (18), Core of Earth (2), Solid Grinding Stone, Thick Leather (4)<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: Teaches you how to make a Runed Mithril Hammer.</span><br /></td></tr></table>",
       "icon": "inv_scroll_03.jpg",
       "dropsFrom": [
         {
@@ -3148,10 +3148,10 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "One-Hand"
       ],
       "types": [
-        "Unknown"
+        "Mace"
       ]
     },
     {
@@ -3183,7 +3183,7 @@
         "Legs"
       ],
       "types": [
-        "Unknown"
+        "Leather"
       ]
     },
     {
@@ -3202,7 +3202,7 @@
         "Druid"
       ],
       "quality": 3,
-      "tooltip": "<table><tr><td><b class=\"q3\">Schematic: Spellpower Goggles Xtreme</b><br />Requires Engineering (225)<br />Spellpower Goggles Xtreme<br />Binds when equipped<br />Head - Cloth<br />68 Armor<br />Requires Engineering (215)<br />Requires Thick Leather (4), Star Ruby (2)<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: Teaches you how to make Spellpower Goggles Xtreme.</span><br /><span class=\"q2\">Equip: Increases spell power by 15.</span><br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q3\">Schematic: Spellpower Goggles Xtreme</b><br />Requires Engineering (225)<br />Spellpower Goggles Xtreme<br />Binds when equipped<br /><table width=\"100%\"><tr><td>Head</td><th>Cloth</th></tr></table>68 Armor<br />Requires Engineering (215)<br />Requires Thick Leather (4), Star Ruby (2)<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: Teaches you how to make Spellpower Goggles Xtreme.</span><br /><span class=\"q2\">Equip: Increases spell power by 15.</span><br /></td></tr></table>",
       "icon": "inv_scroll_03.jpg",
       "dropsFrom": [
         {
@@ -3212,10 +3212,10 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Head"
       ],
       "types": [
-        "Unknown"
+        "Cloth"
       ]
     },
     {
@@ -3244,7 +3244,7 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Unknown"
       ],
       "types": [
         "Unknown"
@@ -3279,7 +3279,7 @@
         "Trinket"
       ],
       "types": [
-        "Unknown"
+        "Trinket"
       ]
     },
     {
@@ -3298,7 +3298,7 @@
         "Druid"
       ],
       "quality": 3,
-      "tooltip": "<table><tr><td><b class=\"q3\">Plans: Dawnbringer Shoulders</b><br />Requires Blacksmithing (290)<br />Dawnbringer Shoulders<br />Binds when equipped<br />Shoulder - Plate<br />506 Armor<br />+7 Spirit<br />Requires Level 44<br />Requires Thorium Bar (20), Arcanite Bar (4), Huge Emerald (2), Essence of Water (2)<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: Teaches you how to make Dawnbringer Shoulders.</span><br /><span class=\"q2\">Equip: Increases spell power by 14.</span><br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q3\">Plans: Dawnbringer Shoulders</b><br />Requires Blacksmithing (290)<br />Dawnbringer Shoulders<br />Binds when equipped<br /><table width=\"100%\"><tr><td>Shoulder</td><th>Plate</th></tr></table>506 Armor<br />+7 Spirit<br />Requires Level 44<br />Requires Thorium Bar (20), Arcanite Bar (4), Huge Emerald (2), Essence of Water (2)<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: Teaches you how to make Dawnbringer Shoulders.</span><br /><span class=\"q2\">Equip: Increases spell power by 14.</span><br /></td></tr></table>",
       "icon": "inv_scroll_03.jpg",
       "dropsFrom": [
         {
@@ -3308,10 +3308,10 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Shoulder"
       ],
       "types": [
-        "Unknown"
+        "Plate"
       ]
     },
     {
@@ -3330,7 +3330,7 @@
         "Druid"
       ],
       "quality": 3,
-      "tooltip": "<table><tr><td><b class=\"q3\">Plans: Whitesoul Helm</b><br />Requires Blacksmithing (300)<br />Whitesoul Helm<br />Binds when equipped<br />Head - Plate<br />882 Armor<br />+10 Intellect<br />+10 Spirit<br />Requires Level 45<br />Requires Thorium Bar (20), Enchanted Thorium Bar (4), Truesilver Bar (6), Gold Bar (6), Azerothian Diamond (2)<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: Teaches you how to make a Whitesoul Helm.</span><br /><span class=\"q2\">Equip: Increases spell power by 14.</span><br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q3\">Plans: Whitesoul Helm</b><br />Requires Blacksmithing (300)<br />Whitesoul Helm<br />Binds when equipped<br /><table width=\"100%\"><tr><td>Head</td><th>Plate</th></tr></table>882 Armor<br />+10 Intellect<br />+10 Spirit<br />Requires Level 45<br />Requires Thorium Bar (20), Enchanted Thorium Bar (4), Truesilver Bar (6), Gold Bar (6), Azerothian Diamond (2)<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: Teaches you how to make a Whitesoul Helm.</span><br /><span class=\"q2\">Equip: Increases spell power by 14.</span><br /></td></tr></table>",
       "icon": "inv_scroll_03.jpg",
       "dropsFrom": [
         {
@@ -3340,10 +3340,10 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Head"
       ],
       "types": [
-        "Unknown"
+        "Plate"
       ]
     },
     {
@@ -3362,7 +3362,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Plans: Lionheart Helm</b><br />Requires Blacksmithing (300)<br />Lionheart Helm<br />Binds when equipped<br />Head - Plate<br />579 Armor<br />+12 Strength<br />Requires Level 46<br />Requires Thorium Bar (80), Arcanite Bar (12), Wicked Claw (40), Blue Sapphire (10), Azerothian Diamond (4)<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: Teaches you how to make a Lionheart Helm.</span><br /><span class=\"q2\">Equip: Improves critical strike rating by 11.</span><br /><span class=\"q2\">Equip: Improves hit rating by 10.</span><br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Plans: Lionheart Helm</b><br />Requires Blacksmithing (300)<br />Lionheart Helm<br />Binds when equipped<br /><table width=\"100%\"><tr><td>Head</td><th>Plate</th></tr></table>579 Armor<br />+12 Strength<br />Requires Level 46<br />Requires Thorium Bar (80), Arcanite Bar (12), Wicked Claw (40), Blue Sapphire (10), Azerothian Diamond (4)<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: Teaches you how to make a Lionheart Helm.</span><br /><span class=\"q2\">Equip: Improves critical strike rating by 11.</span><br /><span class=\"q2\">Equip: Improves hit rating by 10.</span><br /></td></tr></table>",
       "icon": "inv_scroll_05.jpg",
       "dropsFrom": [
         {
@@ -3372,10 +3372,10 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Head"
       ],
       "types": [
-        "Unknown"
+        "Plate"
       ]
     },
     {
@@ -3394,7 +3394,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Plans: Stronghold Gauntlets</b><br />Requires Blacksmithing (300)<br />Stronghold Gauntlets<br />Binds when equipped<br />Hands - Plate<br />454 Armor<br />+7 Stamina<br />Requires Level 47<br />Requires Arcanite Bar (15), Enchanted Thorium Bar (20), Essence of Earth (10), Blue Sapphire (4), Large Opal (4)<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: Teaches you how to make Stronghold Gauntlets.</span><br /><span class=\"q2\">Equip: Disarm duration reduced by 50%.</span><br /><span class=\"q2\">Equip: Increases your parry rating by 16.</span><br /><span class=\"q2\">Equip: Increases your critical strike rating by 11.</span><br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Plans: Stronghold Gauntlets</b><br />Requires Blacksmithing (300)<br />Stronghold Gauntlets<br />Binds when equipped<br /><table width=\"100%\"><tr><td>Hands</td><th>Plate</th></tr></table>454 Armor<br />+7 Stamina<br />Requires Level 47<br />Requires Arcanite Bar (15), Enchanted Thorium Bar (20), Essence of Earth (10), Blue Sapphire (4), Large Opal (4)<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: Teaches you how to make Stronghold Gauntlets.</span><br /><span class=\"q2\">Equip: Disarm duration reduced by 50%.</span><br /><span class=\"q2\">Equip: Increases your parry rating by 16.</span><br /><span class=\"q2\">Equip: Increases your critical strike rating by 11.</span><br /></td></tr></table>",
       "icon": "inv_scroll_03.jpg",
       "dropsFrom": [
         {
@@ -3404,10 +3404,10 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Hands"
       ],
       "types": [
-        "Unknown"
+        "Plate"
       ]
     },
     {
@@ -3426,7 +3426,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Plans: Invulnerable Mail</b><br />Requires Blacksmithing (300)<br />Invulnerable Mail<br />Binds when equipped<br />Chest - Mail<br />638 Armor<br />Requires Level 47<br />Requires Arcanite Bar (30), Enchanted Thorium Bar (30), Huge Emerald (6), Azerothian Diamond (6)<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: Teaches you how to make Invulnerable Mail.</span><br /><span class=\"q2\">Equip: Increases defense rating by 12.</span><br /><span class=\"q2\">Equip: When struck in combat has a 5% chance to make you invulnerable to melee damage for 3 sec. This effect can only occur once every 30 sec.</span><br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Plans: Invulnerable Mail</b><br />Requires Blacksmithing (300)<br />Invulnerable Mail<br />Binds when equipped<br /><table width=\"100%\"><tr><td>Chest</td><th>Mail</th></tr></table>638 Armor<br />Requires Level 47<br />Requires Arcanite Bar (30), Enchanted Thorium Bar (30), Huge Emerald (6), Azerothian Diamond (6)<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: Teaches you how to make Invulnerable Mail.</span><br /><span class=\"q2\">Equip: Increases defense rating by 12.</span><br /><span class=\"q2\">Equip: When struck in combat has a 5% chance to make you invulnerable to melee damage for 3 sec. This effect can only occur once every 30 sec.</span><br /></td></tr></table>",
       "icon": "inv_scroll_03.jpg",
       "dropsFrom": [
         {
@@ -3436,10 +3436,10 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Chest"
       ],
       "types": [
-        "Unknown"
+        "Mail"
       ]
     },
     {
@@ -3471,7 +3471,7 @@
         "Two-Hand"
       ],
       "types": [
-        "Unknown"
+        "Staff"
       ]
     },
     {
@@ -3503,7 +3503,7 @@
         "Finger"
       ],
       "types": [
-        "Unknown"
+        "Ring"
       ]
     },
     {
@@ -3535,7 +3535,7 @@
         "Neck"
       ],
       "types": [
-        "Unknown"
+        "Neck"
       ]
     },
     {
@@ -3567,7 +3567,7 @@
         "Two-Hand"
       ],
       "types": [
-        "Unknown"
+        "Axe"
       ]
     },
     {
@@ -3586,7 +3586,7 @@
         "Druid"
       ],
       "quality": 3,
-      "tooltip": "<table><tr><td><b class=\"q3\">Torch of Austen</b><br />Binds when equipped<br />Ranged - Wand<br />55 - 112 Fire Damage - Speed 1.40<br />(59.6 damage per second)<br />+10 Fire Resistance<br />Requires Level 44<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q3\">Torch of Austen</b><br />Binds when equipped<br /><table width=\"100%\"><tr><td>Ranged</td><th>Wand</th></tr></table>55 - 112 Fire Damage - Speed 1.40<br />(59.6 damage per second)<br />+10 Fire Resistance<br />Requires Level 44<br /></td></tr></table>",
       "icon": "inv_wand_11.jpg",
       "dropsFrom": [
         {
@@ -3596,10 +3596,10 @@
         }
       ],
       "slots": [
-        "Ranged Right"
+        "Ranged"
       ],
       "types": [
-        "Unknown"
+        "Wand"
       ]
     },
     {
@@ -3631,7 +3631,7 @@
         "One-Hand"
       ],
       "types": [
-        "Unknown"
+        "Mace"
       ]
     },
     {
@@ -3663,7 +3663,7 @@
         "Back"
       ],
       "types": [
-        "Unknown"
+        "Cloak"
       ]
     },
     {
@@ -3695,7 +3695,7 @@
         "Legs"
       ],
       "types": [
-        "Unknown"
+        "Cloth"
       ]
     },
     {
@@ -3727,7 +3727,7 @@
         "Chest"
       ],
       "types": [
-        "Unknown"
+        "Leather"
       ]
     },
     {
@@ -3759,7 +3759,7 @@
         "Shoulder"
       ],
       "types": [
-        "Unknown"
+        "Cloth"
       ]
     },
     {
@@ -3791,7 +3791,7 @@
         "One-Hand"
       ],
       "types": [
-        "Unknown"
+        "Axe"
       ]
     },
     {
@@ -3810,7 +3810,7 @@
         "Druid"
       ],
       "quality": 3,
-      "tooltip": "<table><tr><td><b class=\"q3\">Basilisk Bone</b><br />Binds when equipped<br /><table width=\"100%\"><tr><td>Held In Off-hand</td><th></th></tr></table>+6 Fire Resistance<br />+6 Nature Resistance<br />+6 Frost Resistance<br />+6 Shadow Resistance<br />+6 Arcane Resistance<br />Requires Level 38<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q3\">Basilisk Bone</b><br />Binds when equipped<br />Held In Off-hand<br />+6 Fire Resistance<br />+6 Nature Resistance<br />+6 Frost Resistance<br />+6 Shadow Resistance<br />+6 Arcane Resistance<br />Requires Level 38<br /></td></tr></table>",
       "icon": "inv_misc_bone_10.jpg",
       "dropsFrom": [
         {
@@ -3820,7 +3820,7 @@
         }
       ],
       "slots": [
-        "Held In Off-hand"
+        "Unknown"
       ],
       "types": [
         "Unknown"
@@ -3855,7 +3855,7 @@
         "One-Hand"
       ],
       "types": [
-        "Unknown"
+        "Sword"
       ]
     },
     {
@@ -3874,7 +3874,7 @@
         "Druid"
       ],
       "quality": 3,
-      "tooltip": "<table><tr><td><b class=\"q3\">Heartseeking Crossbow</b><br />Binds when equipped<br />Ranged - Crossbow<br />137 - 216 Damage - Speed 3.10<br />(56.9 damage per second)<br />+7 Agility<br />+2 Stamina<br />Requires Level 42<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Chance to strike your ranged target with a Shadow Bolt for 13 to 19 Shadow damage.</span><br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q3\">Heartseeking Crossbow</b><br />Binds when equipped<br /><table width=\"100%\"><tr><td>Ranged</td><th>Crossbow</th></tr></table>137 - 216 Damage - Speed 3.10<br />(56.9 damage per second)<br />+7 Agility<br />+2 Stamina<br />Requires Level 42<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Chance to strike your ranged target with a Shadow Bolt for 13 to 19 Shadow damage.</span><br /></td></tr></table>",
       "icon": "inv_weapon_crossbow_04.jpg",
       "dropsFrom": [
         {
@@ -3884,10 +3884,10 @@
         }
       ],
       "slots": [
-        "Ranged Right"
+        "Ranged"
       ],
       "types": [
-        "Unknown"
+        "Crossbow"
       ]
     },
     {
@@ -3919,7 +3919,7 @@
         "Two-Hand"
       ],
       "types": [
-        "Unknown"
+        "Mace"
       ]
     },
     {
@@ -3951,7 +3951,7 @@
         "Two-Hand"
       ],
       "types": [
-        "Unknown"
+        "Sword"
       ]
     },
     {
@@ -3983,7 +3983,7 @@
         "Two-Hand"
       ],
       "types": [
-        "Unknown"
+        "Polearm"
       ]
     },
     {
@@ -4015,7 +4015,7 @@
         "Shoulder"
       ],
       "types": [
-        "Unknown"
+        "Plate"
       ]
     },
     {
@@ -4047,7 +4047,7 @@
         "Chest"
       ],
       "types": [
-        "Unknown"
+        "Plate"
       ]
     },
     {
@@ -4079,7 +4079,7 @@
         "Feet"
       ],
       "types": [
-        "Unknown"
+        "Plate"
       ]
     },
     {
@@ -4111,7 +4111,7 @@
         "Hands"
       ],
       "types": [
-        "Unknown"
+        "Plate"
       ]
     },
     {
@@ -4143,7 +4143,7 @@
         "Head"
       ],
       "types": [
-        "Unknown"
+        "Plate"
       ]
     },
     {
@@ -4175,7 +4175,7 @@
         "Legs"
       ],
       "types": [
-        "Unknown"
+        "Plate"
       ]
     },
     {
@@ -4207,7 +4207,7 @@
         "Waist"
       ],
       "types": [
-        "Unknown"
+        "Plate"
       ]
     },
     {
@@ -4226,7 +4226,7 @@
         "Druid"
       ],
       "quality": 3,
-      "tooltip": "<table><tr><td><b class=\"q3\">Garrett Family Crest</b><br />Binds when equipped<br />Off Hand - Shield<br />1967 Armor<br />41 Block<br />+3 Agility<br />+3 Intellect<br />+11 Spirit<br />Requires Level 47<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q3\">Garrett Family Crest</b><br />Binds when equipped<br /><table width=\"100%\"><tr><td>Off Hand</td><th>Shield</th></tr></table>1967 Armor<br />41 Block<br />+3 Agility<br />+3 Intellect<br />+11 Spirit<br />Requires Level 47<br /></td></tr></table>",
       "icon": "inv_shield_05.jpg",
       "dropsFrom": [
         {
@@ -4236,10 +4236,10 @@
         }
       ],
       "slots": [
-        "Shield"
+        "Off Hand"
       ],
       "types": [
-        "Unknown"
+        "Shield"
       ]
     },
     {
@@ -4271,7 +4271,7 @@
         "Neck"
       ],
       "types": [
-        "Unknown"
+        "Neck"
       ]
     },
     {
@@ -4303,7 +4303,7 @@
         "Neck"
       ],
       "types": [
-        "Unknown"
+        "Neck"
       ]
     },
     {
@@ -4335,7 +4335,7 @@
         "Finger"
       ],
       "types": [
-        "Unknown"
+        "Ring"
       ]
     },
     {
@@ -4367,7 +4367,7 @@
         "Wrist"
       ],
       "types": [
-        "Unknown"
+        "Cloth"
       ]
     },
     {
@@ -4399,7 +4399,7 @@
         "Feet"
       ],
       "types": [
-        "Unknown"
+        "Leather"
       ]
     },
     {
@@ -4431,7 +4431,7 @@
         "Head"
       ],
       "types": [
-        "Unknown"
+        "Leather"
       ]
     },
     {
@@ -4463,7 +4463,7 @@
         "Shoulder"
       ],
       "types": [
-        "Unknown"
+        "Leather"
       ]
     },
     {
@@ -4495,7 +4495,7 @@
         "Waist"
       ],
       "types": [
-        "Unknown"
+        "Leather"
       ]
     },
     {
@@ -4527,7 +4527,7 @@
         "Wrist"
       ],
       "types": [
-        "Unknown"
+        "Leather"
       ]
     },
     {
@@ -4559,7 +4559,7 @@
         "Chest"
       ],
       "types": [
-        "Unknown"
+        "Mail"
       ]
     },
     {
@@ -4591,7 +4591,7 @@
         "Feet"
       ],
       "types": [
-        "Unknown"
+        "Mail"
       ]
     },
     {
@@ -4623,7 +4623,7 @@
         "Hands"
       ],
       "types": [
-        "Unknown"
+        "Mail"
       ]
     },
     {
@@ -4655,7 +4655,7 @@
         "Legs"
       ],
       "types": [
-        "Unknown"
+        "Mail"
       ]
     },
     {
@@ -4687,7 +4687,7 @@
         "Shoulder"
       ],
       "types": [
-        "Unknown"
+        "Mail"
       ]
     },
     {
@@ -4719,7 +4719,7 @@
         "Wrist"
       ],
       "types": [
-        "Unknown"
+        "Mail"
       ]
     },
     {
@@ -4751,7 +4751,7 @@
         "Waist"
       ],
       "types": [
-        "Unknown"
+        "Cloth"
       ]
     },
     {
@@ -4770,7 +4770,7 @@
         "Druid"
       ],
       "quality": 3,
-      "tooltip": "<table><tr><td><b class=\"q3\">Shell Launcher Shotgun</b><br />Binds when equipped<br />Ranged - Gun<br />96 - 179 Damage - Speed 2.30<br />(59.8 damage per second)<br />Requires Level 44<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Chance to strike your ranged target with a Flaming Shell for 18 to 26 Fire damage.</span><br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q3\">Shell Launcher Shotgun</b><br />Binds when equipped<br /><table width=\"100%\"><tr><td>Ranged</td><th>Gun</th></tr></table>96 - 179 Damage - Speed 2.30<br />(59.8 damage per second)<br />Requires Level 44<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Chance to strike your ranged target with a Flaming Shell for 18 to 26 Fire damage.</span><br /></td></tr></table>",
       "icon": "inv_weapon_rifle_08.jpg",
       "dropsFrom": [
         {
@@ -4780,10 +4780,10 @@
         }
       ],
       "slots": [
-        "Ranged Right"
+        "Ranged"
       ],
       "types": [
-        "Unknown"
+        "Gun"
       ]
     },
     {
@@ -4802,7 +4802,7 @@
         "Druid"
       ],
       "quality": 3,
-      "tooltip": "<table><tr><td><b class=\"q3\">Pattern: Mooncloth Vest</b><br />Requires Tailoring (300)<br />Mooncloth Vest<br />Binds when equipped<br />Chest - Cloth<br />91 Armor<br />+12 Stamina<br />+14 Intellect<br />+14 Spirit<br />Requires Level 45<br />Requires Bolt of Runecloth (6), Mooncloth (4), Rune Thread<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: Teaches you how to sew a Mooncloth Vest.</span><br /><span class=\"q2\">Equip: Increases spell power by 14.</span><br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q3\">Pattern: Mooncloth Vest</b><br />Requires Tailoring (300)<br />Mooncloth Vest<br />Binds when equipped<br /><table width=\"100%\"><tr><td>Chest</td><th>Cloth</th></tr></table>91 Armor<br />+12 Stamina<br />+14 Intellect<br />+14 Spirit<br />Requires Level 45<br />Requires Bolt of Runecloth (6), Mooncloth (4), Rune Thread<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: Teaches you how to sew a Mooncloth Vest.</span><br /><span class=\"q2\">Equip: Increases spell power by 14.</span><br /></td></tr></table>",
       "icon": "inv_scroll_03.jpg",
       "dropsFrom": [
         {
@@ -4812,10 +4812,10 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Chest"
       ],
       "types": [
-        "Unknown"
+        "Cloth"
       ]
     },
     {
@@ -4834,7 +4834,7 @@
         "Druid"
       ],
       "quality": 3,
-      "tooltip": "<table><tr><td><b class=\"q3\">Pattern: Mooncloth Circlet</b><br />Requires Tailoring (300)<br />Mooncloth Circlet<br />Binds when equipped<br />Head - Cloth<br />77 Armor<br />+8 Stamina<br />+18 Intellect<br />+10 Spirit<br />Requires Level 47<br />Requires Bolt of Runecloth (4), Mooncloth (6), Azerothian Diamond, Enchanted Leather (2), Rune Thread (2)<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: Teaches you how to sew a Mooncloth Circlet.</span><br /><span class=\"q2\">Equip: Increases spell power by 12.</span><br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q3\">Pattern: Mooncloth Circlet</b><br />Requires Tailoring (300)<br />Mooncloth Circlet<br />Binds when equipped<br /><table width=\"100%\"><tr><td>Head</td><th>Cloth</th></tr></table>77 Armor<br />+8 Stamina<br />+18 Intellect<br />+10 Spirit<br />Requires Level 47<br />Requires Bolt of Runecloth (4), Mooncloth (6), Azerothian Diamond, Enchanted Leather (2), Rune Thread (2)<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: Teaches you how to sew a Mooncloth Circlet.</span><br /><span class=\"q2\">Equip: Increases spell power by 12.</span><br /></td></tr></table>",
       "icon": "inv_scroll_03.jpg",
       "dropsFrom": [
         {
@@ -4844,10 +4844,10 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Head"
       ],
       "types": [
-        "Unknown"
+        "Cloth"
       ]
     },
     {
@@ -4866,7 +4866,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Pattern: Gloves of Spell Mastery</b><br />Requires Tailoring (300)<br />Gloves of Spell Mastery<br />Binds when equipped<br />Hands - Cloth<br />61 Armor<br />+7 Intellect<br />+9 Spirit<br />Classes: Priest, Mage, Warlock<br />Requires Level 47<br />Requires Bolt of Runecloth (10), Mooncloth (10), Ghost Dye (10), Golden Pearl (6), Huge Emerald (6), Enchanted Leather (8), Rune Thread (2)<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: Teaches you how to sew Gloves of Spell Mastery.</span><br /><span class=\"q2\">Equip: Improves critical strike rating by 15.</span><br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Pattern: Gloves of Spell Mastery</b><br />Requires Tailoring (300)<br />Gloves of Spell Mastery<br />Binds when equipped<br /><table width=\"100%\"><tr><td>Hands</td><th>Cloth</th></tr></table>61 Armor<br />+7 Intellect<br />+9 Spirit<br />Classes: Priest, Mage, Warlock<br />Requires Level 47<br />Requires Bolt of Runecloth (10), Mooncloth (10), Ghost Dye (10), Golden Pearl (6), Huge Emerald (6), Enchanted Leather (8), Rune Thread (2)<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: Teaches you how to sew Gloves of Spell Mastery.</span><br /><span class=\"q2\">Equip: Improves critical strike rating by 15.</span><br /></td></tr></table>",
       "icon": "inv_scroll_03.jpg",
       "dropsFrom": [
         {
@@ -4876,10 +4876,10 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Hands"
       ],
       "types": [
-        "Unknown"
+        "Cloth"
       ]
     },
     {
@@ -4899,7 +4899,7 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Unknown"
       ],
       "types": [
         "Unknown"
@@ -4922,7 +4922,7 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Unknown"
       ],
       "types": [
         "Unknown"
@@ -4945,7 +4945,7 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Unknown"
       ],
       "types": [
         "Unknown"
@@ -4968,7 +4968,7 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Unknown"
       ],
       "types": [
         "Unknown"
@@ -4991,7 +4991,7 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Unknown"
       ],
       "types": [
         "Unknown"
@@ -5013,7 +5013,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Plans: Titanic Leggings</b><br />Requires Blacksmithing (300)<br />Titanic Leggings<br />Binds when equipped<br />Legs - Plate<br />607 Armor<br />+18 Strength<br />Requires Level 45<br />Requires Arcanite Bar (12), Enchanted Thorium Bar (20), Essence of Earth (10), Flask of the Titans (2)<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: Teaches you how to make Titanic Leggings.</span><br /><span class=\"q2\">Equip: Improves critical strike rating by 8.</span><br /><span class=\"q2\">Equip: Improves hit rating by 11.</span><br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Plans: Titanic Leggings</b><br />Requires Blacksmithing (300)<br />Titanic Leggings<br />Binds when equipped<br /><table width=\"100%\"><tr><td>Legs</td><th>Plate</th></tr></table>607 Armor<br />+18 Strength<br />Requires Level 45<br />Requires Arcanite Bar (12), Enchanted Thorium Bar (20), Essence of Earth (10), Flask of the Titans (2)<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: Teaches you how to make Titanic Leggings.</span><br /><span class=\"q2\">Equip: Improves critical strike rating by 8.</span><br /><span class=\"q2\">Equip: Improves hit rating by 11.</span><br /></td></tr></table>",
       "icon": "inv_scroll_05.jpg",
       "dropsFrom": [
         {
@@ -5023,10 +5023,10 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Legs"
       ],
       "types": [
-        "Unknown"
+        "Plate"
       ]
     },
     {
@@ -5045,7 +5045,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Plans: Sageblade</b><br />Requires Blacksmithing (300)<br />Sageblade<br />Binds when equipped<br />Main Hand - Sword<br />57 - 88 Damage - Speed 1.80<br />(40.3 damage per second)<br />+10 Stamina<br />+7 Intellect<br />Requires Level 49<br />Requires Arcanite Bar (12), Nexus Crystal (2), Flask of Supreme Power (2), Enchanted Leather (4)<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: Teaches you how to make a Sageblade.</span><br /><span class=\"q2\">Equip: Increases spell power by 15.</span><br /><span class=\"q2\">Equip: Increases spell penetration by 7.</span><br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Plans: Sageblade</b><br />Requires Blacksmithing (300)<br />Sageblade<br />Binds when equipped<br /><table width=\"100%\"><tr><td>Main Hand</td><th>Sword</th></tr></table>57 - 88 Damage - Speed 1.80<br />(40.3 damage per second)<br />+10 Stamina<br />+7 Intellect<br />Requires Level 49<br />Requires Arcanite Bar (12), Nexus Crystal (2), Flask of Supreme Power (2), Enchanted Leather (4)<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: Teaches you how to make a Sageblade.</span><br /><span class=\"q2\">Equip: Increases spell power by 15.</span><br /><span class=\"q2\">Equip: Increases spell penetration by 7.</span><br /></td></tr></table>",
       "icon": "inv_scroll_05.jpg",
       "dropsFrom": [
         {
@@ -5055,10 +5055,10 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Main Hand"
       ],
       "types": [
-        "Unknown"
+        "Sword"
       ]
     },
     {
@@ -5077,7 +5077,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Plans: Persuader</b><br />Requires Blacksmithing (300)<br />Persuader<br />Binds when equipped<br />One-Hand - Mace<br />108 - 196 Damage - Speed 2.70<br />(56.3 damage per second)<br />Requires Level 48<br />Requires Arcanite Bar (15), Dark Iron Bar (10), Essence of Undeath (20), Dark Rune (20), Devilsaur Leather (10), Skin of Shadow (2)<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: Teaches you how to make the Persuader.</span><br /><span class=\"q2\">Equip: Increases your hit rating by 8.</span><br /><span class=\"q2\">Equip: Increases your critical strike rating by 11.</span><br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Plans: Persuader</b><br />Requires Blacksmithing (300)<br />Persuader<br />Binds when equipped<br /><table width=\"100%\"><tr><td>One-Hand</td><th>Mace</th></tr></table>108 - 196 Damage - Speed 2.70<br />(56.3 damage per second)<br />Requires Level 48<br />Requires Arcanite Bar (15), Dark Iron Bar (10), Essence of Undeath (20), Dark Rune (20), Devilsaur Leather (10), Skin of Shadow (2)<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: Teaches you how to make the Persuader.</span><br /><span class=\"q2\">Equip: Increases your hit rating by 8.</span><br /><span class=\"q2\">Equip: Increases your critical strike rating by 11.</span><br /></td></tr></table>",
       "icon": "inv_scroll_05.jpg",
       "dropsFrom": [
         {
@@ -5087,10 +5087,10 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "One-Hand"
       ],
       "types": [
-        "Unknown"
+        "Mace"
       ]
     },
     {
@@ -5110,7 +5110,7 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Unknown"
       ],
       "types": [
         "Unknown"
@@ -5133,7 +5133,7 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Unknown"
       ],
       "types": [
         "Unknown"
@@ -5168,7 +5168,7 @@
         "One-Hand"
       ],
       "types": [
-        "Unknown"
+        "Mace"
       ]
     },
     {
@@ -5200,7 +5200,7 @@
         "Ranged"
       ],
       "types": [
-        "Unknown"
+        "Bow"
       ]
     },
     {
@@ -5232,7 +5232,7 @@
         "Two-Hand"
       ],
       "types": [
-        "Unknown"
+        "Mace"
       ]
     },
     {
@@ -5251,7 +5251,7 @@
         "Druid"
       ],
       "quality": 3,
-      "tooltip": "<table><tr><td><b class=\"q3\">Wand of Allistarj</b><br />Binds when equipped<br />Ranged - Wand<br />73 - 116 Arcane Damage - Speed 1.90<br />(49.7 damage per second)<br />+9 Arcane Resistance<br />Requires Level 37<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q3\">Wand of Allistarj</b><br />Binds when equipped<br /><table width=\"100%\"><tr><td>Ranged</td><th>Wand</th></tr></table>73 - 116 Arcane Damage - Speed 1.90<br />(49.7 damage per second)<br />+9 Arcane Resistance<br />Requires Level 37<br /></td></tr></table>",
       "icon": "inv_wand_09.jpg",
       "dropsFrom": [
         {
@@ -5261,10 +5261,10 @@
         }
       ],
       "slots": [
-        "Ranged Right"
+        "Ranged"
       ],
       "types": [
-        "Unknown"
+        "Wand"
       ]
     },
     {
@@ -5283,7 +5283,7 @@
         "Druid"
       ],
       "quality": 3,
-      "tooltip": "<table><tr><td><b class=\"q3\">Guttbuster</b><br />Binds when equipped<br />Ranged - Gun<br />94 - 173 Damage - Speed 2.70<br />(49.4 damage per second)<br />+6 Agility<br />Requires Level 37<br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q3\">Guttbuster</b><br />Binds when equipped<br /><table width=\"100%\"><tr><td>Ranged</td><th>Gun</th></tr></table>94 - 173 Damage - Speed 2.70<br />(49.4 damage per second)<br />+6 Agility<br />Requires Level 37<br /></td></tr></table>",
       "icon": "inv_weapon_rifle_08.jpg",
       "dropsFrom": [
         {
@@ -5293,10 +5293,10 @@
         }
       ],
       "slots": [
-        "Ranged Right"
+        "Ranged"
       ],
       "types": [
-        "Unknown"
+        "Gun"
       ]
     },
     {
@@ -5328,7 +5328,7 @@
         "One-Hand"
       ],
       "types": [
-        "Unknown"
+        "Axe"
       ]
     },
     {
@@ -5360,7 +5360,7 @@
         "One-Hand"
       ],
       "types": [
-        "Unknown"
+        "Mace"
       ]
     },
     {
@@ -5392,7 +5392,7 @@
         "Two-Hand"
       ],
       "types": [
-        "Unknown"
+        "Sword"
       ]
     },
     {
@@ -5424,7 +5424,7 @@
         "Two-Hand"
       ],
       "types": [
-        "Unknown"
+        "Polearm"
       ]
     },
     {
@@ -5456,7 +5456,7 @@
         "Two-Hand"
       ],
       "types": [
-        "Unknown"
+        "Staff"
       ]
     },
     {
@@ -5488,7 +5488,7 @@
         "One-Hand"
       ],
       "types": [
-        "Unknown"
+        "Mace"
       ]
     },
     {
@@ -5520,7 +5520,7 @@
         "One-Hand"
       ],
       "types": [
-        "Unknown"
+        "Dagger"
       ]
     },
     {
@@ -5552,7 +5552,7 @@
         "One-Hand"
       ],
       "types": [
-        "Unknown"
+        "Sword"
       ]
     },
     {
@@ -5584,7 +5584,7 @@
         "Ranged"
       ],
       "types": [
-        "Unknown"
+        "Bow"
       ]
     },
     {
@@ -5616,7 +5616,7 @@
         "Back"
       ],
       "types": [
-        "Unknown"
+        "Cloak"
       ]
     },
     {
@@ -5648,7 +5648,7 @@
         "Two-Hand"
       ],
       "types": [
-        "Unknown"
+        "Sword"
       ]
     },
     {
@@ -5680,7 +5680,7 @@
         "Two-Hand"
       ],
       "types": [
-        "Unknown"
+        "Polearm"
       ]
     },
     {
@@ -5712,7 +5712,7 @@
         "One-Hand"
       ],
       "types": [
-        "Unknown"
+        "Dagger"
       ]
     },
     {
@@ -5744,7 +5744,7 @@
         "Feet"
       ],
       "types": [
-        "Unknown"
+        "Cloth"
       ]
     },
     {
@@ -5776,7 +5776,7 @@
         "Finger"
       ],
       "types": [
-        "Unknown"
+        "Ring"
       ]
     },
     {
@@ -5808,7 +5808,7 @@
         "Two-Hand"
       ],
       "types": [
-        "Unknown"
+        "Sword"
       ]
     },
     {
@@ -5840,7 +5840,7 @@
         "Trinket"
       ],
       "types": [
-        "Unknown"
+        "Trinket"
       ]
     },
     {
@@ -5872,7 +5872,7 @@
         "Back"
       ],
       "types": [
-        "Unknown"
+        "Cloak"
       ]
     },
     {
@@ -5904,7 +5904,7 @@
         "Two-Hand"
       ],
       "types": [
-        "Unknown"
+        "Axe"
       ]
     },
     {
@@ -5923,7 +5923,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Malistar's Defender</b><br />Binds when picked up<br />Off Hand - Shield<br />3020 Armor<br />62 Block<br />+23 Stamina<br />+20 Intellect<br />Yellow Socket<br />Socket Bonus: +3 Intellect<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases spell power by 27.</span><br /><span class=\"q2\">Equip: Improves haste rating by 15.</span><br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Malistar's Defender</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Off Hand</td><th>Shield</th></tr></table>3020 Armor<br />62 Block<br />+23 Stamina<br />+20 Intellect<br />Yellow Socket<br />Socket Bonus: +3 Intellect<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases spell power by 27.</span><br /><span class=\"q2\">Equip: Improves haste rating by 15.</span><br /></td></tr></table>",
       "icon": "inv_shield_08.jpg",
       "dropsFrom": [
         {
@@ -5933,10 +5933,10 @@
         }
       ],
       "slots": [
-        "Shield"
+        "Off Hand"
       ],
       "types": [
-        "Unknown"
+        "Shield"
       ]
     },
     {
@@ -5968,7 +5968,7 @@
         "Back"
       ],
       "types": [
-        "Unknown"
+        "Cloak"
       ]
     },
     {
@@ -6000,7 +6000,7 @@
         "Neck"
       ],
       "types": [
-        "Unknown"
+        "Neck"
       ]
     },
     {
@@ -6032,7 +6032,7 @@
         "Trinket"
       ],
       "types": [
-        "Unknown"
+        "Trinket"
       ]
     },
     {
@@ -6064,7 +6064,7 @@
         "One-Hand"
       ],
       "types": [
-        "Unknown"
+        "Dagger"
       ]
     },
     {
@@ -6096,7 +6096,7 @@
         "Head"
       ],
       "types": [
-        "Unknown"
+        "Mail"
       ]
     },
     {
@@ -6128,7 +6128,7 @@
         "Waist"
       ],
       "types": [
-        "Unknown"
+        "Plate"
       ]
     },
     {
@@ -6160,7 +6160,7 @@
         "Finger"
       ],
       "types": [
-        "Unknown"
+        "Ring"
       ]
     }
   ],

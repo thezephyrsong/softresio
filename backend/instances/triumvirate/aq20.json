@@ -23,7 +23,7 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Unknown"
       ],
       "types": [
         "Unknown"
@@ -48,7 +48,7 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Unknown"
       ],
       "types": [
         "Unknown"
@@ -74,7 +74,7 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Unknown"
       ],
       "types": [
         "Unknown"
@@ -99,7 +99,7 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Unknown"
       ],
       "types": [
         "Unknown"
@@ -124,7 +124,7 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Unknown"
       ],
       "types": [
         "Unknown"
@@ -150,7 +150,598 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 21492,
+      "name": "Manslayer of the Qiraji",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Manslayer of the Qiraji</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Two-Hand</td><th>Sword</th></tr></table>261 - 421 Damage - Speed 3.60<br />(94.7 damage per second)<br />+29 Strength<br />+26 Stamina<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves critical strike rating by 21.</span><br /><span class=\"q2\">Equip: Increases your expertise rating by 16.</span><br /></td></tr></table>",
+      "icon": "inv_sword_56.jpg",
+      "dropsFrom": [
+        {
+          "chance": 10.0,
+          "bossId": 1,
+          "npcId": 1
+        }
+      ],
+      "slots": [
+        "Two-Hand"
+      ],
+      "types": [
+        "Sword"
+      ]
+    },
+    {
+      "id": 21493,
+      "name": "Boots of the Vanguard",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Boots of the Vanguard</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Feet</td><th>Leather</th></tr></table>152 Armor<br />+26 Strength<br />+23 Agility<br />+27 Stamina<br />Yellow Socket<br />Socket Bonus: +4 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your expertise rating by 14.</span><br /></td></tr></table>",
+      "icon": "inv_boots_08.jpg",
+      "dropsFrom": [
+        {
+          "chance": 10.0,
+          "bossId": 1,
+          "npcId": 1
+        }
+      ],
+      "slots": [
+        "Feet"
+      ],
+      "types": [
+        "Leather"
+      ]
+    },
+    {
+      "id": 21494,
+      "name": "Southwind's Grasp",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Southwind's Grasp</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Waist</td><th>Leather</th></tr></table>133 Armor<br />+19 Stamina<br />+18 Intellect<br />Yellow Socket<br />Socket Bonus: +3 Intellect<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases spell power by 27.</span><br /><span class=\"q2\">Equip: Improves critical strike rating by 15.</span><br /></td></tr></table>",
+      "icon": "inv_belt_25.jpg",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 1,
+          "npcId": 1
+        }
+      ],
+      "slots": [
+        "Waist"
+      ],
+      "types": [
+        "Leather"
+      ]
+    },
+    {
+      "id": 21495,
+      "name": "Legplates of the Qiraji Command",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Legplates of the Qiraji Command</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Legs</td><th>Plate</th></tr></table>844 Armor<br />+33 Strength<br />+27 Stamina<br />Red Socket<br />Socket Bonus: +2 Strength<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves critical strike rating by 14.</span><br /><span class=\"q2\">Equip: Increases your armor penetration rating by 15.</span><br /></td></tr></table>",
+      "icon": "inv_pants_plate_15.jpg",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 1,
+          "npcId": 1
+        }
+      ],
+      "slots": [
+        "Legs"
+      ],
+      "types": [
+        "Plate"
+      ]
+    },
+    {
+      "id": 21496,
+      "name": "Bracers of Qiraji Command",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Bracers of Qiraji Command</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Wrist</td><th>Cloth</th></tr></table>48 Armor<br />+23 Stamina<br />+18 Intellect<br />Yellow Socket<br />Socket Bonus: +2 Intellect<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases spell power by 30.</span><br /><span class=\"q2\">Equip: Improves spell hit rating by 16.</span><br /></td></tr></table>",
+      "icon": "inv_bracer_13.jpg",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 1,
+          "npcId": 1
+        }
+      ],
+      "slots": [
+        "Wrist"
+      ],
+      "types": [
+        "Cloth"
+      ]
+    },
+    {
+      "id": 21497,
+      "name": "Boots of the Qiraji General",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Boots of the Qiraji General</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Feet</td><th>Mail</th></tr></table>335 Armor<br />+23 Agility<br />+18 Stamina<br />+16 Intellect<br />Red Socket<br />Socket Bonus: +4 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases attack power by 38.</span><br /><span class=\"q2\">Equip: Improves haste rating by 15.</span><br /></td></tr></table>",
+      "icon": "inv_boots_chain_11.jpg",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 1,
+          "npcId": 1
+        }
+      ],
+      "slots": [
+        "Feet"
+      ],
+      "types": [
+        "Mail"
+      ]
+    },
+    {
+      "id": 20727,
+      "name": "Formula: Enchant Gloves - Shadow Power",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 3,
+      "tooltip": "<table><tr><td><b class=\"q3\">Formula: Enchant Gloves - Shadow Power</b><br />Binds when picked up<br />Requires Enchanting (300)<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: Teaches you how to permanently enchant gloves to increase shadow spell power by 20.</span><br /></td></tr></table>",
+      "icon": "inv_misc_note_01.jpg",
+      "dropsFrom": [
+        {
+          "chance": 14.29,
+          "bossId": 1,
+          "npcId": 1
+        },
+        {
+          "chance": 14.29,
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 14.29,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 14.29,
+          "bossId": 4,
+          "npcId": 4
+        },
+        {
+          "chance": 14.29,
+          "bossId": 3,
+          "npcId": 3
+        },
+        {
+          "chance": 14.29,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 20728,
+      "name": "Formula: Enchant Gloves - Frost Power",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 3,
+      "tooltip": "<table><tr><td><b class=\"q3\">Formula: Enchant Gloves - Frost Power</b><br />Binds when picked up<br />Requires Enchanting (300)<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: Teaches you how to permanently enchant gloves to increase frost spell power by 20.</span><br /></td></tr></table>",
+      "icon": "inv_misc_note_01.jpg",
+      "dropsFrom": [
+        {
+          "chance": 14.29,
+          "bossId": 1,
+          "npcId": 1
+        },
+        {
+          "chance": 14.29,
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 14.29,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 14.29,
+          "bossId": 4,
+          "npcId": 4
+        },
+        {
+          "chance": 14.29,
+          "bossId": 3,
+          "npcId": 3
+        },
+        {
+          "chance": 14.29,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 20729,
+      "name": "Formula: Enchant Gloves - Fire Power",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 3,
+      "tooltip": "<table><tr><td><b class=\"q3\">Formula: Enchant Gloves - Fire Power</b><br />Binds when picked up<br />Requires Enchanting (300)<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: Teaches you how to permanently enchant gloves to increase fire spell power by 20.</span><br /></td></tr></table>",
+      "icon": "inv_misc_note_01.jpg",
+      "dropsFrom": [
+        {
+          "chance": 14.29,
+          "bossId": 1,
+          "npcId": 1
+        },
+        {
+          "chance": 14.29,
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 14.29,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 14.29,
+          "bossId": 4,
+          "npcId": 4
+        },
+        {
+          "chance": 14.29,
+          "bossId": 3,
+          "npcId": 3
+        },
+        {
+          "chance": 14.29,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 20730,
+      "name": "Formula: Enchant Gloves - Healing Power",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 3,
+      "tooltip": "<table><tr><td><b class=\"q3\">Formula: Enchant Gloves - Healing Power</b><br />Binds when picked up<br />Requires Enchanting (300)<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: Teaches you how to permanently enchant gloves to increase spell power by 16.</span><br /></td></tr></table>",
+      "icon": "inv_misc_note_01.jpg",
+      "dropsFrom": [
+        {
+          "chance": 14.29,
+          "bossId": 1,
+          "npcId": 1
+        },
+        {
+          "chance": 14.29,
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 14.29,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 14.29,
+          "bossId": 4,
+          "npcId": 4
+        },
+        {
+          "chance": 14.29,
+          "bossId": 3,
+          "npcId": 3
+        },
+        {
+          "chance": 14.29,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 20731,
+      "name": "Formula: Enchant Gloves - Superior Agility",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 3,
+      "tooltip": "<table><tr><td><b class=\"q3\">Formula: Enchant Gloves - Superior Agility</b><br />Binds when picked up<br />Requires Enchanting (300)<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: Teaches you how to permanently enchant gloves to increase Agility by 15.</span><br /></td></tr></table>",
+      "icon": "inv_misc_note_01.jpg",
+      "dropsFrom": [
+        {
+          "chance": 14.29,
+          "bossId": 1,
+          "npcId": 1
+        },
+        {
+          "chance": 14.29,
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 14.29,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 14.29,
+          "bossId": 4,
+          "npcId": 4
+        },
+        {
+          "chance": 14.29,
+          "bossId": 3,
+          "npcId": 3
+        },
+        {
+          "chance": 14.29,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 20734,
+      "name": "Formula: Enchant Cloak - Stealth",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 3,
+      "tooltip": "<table><tr><td><b class=\"q3\">Formula: Enchant Cloak - Stealth</b><br />Binds when picked up<br />Requires Enchanting (300)<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: Teaches you how to permanently enchant a cloak to increase stealth.</span><br /></td></tr></table>",
+      "icon": "inv_misc_note_01.jpg",
+      "dropsFrom": [
+        {
+          "chance": 14.29,
+          "bossId": 1,
+          "npcId": 1
+        },
+        {
+          "chance": 14.29,
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 14.29,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 14.29,
+          "bossId": 4,
+          "npcId": 4
+        },
+        {
+          "chance": 14.29,
+          "bossId": 3,
+          "npcId": 3
+        },
+        {
+          "chance": 14.29,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Unknown"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 20736,
+      "name": "Formula: Enchant Cloak - Dodge",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 3,
+      "tooltip": "<table><tr><td><b class=\"q3\">Formula: Enchant Cloak - Dodge</b><br />Binds when picked up<br />Requires Enchanting (300)<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: Teaches you how to permanently enchant a cloak to increase dodge rating by 12.</span><br /></td></tr></table>",
+      "icon": "inv_misc_note_01.jpg",
+      "dropsFrom": [
+        {
+          "chance": 14.29,
+          "bossId": 1,
+          "npcId": 1
+        },
+        {
+          "chance": 14.29,
+          "bossId": 2,
+          "npcId": 2
+        },
+        {
+          "chance": 14.29,
+          "bossId": 0,
+          "npcId": 0
+        },
+        {
+          "chance": 14.29,
+          "bossId": 4,
+          "npcId": 4
+        },
+        {
+          "chance": 14.29,
+          "bossId": 3,
+          "npcId": 3
+        },
+        {
+          "chance": 14.29,
+          "bossId": 5,
+          "npcId": 5
+        }
+      ],
+      "slots": [
+        "Unknown"
       ],
       "types": [
         "Unknown"
@@ -185,7 +776,7 @@
         "Head"
       ],
       "types": [
-        "Unknown"
+        "Leather"
       ]
     },
     {
@@ -217,7 +808,7 @@
         "Chest"
       ],
       "types": [
-        "Unknown"
+        "Leather"
       ]
     },
     {
@@ -249,7 +840,7 @@
         "Shoulder"
       ],
       "types": [
-        "Unknown"
+        "Cloth"
       ]
     },
     {
@@ -281,7 +872,7 @@
         "Hands"
       ],
       "types": [
-        "Unknown"
+        "Leather"
       ]
     },
     {
@@ -313,7 +904,7 @@
         "Back"
       ],
       "types": [
-        "Unknown"
+        "Cloak"
       ]
     },
     {
@@ -332,7 +923,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Talon of Furious Concentration</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Held In Off-hand</td><th></th></tr></table>+15 Stamina<br />+13 Intellect<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases spell power by 25.</span><br /><span class=\"q2\">Equip: Improves critical strike rating by 12.</span><br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Talon of Furious Concentration</b><br />Binds when picked up<br />Held In Off-hand<br />+15 Stamina<br />+13 Intellect<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases spell power by 25.</span><br /><span class=\"q2\">Equip: Improves critical strike rating by 12.</span><br /></td></tr></table>",
       "icon": "inv_mace_21.jpg",
       "dropsFrom": [
         {
@@ -342,7 +933,7 @@
         }
       ],
       "slots": [
-        "Held In Off-hand"
+        "Unknown"
       ],
       "types": [
         "Unknown"
@@ -377,7 +968,7 @@
         "Head"
       ],
       "types": [
-        "Unknown"
+        "Cloth"
       ]
     },
     {
@@ -409,7 +1000,7 @@
         "Trinket"
       ],
       "types": [
-        "Unknown"
+        "Trinket"
       ]
     },
     {
@@ -441,7 +1032,7 @@
         "Shoulder"
       ],
       "types": [
-        "Unknown"
+        "Leather"
       ]
     },
     {
@@ -473,7 +1064,7 @@
         "Legs"
       ],
       "types": [
-        "Unknown"
+        "Plate"
       ]
     },
     {
@@ -505,7 +1096,7 @@
         "Legs"
       ],
       "types": [
-        "Unknown"
+        "Mail"
       ]
     },
     {
@@ -537,7 +1128,7 @@
         "Finger"
       ],
       "types": [
-        "Unknown"
+        "Ring"
       ]
     },
     {
@@ -574,7 +1165,7 @@
         "Hands"
       ],
       "types": [
-        "Unknown"
+        "Plate"
       ]
     },
     {
@@ -593,7 +1184,7 @@
         "Druid"
       ],
       "quality": 3,
-      "tooltip": "<table><tr><td><b class=\"q3\">Plans: Black Grasp of the Destroyer</b><br />Requires Blacksmithing (300)<br />Black Grasp of the Destroyer<br />Binds when equipped<br />Hands - Mail<br />337 Armor<br />+20 Agility<br />+24 Stamina<br />Requires Level 60<br />Requires Large Obsidian Shard (8), Small Obsidian Shard (24), Enchanted Leather (8), Flask of Supreme Power<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: Teaches you how to make the Black Grasp of the Destroyer.</span><br /><span class=\"q2\">Equip: Increases attack power by 37.</span><br /><span class=\"q2\">Equip: Improves critical strike rating by 16.</span><br /><span class=\"q2\">Equip: On successful melee or ranged attack gain 15 mana and if possible drain 15 mana from the target.</span><br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q3\">Plans: Black Grasp of the Destroyer</b><br />Requires Blacksmithing (300)<br />Black Grasp of the Destroyer<br />Binds when equipped<br /><table width=\"100%\"><tr><td>Hands</td><th>Mail</th></tr></table>337 Armor<br />+20 Agility<br />+24 Stamina<br />Requires Level 60<br />Requires Large Obsidian Shard (8), Small Obsidian Shard (24), Enchanted Leather (8), Flask of Supreme Power<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: Teaches you how to make the Black Grasp of the Destroyer.</span><br /><span class=\"q2\">Equip: Increases attack power by 37.</span><br /><span class=\"q2\">Equip: Improves critical strike rating by 16.</span><br /><span class=\"q2\">Equip: On successful melee or ranged attack gain 15 mana and if possible drain 15 mana from the target.</span><br /></td></tr></table>",
       "icon": "inv_scroll_05.jpg",
       "dropsFrom": [
         {
@@ -603,825 +1194,10 @@
         }
       ],
       "slots": [
-        "Non-equippable"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 20727,
-      "name": "Formula: Enchant Gloves - Shadow Power",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 3,
-      "tooltip": "<table><tr><td><b class=\"q3\">Formula: Enchant Gloves - Shadow Power</b><br />Binds when picked up<br />Requires Enchanting (300)<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: Teaches you how to permanently enchant gloves to increase shadow spell power by 20.</span><br /></td></tr></table>",
-      "icon": "inv_misc_note_01.jpg",
-      "dropsFrom": [
-        {
-          "chance": 14.29,
-          "bossId": 2,
-          "npcId": 2
-        },
-        {
-          "chance": 14.29,
-          "bossId": 1,
-          "npcId": 1
-        },
-        {
-          "chance": 14.29,
-          "bossId": 3,
-          "npcId": 3
-        },
-        {
-          "chance": 14.29,
-          "bossId": 0,
-          "npcId": 0
-        },
-        {
-          "chance": 14.29,
-          "bossId": 4,
-          "npcId": 4
-        },
-        {
-          "chance": 14.29,
-          "bossId": 5,
-          "npcId": 5
-        }
-      ],
-      "slots": [
-        "Non-equippable"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 20728,
-      "name": "Formula: Enchant Gloves - Frost Power",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 3,
-      "tooltip": "<table><tr><td><b class=\"q3\">Formula: Enchant Gloves - Frost Power</b><br />Binds when picked up<br />Requires Enchanting (300)<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: Teaches you how to permanently enchant gloves to increase frost spell power by 20.</span><br /></td></tr></table>",
-      "icon": "inv_misc_note_01.jpg",
-      "dropsFrom": [
-        {
-          "chance": 14.29,
-          "bossId": 2,
-          "npcId": 2
-        },
-        {
-          "chance": 14.29,
-          "bossId": 1,
-          "npcId": 1
-        },
-        {
-          "chance": 14.29,
-          "bossId": 3,
-          "npcId": 3
-        },
-        {
-          "chance": 14.29,
-          "bossId": 0,
-          "npcId": 0
-        },
-        {
-          "chance": 14.29,
-          "bossId": 4,
-          "npcId": 4
-        },
-        {
-          "chance": 14.29,
-          "bossId": 5,
-          "npcId": 5
-        }
-      ],
-      "slots": [
-        "Non-equippable"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 20729,
-      "name": "Formula: Enchant Gloves - Fire Power",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 3,
-      "tooltip": "<table><tr><td><b class=\"q3\">Formula: Enchant Gloves - Fire Power</b><br />Binds when picked up<br />Requires Enchanting (300)<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: Teaches you how to permanently enchant gloves to increase fire spell power by 20.</span><br /></td></tr></table>",
-      "icon": "inv_misc_note_01.jpg",
-      "dropsFrom": [
-        {
-          "chance": 14.29,
-          "bossId": 2,
-          "npcId": 2
-        },
-        {
-          "chance": 14.29,
-          "bossId": 1,
-          "npcId": 1
-        },
-        {
-          "chance": 14.29,
-          "bossId": 3,
-          "npcId": 3
-        },
-        {
-          "chance": 14.29,
-          "bossId": 0,
-          "npcId": 0
-        },
-        {
-          "chance": 14.29,
-          "bossId": 4,
-          "npcId": 4
-        },
-        {
-          "chance": 14.29,
-          "bossId": 5,
-          "npcId": 5
-        }
-      ],
-      "slots": [
-        "Non-equippable"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 20730,
-      "name": "Formula: Enchant Gloves - Healing Power",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 3,
-      "tooltip": "<table><tr><td><b class=\"q3\">Formula: Enchant Gloves - Healing Power</b><br />Binds when picked up<br />Requires Enchanting (300)<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: Teaches you how to permanently enchant gloves to increase spell power by 16.</span><br /></td></tr></table>",
-      "icon": "inv_misc_note_01.jpg",
-      "dropsFrom": [
-        {
-          "chance": 14.29,
-          "bossId": 2,
-          "npcId": 2
-        },
-        {
-          "chance": 14.29,
-          "bossId": 1,
-          "npcId": 1
-        },
-        {
-          "chance": 14.29,
-          "bossId": 3,
-          "npcId": 3
-        },
-        {
-          "chance": 14.29,
-          "bossId": 0,
-          "npcId": 0
-        },
-        {
-          "chance": 14.29,
-          "bossId": 4,
-          "npcId": 4
-        },
-        {
-          "chance": 14.29,
-          "bossId": 5,
-          "npcId": 5
-        }
-      ],
-      "slots": [
-        "Non-equippable"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 20731,
-      "name": "Formula: Enchant Gloves - Superior Agility",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 3,
-      "tooltip": "<table><tr><td><b class=\"q3\">Formula: Enchant Gloves - Superior Agility</b><br />Binds when picked up<br />Requires Enchanting (300)<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: Teaches you how to permanently enchant gloves to increase Agility by 15.</span><br /></td></tr></table>",
-      "icon": "inv_misc_note_01.jpg",
-      "dropsFrom": [
-        {
-          "chance": 14.29,
-          "bossId": 2,
-          "npcId": 2
-        },
-        {
-          "chance": 14.29,
-          "bossId": 1,
-          "npcId": 1
-        },
-        {
-          "chance": 14.29,
-          "bossId": 3,
-          "npcId": 3
-        },
-        {
-          "chance": 14.29,
-          "bossId": 0,
-          "npcId": 0
-        },
-        {
-          "chance": 14.29,
-          "bossId": 4,
-          "npcId": 4
-        },
-        {
-          "chance": 14.29,
-          "bossId": 5,
-          "npcId": 5
-        }
-      ],
-      "slots": [
-        "Non-equippable"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 20734,
-      "name": "Formula: Enchant Cloak - Stealth",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 3,
-      "tooltip": "<table><tr><td><b class=\"q3\">Formula: Enchant Cloak - Stealth</b><br />Binds when picked up<br />Requires Enchanting (300)<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: Teaches you how to permanently enchant a cloak to increase stealth.</span><br /></td></tr></table>",
-      "icon": "inv_misc_note_01.jpg",
-      "dropsFrom": [
-        {
-          "chance": 14.29,
-          "bossId": 2,
-          "npcId": 2
-        },
-        {
-          "chance": 14.29,
-          "bossId": 1,
-          "npcId": 1
-        },
-        {
-          "chance": 14.29,
-          "bossId": 3,
-          "npcId": 3
-        },
-        {
-          "chance": 14.29,
-          "bossId": 0,
-          "npcId": 0
-        },
-        {
-          "chance": 14.29,
-          "bossId": 4,
-          "npcId": 4
-        },
-        {
-          "chance": 14.29,
-          "bossId": 5,
-          "npcId": 5
-        }
-      ],
-      "slots": [
-        "Non-equippable"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 20736,
-      "name": "Formula: Enchant Cloak - Dodge",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 3,
-      "tooltip": "<table><tr><td><b class=\"q3\">Formula: Enchant Cloak - Dodge</b><br />Binds when picked up<br />Requires Enchanting (300)<br /></td></tr></table><table><tr><td><span class=\"q2\">Use: Teaches you how to permanently enchant a cloak to increase dodge rating by 12.</span><br /></td></tr></table>",
-      "icon": "inv_misc_note_01.jpg",
-      "dropsFrom": [
-        {
-          "chance": 14.29,
-          "bossId": 2,
-          "npcId": 2
-        },
-        {
-          "chance": 14.29,
-          "bossId": 1,
-          "npcId": 1
-        },
-        {
-          "chance": 14.29,
-          "bossId": 3,
-          "npcId": 3
-        },
-        {
-          "chance": 14.29,
-          "bossId": 0,
-          "npcId": 0
-        },
-        {
-          "chance": 14.29,
-          "bossId": 4,
-          "npcId": 4
-        },
-        {
-          "chance": 14.29,
-          "bossId": 5,
-          "npcId": 5
-        }
-      ],
-      "slots": [
-        "Non-equippable"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 21492,
-      "name": "Manslayer of the Qiraji",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Manslayer of the Qiraji</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Two-Hand</td><th>Sword</th></tr></table>261 - 421 Damage - Speed 3.60<br />(94.7 damage per second)<br />+29 Strength<br />+26 Stamina<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves critical strike rating by 21.</span><br /><span class=\"q2\">Equip: Increases your expertise rating by 16.</span><br /></td></tr></table>",
-      "icon": "inv_sword_56.jpg",
-      "dropsFrom": [
-        {
-          "chance": 10.0,
-          "bossId": 1,
-          "npcId": 1
-        }
-      ],
-      "slots": [
-        "Two-Hand"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 21493,
-      "name": "Boots of the Vanguard",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Boots of the Vanguard</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Feet</td><th>Leather</th></tr></table>152 Armor<br />+26 Strength<br />+23 Agility<br />+27 Stamina<br />Yellow Socket<br />Socket Bonus: +4 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your expertise rating by 14.</span><br /></td></tr></table>",
-      "icon": "inv_boots_08.jpg",
-      "dropsFrom": [
-        {
-          "chance": 10.0,
-          "bossId": 1,
-          "npcId": 1
-        }
-      ],
-      "slots": [
-        "Feet"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 21494,
-      "name": "Southwind's Grasp",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Southwind's Grasp</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Waist</td><th>Leather</th></tr></table>133 Armor<br />+19 Stamina<br />+18 Intellect<br />Yellow Socket<br />Socket Bonus: +3 Intellect<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases spell power by 27.</span><br /><span class=\"q2\">Equip: Improves critical strike rating by 15.</span><br /></td></tr></table>",
-      "icon": "inv_belt_25.jpg",
-      "dropsFrom": [
-        {
-          "chance": 0.0,
-          "bossId": 1,
-          "npcId": 1
-        }
-      ],
-      "slots": [
-        "Waist"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 21495,
-      "name": "Legplates of the Qiraji Command",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Legplates of the Qiraji Command</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Legs</td><th>Plate</th></tr></table>844 Armor<br />+33 Strength<br />+27 Stamina<br />Red Socket<br />Socket Bonus: +2 Strength<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves critical strike rating by 14.</span><br /><span class=\"q2\">Equip: Increases your armor penetration rating by 15.</span><br /></td></tr></table>",
-      "icon": "inv_pants_plate_15.jpg",
-      "dropsFrom": [
-        {
-          "chance": 0.0,
-          "bossId": 1,
-          "npcId": 1
-        }
-      ],
-      "slots": [
-        "Legs"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 21496,
-      "name": "Bracers of Qiraji Command",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Bracers of Qiraji Command</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Wrist</td><th>Cloth</th></tr></table>48 Armor<br />+23 Stamina<br />+18 Intellect<br />Yellow Socket<br />Socket Bonus: +2 Intellect<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases spell power by 30.</span><br /><span class=\"q2\">Equip: Improves spell hit rating by 16.</span><br /></td></tr></table>",
-      "icon": "inv_bracer_13.jpg",
-      "dropsFrom": [
-        {
-          "chance": 0.0,
-          "bossId": 1,
-          "npcId": 1
-        }
-      ],
-      "slots": [
-        "Wrist"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 21497,
-      "name": "Boots of the Qiraji General",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Boots of the Qiraji General</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Feet</td><th>Mail</th></tr></table>335 Armor<br />+23 Agility<br />+18 Stamina<br />+16 Intellect<br />Red Socket<br />Socket Bonus: +4 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases attack power by 38.</span><br /><span class=\"q2\">Equip: Improves haste rating by 15.</span><br /></td></tr></table>",
-      "icon": "inv_boots_chain_11.jpg",
-      "dropsFrom": [
-        {
-          "chance": 0.0,
-          "bossId": 1,
-          "npcId": 1
-        }
-      ],
-      "slots": [
-        "Feet"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 21485,
-      "name": "Buru's Skull Fragment",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Buru's Skull Fragment</b><br />Binds when picked up<br />Off Hand - Shield<br />2993 Armor<br />59 Block<br />+19 Strength<br />+35 Stamina<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases defense rating by 20.</span><br /><span class=\"q2\">Equip: Increases your shield block rating by 16.</span><br /></td></tr></table>",
-      "icon": "inv_shield_22.jpg",
-      "dropsFrom": [
-        {
-          "chance": 6.67,
-          "bossId": 3,
-          "npcId": 3
-        }
-      ],
-      "slots": [
-        "Shield"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 21486,
-      "name": "Gloves of the Swarm",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Gloves of the Swarm</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Hands</td><th>Plate</th></tr></table>603 Armor<br />+23 Stamina<br />+29 Intellect<br />Yellow Socket<br />Socket Bonus: +2 Intellect<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases spell power by 26.</span><br /><span class=\"q2\">Equip: Improves haste rating by 12.</span><br /></td></tr></table>",
-      "icon": "inv_gauntlets_30.jpg",
-      "dropsFrom": [
-        {
-          "chance": 6.67,
-          "bossId": 3,
-          "npcId": 3
-        }
-      ],
-      "slots": [
         "Hands"
       ],
       "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 21487,
-      "name": "Slimy Scaled Gauntlets",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Slimy Scaled Gauntlets</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Hands</td><th>Mail</th></tr></table>337 Armor<br />+25 Stamina<br />+27 Intellect<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases spell power by 27.</span><br /><span class=\"q2\">Equip: Improves critical strike rating by 16.</span><br /></td></tr></table>",
-      "icon": "inv_gauntlets_12.jpg",
-      "dropsFrom": [
-        {
-          "chance": 6.67,
-          "bossId": 3,
-          "npcId": 3
-        }
-      ],
-      "slots": [
-        "Hands"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 21488,
-      "name": "Fetish of Chitinous Spikes",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Fetish of Chitinous Spikes</b><br />Binds when picked up<br />Unique-Equipped<br /><table width=\"100%\"><tr><td>Trinket</td><th></th></tr></table>+40 Stamina<br />Requires Level 60<br />\"Ouch\"<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your dodge rating by 13.</span><br /><span class=\"q2\">Equip: Increases your parry rating by 11.</span><br /><span class=\"q2\">Use: Spikes sprout from you causing 100 Nature damage to attackers when hit.  Lasts 15 sec. (45 Sec Cooldown)</span><br /></td></tr></table>",
-      "icon": "inv_misc_ahnqirajtrinket_02.jpg",
-      "dropsFrom": [
-        {
-          "chance": 0.0,
-          "bossId": 3,
-          "npcId": 3
-        }
-      ],
-      "slots": [
-        "Trinket"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 21489,
-      "name": "Quicksand Waders",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Quicksand Waders</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Feet</td><th>Cloth</th></tr></table>74 Armor<br />+19 Stamina<br />+21 Intellect<br />+16 Spirit<br />Blue Socket<br />Socket Bonus: +2 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases spell power by 26.</span><br /></td></tr></table>",
-      "icon": "inv_boots_cloth_05.jpg",
-      "dropsFrom": [
-        {
-          "chance": 0.0,
-          "bossId": 3,
-          "npcId": 3
-        }
-      ],
-      "slots": [
-        "Feet"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 21490,
-      "name": "Slime Kickers",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Slime Kickers</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Feet</td><th>Plate</th></tr></table>558 Armor<br />+23 Strength<br />+27 Stamina<br />Red Socket<br />Socket Bonus: +2 Strength<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves critical strike rating by 17.</span><br /><span class=\"q2\">Equip: Improves hit rating by 11.</span><br /></td></tr></table>",
-      "icon": "inv_boots_plate_04.jpg",
-      "dropsFrom": [
-        {
-          "chance": 0.0,
-          "bossId": 3,
-          "npcId": 3
-        }
-      ],
-      "slots": [
-        "Feet"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 21491,
-      "name": "Scaled Bracers of the Gorger",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Scaled Bracers of the Gorger</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Wrist</td><th>Leather</th></tr></table>100 Armor<br />+21 Agility<br />+24 Stamina<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases attack power by 34.</span><br /><span class=\"q2\">Equip: Improves critical strike rating by 14.</span><br /></td></tr></table>",
-      "icon": "inv_bracer_03.jpg",
-      "dropsFrom": [
-        {
-          "chance": 0.0,
-          "bossId": 3,
-          "npcId": 3
-        }
-      ],
-      "slots": [
-        "Wrist"
-      ],
-      "types": [
-        "Unknown"
+        "Mail"
       ]
     },
     {
@@ -1453,7 +1229,7 @@
         "One-Hand"
       ],
       "types": [
-        "Unknown"
+        "Dagger"
       ]
     },
     {
@@ -1472,7 +1248,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Vestments of the Shifting Sands</b><br />Binds when picked up<br />Chest - Cloth<br />127 Armor<br />+23 Stamina<br />+28 Intellect<br />+31 Spirit<br />Yellow Socket<br />Socket Bonus: +3 Intellect<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases spell power by 36.</span><br /><span class=\"q2\">Equip: Improves critical strike rating by 18.</span><br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Vestments of the Shifting Sands</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Chest</td><th>Cloth</th></tr></table>127 Armor<br />+23 Stamina<br />+28 Intellect<br />+31 Spirit<br />Yellow Socket<br />Socket Bonus: +3 Intellect<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases spell power by 36.</span><br /><span class=\"q2\">Equip: Improves critical strike rating by 18.</span><br /></td></tr></table>",
       "icon": "inv_chest_cloth_17.jpg",
       "dropsFrom": [
         {
@@ -1482,10 +1258,10 @@
         }
       ],
       "slots": [
-        "Robe"
+        "Chest"
       ],
       "types": [
-        "Unknown"
+        "Cloth"
       ]
     },
     {
@@ -1517,7 +1293,7 @@
         "Waist"
       ],
       "types": [
-        "Unknown"
+        "Cloth"
       ]
     },
     {
@@ -1549,7 +1325,7 @@
         "Hands"
       ],
       "types": [
-        "Unknown"
+        "Leather"
       ]
     },
     {
@@ -1581,7 +1357,7 @@
         "Wrist"
       ],
       "types": [
-        "Unknown"
+        "Mail"
       ]
     },
     {
@@ -1613,7 +1389,7 @@
         "Waist"
       ],
       "types": [
-        "Unknown"
+        "Plate"
       ]
     },
     {
@@ -1642,7 +1418,7 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Unknown"
       ],
       "types": [
         "Unknown"
@@ -1677,7 +1453,7 @@
         "Main Hand"
       ],
       "types": [
-        "Unknown"
+        "Mace"
       ]
     },
     {
@@ -1709,7 +1485,7 @@
         "Ranged"
       ],
       "types": [
-        "Unknown"
+        "Bow"
       ]
     },
     {
@@ -1741,7 +1517,7 @@
         "Hands"
       ],
       "types": [
-        "Unknown"
+        "Mail"
       ]
     },
     {
@@ -1773,7 +1549,7 @@
         "Feet"
       ],
       "types": [
-        "Unknown"
+        "Plate"
       ]
     },
     {
@@ -1805,7 +1581,7 @@
         "Feet"
       ],
       "types": [
-        "Unknown"
+        "Mail"
       ]
     },
     {
@@ -1837,7 +1613,7 @@
         "Finger"
       ],
       "types": [
-        "Unknown"
+        "Ring"
       ]
     },
     {
@@ -1869,7 +1645,231 @@
         "Head"
       ],
       "types": [
-        "Unknown"
+        "Leather"
+      ]
+    },
+    {
+      "id": 21485,
+      "name": "Buru's Skull Fragment",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Buru's Skull Fragment</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Off Hand</td><th>Shield</th></tr></table>2993 Armor<br />59 Block<br />+19 Strength<br />+35 Stamina<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases defense rating by 20.</span><br /><span class=\"q2\">Equip: Increases your shield block rating by 16.</span><br /></td></tr></table>",
+      "icon": "inv_shield_22.jpg",
+      "dropsFrom": [
+        {
+          "chance": 6.67,
+          "bossId": 3,
+          "npcId": 3
+        }
+      ],
+      "slots": [
+        "Off Hand"
+      ],
+      "types": [
+        "Shield"
+      ]
+    },
+    {
+      "id": 21486,
+      "name": "Gloves of the Swarm",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Gloves of the Swarm</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Hands</td><th>Plate</th></tr></table>603 Armor<br />+23 Stamina<br />+29 Intellect<br />Yellow Socket<br />Socket Bonus: +2 Intellect<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases spell power by 26.</span><br /><span class=\"q2\">Equip: Improves haste rating by 12.</span><br /></td></tr></table>",
+      "icon": "inv_gauntlets_30.jpg",
+      "dropsFrom": [
+        {
+          "chance": 6.67,
+          "bossId": 3,
+          "npcId": 3
+        }
+      ],
+      "slots": [
+        "Hands"
+      ],
+      "types": [
+        "Plate"
+      ]
+    },
+    {
+      "id": 21487,
+      "name": "Slimy Scaled Gauntlets",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Slimy Scaled Gauntlets</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Hands</td><th>Mail</th></tr></table>337 Armor<br />+25 Stamina<br />+27 Intellect<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases spell power by 27.</span><br /><span class=\"q2\">Equip: Improves critical strike rating by 16.</span><br /></td></tr></table>",
+      "icon": "inv_gauntlets_12.jpg",
+      "dropsFrom": [
+        {
+          "chance": 6.67,
+          "bossId": 3,
+          "npcId": 3
+        }
+      ],
+      "slots": [
+        "Hands"
+      ],
+      "types": [
+        "Mail"
+      ]
+    },
+    {
+      "id": 21488,
+      "name": "Fetish of Chitinous Spikes",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Fetish of Chitinous Spikes</b><br />Binds when picked up<br />Unique-Equipped<br /><table width=\"100%\"><tr><td>Trinket</td><th></th></tr></table>+40 Stamina<br />Requires Level 60<br />\"Ouch\"<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your dodge rating by 13.</span><br /><span class=\"q2\">Equip: Increases your parry rating by 11.</span><br /><span class=\"q2\">Use: Spikes sprout from you causing 100 Nature damage to attackers when hit.  Lasts 15 sec. (45 Sec Cooldown)</span><br /></td></tr></table>",
+      "icon": "inv_misc_ahnqirajtrinket_02.jpg",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 3,
+          "npcId": 3
+        }
+      ],
+      "slots": [
+        "Trinket"
+      ],
+      "types": [
+        "Trinket"
+      ]
+    },
+    {
+      "id": 21489,
+      "name": "Quicksand Waders",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Quicksand Waders</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Feet</td><th>Cloth</th></tr></table>74 Armor<br />+19 Stamina<br />+21 Intellect<br />+16 Spirit<br />Blue Socket<br />Socket Bonus: +2 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases spell power by 26.</span><br /></td></tr></table>",
+      "icon": "inv_boots_cloth_05.jpg",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 3,
+          "npcId": 3
+        }
+      ],
+      "slots": [
+        "Feet"
+      ],
+      "types": [
+        "Cloth"
+      ]
+    },
+    {
+      "id": 21490,
+      "name": "Slime Kickers",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Slime Kickers</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Feet</td><th>Plate</th></tr></table>558 Armor<br />+23 Strength<br />+27 Stamina<br />Red Socket<br />Socket Bonus: +2 Strength<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves critical strike rating by 17.</span><br /><span class=\"q2\">Equip: Improves hit rating by 11.</span><br /></td></tr></table>",
+      "icon": "inv_boots_plate_04.jpg",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 3,
+          "npcId": 3
+        }
+      ],
+      "slots": [
+        "Feet"
+      ],
+      "types": [
+        "Plate"
+      ]
+    },
+    {
+      "id": 21491,
+      "name": "Scaled Bracers of the Gorger",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Scaled Bracers of the Gorger</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Wrist</td><th>Leather</th></tr></table>100 Armor<br />+21 Agility<br />+24 Stamina<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases attack power by 34.</span><br /><span class=\"q2\">Equip: Improves critical strike rating by 14.</span><br /></td></tr></table>",
+      "icon": "inv_bracer_03.jpg",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 3,
+          "npcId": 3
+        }
+      ],
+      "slots": [
+        "Wrist"
+      ],
+      "types": [
+        "Leather"
       ]
     },
     {
@@ -1898,7 +1898,7 @@
         }
       ],
       "slots": [
-        "Non-equippable"
+        "Unknown"
       ],
       "types": [
         "Unknown"
@@ -1933,7 +1933,7 @@
         "Two-Hand"
       ],
       "types": [
-        "Unknown"
+        "Staff"
       ]
     },
     {
@@ -1965,7 +1965,7 @@
         "Shoulder"
       ],
       "types": [
-        "Unknown"
+        "Plate"
       ]
     },
     {
@@ -1997,7 +1997,7 @@
         "Shoulder"
       ],
       "types": [
-        "Unknown"
+        "Mail"
       ]
     },
     {
@@ -2029,7 +2029,7 @@
         "Back"
       ],
       "types": [
-        "Unknown"
+        "Cloak"
       ]
     },
     {
@@ -2061,7 +2061,7 @@
         "Wrist"
       ],
       "types": [
-        "Unknown"
+        "Plate"
       ]
     },
     {
@@ -2093,7 +2093,7 @@
         "Hands"
       ],
       "types": [
-        "Unknown"
+        "Leather"
       ]
     },
     {
@@ -2112,7 +2112,7 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Crossbow of Imminent Doom</b><br />Binds when picked up<br />Ranged - Crossbow<br />228 - 359 Damage - Speed 3.10<br />(94.7 damage per second)<br />+18 Agility<br />+14 Stamina<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases attack power by 33.</span><br /><span class=\"q2\">Equip: Improves hit rating by 15.</span><br /></td></tr></table>",
+      "tooltip": "<table><tr><td><b class=\"q4\">Crossbow of Imminent Doom</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Ranged</td><th>Crossbow</th></tr></table>228 - 359 Damage - Speed 3.10<br />(94.7 damage per second)<br />+18 Agility<br />+14 Stamina<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases attack power by 33.</span><br /><span class=\"q2\">Equip: Improves hit rating by 15.</span><br /></td></tr></table>",
       "icon": "inv_weapon_crossbow_06.jpg",
       "dropsFrom": [
         {
@@ -2122,10 +2122,10 @@
         }
       ],
       "slots": [
-        "Ranged Right"
+        "Ranged"
       ],
       "types": [
-        "Unknown"
+        "Crossbow"
       ]
     },
     {
@@ -2157,7 +2157,7 @@
         "Head"
       ],
       "types": [
-        "Unknown"
+        "Plate"
       ]
     },
     {
@@ -2189,7 +2189,7 @@
         "Legs"
       ],
       "types": [
-        "Unknown"
+        "Cloth"
       ]
     },
     {
@@ -2221,7 +2221,7 @@
         "Hands"
       ],
       "types": [
-        "Unknown"
+        "Cloth"
       ]
     },
     {
@@ -2253,7 +2253,7 @@
         "Waist"
       ],
       "types": [
-        "Unknown"
+        "Mail"
       ]
     },
     {
@@ -2285,7 +2285,7 @@
         "Wrist"
       ],
       "types": [
-        "Unknown"
+        "Cloth"
       ]
     },
     {
@@ -2317,7 +2317,7 @@
         "One-Hand"
       ],
       "types": [
-        "Unknown"
+        "Mace"
       ]
     }
   ],
