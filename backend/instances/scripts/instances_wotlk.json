@@ -715,16 +715,32 @@
                 ]
             }, {
                 "name": "First Hostage Chest",
-                "npcs": []
+                "npcs": [{
+                        "name": "Harkor's Satchel",
+                        "link": "https://wotlkdb.com/?object=187021"
+                    }
+				]
             }, {
                 "name": "Second Hostage Chest",
-                "npcs": []
+                "npcs": [{
+                        "name": "Tanzar's Trunk",
+                        "link": "https://wotlkdb.com/?object=186648"
+                    }
+				]
             }, {
                 "name": "Third Hostage Chest",
-                "npcs": []
+                "npcs": [{
+                        "name": "Kraz's Package",
+                        "link": "https://wotlkdb.com/?object=186667"
+                    }
+				]
             }, {
                 "name": "Fourth Hostage Chest",
-                "npcs": []
+                "npcs": [{
+                        "name": "Ashli's Bag",
+                        "link": "https://wotlkdb.com/?object=186672"
+                    }
+				]
             }
         ]
     }, {

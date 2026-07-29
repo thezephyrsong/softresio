@@ -5,8 +5,8 @@
   "name": "Molten Core",
   "items": [
     {
-      "id": 17065,
-      "name": "Medallion of Steadfast Might",
+      "id": 7075,
+      "name": "Core of Earth",
       "classes": [
         "Warrior",
         "Paladin",
@@ -19,26 +19,31 @@
         "Warlock",
         "Druid"
       ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Medallion of Steadfast Might</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Neck</td><th></th></tr></table>+16 Strength<br />+34 Stamina<br />Yellow Socket<br />Socket Bonus: +3 Stamina<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases defense rating by 15.</span><br /><span class=\"q2\">Equip: Increases your dodge rating by 15.</span><br /></td></tr></table>",
-      "icon": "inv_jewelry_amulet_03.jpg",
+      "quality": 1,
+      "tooltip": "<table><tr><td><b class=\"q1\">Core of Earth</b><br /></td></tr></table>",
+      "icon": "inv_stone_05.jpg",
       "dropsFrom": [
         {
-          "chance": 0.0,
-          "bossId": 1,
-          "npcId": 1
+          "chance": 30.0,
+          "bossId": 3,
+          "npcId": 3
+        },
+        {
+          "chance": 30.0,
+          "bossId": 7,
+          "npcId": 7
         }
       ],
       "slots": [
-        "Neck"
+        "Non-equippable"
       ],
       "types": [
         "Unknown"
       ]
     },
     {
-      "id": 17069,
-      "name": "Striker's Mark",
+      "id": 7076,
+      "name": "Essence of Earth",
       "classes": [
         "Warrior",
         "Paladin",
@@ -51,26 +56,31 @@
         "Warlock",
         "Druid"
       ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Striker's Mark</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Ranged</td><th>Bow</th></tr></table>174 - 318 Damage - Speed 2.50<br />(98.4 damage per second)<br />+16 Agility<br />+15 Stamina<br />Red Socket<br />Socket Bonus: +3 Agility<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases attack power by 53.</span><br /><span class=\"q2\">Equip: Improves hit rating by 12.</span><br /></td></tr></table>",
-      "icon": "inv_weapon_bow_08.jpg",
+      "quality": 2,
+      "tooltip": "<table><tr><td><b class=\"q2\">Essence of Earth</b><br /></td></tr></table>",
+      "icon": "spell_nature_strengthofearthtotem02.jpg",
       "dropsFrom": [
         {
-          "chance": 0.0,
-          "bossId": 1,
-          "npcId": 1
+          "chance": 40.0,
+          "bossId": 3,
+          "npcId": 3
+        },
+        {
+          "chance": 40.0,
+          "bossId": 7,
+          "npcId": 7
         }
       ],
       "slots": [
-        "Ranged"
+        "Non-equippable"
       ],
       "types": [
         "Unknown"
       ]
     },
     {
-      "id": 17073,
-      "name": "Earthshaker",
+      "id": 8150,
+      "name": "Deeprock Salt",
       "classes": [
         "Warrior",
         "Paladin",
@@ -83,26 +93,63 @@
         "Warlock",
         "Druid"
       ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Earthshaker</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Two-Hand</td><th>Mace</th></tr></table>265 - 424 Damage - Speed 3.50<br />(98.4 damage per second)<br />+30 Strength<br />+26 Stamina<br />Red Socket<br />Red Socket<br />Socket Bonus: +4 Strength<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases attack power by 83.</span><br /><span class=\"q2\">Chance on hit: Knocks down all nearby enemies for 3 sec.</span><br /></td></tr></table>",
-      "icon": "inv_hammer_04.jpg",
+      "quality": 1,
+      "tooltip": "<table><tr><td><b class=\"q1\">Deeprock Salt</b><br /></td></tr></table>",
+      "icon": "inv_misc_dust_02.jpg",
       "dropsFrom": [
         {
-          "chance": 0.0,
-          "bossId": 1,
-          "npcId": 1
+          "chance": 30.0,
+          "bossId": 3,
+          "npcId": 3
         }
       ],
       "slots": [
-        "Two-Hand"
+        "Non-equippable"
       ],
       "types": [
         "Unknown"
       ]
     },
     {
-      "id": 18203,
-      "name": "Eskhandar's Right Claw",
+      "id": 17011,
+      "name": "Lava Core",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 3,
+      "tooltip": "<table><tr><td><b class=\"q3\">Lava Core</b><br /></td></tr></table>",
+      "icon": "spell_nature_earthquake.jpg",
+      "dropsFrom": [
+        {
+          "chance": 14.0,
+          "bossId": 3,
+          "npcId": 3
+        },
+        {
+          "chance": 14.0,
+          "bossId": 7,
+          "npcId": 7
+        }
+      ],
+      "slots": [
+        "Non-equippable"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 17066,
+      "name": "Drillborer Disk",
       "classes": [
         "Warrior",
         "Paladin",
@@ -116,17 +163,113 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Eskhandar's Right Claw</b><br />Binds when picked up<br />Unique<br /><table width=\"100%\"><tr><td>Main Hand</td><th>Fist Weapon</th></tr></table>78 - 149 Damage - Speed 1.50<br />(75.7 damage per second)<br />+24 Agility<br />+20 Stamina<br />Red Socket<br />Socket Bonus: +6 Attack Power<br />Requires Level 60<br />Spirit of Eskhandar (0/2)<br />Eskhandar's Right Claw<br />Eskhandar's Left Claw<br />(2) Set: 1% chance on a melee critical hit to call forth the spirit of Eskhandar to protect you in battle for 2 min.<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases attack power by 32.</span><br /><span class=\"q2\">Chance on hit: Increases your haste rating by 315 for 5 sec.</span><br /></td></tr></table>",
-      "icon": "inv_misc_monsterclaw_04.jpg",
+      "tooltip": "<table><tr><td><b class=\"q4\">Drillborer Disk</b><br />Binds when picked up<br />Off Hand - Shield<br />3020 Armor<br />62 Block<br />+34 Stamina<br />Blue Socket<br />Socket Bonus: +3 Stamina<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your shield block rating by 15.</span><br /><span class=\"q2\">Equip: Increases the block value of your shield by 44.</span><br /><span class=\"q2\">Equip: When struck in combat inflicts 25 Arcane damage to the attacker.</span><br /></td></tr></table>",
+      "icon": "inv_shield_10.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
-          "bossId": 1,
-          "npcId": 1
+          "bossId": 3,
+          "npcId": 3
+        }
+      ],
+      "slots": [
+        "Shield"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 17071,
+      "name": "Gutgore Ripper",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Gutgore Ripper</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>One-Hand</td><th>Dagger</th></tr></table>107 - 165 Damage - Speed 1.80<br />(75.6 damage per second)<br />+24 Agility<br />+23 Stamina<br />Red Socket<br />Socket Bonus: +3 Agility<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Chance on hit: Sends a shadowy bolt at the enemy causing 246 Shadow damage and lowering all stats by 51 for 30 sec.</span><br /></td></tr></table>",
+      "icon": "inv_weapon_shortblade_18.jpg",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 3,
+          "npcId": 3
+        }
+      ],
+      "slots": [
+        "One-Hand"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 17105,
+      "name": "Aurastone Hammer",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Aurastone Hammer</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Main Hand</td><th>Mace</th></tr></table>102 - 185 Damage - Speed 2.70<br />(53.1 damage per second)<br />+19 Stamina<br />+22 Intellect<br />Yellow Socket<br />Socket Bonus: +4 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases spell power by 136.</span><br /><span class=\"q2\">Equip: Improves critical strike rating by 17.</span><br /><span class=\"q2\">Equip: Restores 11 mana per 5 sec.</span><br /></td></tr></table>",
+      "icon": "inv_hammer_05.jpg",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 3,
+          "npcId": 3
         }
       ],
       "slots": [
         "Main Hand"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 18564,
+      "name": "Bindings of the Windseeker",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 5,
+      "tooltip": "<table><tr><td><b class=\"q5\">Bindings of the Windseeker</b><br />Binds when picked up<br />Unique<br />\"The Right Half of Thunderaan's Eternal Prison\"<br /></td></tr></table>",
+      "icon": "spell_ice_lament.jpg",
+      "dropsFrom": [
+        {
+          "chance": 3.0,
+          "bossId": 3,
+          "npcId": 3
+        }
+      ],
+      "slots": [
+        "Non-equippable"
       ],
       "types": [
         "Unknown"
@@ -153,8 +296,8 @@
       "dropsFrom": [
         {
           "chance": 0.0,
-          "bossId": 1,
-          "npcId": 1
+          "bossId": 3,
+          "npcId": 3
         },
         {
           "chance": 6.25,
@@ -163,8 +306,8 @@
         },
         {
           "chance": 0.0,
-          "bossId": 3,
-          "npcId": 3
+          "bossId": 1,
+          "npcId": 1
         },
         {
           "chance": 0.0,
@@ -200,8 +343,8 @@
       "dropsFrom": [
         {
           "chance": 0.0,
-          "bossId": 1,
-          "npcId": 1
+          "bossId": 3,
+          "npcId": 3
         },
         {
           "chance": 6.25,
@@ -210,8 +353,8 @@
         },
         {
           "chance": 0.0,
-          "bossId": 3,
-          "npcId": 3
+          "bossId": 1,
+          "npcId": 1
         },
         {
           "chance": 0.0,
@@ -247,8 +390,8 @@
       "dropsFrom": [
         {
           "chance": 0.0,
-          "bossId": 1,
-          "npcId": 1
+          "bossId": 3,
+          "npcId": 3
         },
         {
           "chance": 6.25,
@@ -257,8 +400,8 @@
         },
         {
           "chance": 0.0,
-          "bossId": 3,
-          "npcId": 3
+          "bossId": 1,
+          "npcId": 1
         },
         {
           "chance": 0.0,
@@ -294,8 +437,8 @@
       "dropsFrom": [
         {
           "chance": 0.0,
-          "bossId": 1,
-          "npcId": 1
+          "bossId": 3,
+          "npcId": 3
         },
         {
           "chance": 6.25,
@@ -304,8 +447,8 @@
         },
         {
           "chance": 0.0,
-          "bossId": 3,
-          "npcId": 3
+          "bossId": 1,
+          "npcId": 1
         },
         {
           "chance": 0.0,
@@ -341,8 +484,8 @@
       "dropsFrom": [
         {
           "chance": 0.0,
-          "bossId": 1,
-          "npcId": 1
+          "bossId": 3,
+          "npcId": 3
         },
         {
           "chance": 6.25,
@@ -351,8 +494,8 @@
         },
         {
           "chance": 0.0,
-          "bossId": 3,
-          "npcId": 3
+          "bossId": 1,
+          "npcId": 1
         },
         {
           "chance": 0.0,
@@ -388,8 +531,8 @@
       "dropsFrom": [
         {
           "chance": 0.0,
-          "bossId": 1,
-          "npcId": 1
+          "bossId": 3,
+          "npcId": 3
         },
         {
           "chance": 6.25,
@@ -398,8 +541,8 @@
         },
         {
           "chance": 0.0,
-          "bossId": 3,
-          "npcId": 3
+          "bossId": 1,
+          "npcId": 1
         },
         {
           "chance": 0.0,
@@ -409,6 +552,38 @@
       ],
       "slots": [
         "Shoulder"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 18832,
+      "name": "Brutality Blade",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Brutality Blade</b><br />Binds when picked up<br />Unique-Equipped<br /><table width=\"100%\"><tr><td>One-Hand</td><th>Sword</th></tr></table>134 - 245 Damage - Speed 2.50<br />(75.8 damage per second)<br />+18 Strength<br />+19 Agility<br />+22 Stamina<br />Red Socket<br />Socket Bonus: +3 Strength<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves critical strike rating by 19.</span><br /></td></tr></table>",
+      "icon": "inv_sword_15.jpg",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 3,
+          "npcId": 3
+        }
+      ],
+      "slots": [
+        "One-Hand"
       ],
       "types": [
         "Unknown"
@@ -435,8 +610,8 @@
       "dropsFrom": [
         {
           "chance": 0.0,
-          "bossId": 1,
-          "npcId": 1
+          "bossId": 3,
+          "npcId": 3
         },
         {
           "chance": 6.25,
@@ -450,8 +625,8 @@
         },
         {
           "chance": 0.0,
-          "bossId": 3,
-          "npcId": 3
+          "bossId": 1,
+          "npcId": 1
         },
         {
           "chance": 6.25,
@@ -464,14 +639,14 @@
           "npcId": 5
         },
         {
-          "chance": 0.0,
-          "bossId": 7,
-          "npcId": 7
-        },
-        {
           "chance": 7.14,
           "bossId": 6,
           "npcId": 6
+        },
+        {
+          "chance": 0.0,
+          "bossId": 7,
+          "npcId": 7
         }
       ],
       "slots": [
@@ -502,8 +677,8 @@
       "dropsFrom": [
         {
           "chance": 0.0,
-          "bossId": 1,
-          "npcId": 1
+          "bossId": 3,
+          "npcId": 3
         },
         {
           "chance": 6.25,
@@ -512,8 +687,8 @@
         },
         {
           "chance": 0.0,
-          "bossId": 3,
-          "npcId": 3
+          "bossId": 1,
+          "npcId": 1
         },
         {
           "chance": 0.0,
@@ -549,8 +724,8 @@
       "dropsFrom": [
         {
           "chance": 0.0,
-          "bossId": 1,
-          "npcId": 1
+          "bossId": 3,
+          "npcId": 3
         },
         {
           "chance": 6.25,
@@ -559,8 +734,8 @@
         },
         {
           "chance": 0.0,
-          "bossId": 3,
-          "npcId": 3
+          "bossId": 1,
+          "npcId": 1
         },
         {
           "chance": 0.0,
@@ -596,8 +771,8 @@
       "dropsFrom": [
         {
           "chance": 0.0,
-          "bossId": 1,
-          "npcId": 1
+          "bossId": 3,
+          "npcId": 3
         },
         {
           "chance": 6.25,
@@ -606,8 +781,8 @@
         },
         {
           "chance": 0.0,
-          "bossId": 3,
-          "npcId": 3
+          "bossId": 1,
+          "npcId": 1
         },
         {
           "chance": 0.0,
@@ -643,8 +818,8 @@
       "dropsFrom": [
         {
           "chance": 0.0,
-          "bossId": 1,
-          "npcId": 1
+          "bossId": 3,
+          "npcId": 3
         },
         {
           "chance": 6.25,
@@ -653,8 +828,8 @@
         },
         {
           "chance": 0.0,
-          "bossId": 3,
-          "npcId": 3
+          "bossId": 1,
+          "npcId": 1
         },
         {
           "chance": 0.0,
@@ -690,8 +865,8 @@
       "dropsFrom": [
         {
           "chance": 100.0,
-          "bossId": 1,
-          "npcId": 1
+          "bossId": 3,
+          "npcId": 3
         },
         {
           "chance": 100.0,
@@ -705,8 +880,8 @@
         },
         {
           "chance": 100.0,
-          "bossId": 3,
-          "npcId": 3
+          "bossId": 1,
+          "npcId": 1
         },
         {
           "chance": 100.0,
@@ -720,13 +895,13 @@
         },
         {
           "chance": 100.0,
-          "bossId": 7,
-          "npcId": 7
+          "bossId": 6,
+          "npcId": 6
         },
         {
           "chance": 100.0,
-          "bossId": 6,
-          "npcId": 6
+          "bossId": 7,
+          "npcId": 7
         },
         {
           "chance": 100.0,
@@ -762,8 +937,8 @@
       "dropsFrom": [
         {
           "chance": 0.2,
-          "bossId": 1,
-          "npcId": 1
+          "bossId": 3,
+          "npcId": 3
         },
         {
           "chance": 0.2,
@@ -777,8 +952,8 @@
         },
         {
           "chance": 0.2,
-          "bossId": 3,
-          "npcId": 3
+          "bossId": 1,
+          "npcId": 1
         },
         {
           "chance": 0.2,
@@ -824,8 +999,8 @@
       "dropsFrom": [
         {
           "chance": 0.2,
-          "bossId": 1,
-          "npcId": 1
+          "bossId": 3,
+          "npcId": 3
         },
         {
           "chance": 0.2,
@@ -839,8 +1014,8 @@
         },
         {
           "chance": 0.2,
-          "bossId": 3,
-          "npcId": 3
+          "bossId": 1,
+          "npcId": 1
         },
         {
           "chance": 0.2,
@@ -886,8 +1061,8 @@
       "dropsFrom": [
         {
           "chance": 0.2,
-          "bossId": 1,
-          "npcId": 1
+          "bossId": 3,
+          "npcId": 3
         },
         {
           "chance": 0.2,
@@ -901,8 +1076,8 @@
         },
         {
           "chance": 0.2,
-          "bossId": 3,
-          "npcId": 3
+          "bossId": 1,
+          "npcId": 1
         },
         {
           "chance": 0.2,
@@ -948,8 +1123,8 @@
       "dropsFrom": [
         {
           "chance": 0.2,
-          "bossId": 1,
-          "npcId": 1
+          "bossId": 3,
+          "npcId": 3
         },
         {
           "chance": 0.2,
@@ -963,8 +1138,8 @@
         },
         {
           "chance": 0.2,
-          "bossId": 3,
-          "npcId": 3
+          "bossId": 1,
+          "npcId": 1
         },
         {
           "chance": 0.2,
@@ -1010,8 +1185,8 @@
       "dropsFrom": [
         {
           "chance": 0.2,
-          "bossId": 1,
-          "npcId": 1
+          "bossId": 3,
+          "npcId": 3
         },
         {
           "chance": 0.2,
@@ -1025,8 +1200,8 @@
         },
         {
           "chance": 0.2,
-          "bossId": 3,
-          "npcId": 3
+          "bossId": 1,
+          "npcId": 1
         },
         {
           "chance": 0.2,
@@ -1072,8 +1247,8 @@
       "dropsFrom": [
         {
           "chance": 0.2,
-          "bossId": 1,
-          "npcId": 1
+          "bossId": 3,
+          "npcId": 3
         },
         {
           "chance": 0.2,
@@ -1087,8 +1262,8 @@
         },
         {
           "chance": 0.2,
-          "bossId": 3,
-          "npcId": 3
+          "bossId": 1,
+          "npcId": 1
         },
         {
           "chance": 0.2,
@@ -1134,8 +1309,8 @@
       "dropsFrom": [
         {
           "chance": 0.2,
-          "bossId": 1,
-          "npcId": 1
+          "bossId": 3,
+          "npcId": 3
         },
         {
           "chance": 0.2,
@@ -1149,8 +1324,8 @@
         },
         {
           "chance": 0.2,
-          "bossId": 3,
-          "npcId": 3
+          "bossId": 1,
+          "npcId": 1
         },
         {
           "chance": 0.2,
@@ -1196,8 +1371,8 @@
       "dropsFrom": [
         {
           "chance": 0.2,
-          "bossId": 1,
-          "npcId": 1
+          "bossId": 3,
+          "npcId": 3
         },
         {
           "chance": 0.2,
@@ -1211,8 +1386,8 @@
         },
         {
           "chance": 0.2,
-          "bossId": 3,
-          "npcId": 3
+          "bossId": 1,
+          "npcId": 1
         },
         {
           "chance": 0.2,
@@ -1258,8 +1433,8 @@
       "dropsFrom": [
         {
           "chance": 0.2,
-          "bossId": 1,
-          "npcId": 1
+          "bossId": 3,
+          "npcId": 3
         },
         {
           "chance": 0.2,
@@ -1273,8 +1448,8 @@
         },
         {
           "chance": 0.2,
-          "bossId": 3,
-          "npcId": 3
+          "bossId": 1,
+          "npcId": 1
         },
         {
           "chance": 0.2,
@@ -1320,8 +1495,8 @@
       "dropsFrom": [
         {
           "chance": 0.2,
-          "bossId": 1,
-          "npcId": 1
+          "bossId": 3,
+          "npcId": 3
         },
         {
           "chance": 0.2,
@@ -1335,8 +1510,8 @@
         },
         {
           "chance": 0.2,
-          "bossId": 3,
-          "npcId": 3
+          "bossId": 1,
+          "npcId": 1
         },
         {
           "chance": 0.2,
@@ -1454,13 +1629,13 @@
         },
         {
           "chance": 30.0,
-          "bossId": 7,
-          "npcId": 7
+          "bossId": 6,
+          "npcId": 6
         },
         {
           "chance": 30.0,
-          "bossId": 6,
-          "npcId": 6
+          "bossId": 7,
+          "npcId": 7
         }
       ],
       "slots": [
@@ -1511,13 +1686,13 @@
         },
         {
           "chance": 40.0,
-          "bossId": 7,
-          "npcId": 7
+          "bossId": 6,
+          "npcId": 6
         },
         {
           "chance": 40.0,
-          "bossId": 6,
-          "npcId": 6
+          "bossId": 7,
+          "npcId": 7
         },
         {
           "chance": 40.0,
@@ -2148,151 +2323,8 @@
       ]
     },
     {
-      "id": 7075,
-      "name": "Core of Earth",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 1,
-      "tooltip": "<table><tr><td><b class=\"q1\">Core of Earth</b><br /></td></tr></table>",
-      "icon": "inv_stone_05.jpg",
-      "dropsFrom": [
-        {
-          "chance": 30.0,
-          "bossId": 3,
-          "npcId": 3
-        },
-        {
-          "chance": 30.0,
-          "bossId": 7,
-          "npcId": 7
-        }
-      ],
-      "slots": [
-        "Non-equippable"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 7076,
-      "name": "Essence of Earth",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 2,
-      "tooltip": "<table><tr><td><b class=\"q2\">Essence of Earth</b><br /></td></tr></table>",
-      "icon": "spell_nature_strengthofearthtotem02.jpg",
-      "dropsFrom": [
-        {
-          "chance": 40.0,
-          "bossId": 3,
-          "npcId": 3
-        },
-        {
-          "chance": 40.0,
-          "bossId": 7,
-          "npcId": 7
-        }
-      ],
-      "slots": [
-        "Non-equippable"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 8150,
-      "name": "Deeprock Salt",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 1,
-      "tooltip": "<table><tr><td><b class=\"q1\">Deeprock Salt</b><br /></td></tr></table>",
-      "icon": "inv_misc_dust_02.jpg",
-      "dropsFrom": [
-        {
-          "chance": 30.0,
-          "bossId": 3,
-          "npcId": 3
-        }
-      ],
-      "slots": [
-        "Non-equippable"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 17011,
-      "name": "Lava Core",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 3,
-      "tooltip": "<table><tr><td><b class=\"q3\">Lava Core</b><br /></td></tr></table>",
-      "icon": "spell_nature_earthquake.jpg",
-      "dropsFrom": [
-        {
-          "chance": 14.0,
-          "bossId": 3,
-          "npcId": 3
-        },
-        {
-          "chance": 14.0,
-          "bossId": 7,
-          "npcId": 7
-        }
-      ],
-      "slots": [
-        "Non-equippable"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 17066,
-      "name": "Drillborer Disk",
+      "id": 17065,
+      "name": "Medallion of Steadfast Might",
       "classes": [
         "Warrior",
         "Paladin",
@@ -2306,25 +2338,25 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Drillborer Disk</b><br />Binds when picked up<br />Off Hand - Shield<br />3020 Armor<br />62 Block<br />+34 Stamina<br />Blue Socket<br />Socket Bonus: +3 Stamina<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases your shield block rating by 15.</span><br /><span class=\"q2\">Equip: Increases the block value of your shield by 44.</span><br /><span class=\"q2\">Equip: When struck in combat inflicts 25 Arcane damage to the attacker.</span><br /></td></tr></table>",
-      "icon": "inv_shield_10.jpg",
+      "tooltip": "<table><tr><td><b class=\"q4\">Medallion of Steadfast Might</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Neck</td><th></th></tr></table>+16 Strength<br />+34 Stamina<br />Yellow Socket<br />Socket Bonus: +3 Stamina<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases defense rating by 15.</span><br /><span class=\"q2\">Equip: Increases your dodge rating by 15.</span><br /></td></tr></table>",
+      "icon": "inv_jewelry_amulet_03.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
-          "bossId": 3,
-          "npcId": 3
+          "bossId": 1,
+          "npcId": 1
         }
       ],
       "slots": [
-        "Shield"
+        "Neck"
       ],
       "types": [
         "Unknown"
       ]
     },
     {
-      "id": 17071,
-      "name": "Gutgore Ripper",
+      "id": 17069,
+      "name": "Striker's Mark",
       "classes": [
         "Warrior",
         "Paladin",
@@ -2338,25 +2370,25 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Gutgore Ripper</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>One-Hand</td><th>Dagger</th></tr></table>107 - 165 Damage - Speed 1.80<br />(75.6 damage per second)<br />+24 Agility<br />+23 Stamina<br />Red Socket<br />Socket Bonus: +3 Agility<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Chance on hit: Sends a shadowy bolt at the enemy causing 246 Shadow damage and lowering all stats by 51 for 30 sec.</span><br /></td></tr></table>",
-      "icon": "inv_weapon_shortblade_18.jpg",
+      "tooltip": "<table><tr><td><b class=\"q4\">Striker's Mark</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Ranged</td><th>Bow</th></tr></table>174 - 318 Damage - Speed 2.50<br />(98.4 damage per second)<br />+16 Agility<br />+15 Stamina<br />Red Socket<br />Socket Bonus: +3 Agility<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases attack power by 53.</span><br /><span class=\"q2\">Equip: Improves hit rating by 12.</span><br /></td></tr></table>",
+      "icon": "inv_weapon_bow_08.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
-          "bossId": 3,
-          "npcId": 3
+          "bossId": 1,
+          "npcId": 1
         }
       ],
       "slots": [
-        "One-Hand"
+        "Ranged"
       ],
       "types": [
         "Unknown"
       ]
     },
     {
-      "id": 17105,
-      "name": "Aurastone Hammer",
+      "id": 17073,
+      "name": "Earthshaker",
       "classes": [
         "Warrior",
         "Paladin",
@@ -2370,81 +2402,49 @@
         "Druid"
       ],
       "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Aurastone Hammer</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Main Hand</td><th>Mace</th></tr></table>102 - 185 Damage - Speed 2.70<br />(53.1 damage per second)<br />+19 Stamina<br />+22 Intellect<br />Yellow Socket<br />Socket Bonus: +4 Spell Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases spell power by 136.</span><br /><span class=\"q2\">Equip: Improves critical strike rating by 17.</span><br /><span class=\"q2\">Equip: Restores 11 mana per 5 sec.</span><br /></td></tr></table>",
-      "icon": "inv_hammer_05.jpg",
+      "tooltip": "<table><tr><td><b class=\"q4\">Earthshaker</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Two-Hand</td><th>Mace</th></tr></table>265 - 424 Damage - Speed 3.50<br />(98.4 damage per second)<br />+30 Strength<br />+26 Stamina<br />Red Socket<br />Red Socket<br />Socket Bonus: +4 Strength<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases attack power by 83.</span><br /><span class=\"q2\">Chance on hit: Knocks down all nearby enemies for 3 sec.</span><br /></td></tr></table>",
+      "icon": "inv_hammer_04.jpg",
       "dropsFrom": [
         {
           "chance": 0.0,
-          "bossId": 3,
-          "npcId": 3
+          "bossId": 1,
+          "npcId": 1
+        }
+      ],
+      "slots": [
+        "Two-Hand"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 18203,
+      "name": "Eskhandar's Right Claw",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Eskhandar's Right Claw</b><br />Binds when picked up<br />Unique<br /><table width=\"100%\"><tr><td>Main Hand</td><th>Fist Weapon</th></tr></table>78 - 149 Damage - Speed 1.50<br />(75.7 damage per second)<br />+24 Agility<br />+20 Stamina<br />Red Socket<br />Socket Bonus: +6 Attack Power<br />Requires Level 60<br />Spirit of Eskhandar (0/2)<br />Eskhandar's Right Claw<br />Eskhandar's Left Claw<br />(2) Set: 1% chance on a melee critical hit to call forth the spirit of Eskhandar to protect you in battle for 2 min.<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases attack power by 32.</span><br /><span class=\"q2\">Chance on hit: Increases your haste rating by 315 for 5 sec.</span><br /></td></tr></table>",
+      "icon": "inv_misc_monsterclaw_04.jpg",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 1,
+          "npcId": 1
         }
       ],
       "slots": [
         "Main Hand"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 18564,
-      "name": "Bindings of the Windseeker",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 5,
-      "tooltip": "<table><tr><td><b class=\"q5\">Bindings of the Windseeker</b><br />Binds when picked up<br />Unique<br />\"The Right Half of Thunderaan's Eternal Prison\"<br /></td></tr></table>",
-      "icon": "spell_ice_lament.jpg",
-      "dropsFrom": [
-        {
-          "chance": 3.0,
-          "bossId": 3,
-          "npcId": 3
-        }
-      ],
-      "slots": [
-        "Non-equippable"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 18832,
-      "name": "Brutality Blade",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Brutality Blade</b><br />Binds when picked up<br />Unique-Equipped<br /><table width=\"100%\"><tr><td>One-Hand</td><th>Sword</th></tr></table>134 - 245 Damage - Speed 2.50<br />(75.8 damage per second)<br />+18 Strength<br />+19 Agility<br />+22 Stamina<br />Red Socket<br />Socket Bonus: +3 Strength<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Improves critical strike rating by 19.</span><br /></td></tr></table>",
-      "icon": "inv_sword_15.jpg",
-      "dropsFrom": [
-        {
-          "chance": 0.0,
-          "bossId": 3,
-          "npcId": 3
-        }
-      ],
-      "slots": [
-        "One-Hand"
       ],
       "types": [
         "Unknown"
@@ -2505,6 +2505,70 @@
           "chance": 100.0,
           "bossId": 5,
           "npcId": 5
+        }
+      ],
+      "slots": [
+        "Non-equippable"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 17074,
+      "name": "Shadowstrike",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 4,
+      "tooltip": "<table><tr><td><b class=\"q4\">Shadowstrike</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Two-Hand</td><th>Polearm</th></tr></table>237 - 374 Damage - Speed 3.10<br />(98.5 damage per second)<br />+35 Agility<br />+25 Stamina<br />Red Socket<br />Socket Bonus: +6 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases attack power by 62.</span><br /><span class=\"q2\">Equip: Improves critical strike rating by 18.</span><br /><span class=\"q2\">Equip: Increases your armor penetration rating by 19.</span><br /><span class=\"q2\">Chance on hit: Steals 200 to 320 life from target enemy.</span><br /><span class=\"q2\">Use: Transforms Shadowstrike into Thunderstrike.</span><br /></td></tr></table>",
+      "icon": "inv_spear_08.jpg",
+      "dropsFrom": [
+        {
+          "chance": 0.0,
+          "bossId": 6,
+          "npcId": 6
+        }
+      ],
+      "slots": [
+        "Two-Hand"
+      ],
+      "types": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": 17330,
+      "name": "Hand of Sulfuron",
+      "classes": [
+        "Warrior",
+        "Paladin",
+        "Hunter",
+        "Rogue",
+        "Priest",
+        "Death Knight",
+        "Shaman",
+        "Mage",
+        "Warlock",
+        "Druid"
+      ],
+      "quality": 1,
+      "tooltip": "<table><tr><td><b class=\"q1\">Hand of Sulfuron</b><br />Quest Item<br /></td></tr></table>",
+      "icon": "inv_gauntlets_03.jpg",
+      "dropsFrom": [
+        {
+          "chance": 100.0,
+          "bossId": 6,
+          "npcId": 6
         }
       ],
       "slots": [
@@ -2637,70 +2701,6 @@
       ],
       "slots": [
         "Two-Hand"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 17074,
-      "name": "Shadowstrike",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 4,
-      "tooltip": "<table><tr><td><b class=\"q4\">Shadowstrike</b><br />Binds when picked up<br /><table width=\"100%\"><tr><td>Two-Hand</td><th>Polearm</th></tr></table>237 - 374 Damage - Speed 3.10<br />(98.5 damage per second)<br />+35 Agility<br />+25 Stamina<br />Red Socket<br />Socket Bonus: +6 Attack Power<br />Requires Level 60<br /></td></tr></table><table><tr><td><span class=\"q2\">Equip: Increases attack power by 62.</span><br /><span class=\"q2\">Equip: Improves critical strike rating by 18.</span><br /><span class=\"q2\">Equip: Increases your armor penetration rating by 19.</span><br /><span class=\"q2\">Chance on hit: Steals 200 to 320 life from target enemy.</span><br /><span class=\"q2\">Use: Transforms Shadowstrike into Thunderstrike.</span><br /></td></tr></table>",
-      "icon": "inv_spear_08.jpg",
-      "dropsFrom": [
-        {
-          "chance": 0.0,
-          "bossId": 6,
-          "npcId": 6
-        }
-      ],
-      "slots": [
-        "Two-Hand"
-      ],
-      "types": [
-        "Unknown"
-      ]
-    },
-    {
-      "id": 17330,
-      "name": "Hand of Sulfuron",
-      "classes": [
-        "Warrior",
-        "Paladin",
-        "Hunter",
-        "Rogue",
-        "Priest",
-        "Death Knight",
-        "Shaman",
-        "Mage",
-        "Warlock",
-        "Druid"
-      ],
-      "quality": 1,
-      "tooltip": "<table><tr><td><b class=\"q1\">Hand of Sulfuron</b><br />Quest Item<br /></td></tr></table>",
-      "icon": "inv_gauntlets_03.jpg",
-      "dropsFrom": [
-        {
-          "chance": 100.0,
-          "bossId": 6,
-          "npcId": 6
-        }
-      ],
-      "slots": [
-        "Non-equippable"
       ],
       "types": [
         "Unknown"
