@@ -56,18 +56,6 @@ CUSTOM_BOSS_DROPS = {
     # Onyxia's Lair
     "Onyxia": [49643, 92029, 92030, 92031],                   # Legs & Horde Head
     
-    # Molten Core
-    "Lucifron": [50274],
-    "Magmadar": [50274],
-    "Gehennas": [50274],
-    "Garr": [50274],
-    "Baron Geddon": [50274],
-    "Shazzrah": [50274],
-    "Sulfuron Harbinger": [50274],
-    "Golemagg the Incinerator": [50274],
-    "Majordomo Executus": [50274],
-    "Ragnaros": [50274],
-    
     # --- Zul'Aman Timed Event Chests ---
     "First Hostage Chest": [
         33590,  # Cloak of Fiends
