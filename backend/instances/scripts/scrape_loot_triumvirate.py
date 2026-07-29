@@ -55,6 +55,35 @@ CUSTOM_BOSS_DROPS = {
 
     # Onyxia's Lair
     "Onyxia": [92029, 92030, 92031],                   # Legs
+    # --- Zul'Aman Timed Event Chests ---
+    "First Hostage Chest": [
+        33590,  # Cloak of Fiends
+        33591,  # Shadowcaster's Drape
+        33489,  # Mantle of Ill Intent
+        33480,  # Cord of Braided Troll Hair
+        33971,  # Elunite Imbued Leggings
+        33483,  # Life-step Belt
+        33805,  # Shadowhunter's Treads
+        33481,  # Pauldrons of Stone Resolve
+    ],
+    "Second Hostage Chest": [
+        33493,  # Umbral Shiv
+        33495,  # Rage
+        33491,  # Tuskbreaker
+        33492,  # Trollbane
+        33494,  # Amani Divining Staff
+        33490,  # Staff of Dark Mending
+    ],
+    "Third Hostage Chest": [
+        33497,  # Mana Attuned Band
+        33500,  # Signet of Eternal Life
+        33496,  # Signet of Primal Wrath
+        33499,  # Signet of the Last Defender
+        33498,  # Signet of the Quiet Forest
+    ],
+    "Fourth Hostage Chest": [
+        33809,  # Amani War Bear
+    ],
 }
 
 CLASS_BITMASK = {
