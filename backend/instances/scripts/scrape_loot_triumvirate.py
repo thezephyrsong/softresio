@@ -235,13 +235,6 @@ def get_classes_from_tooltip(tooltip):
     return ALL_CLASSES
 
 
-def format_icon(icon_name):
-    if not icon_name or icon_name == "inv_misc_questionmark":
-        return "inv_misc_questionmark.jpg"
-    clean_icon = icon_name.lower().strip()
-    return clean_icon + ".jpg" if not clean_icon.endswith(".jpg") else clean_icon
-
-
 def fetch_item_name_from_wotlkdb(item_id):
     if item_id in ITEM_NAME_CACHE:
         return ITEM_NAME_CACHE[item_id]
@@ -301,11 +294,11 @@ def normalize_icon_name(raw_icon: str) -> str:
 def fetch_wotlkdb_icon(item_id: int | str) -> str:
     str_id = str(item_id)
     
-    # 1. Return from Cache if available
+    # Return from Cache if available
     if str_id in ICON_CACHE and ICON_CACHE[str_id]:
-        return ICON_CACHE[str_id]
+        return normalize_icon_name(ICON_CACHE[str_id])
 
-    # 2. Network Fetch from wotlkdb.com with user-agent headers
+    # Network Fetch from wotlkdb.com
     url = f"https://wotlkdb.com/?item={str_id}"
     try:
         resp = requests.get(url, headers=HTTP_HEADERS, timeout=5)
@@ -330,6 +323,35 @@ def fetch_wotlkdb_icon(item_id: int | str) -> str:
     return fallback_icon
 
 
+def get_item_icon(item_id: int | str, local_item_data: dict = None, icon_hint: str = None) -> str:
+    str_id = str(item_id)
+
+    # 1. ALWAYS PREFER icon_cache.json (protects manual custom item entries)
+    if str_id in ICON_CACHE and ICON_CACHE[str_id]:
+        return normalize_icon_name(ICON_CACHE[str_id])
+
+    # 2. Local item database (items.json)
+    if local_item_data:
+        icon_raw = (
+            local_item_data.get("icon") or 
+            local_item_data.get("iconName") or 
+            local_item_data.get("icon_name")
+        )
+        if icon_raw:
+            formatted = normalize_icon_name(icon_raw)
+            ICON_CACHE[str_id] = formatted
+            return formatted
+
+    # 3. Scraper/Lua hint
+    if icon_hint and icon_hint != "inv_misc_questionmark":
+        formatted = normalize_icon_name(icon_hint)
+        ICON_CACHE[str_id] = formatted
+        return formatted
+
+    # 4. Web scraping fallback
+    return fetch_wotlkdb_icon(item_id)
+
+
 def _html_escape(s):
     return (
         str(s)
@@ -349,9 +371,6 @@ def build_tooltip_html(name, quality, tooltip_lines, slot_label=""):
         if l.startswith("Equip:") or l.startswith("Chance on hit:") or l.startswith("Use:")
     ]
     base_lines = [l for l in lines if l not in equip_lines]
-
-    if not slot_label:
-        slot_label = detect_slot_label_from_lines([name] + base_lines)
 
     slot_line_idx = None
     if slot_label:
@@ -497,15 +516,7 @@ def load_triumdump():
         TRIUMDUMP_DATA = {}
 
 
-KNOWN_SLOT_LABELS = sorted(set(SLOT_MAP.values()) | {"Non-equippable"}, key=len, reverse=True)
-
-
 def extract_slot_and_type(triumdump_lines):
-    """
-    Parses TriumDump tooltip lines to extract slot (e.g., "Legs", "Back") 
-    and subtype (e.g., "Cloth", "Leather", "Dagger", "Cloak").
-    """
-    # Mapping for standalone slots without a " - Subtype" string
     STANDALONE_SLOTS = {
         "Back": ("Back", "Cloak"),
         "Trinket": ("Trinket", "Trinket"),
@@ -518,17 +529,13 @@ def extract_slot_and_type(triumdump_lines):
         "Relic": ("Relic", "Relic"),
     }
 
-    # IMPORTANT: Only scan lines 1-5. Item slot/type is always near the top.
-    # Scanning all lines causes false-positives on equip effects or set bonuses with " - ".
     for line in triumdump_lines[1:6]:
         line_clean = line.strip()
 
-        # Handle lines formatted as "Slot - Subtype" (e.g., "Legs - Cloth", "Hands - Cloth")
         if " - " in line_clean:
             parts = [p.strip() for p in line_clean.split(" - ", 1)]
             return parts[0], parts[1]
 
-        # Handle single-word slot lines (e.g., "Back", "Trinket")
         if line_clean in STANDALONE_SLOTS:
             return STANDALONE_SLOTS[line_clean]
 
@@ -553,22 +560,6 @@ def _resolve_quality_slot_classes(item, fallback_lines):
     return quality, slot_label, classes
 
 
-def get_item_icon(item_id: int | str, local_item_data: dict = None, icon_hint: str = None) -> str:
-    if local_item_data:
-        icon_raw = (
-            local_item_data.get("icon") or 
-            local_item_data.get("iconName") or 
-            local_item_data.get("icon_name")
-        )
-        if icon_raw:
-            return normalize_icon_name(icon_raw)
-
-    if icon_hint and icon_hint != "inv_misc_questionmark":
-        return normalize_icon_name(icon_hint)
-
-    return fetch_wotlkdb_icon(item_id)
-
-
 def get_item_info_local_only(item_id, icon_hint="inv_misc_questionmark"):
     item_id = int(item_id)
     triumdump_lines = TRIUMDUMP_DATA.get(item_id)
@@ -578,8 +569,6 @@ def get_item_info_local_only(item_id, icon_hint="inv_misc_questionmark"):
 
     if triumdump_lines:
         item_name = triumdump_lines[0]
-        
-        # Extract slot and item type directly from TriumDump lines
         slot_label, item_type = extract_slot_and_type(triumdump_lines)
 
         if db_item:
